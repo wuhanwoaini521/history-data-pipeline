@@ -21,12 +21,12 @@
   },
   "jin_southern_northern": {
     "label": "魏晋南北朝",
-    "events": 57,
+    "events": 58,
     "stories": 0
   },
   "sui_tang": {
     "label": "隋唐",
-    "events": 9,
+    "events": 12,
     "stories": 1
   },
   "five_dynasties": {
@@ -229,23 +229,23 @@
       "period_id": "period-northern-southern",
       "name_zh_cn": "南北朝",
       "critical": 4,
-      "major": 20,
+      "major": 21,
       "normal": 0,
       "minor": 0,
-      "new": 24,
+      "new": 25,
       "reused": 0,
-      "total": 24
+      "total": 25
     },
     {
       "period_id": "period-sui",
       "name_zh_cn": "隋",
-      "critical": 0,
-      "major": 0,
+      "critical": 2,
+      "major": 1,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 3,
       "reused": 0,
-      "total": 0
+      "total": 3
     },
     {
       "period_id": "period-tang",

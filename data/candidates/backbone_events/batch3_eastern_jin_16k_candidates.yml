@@ -1,0 +1,254 @@
+# China History Backbone V1 · Batch 3 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 东晋/十六国
+compiled_from: AI 依据《三国志》《晋书》《魏书》《南史》《北史》《资治通鉴》等及现代魏晋南北朝史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-three-yellow-turbans（184） / event-three-dong-zhuo（189） / event-three-guandu（200） / event-three-north-consolidation（200-207）
+  / event-three-jingzhou-change（208） / event-three-sun-liu-alliance（208） / event-three-chibi（208） / event-three-regime-formation（220-229）
+candidates:
+- id: event-dongjin-jianguo
+  name_zh_cn: 东晋建立
+  start_year: 317
+  end_year: 317
+  date_precision: year
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-dongjin-jianguo.review.json
+- id: event-zuti-beifa
+  name_zh_cn: 祖逖北伐
+  start_year: 319
+  end_year: 321
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zuti-beifa.review.json
+- id: event-wangdun-zhi-luan
+  name_zh_cn: 王敦之乱
+  start_year: 322
+  end_year: 324
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wangdun-zhi-luan.review.json
+- id: event-sujun-zhi-luan
+  name_zh_cn: 苏峻之乱
+  start_year: 327
+  end_year: 329
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sujun-zhi-luan.review.json
+- id: event-shi-le-hou-zhao
+  name_zh_cn: 石勒建立后赵
+  start_year: 319
+  end_year: 319
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-later-zhao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shi-le-hou-zhao.review.json
+- id: event-hou-zhao-bingqian-zhao
+  name_zh_cn: 后赵灭前赵
+  start_year: 329
+  end_year: 329
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-later-zhao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hou-zhao-bingqian-zhao.review.json
+- id: event-ran-wei
+  name_zh_cn: 冉魏建立与北方动荡
+  start_year: 350
+  end_year: 352
+  date_precision: range
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-later-zhao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ran-wei.review.json
+- id: event-qian-yan-qiang
+  name_zh_cn: 前燕崛起
+  start_year: 337
+  end_year: 352
+  date_precision: range
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-yan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-yan-qiang.review.json
+- id: event-fu-jian-wangmeng
+  name_zh_cn: 苻坚即位、王猛辅政
+  start_year: 357
+  end_year: 357
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fu-jian-wangmeng.review.json
+- id: event-wangmeng-gaige
+  name_zh_cn: 王猛改革
+  start_year: 357
+  end_year: 375
+  date_precision: range
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wangmeng-gaige.review.json
+- id: event-qian-qin-mie-qian-yan
+  name_zh_cn: 前秦灭前燕
+  start_year: 370
+  end_year: 370
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-qin-mie-qian-yan.review.json
+- id: event-qian-qin-tongyi
+  name_zh_cn: 前秦统一北方
+  start_year: 376
+  end_year: 376
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-qin-tongyi.review.json
+- id: event-feishui-zhizhan
+  name_zh_cn: 淝水之战
+  start_year: 383
+  end_year: 383
+  date_precision: year
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  - regime-former-qin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-feishui-zhizhan.review.json
+- id: event-qian-qin-wajie
+  name_zh_cn: 前秦瓦解
+  start_year: 384
+  end_year: 394
+  date_precision: range
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-former-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-qin-wajie.review.json
+- id: event-hou-yan-jianli
+  name_zh_cn: 后燕建立
+  start_year: 384
+  end_year: 384
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-later-yan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hou-yan-jianli.review.json
+- id: event-hou-qin-jianli
+  name_zh_cn: 后秦建立
+  start_year: 384
+  end_year: 384
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-later-qin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hou-qin-jianli.review.json
+- id: event-beiwei-jianguo
+  name_zh_cn: 拓跋珪重建代国、北魏建立
+  start_year: 386
+  end_year: 386
+  date_precision: year
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beiwei-jianguo.review.json
+- id: event-beiwei-mie-hou-yan
+  name_zh_cn: 北魏击灭后燕（参合陂之战）
+  start_year: 395
+  end_year: 398
+  date_precision: range
+  period_id: period-sixteen-kingdoms
+  regime_ids:
+  - regime-northern-wei
+  - regime-later-yan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beiwei-mie-hou-yan.review.json
+- id: event-beiwei-tongyi-beifang
+  name_zh_cn: 北魏统一北方（灭北凉）
+  start_year: 439
+  end_year: 439
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  - regime-northern-liang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-beiwei-tongyi-beifang.review.json
+- id: event-huan-wen-beifa
+  name_zh_cn: 桓温北伐
+  start_year: 354
+  end_year: 369
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huan-wen-beifa.review.json
+- id: event-sunen-luxun
+  name_zh_cn: 孙恩卢循起义
+  start_year: 399
+  end_year: 411
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sunen-luxun.review.json
+- id: event-liuyu-beifa
+  name_zh_cn: 刘裕北伐（灭南燕、后秦）
+  start_year: 409
+  end_year: 417
+  date_precision: range
+  period_id: period-eastern-jin
+  regime_ids:
+  - regime-eastern-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liuyu-beifa.review.json

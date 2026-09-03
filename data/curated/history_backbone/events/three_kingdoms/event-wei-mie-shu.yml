@@ -21,3 +21,7 @@ source_ids:
 relations:
 - target_event_id: event-jiangwei-beifa
   relation_type: follows
+- target_event_id: event-sima-yan-dai-wei
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭蜀积功，司马昭进封晋王，其子司马炎代魏

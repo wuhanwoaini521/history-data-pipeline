@@ -23,4 +23,7 @@ relations:
 - target_event_id: event-xiwei-po-jiangling
   relation_type: follows
   description_zh_cn: 梁亡后陈霸先建陈
+- target_event_id: event-sui-mie-chen
+  relation_type: precedes
+  confidence: 0.6
   description_zh_cn: 陈朝后期为隋所并（589）

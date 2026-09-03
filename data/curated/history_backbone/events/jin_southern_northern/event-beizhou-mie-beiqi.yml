@@ -23,4 +23,7 @@ relations:
 - target_event_id: event-zhouwudi-qinzheng
   relation_type: follows
   description_zh_cn: 周武帝改革后大举灭齐
+- target_event_id: event-yangjian-dai-beizhou
+  relation_type: leads_to
+  confidence: 0.7
   description_zh_cn: 统一北方的北周旋即被杨坚代周（隋）

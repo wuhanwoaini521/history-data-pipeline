@@ -1,0 +1,269 @@
+# China History Backbone V1 · Batch 3 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 南北朝
+compiled_from: AI 依据《三国志》《晋书》《魏书》《南史》《北史》《资治通鉴》等及现代魏晋南北朝史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-three-yellow-turbans（184） / event-three-dong-zhuo（189） / event-three-guandu（200） / event-three-north-consolidation（200-207）
+  / event-three-jingzhou-change（208） / event-three-sun-liu-alliance（208） / event-three-chibi（208） / event-three-regime-formation（220-229）
+candidates:
+- id: event-liuyu-dai-jin
+  name_zh_cn: 刘裕代晋、刘宋建立
+  start_year: 420
+  end_year: 420
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liu-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liuyu-dai-jin.review.json
+- id: event-yuanjia-zhizhi
+  name_zh_cn: 元嘉之治
+  start_year: 424
+  end_year: 453
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liu-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanjia-zhizhi.review.json
+- id: event-yuanjia-beifa
+  name_zh_cn: 元嘉北伐
+  start_year: 430
+  end_year: 452
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liu-song
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanjia-beifa.review.json
+- id: event-zhongli-zhizhan
+  name_zh_cn: 钟离之战
+  start_year: 507
+  end_year: 507
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liang
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhongli-zhizhan.review.json
+- id: event-xiaodaocheng-dai-song
+  name_zh_cn: 萧道成代宋、南齐建立
+  start_year: 479
+  end_year: 479
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-southern-qi
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiaodaocheng-dai-song.review.json
+- id: event-xiaoyan-dai-qi
+  name_zh_cn: 萧衍代齐、梁建立
+  start_year: 502
+  end_year: 502
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiaoyan-dai-qi.review.json
+- id: event-houjing-zhi-luan
+  name_zh_cn: 侯景之乱
+  start_year: 548
+  end_year: 552
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-houjing-zhi-luan.review.json
+- id: event-houjing-po-taicheng
+  name_zh_cn: 侯景破台城、梁武帝去世
+  start_year: 549
+  end_year: 549
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-houjing-po-taicheng.review.json
+- id: event-xiwei-po-jiangling
+  name_zh_cn: 西魏破江陵、梁灭亡
+  start_year: 554
+  end_year: 554
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-liang
+  - regime-western-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiwei-po-jiangling.review.json
+- id: event-chenbaxian-jianzhen
+  name_zh_cn: 陈霸先建立陈朝
+  start_year: 557
+  end_year: 557
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-chen
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chenbaxian-jianzhen.review.json
+- id: event-xiaowendi-gaige
+  name_zh_cn: 北魏孝文帝改革
+  start_year: 471
+  end_year: 499
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiaowendi-gaige.review.json
+- id: event-qian-du-luoyang
+  name_zh_cn: 孝文帝迁都洛阳
+  start_year: 493
+  end_year: 493
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-du-luoyang.review.json
+- id: event-taihe-hanhua
+  name_zh_cn: 孝文帝汉化改革（改官制、禁胡服胡语、改汉姓）
+  start_year: 494
+  end_year: 499
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-taihe-hanhua.review.json
+- id: event-luzhen-qiyi
+  name_zh_cn: 六镇起义
+  start_year: 523
+  end_year: 525
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-luzhen-qiyi.review.json
+- id: event-heyin-zhi-bian
+  name_zh_cn: 河阴之变
+  start_year: 528
+  end_year: 528
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-heyin-zhi-bian.review.json
+- id: event-gaohuan-qibing
+  name_zh_cn: 高欢起兵讨尔朱氏
+  start_year: 531
+  end_year: 534
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaohuan-qibing.review.json
+- id: event-beiwei-fenlie
+  name_zh_cn: 北魏分裂为东魏西魏
+  start_year: 534
+  end_year: 535
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-wei
+  - regime-eastern-wei
+  - regime-western-wei
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-beiwei-fenlie.review.json
+- id: event-yubi-zhizhan
+  name_zh_cn: 玉壁之战
+  start_year: 546
+  end_year: 546
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-eastern-wei
+  - regime-western-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yubi-zhizhan.review.json
+- id: event-fubing-zhi
+  name_zh_cn: 西魏府兵制创建
+  start_year: 543
+  end_year: 550
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-western-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fubing-zhi.review.json
+- id: event-gaoyang-dai-dongwei
+  name_zh_cn: 高洋代东魏、北齐建立
+  start_year: 550
+  end_year: 550
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-qi
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaoyang-dai-dongwei.review.json
+- id: event-yuwenjue-dai-xiwei
+  name_zh_cn: 宇文觉代西魏、北周建立
+  start_year: 557
+  end_year: 557
+  date_precision: year
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuwenjue-dai-xiwei.review.json
+- id: event-zhouwudi-qinzheng
+  name_zh_cn: 周武帝亲政与改革
+  start_year: 572
+  end_year: 578
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhouwudi-qinzheng.review.json
+- id: event-beizhou-mie-beiqi
+  name_zh_cn: 北周灭北齐
+  start_year: 576
+  end_year: 577
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-zhou
+  - regime-northern-qi
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-beizhou-mie-beiqi.review.json

@@ -115,9 +115,9 @@
       }
     ],
     "event_type_distribution": {
-      "war": 89,
-      "political": 65,
-      "dynastic-transition": 27,
+      "war": 91,
+      "political": 66,
+      "dynastic-transition": 28,
       "political-military": 20,
       "reform": 18,
       "rebellion": 12,
@@ -193,14 +193,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-sui",
-      "period_name": "隋",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-five-dynasties-ten-kingdoms",

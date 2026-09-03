@@ -36,8 +36,8 @@ def schemas():
 def test_backbone_loads(backbone):
     assert len(backbone.periods) >= 30
     assert len(backbone.regimes) >= 30
-    # Batch 1（82）+ Batch 2（70）+ Batch 3（LATE_HAN 15 + TK 13 + WJ 12 + EJ16K 22 + NS 23）
-    assert len(backbone.events) == 263
+    # Batch 1（82）+ Batch 2（70）+ Batch 3（89：LATE_HAN 15 + TK 13 + WJ 12 + EJ16K 22 + NS 23 + SUI 4）
+    assert len(backbone.events) == 267
     assert len(backbone.stories) == 3
     # 三个 Story 标题
     assert {story["title_zh_cn"] for story in backbone.stories} == {"楚汉争霸", "三国格局形成", "安史之乱"}
@@ -397,3 +397,6 @@ def test_qin_han_source_coverage(backbone):
     batch2_new = [e for e in _qin_han_events(backbone) if e["id"] not in CHU_HAN_EVENTS]
     for event in batch2_new:
         assert event.get("source_ids"), event["id"]
+
+
+# ---------------------------------------------------------------------------

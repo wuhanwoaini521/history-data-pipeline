@@ -22,4 +22,7 @@ relations:
 - target_event_id: event-sunen-luxun
   relation_type: follows
   description_zh_cn: 刘裕平孙恩卢循后主持北伐
+- target_event_id: event-liuyu-dai-jin
+  relation_type: leads_to
+  confidence: 0.9
   description_zh_cn: 两次北伐成功直接铺垫刘裕代晋

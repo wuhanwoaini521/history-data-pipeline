@@ -1,0 +1,141 @@
+# China History Backbone V1 · Batch 3 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 西晋
+compiled_from: AI 依据《三国志》《晋书》《魏书》《南史》《北史》《资治通鉴》等及现代魏晋南北朝史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-three-yellow-turbans（184） / event-three-dong-zhuo（189） / event-three-guandu（200） / event-three-north-consolidation（200-207）
+  / event-three-jingzhou-change（208） / event-three-sun-liu-alliance（208） / event-three-chibi（208） / event-three-regime-formation（220-229）
+candidates:
+- id: event-sima-yan-dai-wei
+  name_zh_cn: 司马炎代魏、西晋建立
+  start_year: 265
+  end_year: 265
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sima-yan-dai-wei.review.json
+- id: event-jin-mie-wu
+  name_zh_cn: 晋灭吴、西晋统一
+  start_year: 280
+  end_year: 280
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-mie-wu.review.json
+- id: event-jin-wudi-beng
+  name_zh_cn: 晋武帝去世、惠帝即位
+  start_year: 290
+  end_year: 290
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-wudi-beng.review.json
+- id: event-bawang-zhi-luan
+  name_zh_cn: 八王之乱
+  start_year: 291
+  end_year: 306
+  date_precision: range
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-bawang-zhi-luan.review.json
+- id: event-jia-hou-gan-zheng
+  name_zh_cn: 贾后干政与政变
+  start_year: 291
+  end_year: 300
+  date_precision: range
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jia-hou-gan-zheng.review.json
+- id: event-zhaowang-lun-chengdi
+  name_zh_cn: 赵王伦篡位
+  start_year: 301
+  end_year: 301
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhaowang-lun-chengdi.review.json
+- id: event-sima-yue-pingluan
+  name_zh_cn: 东海王司马越定乱
+  start_year: 306
+  end_year: 306
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sima-yue-pingluan.review.json
+- id: event-li-te-qiyi
+  name_zh_cn: 李特流民起义（益州）
+  start_year: 301
+  end_year: 303
+  date_precision: range
+  period_id: period-western-jin
+  regime_ids:
+  - regime-western-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-li-te-qiyi.review.json
+- id: event-liu-yuan-qibing
+  name_zh_cn: 刘渊起兵、汉赵政权建立
+  start_year: 304
+  end_year: 308
+  date_precision: range
+  period_id: period-western-jin
+  regime_ids:
+  - regime-han-zhao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liu-yuan-qibing.review.json
+- id: event-yongjia-zhi-luan
+  name_zh_cn: 永嘉之乱
+  start_year: 311
+  end_year: 316
+  date_precision: range
+  period_id: period-western-jin
+  regime_ids:
+  - regime-han-zhao
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-yongjia-zhi-luan.review.json
+- id: event-luoyang-xianshi
+  name_zh_cn: 洛阳失陷、晋怀帝被俘
+  start_year: 311
+  end_year: 311
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-han-zhao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-luoyang-xianshi.review.json
+- id: event-xijin-mie-wang
+  name_zh_cn: 长安陷落、西晋灭亡
+  start_year: 316
+  end_year: 316
+  date_precision: year
+  period_id: period-western-jin
+  regime_ids:
+  - regime-han-zhao
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-xijin-mie-wang.review.json

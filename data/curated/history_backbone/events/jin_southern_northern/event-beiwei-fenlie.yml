@@ -10,6 +10,8 @@ date_precision: range
 period_id: period-northern-southern
 regime_ids:
 - regime-northern-wei
+- regime-eastern-wei
+- regime-western-wei
 importance: critical
 summary_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
 quality_status: reviewed

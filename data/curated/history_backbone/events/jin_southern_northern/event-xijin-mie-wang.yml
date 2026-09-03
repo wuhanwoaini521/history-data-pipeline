@@ -21,3 +21,7 @@ relations:
 - target_event_id: event-luoyang-xianshi
   relation_type: follows
   confidence: 0.9
+- target_event_id: event-dongjin-jianguo
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 西晋亡后司马睿在建康立东晋

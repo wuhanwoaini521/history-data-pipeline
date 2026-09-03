@@ -1,0 +1,154 @@
+# China History Backbone V1 · Batch 3 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 三国
+compiled_from: AI 依据《三国志》《晋书》《魏书》《南史》《北史》《资治通鉴》等及现代魏晋南北朝史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-three-yellow-turbans（184） / event-three-dong-zhuo（189） / event-three-guandu（200） / event-three-north-consolidation（200-207）
+  / event-three-jingzhou-change（208） / event-three-sun-liu-alliance（208） / event-three-chibi（208） / event-three-regime-formation（220-229）
+candidates:
+- id: event-caopi-dai-han
+  name_zh_cn: 曹丕代汉、曹魏建立
+  start_year: 220
+  end_year: 220
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-cao-wei
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-caopi-dai-han.review.json
+- id: event-liubei-chengdi
+  name_zh_cn: 刘备称帝、蜀汉建立
+  start_year: 221
+  end_year: 221
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liubei-chengdi.review.json
+- id: event-yiling-zhizhan
+  name_zh_cn: 夷陵之战
+  start_year: 221
+  end_year: 222
+  date_precision: range
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  - regime-eastern-wu
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yiling-zhizhan.review.json
+- id: event-liubei-beng-zhugeliang
+  name_zh_cn: 刘备去世、诸葛亮辅政
+  start_year: 223
+  end_year: 223
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liubei-beng-zhugeliang.review.json
+- id: event-zhuge-liang-nanzheng
+  name_zh_cn: 诸葛亮南征
+  start_year: 225
+  end_year: 225
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuge-liang-nanzheng.review.json
+- id: event-zhuge-liang-beifa
+  name_zh_cn: 诸葛亮北伐
+  start_year: 228
+  end_year: 234
+  date_precision: range
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuge-liang-beifa.review.json
+- id: event-zhuge-liang-shoubei
+  name_zh_cn: 诸葛亮首次北伐（街亭之战）
+  start_year: 228
+  end_year: 228
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuge-liang-shoubei.review.json
+- id: event-zhuge-liang-zhishi
+  name_zh_cn: 诸葛亮病逝五丈原
+  start_year: 234
+  end_year: 234
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuge-liang-zhishi.review.json
+- id: event-jiangwei-beifa
+  name_zh_cn: 姜维北伐
+  start_year: 247
+  end_year: 262
+  date_precision: range
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jiangwei-beifa.review.json
+- id: event-gaopingling-zhi-bian
+  name_zh_cn: 高平陵之变
+  start_year: 249
+  end_year: 249
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-cao-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaopingling-zhi-bian.review.json
+- id: event-cao-mao-zhisha
+  name_zh_cn: 曹髦被杀（司马昭专权）
+  start_year: 260
+  end_year: 260
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-cao-wei
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-cao-mao-zhisha.review.json
+- id: event-sunquan-chengdi
+  name_zh_cn: 孙权称帝、孙吴建立
+  start_year: 229
+  end_year: 229
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-eastern-wu
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sunquan-chengdi.review.json
+- id: event-wei-mie-shu
+  name_zh_cn: 魏灭蜀
+  start_year: 263
+  end_year: 263
+  date_precision: year
+  period_id: period-three-kingdoms
+  regime_ids:
+  - regime-cao-wei
+  - regime-shu-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wei-mie-shu.review.json

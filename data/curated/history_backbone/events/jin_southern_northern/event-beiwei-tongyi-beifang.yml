@@ -21,4 +21,7 @@ source_ids:
 relations:
 - target_event_id: event-beiwei-mie-hou-yan
   relation_type: follows
+- target_event_id: event-xiaowendi-gaige
+  relation_type: leads_to
+  confidence: 0.7
   description_zh_cn: 北魏统一北方后向中原制度转型（孝文帝改革）

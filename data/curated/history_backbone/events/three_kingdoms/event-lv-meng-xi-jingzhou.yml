@@ -19,3 +19,7 @@ source_ids:
 relations:
 - target_event_id: event-guan-yu-bei-fa
   relation_type: follows
+- target_event_id: event-yiling-zhizhan
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 荆州之失与关羽之死直接引发夷陵之战

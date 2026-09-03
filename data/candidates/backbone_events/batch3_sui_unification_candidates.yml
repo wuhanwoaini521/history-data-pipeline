@@ -1,0 +1,53 @@
+# China History Backbone V1 · Batch 3 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 6 隋统一
+compiled_from: AI 依据《三国志》《晋书》《魏书》《南史》《北史》《资治通鉴》等及现代魏晋南北朝史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-three-yellow-turbans（184） / event-three-dong-zhuo（189） / event-three-guandu（200） / event-three-north-consolidation（200-207）
+  / event-three-jingzhou-change（208） / event-three-sun-liu-alliance（208） / event-three-chibi（208） / event-three-regime-formation（220-229）
+candidates:
+- id: event-yangjian-zhuanquan
+  name_zh_cn: 杨坚辅政掌权
+  start_year: 580
+  end_year: 581
+  date_precision: range
+  period_id: period-northern-southern
+  regime_ids:
+  - regime-northern-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yangjian-zhuanquan.review.json
+- id: event-yangjian-dai-beizhou
+  name_zh_cn: 杨坚代北周、隋朝建立
+  start_year: 581
+  end_year: 581
+  date_precision: year
+  period_id: period-sui
+  regime_ids:
+  - regime-sui
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-yangjian-dai-beizhou.review.json
+- id: event-sui-mie-xiliang
+  name_zh_cn: 隋灭西梁
+  start_year: 587
+  end_year: 587
+  date_precision: year
+  period_id: period-sui
+  regime_ids:
+  - regime-sui
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sui-mie-xiliang.review.json
+- id: event-sui-mie-chen
+  name_zh_cn: 隋灭陈、隋统一
+  start_year: 589
+  end_year: 589
+  date_precision: year
+  period_id: period-sui
+  regime_ids:
+  - regime-sui
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-sui-mie-chen.review.json
