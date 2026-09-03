@@ -8,4 +8,5 @@ data/staging/
 data/normalized/
 data/exports/
 data/reports/
+/reports/
 *.part

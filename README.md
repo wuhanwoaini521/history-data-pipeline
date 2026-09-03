@@ -86,4 +86,4 @@ tests/                  pytest 数据契约测试
 - Wikipedia 用于现代介绍候选，Wikisource 用于原始史料候选；两者都不会直接覆盖 `original_text`。
 - CHGIS 不自动下载、不自动公开再分发；无许可的输入会拒绝导入。
 
-详细模型见 `DATA_MODEL.md`，质量规则见 `DATA_QUALITY.md`，许可风险见 `LICENSE_NOTES.md`；基础查询字段契约见 `HISTORY_QUERY_CONTRACT.md`，Semantic Layer V2 契约见 `HISTORY_SEMANTIC_QUERY_CONTRACT.md`，实施计划见 `HISTORY_SEMANTIC_LAYER_PLAN.md`，链接 QA 见 `reports/SEMANTIC_LINK_QA.md`，阶段报告见 `reports/HISTORY_SEMANTIC_LAYER_REPORT.md`。
+详细模型见 `DATA_MODEL.md`，质量规则见 `DATA_QUALITY.md`，许可风险见 `LICENSE_NOTES.md`，查询契约见 `HISTORY_SEMANTIC_QUERY_CONTRACT.md`。
