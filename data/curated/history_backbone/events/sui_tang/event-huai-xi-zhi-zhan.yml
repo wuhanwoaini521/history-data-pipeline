@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-huai-xi-zhi-zhan
+name_zh_cn: 淮西之战（李愬雪夜入蔡州）
+event_type: war
+start_year: 817
+end_year: 817
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 元和十二年（817年）裴度督师淮西，李愬雪夜奇袭蔡州，擒吴元济，淮西（三州）平。淮西之捷是元和削藩的决定性胜利，也是「李愬雪夜入蔡州」典故的史实来源。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·李愬传》《吴元济传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-yuanhe-xuefan
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 淮西之战为元和削藩核心子事件

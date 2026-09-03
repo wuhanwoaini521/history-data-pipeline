@@ -9,9 +9,9 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 108, "political": 84, "dynastic-transition": 30, "reform": 25, "political-military": 20, "rebellion": 17, "economic": 7, "diplomatic": 7, "migration": 5, "alliance": 4, "treaty": 4, "cultural": 3, "foundation": 3, "unification": 2}
+- 事件类型分布：{"war": 113, "political": 92, "dynastic-transition": 30, "reform": 27, "political-military": 22, "rebellion": 20, "economic": 7, "diplomatic": 7, "migration": 5, "alliance": 4, "treaty": 4, "cultural": 3, "foundation": 3, "unification": 2}
 
-- Aggregate（有子事件 part_of）数量：24
+- Aggregate（有子事件 part_of）数量：28
   - event-qin-mie-liuguo：7 个子事件
   - event-han-xiongnu-war：5 个子事件
   - event-chuhan-war：4 个子事件
@@ -22,6 +22,7 @@
   - event-hezong-lianheng：2 个子事件
   - event-xiaowendi-gaige：2 个子事件
   - event-chuhan-qin-revolt：2 个子事件
+  - event-huangchao-qiyi：2 个子事件
   - event-zhuge-liang-beifa：2 个子事件
   - event-wu-guo-jueqi：1 个子事件
   - event-zheng-zhuanggong-xiaoba：1 个子事件
@@ -32,6 +33,9 @@
   - event-luoyang-xianshi：1 个子事件
   - event-xijin-mie-wang：1 个子事件
   - event-zhougong-shezheng：1 个子事件
+  - event-yuanhe-xuefan：1 个子事件
+  - event-huangchao-ru-changan：1 个子事件
+  - event-huangchao-baiwang：1 个子事件
   - event-sui-zheng-g1：1 个子事件
   - event-sui-zheng-g2：1 个子事件
   - event-sui-zheng-g3：1 个子事件

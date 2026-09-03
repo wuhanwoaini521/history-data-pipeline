@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dazhong-zhizhi
+name_zh_cn: 大中之治
+event_type: political
+start_year: 847
+end_year: 859
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 宣宗大中年间（847—859年）整顿吏治、抑制宦官、收复失地，史称「大中之治」（属后世概括，§27：不把后世评价当明确事件）。大中之治为唐亡前的短暂回光，其后懿宗、僖宗朝迅速衰败。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·宣宗纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-huichang-miefo
+  relation_type: follows
+- target_event_id: event-pangxun-qiyi
+  relation_type: precedes
+  description_zh_cn: 大中之后懿宗朝庞勋起义，唐末大乱开启

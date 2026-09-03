@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ganlu-zhi-bian
+name_zh_cn: 甘露之变
+event_type: political
+start_year: 835
+end_year: 835
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 太和九年（835年）文宗与李训、郑注密谋诛宦官，诈称「甘露」（金吾伏甲）事败，李训、郑注及四相皆被宦官所杀，株连者千余人。甘露之变是唐代宦官与皇帝、朝臣斗争的总爆发，此后宦官把持朝政直至唐亡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·文宗纪》《李训传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-huanguan-shence-jun
+  relation_type: follows
+- target_event_id: event-niu-li-dangzheng
+  relation_type: precedes
+  description_zh_cn: 甘露变后朝官与宦官、牛李两党继续缠斗

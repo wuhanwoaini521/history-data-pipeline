@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-niu-li-dangzheng
+name_zh_cn: 牛李党争
+event_type: political
+start_year: 821
+end_year: 846
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 长庆元年至会昌六年（约821—846年）以牛僧孺、李宗闵为首的牛党与李德裕为首的李党长期党争，科举、藩镇、对敌政策屡屡反复，宰相任免随党争更迭。牛李党争加剧晚唐政治内耗（§25 作 aggregate process，不逐宰相任免立项）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·李德裕传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》；陈寅恪《唐代政治史述论稿》（关陇集团与进士科之争）
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-ganlu-zhi-bian
+  relation_type: follows
+- target_event_id: event-huichang-miefo
+  relation_type: precedes
+  description_zh_cn: 党争持续至武宗会昌年间

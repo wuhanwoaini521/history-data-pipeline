@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-huai-xi-zhi-zhan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:16:20.993179Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch4)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-tang"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 4（隋—唐—五代十国）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n淮西之役（元和九年起，817年告捷）为元和削藩中的关键战役；「雪夜入蔡州」见《李愬传》。"
+}

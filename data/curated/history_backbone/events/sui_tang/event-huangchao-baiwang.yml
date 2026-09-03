@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-huangchao-baiwang
+name_zh_cn: 黄巢败亡
+event_type: war
+start_year: 883
+end_year: 884
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 中和三年（883年）李克用等沙陀军收复长安，黄巢东撤；884年（中和四年）黄巢兵败于泰山狼虎谷，自刎（一说被杀）。黄巢败亡后唐廷名义尚存，但藩镇坐大、天下瓦解之势不可逆转。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·黄巢传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-huangchao-qiyi
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 黄巢败亡为起义终结
+- target_event_id: event-zhuwen-jueshi
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 平巢诸镇中朱温等坐大，唐政归于军阀

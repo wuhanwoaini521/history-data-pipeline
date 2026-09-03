@@ -43,6 +43,10 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-huangchao-qiyi",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-zhuge-liang-beifa",
         "part_of_children": 2
       },
@@ -83,6 +87,18 @@
         "part_of_children": 1
       },
       {
+        "event_id": "event-yuanhe-xuefan",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-huangchao-ru-changan",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-huangchao-baiwang",
+        "part_of_children": 1
+      },
+      {
         "event_id": "event-sui-zheng-g1",
         "part_of_children": 1
       },
@@ -110,12 +126,12 @@
       }
     ],
     "event_type_distribution": {
-      "war": 108,
-      "political": 84,
+      "war": 113,
+      "political": 92,
       "dynastic-transition": 30,
-      "reform": 25,
-      "political-military": 20,
-      "rebellion": 17,
+      "reform": 27,
+      "political-military": 22,
+      "rebellion": 20,
       "economic": 7,
       "diplomatic": 7,
       "migration": 5,

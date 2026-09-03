@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yuanhe-zhongxing",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:16:20.999446Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch4)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-tang"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 4（隋—唐—五代十国）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n「元和中兴」为后世概括（§49）；宪宗之死（820）与宦官关系为史家讨论（「陈宏志弑宪宗」见《旧唐书·王守澄传》）。"
+}
