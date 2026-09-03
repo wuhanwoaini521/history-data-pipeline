@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yanya-haizhan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:48:28.762254Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch5)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-yuan",
+    "regime-southern-song"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n崖山殉国的具体人数与细节有不同记载；本事件按元灭宋、南宋政权终结的事实框架记录，不渲染\"十万人殉国\"等未经严格考订的说法。"
+}

@@ -24,3 +24,7 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 北伐失败后达成的和议。
+- target_event_id: event-kaixi-beifa
+  relation_type: precedes
+  confidence: 0.8
+  description_zh_cn: 四十余年后南宋再启北伐（开禧北伐）。

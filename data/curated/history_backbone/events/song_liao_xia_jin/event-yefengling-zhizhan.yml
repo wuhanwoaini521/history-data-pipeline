@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yefengling-zhizhan
+name_zh_cn: 野狐岭之战
+event_type: war
+start_year: 1211
+end_year: 1211
+date_precision: year
+period_id: period-song-liao-jin
+regime_ids:
+- regime-mongol-empire
+- regime-jin
+importance: major
+summary_zh_cn: 大安三年（1211 年），成吉思汗亲率蒙古军攻金，在野狐岭（今河北万全一带）歼灭金军主力，金国北方防线崩溃，此后金军只能依托中都（北京）与黄河防守。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·太祖纪》；《金史·章宗纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-mongol-jianguo
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 建蒙古国后首攻金国。
+- target_event_id: event-jin-qian-du-bian
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 中都受威胁，金宣宗迁都开封。

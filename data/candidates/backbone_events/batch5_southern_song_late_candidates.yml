@@ -1,0 +1,210 @@
+# China History Backbone V1 · Batch 5 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 蒙古灭夏金/宋蒙/元建立/南宋亡
+compiled_from: AI 依据《宋史》《辽史》《金史》《元史》《续资治通鉴长编》《三朝北盟会编》《蒙古秘史》及现代宋辽金元史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-guo-wei-dai-han（951 后周建立，960 代周前节点）
+candidates:
+- id: event-kaixi-beifa
+  name_zh_cn: 开禧北伐
+  start_year: 1206
+  end_year: 1207
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-kaixi-beifa.review.json
+- id: event-jiading-heyi
+  name_zh_cn: 嘉定和议（宋金增岁币）
+  start_year: 1208
+  end_year: 1208
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jiading-heyi.review.json
+- id: event-mongol-jianguo
+  name_zh_cn: 铁木真统一蒙古、建立大蒙古国
+  start_year: 1206
+  end_year: 1206
+  date_precision: year
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-mongol-jianguo.review.json
+- id: event-yefengling-zhizhan
+  name_zh_cn: 野狐岭之战
+  start_year: 1211
+  end_year: 1211
+  date_precision: year
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yefengling-zhizhan.review.json
+- id: event-jin-qian-du-bian
+  name_zh_cn: 金迁都开封（中都陷蒙古）
+  start_year: 1214
+  end_year: 1215
+  date_precision: range
+  period_id: period-jin
+  regime_ids:
+  - regime-jin
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-qian-du-bian.review.json
+- id: event-mongol-mie-xia
+  name_zh_cn: 蒙古灭西夏
+  start_year: 1226
+  end_year: 1227
+  date_precision: range
+  period_id: period-western-xia
+  regime_ids:
+  - regime-mongol-empire
+  - regime-western-xia
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-mongol-mie-xia.review.json
+- id: event-mongol-mie-jin
+  name_zh_cn: 蒙古灭金（蔡州之战）
+  start_year: 1232
+  end_year: 1234
+  date_precision: range
+  period_id: period-jin
+  regime_ids:
+  - regime-mongol-empire
+  - regime-jin
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-mongol-mie-jin.review.json
+- id: event-duanping-ru-luo
+  name_zh_cn: 端平入洛（宋蒙冲突开端）
+  start_year: 1234
+  end_year: 1235
+  date_precision: range
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-southern-song
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-duanping-ru-luo.review.json
+- id: event-song-meng-zhanzheng
+  name_zh_cn: 宋蒙战争
+  start_year: 1235
+  end_year: 1279
+  date_precision: range
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-southern-song
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-meng-zhanzheng.review.json
+- id: event-mongol-mie-dali
+  name_zh_cn: 蒙古灭大理（征宋西南）
+  start_year: 1253
+  end_year: 1254
+  date_precision: range
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-mongol-mie-dali.review.json
+- id: event-diaoyucheng-zhizhan
+  name_zh_cn: 钓鱼城之战（蒙哥去世）
+  start_year: 1258
+  end_year: 1259
+  date_precision: range
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-diaoyucheng-zhizhan.review.json
+- id: event-hubilie-chenghan
+  name_zh_cn: 忽必烈称汗（与阿里不哥争位）
+  start_year: 1260
+  end_year: 1260
+  date_precision: year
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hubilie-chenghan.review.json
+- id: event-xiangfan-zhizhan
+  name_zh_cn: 襄樊之战（襄阳失守）
+  start_year: 1267
+  end_year: 1273
+  date_precision: range
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-yuan
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiangfan-zhizhan.review.json
+- id: event-yuan-jianguo
+  name_zh_cn: 元朝建立（改国号大元）
+  start_year: 1271
+  end_year: 1271
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-jianguo.review.json
+- id: event-linan-touxiang
+  name_zh_cn: 元军攻陷临安、南宋恭帝出降
+  start_year: 1275
+  end_year: 1276
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-yuan
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-linan-touxiang.review.json
+- id: event-wentianxiang-kangyuan
+  name_zh_cn: 文天祥抗元与就义
+  start_year: 1276
+  end_year: 1283
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wentianxiang-kangyuan.review.json
+- id: event-yanya-haizhan
+  name_zh_cn: 崖山海战、南宋灭亡
+  start_year: 1279
+  end_year: 1279
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-yuan
+  - regime-southern-song
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-yanya-haizhan.review.json

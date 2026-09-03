@@ -1,0 +1,112 @@
+# China History Backbone V1 · Batch 5 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 1 北宋建立
+compiled_from: AI 依据《宋史》《辽史》《金史》《元史》《续资治通鉴长编》《三朝北盟会编》《蒙古秘史》及现代宋辽金元史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-guo-wei-dai-han（951 后周建立，960 代周前节点）
+candidates:
+- id: event-chenqiao-bingbian
+  name_zh_cn: 陈桥兵变、赵匡胤称帝、北宋建立
+  start_year: 960
+  end_year: 960
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-chenqiao-bingbian.review.json
+- id: event-song-shou-bingquan
+  name_zh_cn: 宋初收兵权（罢宿将典禁兵）
+  start_year: 961
+  end_year: 963
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-shou-bingquan.review.json
+- id: event-song-tongyi-zhanzheng
+  name_zh_cn: 北宋统一战争
+  start_year: 962
+  end_year: 979
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-tongyi-zhanzheng.review.json
+- id: event-song-mie-jingnan
+  name_zh_cn: 北宋灭荆南（平荆湖）
+  start_year: 963
+  end_year: 963
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-jingnan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-mie-jingnan.review.json
+- id: event-song-mie-houshu
+  name_zh_cn: 北宋灭后蜀
+  start_year: 965
+  end_year: 965
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-later-shu
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-mie-houshu.review.json
+- id: event-song-mie-nanhan
+  name_zh_cn: 北宋灭南汉
+  start_year: 971
+  end_year: 971
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-southern-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-mie-nanhan.review.json
+- id: event-song-mie-nantang
+  name_zh_cn: 北宋灭南唐
+  start_year: 975
+  end_year: 975
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-southern-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-mie-nantang.review.json
+- id: event-wuyue-natu
+  name_zh_cn: 吴越纳土归宋
+  start_year: 978
+  end_year: 978
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-wuyue
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wuyue-natu.review.json
+- id: event-song-mie-beihan
+  name_zh_cn: 北宋收复北汉
+  start_year: 979
+  end_year: 979
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-northern-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-song-mie-beihan.review.json

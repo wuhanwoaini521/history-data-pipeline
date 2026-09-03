@@ -1,26 +1,5 @@
 {
-  "duplicate_candidates": [
-    {
-      "kind": "name_contain_or_similar",
-      "event_a": {
-        "id": "event-jin-di-erci-weikaifeng",
-        "name_zh_cn": "金军第二次围攻开封、城陷",
-        "start_year": 1126,
-        "event_type": "war",
-        "importance": "major"
-      },
-      "event_b": {
-        "id": "event-jin-di-yici-weikaifeng",
-        "name_zh_cn": "金军第一次围攻开封",
-        "start_year": 1126,
-        "event_type": "war",
-        "importance": "major"
-      },
-      "period_id": "period-northern-song",
-      "similarity": 0.76,
-      "note": "可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review，不自动合并。"
-    }
-  ],
+  "duplicate_candidates": [],
   "granularity": {
     "aggregates": [
       {
@@ -41,6 +20,10 @@
       },
       {
         "event_id": "event-bawang-zhi-luan",
+        "part_of_children": 3
+      },
+      {
+        "event_id": "event-song-meng-zhanzheng",
         "part_of_children": 3
       },
       {
@@ -163,21 +146,21 @@
       }
     ],
     "event_type_distribution": {
-      "war": 137,
-      "political": 98,
+      "war": 148,
+      "political": 100,
       "dynastic-transition": 41,
       "reform": 32,
       "political-military": 22,
       "rebellion": 22,
-      "treaty": 10,
+      "treaty": 11,
+      "foundation": 9,
       "economic": 7,
       "diplomatic": 7,
-      "foundation": 7,
       "migration": 6,
       "alliance": 5,
       "cultural": 3,
       "unification": 3,
-      "succession": 1
+      "succession": 2
     }
   },
   "coverage_gaps": [
@@ -244,20 +227,22 @@
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
     },
     {
-      "period_id": "period-song-liao-jin",
-      "period_name": "宋辽金时期",
+      "period_id": "period-western-xia",
+      "period_name": "西夏",
       "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
-    },
-    {
-      "period_id": "period-yuan",
-      "period_name": "元",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
+      "severity": "gap",
+      "from_event": {
+        "id": "event-qingli-heyi",
+        "name_zh_cn": "庆历和议（宋夏议和）",
+        "start_year": 1044
+      },
+      "to_event": {
+        "id": "event-mongol-mie-xia",
+        "name_zh_cn": "蒙古灭西夏",
+        "start_year": 1226
+      },
+      "gap_years": 182,
+      "detail": "相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
     },
     {
       "period_id": "period-ming",

@@ -2,7 +2,7 @@
 # summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
 # 修改后请运行：history-data backbone validate
 id: event-jin-di-erci-weikaifeng
-name_zh_cn: 金军第二次围攻开封、城陷
+name_zh_cn: 金军第二次围攻开封
 event_type: war
 start_year: 1126
 end_year: 1126

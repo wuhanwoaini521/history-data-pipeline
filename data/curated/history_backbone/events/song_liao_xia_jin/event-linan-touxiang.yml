@@ -1,0 +1,34 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-linan-touxiang
+name_zh_cn: 元军攻陷临安、南宋恭帝出降
+event_type: war
+start_year: 1275
+end_year: 1276
+date_precision: range
+period_id: period-southern-song
+regime_ids:
+- regime-yuan
+- regime-southern-song
+importance: major
+summary_zh_cn: 德祐元年至二年（1275—1276 年），元丞相伯颜统军自建康东下，于丁家洲大败宋军，进围临安；1276 年正月，宋恭帝赵㬎奉表出降，临安城陷落，南宋大批宗室、百官随之北迁。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·瀛国公纪》；《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-songshi
+- work-curated-yuanshi
+relations:
+- target_event_id: event-xiangfan-zhizhan
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 襄阳失守后元军顺江而下。
+- target_event_id: event-wentianxiang-kangyuan
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 临安降后南宋流亡朝廷继续抵抗（文天祥等）。
+- target_event_id: event-yanya-haizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 临安降后南宋余部转战闽广，至崖山覆亡。

@@ -1,0 +1,147 @@
+# China History Backbone V1 · Batch 5 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 宋辽/宋夏/庆历
+compiled_from: AI 依据《宋史》《辽史》《金史》《元史》《续资治通鉴长编》《三朝北盟会编》《蒙古秘史》及现代宋辽金元史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-guo-wei-dai-han（951 后周建立，960 代周前节点）
+candidates:
+- id: event-gaolianghe-zhizhan
+  name_zh_cn: 高梁河之战
+  start_year: 979
+  end_year: 979
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaolianghe-zhizhan.review.json
+- id: event-yongxi-beifa
+  name_zh_cn: 雍熙北伐
+  start_year: 986
+  end_year: 987
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yongxi-beifa.review.json
+- id: event-wangxiaobo-li-shun-qiyi
+  name_zh_cn: 王小波、李顺起义（四川）
+  start_year: 993
+  end_year: 995
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wangxiaobo-li-shun-qiyi.review.json
+- id: event-li-jiqian-juxia
+  name_zh_cn: 李继迁据夏州、党项势力兴起
+  start_year: 985
+  end_year: 997
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-li-jiqian-juxia.review.json
+- id: event-chanyuan-zhi-meng
+  name_zh_cn: 澶州之战与澶渊之盟
+  start_year: 1004
+  end_year: 1005
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chanyuan-zhi-meng.review.json
+- id: event-sanchuankou-zhizhan
+  name_zh_cn: 三川口之战
+  start_year: 1040
+  end_year: 1040
+  date_precision: year
+  period_id: period-western-xia
+  regime_ids:
+  - regime-western-xia
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sanchuankou-zhizhan.review.json
+- id: event-haoshuichuan-zhizhan
+  name_zh_cn: 好水川之战
+  start_year: 1041
+  end_year: 1041
+  date_precision: year
+  period_id: period-western-xia
+  regime_ids:
+  - regime-western-xia
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-haoshuichuan-zhizhan.review.json
+- id: event-dingchuanzhai-zhizhan
+  name_zh_cn: 定川寨之战
+  start_year: 1042
+  end_year: 1042
+  date_precision: year
+  period_id: period-western-xia
+  regime_ids:
+  - regime-western-xia
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dingchuanzhai-zhizhan.review.json
+- id: event-chongxi-zengbi
+  name_zh_cn: 重熙增币（辽索关南地、宋增岁币）
+  start_year: 1042
+  end_year: 1042
+  date_precision: year
+  period_id: period-liao
+  regime_ids:
+  - regime-northern-song
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chongxi-zengbi.review.json
+- id: event-qingli-heyi
+  name_zh_cn: 庆历和议（宋夏议和）
+  start_year: 1044
+  end_year: 1044
+  date_precision: year
+  period_id: period-western-xia
+  regime_ids:
+  - regime-western-xia
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qingli-heyi.review.json
+- id: event-qingli-xinzheng
+  name_zh_cn: 庆历新政
+  start_year: 1043
+  end_year: 1044
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qingli-xinzheng.review.json
+- id: event-western-xia-jianguo
+  name_zh_cn: 李元昊称帝、西夏建立
+  start_year: 1038
+  end_year: 1038
+  date_precision: year
+  period_id: period-western-xia
+  regime_ids:
+  - regime-western-xia
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-western-xia-jianguo.review.json

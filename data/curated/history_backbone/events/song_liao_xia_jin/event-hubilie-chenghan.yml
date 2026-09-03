@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hubilie-chenghan
+name_zh_cn: 忽必烈称汗（与阿里不哥争位）
+event_type: succession
+start_year: 1260
+end_year: 1260
+date_precision: year
+period_id: period-song-liao-jin
+regime_ids:
+- regime-mongol-empire
+importance: major
+summary_zh_cn: 中统元年（1260 年）三月，忽必烈在开平（今内蒙古正蓝旗）即蒙古大汗位，其弟阿里不哥同年在和林称汗，爆发争位内战；至元元年（1264 年）阿里不哥降附，忽必烈巩固汗位，蒙古政治重心渐向中原转移。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-diaoyucheng-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 蒙哥死后汗位继承之争。
+- target_event_id: event-yuan-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 巩固汗位后改国号大元。

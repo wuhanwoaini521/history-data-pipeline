@@ -5,24 +5,19 @@
 
 ## 1. Duplicate Check（候选，不自动 Merge）
 
-共 1 组候选：
-
-| A | B | 类型 | 时间相邻 | 相似度 |
-|---|---|---|---|---:|
-| `金军第二次围攻开封、城陷`event-jin-di-erci-weikaifeng | `金军第一次围攻开封`event-jin-di-yici-weikaifeng | name_contain_or_similar | 0 年 | 0.76 |
-
-> 说明：可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review。
+未发现疑似重复/上下层事件候选。
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 137, "political": 98, "dynastic-transition": 41, "reform": 32, "political-military": 22, "rebellion": 22, "treaty": 10, "economic": 7, "diplomatic": 7, "foundation": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 1}
+- 事件类型分布：{"war": 148, "political": 100, "dynastic-transition": 41, "reform": 32, "political-military": 22, "rebellion": 22, "treaty": 11, "foundation": 9, "economic": 7, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 2}
 
-- Aggregate（有子事件 part_of）数量：32
+- Aggregate（有子事件 part_of）数量：33
   - event-qin-mie-liuguo：7 个子事件
   - event-song-tongyi-zhanzheng：6 个子事件
   - event-han-xiongnu-war：5 个子事件
   - event-chuhan-war：4 个子事件
   - event-bawang-zhi-luan：3 个子事件
+  - event-song-meng-zhanzheng：3 个子事件
   - event-sui-zheng-gaogouli：3 个子事件
   - event-chuzhuang-wang-ba：2 个子事件
   - event-qihuan-gong-ba：2 个子事件
@@ -57,7 +52,7 @@
 ## 3. Timeline Gap Detection
 
 - 阈值：相邻 critical/major 事件间隔 > 150 年（且 > 该 Period 跨度的 25%）
-- 共 11 处：
+- 共 10 处：
 
 | Period | 类型 | 明细 |
 |---|---|---|
@@ -65,8 +60,7 @@
 | 夏 | 间隔过大 | 少康中兴（-1990）→ 商汤灭夏（-1600）：间隔 390 年。相邻 critical/major 事件间隔 390 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 商朝建立（-1600）→ 盘庚迁殷（-1300）：间隔 300 年。相邻 critical/major 事件间隔 300 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 武丁中兴（-1250）→ 武王伐纣（-1046）：间隔 204 年。相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
-| 宋辽金时期 | 空白 | 该 Period 尚无 critical/major Event。 |
-| 元 | 空白 | 该 Period 尚无 critical/major Event。 |
+| 西夏 | 间隔过大 | 庆历和议（宋夏议和）（1044）→ 蒙古灭西夏（1226）：间隔 182 年。相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 明 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 清 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 晚清 | 空白 | 该 Period 尚无 critical/major Event。 |

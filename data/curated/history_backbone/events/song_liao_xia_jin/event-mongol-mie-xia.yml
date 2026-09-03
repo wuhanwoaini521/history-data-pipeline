@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-mongol-mie-xia
+name_zh_cn: 蒙古灭西夏
+event_type: war
+start_year: 1226
+end_year: 1227
+date_precision: range
+period_id: period-western-xia
+regime_ids:
+- regime-mongol-empire
+- regime-western-xia
+importance: major
+summary_zh_cn: 宝庆二年（1226 年），成吉思汗亲率大军攻夏，次年（1227 年）围中兴府（今银川），夏末帝李睍出降（一说城降后被屠），西夏亡；成吉思汗当年在六盘山地区去世，蒙古遂以全力攻金。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·太祖纪》；《宋史·夏国传》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yefengling-zhizhan
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 蒙古伐金同时先灭西夏剪除侧翼。
+- target_event_id: event-mongol-mie-jin
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭夏后蒙古全力攻金。

@@ -17,4 +17,8 @@ source_reference: 古代史料：《宋史·范仲淹传》；《续资治通鉴
 source_ids:
 - work-curated-songshi
 - work-curated-xuzizhitongjianchangbian
-relations: []
+relations:
+- target_event_id: event-wanganshi-bianfa
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 庆历新政失败二十余年后王安石变法（先声）。

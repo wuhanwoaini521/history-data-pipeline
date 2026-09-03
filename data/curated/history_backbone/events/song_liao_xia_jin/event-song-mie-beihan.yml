@@ -28,3 +28,7 @@ relations:
   relation_type: follows
   confidence: 0.6
   description_zh_cn: 978 年吴越纳土后北攻。
+- target_event_id: event-gaolianghe-zhizhan
+  relation_type: precedes
+  confidence: 0.8
+  description_zh_cn: 灭北汉同年夏，宋军转攻燕云败于高梁河。

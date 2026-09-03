@@ -1,0 +1,34 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yanya-haizhan
+name_zh_cn: 崖山海战、南宋灭亡
+event_type: war
+start_year: 1279
+end_year: 1279
+date_precision: year
+period_id: period-southern-song
+regime_ids:
+- regime-yuan
+- regime-southern-song
+importance: critical
+summary_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·瀛国公纪》；《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-songshi
+- work-curated-yuanshi
+relations:
+- target_event_id: event-linan-touxiang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 临安降后南宋流亡朝廷的最后一战。
+- target_event_id: event-wentianxiang-kangyuan
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 崖山覆亡后文天祥仍系大都狱中。
+- target_event_id: event-song-meng-zhanzheng
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 宋蒙战争以南宋灭亡告终（aggregate 结束）。

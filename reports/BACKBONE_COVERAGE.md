@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：54
-- Event：401
+- Event：418
 - Story：3
 
 ## 按时期组
@@ -21,8 +21,8 @@
 | 魏晋南北朝 | 58 | 0 |
 | 隋唐 | 84 | 1 |
 | 五代十国 | 15 | 0 |
-| 宋辽金夏 | 47 | 0 |
-| 元 | 0 | 0 |
+| 宋辽金夏 | 63 | 0 |
+| 元 | 1 | 0 |
 | 明 | 0 | 0 |
 | 清 | 0 | 0 |
 | 近现代 | 0 | 0 |
@@ -51,39 +51,19 @@
 | 五代十国 | 0 | 15 | 15 | 2 | 13 |
 | 北宋 | 24 | 0 | 24 | 2 | 22 |
 | 辽 | 2 | 1 | 3 | 0 | 3 |
-| 西夏 | 5 | 0 | 5 | 1 | 4 |
-| 金 | 4 | 0 | 4 | 1 | 3 |
-| 南宋 | 11 | 0 | 11 | 1 | 10 |
+| 西夏 | 6 | 0 | 6 | 1 | 5 |
+| 金 | 6 | 0 | 6 | 1 | 5 |
+| 南宋 | 16 | 0 | 16 | 2 | 14 |
+| 宋辽金时期 | 8 | 0 | 8 | 1 | 7 |
+| 元 | 1 | 0 | 1 | 1 | 0 |
 
 ## 缺口提示
 
-- 尚无 Event 的时期组：元, 明, 清, 近现代。
+- 尚无 Event 的时期组：明, 清, 近现代。
 - 下一阶段（China History Backbone V1）应优先为这些时期组补齐 critical/major Event。
 
 ## 说明
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
-
-## 最新 Manifest
-
-```json
-{
-  "periods": 31,
-  "regimes": 54,
-  "events": 401,
-  "stories": 3,
-  "story_events": 26,
-  "event_relations": 707,
-  "event_people": 58,
-  "event_places": 26,
-  "event_evidence": 26,
-  "people": 18,
-  "places": 3,
-  "works": 30,
-  "historical_texts": 0,
-  "sources": 7,
-  "entity_source_mapping": 21
-}
-```
 

@@ -140,7 +140,7 @@ PHASE_JINGKANG_NANSONG = [
             _rel("event-liao-miewang", "follows", 0.9, "金灭辽后借口背盟南侵。"),
             _rel("event-jin-di-erci-weikaifeng", "leads_to", 0.9, "金军北撤后同年秋冬再围开封。"),
         ]),
-    _ev("event-jin-di-erci-weikaifeng", "金军第二次围攻开封、城陷", "war",
+    _ev("event-jin-di-erci-weikaifeng", "金军第二次围攻开封", "war",
         1126, 1126, "year", "period-northern-song", "major",
         "靖康元年闰十一月（1126 年），金军再度南下围攻开封，"
         "十一月二十五日开封外城被攻破，宋钦宗出降，北宋都城陷落。",

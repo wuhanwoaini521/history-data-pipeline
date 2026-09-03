@@ -36,12 +36,12 @@
   },
   "song_liao_xia_jin": {
     "label": "宋辽金夏",
-    "events": 47,
+    "events": 63,
     "stories": 0
   },
   "yuan": {
     "label": "元",
-    "events": 0,
+    "events": 1,
     "stories": 0
   },
   "ming": {
@@ -295,56 +295,56 @@
       "period_id": "period-western-xia",
       "name_zh_cn": "西夏",
       "critical": 1,
-      "major": 4,
+      "major": 5,
       "normal": 0,
       "minor": 0,
-      "new": 5,
+      "new": 6,
       "reused": 0,
-      "total": 5
+      "total": 6
     },
     {
       "period_id": "period-jin",
       "name_zh_cn": "金",
       "critical": 1,
-      "major": 3,
+      "major": 5,
       "normal": 0,
       "minor": 0,
-      "new": 4,
+      "new": 6,
       "reused": 0,
-      "total": 4
+      "total": 6
     },
     {
       "period_id": "period-southern-song",
       "name_zh_cn": "南宋",
-      "critical": 1,
-      "major": 10,
+      "critical": 2,
+      "major": 14,
       "normal": 0,
       "minor": 0,
-      "new": 11,
+      "new": 16,
       "reused": 0,
-      "total": 11
+      "total": 16
     },
     {
       "period_id": "period-song-liao-jin",
       "name_zh_cn": "宋辽金时期",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 7,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 8,
       "reused": 0,
-      "total": 0
+      "total": 8
     },
     {
       "period_id": "period-yuan",
       "name_zh_cn": "元",
-      "critical": 0,
+      "critical": 1,
       "major": 0,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 1,
       "reused": 0,
-      "total": 0
+      "total": 1
     },
     {
       "period_id": "period-ming",

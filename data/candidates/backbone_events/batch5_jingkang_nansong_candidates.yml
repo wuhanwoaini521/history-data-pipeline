@@ -1,0 +1,195 @@
+# China History Backbone V1 · Batch 5 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 靖康/南宋初/宋金战争
+compiled_from: AI 依据《宋史》《辽史》《金史》《元史》《续资治通鉴长编》《三朝北盟会编》《蒙古秘史》及现代宋辽金元史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-guo-wei-dai-han（951 后周建立，960 代周前节点）
+candidates:
+- id: event-jin-di-yici-weikaifeng
+  name_zh_cn: 金军第一次围攻开封
+  start_year: 1126
+  end_year: 1126
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-jin
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-di-yici-weikaifeng.review.json
+- id: event-jin-di-erci-weikaifeng
+  name_zh_cn: 金军第二次围攻开封、城陷
+  start_year: 1126
+  end_year: 1126
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-jin
+  - regime-northern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-di-erci-weikaifeng.review.json
+- id: event-jingkang-zhi-bian
+  name_zh_cn: 靖康之变、北宋灭亡
+  start_year: 1127
+  end_year: 1127
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-jin
+  - regime-northern-song
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jingkang-zhi-bian.review.json
+- id: event-zhao-gou-nansong-jianguo
+  name_zh_cn: 赵构称帝、南宋建立
+  start_year: 1127
+  end_year: 1127
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-zhao-gou-nansong-jianguo.review.json
+- id: event-jianyan-nandu
+  name_zh_cn: 建炎南渡（宋廷南迁临安）
+  start_year: 1127
+  end_year: 1138
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jianyan-nandu.review.json
+- id: event-huangtiandang-zhizhan
+  name_zh_cn: 黄天荡之战
+  start_year: 1130
+  end_year: 1130
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huangtiandang-zhizhan.review.json
+- id: event-shunchang-zhizhan
+  name_zh_cn: 顺昌之战
+  start_year: 1140
+  end_year: 1140
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shunchang-zhizhan.review.json
+- id: event-yancheng-zhizhan
+  name_zh_cn: 郾城之战（岳飞北伐）
+  start_year: 1140
+  end_year: 1140
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yancheng-zhizhan.review.json
+- id: event-yuefei-banshi
+  name_zh_cn: 岳飞班师（北伐中止、解除兵权）
+  start_year: 1140
+  end_year: 1141
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuefei-banshi.review.json
+- id: event-shaoxing-heyi
+  name_zh_cn: 绍兴和议（宋金划淮为界）
+  start_year: 1141
+  end_year: 1142
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shaoxing-heyi.review.json
+- id: event-yuefei-beisha
+  name_zh_cn: 岳飞被害（大理寺狱）
+  start_year: 1142
+  end_year: 1142
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuefei-beisha.review.json
+- id: event-hailing-nanzheng
+  name_zh_cn: 海陵王南征（完颜亮攻宋）
+  start_year: 1158
+  end_year: 1161
+  date_precision: range
+  period_id: period-jin
+  regime_ids:
+  - regime-jin
+  - regime-southern-song
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hailing-nanzheng.review.json
+- id: event-caishi-zhizhan
+  name_zh_cn: 采石之战
+  start_year: 1161
+  end_year: 1161
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-caishi-zhizhan.review.json
+- id: event-jin-shizong-jiwei
+  name_zh_cn: 金世宗即位（东京辽阳）
+  start_year: 1161
+  end_year: 1162
+  date_precision: range
+  period_id: period-jin
+  regime_ids:
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-shizong-jiwei.review.json
+- id: event-longxing-beifa
+  name_zh_cn: 隆兴北伐
+  start_year: 1163
+  end_year: 1163
+  date_precision: year
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-longxing-beifa.review.json
+- id: event-longxing-heyi
+  name_zh_cn: 隆兴和议（宋金改名分、减岁币）
+  start_year: 1164
+  end_year: 1165
+  date_precision: range
+  period_id: period-southern-song
+  regime_ids:
+  - regime-southern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-longxing-heyi.review.json

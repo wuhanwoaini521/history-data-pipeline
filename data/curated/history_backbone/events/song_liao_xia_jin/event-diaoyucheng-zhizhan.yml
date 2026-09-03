@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-diaoyucheng-zhizhan
+name_zh_cn: 钓鱼城之战（蒙哥去世）
+event_type: war
+start_year: 1258
+end_year: 1259
+date_precision: range
+period_id: period-song-liao-jin
+regime_ids:
+- regime-mongol-empire
+- regime-southern-song
+importance: major
+summary_zh_cn: 宝祐六年至开庆元年（1258—1259 年），蒙古大汗蒙哥亲征四川，围攻合州钓鱼城（今重庆合川）半年不下，1259 年七月蒙哥死于军中（病卒或中炮说，史源有出入），蒙古军北撤；南宋川防得以延续，蒙哥之死也使蒙古汗位继承悬而未决。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·宪宗纪》；《宋史·理宗纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-song-meng-zhanzheng
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 宋蒙战争四川战场的关键要塞攻防。
+- target_event_id: event-hubilie-chenghan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 蒙哥卒后忽必烈与阿里不哥争位，忽必烈称汗。

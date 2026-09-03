@@ -1,0 +1,104 @@
+# China History Backbone V1 · Batch 5 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 熙丰/元祐/绍圣+金崛起
+compiled_from: AI 依据《宋史》《辽史》《金史》《元史》《续资治通鉴长编》《三朝北盟会编》《蒙古秘史》及现代宋辽金元史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-guo-wei-dai-han（951 后周建立，960 代周前节点）
+candidates:
+- id: event-wanganshi-bianfa
+  name_zh_cn: 王安石变法（熙宁新法）
+  start_year: 1069
+  end_year: 1076
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wanganshi-bianfa.review.json
+- id: event-yuanfeng-gaizhi
+  name_zh_cn: 元丰改制（官制改革）
+  start_year: 1080
+  end_year: 1082
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanfeng-gaizhi.review.json
+- id: event-yuanyou-genghua
+  name_zh_cn: 元祐更化（司马光执政、罢新法）
+  start_year: 1086
+  end_year: 1089
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanyou-genghua.review.json
+- id: event-shaosheng-shaoshu
+  name_zh_cn: 绍圣绍述（哲宗恢复熙丰新法）
+  start_year: 1094
+  end_year: 1098
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shaosheng-shaoshu.review.json
+- id: event-fangla-qiyi
+  name_zh_cn: 方腊起义（睦州）
+  start_year: 1120
+  end_year: 1121
+  date_precision: range
+  period_id: period-northern-song
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fangla-qiyi.review.json
+- id: event-wanyan-aguda-qibing
+  name_zh_cn: 女真完颜部起兵反辽
+  start_year: 1114
+  end_year: 1114
+  date_precision: year
+  period_id: period-jin
+  regime_ids:
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wanyan-aguda-qibing.review.json
+- id: event-jin-jianguo
+  name_zh_cn: 金国建立（阿骨打称帝）
+  start_year: 1115
+  end_year: 1115
+  date_precision: year
+  period_id: period-jin
+  regime_ids:
+  - regime-jin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jin-jianguo.review.json
+- id: event-hai-shang-zhi-meng
+  name_zh_cn: 海上之盟（宋金联合攻辽）
+  start_year: 1120
+  end_year: 1120
+  date_precision: year
+  period_id: period-northern-song
+  regime_ids:
+  - regime-northern-song
+  - regime-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hai-shang-zhi-meng.review.json
+- id: event-liao-miewang
+  name_zh_cn: 金灭辽（天祚帝被俘）
+  start_year: 1122
+  end_year: 1125
+  date_precision: range
+  period_id: period-liao
+  regime_ids:
+  - regime-jin
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liao-miewang.review.json

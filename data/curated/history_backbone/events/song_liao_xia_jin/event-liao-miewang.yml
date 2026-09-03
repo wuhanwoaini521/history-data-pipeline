@@ -23,3 +23,7 @@ relations:
   relation_type: follows
   confidence: 0.8
   description_zh_cn: 海上之盟后宋金联合灭辽。
+- target_event_id: event-jin-di-yici-weikaifeng
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 灭辽后次年（1125 年）金攻宋第一次围开封。

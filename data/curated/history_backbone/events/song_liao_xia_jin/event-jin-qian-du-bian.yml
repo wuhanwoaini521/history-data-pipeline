@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-jin-qian-du-bian
+name_zh_cn: 金迁都开封（中都陷蒙古）
+event_type: political
+start_year: 1214
+end_year: 1215
+date_precision: range
+period_id: period-jin
+regime_ids:
+- regime-jin
+- regime-mongol-empire
+importance: major
+summary_zh_cn: 贞祐二年（1214 年），金宣宗迫于蒙古军压力迁都南京（汴京开封）；次年（1215 年）蒙古军攻占中都（今北京），金国黄河以北领土丧失大半，政权退守河南，蒙古攻金进入第二阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《金史·宣宗纪》；《元史·太祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+- work-curated-jinshi
+relations:
+- target_event_id: event-yefengling-zhizhan
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 野狐岭之败后金退守河南。
+- target_event_id: event-mongol-mie-xia
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 迁都期间蒙古转向攻西夏。
