@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuanshu-chengdi
+name_zh_cn: 袁术称帝
+event_type: political
+start_year: 197
+end_year: 197
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建安二年（197年）袁术据淮南称帝，成为汉末群雄中第一个公然僭号称帝者。袁术称帝遭各方声讨，不久为吕布、曹操等所败，于199年忧愤病死。此事动摇了汉室残余权威，也开启了群雄自立之年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·袁术传》《三国志·魏书·袁术传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-houhanshu
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-lvbu-baiwang
+  relation_type: precedes
+  description_zh_cn: 袁术败亡与吕布下邳败亡相继发生于199年

@@ -41,6 +41,10 @@
       {
         "event_id": "event-zhougong-shezheng",
         "part_of_children": 1
+      },
+      {
+        "event_id": "event-three-north-consolidation",
+        "part_of_children": 1
       }
     ],
     "long_range_events": [
@@ -54,18 +58,18 @@
       }
     ],
     "event_type_distribution": {
-      "war": 56,
-      "political": 43,
-      "political-military": 18,
+      "war": 61,
+      "political": 50,
+      "political-military": 19,
       "reform": 13,
       "dynastic-transition": 10,
       "rebellion": 9,
       "diplomatic": 7,
       "economic": 6,
       "treaty": 4,
+      "migration": 4,
       "alliance": 3,
       "cultural": 3,
-      "migration": 2,
       "unification": 2,
       "foundation": 2
     }

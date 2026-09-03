@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhang-song-yin-shu
+name_zh_cn: 张松法正献计引刘备入蜀
+event_type: political
+start_year: 211
+end_year: 211
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建安十六年（211年），益州别驾张松与其党法正等因不满刘璋，劝说刘璋迎刘备入蜀以拒张鲁、曹公，实为引刘备入主益州之策。刘备遂率军溯江入蜀，开启对益州的争夺。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·蜀书·先主传》《张松法正传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-liubei-qu-yizhou
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 引刘备入蜀直接促成刘备攻取益州

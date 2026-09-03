@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-caocao-ying-xian-di
+name_zh_cn: 曹操迎汉献帝至许
+event_type: political
+start_year: 196
+end_year: 196
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建安元年（196年）曹操迎汉献帝都许（今河南许昌），行"奉天子以令不臣"（后世称"挟天子以令诸侯"），随后实行屯田以足军食。曹操由此取得政治与名分上的制高点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·魏书·武帝纪》《荀彧传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-xian-di-dong-gui
+  relation_type: follows
+- target_event_id: event-lvbu-baiwang
+  relation_type: precedes
+  description_zh_cn: 迎献帝后曹操经略豫兖，逐步收平徐州吕布等部

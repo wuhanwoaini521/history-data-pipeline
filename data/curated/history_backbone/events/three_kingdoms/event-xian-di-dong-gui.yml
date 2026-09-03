@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xian-di-dong-gui
+name_zh_cn: 汉献帝东归
+event_type: migration
+start_year: 195
+end_year: 196
+date_precision: range
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 兴平二年（195年）汉献帝在杨奉、董承等护送下逃离长安东归，辗转经弘农、洛阳，于次年（196年）到达洛阳。献帝东归是东汉皇权最后一次以独立姿态行动，随即落入曹操控制。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·献帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-li-jue-guo-si
+  relation_type: follows
+- target_event_id: event-caocao-ying-xian-di
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 献帝至洛阳后曹操迎帝迁许

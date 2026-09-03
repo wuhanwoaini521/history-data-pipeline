@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-guan-dong-tao-dong
+name_zh_cn: 关东诸侯讨董
+event_type: war
+start_year: 190
+end_year: 190
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 初平元年（190年）正月，关东州郡推袁绍为盟主，集结联军讨伐董卓，曹操、袁术、公孙瓒等并起。联军内部分裂、各自观望，未能入关击卓，但董卓被迫迁都长安，东汉朝廷自此流离。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·董卓列传》《三国志·魏书·武帝纪》《袁绍传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-houhanshu
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-dong-zhuo-fei-di
+  relation_type: follows
+- target_event_id: event-dong-zhuo-qian-du
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 联军兵临，董卓焚洛阳西迁长安

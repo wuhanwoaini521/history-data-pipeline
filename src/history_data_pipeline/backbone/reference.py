@@ -195,5 +195,16 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         {"id": "work-curated-shangshu", "title": "尚书", "title_raw": "尚书", "title_zh_cn": "尚书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-zhushu-jinian", "title": "竹书纪年", "title_raw": "竹书纪年", "title_zh_cn": "竹书纪年", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-zhanguoce", "title": "战国策", "title_raw": "战国策", "title_zh_cn": "战国策", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- China History Backbone V1 · Batch 3：魏晋南北朝 works seeds ----
+        {"id": "work-curated-jinshu", "title": "晋书", "title_raw": "晋书", "title_zh_cn": "晋书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-songshu", "title": "宋书", "title_raw": "宋书", "title_zh_cn": "宋书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-liangshu", "title": "梁书", "title_raw": "梁书", "title_zh_cn": "梁书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-chenshu", "title": "陈书", "title_raw": "陈书", "title_zh_cn": "陈书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-weishu", "title": "魏书", "title_raw": "魏书", "title_zh_cn": "魏书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-beiqishu", "title": "北齐书", "title_raw": "北齐书", "title_zh_cn": "北齐书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zhoushu", "title": "周书", "title_raw": "周书", "title_zh_cn": "周书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-nanshi", "title": "南史", "title_raw": "南史", "title_zh_cn": "南史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-beishi", "title": "北史", "title_raw": "北史", "title_zh_cn": "北史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-suishu", "title": "隋书", "title_raw": "隋书", "title_zh_cn": "隋书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

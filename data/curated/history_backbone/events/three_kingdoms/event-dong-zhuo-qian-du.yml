@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dong-zhuo-qian-du
+name_zh_cn: 董卓迁都长安
+event_type: migration
+start_year: 190
+end_year: 190
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 初平元年（190年）董卓挟献帝迁都长安，悉烧洛阳宫室、发掘陵墓，驱迫数百万民众西徙，洛阳城遭到毁灭性破坏。东汉两京制度名存实亡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·董卓列传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-guan-dong-tao-dong
+  relation_type: follows
+- target_event_id: event-dong-zhuo-zhisha
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 迁都后董卓仍专权，旋被王允吕布所杀

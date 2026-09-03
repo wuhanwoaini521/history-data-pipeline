@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-shichangshi-zhi-luan
+name_zh_cn: 十常侍之乱（何进召董卓）
+event_type: political
+start_year: 189
+end_year: 189
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 中平六年（189年）汉灵帝去世，外戚何进谋诛宦官，召董卓等进京施压；宦官张让等先发制人杀何进，袁绍等率兵尽诛宦官，东汉宦官集团自此消灭。何进召边军入京与宫变失控，直接为董卓专权打开了大门。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·灵帝纪》《窦何列传》《三国志·魏书·武帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-houhanshu
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-three-dong-zhuo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 何进之死与宫变使董卓得以率军入京

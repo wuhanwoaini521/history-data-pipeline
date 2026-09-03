@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "event_id": "event-lv-meng-xi-jingzhou",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T08:29:37.369637Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch3)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "regime_ids": [],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 3（东汉末—隋统一）人工审核：确认事件必要性、时期归属、时间与重要性分级；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n\"白衣渡江\"袭荆州在219年闰十月前后；关羽被杀于麦城。"
+}

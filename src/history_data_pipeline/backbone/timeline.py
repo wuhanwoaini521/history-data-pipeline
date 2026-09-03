@@ -26,8 +26,12 @@ def _sort_key(event: dict[str, Any]) -> tuple:
 
 
 def filter_timeline(backbone: Backbone, importance: set[str] | None = None,
-                    period_filter: str | None = None) -> list[dict[str, Any]]:
-    """按 importance 集合与 period（id 或名称，宽松匹配）过滤事件，按 start_year 升序。"""
+                    period_filter: str | None = None,
+                    regime_filter: str | None = None) -> list[dict[str, Any]]:
+    """按 importance / period（id 或名称）/ regime（id 前缀或名称）过滤，按 start_year 升序。
+
+    regime_filter 匹配 regime_ids 中的 Regime id（前缀/子串）或 Regime 名称。
+    """
     importance = importance or {"critical", "major"}
     periods = backbone.periods
     matched_period_ids: set[str] | None = None
@@ -41,12 +45,27 @@ def filter_timeline(backbone: Backbone, importance: set[str] | None = None,
             or p.get("name_zh_cn") == needle
             or p.get("name_zh_cn", "").startswith(needle)
         }
+    matched_regime_ids: set[str] | None = None
+    if regime_filter:
+        needle = regime_filter
+        matched_regime_ids = {
+            r["id"] for r in backbone.regimes
+            if r["id"] == needle
+            or r["id"].startswith("regime-" + needle)
+            or needle in r["id"]
+            or r.get("name_zh_cn") == needle
+            or r.get("name_zh_cn", "").startswith(needle)
+        }
     events = []
     for event in backbone.events:
         if event.get("importance") not in importance:
             continue
         if matched_period_ids is not None and event.get("period_id") not in matched_period_ids:
             continue
+        if matched_regime_ids is not None:
+            event_regimes = set(event.get("regime_ids") or [])
+            if not (event_regimes & matched_regime_ids):
+                continue
         events.append(event)
     events.sort(key=_sort_key)
     return events

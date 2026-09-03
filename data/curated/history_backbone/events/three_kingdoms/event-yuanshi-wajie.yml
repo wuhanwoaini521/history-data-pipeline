@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuanshi-wajie
+name_zh_cn: 袁氏势力瓦解
+event_type: political-military
+start_year: 202
+end_year: 207
+date_precision: range
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 官渡战后袁绍病卒（202年），其子袁谭、袁尚兄弟内讧，曹操先后击灭二袁，207年北征乌桓克柳城，袁氏残余势力彻底消灭，曹操基本统一北方（详见既有 event-three-north-consolidation）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·魏书·武帝纪》《袁绍传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-three-guandu
+  relation_type: follows
+  description_zh_cn: 官渡之战后袁绍势力走向瓦解
+- target_event_id: event-three-north-consolidation
+  relation_type: part_of
+  confidence: 0.7
+  description_zh_cn: 袁氏败亡为曹操统一北方的重要一步

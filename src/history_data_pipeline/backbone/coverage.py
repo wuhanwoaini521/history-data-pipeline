@@ -36,22 +36,43 @@ def compute_coverage(backbone: Backbone) -> dict[str, dict[str, int]]:
     return coverage
 
 
-def compute_importance_by_period(backbone: Backbone) -> list[dict[str, Any]]:
-    """按 Period（taxonomy 顺序）统计 critical/major/normal/minor Event 数。"""
+def _event_is_batch3(root: Path, backbone: Backbone, event_id: str) -> bool:
+    """provenance：Batch3 新增事件由 review 文件 reviewed_by 标识（data/reviews/accepted/<id>.review.json）。"""
+    review_file = root / "data" / "reviews" / "accepted" / f"{event_id}.review.json"
+    if not review_file.exists():
+        return False
+    try:
+        import json
+        doc = json.loads(review_file.read_text(encoding="utf-8"))
+        return "batch3" in (doc.get("reviewed_by") or "")
+    except Exception:
+        return False
+
+
+def compute_importance_by_period(backbone: Backbone, root: Path | None = None) -> list[dict[str, Any]]:
+    """按 Period（taxonomy 顺序）统计 Event 数：critical/major/normal/minor + New/Reused。
+
+    New = 本批（Batch3）新增（review provenance）；Reused = 该 Period 内既有 Event。
+    （§53：固定区分 New / Reused / Total，不再把新增数量与当前总量混写。）
+    """
     rows: list[dict[str, Any]] = []
     order = [p["id"] for p in backbone.periods]
     by_period: dict[str, dict[str, int]] = {}
     for event in backbone.events:
         period_id = event.get("period_id") or "?"
-        bucket = by_period.setdefault(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0})
+        bucket = by_period.setdefault(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0, "new": 0})
         bucket[event.get("importance", "normal")] = bucket.get(event.get("importance", "normal"), 0) + 1
+        if root is not None and _event_is_batch3(root, backbone, event["id"]):
+            bucket["new"] += 1
     for period_id in order:
-        bucket = by_period.get(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0})
+        bucket = by_period.get(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0, "new": 0})
+        total = bucket["critical"] + bucket["major"] + bucket["normal"] + bucket["minor"]
         rows.append({
             "period_id": period_id,
             "name_zh_cn": next((p["name_zh_cn"] for p in backbone.periods if p["id"] == period_id), period_id),
             **bucket,
-            "total": bucket["critical"] + bucket["major"] + bucket["normal"] + bucket["minor"],
+            "reused": total - bucket["new"],
+            "total": total,
         })
     return rows
 
@@ -62,7 +83,7 @@ def write_backbone_coverage(root: Path, backbone: Backbone | None = None,
         from .loader import load_backbone
         backbone = load_backbone(root)
     coverage = compute_coverage(backbone)
-    importance_rows = compute_importance_by_period(backbone)
+    importance_rows = compute_importance_by_period(backbone, root=root)
     reports_dir = root / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
     json_payload = {
@@ -101,14 +122,14 @@ def write_backbone_coverage(root: Path, backbone: Backbone | None = None,
         "",
         "## 按 Period 的重要性分布",
         "",
-        "| Period | Critical | Major | Normal | Minor | Total |",
-        "| ------ | -------: | ----: | -----: | ----: | ----: |",
+        "| Period | New | Reused | Total | Critical | Major |",
+        "| ------ | --: | -----: | ----: | -------: | ----: |",
     ]
     for row in importance_rows:
         if row["total"] == 0:
             continue
         lines.append(
-            f"| {row['name_zh_cn']} | {row['critical']} | {row['major']} | {row['normal']} | {row['minor']} | {row['total']} |"
+            f"| {row['name_zh_cn']} | {row['new']} | {row['reused']} | {row['total']} | {row['critical']} | {row['major']} |"
         )
     lines += [
         "",

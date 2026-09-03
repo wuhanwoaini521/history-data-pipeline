@@ -75,6 +75,8 @@ def parser() -> argparse.ArgumentParser:
                                    help="按重要性过滤（可重复；默认 critical+major）")
     backbone_timeline.add_argument("--period", type=str, default=None,
                                    help="按 Period id（前缀/子串）或名称过滤，如 --period chunqiu")
+    backbone_timeline.add_argument("--regime", type=str, default=None,
+                                   help="按 Regime id（前缀/子串）或名称过滤，如 --regime former-qin")
     backbone_timeline.add_argument("--json", action="store_true", dest="as_json", help="输出 JSON")
     backbone_qa = backbone_actions.add_parser("qa", help="输出 Backbone 链接 QA 摘要（person/place/evidence 解析状态）")
     backbone_qa.add_argument("--report", action="store_true", help="额外生成 reports/BACKBONE_REVIEW.md（duplicate/granularity/gap）")
@@ -246,7 +248,8 @@ def main(argv: list[str] | None = None) -> int:
 
             backbone = load_backbone(paths.root)
             importance = set(args.importance) if args.importance else None
-            events = filter_timeline(backbone, importance=importance, period_filter=args.period)
+            events = filter_timeline(backbone, importance=importance, period_filter=args.period,
+                                     regime_filter=args.regime)
             records = [timeline_record(ev) for ev in events]
             if args.as_json:
                 print(json.dumps(records, ensure_ascii=False, indent=2, default=str))

@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-guan-yu-bei-fa
+name_zh_cn: 关羽北伐襄樊
+event_type: war
+start_year: 219
+end_year: 219
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建安二十四年（219年）关羽自荆州北伐，围樊城、襄阳，水淹七军擒于禁、斩庞德，"威震华夏"，曹操一度欲迁都避之。关羽北伐是蜀汉势力扩张的顶点，也引发孙权袭荆州的后方危机。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·蜀书·关羽传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-lv-meng-xi-jingzhou
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 关羽主力北上，孙权乘虚袭取荆州
