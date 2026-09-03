@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhizhi-xinzheng
+name_zh_cn: 至治新政（英宗朝改革）
+event_type: reform
+start_year: 1321
+end_year: 1323
+date_precision: range
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至治元年至三年（1321—1323 年），元英宗与拜住推行新政（减冗费、革弊政、整顿吏治），触动既得利益集团，至治三年（1323 年）在南坡事变中被弑，新政中止。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·英宗纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-nanpo-zhi-bian
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 新政触发的政变。

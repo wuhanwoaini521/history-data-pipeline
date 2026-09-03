@@ -41,7 +41,7 @@
   },
   "yuan": {
     "label": "元",
-    "events": 10,
+    "events": 17,
     "stories": 0
   },
   "ming": {
@@ -339,12 +339,12 @@
       "period_id": "period-yuan",
       "name_zh_cn": "元",
       "critical": 1,
-      "major": 9,
+      "major": 16,
       "normal": 0,
       "minor": 0,
       "new": 1,
-      "reused": 9,
-      "total": 10
+      "reused": 16,
+      "total": 17
     },
     {
       "period_id": "period-ming",

@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tuotuo-genghua
+name_zh_cn: 脱脱更化（顺帝朝新政）
+event_type: reform
+start_year: 1340
+end_year: 1344
+date_precision: range
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至元六年（1340 年）伯颜罢黜后，脱脱执政推行新政：恢复科举、开经筵、修辽金宋三史（至正三年至五年，1343—1345 年）等，元末短暂的政治整理期（脱脱更化）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·顺帝纪》《脱脱传》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-boyan-ba-keju
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 伯颜倒台后的政治调整。

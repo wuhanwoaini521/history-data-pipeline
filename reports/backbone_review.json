@@ -146,14 +146,14 @@
       }
     ],
     "event_type_distribution": {
-      "war": 152,
-      "political": 102,
+      "war": 153,
+      "political": 104,
       "dynastic-transition": 41,
-      "reform": 34,
+      "reform": 37,
       "rebellion": 23,
       "political-military": 22,
       "treaty": 11,
-      "economic": 9,
+      "economic": 10,
       "foundation": 9,
       "diplomatic": 7,
       "migration": 6,
