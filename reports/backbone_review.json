@@ -191,13 +191,13 @@
     ],
     "event_type_distribution": {
       "war": 192,
-      "political": 134,
-      "reform": 47,
+      "political": 136,
+      "reform": 50,
       "dynastic-transition": 43,
-      "rebellion": 31,
+      "rebellion": 33,
       "political-military": 22,
       "treaty": 18,
-      "foundation": 17,
+      "foundation": 18,
       "economic": 15,
       "diplomatic": 10,
       "cultural": 7,
@@ -288,14 +288,6 @@
       },
       "gap_years": 182,
       "detail": "相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-republic",
-      "period_name": "中华民国",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-modern",

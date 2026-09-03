@@ -1,0 +1,131 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 甲午与庚子
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-jiawu-zhanzheng
+  name_zh_cn: 甲午战争（中日战争）
+  start_year: 1894
+  end_year: 1895
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jiawu-zhanzheng.review.json
+- id: event-huanghai-haizhan
+  name_zh_cn: 黄海海战（大东沟海战）
+  start_year: 1894
+  end_year: 1894
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huanghai-haizhan.review.json
+- id: event-weihaiwei-zhizhan
+  name_zh_cn: 威海卫之战（北洋海军覆没）
+  start_year: 1895
+  end_year: 1895
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-weihaiwei-zhizhan.review.json
+- id: event-maguan-tiaoyue
+  name_zh_cn: 《马关条约》签订
+  start_year: 1895
+  end_year: 1895
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-maguan-tiaoyue.review.json
+- id: event-gongche-shangshu
+  name_zh_cn: 公车上书
+  start_year: 1895
+  end_year: 1895
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gongche-shangshu.review.json
+- id: event-wuxu-bianfa
+  name_zh_cn: 戊戌变法（百日维新与政变）
+  start_year: 1898
+  end_year: 1898
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wuxu-bianfa.review.json
+- id: event-lieqiang-guafen
+  name_zh_cn: 列强瓜分势力范围（胶州湾等租借）
+  start_year: 1897
+  end_year: 1899
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-lieqiang-guafen.review.json
+- id: event-yihetuan-yundong
+  name_zh_cn: 义和团运动与八国联军战争
+  start_year: 1899
+  end_year: 1901
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yihetuan-yundong.review.json
+- id: event-baguo-lianjun-ru-jing
+  name_zh_cn: 八国联军攻陷北京
+  start_year: 1900
+  end_year: 1900
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-baguo-lianjun-ru-jing.review.json
+- id: event-dongnan-hubao
+  name_zh_cn: 东南互保
+  start_year: 1900
+  end_year: 1900
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dongnan-hubao.review.json
+- id: event-xinchou-tiaoyue
+  name_zh_cn: 《辛丑条约》签订
+  start_year: 1901
+  end_year: 1901
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xinchou-tiaoyue.review.json

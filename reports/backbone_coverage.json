@@ -51,12 +51,12 @@
   },
   "qing": {
     "label": "清",
-    "events": 55,
+    "events": 61,
     "stories": 0
   },
   "modern": {
     "label": "近现代",
-    "events": 0,
+    "events": 2,
     "stories": 0
   },
   "by_period": [
@@ -371,24 +371,24 @@
     {
       "period_id": "period-late-qing",
       "name_zh_cn": "晚清",
-      "critical": 2,
-      "major": 32,
+      "critical": 3,
+      "major": 37,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 34,
-      "total": 34
+      "reused": 40,
+      "total": 40
     },
     {
       "period_id": "period-republic",
       "name_zh_cn": "中华民国",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 1,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 0,
-      "total": 0
+      "reused": 2,
+      "total": 2
     },
     {
       "period_id": "period-modern",

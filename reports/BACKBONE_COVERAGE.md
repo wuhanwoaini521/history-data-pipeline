@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：62
-- Event：558
+- Event：566
 - Story：3
 
 ## 按时期组
@@ -24,8 +24,8 @@
 | 宋辽金夏 | 65 | 0 |
 | 元 | 30 | 0 |
 | 明 | 54 | 0 |
-| 清 | 55 | 0 |
-| 近现代 | 0 | 0 |
+| 清 | 61 | 0 |
+| 近现代 | 2 | 0 |
 
 ## 按 Period 的重要性分布
 
@@ -58,37 +58,15 @@
 | 元 | 1 | 29 | 30 | 2 | 28 |
 | 明 | 0 | 54 | 54 | 7 | 47 |
 | 清 | 0 | 21 | 21 | 2 | 19 |
-| 晚清 | 0 | 34 | 34 | 2 | 32 |
+| 晚清 | 0 | 40 | 40 | 3 | 37 |
+| 中华民国 | 0 | 2 | 2 | 1 | 1 |
 
 ## 缺口提示
 
-- 尚无 Event 的时期组：近现代。
-- 下一阶段（China History Backbone V1）应优先为这些时期组补齐 critical/major Event。
+- 所有时期组已有至少 1 个 Event（部分为迁移样例）。
 
 ## 说明
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
-
-## 最新 Manifest
-
-```json
-{
-  "periods": 31,
-  "regimes": 62,
-  "events": 558,
-  "stories": 3,
-  "story_events": 26,
-  "event_relations": 959,
-  "event_people": 58,
-  "event_places": 26,
-  "event_evidence": 26,
-  "people": 18,
-  "places": 3,
-  "works": 34,
-  "historical_texts": 0,
-  "sources": 7,
-  "entity_source_mapping": 21
-}
-```
 

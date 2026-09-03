@@ -1,0 +1,134 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 鸦片战争与太平天国
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-linzexu-jinyan
+  name_zh_cn: 林则徐广东禁烟与虎门销烟
+  start_year: 1838
+  end_year: 1839
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-linzexu-jinyan.review.json
+- id: event-diyici-yapian-zhanzheng
+  name_zh_cn: 第一次鸦片战争
+  start_year: 1840
+  end_year: 1842
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-diyici-yapian-zhanzheng.review.json
+- id: event-nanjing-tiaoyue
+  name_zh_cn: 《南京条约》签订
+  start_year: 1842
+  end_year: 1842
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanjing-tiaoyue.review.json
+- id: event-taiping-tianguo
+  name_zh_cn: 太平天国运动
+  start_year: 1851
+  end_year: 1864
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  - regime-taiping
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-taiping-tianguo.review.json
+- id: event-jintian-qiyi
+  name_zh_cn: 金田起义（太平天国建立）
+  start_year: 1851
+  end_year: 1851
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-taiping
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jintian-qiyi.review.json
+- id: event-dingdu-tianjing
+  name_zh_cn: 太平军攻占南京、定都天京
+  start_year: 1853
+  end_year: 1853
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-taiping
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dingdu-tianjing.review.json
+- id: event-tianjing-shibian
+  name_zh_cn: 天京事变
+  start_year: 1856
+  end_year: 1856
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-taiping
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tianjing-shibian.review.json
+- id: event-tianjing-xianluo
+  name_zh_cn: 湘军攻陷天京（太平天国结束）
+  start_year: 1864
+  end_year: 1864
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  - regime-taiping
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tianjing-xianluo.review.json
+- id: event-dierci-yapian-zhanzheng
+  name_zh_cn: 第二次鸦片战争（英法联军之役）
+  start_year: 1856
+  end_year: 1860
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dierci-yapian-zhanzheng.review.json
+- id: event-tianjin-tiaoyue
+  name_zh_cn: 《天津条约》签订
+  start_year: 1858
+  end_year: 1858
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tianjin-tiaoyue.review.json
+- id: event-beijing-tiaoyue
+  name_zh_cn: 《北京条约》与英法联军入京
+  start_year: 1860
+  end_year: 1860
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beijing-tiaoyue.review.json

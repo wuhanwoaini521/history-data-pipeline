@@ -1,0 +1,144 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 洋务与边疆
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-yangwu-yundong
+  name_zh_cn: 洋务运动（自强求富）
+  start_year: 1861
+  end_year: 1894
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yangwu-yundong.review.json
+- id: event-jiangnan-zaochu
+  name_zh_cn: 江南制造总局设立
+  start_year: 1865
+  end_year: 1865
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jiangnan-zaochu.review.json
+- id: event-fuzhou-chuanzheng
+  name_zh_cn: 福州船政局设立（马尾船政）
+  start_year: 1866
+  end_year: 1866
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fuzhou-chuanzheng.review.json
+- id: event-lunchuan-zhaoshangju
+  name_zh_cn: 轮船招商局创办
+  start_year: 1872
+  end_year: 1872
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-lunchuan-zhaoshangju.review.json
+- id: event-beiyang-haijun
+  name_zh_cn: 北洋海军成军
+  start_year: 1888
+  end_year: 1888
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beiyang-haijun.review.json
+- id: event-agubo-geju
+  name_zh_cn: 阿古柏割据南疆
+  start_year: 1865
+  end_year: 1877
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-agubo
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-agubo-geju.review.json
+- id: event-zuozongtang-xizheng
+  name_zh_cn: 左宗棠西征收复新疆
+  start_year: 1876
+  end_year: 1878
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  - regime-agubo
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zuozongtang-xizheng.review.json
+- id: event-xinjiang-jiansheng
+  name_zh_cn: 新疆建省
+  start_year: 1884
+  end_year: 1884
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xinjiang-jiansheng.review.json
+- id: event-zhongfa-zhanzheng
+  name_zh_cn: 中法战争（越南与西南）
+  start_year: 1883
+  end_year: 1885
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhongfa-zhanzheng.review.json
+- id: event-mawei-haizhan
+  name_zh_cn: 马尾海战（福建水师覆没）
+  start_year: 1884
+  end_year: 1884
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-mawei-haizhan.review.json
+- id: event-zhennanguan-dajie
+  name_zh_cn: 镇南关大捷与谅山大捷
+  start_year: 1885
+  end_year: 1885
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhennanguan-dajie.review.json
+- id: event-zhongfa-xinyue
+  name_zh_cn: 《中法新约》签订
+  start_year: 1885
+  end_year: 1885
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhongfa-xinyue.review.json

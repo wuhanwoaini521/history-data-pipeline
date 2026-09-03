@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-baolu-yundong
+name_zh_cn: 铁路国有与保路运动（四川）
+event_type: rebellion
+start_year: 1911
+end_year: 1911
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 宣统三年（1911 年）5 月，清廷宣布铁路干线国有政策，收回商办铁路并举借外债，激起川汉、粤汉铁路股东与民众反对，四川保路运动声势浩大，清政府调湖北新军入川镇压，为武昌起义创造了有利时机。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·宣统政纪》相关；《四川保路运动史料》；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-yubei-lixian
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 新政后期经济政策的激化。
+- target_event_id: event-wuchang-qiyi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 湖北新军调离，武昌空虚。

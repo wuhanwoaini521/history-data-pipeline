@@ -1,0 +1,32 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wuchang-qiyi
+name_zh_cn: 武昌起义
+event_type: rebellion
+start_year: 1911
+end_year: 1911
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: critical
+summary_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《辛亥革命回忆录》等当事人记载；《清史稿·宣统本纪》；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-baolu-yundong
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 保路运动牵制清军。
+- target_event_id: event-tongmenghui-chengli
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 同盟会多年起义组织的结果。
+- target_event_id: event-nanjing-linshi-zhengfu
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 各省响应后在南京建立临时政府。

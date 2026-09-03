@@ -1,0 +1,157 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 1 清入关与统一
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-huangtaiji-jiwei
+  name_zh_cn: 皇太极即后金汗位
+  start_year: 1626
+  end_year: 1626
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-houjin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huangtaiji-jiwei.review.json
+- id: event-gaiguohao-qing
+  name_zh_cn: 改国号大清（皇太极称帝）
+  start_year: 1636
+  end_year: 1636
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaiguohao-qing.review.json
+- id: event-songjin-zhizhan
+  name_zh_cn: 松锦之战（明清辽西决战）
+  start_year: 1640
+  end_year: 1642
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-qing
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-songjin-zhizhan.review.json
+- id: event-qingjun-ru-guan
+  name_zh_cn: 清军入关、定鼎北京（山海关之战）
+  start_year: 1644
+  end_year: 1644
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-qingjun-ru-guan.review.json
+- id: event-tifa-yifu
+  name_zh_cn: 清廷推行剃发易服令
+  start_year: 1645
+  end_year: 1645
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tifa-yifu.review.json
+- id: event-nanming-hongguang
+  name_zh_cn: 南明弘光政权建立
+  start_year: 1644
+  end_year: 1645
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-nanming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanming-hongguang.review.json
+- id: event-qing-nanxia-jiangnan
+  name_zh_cn: 清军南下、扬州之战与南京失守
+  start_year: 1645
+  end_year: 1645
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  - regime-nanming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qing-nanxia-jiangnan.review.json
+- id: event-nanming-longwu-yongli
+  name_zh_cn: 南明隆武、永历政权（至南明灭亡）
+  start_year: 1645
+  end_year: 1662
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-nanming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanming-longwu-yongli.review.json
+- id: event-zhengchenggong-qu-taiwan
+  name_zh_cn: 郑成功攻取台湾
+  start_year: 1661
+  end_year: 1662
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-nanming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhengchenggong-qu-taiwan.review.json
+- id: event-sanfan-xingcheng
+  name_zh_cn: 三藩局面形成（吴三桂等镇守南疆）
+  start_year: 1662
+  end_year: 1673
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-sanfan-xingcheng.review.json
+- id: event-qing-tongyi-taiwan
+  name_zh_cn: 清统一台湾（澎湖海战、郑氏投降）
+  start_year: 1683
+  end_year: 1683
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  - regime-nanming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qing-tongyi-taiwan.review.json
+- id: event-yaquesha-zhizhan
+  name_zh_cn: 雅克萨之战
+  start_year: 1685
+  end_year: 1686
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yaquesha-zhizhan.review.json
+- id: event-nibuchu-tiaoyue
+  name_zh_cn: 中俄尼布楚条约
+  start_year: 1689
+  end_year: 1689
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nibuchu-tiaoyue.review.json

@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tongmenghui-chengli
+name_zh_cn: 中国同盟会成立（东京）
+event_type: political
+start_year: 1905
+end_year: 1905
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪三十一年（1905 年）8 月，孙中山在日本东京联合兴中会、华兴会、光复会等成立中国同盟会，提出"驱除鞑虏，恢复中华，创立民国，平均地权"纲领，出版《民报》，革命运动有了全国性组织与纲领。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：同盟会档案（《中国同盟会革命史料》）；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-qingmo-xinzheng
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 新政时期革命组织迅速发展。
+- target_event_id: event-wuchang-qiyi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 同盟会组织发动起义，最终武昌首义。

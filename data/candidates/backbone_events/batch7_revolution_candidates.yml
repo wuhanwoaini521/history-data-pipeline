@@ -1,0 +1,99 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 6 清末新政与辛亥革命
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-qingmo-xinzheng
+  name_zh_cn: 清末新政（庚子后改革）
+  start_year: 1901
+  end_year: 1905
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qingmo-xinzheng.review.json
+- id: event-tongmenghui-chengli
+  name_zh_cn: 中国同盟会成立（东京）
+  start_year: 1905
+  end_year: 1905
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tongmenghui-chengli.review.json
+- id: event-feichu-keju
+  name_zh_cn: 废除科举制
+  start_year: 1905
+  end_year: 1905
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-feichu-keju.review.json
+- id: event-yubei-lixian
+  name_zh_cn: 预备立宪
+  start_year: 1906
+  end_year: 1911
+  date_precision: range
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yubei-lixian.review.json
+- id: event-baolu-yundong
+  name_zh_cn: 铁路国有与保路运动（四川）
+  start_year: 1911
+  end_year: 1911
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-baolu-yundong.review.json
+- id: event-wuchang-qiyi
+  name_zh_cn: 武昌起义
+  start_year: 1911
+  end_year: 1911
+  date_precision: year
+  period_id: period-late-qing
+  regime_ids:
+  - regime-qing
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-wuchang-qiyi.review.json
+- id: event-nanjing-linshi-zhengfu
+  name_zh_cn: 中华民国临时政府成立（孙中山任临时大总统）
+  start_year: 1912
+  end_year: 1912
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanjing-linshi-zhengfu.review.json
+- id: event-qingdi-tuiwei
+  name_zh_cn: 南北议和与清帝退位（清朝结束）
+  start_year: 1912
+  end_year: 1912
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-qing
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-qingdi-tuiwei.review.json

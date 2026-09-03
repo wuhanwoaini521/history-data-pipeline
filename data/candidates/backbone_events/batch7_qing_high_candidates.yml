@@ -1,0 +1,131 @@
+# China History Backbone V1 · Batch 7 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 清前中期
+compiled_from: AI 依据《清史稿》《清实录》《筹办夷务始末》《太平天国文书汇编》《中法越南交涉资料》《义和团档案史料》《辛亥革命》资料丛刊及现代清史/近代史研究整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-houjin-jianguo（1616 后金建立）
+- event-lizicheng-gong-beijing（1644 明亡）
+candidates:
+- id: event-sanfan-zhi-luan
+  name_zh_cn: 三藩之乱与平定
+  start_year: 1673
+  end_year: 1681
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-sanfan-zhi-luan.review.json
+- id: event-kangxi-zheng-galdan
+  name_zh_cn: 康熙亲征噶尔丹（准噶尔战争）
+  start_year: 1690
+  end_year: 1697
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-kangxi-zheng-galdan.review.json
+- id: event-yongzheng-jiwei
+  name_zh_cn: 雍正帝即位
+  start_year: 1722
+  end_year: 1722
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yongzheng-jiwei.review.json
+- id: event-tanding-rumu
+  name_zh_cn: 摊丁入亩与耗羡归公（雍正财政改革）
+  start_year: 1723
+  end_year: 1729
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tanding-rumu.review.json
+- id: event-gaituguiliu
+  name_zh_cn: 改土归流（雍正朝西南改流）
+  start_year: 1726
+  end_year: 1731
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaituguiliu.review.json
+- id: event-junjichu
+  name_zh_cn: 军机处设立
+  start_year: 1729
+  end_year: 1732
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-junjichu.review.json
+- id: event-qianlong-ping-jun
+  name_zh_cn: 乾隆平定准噶尔、统一新疆
+  start_year: 1755
+  end_year: 1759
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qianlong-ping-jun.review.json
+- id: event-tuerhute-donggui
+  name_zh_cn: 土尔扈特部东归
+  start_year: 1771
+  end_year: 1771
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tuerhute-donggui.review.json
+- id: event-siku-quanshu
+  name_zh_cn: 《四库全书》编纂
+  start_year: 1773
+  end_year: 1782
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-siku-quanshu.review.json
+- id: event-macartney-shi-tuan
+  name_zh_cn: 马戛尔尼使团来华
+  start_year: 1793
+  end_year: 1793
+  date_precision: year
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-macartney-shi-tuan.review.json
+- id: event-bailianjiao-qiyi
+  name_zh_cn: 川楚白莲教起义
+  start_year: 1796
+  end_year: 1804
+  date_precision: range
+  period_id: period-qing
+  regime_ids:
+  - regime-qing
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-bailianjiao-qiyi.review.json
