@@ -1,12 +1,23 @@
 .venv/
 **/__pycache__/
 .pytest_cache/
+*.pyc
+*.egg-info/
+
+# Layer 1：Raw / Staging 不入 Git（大数据集通过 manifest + download script 重建）
 data/raw/
-data/logs/
-data/staging/normalized.building/
 data/staging/
+
+# Legacy 构建产物（Layer 4 现在是 dist/）
 data/normalized/
 data/exports/
 data/reports/
-/reports/
+data/logs/
+
+# Layer 4：Build Artifact（不可手动编辑；由 history-data backbone build 生成）
+dist/
+!dist/.gitkeep
+
+# 生成型零散产物
 *.part
+reports/*.tmp

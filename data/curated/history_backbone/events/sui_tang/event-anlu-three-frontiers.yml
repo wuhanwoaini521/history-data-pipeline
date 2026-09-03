@@ -1,0 +1,75 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-three-frontiers
+name_zh_cn: 安禄山兼领三镇
+event_type: political-military
+start_year: 751
+end_year: 751
+date_precision: year
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 安禄山掌握多个北方边镇，个人军事资源显著扩大。
+result_zh_cn: 安禄山集团成为唐廷北方重要军事力量。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-19244
+  person_name_raw: 李隆基（唐玄宗）
+  role: ruler
+  role_zh_cn: 唐玄宗
+  side: 唐廷
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-379873
+  person_name_raw: 安禄山
+  role: commander
+  role_zh_cn: 边镇军事长官
+  side: 安禄山集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-31221
+  person_name_raw: 杨国忠
+  role: official
+  role_zh_cn: 朝廷权臣
+  side: 唐廷
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 范阳
+  role: 军事基地
+  sequence: 1
+  description_zh_cn: 候选邺郡与范阳名称不一致，QA 将其拒绝并保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 候选邺郡与范阳名称不一致，QA 将其拒绝并保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-01256ac6603fa0d89381
+  work: 旧唐书
+  term: 禄山
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-anlu-uprising
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 边镇力量扩张与中央矛盾发展为安禄山起兵。

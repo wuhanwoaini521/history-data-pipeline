@@ -1,0 +1,71 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-pacification
+name_zh_cn: 安史之乱平定
+event_type: political-military
+start_year: 763
+end_year: 763
+date_precision: year
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 唐廷最终平定安史叛乱。
+result_zh_cn: 唐朝延续但中央权威下降，藩镇问题加剧。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-94373
+  person_name_raw: 郭子仪
+  role: commander
+  role_zh_cn: 唐军主要将领
+  side: 唐军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-32814
+  person_name_raw: 史思明
+  role: opponent
+  role_zh_cn: 叛军首领
+  side: 叛军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-19244
+  person_name_raw: 李隆基（唐玄宗）
+  role: predecessor
+  role_zh_cn: 唐玄宗
+  side: 唐廷
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 邺郡
+  role: 战争区域
+  sequence: 1
+  description_zh_cn: 候选邺郡记录有效至757年，与763年事件冲突，QA 将其拒绝并保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 候选邺郡记录有效至757年，与763年事件冲突，QA 将其拒绝并保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-03f66d1143294a7c837c
+  work: 旧唐书
+  term: 思明
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations: []

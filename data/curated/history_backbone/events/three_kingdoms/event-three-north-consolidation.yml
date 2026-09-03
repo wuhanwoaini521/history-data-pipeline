@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-north-consolidation
+name_zh_cn: 曹操北方势力巩固
+event_type: political-military
+start_year: 200
+end_year: 207
+date_precision: range
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 官渡之后曹操集团继续巩固北方控制力。
+result_zh_cn: 北方形成相对集中的军事政治力量。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: ruler
+  role_zh_cn: 北方势力领导者
+  side: 曹操集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-135152
+  person_name_raw: 袁绍
+  role: opponent
+  role_zh_cn: 主要对手
+  side: 袁绍集团
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 邺
+  role: 政治中心
+  sequence: 1
+  description_zh_cn: 现有同名记录与事件定位仍需复核。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有同名记录与事件定位仍需复核。
+evidence:
+- historical_text_id: text-niutrans-0019afc7ba67932eee5b
+  work: 三国志
+  term: 曹操
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-jingzhou-change
+  relation_type: leads_to
+  confidence: 0.75
+  description_zh_cn: 北方力量南下使荆州成为争夺焦点。

@@ -21,6 +21,13 @@ from .stats import write_reports
 from .validation import validate_database
 
 
+def _resolved_database(paths) -> Path:
+    """查询入口默认使用 Layer 4 产物（dist/）；回退到 legacy data/normalized。"""
+    if paths.dist_database.exists():
+        return paths.dist_database
+    return paths.database
+
+
 def parser() -> argparse.ArgumentParser:
     root = argparse.ArgumentParser(prog="history-data", description="中国历史离线数据仓库管线")
     root.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[2], help="history-data-pipeline 目录")
@@ -50,6 +57,19 @@ def parser() -> argparse.ArgumentParser:
     query.add_argument("--events", action="store_true", help="Story 查询返回有序事件")
     query.add_argument("--people", action="store_true", help="Event 查询返回人物")
     query.add_argument("--texts", action="store_true", help="Event 查询返回 HistoricalText")
+    query.add_argument("--database", type=Path, default=None, help="显式指定 DuckDB（默认 dist/history.duckdb，回退 data/normalized）")
+    backbone = commands.add_parser("backbone", help="History Backbone（Layer 3）命令：validate/migrate/build/coverage/qa")
+    backbone.add_argument("--knowledge", type=Path, default=None, help="reference resolution 使用的 Knowledge Store DuckDB（默认 data/normalized/history.duckdb）")
+    backbone.add_argument("--bb-root", type=Path, default=None, dest="backbone_root", help="覆盖 root 路径（仅 backbone 子命令）")
+    backbone_actions = backbone.add_subparsers(dest="backbone_action", required=True)
+    backbone_validate = backbone_actions.add_parser("validate", help="校验 Curated History Backbone")
+    backbone_validate.add_argument("--json", action="store_true", dest="as_json", help="输出 JSON")
+    backbone_migrate = backbone_actions.add_parser("migrate", help="迁移 legacy data/curated/stories.yml 到 history_backbone")
+    backbone_migrate.add_argument("--dry-run", action="store_true", help="只报告不写文件")
+    backbone_build = backbone_actions.add_parser("build", help="构建 dist/history.duckdb + manifest + 导出")
+    backbone_build.add_argument("--skip-exports", action="store_true", help="跳过 parquet/json 导出")
+    backbone_actions.add_parser("coverage", help="生成 reports/BACKBONE_COVERAGE.md")
+    backbone_actions.add_parser("qa", help="输出 Backbone 链接 QA 摘要（person/place/evidence 解析状态）")
     return root
 
 
@@ -146,10 +166,72 @@ def main(argv: list[str] | None = None) -> int:
         write_reports(records, paths.reports)
         print(paths.database)
         return 0
-    if not paths.database.exists():
-        raise SystemExit(f"数据库不存在，请先运行 build --from-staging: {paths.database}")
+    if args.command == "backbone":
+        from .backbone.build import build_backbone
+        from .backbone.coverage import write_backbone_coverage
+        from .backbone.loader import load_backbone
+        from .backbone.migrate import migrate_legacy_curated
+        from .backbone.reference import resolve_references
+        from .backbone.validate import validate_backbone
+        if args.backbone_root:
+            paths = PipelinePaths(args.backbone_root)
+        knowledge_db = args.knowledge
+        if knowledge_db is None:
+            knowledge_db = paths.database
+        payload = {"counts": None, "result": None, "errors": None, "report": None}
+        if args.backbone_action == "validate":
+            backbone = load_backbone(paths.root)
+            errors = validate_backbone(backbone, paths.root)
+            result = resolve_references(backbone, knowledge_db)
+            payload = {
+                "ok": not errors, "errors": errors,
+                "counts": {"periods": len(backbone.periods), "regimes": len(backbone.regimes),
+                            "events": len(backbone.events), "stories": len(backbone.stories)},
+                "reference": {"persons": result.persons, "places": result.places,
+                               "evidences": result.evidences},
+                "knowledge_available": result.knowledge_available,
+            }
+            if getattr(args, "as_json", False):
+                print(json.dumps(payload, ensure_ascii=False, indent=2))
+            else:
+                print(f"Backbone: periods={len(backbone.periods)} regimes={len(backbone.regimes)} "
+                      f"events={len(backbone.events)} stories={len(backbone.stories)}")
+                if errors:
+                    print("\n".join(errors), file=sys.stderr)
+                    return 1
+                print("Validation OK")
+            return 0
+        if args.backbone_action == "migrate":
+            stats = migrate_legacy_curated(paths, dry_run=args.dry_run)
+            print(json.dumps(stats, ensure_ascii=False, indent=2, default=str))
+            return 0
+        if args.backbone_action == "build":
+            manifest = build_backbone(paths, knowledge_db=knowledge_db)
+            write_backbone_coverage(paths.root, manifest=manifest)
+            print(json.dumps(manifest, ensure_ascii=False, indent=2, default=str))
+            print(f"dist: {paths.dist_database}")
+            return 0
+        if args.backbone_action == "coverage":
+            backbone = load_backbone(paths.root)
+            report = write_backbone_coverage(paths.root, backbone)
+            print(report)
+            return 0
+        if args.backbone_action == "qa":
+            backbone = load_backbone(paths.root)
+            errors = validate_backbone(backbone, paths.root)
+            result = resolve_references(backbone, knowledge_db)
+            print(json.dumps({"errors": errors,
+                              "reference": {"persons": result.persons, "places": result.places,
+                                             "evidences": result.evidences, "broken": result.broken,
+                                             "pending": result.pending}},
+                             ensure_ascii=False, indent=2))
+            return 0
+    if not paths.database.exists() and args.command in ("query", "validate", "stats", "export"):
+        if not paths.dist_database.exists():
+            raise SystemExit(f"数据库不存在，请先运行 build --from-staging 或 backbone build: {paths.database}")
     if args.command == "query":
-        service = HistoryQueryService(paths.database)
+        database = args.database or _resolved_database(paths)
+        service = HistoryQueryService(database)
         if args.kind == "person":
             if not args.query:
                 raise SystemExit("query person 需要名称")

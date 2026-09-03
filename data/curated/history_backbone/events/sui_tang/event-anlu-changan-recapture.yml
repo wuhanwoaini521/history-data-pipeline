@@ -1,0 +1,75 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-changan-recapture
+name_zh_cn: 唐军收复长安
+event_type: war
+start_year: 757
+end_year: 757
+date_precision: year
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 唐军在郭子仪等将领组织下展开反攻并收复长安。
+result_zh_cn: 唐廷重新取得都城，但战争并未结束。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-94373
+  person_name_raw: 郭子仪
+  role: commander
+  role_zh_cn: 唐军主要将领
+  side: 唐军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-146097
+  person_name_raw: 李光弼
+  role: commander
+  role_zh_cn: 唐军将领
+  side: 唐军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-379873
+  person_name_raw: 安禄山
+  role: opponent
+  role_zh_cn: 叛军首领
+  side: 叛军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 长安
+  role: 收复目标
+  sequence: 1
+  description_zh_cn: 仍保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 仍保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-00bc403762ac547a8da8
+  work: 资治通鉴
+  term: 郭子仪
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-anlu-shi-siming
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 安禄山集团变化后史思明继续发动叛乱。

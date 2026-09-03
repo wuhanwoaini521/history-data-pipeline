@@ -1,0 +1,43 @@
+# 数据源声明（Layer 1 入口）
+# 只列官方入口，不写具体版本文件 URL（下载时动态解析，最终 URL/校验和写入
+# data/raw/<dataset>/<version>/metadata.json）。
+
+sources:
+  cbdb:
+    official_page: https://github.com/cbdb-project/cbdb_sqlite
+    latest_metadata: https://github.com/cbdb-project/cbdb_sqlite/raw/refs/heads/master/latest.json
+    license_ref: metadata/licenses.yml#cbdb
+    purpose: 人物、籍贯、官职、人物关系
+  ctext:
+    official_page: https://ctext.org/tools/linked-open-data
+    file_pattern: ctext_datawiki-*.ttl.zip
+    license_ref: metadata/licenses.yml#ctext
+    purpose: 实体、古籍、地点、关系
+  classical-modern:
+    repository: https://github.com/NiuTrans/Classical-Modern
+    license_ref: metadata/licenses.yml#classical-modern
+    purpose: 古文/现代文平行语料（HistoricalText 原文+译文）
+  chgis:
+    download_page: https://yugong.fudan.edu.cn/CHGIS/sjxz.htm
+    license_page: https://yugong.fudan.edu.cn/CHGIS/bqsm.htm
+    mode: manual_import_only
+    license_ref: metadata/licenses.yml#chgis
+    purpose: 历史行政区与地点（受许可约束，仅手动导入）
+  wikipedia:
+    official_page: https://dumps.wikimedia.org/zhwiki/latest/
+    file_pattern: "*-latest-pages-articles-multistream.xml.bz2"
+    license_ref: metadata/licenses.yml#wikipedia
+    purpose: 现代介绍候选（不作为原始史料）
+  wikisource:
+    official_page: https://dumps.wikimedia.org/zhwikisource/latest/
+    file_pattern: "*-latest-pages-articles-multistream.xml.bz2"
+    license_ref: metadata/licenses.yml#wikisource
+    purpose: 原始史料候选（不作为直接覆盖 original_text 的数据源）
+
+# 本仓库自身产出
+curated:
+  history_backbone:
+    location: data/curated/history_backbone/
+    source_type: curated_reference
+    license_ref: metadata/licenses.yml#curated
+    purpose: 中国历史主干 Source of Truth（Period/Regime/Event/Story）

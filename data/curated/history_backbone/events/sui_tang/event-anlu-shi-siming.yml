@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-shi-siming
+name_zh_cn: 史思明再叛
+event_type: rebellion
+start_year: 759
+end_year: 761
+date_precision: range
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 安禄山死后，史思明重新发动叛乱，战争延续。
+result_zh_cn: 叛乱从安禄山集团转入史思明主导的阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-32814
+  person_name_raw: 史思明
+  role: commander
+  role_zh_cn: 叛军首领
+  side: 叛军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-94373
+  person_name_raw: 郭子仪
+  role: commander
+  role_zh_cn: 唐军将领
+  side: 唐军
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 邺郡
+  role: 叛军活动区域
+  sequence: 1
+  description_zh_cn: 候选邺郡记录有效至757年，与759—761年事件不完全重叠，QA 将其拒绝并保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 候选邺郡记录有效至757年，与759—761年事件不完全重叠，QA 将其拒绝并保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-002fe8511a405d905c84
+  work: 资治通鉴
+  term: 史思明
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-anlu-pacification
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 史思明阶段结束后安史之乱最终平定。

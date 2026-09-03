@@ -1,0 +1,55 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-julu
+name_zh_cn: 巨鹿之战
+event_type: war
+start_year: -207
+end_year: -207
+date_precision: year
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 反秦战争中的关键战役节点。
+result_zh_cn: 秦军主力受挫，项羽声势上升。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: participant
+  role_zh_cn: 反秦阵营人物
+  side: 汉军前身
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 巨鹿
+  role: 战场
+  sequence: 1
+  description_zh_cn: 现有 Place 表未找到可安全复用的战国秦末巨鹿记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有 Place 表未找到可安全复用的战国秦末巨鹿记录。
+evidence:
+- historical_text_id: text-niutrans-0ad035d6f9e6e67dd80c
+  work: 史记
+  term: 巨鹿
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-chuhan-qin-fall
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 巨鹿之后秦政权进入终局。

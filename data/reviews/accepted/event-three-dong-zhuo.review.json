@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "event_id": "event-three-dong-zhuo",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T06:49:51.984342Z",
+  "reviewed_by": "history-data backbone migrate (legacy semantic v1 QA)",
+  "decision": "accepted_from_legacy_qa",
+  "source": "source-curated-semantic-v1",
+  "people": [
+    {
+      "person_id": "cbdb-person-30257",
+      "person_name_raw": "曹操",
+      "link_status": "linked"
+    },
+    {
+      "person_id": "cbdb-person-135353",
+      "person_name_raw": "刘备",
+      "link_status": "linked"
+    }
+  ],
+  "places": [
+    {
+      "place_id": null,
+      "place_name_raw": "洛阳",
+      "link_status": "needs_linking"
+    }
+  ],
+  "evidence": [
+    {
+      "historical_text_id": "text-niutrans-00239f408e357cbdedb0",
+      "work": "资治通鉴",
+      "term": "董卓",
+      "link_status": "pending_knowledge"
+    }
+  ],
+  "note": "迁移自 legacy Semantic Layer V1 的 QA 结论；不建议直接删除原始 stories.yml。"
+}

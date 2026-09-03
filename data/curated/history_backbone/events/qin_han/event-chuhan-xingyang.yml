@@ -1,0 +1,69 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-xingyang
+name_zh_cn: 荥阳对峙
+event_type: war
+start_year: -205
+end_year: -203
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 楚汉双方在荥阳、成皋一线长期相持。
+result_zh_cn: 双方力量消耗，战争进入决定性阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 汉军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-22437
+  person_name_raw: 韩信
+  role: strategist
+  role_zh_cn: 汉军重要将领
+  side: 汉军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 荥阳
+  role: 对峙区域
+  sequence: 1
+  description_zh_cn: 现有 Place 表未找到可安全复用的秦汉时期对应记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有 Place 表未找到可安全复用的秦汉时期对应记录。
+evidence:
+- historical_text_id: text-niutrans-2424c030d1a8c400cd23
+  work: 资治通鉴
+  term: 荥阳
+  chapter_hint: 汉纪
+  context_keywords:
+  - 荥阳
+  - 汉王
+  - 项王
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids:
+  - text-niutrans-0220c15301a44aa90542
+relations:
+- target_event_id: event-chuhan-gaixia
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 荥阳对峙和力量消耗最终引向垓下决战。

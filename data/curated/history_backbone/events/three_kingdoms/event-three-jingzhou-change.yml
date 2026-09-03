@@ -1,0 +1,75 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-jingzhou-change
+name_zh_cn: 荆州局势变化
+event_type: political-military
+start_year: 208
+end_year: 208
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 北方势力南下后，荆州成为多方竞争的关键区域。
+result_zh_cn: 孙刘双方的合作基础形成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: commander
+  role_zh_cn: 南下势力领导者
+  side: 曹操集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-135353
+  person_name_raw: 刘备
+  role: ruler
+  role_zh_cn: 地方势力领导者
+  side: 刘备集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-20609
+  person_name_raw: 孙权
+  role: ruler
+  role_zh_cn: 江东势力领导者
+  side: 东吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 荆州
+  role: 争夺区域
+  sequence: 1
+  description_zh_cn: 候选荆州记录的有效年代与208年冲突，QA 将其拒绝并保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 候选荆州记录的有效年代与208年冲突，QA 将其拒绝并保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-02385e447e12e9be29e7
+  work: 三国志
+  term: 荆州
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-sun-liu-alliance
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 荆州局势变化推动孙刘军事合作。

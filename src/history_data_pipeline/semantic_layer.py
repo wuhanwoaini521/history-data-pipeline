@@ -1,7 +1,12 @@
 """构建 History Semantic Layer V1。
 
-本模块只写入正式 DuckDB 的语义层表和 Review 表；不会触碰 Raw 或 Staging。
-所有需要人工整理的语义事实来自 data/curated，并带有 curated_reference 来源。
+[LEGACY / DEPRECATED] 本模块属于旧 Semantic Layer V1，已被 History Backbone
+（src/history_data_pipeline/backbone/ + data/curated/history_backbone/）取代。
+保留仅用于审计与平滑迁移；新数据以 `history-data backbone *` 命令为准。
+
+旧行为：写入 data/normalized/history.duckdb 的语义层表和 Review 表；
+不会触碰 Raw 或 Staging。所有需要人工整理的语义事实来自 data/curated，
+并带有 curated_reference 来源。
 """
 
 from __future__ import annotations

@@ -1,0 +1,71 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-regime-formation
+name_zh_cn: 三国鼎立格局逐渐形成
+event_type: political
+start_year: 220
+end_year: 229
+date_precision: range
+period_id: period-three-kingdoms
+regime_ids: []
+importance: major
+summary_zh_cn: 曹魏、蜀汉、东吴政权相继确立，三方并立格局成形。
+result_zh_cn: 三国时期的政权结构稳定下来。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: predecessor
+  role_zh_cn: 曹魏政权前身领导者
+  side: 曹魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-135353
+  person_name_raw: 刘备
+  role: founder
+  role_zh_cn: 蜀汉政权建立者
+  side: 蜀汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-20609
+  person_name_raw: 孙权
+  role: founder
+  role_zh_cn: 东吴政权建立者
+  side: 东吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 建业
+  role: 政权中心
+  sequence: 1
+  description_zh_cn: 暂未可靠匹配 Place。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 暂未可靠匹配 Place。
+evidence:
+- historical_text_id: text-niutrans-00942895b49e702cb324
+  work: 三国志
+  term: 黄初
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations: []

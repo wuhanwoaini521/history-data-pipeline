@@ -1,0 +1,55 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-qin-fall
+name_zh_cn: 秦朝灭亡
+event_type: political
+start_year: -206
+end_year: -206
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 秦政权在反秦战争中结束。
+result_zh_cn: 关中旧政权结束，诸侯进入重新分配天下的阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: participant
+  role_zh_cn: 进入关中的势力领导者
+  side: 刘邦集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 咸阳
+  role: 政治中心
+  sequence: 1
+  description_zh_cn: 现有 Place 表未找到可安全复用的对应记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有 Place 表未找到可安全复用的对应记录。
+evidence:
+- historical_text_id: text-niutrans-0193bf35e69830de4662
+  work: 史记
+  term: 子婴
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-hongmen
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 秦亡后诸侯重新分配天下，鸿门宴发生。

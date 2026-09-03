@@ -1,0 +1,20 @@
+version: backbone-taxonomy-v1
+source_type: curated_reference
+event_types:
+  - {id: war, name_zh_cn: 战争战役, description_zh_cn: 战役、会战、攻防等军事行动节点。}
+  - {id: rebellion, name_zh_cn: 起义叛乱, description_zh_cn: 民变、兵变、叛乱等。}
+  - {id: political, name_zh_cn: 政治事件, description_zh_cn: 皇位更迭、政变、权争、宫斗等。}
+  - {id: political-military, name_zh_cn: 军政事件, description_zh_cn: 兼具政治与军事属性的复合节点。}
+  - {id: alliance, name_zh_cn: 结盟外交, description_zh_cn: 结盟、和亲、外交行为。}
+  - {id: dynastic-transition, name_zh_cn: 王朝更替, description_zh_cn: 朝代/政权建立、灭亡、统一等节点。}
+  - {id: unification, name_zh_cn: 统一, description_zh_cn: 结束分裂、完成统一的重要节点。}
+  - {id: reform, name_zh_cn: 改革变法, description_zh_cn: 制度、经济、军事等重大改革。}
+  - {id: succession, name_zh_cn: 继承更替, description_zh_cn: 皇位/君位继承与权力交接。}
+  - {id: treaty, name_zh_cn: 和约盟誓, description_zh_cn: 停战、和议、盟约。}
+  - {id: diplomatic, name_zh_cn: 外交, description_zh_cn: 出使、朝贡、外交往来。}
+  - {id: economic, name_zh_cn: 经济, description_zh_cn: 币制、税制、贸易等经济事件。}
+  - {id: cultural, name_zh_cn: 文化, description_zh_cn: 典籍、思想、艺术、教育等文化事件。}
+  - {id: disaster, name_zh_cn: 灾害, description_zh_cn: 天灾、瘟疫、饥荒。}
+  - {id: migration, name_zh_cn: 迁徙, description_zh_cn: 人口/民族/政权重心的大规模迁徙。}
+  - {id: foundation, name_zh_cn: 建立, description_zh_cn: 机构、都城、政权的建立。}
+  - {id: other, name_zh_cn: 其他, description_zh_cn: 未落入上述类型的事件节点。}

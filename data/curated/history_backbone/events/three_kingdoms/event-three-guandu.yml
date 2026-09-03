@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-guandu
+name_zh_cn: 官渡之战
+event_type: war
+start_year: 200
+end_year: 200
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 曹操与袁绍争夺北方主导权的关键战役。
+result_zh_cn: 曹操取得优势，北方统一进程加速。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 曹操集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-135152
+  person_name_raw: 袁绍
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 袁绍集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 官渡
+  role: 战场
+  sequence: 1
+  description_zh_cn: 现有同名 Place 的有效年代不匹配，保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有同名 Place 的有效年代不匹配，保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-2d9290ecab76e5fa9242
+  work: 资治通鉴
+  term: 官渡
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-north-consolidation
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 官渡后曹操集团继续巩固北方。

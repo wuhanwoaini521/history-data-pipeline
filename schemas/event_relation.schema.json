@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/event_relation.schema.json",
+  "title": "EventRelation",
+  "description": "事件关系。第一版只允许八类关系；precedes 是时间先后，不等于 causes。",
+  "type": "object",
+  "required": ["source_event_id", "target_event_id", "relation_type"],
+  "properties": {
+    "source_event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "target_event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "relation_type": { "enum": ["precedes", "follows", "causes", "caused_by", "leads_to", "contributes_to", "part_of", "related_to"] },
+    "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "description_zh_cn": { "type": ["string", "null"] },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_id": { "type": ["string", "null"] },
+    "source_ids": { "type": ["array", "null"], "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

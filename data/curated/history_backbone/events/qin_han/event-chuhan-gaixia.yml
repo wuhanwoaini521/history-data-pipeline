@@ -1,0 +1,75 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-gaixia
+name_zh_cn: 垓下之战
+event_type: war
+start_year: -202
+end_year: -202
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 楚汉战争的决定性战役。
+result_zh_cn: 楚军败退，楚汉争霸的军事结局确定。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: commander
+  role_zh_cn: 汉军领导者
+  side: 汉军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-22437
+  person_name_raw: 韩信
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 汉军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: ctext-person-664414
+  person_name_raw: 彭越
+  role: participant
+  role_zh_cn: 汉军将领
+  side: 汉军
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 垓下
+  role: 决战地点
+  sequence: 1
+  description_zh_cn: 现有 Place 表未找到可安全复用的对应记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有 Place 表未找到可安全复用的对应记录。
+evidence:
+- historical_text_id: text-niutrans-73a8fb83804e9664fd5e
+  work: 资治通鉴
+  term: 垓下
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-chuhan-han-foundation
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 垓下战败后汉政权建立。

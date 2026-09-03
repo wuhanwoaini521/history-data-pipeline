@@ -1,0 +1,53 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# Story 顺序属于 curated editorial layer，允许人工整理。
+id: story-chu-han
+title_zh_cn: 楚汉争霸
+start_year: -209
+end_year: -202
+story_type: political-military
+importance: major
+period_id: period-western-han
+summary_zh_cn: 从秦末战争、楚汉相持到刘邦建立汉朝的事件链。
+background_zh_cn: 秦末政治秩序崩解后，刘邦与项羽等力量争夺天下。
+result_zh_cn: 垓下战败后楚势力退出竞争，刘邦建立汉朝。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；顺序为 curated editorial
+  layer
+events:
+- event_id: event-chuhan-qin-revolt
+  sequence: 1
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-julu
+  sequence: 2
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-qin-fall
+  sequence: 3
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-hongmen
+  sequence: 4
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-pengcheng
+  sequence: 5
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-xingyang
+  sequence: 6
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-gaixia
+  sequence: 7
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-han-foundation
+  sequence: 8
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-chuhan-later
+  sequence: 9
+  importance: normal
+  transition_text_zh_cn: null

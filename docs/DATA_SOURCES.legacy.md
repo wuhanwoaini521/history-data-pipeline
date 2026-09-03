@@ -1,3 +1,7 @@
+# LEGACY DOC（deprecated）
+
+> 本文档描述旧 V1 管线（Source→Raw→Staging→Normalize→…→Export 与旧 Semantic Layer）。已由 `docs/ARCHITECTURE.md`、`docs/DATA_MODEL.md`、`docs/HISTORY_BACKBONE.md` 等新文档取代。保留仅用于审计。
+
 # DATA_SOURCES
 
 本表区分“官方入口已核验”和“本 checkout 已实际下载”。具体版本 URL 不写入代码：CBDB、CText、Wikimedia 和 NiuTrans 均在运行时动态解析。每个成功快照的最终 URL、大小、SHA-256 和检索时间以 `data/raw/<dataset>/<version>/metadata.json` 为准。

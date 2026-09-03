@@ -1,0 +1,62 @@
+{
+  "pre_qin": {
+    "label": "夏商周",
+    "events": 0,
+    "stories": 0
+  },
+  "chunqiu_zhanguo": {
+    "label": "春秋战国",
+    "events": 0,
+    "stories": 0
+  },
+  "qin_han": {
+    "label": "秦汉",
+    "events": 9,
+    "stories": 1
+  },
+  "three_kingdoms": {
+    "label": "魏晋南北朝（三国）",
+    "events": 8,
+    "stories": 1
+  },
+  "jin_southern_northern": {
+    "label": "魏晋南北朝",
+    "events": 0,
+    "stories": 0
+  },
+  "sui_tang": {
+    "label": "隋唐",
+    "events": 9,
+    "stories": 1
+  },
+  "five_dynasties": {
+    "label": "五代十国",
+    "events": 0,
+    "stories": 0
+  },
+  "song_liao_xia_jin": {
+    "label": "宋辽金夏",
+    "events": 0,
+    "stories": 0
+  },
+  "yuan": {
+    "label": "元",
+    "events": 0,
+    "stories": 0
+  },
+  "ming": {
+    "label": "明",
+    "events": 0,
+    "stories": 0
+  },
+  "qing": {
+    "label": "清",
+    "events": 0,
+    "stories": 0
+  },
+  "modern": {
+    "label": "近现代",
+    "events": 0,
+    "stories": 0
+  }
+}

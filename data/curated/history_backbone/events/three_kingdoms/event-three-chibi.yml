@@ -1,0 +1,85 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-chibi
+name_zh_cn: 赤壁之战
+event_type: war
+start_year: 208
+end_year: 208
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 曹操南下与孙刘联军交战的关键战役。
+result_zh_cn: 曹操集团南下受挫，三方竞争格局进一步清晰。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 曹操集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-20609
+  person_name_raw: 孙权
+  role: ruler
+  role_zh_cn: 联军一方领导者
+  side: 东吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-25403
+  person_name_raw: 诸葛亮
+  role: strategist
+  role_zh_cn: 联盟谋士
+  side: 孙刘联军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: ctext-person-817615
+  person_name_raw: 周瑜
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 东吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 赤壁
+  role: 战场
+  sequence: 1
+  description_zh_cn: 现有 Place 表未找到可安全复用的对应记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 现有 Place 表未找到可安全复用的对应记录。
+evidence:
+- historical_text_id: text-niutrans-01944969510a3280e6a5
+  work: 三国志
+  term: 赤壁
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-regime-formation
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 赤壁后多方力量继续发展为三国政权格局。

@@ -1,3 +1,7 @@
+# LEGACY DOC（deprecated）
+
+> 本文档描述旧 V1 管线（Source→Raw→Staging→Normalize→…→Export 与旧 Semantic Layer）。已由 `docs/ARCHITECTURE.md`、`docs/DATA_MODEL.md`、`docs/HISTORY_BACKBONE.md` 等新文档取代。保留仅用于审计。
+
 # LICENSE_NOTES
 
 | 数据集 | 当前记录 | 商业使用 | 再分发 | 操作约束 |

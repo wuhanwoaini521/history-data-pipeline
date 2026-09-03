@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/event_person.schema.json",
+  "title": "EventPerson",
+  "description": "事件-人物桥接。Event 只允许引用 knowledge.person.id；无法确认时 person_name_raw + person_id=null + link_status=needs_linking。错误链接比 NULL 更严重。",
+  "type": "object",
+  "required": ["event_id", "person_id", "person_name_raw", "role"],
+  "properties": {
+    "event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "person_id": { "type": ["string", "null"], "description": "knowledge.person.id；null 表示未解析" },
+    "person_name_raw": { "type": "string", "minLength": 1 },
+    "role": { "type": "string" },
+    "role_zh_cn": { "type": ["string", "null"] },
+    "side": { "type": ["string", "null"] },
+    "importance": { "enum": ["critical", "major", "normal", "minor"] },
+    "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
+    "link_quality_status": { "type": ["string", "null"] },
+    "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_id": { "type": ["string", "null"] },
+    "review_note": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}

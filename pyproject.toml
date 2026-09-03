@@ -4,12 +4,16 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "history-data-pipeline"
-version = "0.1.0"
+version = "0.2.0"
+description = "中国历史结构化数据仓库与构建 Pipeline（Source → Knowledge Store → History Backbone → Validation → dist）"
 requires-python = ">=3.11"
-dependencies = ["duckdb>=1.0", "PyYAML>=6"]
+dependencies = ["duckdb>=1.0", "PyYAML>=6", "jsonschema>=4"]
 
 [project.scripts]
 history-data = "history_data_pipeline.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

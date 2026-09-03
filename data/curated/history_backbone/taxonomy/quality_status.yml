@@ -1,0 +1,62 @@
+version: backbone-taxonomy-v1
+source_type: curated_reference
+quality_status:
+  - id: verified
+    name_zh_cn: 已验证
+    description_zh_cn: 有明确史料依据并经人工复核确认，可使用。
+  - id: reviewed
+    name_zh_cn: 已复核
+    description_zh_cn: 已通过人工 review，可进入正式 Backbone。
+  - id: accepted
+    name_zh_cn: 已接受
+    description_zh_cn: Candidate 经 review 接受，等待进入正式 Backbone（构建时提升为 reviewed）。
+  - id: candidate
+    name_zh_cn: 候选
+    description_zh_cn: 自动算法产生的候选，未经人工 review，禁止直接进入正式 Backbone。
+  - id: needs_review
+    name_zh_cn: 待复核
+    description_zh_cn: 需要人工复核，暂时不能进入正式数据。
+  - id: needs_linking
+    name_zh_cn: 待关联
+    description_zh_cn: 引用尚未解析（person_id/place_id/historical_text_id 为 null 或未确认）。
+  - id: pending_knowledge
+    name_zh_cn: 等待知识库
+    description_zh_cn: 引用已通过审核，但对应知识库实体（文本/人物/地点）尚未在本环境重建，等待 Knowledge Store 重建后解析。
+  - id: rejected
+    name_zh_cn: 已拒绝
+    description_zh_cn: review 拒绝，不得进入正式 Backbone。
+  - id: pending
+    name_zh_cn: 待处理
+    description_zh_cn: review 队列中尚未处理。
+  - id: legacy
+    name_zh_cn: 遗留
+    description_zh_cn: 旧 Semantic Layer 迁移前的数据标记，仅供审计，不再作为正式来源。
+  - id: deprecated
+    name_zh_cn: 已弃用
+    description_zh_cn: 已被新结构替代，保留仅用于审计。
+link_status:
+  - id: linked
+    name_zh_cn: 已关联
+    description_zh_cn: 已解析到 Knowledge Store 中的规范实体 ID。
+  - id: needs_linking
+    name_zh_cn: 待关联
+    description_zh_cn: 尚未解析到 Knowledge Store，保留 name_raw，禁止强行匹配。
+  - id: pending_knowledge
+    name_zh_cn: 等待知识库
+    description_zh_cn: 审核已通过，但 Knowledge Store 实体尚未在本环境重建。
+  - id: rejected
+    name_zh_cn: 已拒绝
+    description_zh_cn: 复核拒绝该候选关联。
+importance:
+  - id: critical
+    name_zh_cn: 关键
+    description_zh_cn: 中国历史主时间线节点，如秦统一六国。
+  - id: major
+    name_zh_cn: 重要
+    description_zh_cn: 重要历史节点，如赤壁之战。
+  - id: normal
+    name_zh_cn: 普通
+    description_zh_cn: 一般历史事件。
+  - id: minor
+    name_zh_cn: 次要
+    description_zh_cn: 次要/地方性事件。

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/regime.schema.json",
+  "title": "Regime",
+  "description": "具体政治实体（政权），独立于 Period。一个 Period 可有多个 Regime。",
+  "type": "object",
+  "required": ["id", "name_zh_cn", "start_year", "end_year", "date_precision", "period_id", "description_zh_cn"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^regime-[a-z0-9-]+$" },
+    "name_zh_cn": { "type": "string", "minLength": 1 },
+    "name_raw": { "type": ["string", "null"] },
+    "start_year": { "type": ["integer", "null"] },
+    "end_year": { "type": ["integer", "null"] },
+    "date_precision": { "enum": ["exact", "year", "range", "approximate", "before", "after", "unknown"] },
+    "period_id": { "type": "string", "pattern": "^period-[a-z0-9-]+$" },
+    "parent_regime_id": { "type": ["string", "null"] },
+    "capital_place_id": { "type": ["string", "null"] },
+    "description_zh_cn": { "type": "string" },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_type": { "type": "string", "default": "curated_reference" },
+    "source_reference": { "type": ["string", "null"] },
+    "source_ids": { "type": ["array", "null"], "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

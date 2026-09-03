@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-uprising
+name_zh_cn: 安禄山起兵
+event_type: rebellion
+start_year: 755
+end_year: 755
+date_precision: year
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 安禄山发动叛乱，安史之乱爆发。
+result_zh_cn: 叛军迅速向中原推进。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-379873
+  person_name_raw: 安禄山
+  role: commander
+  role_zh_cn: 叛军首领
+  side: 叛军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-19244
+  person_name_raw: 李隆基（唐玄宗）
+  role: ruler
+  role_zh_cn: 唐朝皇帝
+  side: 唐廷
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 范阳
+  role: 起兵地点
+  sequence: 1
+  description_zh_cn: 具体地点暂未可靠匹配。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 具体地点暂未可靠匹配。
+evidence:
+- historical_text_id: text-niutrans-01256ac6603fa0d89381
+  work: 旧唐书
+  term: 安禄山
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: primary
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-anlu-luoyang
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 起兵后叛军向东都推进。

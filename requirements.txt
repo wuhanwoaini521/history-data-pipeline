@@ -2,5 +2,6 @@ duckdb>=1.0
 pyarrow>=16
 pytest>=8
 PyYAML>=6
+jsonschema>=4
 opencc-python-reimplemented>=0.1.7
 setuptools>=68

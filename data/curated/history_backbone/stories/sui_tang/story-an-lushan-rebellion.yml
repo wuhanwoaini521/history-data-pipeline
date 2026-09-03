@@ -1,0 +1,53 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# Story 顺序属于 curated editorial layer，允许人工整理。
+id: story-an-lushan-rebellion
+title_zh_cn: 安史之乱
+start_year: 751
+end_year: 763
+story_type: rebellion
+importance: major
+period_id: period-tang
+summary_zh_cn: 从唐玄宗后期政治军事结构、安禄山起兵到叛乱平定的事件链。
+background_zh_cn: 唐代边镇军事力量增强，中央与地方军事政治关系逐步紧张。
+result_zh_cn: 叛乱平定但唐朝中央权威下降，藩镇问题加剧。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；顺序为 curated editorial
+  layer
+events:
+- event_id: event-anlu-three-frontiers
+  sequence: 1
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-uprising
+  sequence: 2
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-luoyang
+  sequence: 3
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-tongguan
+  sequence: 4
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-changan
+  sequence: 5
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-xuanzong-shu
+  sequence: 6
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-changan-recapture
+  sequence: 7
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-shi-siming
+  sequence: 8
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-anlu-pacification
+  sequence: 9
+  importance: major
+  transition_text_zh_cn: null

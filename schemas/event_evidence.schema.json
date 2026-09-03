@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/event_evidence.schema.json",
+  "title": "EventEvidence",
+  "description": "事件-史料证据桥接（由 EventText 更名）。表示某个 HistoricalText 可作为该 Event 的历史证据。evidence_role: primary / supporting / related。",
+  "type": "object",
+  "required": ["event_id", "historical_text_id", "evidence_role", "work", "term"],
+  "properties": {
+    "event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "historical_text_id": { "type": ["string", "null"], "description": "knowledge.historical_text.id；null 表示文本语料尚未重建" },
+    "work": { "type": "string", "minLength": 1 },
+    "term": { "type": "string", "minLength": 1 },
+    "chapter_hint": { "type": ["string", "null"] },
+    "context_keywords": { "type": ["array", "null"], "items": { "type": "string" } },
+    "evidence_role": { "enum": ["primary", "supporting", "related"] },
+    "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
+    "link_quality_status": { "type": ["string", "null"] },
+    "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_id": { "type": ["string", "null"] },
+    "review_note": { "type": ["string", "null"] },
+    "rejected_text_ids": { "type": ["array", "null"], "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/story.schema.json",
+  "title": "Story",
+  "description": "阅读组织层：把多个 Event 组织成学习路径。Story 不是中国历史事实数据库本身；顺序属于 curated editorial layer，允许人工整理。",
+  "type": "object",
+  "required": ["id", "title_zh_cn", "start_year", "end_year", "story_type", "period_id", "events"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^story-[a-z0-9-]+$" },
+    "title_zh_cn": { "type": "string", "minLength": 1 },
+    "title_raw": { "type": ["string", "null"] },
+    "start_year": { "type": ["integer", "null"] },
+    "end_year": { "type": ["integer", "null"] },
+    "story_type": { "type": "string", "minLength": 1 },
+    "importance": { "enum": ["critical", "major", "normal", "minor"] },
+    "period_id": { "type": "string", "pattern": "^period-[a-z0-9-]+$" },
+    "summary_zh_cn": { "type": "string" },
+    "background_zh_cn": { "type": ["string", "null"] },
+    "result_zh_cn": { "type": ["string", "null"] },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_type": { "type": "string", "default": "curated_reference" },
+    "source_reference": { "type": ["string", "null"] },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["event_id", "sequence"],
+        "properties": {
+          "event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+          "sequence": { "type": "integer", "minimum": 1 },
+          "role": { "type": ["string", "null"] },
+          "importance": { "enum": ["critical", "major", "normal", "minor"] },
+          "transition_text_zh_cn": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

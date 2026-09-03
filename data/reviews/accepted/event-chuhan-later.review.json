@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "event_id": "event-chuhan-later",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T06:49:51.984342Z",
+  "reviewed_by": "history-data backbone migrate (legacy semantic v1 QA)",
+  "decision": "accepted_from_legacy_qa",
+  "source": "source-curated-semantic-v1",
+  "people": [
+    {
+      "person_id": "cbdb-person-16622",
+      "person_name_raw": "刘邦",
+      "link_status": "linked"
+    },
+    {
+      "person_id": "ctext-person-933340",
+      "person_name_raw": "英布",
+      "link_status": "linked"
+    }
+  ],
+  "places": [
+    {
+      "place_id": null,
+      "place_name_raw": "关中",
+      "link_status": "needs_linking"
+    }
+  ],
+  "evidence": [
+    {
+      "historical_text_id": "text-niutrans-017fe9f3cbd5d21e19ac",
+      "work": "汉书",
+      "term": "高祖",
+      "link_status": "pending_knowledge"
+    }
+  ],
+  "note": "迁移自 legacy Semantic Layer V1 的 QA 结论；不建议直接删除原始 stories.yml。"
+}

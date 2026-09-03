@@ -1,0 +1,46 @@
+# 许可中心（Layer 1 数据源 + 本仓库产出）
+# 约定：unknown 就是不猜；redistribution/commercial_use 未知时不得进入公开导出包。
+
+licenses:
+  cbdb:
+    license: "unknown_until_snapshot（以快照随附说明为准）"
+    redistribution: unknown
+    commercial_use: unknown
+    attribution: required
+    snapshot: cbdb_*.sqlite3 官方快照 + metadata.json
+  ctext:
+    license: "CC BY-NC-SA 3.0"
+    redistribution: share_alike_with_attribution
+    commercial_use: false
+    attribution: true
+    snapshot: ctext_datawiki-*.ttl.zip
+  classical-modern:
+    license: "MIT（仓库）+ 各目录数据来源.txt"
+    redistribution: source_dependent
+    commercial_use: source_dependent
+    attribution: true
+    snapshot: Classical-Modern v2.0 压缩包
+  chgis:
+    license: "CHGIS 官方用户协议（中国大陆使用需复旦许可）"
+    redistribution: restricted
+    commercial_use: false
+    attribution: true
+    snapshot: 手动导入，仅存本地
+  wikipedia:
+    license: "CC BY-SA 4.0 + GFDL 1.3"
+    redistribution: with_attribution
+    commercial_use: true
+    attribution: true
+    snapshot: zhwiki-latest-pages-articles-multistream.xml.bz2
+  wikisource:
+    license: "Wikimedia 文本许可；发布前按页面/贡献条款复核"
+    redistribution: verify
+    commercial_use: verify
+    attribution: true
+    snapshot: zhwikisource-latest-pages-articles-multistream.xml.bz2
+  curated:
+    license: "项目人工整理；需保留依据与来源链"
+    redistribution: internal
+    commercial_use: false
+    attribution: required
+    snapshot: data/curated/history_backbone/（入 Git）

@@ -1,0 +1,55 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-qin-revolt
+name_zh_cn: 秦末起义
+event_type: rebellion
+start_year: -209
+end_year: -206
+date_precision: range
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦末多地反秦力量兴起并推动旧秩序瓦解。
+result_zh_cn: 反秦战争持续发展并进入灭秦阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: participant
+  role_zh_cn: 反秦力量参与者
+  side: 刘邦集团
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 陈胜起义地
+  role: 起事区域
+  sequence: 1
+  description_zh_cn: 具体地点未在现有 Place 中可靠匹配。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 具体地点未在现有 Place 中可靠匹配。
+evidence:
+- historical_text_id: text-niutrans-0826c5731719a2cb8174
+  work: 史记
+  term: 陈胜
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-chuhan-julu
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 反秦战争的发展引出巨鹿等关键战役。

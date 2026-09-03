@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-dong-zhuo
+name_zh_cn: 董卓进京
+event_type: political
+start_year: 189
+end_year: 189
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 董卓率军进入洛阳并控制朝廷，东汉中央政治进一步失衡。
+result_zh_cn: 关东诸侯讨董，割据局面加速形成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  role: participant
+  role_zh_cn: 东汉末年军事人物
+  side: 诸侯势力
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-135353
+  person_name_raw: 刘备
+  role: participant
+  role_zh_cn: 地方势力人物
+  side: 地方势力
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 洛阳
+  role: 政治中心
+  sequence: 1
+  description_zh_cn: 候选洛阳记录的有效年代与189年冲突，QA 将其拒绝并保留 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 候选洛阳记录的有效年代与189年冲突，QA 将其拒绝并保留 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-00239f408e357cbdedb0
+  work: 资治通鉴
+  term: 董卓
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-guandu
+  relation_type: precedes
+  confidence: 0.95
+  description_zh_cn: 董卓进京与诸侯割据先于官渡之战。

@@ -1,0 +1,79 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-anlu-changan
+name_zh_cn: 长安失守
+event_type: political-military
+start_year: 756
+end_year: 756
+date_precision: year
+period_id: period-tang
+regime_ids: []
+importance: major
+summary_zh_cn: 叛军进入长安，唐廷核心政治空间失守。
+result_zh_cn: 唐玄宗西行，唐肃宗在灵武即位。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-19244
+  person_name_raw: 李隆基（唐玄宗）
+  role: ruler
+  role_zh_cn: 唐朝皇帝
+  side: 唐廷
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: ctext-person-62031
+  person_name_raw: 唐肃宗
+  role: successor
+  role_zh_cn: 唐肃宗
+  side: 唐廷
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-379873
+  person_name_raw: 安禄山
+  role: commander
+  role_zh_cn: 叛军首领
+  side: 叛军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 长安
+  role: 都城
+  sequence: 1
+  description_zh_cn: 当前 Place 表未找到可安全复用的唐代长安记录。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 当前 Place 表未找到可安全复用的唐代长安记录。
+evidence:
+- historical_text_id: text-niutrans-21a46f4067526d0c8f5a
+  work: 资治通鉴
+  term: 长安
+  chapter_hint: 唐纪
+  context_keywords:
+  - 长安
+  - 玄宗
+  - 安禄山
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids:
+  - text-niutrans-001916ce996444297435
+relations:
+- target_event_id: event-anlu-xuanzong-shu
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 长安失守后唐玄宗入蜀。

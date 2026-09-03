@@ -1,0 +1,49 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# Story 顺序属于 curated editorial layer，允许人工整理。
+id: story-three-kingdoms
+title_zh_cn: 三国格局形成
+start_year: 184
+end_year: 229
+story_type: political-military
+importance: major
+period_id: period-three-kingdoms
+summary_zh_cn: 从东汉末年秩序崩解、官渡与赤壁到魏蜀吴格局形成的事件链。
+background_zh_cn: 东汉后期中央控制力下降，地方军事力量和区域政权逐步成长。
+result_zh_cn: 曹魏、蜀汉、东吴相继确立，三方对峙格局形成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；顺序为 curated editorial
+  layer
+events:
+- event_id: event-three-yellow-turbans
+  sequence: 1
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-dong-zhuo
+  sequence: 2
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-guandu
+  sequence: 3
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-north-consolidation
+  sequence: 4
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-jingzhou-change
+  sequence: 5
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-sun-liu-alliance
+  sequence: 6
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-chibi
+  sequence: 7
+  importance: major
+  transition_text_zh_cn: null
+- event_id: event-three-regime-formation
+  sequence: 8
+  importance: major
+  transition_text_zh_cn: null

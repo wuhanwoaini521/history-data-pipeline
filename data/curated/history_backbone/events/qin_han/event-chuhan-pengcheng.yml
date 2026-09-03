@@ -1,0 +1,65 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-pengcheng
+name_zh_cn: 彭城之战
+event_type: war
+start_year: -205
+end_year: -205
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 楚汉战争中的重要反攻与会战节点。
+result_zh_cn: 楚军在彭城取得优势，刘邦集团重新调整战略。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: commander
+  role_zh_cn: 主要统帅
+  side: 汉军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: ctext-person-664414
+  person_name_raw: 彭越
+  role: participant
+  role_zh_cn: 汉军将领
+  side: 汉军
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: ctext-place-489739
+  place_name_raw: 彭城
+  role: 战场
+  sequence: 1
+  description_zh_cn: 使用现有 CText Place canonical ID，具体历史坐标仍需复核。
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: null
+evidence:
+- historical_text_id: text-niutrans-0164588692a8c5a97bdb
+  work: 史记
+  term: 彭城
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-chuhan-xingyang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 彭城战后楚汉双方在荥阳一线相持。

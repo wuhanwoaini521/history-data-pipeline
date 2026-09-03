@@ -1,0 +1,61 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-chuhan-later
+name_zh_cn: 楚汉争霸余波
+event_type: political
+start_year: -202
+end_year: -195
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: normal
+summary_zh_cn: 汉政权建立后的整合与秩序重建。
+result_zh_cn: 汉政权逐步巩固。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  role: ruler
+  role_zh_cn: 汉政权统治者
+  side: 汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: ctext-person-933340
+  person_name_raw: 英布
+  role: participant
+  role_zh_cn: 汉初诸侯相关人物
+  side: 汉
+  importance: normal
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 关中
+  role: 政权整合区域
+  sequence: 1
+  description_zh_cn: 保留为 needs_linking。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 保留为 needs_linking。
+evidence:
+- historical_text_id: text-niutrans-017fe9f3cbd5d21e19ac
+  work: 汉书
+  term: 高祖
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations: []

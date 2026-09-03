@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://history-data-pipeline.local/schemas/event_place.schema.json",
+  "title": "EventPlace",
+  "description": "事件-地点桥接。place_id 只允许 knowledge.place.id；无法确认时 place_name_raw + place_id=null + link_status=needs_linking。不要为 100% linked 错误匹配历史地点。",
+  "type": "object",
+  "required": ["event_id", "place_name_raw", "role"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^event-place-[a-f0-9]+$" },
+    "event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
+    "place_id": { "type": ["string", "null"] },
+    "place_name_raw": { "type": "string", "minLength": 1 },
+    "role": { "type": "string" },
+    "sequence": { "type": "integer", "minimum": 1 },
+    "description_zh_cn": { "type": ["string", "null"] },
+    "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
+    "link_quality_status": { "type": ["string", "null"] },
+    "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "quality_status": { "type": "string", "default": "reviewed" },
+    "source_id": { "type": ["string", "null"] },
+    "review_note": { "type": ["string", "null"] }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "event_id": "event-anlu-changan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T06:49:51.984342Z",
+  "reviewed_by": "history-data backbone migrate (legacy semantic v1 QA)",
+  "decision": "accepted_from_legacy_qa",
+  "source": "source-curated-semantic-v1",
+  "people": [
+    {
+      "person_id": "cbdb-person-19244",
+      "person_name_raw": "李隆基（唐玄宗）",
+      "link_status": "linked"
+    },
+    {
+      "person_id": "ctext-person-62031",
+      "person_name_raw": "唐肃宗",
+      "link_status": "linked"
+    },
+    {
+      "person_id": "cbdb-person-379873",
+      "person_name_raw": "安禄山",
+      "link_status": "linked"
+    }
+  ],
+  "places": [
+    {
+      "place_id": null,
+      "place_name_raw": "长安",
+      "link_status": "needs_linking"
+    }
+  ],
+  "evidence": [
+    {
+      "historical_text_id": "text-niutrans-21a46f4067526d0c8f5a",
+      "work": "资治通鉴",
+      "term": "长安",
+      "link_status": "pending_knowledge"
+    }
+  ],
+  "note": "迁移自 legacy Semantic Layer V1 的 QA 结论；不建议直接删除原始 stories.yml。"
+}

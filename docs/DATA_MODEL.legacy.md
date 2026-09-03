@@ -1,3 +1,7 @@
+# LEGACY DOC（deprecated）
+
+> 本文档描述旧 V1 管线（Source→Raw→Staging→Normalize→…→Export 与旧 Semantic Layer）。已由 `docs/ARCHITECTURE.md`、`docs/DATA_MODEL.md`、`docs/HISTORY_BACKBONE.md` 等新文档取代。保留仅用于审计。
+
 # DATA_MODEL
 
 数据库文件为 `data/normalized/history.duckdb`。所有列表字段在 DuckDB 中以 JSON 字符串保存，避免丢失源 ID；后续可按访问模式拆成桥接表。

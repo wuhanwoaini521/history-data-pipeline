@@ -1,3 +1,7 @@
+# LEGACY DOC（deprecated）
+
+> 本文档描述旧 V1 管线（Source→Raw→Staging→Normalize→…→Export 与旧 Semantic Layer）。已由 `docs/ARCHITECTURE.md`、`docs/DATA_MODEL.md`、`docs/HISTORY_BACKBONE.md` 等新文档取代。保留仅用于审计。
+
 # HISTORY Semantic Query Contract V2
 
 查询层仍是 `HistoryQueryService`，不是第二套 Graph/Query 系统。所有返回值均来自 DuckDB SELECT；Rust `HistoryDuckDbRepository` 提供同名只读入口。

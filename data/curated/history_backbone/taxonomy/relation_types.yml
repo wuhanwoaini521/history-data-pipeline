@@ -1,0 +1,11 @@
+version: backbone-taxonomy-v1
+source_type: curated_reference
+relation_types:
+  - {id: precedes, name_zh_cn: 先于, inverse: follows, group: temporal, description_zh_cn: 时间先后关系。时间先后不等于因果；只表示在时间线上位于之前。}
+  - {id: follows, name_zh_cn: 后于, inverse: precedes, group: temporal, description_zh_cn: 时间先后关系，位于之后。}
+  - {id: causes, name_zh_cn: 导致, inverse: caused_by, group: causal, description_zh_cn: 明确的因果：前者是后者的直接原因。必须有史料依据，不能仅凭时间推断。}
+  - {id: caused_by, name_zh_cn: 由…导致, inverse: causes, group: causal, description_zh_cn: 被前一事件造成。}
+  - {id: leads_to, name_zh_cn: 引向, inverse: related_to, group: causal, description_zh_cn: 发展推动关系：前者发展推动后者，但因果强度弱于 causes。}
+  - {id: contributes_to, name_zh_cn: 促成, inverse: related_to, group: causal, description_zh_cn: 促成关系：前者是后者的促成/助推因素之一。}
+  - {id: part_of, name_zh_cn: 属于, inverse: contains, group: structural, description_zh_cn: 结构归属：事件是更大事件/过程的一部分。}
+  - {id: related_to, name_zh_cn: 相关, inverse: related_to, group: association, description_zh_cn: 弱关联：存在史料可支持的相关性，但不构成时序或因果判断。}

@@ -1,0 +1,75 @@
+# 迁移自 legacy data/curated/stories.yml（QA 已确认）。
+# 修改 Event 请运行：history-data backbone validate
+id: event-three-sun-liu-alliance
+name_zh_cn: 孙刘联盟
+event_type: alliance
+start_year: 208
+end_year: 208
+date_precision: year
+period_id: period-late-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 孙权与刘备集团在曹操南下压力下形成军事合作。
+result_zh_cn: 联军共同应对曹操集团南下。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
+  Classical-Modern
+people:
+- person_id: cbdb-person-135353
+  person_name_raw: 刘备
+  role: leader
+  role_zh_cn: 联盟一方领导者
+  side: 刘备集团
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-20609
+  person_name_raw: 孙权
+  role: leader
+  role_zh_cn: 联盟一方领导者
+  side: 东吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_id: cbdb-person-25403
+  person_name_raw: 诸葛亮
+  role: strategist
+  role_zh_cn: 联盟谋士
+  side: 孙刘联军
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+places:
+- place_id: null
+  place_name_raw: 夏口
+  role: 联盟活动区域
+  sequence: 1
+  description_zh_cn: 暂未可靠匹配 Place。
+  link_status: needs_linking
+  link_quality_status: null
+  link_confidence: null
+  review_note: 暂未可靠匹配 Place。
+evidence:
+- historical_text_id: text-niutrans-006092418dd88e019fbd
+  work: 三国志
+  term: 孙权
+  chapter_hint: null
+  context_keywords: null
+  evidence_role: supporting
+  link_status: pending_knowledge
+  link_quality_status: reviewed
+  link_confidence: null
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  rejected_text_ids: []
+relations:
+- target_event_id: event-three-chibi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 孙刘联盟直接进入赤壁战事。
