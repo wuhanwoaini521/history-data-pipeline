@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-hufa-yundong",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:54:04.778313Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch8)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-republic"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 8（中华民国→近现代）审核：Chronology-only；事件已满足\"档案/史料类来源 + 现代权威研究\"双层来源链（source_reference）；未满足需 needs_review 而非强行 reviewed。"
+}

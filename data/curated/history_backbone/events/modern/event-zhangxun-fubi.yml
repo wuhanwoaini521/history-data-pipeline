@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 8（中华民国→近现代 1912—1949）
+# 原则：只做 Chronology Backbone；无价值判断/英雄叙事；每事件含档案/史料 + 现代权威研究两层来源。
+# 修改后请运行：history-data backbone validate
+id: event-zhangxun-fubi
+name_zh_cn: 张勋复辟（清室复辟）
+event_type: political
+start_year: 1917
+end_year: 1917
+date_precision: year
+period_id: period-republic
+regime_ids:
+- regime-republic
+importance: major
+summary_zh_cn: 1917 年 7 月，长江巡阅使张勋率辫子军入京，拥立清废帝溥仪复辟，改国号宣统；段祺瑞借机讨伐（马厂誓师），复辟仅十二天即告失败。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：张勋复辟电文与《政府公报》；现代研究：张宪文主编《中华民国史》；金冲及《二十世纪中国史纲》；王桧林主编《中国现代史》（北京师范大学出版社）
+source_ids:
+- work-curated-minguoshi
+relations:
+- target_event_id: event-fuyuan-zhi-zheng
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 府院之争中黎元洪召张勋调停。
+- target_event_id: event-hufa-yundong
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 复辟失败后段祺瑞拒绝恢复约法，护法运动起。
