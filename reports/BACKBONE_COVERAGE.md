@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：59
-- Event：449
+- Event：463
 - Story：3
 
 ## 按时期组
@@ -23,7 +23,7 @@
 | 五代十国 | 15 | 0 |
 | 宋辽金夏 | 65 | 0 |
 | 元 | 30 | 0 |
-| 明 | 0 | 0 |
+| 明 | 14 | 0 |
 | 清 | 0 | 0 |
 | 近现代 | 0 | 0 |
 
@@ -56,10 +56,11 @@
 | 南宋 | 16 | 0 | 16 | 2 | 14 |
 | 宋辽金时期 | 8 | 2 | 10 | 1 | 9 |
 | 元 | 1 | 29 | 30 | 2 | 28 |
+| 明 | 0 | 14 | 14 | 3 | 11 |
 
 ## 缺口提示
 
-- 尚无 Event 的时期组：明, 清, 近现代。
+- 尚无 Event 的时期组：清, 近现代。
 - 下一阶段（China History Backbone V1）应优先为这些时期组补齐 critical/major Event。
 
 ## 说明
@@ -73,10 +74,10 @@
 {
   "periods": 31,
   "regimes": 59,
-  "events": 449,
+  "events": 463,
   "stories": 3,
   "story_events": 26,
-  "event_relations": 796,
+  "event_relations": 816,
   "event_people": 58,
   "event_places": 26,
   "event_evidence": 26,

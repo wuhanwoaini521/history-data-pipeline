@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ming-wei-suo
+name_zh_cn: 卫所制度建立
+event_type: reform
+start_year: 1368
+end_year: 1382
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 洪武年间，明廷确立卫所军制：一卫五千六百人，下设千户所、百户所，军籍世袭、屯田自给，洪武二十六年（1393 年）前后编定天下卫所规模；卫所制是明代军事与军户制度的基础。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·兵志》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-chendi
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 明初建国的军事制度安排。

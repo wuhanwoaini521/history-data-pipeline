@@ -9,9 +9,9 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 156, "political": 106, "dynastic-transition": 41, "reform": 37, "rebellion": 25, "political-military": 22, "economic": 12, "foundation": 12, "treaty": 11, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 2, "disaster": 1}
+- 事件类型分布：{"war": 161, "political": 111, "dynastic-transition": 41, "reform": 39, "rebellion": 25, "political-military": 22, "foundation": 13, "economic": 12, "treaty": 11, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 3, "disaster": 1}
 
-- Aggregate（有子事件 part_of）数量：33
+- Aggregate（有子事件 part_of）数量：34
   - event-qin-mie-liuguo：7 个子事件
   - event-song-tongyi-zhanzheng：6 个子事件
   - event-han-xiongnu-war：5 个子事件
@@ -24,6 +24,7 @@
   - event-hezong-lianheng：2 个子事件
   - event-chai-rong-gaige：2 个子事件
   - event-xiaowendi-gaige：2 个子事件
+  - event-jingnan-zhizhan：2 个子事件
   - event-chuhan-qin-revolt：2 个子事件
   - event-huangchao-qiyi：2 个子事件
   - event-zhuge-liang-beifa：2 个子事件
@@ -52,7 +53,7 @@
 ## 3. Timeline Gap Detection
 
 - 阈值：相邻 critical/major 事件间隔 > 150 年（且 > 该 Period 跨度的 25%）
-- 共 10 处：
+- 共 9 处：
 
 | Period | 类型 | 明细 |
 |---|---|---|
@@ -61,7 +62,6 @@
 | 商 | 间隔过大 | 商朝建立（-1600）→ 盘庚迁殷（-1300）：间隔 300 年。相邻 critical/major 事件间隔 300 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 武丁中兴（-1250）→ 武王伐纣（-1046）：间隔 204 年。相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 西夏 | 间隔过大 | 庆历和议（宋夏议和）（1044）→ 蒙古灭西夏（1226）：间隔 182 年。相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
-| 明 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 清 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 晚清 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 中华民国 | 空白 | 该 Period 尚无 critical/major Event。 |

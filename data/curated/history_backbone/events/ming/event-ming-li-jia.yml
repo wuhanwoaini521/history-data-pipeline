@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ming-li-jia
+name_zh_cn: 里甲制与赋役黄册编造
+event_type: reform
+start_year: 1381
+end_year: 1381
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 洪武十四年（1381 年），诏编赋役黄册并推行里甲制：以一百一十户为一里、推丁粮多者十户为里长，十年一轮服役；黄册作为全国户籍与赋役依据，构成明代基层治理的基本框架。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·食货志》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-chendi
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 明初户口赋役整顿。

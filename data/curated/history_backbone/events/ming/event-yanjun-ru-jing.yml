@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yanjun-ru-jing
+name_zh_cn: 燕军攻入南京、永乐帝即位
+event_type: political
+start_year: 1402
+end_year: 1402
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 建文四年（1402 年）六月，燕军渡江攻入南京，宫中火灾，建文帝下落不明（焚死或出亡，诸说并存），朱棣即皇帝位，是为明成祖，次年改元永乐。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·成祖纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-jingnan-zhizhan
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 靖难之役的结局。
+- target_event_id: event-jingnan-qibing
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 起兵三年后攻克南京。

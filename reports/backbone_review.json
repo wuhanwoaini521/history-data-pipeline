@@ -51,6 +51,10 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-jingnan-zhizhan",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-chuhan-qin-revolt",
         "part_of_children": 2
       },
@@ -146,21 +150,21 @@
       }
     ],
     "event_type_distribution": {
-      "war": 156,
-      "political": 106,
+      "war": 161,
+      "political": 111,
       "dynastic-transition": 41,
-      "reform": 37,
+      "reform": 39,
       "rebellion": 25,
       "political-military": 22,
+      "foundation": 13,
       "economic": 12,
-      "foundation": 12,
       "treaty": 11,
       "diplomatic": 7,
       "migration": 6,
       "alliance": 5,
       "cultural": 3,
       "unification": 3,
-      "succession": 2,
+      "succession": 3,
       "disaster": 1
     }
   },
@@ -244,14 +248,6 @@
       },
       "gap_years": 182,
       "detail": "相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-ming",
-      "period_name": "明",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-qing",

@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhuyuanzhang-chendi
+name_zh_cn: 朱元璋称帝、明朝建立
+event_type: foundation
+start_year: 1368
+end_year: 1368
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: critical
+summary_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-mie-zhang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 灭张士诚、平江南后称帝建明。
+- target_event_id: event-xuda-beifa
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 建明后即命徐达北伐。

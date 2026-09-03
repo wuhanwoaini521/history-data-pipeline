@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-lanyu-an
+name_zh_cn: 蓝玉案（功臣清洗）
+event_type: political
+start_year: 1393
+end_year: 1393
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 洪武二十六年（1393 年），朱元璋以谋逆罪诛凉国公蓝玉，连坐诛杀功臣宿将，与胡惟庸案同为洪武朝两次大规模功臣清洗；开国勋贵集团自此凋零。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》《蓝玉传》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-hu-weiyong-an
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 继胡惟庸案后的又一次大清洗。

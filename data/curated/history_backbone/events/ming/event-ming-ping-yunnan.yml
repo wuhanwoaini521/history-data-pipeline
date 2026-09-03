@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ming-ping-yunnan
+name_zh_cn: 明军平定云南
+event_type: war
+start_year: 1381
+end_year: 1382
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 洪武十四年至十五年（1381—1382 年），明军征讨元云南梁王把匝剌瓦尔密，克昆明，梁王死，云南并入明朝版图，设云南布政司，沐英留镇云南。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-chendi
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 统一战争推进至西南。
