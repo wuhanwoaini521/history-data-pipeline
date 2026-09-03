@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-mobei-zhizhan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.140067Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n漠北之战前119年为《史记》《汉书》系年；\"封狼居胥\"见于《史记》，斩俘数有记载口径差异。"
+}

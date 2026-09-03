@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-tui-en-ling",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.145118Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n推恩令前127年（元朔二年）为通行纪年；逐步化解诸侯的做法也为后世沿用。"
+}

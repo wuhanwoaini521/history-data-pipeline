@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hanwudi-caizheng
+name_zh_cn: 汉武帝财政集权（盐铁官营、均输平准、算缗告缗）
+event_type: economic
+start_year: -119
+end_year: -110
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 为支撑连年战争，汉武帝推行系列财政集权政策：约前119年起盐铁官营、行算缗，前114年前后杨可告缗贯行，前110年前后桑弘羊主持均输平准，将铸币、盐铁、贸易利润收归中央。这些政策大幅增加国库收入，也造成工商业受挫与民力过度征调。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·平准书》《汉书·食货志》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-shiji
+- work-curated-hanshu
+relations:
+- target_event_id: event-mobei-zhizhan
+  relation_type: follows
+  description_zh_cn: 战争需求推动财政集权
+- target_event_id: event-cishi-jiancha
+  relation_type: precedes
+  description_zh_cn: 财政与监察改革同属武帝集权进程

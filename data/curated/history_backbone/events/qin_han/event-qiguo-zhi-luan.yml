@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qiguo-zhi-luan
+name_zh_cn: 七国之乱
+event_type: war
+start_year: -154
+end_year: -154
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: critical
+summary_zh_cn: 前154年正月，吴王刘濞联合楚、赵、胶西、胶东、菑川、济南六国起兵叛乱，以"诛晁错、清君侧"为名；景帝杀晁错而乱不止，遣周亚夫平定，三月乱平。七国之乱是郡国并行体制下中央与诸侯王国矛盾的总爆发，战后诸侯王权力被大幅削弱，中央集权显著加强。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·景帝纪》《吴王濞传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-chaocuo-xuefan
+  relation_type: follows
+- target_event_id: event-hanwudi-jiwei
+  relation_type: precedes
+  description_zh_cn: 平乱后中央集权加强，为武帝时期集权奠定基础

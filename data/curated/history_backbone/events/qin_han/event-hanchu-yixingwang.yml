@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hanchu-yixingwang
+name_zh_cn: 剪除异姓诸侯王
+event_type: political-military
+start_year: -202
+end_year: -195
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 汉高帝在楚汉战争中封授韩彭英等异姓诸侯王，战后逐年剪除：燕王臧荼（-202）、楚王韩信与韩王信（-201）、赵相陈豨（-197）、梁王彭越（-196）、淮南王英布（-196）等先后被灭，至前195年刘邦去世前，异姓王基本清除，并盟誓"非刘氏而王，天下共击之"。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·高祖本纪》《淮阴侯列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-chuhan-han-foundation
+  relation_type: follows
+- target_event_id: event-baima-zhi-meng
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 剪除异姓王后以白马之盟确定非刘氏不王

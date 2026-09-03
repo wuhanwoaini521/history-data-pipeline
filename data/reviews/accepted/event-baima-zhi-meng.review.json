@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-baima-zhi-meng",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.072351Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n白马之盟前195年（高帝十二年）；盟约内容据《史记》《汉书》，后世政治话语中反复援引。"
+}

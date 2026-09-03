@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wujing-boshi
+name_zh_cn: 设置五经博士
+event_type: reform
+start_year: -136
+end_year: -136
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前136年（建元五年），汉武帝设置五经（诗、书、礼、易、春秋）博士，取代此前杂学博士，儒经研习由此列入朝廷官学。这是汉初'罢黜百家'潮流中儒学官学化的制度性标志。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·武帝纪》《儒林传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-hanwudi-jiwei
+  relation_type: follows
+  description_zh_cn: 武帝初年儒学官学化的制度措施

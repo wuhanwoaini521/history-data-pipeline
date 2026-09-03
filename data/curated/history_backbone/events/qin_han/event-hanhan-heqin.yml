@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hanhan-heqin
+name_zh_cn: 汉匈和亲政策确立
+event_type: alliance
+start_year: -198
+end_year: -198
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前198年（一说前199年），刘敬出使匈奴缔结和亲，汉以宗室女嫁单于、岁奉絮缯酒食，约以长城为界。和亲成为汉初六七十年对匈奴的基本政策，至汉武帝马邑之谋（前133）才被打破。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·刘敬列传》《匈奴列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-baideng-zhiwei
+  relation_type: follows
+- target_event_id: event-mayi-zhi-mou
+  relation_type: precedes
+  description_zh_cn: 和亲政策持续至汉武帝马邑之谋

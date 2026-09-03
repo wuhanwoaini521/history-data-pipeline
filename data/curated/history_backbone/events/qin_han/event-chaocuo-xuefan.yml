@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-chaocuo-xuefan
+name_zh_cn: 晁错削藩
+event_type: political
+start_year: -155
+end_year: -154
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 汉景帝即位后，御史大夫晁错力主"削藩"以强干弱枝，前155年起议削诸王封地，前154年正式削楚、赵、胶西诸王部分郡县。削藩引发诸侯强烈反弹，成为七国之乱的直接导火索。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·晁错传》《景帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-wenjing-zhizhi
+  relation_type: follows
+- target_event_id: event-qiguo-zhi-luan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 削藩激化矛盾，直接引发七国之乱

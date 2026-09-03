@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-han-dingdu-changan
+name_zh_cn: 汉定都长安
+event_type: foundation
+start_year: -202
+end_year: -200
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 刘邦初都洛阳，经娄敬（刘敬）谏言与张良支持，前202年起定都关中；前200年未央宫落成，长安正式成为汉朝都城。长安自此为西汉政治中心二百余年，并发展为当时东亚最大都市。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·高祖本纪》《刘敬列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-chuhan-han-foundation
+  relation_type: follows
+  description_zh_cn: 汉朝建立后定都关中

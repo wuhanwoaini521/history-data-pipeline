@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-changyi-wang-feili
+name_zh_cn: 昌邑王废立（霍光废昌邑王、立汉宣帝）
+event_type: political
+start_year: -74
+end_year: -74
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前74年（元平元年），汉昭帝去世无嗣，霍光等迎立昌邑王刘贺即位；刘贺在位仅二十七日，霍光以荒淫无道为由奏废之，改立戾太子之孙刘询（汉宣帝）。此事件展现霍光对皇位继承的主导权，也是西汉中期权力交接的标志性节点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·霍光传》《宣帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-wudi-si-huoguang
+  relation_type: follows
+- target_event_id: event-huo-shi-fumie
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 霍氏权势顶峰后于宣帝时期被诛灭

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-hanhan-heqin",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.061488Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n首行和亲约前198年（高帝九年），史载年份略有出入；\"和亲\"为长期政策，此处登记其确立节点。"
+}

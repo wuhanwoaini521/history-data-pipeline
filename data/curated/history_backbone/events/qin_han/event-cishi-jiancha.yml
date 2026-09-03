@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-cishi-jiancha
+name_zh_cn: 设置十三州刺史
+event_type: reform
+start_year: -106
+end_year: -106
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前106年（元封五年），汉武帝除京师附近七郡外，分全国为十三州（部），各置刺史一人，以'六条问事'监察地方二千石长吏。刺史制度是中央监察地方的专职化设置，汉代监察体系由此制度化。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-hanwudi-caizheng
+  relation_type: follows
+  description_zh_cn: 武帝集权制度建设的组成部分

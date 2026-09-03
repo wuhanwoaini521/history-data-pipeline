@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-hexi-zhizhan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.135668Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n河西之战（前121）为两次战役与浑邪王降汉；河西四郡设郡时间有先后（约前121—前111），在 summary 内说明，不单列（避免碎片化，见 §22）。"
+}

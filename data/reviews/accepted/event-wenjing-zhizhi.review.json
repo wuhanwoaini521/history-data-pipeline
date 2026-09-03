@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wenjing-zhizhi",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.097959Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n\"文景之治\"为后世对文帝景帝两朝治世的概括（同\"成康之治\"处理），不作为单一精确事件。"
+}

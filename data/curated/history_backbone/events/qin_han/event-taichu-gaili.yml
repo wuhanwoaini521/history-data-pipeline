@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-taichu-gaili
+name_zh_cn: 太初改历
+event_type: reform
+start_year: -104
+end_year: -104
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前104年（太初元年），汉武帝采纳公孙卿等建议改用新历（太初历），正月为岁首、以元封七年改为太初元年，并施行史记纪年体系。太初历（邓平、落下闳等所制）是当时较精密的历法，其后长期沿用。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·律历志》《武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-cishi-jiancha
+  relation_type: follows
+  description_zh_cn: 武帝时期制度建设的组成部分

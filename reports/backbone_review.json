@@ -7,6 +7,10 @@
         "part_of_children": 7
       },
       {
+        "event_id": "event-han-xiongnu-war",
+        "part_of_children": 5
+      },
+      {
         "event_id": "event-chuhan-war",
         "part_of_children": 4
       },
@@ -50,20 +54,20 @@
       }
     ],
     "event_type_distribution": {
-      "war": 44,
-      "political": 18,
-      "political-military": 17,
-      "reform": 8,
+      "war": 52,
+      "political": 35,
+      "political-military": 18,
+      "reform": 12,
       "dynastic-transition": 7,
       "rebellion": 7,
-      "economic": 5,
-      "diplomatic": 3,
-      "treaty": 3,
-      "alliance": 2,
+      "economic": 6,
+      "diplomatic": 6,
+      "treaty": 4,
+      "alliance": 3,
       "cultural": 2,
       "migration": 2,
       "unification": 2,
-      "foundation": 1
+      "foundation": 2
     }
   },
   "coverage_gaps": [

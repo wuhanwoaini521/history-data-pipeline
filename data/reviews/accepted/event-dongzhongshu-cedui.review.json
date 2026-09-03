@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-dongzhongshu-cedui",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:55:54.182558Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "approximate",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n《汉书·董仲舒传》对策年代有建元元年（前140）与元光元年（前134）两说，学界仍有讨论；本库取通行线索并标 approximate（详见 QIN_HAN_BACKBONE_REVIEW.md）。\"罢黜百家，独尊儒术\"为后世概括语，不按精确日期立项。"
+}

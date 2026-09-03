@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wenjing-zhizhi
+name_zh_cn: 文景之治
+event_type: political
+start_year: -179
+end_year: -141
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 汉文帝、汉景帝两朝（约前179—前141年）轻徭薄赋、与民休息，社会富庶、仓廪充实，史家后世概括为"文景之治"（属后世历史概括）。本事件为治世过程节点，具体制度与政变见 削藩/七国之乱 等具体 Event。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·食货志》及《文帝纪》《景帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-hanwendi-jiwei
+  relation_type: follows
+- target_event_id: event-chaocuo-xuefan
+  relation_type: precedes
+  description_zh_cn: 文景后期削藩问题浮出

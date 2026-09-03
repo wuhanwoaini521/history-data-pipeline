@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wangfeng-waigi
+name_zh_cn: 王凤辅政与王氏外戚崛起
+event_type: political
+start_year: -33
+end_year: -33
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前33年汉元帝去世，成帝即位，太后王政君之兄王凤任大司马大将军领尚书事，王氏外戚自此执掌朝政，一门十侯，王莽亦由此家族登上政治舞台。王氏家族崛起是西汉末年权力中枢转移的关键节点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·元后传》《王莽传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-han-yuandi-jiwei
+  relation_type: follows
+  description_zh_cn: 外戚政治进入中枢

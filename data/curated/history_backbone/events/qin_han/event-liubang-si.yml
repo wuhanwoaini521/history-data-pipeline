@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-liubang-si
+name_zh_cn: 汉高祖刘邦去世
+event_type: political
+start_year: -195
+end_year: -195
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前195年四月，汉高帝刘邦病逝于长乐宫，太子刘盈继位（汉惠帝）。刘邦去世后吕后实际控制朝政，功臣集团与刘氏宗室的权力平衡进入新阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·高祖本纪》《吕太后本纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-baima-zhi-meng
+  relation_type: follows
+- target_event_id: event-luhou-linchao
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 刘邦死后吕后逐渐掌握朝政

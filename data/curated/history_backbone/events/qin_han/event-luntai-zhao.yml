@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-luntai-zhao
+name_zh_cn: 轮台诏
+event_type: political
+start_year: -89
+end_year: -89
+date_precision: year
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 前89年（征和四年），汉武帝颁布轮台诏（《轮台诏》），罪己悔过，罢罢轮台屯田，宣布"当今务在禁苛暴、止擅赋、力本农"，政策转向休养。轮台诏标志着武帝晚年对连年征伐与酷政的反思，为昭宣时期的政策基调定下方向。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·西域传》《武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-wugu-zhi-huo
+  relation_type: follows
+  description_zh_cn: 武帝晚年政策转向
+- target_event_id: event-wudi-si-huoguang
+  relation_type: precedes
+  description_zh_cn: 轮台诏后两年武帝去世，霍光辅政
