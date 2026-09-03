@@ -455,10 +455,22 @@ def write_manifest(paths, backbone: Backbone, result: ResolutionResult, database
         }
     manifest = {
         "version": version,
+        "data_version": version,
         "built_at": built_at,
         "git_commit": commit,
+        "build_commit": commit,
         "pipeline": "history-data backbone build",
         "counts": counts,
+        "summary_counts": {
+            "period_count": counts["periods"],
+            "regime_count": counts["regimes"],
+            "event_count": counts["events"],
+            "critical_count": sum(1 for e in backbone.events if e.get("importance") == "critical"),
+            "major_count": sum(1 for e in backbone.events if e.get("importance") == "major"),
+            "story_count": counts["stories"],
+            "relation_count": counts["event_relations"],
+            "source_count": counts["sources"],
+        },
         "coverage_by_layer": {
             "layer1_source": {"raw_snapshots": len(list((paths.raw).glob("*/*")) ) if paths.raw.exists() else 0},
             "layer2_knowledge": {key: counts[key] for key in ("people", "places", "works", "historical_texts", "sources", "entity_source_mapping")},

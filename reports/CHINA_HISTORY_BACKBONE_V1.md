@@ -10,13 +10,13 @@
 |---|---:|
 | Period 总数 | 31 |
 | Regime 总数 | 31 |
-| Event 总数 | **355**（既有迁移 26 + Batch1 82 + Batch2 70 + Batch3 89 + Batch4 隋唐五代 88） |
-| Critical Event | 33 |
-| Major Event | 321 |
+| Event 总数 | **618**（既有迁移 26 + Batch1 82 + Batch2 70 + Batch3 89 + Batch4 88 + Batch5 63 + Batch6 82 + Batch7 66 + Batch8 52） |
+| Critical Event | 62 |
+| Major Event | 555 |
 | Normal Event | 1 |
 | Story | 3（楚汉争霸 / 三国格局形成 / 安史之乱，不变） |
 | StoryEvent | 26 |
-| EventRelation | 622（既有 23 + B1 152 + B2 122 + B3 169 + B4 156） |
+| EventRelation | 1062 |
 
 ## 2. 里程碑
 
