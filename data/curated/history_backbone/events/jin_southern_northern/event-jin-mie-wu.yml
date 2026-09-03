@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-jin-mie-wu
+name_zh_cn: 晋灭吴、西晋统一
+event_type: war
+start_year: 280
+end_year: 280
+date_precision: year
+period_id: period-western-jin
+regime_ids:
+- regime-western-jin
+importance: critical
+summary_zh_cn: 太康元年（280年）晋武帝发六路大军伐吴，王濬楼船径取建业，孙皓出降，吴亡。晋灭吴结束三国鼎立，西晋完成全国统一，中国自东汉末动荡以来首次重归一统。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·武帝纪》《王濬传》《三国志·吴书·孙皓传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-sima-yan-dai-wei
+  relation_type: follows
+  description_zh_cn: 西晋立国十五年后灭吴统一
+- target_event_id: event-jin-wudi-beng
+  relation_type: precedes
+  description_zh_cn: 统一后晋武帝晚年政治走向腐化

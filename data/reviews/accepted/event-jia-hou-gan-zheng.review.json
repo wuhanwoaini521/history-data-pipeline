@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-jia-hou-gan-zheng",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T08:32:37.162198Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch3)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-western-jin"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 3（东汉末—隋统一）人工审核：确认事件必要性、时期归属、时间与重要性分级；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n贾后诛杨骏在291年（元康元年）；300年赵王伦杀贾后。\"太子废立\"之争为其间重要事件。"
+}

@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xijin-mie-wang
+name_zh_cn: 长安陷落、西晋灭亡
+event_type: war
+start_year: 316
+end_year: 316
+date_precision: year
+period_id: period-western-jin
+regime_ids:
+- regime-han-zhao
+importance: critical
+summary_zh_cn: 建兴四年（316年）刘曜围长安，晋愍帝出降，西晋灭亡。西晋亡国为"永嘉之乱"的终点，也标志北方进入"十六国"多政权并立时代，而南方则孕育出东晋政权。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·愍帝纪》《刘曜载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-luoyang-xianshi
+  relation_type: follows
+  confidence: 0.9
