@@ -54,17 +54,17 @@
       }
     ],
     "event_type_distribution": {
-      "war": 53,
-      "political": 35,
+      "war": 56,
+      "political": 43,
       "political-military": 18,
       "reform": 13,
-      "dynastic-transition": 9,
+      "dynastic-transition": 10,
       "rebellion": 9,
+      "diplomatic": 7,
       "economic": 6,
-      "diplomatic": 6,
       "treaty": 4,
       "alliance": 3,
-      "cultural": 2,
+      "cultural": 3,
       "migration": 2,
       "unification": 2,
       "foundation": 2
@@ -132,14 +132,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-eastern-han",
-      "period_name": "东汉",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-western-jin",

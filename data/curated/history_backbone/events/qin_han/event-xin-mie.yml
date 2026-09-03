@@ -20,3 +20,7 @@ relations:
 - target_event_id: event-kunyang-zhizhan
   relation_type: follows
   description_zh_cn: 昆阳战后新朝迅速崩溃
+- target_event_id: event-guangwu-chengdi
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 新亡后群雄并起，刘秀于公元25年称帝建立东汉

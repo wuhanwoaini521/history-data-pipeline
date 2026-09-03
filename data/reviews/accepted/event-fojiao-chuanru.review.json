@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-fojiao-chuanru",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:58:21.843771Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "approximate",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n\"白马寺/永平求法\"为传统说法，属后世追述成分居多（《后汉书》未载白马寺建寺细节）；学界普遍认为佛教传入为渐进过程、时间早于或晚于永平十年均有讨论，故标 approximate 并如实在 review_note 说明，不按传说伪装精确事实（§21/§49）。"
+}

@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-liangji-zhuanquan
+name_zh_cn: 梁冀专权
+event_type: political
+start_year: 144
+end_year: 159
+date_precision: range
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 顺帝、冲帝、质帝、桓帝前期，梁冀以外戚为大将军执掌朝政十余年（约144—159年），废立冲质桓三帝、毒杀质帝，权倾天下；延熹二年（159年）汉桓帝与宦官单超等合谋收捕梁冀，梁氏被族灭，梁冀家产没入官府，宦官五侯自此掌权。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·梁冀传》《宦者列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-huangguan-li-shundi
+  relation_type: follows
+  description_zh_cn: 梁氏外戚自顺帝朝崛起
+- target_event_id: event-danggu-1
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 诛梁冀后宦官专权，士人清议与宦官冲突酿成党锢之祸

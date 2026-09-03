@@ -36,8 +36,8 @@ def schemas():
 def test_backbone_loads(backbone):
     assert len(backbone.periods) >= 30
     assert len(backbone.regimes) >= 30
-    # Batch 1（先秦 82）+ Batch 2（QIN 13 + WH 37 + XIN 6）
-    assert len(backbone.events) == 164
+    # Batch 1（先秦 82）+ Batch 2（QIN 13 + WH 37 + XIN 6 + EH 14）
+    assert len(backbone.events) == 178
     assert len(backbone.stories) == 3
     # 三个 Story 标题
     assert {story["title_zh_cn"] for story in backbone.stories} == {"楚汉争霸", "三国格局形成", "安史之乱"}
@@ -283,3 +283,117 @@ def test_backbone_qa_report_functions(backbone):
     gaps = gap_detection(backbone)
     # 夏代传统纪年节点稀疏，存在真实空白（属于预期，不自动补点）
     assert any(g["period_id"] == "period-xia" for g in gaps)
+
+
+# ---------------------------------------------------------------------------
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# ---------------------------------------------------------------------------
+QIN_HAN_PERIODS = {"period-qin", "period-western-han", "period-xin", "period-eastern-han"}
+CHU_HAN_EVENTS = {
+    "event-chuhan-qin-revolt", "event-chuhan-julu", "event-chuhan-qin-fall",
+    "event-hongmen", "event-chuhan-pengcheng", "event-chuhan-xingyang",
+    "event-chuhan-gaixia", "event-chuhan-han-foundation", "event-chuhan-later",
+}
+
+
+def _qin_han_events(backbone):
+    return [e for e in backbone.events if e["period_id"] in QIN_HAN_PERIODS]
+
+
+def test_qin_han_backbone_baseline(backbone):
+    """Batch 2：秦/西汉/新/东汉均形成 Backbone（数量下限 + 关键节点在场）。"""
+    by_period = {pid: [e for e in _qin_han_events(backbone) if e["period_id"] == pid] for pid in QIN_HAN_PERIODS}
+    assert len(by_period["period-qin"]) >= 8, f"秦事件过少: {len(by_period['period-qin'])}"
+    assert len(by_period["period-western-han"]) >= 25, f"西汉事件过少: {len(by_period['period-western-han'])}"
+    assert len(by_period["period-xin"]) >= 5, f"新事件过少: {len(by_period['period-xin'])}"
+    assert len(by_period["period-eastern-han"]) >= 10, f"东汉事件过少: {len(by_period['period-eastern-han'])}"
+    names = {e["name_zh_cn"] for e in _qin_han_events(backbone)}
+    for key in ("秦推行郡县制", "陈胜吴广起义", "七国之乱", "漠北之战", "巫蛊之祸", "轮台诏",
+                "王莽称帝、新朝建立", "昆阳之战", "刘秀称帝、东汉建立", "第一次党锢之祸", "第二次党锢之祸"):
+        assert key in names, f"缺少关键节点: {key}"
+    # Batch2 只维护 critical/major（既有迁移 9 Event 保留其原分级，如 event-chuhan-later=normal）
+    batch2_new = [e for e in _qin_han_events(backbone) if e["id"] not in CHU_HAN_EVENTS]
+    assert all(e["importance"] in {"critical", "major"} for e in batch2_new)
+
+
+def test_qin_han_event_ids_unique(backbone):
+    ids = [e["id"] for e in backbone.events]
+    assert len(ids) == len(set(ids))
+    qh_ids = [e["id"] for e in _qin_han_events(backbone)]
+    assert len(qh_ids) == len(set(qh_ids))
+
+
+def test_qin_han_period_refs(backbone):
+    period_ids = {p["id"] for p in backbone.periods}
+    for event in _qin_han_events(backbone):
+        assert event["period_id"] in period_ids, event["id"]
+    # 定向过滤可用（§45 CLI 语义）
+    from history_data_pipeline.backbone.timeline import filter_timeline
+    for needle in ("qin", "western-han", "xin", "eastern-han"):
+        rows = filter_timeline(backbone, period_filter=needle)
+        assert rows, f"--period {needle} 无结果"
+
+
+def test_qin_han_timeline_order(backbone):
+    from history_data_pipeline.backbone.timeline import filter_timeline, timeline_record
+    rows = [timeline_record(e) for e in filter_timeline(backbone)]
+    years = [r["start_year"] for r in rows if r["period_id"] in QIN_HAN_PERIODS]
+    assert years == sorted(years)
+    # 秦汉段首个 = 秦推行郡县制（前221，早于既有 秦统一 的口径差分由排序保证）
+    qh = [r for r in rows if r["period_id"] in QIN_HAN_PERIODS]
+    assert qh[0]["start_year"] >= -221
+
+
+def test_existing_chu_han_events_reused(backbone):
+    """楚汉 Story 9 个既有审核 Event 全部复用，无重复建档。"""
+    by_id = {e["id"]: e for e in backbone.events}
+    for event_id in CHU_HAN_EVENTS:
+        assert event_id in by_id, f"缺失既有 Event: {event_id}"
+        assert by_id[event_id]["quality_status"] == "reviewed"
+    # 楚汉战争 aggregate 引用既有子事件（part_of，不重复建档）
+    war = by_id["event-chuhan-war"]
+    assert war["importance"] in {"critical", "major"}
+    children = {e["id"] for e in backbone.events for r in e.get("relations", [])
+                if r["relation_type"] == "part_of" and r["target_event_id"] == "event-chuhan-war"}
+    assert {"event-hongmen", "event-chuhan-pengcheng", "event-chuhan-xingyang", "event-chuhan-gaixia"} <= children
+
+
+def test_huangjin_event_reused(backbone):
+    """黄巾起义复用既有 event-three-yellow-turbans，不新建第二个。"""
+    matching = [e for e in backbone.events if "黄巾" in e["name_zh_cn"]]
+    assert len(matching) == 1, f"黄巾事件应为 1 个，实际 {len(matching)}: {[e['id'] for e in matching]}"
+    huangjin = matching[0]
+    assert huangjin["id"] == "event-three-yellow-turbans"
+    assert huangjin["start_year"] == 184
+    # 党锢之祸 → 黄巾 有 precedes 衔接
+    assert any(r["target_event_id"] == "event-three-yellow-turbans" and r["relation_type"] == "precedes"
+               for e in backbone.events for r in e.get("relations", []))
+
+
+def test_qin_unification_no_duplicate(backbone):
+    """秦统一：不得出现 event-qin-tongyi 之外的重复建档（§40 语义近邻检查）。"""
+    ids = [e["id"] for e in backbone.events]
+    # 秦统一系列仍只存在于 chunqiu_zhanguo（Batch1 已建：秦灭六国 + 秦统一六国）
+    unify = [e for e in backbone.events if e["id"] in {"event-qin-tongyi", "event-qin-mie-liuguo"}]
+    assert len(unify) == 2, f"统一节点应为 秦灭六国+秦统一 两个: {[e['id'] for e in unify]}"
+    assert "event-qin-tongyi" in ids
+    # qin_han 目录内不得出现 秦统一/秦灭六国 的重复建档
+    qh_files = {e["id"] for e in backbone.events if "qin_han" in e.get("_file", "")}
+    assert not (qh_files & {"event-qin-tongyi", "event-qin-mie-liuguo"})
+    # 党锢第一/第二次为规范分列（§26），不视作重复
+    assert {"event-danggu-1", "event-danggu-2"} <= qh_files
+
+
+def test_qin_han_source_coverage(backbone):
+    """Batch2 Event 100% 携带 source_reference；新建 Event 同时携带 source_ids（两层来源链）。
+
+    既有迁移 Event（楚汉 Story 9 个，仅带 source_reference）随其审核状态保留，
+    不要求补 source_ids（沿用 §36：source 指 Event 来源依据而非 HistoricalText Evidence）。
+    """
+    for event in _qin_han_events(backbone):
+        assert event.get("source_type") == "curated_reference", event["id"]
+        assert event.get("source_reference"), event["id"]
+        assert "AI" not in event["source_reference"] and "ChatGPT" not in event["source_reference"], event["id"]
+    batch2_new = [e for e in _qin_han_events(backbone) if e["id"] not in CHU_HAN_EVENTS]
+    for event in batch2_new:
+        assert event.get("source_ids"), event["id"]

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-he-di-zhu-dou
+name_zh_cn: 和帝诛灭窦氏
+event_type: political
+start_year: 92
+end_year: 92
+date_precision: year
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 永元四年（92年），汉和帝与外兄宦官郑众等合谋，收捕窦宪及其党羽，窦宪自杀，窦氏外戚集团覆灭。此事件中宦官首次参与废立式政治行动并获封侯，东汉"外戚—宦官"交替掌权的政治格局自此展开。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·窦宪传》《宦者列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-dougu-beixiong
+  relation_type: follows
+  description_zh_cn: 窦宪北伐后权倾朝野
+- target_event_id: event-deng-taihou
+  relation_type: precedes
+  description_zh_cn: 和帝后外戚政治继续以临朝形式延续

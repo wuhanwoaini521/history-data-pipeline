@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import difflib
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -39,6 +40,17 @@ GAP_THRESHOLD_YEARS = 150
 
 def _name_ratio(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, a, b).ratio()
+
+
+_ORDINAL_RE = re.compile(r"第[一二三四五六七八九十百]+[次回合]")
+
+
+def _is_enumerated_series(a: str, b: str) -> bool:
+    """第X次/第X回 枚举型系列（如 第一次党锢之祸/第二次党锢之祸）：
+    属刻意分列的不同阶段（§26），不是重复。"""
+    stripped_a = _ORDINAL_RE.sub("", a)
+    stripped_b = _ORDINAL_RE.sub("", b)
+    return stripped_a == stripped_b and stripped_a != "" and stripped_a != a
 
 
 def duplicate_check(backbone: Backbone) -> list[dict[str, Any]]:
@@ -78,6 +90,8 @@ def duplicate_check(backbone: Backbone) -> list[dict[str, Any]]:
             except TypeError:
                 nearby = False
             name_a, name_b = a["name_zh_cn"], b["name_zh_cn"]
+            if _is_enumerated_series(name_a, name_b):
+                continue  # 第X次枚举系列（如 党锢一/党锢二），刻意分列不视为重复
             contained = (name_a in name_b or name_b in name_a) and name_a != name_b
             ratio = _name_ratio(name_a, name_b)
             if same_period and (contained or (nearby and ratio >= 0.65)):

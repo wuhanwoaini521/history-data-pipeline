@@ -11,7 +11,7 @@
   },
   "qin_han": {
     "label": "秦汉",
-    "events": 65,
+    "events": 79,
     "stories": 1
   },
   "three_kingdoms": {
@@ -144,11 +144,11 @@
     {
       "period_id": "period-eastern-han",
       "name_zh_cn": "东汉",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 13,
       "normal": 0,
       "minor": 0,
-      "total": 0
+      "total": 14
     },
     {
       "period_id": "period-late-eastern-han",

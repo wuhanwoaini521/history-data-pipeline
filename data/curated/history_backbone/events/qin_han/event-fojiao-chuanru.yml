@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-fojiao-chuanru
+name_zh_cn: 佛教传入与早期佛教活动
+event_type: cultural
+start_year: 67
+end_year: 67
+date_precision: approximate
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 传统记载称汉明帝永平年间（一说永平十年，公元67年）遣使往西域取经，白马驮经归洛阳，敕建白马寺供养，佛教自此正式传入中国并译经渐兴；另据近年研究，佛教通过丝绸之路零星传入中国或早于此时，传入是一个过程而非单一事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书》相关记载与《牟子理惑论》等传统叙述；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-hanmingdi-jiwei
+  relation_type: follows
+  description_zh_cn: 传统记载"永平求法"系于明帝朝

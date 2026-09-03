@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-danggu-2
+name_zh_cn: 第二次党锢之祸
+event_type: political
+start_year: 169
+end_year: 169
+date_precision: year
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建宁二年（169年），宦官侯览等借张俭事案大兴党狱，李膺、范滂等百余人被下狱处死或自杀，妻子徙边，天下士人被禁锢者六七百人，党锢之祸达于极盛；直到中平元年（184年）黄巾起义爆发才大赦党人。第二次党锢使士大夫政治力量受到毁灭性打击，东汉政局进一步恶化。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·党锢列传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-danggu-1
+  relation_type: follows
+  description_zh_cn: 第一次党锢后的再度大狱
+- target_event_id: event-three-yellow-turbans
+  relation_type: precedes
+  description_zh_cn: 黄巾起义（184）爆发后朝廷大赦党人，党锢终结

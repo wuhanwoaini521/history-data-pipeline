@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-guangwu-dutian
+name_zh_cn: 光武帝度田
+event_type: political
+start_year: 39
+end_year: 40
+date_precision: range
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 建武十五年（39年），光武帝下令度田（清核全国垦田数）以整顿赋税，地方豪强阻挠、刺史太守贪赃枉法，建武十六年（40年）青徐幽冀等州爆发反抗；光武帝严厉处治失职官员并安抚郡国，度田最终以不了了之收场。度田反映了东汉初年政府与豪强势力在土地、赋役问题上的矛盾。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》；另见田余庆《秦汉魏晋史探微》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-guangwu-tongyi
+  relation_type: follows
+  description_zh_cn: 统一后整顿田制
+- target_event_id: event-hanmingdi-jiwei
+  relation_type: precedes
+  description_zh_cn: 度田及其余波后光武朝转入稳定

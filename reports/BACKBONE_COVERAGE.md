@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：31
-- Event：164
+- Event：178
 - Story：3
 
 ## 按时期组
@@ -16,7 +16,7 @@
 |---|---:|---:|
 | 夏商周 | 21 | 0 |
 | 春秋战国 | 61 | 0 |
-| 秦汉 | 65 | 1 |
+| 秦汉 | 79 | 1 |
 | 魏晋南北朝（三国） | 8 | 1 |
 | 魏晋南北朝 | 0 | 0 |
 | 隋唐 | 9 | 1 |
@@ -39,6 +39,7 @@
 | 秦 | 0 | 14 | 0 | 0 | 14 |
 | 西汉 | 2 | 42 | 1 | 0 | 45 |
 | 新 | 2 | 4 | 0 | 0 | 6 |
+| 东汉 | 1 | 13 | 0 | 0 | 14 |
 | 东汉末 | 0 | 7 | 0 | 0 | 7 |
 | 三国 | 0 | 1 | 0 | 0 | 1 |
 | 唐 | 0 | 9 | 0 | 0 | 9 |
@@ -52,4 +53,26 @@
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
+
+## 最新 Manifest
+
+```json
+{
+  "periods": 31,
+  "regimes": 31,
+  "events": 178,
+  "stories": 3,
+  "story_events": 26,
+  "event_relations": 297,
+  "event_people": 58,
+  "event_places": 26,
+  "event_evidence": 26,
+  "people": 18,
+  "places": 3,
+  "works": 13,
+  "historical_texts": 0,
+  "sources": 7,
+  "entity_source_mapping": 21
+}
+```
 

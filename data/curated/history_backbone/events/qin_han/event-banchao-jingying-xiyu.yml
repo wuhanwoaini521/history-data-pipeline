@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-banchao-jingying-xiyu
+name_zh_cn: 班超经营西域
+event_type: diplomatic
+start_year: 73
+end_year: 91
+date_precision: range
+period_id: period-eastern-han
+regime_ids: []
+importance: major
+summary_zh_cn: 永平十六年（73年）窦固北征匈奴时，班超随军出使西域，以"不入虎穴，焉得虎子"之胆识杀匈奴使者镇抚鄯善、于阗、疏勒诸国，此后数十年经营西域，重建汉朝在西域的统治；永元三年（91年）班超任西域都护，永元九年（97年）遣甘英出使大秦（罗马）方向。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·班超传》《西域传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-hanmingdi-jiwei
+  relation_type: follows
+  description_zh_cn: 明帝朝重开西域经略
+- target_event_id: event-dougu-beixiong
+  relation_type: precedes
+  description_zh_cn: 窦固北伐为同期对外经略

@@ -23,3 +23,7 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 昆阳大捷后更始军进长安，王莽被杀，新朝灭亡
+- target_event_id: event-guangwu-chengdi
+  relation_type: contributes_to
+  confidence: 0.7
+  description_zh_cn: 刘秀因昆阳之战声望大增，为其后称帝奠定基础

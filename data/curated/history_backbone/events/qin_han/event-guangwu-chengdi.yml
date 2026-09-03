@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-guangwu-chengdi
+name_zh_cn: 刘秀称帝、东汉建立
+event_type: dynastic-transition
+start_year: 25
+end_year: 25
+date_precision: year
+period_id: period-eastern-han
+regime_ids: []
+importance: critical
+summary_zh_cn: 公元25年（更始三年/建武元年）六月，刘秀在鄗县（今河北柏乡一带）称帝，仍用"汉"国号，史称后汉或东汉；随后定都洛阳。东汉的建立结束了新莽以来的政治混乱，中国历史进入东汉时代。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-xin-mie
+  relation_type: follows
+  description_zh_cn: 新亡后群雄争鼎，刘秀重建汉室
+- target_event_id: event-kunyang-zhizhan
+  relation_type: follows
+  description_zh_cn: 昆阳之战的威望助刘秀在河北立足称帝

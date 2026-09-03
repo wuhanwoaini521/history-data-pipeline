@@ -10,15 +10,22 @@
 |---|---:|
 | Period 总数 | 31 |
 | Regime 总数 | 31 |
-| Event 总数 | **108**（既有迁移 26 + Batch1 新增 82） |
-| Critical Event | 7 |
-| Major Event | 100 |
+| Event 总数 | **178**（既有迁移 26 + Batch1 先秦 82 + Batch2 秦汉 70） |
+| Critical Event | 12 |
+| Major Event | 165 |
 | Normal Event | 1 |
 | Story | 3（楚汉争霸 / 三国格局形成 / 安史之乱，不变） |
 | StoryEvent | 26 |
-| EventRelation | 175（既有 23 + Batch1 新增 152） |
+| EventRelation | 297（既有 23 + Batch1 新增 152 + Batch2 新增 122） |
 
-## 2. 本轮（Batch 1 先秦）交付
+## 2. 里程碑
+
+- **Batch 1（先秦）**：82 个 Event（夏4/商4/西周13/春秋24/战国37）→ `PRE_QIN_BACKBONE_READY = true`
+- **Batch 2（秦汉）**：70 个 Event（秦12/西汉38/新6/东汉14）+ 楚汉战争/汉匈战争 aggregate，
+  复用 楚汉9 + 秦统一系列8 + 黄巾1 → `QIN_HAN_BACKBONE_READY = true`
+- 最新报告：`reports/QIN_HAN_BACKBONE_REVIEW.md`、`docs/CHINA_HISTORY_BACKBONE_BATCH2_SUMMARY.md`
+
+### 本轮（Batch 1 先秦）交付
 
 - Critical Event：**7**
 - Major Event：**75**
