@@ -44,3 +44,14 @@ regimes:
   - {id: regime-southern-qi, name_zh_cn: 南齐, start_year: 479, end_year: 502, date_precision: range, period_id: period-northern-southern, description_zh_cn: 南朝政权（萧道成建齐）。}
   - {id: regime-liang, name_zh_cn: 梁, start_year: 502, end_year: 557, date_precision: range, period_id: period-northern-southern, description_zh_cn: 南朝政权（萧衍建梁），侯景之乱后瓦解。}
   - {id: regime-chen, name_zh_cn: 陈, start_year: 557, end_year: 589, date_precision: range, period_id: period-northern-southern, description_zh_cn: 南朝最后一个政权（陈霸先建陈），589年灭于隋。}
+  - {id: regime-wu-zhou, name_zh_cn: 武周, start_year: 690, end_year: 705, date_precision: range, period_id: period-tang, description_zh_cn: 武则天建立的周政权（Period 仍属唐）。}
+  - {id: regime-wu, name_zh_cn: 吴, start_year: 902, end_year: 937, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（杨行密），后为南唐取代。}
+  - {id: regime-southern-tang, name_zh_cn: 南唐, start_year: 937, end_year: 975, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（李昪代吴），为十国最强之一。}
+  - {id: regime-wuyue, name_zh_cn: 吴越, start_year: 907, end_year: 978, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（钱镠），钱氏累世称藩。}
+  - {id: regime-chu, name_zh_cn: 楚, start_year: 907, end_year: 951, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（马殷），都潭州（长沙）。}
+  - {id: regime-min, name_zh_cn: 闽, start_year: 909, end_year: 945, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（王审知），都福州。}
+  - {id: regime-former-shu, name_zh_cn: 前蜀, start_year: 907, end_year: 925, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（王建），都成都。}
+  - {id: regime-later-shu, name_zh_cn: 后蜀, start_year: 934, end_year: 965, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（孟知祥），都成都。}
+  - {id: regime-southern-han, name_zh_cn: 南汉, start_year: 917, end_year: 971, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（刘䶮），都广州（兴王府）。}
+  - {id: regime-jingnan, name_zh_cn: 荆南（南平）, start_year: 924, end_year: 963, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（高季兴），都江陵。}
+  - {id: regime-northern-han, name_zh_cn: 北汉, start_year: 951, end_year: 979, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（刘旻），都太原，依附契丹。}

@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yingjian-dongdu
+name_zh_cn: 营建东都洛阳
+event_type: foundation
+start_year: 605
+end_year: 606
+date_precision: range
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 大业元年（605年）隋炀帝下令营建东都洛阳，每月役夫二百万人，至606年三月基本建成。洛阳由此成为隋唐两朝的重要政治中心之一，与长安并称两京。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·炀帝纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-yangguang-jiwei
+  relation_type: follows
+- target_event_id: event-dayunhe-kaiwa
+  relation_type: precedes
+  description_zh_cn: 营建东都与大运河工程同期展开

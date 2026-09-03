@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sui-zheng-g2
+name_zh_cn: 第二次征高句丽
+event_type: war
+start_year: 613
+end_year: 613
+date_precision: year
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 大业九年（613年）隋炀帝再度亲征高句丽，围辽东城；六月礼部尚书杨玄感于黎阳（今河南浚县）起兵攻洛阳，炀帝闻讯回师，撤围内平，二次征伐无功而返。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·炀帝纪》《杨玄感传》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-sui-zheng-gaogouli
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 隋征高句丽第二次（杨玄感之乱中断）

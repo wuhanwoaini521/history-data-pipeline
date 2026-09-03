@@ -36,20 +36,21 @@ def compute_coverage(backbone: Backbone) -> dict[str, dict[str, int]]:
     return coverage
 
 
-def _event_is_batch3(root: Path, backbone: Backbone, event_id: str) -> bool:
-    """provenance：Batch3 新增事件由 review 文件 reviewed_by 标识（data/reviews/accepted/<id>.review.json）。"""
+def _event_in_batch(root: Path, event_id: str, batch: str) -> bool:
+    """provenance：本批（batch4…）新增事件由 review 文件 reviewed_by 标识。"""
     review_file = root / "data" / "reviews" / "accepted" / f"{event_id}.review.json"
     if not review_file.exists():
         return False
     try:
         import json
         doc = json.loads(review_file.read_text(encoding="utf-8"))
-        return "batch3" in (doc.get("reviewed_by") or "")
+        return batch in (doc.get("reviewed_by") or "")
     except Exception:
         return False
 
 
-def compute_importance_by_period(backbone: Backbone, root: Path | None = None) -> list[dict[str, Any]]:
+def compute_importance_by_period(backbone: Backbone, root: Path | None = None,
+                                  current_batch: str = "batch4") -> list[dict[str, Any]]:
     """按 Period（taxonomy 顺序）统计 Event 数：critical/major/normal/minor + New/Reused。
 
     New = 本批（Batch3）新增（review provenance）；Reused = 该 Period 内既有 Event。
@@ -62,7 +63,7 @@ def compute_importance_by_period(backbone: Backbone, root: Path | None = None) -
         period_id = event.get("period_id") or "?"
         bucket = by_period.setdefault(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0, "new": 0})
         bucket[event.get("importance", "normal")] = bucket.get(event.get("importance", "normal"), 0) + 1
-        if root is not None and _event_is_batch3(root, backbone, event["id"]):
+        if root is not None and _event_in_batch(root, event["id"], current_batch):
             bucket["new"] += 1
     for period_id in order:
         bucket = by_period.get(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0, "new": 0})

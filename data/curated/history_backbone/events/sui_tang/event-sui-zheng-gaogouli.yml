@@ -1,0 +1,31 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sui-zheng-gaogouli
+name_zh_cn: 隋征高句丽
+event_type: war
+start_year: 612
+end_year: 614
+date_precision: range
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 大业八年至十年（612—614年）隋炀帝三次大规模征伐高句丽：首役百万大军渡辽水大败于萨水，二役因杨玄感起兵而还，三役高句丽求和。三征消耗空前的人力财力，直接激化隋末社会矛盾。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·炀帝纪》《高丽传》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-sui-zheng-g1
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 第一次征高句丽
+- target_event_id: event-sui-zheng-g2
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 第二次征高句丽
+- target_event_id: event-sui-zheng-g3
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 第三次征高句丽

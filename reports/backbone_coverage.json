@@ -26,7 +26,7 @@
   },
   "sui_tang": {
     "label": "隋唐",
-    "events": 12,
+    "events": 33,
     "stories": 1
   },
   "five_dynasties": {
@@ -177,8 +177,8 @@
       "major": 22,
       "normal": 0,
       "minor": 0,
-      "new": 15,
-      "reused": 7,
+      "new": 0,
+      "reused": 22,
       "total": 22
     },
     {
@@ -188,8 +188,8 @@
       "major": 13,
       "normal": 0,
       "minor": 0,
-      "new": 13,
-      "reused": 1,
+      "new": 0,
+      "reused": 14,
       "total": 14
     },
     {
@@ -199,8 +199,8 @@
       "major": 8,
       "normal": 0,
       "minor": 0,
-      "new": 12,
-      "reused": 0,
+      "new": 0,
+      "reused": 12,
       "total": 12
     },
     {
@@ -210,8 +210,8 @@
       "major": 6,
       "normal": 0,
       "minor": 0,
-      "new": 8,
-      "reused": 0,
+      "new": 0,
+      "reused": 8,
       "total": 8
     },
     {
@@ -221,8 +221,8 @@
       "major": 13,
       "normal": 0,
       "minor": 0,
-      "new": 13,
-      "reused": 0,
+      "new": 0,
+      "reused": 13,
       "total": 13
     },
     {
@@ -232,20 +232,20 @@
       "major": 21,
       "normal": 0,
       "minor": 0,
-      "new": 25,
-      "reused": 0,
+      "new": 0,
+      "reused": 25,
       "total": 25
     },
     {
       "period_id": "period-sui",
       "name_zh_cn": "隋",
       "critical": 2,
-      "major": 1,
+      "major": 22,
       "normal": 0,
       "minor": 0,
-      "new": 3,
-      "reused": 0,
-      "total": 3
+      "new": 21,
+      "reused": 3,
+      "total": 24
     },
     {
       "period_id": "period-tang",

@@ -19,6 +19,10 @@
         "part_of_children": 3
       },
       {
+        "event_id": "event-sui-zheng-gaogouli",
+        "part_of_children": 3
+      },
+      {
         "event_id": "event-chuzhuang-wang-ba",
         "part_of_children": 2
       },
@@ -79,6 +83,18 @@
         "part_of_children": 1
       },
       {
+        "event_id": "event-sui-zheng-g1",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-sui-zheng-g2",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-sui-zheng-g3",
+        "part_of_children": 1
+      },
+      {
         "event_id": "event-three-north-consolidation",
         "part_of_children": 1
       }
@@ -94,20 +110,20 @@
       }
     ],
     "event_type_distribution": {
-      "war": 91,
-      "political": 66,
+      "war": 97,
+      "political": 70,
       "dynastic-transition": 28,
+      "reform": 22,
       "political-military": 20,
-      "reform": 18,
-      "rebellion": 12,
+      "rebellion": 17,
+      "economic": 7,
       "diplomatic": 7,
-      "economic": 6,
       "migration": 5,
       "treaty": 4,
       "alliance": 3,
       "cultural": 3,
-      "unification": 2,
-      "foundation": 2
+      "foundation": 3,
+      "unification": 2
     }
   },
   "coverage_gaps": [

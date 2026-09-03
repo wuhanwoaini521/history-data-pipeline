@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wagang-jun-jueqi
+name_zh_cn: 瓦岗军崛起
+event_type: rebellion
+start_year: 616
+end_year: 618
+date_precision: range
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 大业十二年（616年）瓦岗军（翟让所创，东郡瓦岗寨）在李密领导下壮大，克兴洛仓、开仓济民，据有河南大部，成为隋末最强的民变武装之一。瓦岗军与洛阳隋军长期拉锯，618年李密为王世充所败，瓦岗瓦解。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·李密传》《资治通鉴·隋纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-yangxuanggan-qibing
+  relation_type: follows
+- target_event_id: event-jiangdu-bingbian
+  relation_type: precedes
+  description_zh_cn: 瓦岗等民变与江都兵变共同终结隋运

@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sui-fei-tai-zi-yong
+name_zh_cn: 隋文帝废太子杨勇
+event_type: political
+start_year: 600
+end_year: 600
+date_precision: year
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 开皇二十年（600年）隋文帝废太子杨勇，改立次子杨广为太子。废立出于晋王杨广与其党羽的构陷与文帝皇后独孤氏的推动，使皇位继承转向杨广，为日后炀帝暴政与隋亡埋下伏笔。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·文四子传》《炀帝纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-yangguang-jiwei
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 废勇立广后，杨广于604年即位

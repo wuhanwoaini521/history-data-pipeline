@@ -1,0 +1,19 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sui-dasuo-miaoyue
+name_zh_cn: 大索貌阅、输籍定样
+event_type: reform
+start_year: 585
+end_year: 585
+date_precision: year
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 开皇五年（585年）隋文帝令"大索貌阅"（按貌核实户籍、清理隐漏人丁），并推行"输籍定样"（定户等输纳标准）。此举大量检括隐户为编户，国家户籍与赋役基础显著扩大，是开皇年间经济整顿的关键政策。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·食货志》《高祖纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations: []

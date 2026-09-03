@@ -206,5 +206,9 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         {"id": "work-curated-nanshi", "title": "南史", "title_raw": "南史", "title_zh_cn": "南史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-beishi", "title": "北史", "title_raw": "北史", "title_zh_cn": "北史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-suishu", "title": "隋书", "title_raw": "隋书", "title_zh_cn": "隋书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- China History Backbone V1 · Batch 4：五代/辽 works seeds ----
+        {"id": "work-curated-jiuwudaishi", "title": "旧五代史", "title_raw": "旧五代史", "title_zh_cn": "旧五代史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-xinwudaishi", "title": "新五代史", "title_raw": "新五代史", "title_zh_cn": "新五代史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-liaoshi", "title": "辽史", "title_raw": "辽史", "title_zh_cn": "辽史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

@@ -1,0 +1,21 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-jiangdu-bingbian
+name_zh_cn: 江都兵变、隋炀帝被杀
+event_type: political
+start_year: 618
+end_year: 618
+date_precision: year
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 大业十四年（618年）三月，炀帝滞留扬州江都（今扬州），骁果军将领宇文化及等发动兵变，缢杀隋炀帝。炀帝之死标志隋朝实质灭亡（此前李渊已控制长安并挟有恭帝）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·炀帝纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-wagang-jun-jueqi
+  relation_type: follows

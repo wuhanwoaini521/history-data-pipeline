@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yangguang-jiwei
+name_zh_cn: 杨广即位
+event_type: political
+start_year: 604
+end_year: 604
+date_precision: year
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 仁寿四年（604年）隋文帝病逝（有被弑之传说，史存歧见），太子杨广即位，是为隋炀帝。炀帝即位后大兴工程、频征高句丽，成为隋朝由盛转衰的关键转折。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·炀帝纪》《高祖纪》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-suishu
+relations:
+- target_event_id: event-sui-fei-tai-zi-yong
+  relation_type: follows
+- target_event_id: event-yingjian-dongdu
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 炀帝即位后即营建东都

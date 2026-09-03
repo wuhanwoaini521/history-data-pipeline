@@ -9,13 +9,14 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 91, "political": 66, "dynastic-transition": 28, "political-military": 20, "reform": 18, "rebellion": 12, "diplomatic": 7, "economic": 6, "migration": 5, "treaty": 4, "alliance": 3, "cultural": 3, "unification": 2, "foundation": 2}
+- 事件类型分布：{"war": 97, "political": 70, "dynastic-transition": 28, "reform": 22, "political-military": 20, "rebellion": 17, "economic": 7, "diplomatic": 7, "migration": 5, "treaty": 4, "alliance": 3, "cultural": 3, "foundation": 3, "unification": 2}
 
-- Aggregate（有子事件 part_of）数量：20
+- Aggregate（有子事件 part_of）数量：24
   - event-qin-mie-liuguo：7 个子事件
   - event-han-xiongnu-war：5 个子事件
   - event-chuhan-war：4 个子事件
   - event-bawang-zhi-luan：3 个子事件
+  - event-sui-zheng-gaogouli：3 个子事件
   - event-chuzhuang-wang-ba：2 个子事件
   - event-qihuan-gong-ba：2 个子事件
   - event-hezong-lianheng：2 个子事件
@@ -31,6 +32,9 @@
   - event-luoyang-xianshi：1 个子事件
   - event-xijin-mie-wang：1 个子事件
   - event-zhougong-shezheng：1 个子事件
+  - event-sui-zheng-g1：1 个子事件
+  - event-sui-zheng-g2：1 个子事件
+  - event-sui-zheng-g3：1 个子事件
   - event-three-north-consolidation：1 个子事件
 
 - 长跨度事件（>80 年，需注意与单点事件粒度区分）：

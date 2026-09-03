@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-doujiande-shili
+name_zh_cn: 窦建德据河北
+event_type: rebellion
+start_year: 616
+end_year: 618
+date_precision: range
+period_id: period-sui
+regime_ids: []
+importance: major
+summary_zh_cn: 窦建德自大业末年起兵河北，616年称长乐王，617年据乐寿、建都，618年改称夏王，据有今河北大部。窦建德是隋末北方最重要的民变首领之一，其势力与李渊、王世充鼎足而三。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·窦建德传》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-wagang-jun-jueqi
+  relation_type: precedes
+  description_zh_cn: 河北与河南民变并立

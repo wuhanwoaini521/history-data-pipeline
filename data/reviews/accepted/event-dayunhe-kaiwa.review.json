@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "event_id": "event-dayunhe-kaiwa",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:04:35.609084Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch4)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 4（隋—唐—五代十国）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n大运河系分期开凿（605 通济渠/邗沟、608 永济渠、610 江南河），取 range 不简化为单日事件（§8）；工程役夫伤亡惨重见《隋书》。"
+}
