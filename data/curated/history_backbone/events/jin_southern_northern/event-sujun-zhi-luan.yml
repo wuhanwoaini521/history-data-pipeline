@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sujun-zhi-luan
+name_zh_cn: 苏峻之乱
+event_type: war
+start_year: 327
+end_year: 329
+date_precision: range
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: major
+summary_zh_cn: 咸和二年至四年（327—329年）历阳内史苏峻与祖约联合举兵，攻陷建康、逼走朝廷，后被陶侃、温峤等击败收复京城。苏峻之乱进一步确立以建康为中心的中央权威与地方军事力量的博弈格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·苏峻传》《成帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-wangdun-zhi-luan
+  relation_type: follows
+  description_zh_cn: 继王敦之乱后的又一次武力挑战中央
+- target_event_id: event-shi-le-hou-zhao
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 同时期北方后赵崛起

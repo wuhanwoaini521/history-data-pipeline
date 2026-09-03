@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hou-zhao-bingqian-zhao
+name_zh_cn: 后赵灭前赵
+event_type: war
+start_year: 329
+end_year: 329
+date_precision: year
+period_id: period-sixteen-kingdoms
+regime_ids:
+- regime-later-zhao
+importance: major
+summary_zh_cn: 太和四年（329年）石勒遣石虎攻灭刘曜的前赵，改称天王，都鄴，后赵基本统一北方除辽东、凉州以外的大部分地区。此后北方进入后赵一家独大的时期，直至石虎暴政引发动荡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·石勒载记》《刘曜载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-shi-le-hou-zhao
+  relation_type: follows
+- target_event_id: event-ran-wei
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 后赵石虎死后北方再乱（冉魏）

@@ -1,5 +1,26 @@
 {
-  "duplicate_candidates": [],
+  "duplicate_candidates": [
+    {
+      "kind": "name_contain_or_similar",
+      "event_a": {
+        "id": "event-hou-qin-jianli",
+        "name_zh_cn": "后秦建立",
+        "start_year": 384,
+        "event_type": "dynastic-transition",
+        "importance": "major"
+      },
+      "event_b": {
+        "id": "event-hou-yan-jianli",
+        "name_zh_cn": "后燕建立",
+        "start_year": 384,
+        "event_type": "dynastic-transition",
+        "importance": "major"
+      },
+      "period_id": "period-sixteen-kingdoms",
+      "similarity": 0.75,
+      "note": "可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review，不自动合并。"
+    }
+  ],
   "granularity": {
     "aggregates": [
       {
@@ -78,12 +99,12 @@
       }
     ],
     "event_type_distribution": {
-      "war": 71,
-      "political": 58,
+      "war": 81,
+      "political": 62,
+      "dynastic-transition": 21,
       "political-military": 20,
-      "dynastic-transition": 15,
-      "reform": 13,
-      "rebellion": 10,
+      "reform": 14,
+      "rebellion": 11,
       "diplomatic": 7,
       "economic": 6,
       "treaty": 4,
@@ -156,30 +177,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-eastern-jin",
-      "period_name": "东晋",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
-    },
-    {
-      "period_id": "period-sixteen-kingdoms",
-      "period_name": "十六国",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
-    },
-    {
-      "period_id": "period-northern-southern",
-      "period_name": "南北朝",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-sui",

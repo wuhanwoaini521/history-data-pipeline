@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qian-qin-tongyi
+name_zh_cn: 前秦统一北方
+event_type: war
+start_year: 376
+end_year: 376
+date_precision: year
+period_id: period-sixteen-kingdoms
+regime_ids:
+- regime-former-qin
+importance: major
+summary_zh_cn: 太元元年（376年）前秦连灭前凉、代国（鲜卑拓跋部），基本统一北方。自西晋灭亡以来，北方首次出现覆盖大部地区的统一政权——前秦，为其后南下攻晋（淝水之战）准备了条件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·苻坚载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-qian-qin-mie-qian-yan
+  relation_type: follows
+- target_event_id: event-feishui-zhizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 统一北方后苻坚东下攻晋，决战淝水

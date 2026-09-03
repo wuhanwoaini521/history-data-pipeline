@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-beiwei-tongyi-beifang
+name_zh_cn: 北魏统一北方（灭北凉）
+event_type: war
+start_year: 439
+end_year: 439
+date_precision: year
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-wei
+- regime-northern-liang
+importance: critical
+summary_zh_cn: 太延五年（439年）北魏太武帝拓跋焘西征，克姑臧，北凉沮渠牧犍出降，十六国中最后一个政权被灭，北魏统一北方（此前已灭胡夏431、北燕436）。自此中国北方重归一统，与南方刘宋并峙，南北朝对峙格局正式确立。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·世祖纪》《沮渠蒙逊载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+relations:
+- target_event_id: event-beiwei-mie-hou-yan
+  relation_type: follows
+  description_zh_cn: 北魏统一北方后向中原制度转型（孝文帝改革）

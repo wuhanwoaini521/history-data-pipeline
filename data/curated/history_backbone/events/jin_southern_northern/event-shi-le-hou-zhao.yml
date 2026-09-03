@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-shi-le-hou-zhao
+name_zh_cn: 石勒建立后赵
+event_type: dynastic-transition
+start_year: 319
+end_year: 319
+date_precision: year
+period_id: period-sixteen-kingdoms
+regime_ids:
+- regime-later-zhao
+importance: major
+summary_zh_cn: 太兴二年（319年）石勒自号赵王，建立后赵政权于河北，都襄国（今河北邢台）。石勒原为汉赵部将，其自立使北方形成汉赵（前赵）与后赵并立的格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·石勒载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-liu-yuan-qibing
+  relation_type: follows
+  description_zh_cn: 石勒自汉赵中脱离自立
+- target_event_id: event-hou-zhao-bingqian-zhao
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 后赵渐强并最终灭前赵

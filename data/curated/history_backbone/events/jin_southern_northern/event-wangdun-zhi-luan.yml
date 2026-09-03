@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wangdun-zhi-luan
+name_zh_cn: 王敦之乱
+event_type: political
+start_year: 322
+end_year: 324
+date_precision: range
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: major
+summary_zh_cn: 永昌元年至太宁二年（322—324年）荆州都督王敦两次举兵东下，攻入建康，专权自用，死后叛军为朝廷所平。王敦之乱是东晋门阀政治下，以地方军事长官挑战皇权与朝臣格局的代表事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·王敦传》《元帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-zuti-beifa
+  relation_type: follows
+- target_event_id: event-sujun-zhi-luan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 王敦乱后不久苏峻又乱

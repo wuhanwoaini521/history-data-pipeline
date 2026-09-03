@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wangdun-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T08:36:10.357846Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch3)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-eastern-jin"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 3（东汉末—隋统一）人工审核：确认事件必要性、时期归属、时间与重要性分级；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n王敦之乱（322—324）两次举兵；\"王与马共天下\"背景下，王敦之乱反映士族内部矛盾。"
+}

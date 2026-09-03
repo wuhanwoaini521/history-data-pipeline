@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-liuyu-beifa
+name_zh_cn: 刘裕北伐（灭南燕、后秦）
+event_type: war
+start_year: 409
+end_year: 417
+date_precision: range
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: major
+summary_zh_cn: 义熙五年至十三年（409—417年）刘裕先后北伐：409—410年灭南燕，416—417年灭后秦、克长安。刘裕北伐是东晋建国以来规模最大、战果最著的北伐，使其军政威望达到顶点，为代晋建宋奠定基础。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋书·武帝纪》《晋书·安帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-sunen-luxun
+  relation_type: follows
+  description_zh_cn: 刘裕平孙恩卢循后主持北伐
+  description_zh_cn: 两次北伐成功直接铺垫刘裕代晋

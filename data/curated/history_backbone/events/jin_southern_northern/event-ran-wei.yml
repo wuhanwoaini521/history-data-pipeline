@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ran-wei
+name_zh_cn: 冉魏建立与北方动荡
+event_type: political
+start_year: 350
+end_year: 352
+date_precision: range
+period_id: period-sixteen-kingdoms
+regime_ids:
+- regime-later-zhao
+importance: major
+summary_zh_cn: 后赵石虎死后诸子争立，350年将领冉闵（石闵）据邺建立冉魏，其间发生针对胡羯的排压与屠杀（史称"杀胡"，后世史论对其性质多歧见），北方人口锐减、各族武装混战。352年冉魏为前燕慕容恪所灭。冉魏之短暂政权反映后赵崩溃后北方社会的极端动荡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·石季龙载记》《慕容儁载记》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-hou-zhao-bingqian-zhao
+  relation_type: follows
+  description_zh_cn: 后赵内乱孕育冉闵崛起
+- target_event_id: event-qian-yan-qiang
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 冉魏亡于前燕扩张

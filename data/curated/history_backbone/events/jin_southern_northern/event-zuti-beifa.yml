@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zuti-beifa
+name_zh_cn: 祖逖北伐
+event_type: war
+start_year: 319
+end_year: 321
+date_precision: range
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: major
+summary_zh_cn: 建兴四年至大兴四年（约319—321年）祖逖率部渡江北伐，收复黄河以南豫州等地，颇得民心；受朝廷掣肘，321年病逝，所复之地旋失。祖逖北伐是东晋前期最有名的北伐行动，反映"收复中原"与"偏安江左"之间的政治张力。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·祖逖传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-dongjin-jianguo
+  relation_type: follows
+  description_zh_cn: 东晋立国之初的北伐努力
+- target_event_id: event-wangdun-zhi-luan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 北伐受阻与朝廷内斗相伴随

@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-sunen-luxun
+name_zh_cn: 孙恩卢循起义
+event_type: rebellion
+start_year: 399
+end_year: 411
+date_precision: range
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: major
+summary_zh_cn: 隆安三年至义熙七年（399—411年）天师道首领孙恩、卢循相继领导东南沿海起义，孙恩一度逼近建康，402年孙恩败死，卢循续之，至411年为刘裕所灭。起义沉重打击东晋门阀世家，为刘裕崛起扫除障碍。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·孙恩传》《卢循传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-huan-wen-beifa
+  relation_type: follows
+  description_zh_cn: 东晋末年天师道起事
+- target_event_id: event-liuyu-beifa
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 孙恩卢循之乱中刘裕声望鹊起

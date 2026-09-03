@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dongjin-jianguo
+name_zh_cn: 东晋建立
+event_type: dynastic-transition
+start_year: 317
+end_year: 317
+date_precision: year
+period_id: period-eastern-jin
+regime_ids:
+- regime-eastern-jin
+importance: critical
+summary_zh_cn: 建武元年（317年）司马睿在建康（今南京）即晋王位，次年称帝，史称东晋。东晋建立承接"衣冠南渡"，以建康为政治中心，形成与北方十六国并行的"南北分治"格局，中国历史进入东晋十六国阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·元帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+relations:
+- target_event_id: event-xijin-mie-wang
+  relation_type: follows
+  description_zh_cn: 西晋亡后司马睿重建晋朝于江南
+- target_event_id: event-zuti-beifa
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 东晋初年祖逖等北伐恢复中原政策
