@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-ming-zheng-annan
+name_zh_cn: 明征安南、设交趾布政司
+event_type: war
+start_year: 1406
+end_year: 1407
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 永乐四年至五年（1406—1407 年），明成祖以安南胡朝篡位为由发兵讨伐，灭胡朝，设交趾布政司直接统治安南（越南北部），永乐朝在东南亚的领土扩张达到顶点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·安南传》（外国传）；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-yanjun-ru-jing
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 永乐初年的对外用兵。
+- target_event_id: event-ming-qi-jiaozhi
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 二十年后放弃交趾。

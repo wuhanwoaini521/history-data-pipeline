@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-duomen-zhibian
+name_zh_cn: 夺门之变、英宗复位
+event_type: political
+start_year: 1457
+end_year: 1457
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 景泰八年（1457 年）正月，景泰帝病重，石亨、徐有贞、曹吉祥等发动政变，迎英宗自南宫复位（南宫复辟），改元天顺；景泰帝旋卒，于谦以"谋逆"罪名被杀（后获平反），政局随之反复。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·英宗纪》《于谦传》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-beijing-baoweizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 北京保卫战之后英宗复位。

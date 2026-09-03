@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wangzhi-yousha
+name_zh_cn: 胡宗宪诱诛王直
+event_type: political
+start_year: 1557
+end_year: 1558
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 嘉靖三十六至三十七年（1557—1558 年），浙直总督胡宗宪设计诱捕盘踞五岛的徽州海商集团首领王直，次年正月斩于杭州，抗倭形势由此转折。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·胡宗宪传》日本传；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-dongnan-wokou
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 倭患治理的关键节点。

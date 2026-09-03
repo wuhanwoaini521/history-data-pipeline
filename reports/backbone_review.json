@@ -55,6 +55,14 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-dongnan-wokou",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-zhenghe-xiaxiyang",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-chuhan-qin-revolt",
         "part_of_children": 2
       },
@@ -150,21 +158,21 @@
       }
     ],
     "event_type_distribution": {
-      "war": 161,
-      "political": 111,
+      "war": 167,
+      "political": 117,
       "dynastic-transition": 41,
       "reform": 39,
-      "rebellion": 25,
+      "rebellion": 26,
       "political-military": 22,
       "foundation": 13,
       "economic": 12,
       "treaty": 11,
       "diplomatic": 7,
+      "cultural": 6,
       "migration": 6,
       "alliance": 5,
-      "cultural": 3,
+      "succession": 4,
       "unification": 3,
-      "succession": 3,
       "disaster": 1
     }
   },

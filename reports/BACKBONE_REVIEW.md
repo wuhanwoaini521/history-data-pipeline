@@ -9,9 +9,9 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 161, "political": 111, "dynastic-transition": 41, "reform": 39, "rebellion": 25, "political-military": 22, "foundation": 13, "economic": 12, "treaty": 11, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 3, "disaster": 1}
+- 事件类型分布：{"war": 167, "political": 117, "dynastic-transition": 41, "reform": 39, "rebellion": 26, "political-military": 22, "foundation": 13, "economic": 12, "treaty": 11, "diplomatic": 7, "cultural": 6, "migration": 6, "alliance": 5, "succession": 4, "unification": 3, "disaster": 1}
 
-- Aggregate（有子事件 part_of）数量：34
+- Aggregate（有子事件 part_of）数量：36
   - event-qin-mie-liuguo：7 个子事件
   - event-song-tongyi-zhanzheng：6 个子事件
   - event-han-xiongnu-war：5 个子事件
@@ -25,6 +25,8 @@
   - event-chai-rong-gaige：2 个子事件
   - event-xiaowendi-gaige：2 个子事件
   - event-jingnan-zhizhan：2 个子事件
+  - event-dongnan-wokou：2 个子事件
+  - event-zhenghe-xiaxiyang：2 个子事件
   - event-chuhan-qin-revolt：2 个子事件
   - event-huangchao-qiyi：2 个子事件
   - event-zhuge-liang-beifa：2 个子事件

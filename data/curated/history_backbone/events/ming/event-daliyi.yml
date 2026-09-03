@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-daliyi
+name_zh_cn: 大礼议（嘉靖即位与礼制之争）
+event_type: political
+start_year: 1521
+end_year: 1524
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 正德十六年（1521 年），明世宗朱厚熜以兴献王世子入继大统，围绕生父尊号（皇考还是皇叔考）与廷臣展开"大礼之议"，历数年反复，议礼派在嘉靖三年（1524 年）胜出，世宗追尊兴献帝为皇考，朝局重新洗牌。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·世宗纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-duomen-zhibian
+  relation_type: follows
+  confidence: 0.5
+  description_zh_cn: 大礼议为嘉靖朝初年政治核心议题。

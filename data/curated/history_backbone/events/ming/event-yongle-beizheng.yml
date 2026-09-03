@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yongle-beizheng
+name_zh_cn: 明成祖五征漠北
+event_type: war
+start_year: 1410
+end_year: 1424
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 永乐八年至二十二年（1410—1424 年），明成祖先后五次亲征漠北蒙古（本雅失里、阿鲁台、马哈木等部），各有胜负，第五次班师途中于榆木川病逝；北元—蒙古诸部受创但未被根本解决。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·成祖纪》《鞑靼传》（外国传）；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-ming-chu-beizheng
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 继洪武北征后的对蒙用兵。
+- target_event_id: event-yanjun-ru-jing
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 永乐朝亲征蒙古。

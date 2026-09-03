@@ -1,0 +1,33 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tumu-bao-zhibian
+name_zh_cn: 土木堡之变
+event_type: war
+start_year: 1449
+end_year: 1449
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: critical
+summary_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·英宗纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+- work-curated-mingshilu
+relations:
+- target_event_id: event-qian-du-beijing
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 迁都北京后蒙古瓦剌南侵。
+- target_event_id: event-jingtai-jiwei
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 英宗被俘后郕王即位（景泰）。
+- target_event_id: event-beijing-baoweizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 瓦剌随即兵临北京。

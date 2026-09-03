@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhenghe-xiaxiyang
+name_zh_cn: 郑和下西洋
+event_type: cultural
+start_year: 1405
+end_year: 1433
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 永乐三年至宣德八年（1405—1433 年），明廷先后七次派遣郑和率庞大船队远航，历东南亚、印度洋至东非，开展朝贡贸易与外交（"厚往薄来"），为世界航海史上规模空前的远洋活动，宣德后停止。本事件为 aggregate，子事件（第一次下西洋、最后一次下西洋与停止远航）经
+  part_of 关联。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·郑和传》；《明实录》永乐至宣德诸纪；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+- work-curated-mingshilu
+relations:
+- target_event_id: event-yanjun-ru-jing
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 永乐帝即位后启动远航。

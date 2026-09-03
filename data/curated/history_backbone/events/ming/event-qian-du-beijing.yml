@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qian-du-beijing
+name_zh_cn: 迁都北京
+event_type: political
+start_year: 1421
+end_year: 1421
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: critical
+summary_zh_cn: 永乐十九年（1421 年），明成祖正式迁都北京（永乐元年升北平为北京、四年起营建宫殿城池），南京为留都；北京自此成为明清两代都城，影响国家政治版图数百年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·成祖纪》《地理志》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-yanjun-ru-jing
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 朱棣以北平起家，定都北京。
+- target_event_id: event-tumu-bao-zhibian
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 北京为都后二十余年发生土木堡之变。
