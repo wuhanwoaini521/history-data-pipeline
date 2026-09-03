@@ -20,3 +20,7 @@ source_ids:
 relations:
 - target_event_id: event-zhuwen-jueshi
   relation_type: follows
+- target_event_id: event-houliang-dai-tang
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 弑昭宗、废哀帝后，朱温于907年建梁代唐

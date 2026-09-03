@@ -10,13 +10,13 @@
 |---|---:|
 | Period 总数 | 31 |
 | Regime 总数 | 31 |
-| Event 总数 | **267**（既有迁移 26 + Batch1 先秦 82 + Batch2 秦汉 70 + Batch3 魏晋南北朝 89） |
-| Critical Event | 25 |
-| Major Event | 241 |
+| Event 总数 | **355**（既有迁移 26 + Batch1 82 + Batch2 70 + Batch3 89 + Batch4 隋唐五代 88） |
+| Critical Event | 33 |
+| Major Event | 321 |
 | Normal Event | 1 |
 | Story | 3（楚汉争霸 / 三国格局形成 / 安史之乱，不变） |
 | StoryEvent | 26 |
-| EventRelation | 466（既有 23 + Batch1 152 + Batch2 122 + Batch3 169） |
+| EventRelation | 622（既有 23 + B1 152 + B2 122 + B3 169 + B4 156） |
 
 ## 2. 里程碑
 
@@ -26,8 +26,9 @@
 - **Batch 3（东汉末—隋统一）**：89 个 Event + 5 aggregate（八王之乱/永嘉之乱/诸葛亮北伐/
   孝文帝改革/侯景之乱）+ Regime 31→42（三国/东晋十六国/南北朝 并行结构落地）→
   `WEI_JIN_NORTHERN_SOUTHERN_BACKBONE_READY = true`
-- 最新报告：`reports/REGIME_STRUCTURE_REVIEW.md`、`reports/WEI_JIN_NORTHERN_SOUTHERN_BACKBONE_REVIEW.md`、
-  `docs/CHINA_HISTORY_BACKBONE_BATCH3_SUMMARY.md`
+- **Batch 4（隋—唐—五代十国）**：88 个 Event（隋21/初唐12/高宗武周10/开元天宝安史9/中晚唐唐末20/五代16）
+  + 武周/十国 Regime（53）+ 契丹辽并行 → `SUI_TANG_FIVE_DYNASTIES_BACKBONE_READY = true`
+- 最新报告：`reports/FIVE_DYNASTIES_REGIME_REVIEW.md`、`docs/CHINA_HISTORY_BACKBONE_BATCH4_SUMMARY.md`
 
 ### 本轮（Batch 1 先秦）交付
 

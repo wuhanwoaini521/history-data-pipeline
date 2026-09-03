@@ -35,6 +35,10 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-chai-rong-gaige",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-xiaowendi-gaige",
         "part_of_children": 2
       },
@@ -56,6 +60,14 @@
       },
       {
         "event_id": "event-zheng-zhuanggong-xiaoba",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-gaoping-zhizhan",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-houzhou-nanzheng",
         "part_of_children": 1
       },
       {
@@ -126,17 +138,17 @@
       }
     ],
     "event_type_distribution": {
-      "war": 113,
-      "political": 92,
-      "dynastic-transition": 30,
-      "reform": 27,
+      "war": 116,
+      "political": 93,
+      "dynastic-transition": 40,
+      "reform": 28,
       "political-military": 22,
       "rebellion": 20,
       "economic": 7,
       "diplomatic": 7,
+      "treaty": 5,
       "migration": 5,
       "alliance": 4,
-      "treaty": 4,
       "cultural": 3,
       "foundation": 3,
       "unification": 2
@@ -206,24 +218,8 @@
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
     },
     {
-      "period_id": "period-five-dynasties-ten-kingdoms",
-      "period_name": "五代十国",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
-    },
-    {
       "period_id": "period-northern-song",
       "period_name": "北宋",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
-    },
-    {
-      "period_id": "period-liao",
-      "period_name": "辽",
       "kind": "coverage_gap",
       "severity": "empty",
       "detail": "该 Period 尚无 critical/major Event。",

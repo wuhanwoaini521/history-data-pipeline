@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-houzhou-nanzheng
+name_zh_cn: 后周征南唐
+event_type: war
+start_year: 956
+end_year: 958
+date_precision: range
+period_id: period-five-dynasties-ten-kingdoms
+regime_ids:
+- regime-later-zhou
+- regime-southern-tang
+importance: major
+summary_zh_cn: 显德三年至五年（956—958年）后周世宗三征南唐，克江北十四州，南唐去帝号、称臣（「去帝号，用显德年号」）。后周征南唐削弱南方最强政权，为统一江南扫清障碍。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧五代史·周世宗纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-chai-rong-gaige
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 征南唐为柴荣改革之南线

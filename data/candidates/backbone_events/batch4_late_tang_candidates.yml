@@ -1,0 +1,229 @@
+# China History Backbone V1 · Batch 4 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 中晚唐/唐末
+compiled_from: AI 依据《隋书》《旧唐书》《新唐书》《旧五代史》《新五代史》《资治通鉴》《辽史》及现代隋唐五代史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yangjian-dai-beizhou（581 隋建立）/ event-sui-mie-chen（589 隋灭陈统一）
+- 安史之乱 Story 9 Event：event-anlu-three-frontiers(751)/uprising(755)/luoyang(756)/tongguan(756)/changan(756)/xuanzong-shu(756)/changan-recapture(757)/shi-siming(759-761)/pacification(763)
+candidates:
+- id: event-he-shuo-sanzhen
+  name_zh_cn: 河朔三镇割据格局形成
+  start_year: 763
+  end_year: 781
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-he-shuo-sanzhen.review.json
+- id: event-liangshui-fa
+  name_zh_cn: 两税法实施
+  start_year: 780
+  end_year: 780
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liangshui-fa.review.json
+- id: event-jianzhong-zhi-luan
+  name_zh_cn: 建中之乱（泾原兵变、奉天之难）
+  start_year: 781
+  end_year: 784
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jianzhong-zhi-luan.review.json
+- id: event-tubo-ru-changan
+  name_zh_cn: 吐蕃攻入长安
+  start_year: 763
+  end_year: 763
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tubo-ru-changan.review.json
+- id: event-yongzhen-gexin
+  name_zh_cn: 永贞革新
+  start_year: 805
+  end_year: 805
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yongzhen-gexin.review.json
+- id: event-yuanhe-xuefan
+  name_zh_cn: 元和削藩
+  start_year: 806
+  end_year: 820
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanhe-xuefan.review.json
+- id: event-huai-xi-zhi-zhan
+  name_zh_cn: 淮西之战（李愬雪夜入蔡州）
+  start_year: 817
+  end_year: 817
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huai-xi-zhi-zhan.review.json
+- id: event-yuanhe-zhongxing
+  name_zh_cn: 元和中兴
+  start_year: 806
+  end_year: 820
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanhe-zhongxing.review.json
+- id: event-huanguan-shence-jun
+  name_zh_cn: 宦官统领神策军（神策中尉制度确立）
+  start_year: 796
+  end_year: 806
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huanguan-shence-jun.review.json
+- id: event-ganlu-zhi-bian
+  name_zh_cn: 甘露之变
+  start_year: 835
+  end_year: 835
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ganlu-zhi-bian.review.json
+- id: event-niu-li-dangzheng
+  name_zh_cn: 牛李党争
+  start_year: 821
+  end_year: 846
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-niu-li-dangzheng.review.json
+- id: event-huichang-miefo
+  name_zh_cn: 会昌灭佛
+  start_year: 845
+  end_year: 845
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huichang-miefo.review.json
+- id: event-dazhong-zhizhi
+  name_zh_cn: 大中之治
+  start_year: 847
+  end_year: 859
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dazhong-zhizhi.review.json
+- id: event-pangxun-qiyi
+  name_zh_cn: 庞勋起义
+  start_year: 869
+  end_year: 869
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-pangxun-qiyi.review.json
+- id: event-wangxianzhi-qiyi
+  name_zh_cn: 王仙芝起义
+  start_year: 875
+  end_year: 878
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wangxianzhi-qiyi.review.json
+- id: event-huangchao-qiyi
+  name_zh_cn: 黄巢起义
+  start_year: 875
+  end_year: 884
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-huangchao-qiyi.review.json
+- id: event-huangchao-ru-changan
+  name_zh_cn: 黄巢攻入长安、唐僖宗入蜀
+  start_year: 880
+  end_year: 881
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huangchao-ru-changan.review.json
+- id: event-huangchao-baiwang
+  name_zh_cn: 黄巢败亡
+  start_year: 883
+  end_year: 884
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huangchao-baiwang.review.json
+- id: event-zhuwen-jueshi
+  name_zh_cn: 朱温势力上升
+  start_year: 883
+  end_year: 901
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuwen-jueshi.review.json
+- id: event-zhuwen-qian-du
+  name_zh_cn: 朱温控制唐廷、迁都洛阳
+  start_year: 903
+  end_year: 904
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuwen-qian-du.review.json

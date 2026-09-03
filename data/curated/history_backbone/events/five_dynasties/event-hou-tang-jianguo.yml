@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hou-tang-jianguo
+name_zh_cn: 李存勖灭后梁、后唐建立
+event_type: dynastic-transition
+start_year: 923
+end_year: 923
+date_precision: year
+period_id: period-five-dynasties-ten-kingdoms
+regime_ids:
+- regime-later-tang
+importance: major
+summary_zh_cn: 同光元年（923年）沙陀贵族李存勖（后唐庄宗）攻灭后梁，称帝建国，国号唐（后唐），都洛阳。后唐以「中兴唐室」为号，是五代中疆域最广的政权之一。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧五代史·唐庄宗纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-houliang-dai-tang
+  relation_type: follows
+  description_zh_cn: 后梁为后唐所灭
+- target_event_id: event-shi-jingtang-dai-tang
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 后唐旋即又亡于后晋石敬瑭

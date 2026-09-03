@@ -19,3 +19,7 @@ source_ids:
 relations:
 - target_event_id: event-wagang-jun-jueqi
   relation_type: follows
+- target_event_id: event-tang-jianguo
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 隋炀帝死、隋运已终，李渊在长安称帝建唐

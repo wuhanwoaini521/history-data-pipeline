@@ -21,3 +21,7 @@ source_ids:
 relations:
 - target_event_id: event-tang-ping-qiuzi-sizhen
   relation_type: precedes
+- target_event_id: event-tang-mie-gaogouli
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 太宗征高句丽未成，高宗朝终灭之

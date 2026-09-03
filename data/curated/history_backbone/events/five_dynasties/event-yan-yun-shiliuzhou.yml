@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yan-yun-shiliuzhou
+name_zh_cn: 燕云十六州割让契丹
+event_type: treaty
+start_year: 936
+end_year: 938
+date_precision: range
+period_id: period-five-dynasties-ten-kingdoms
+regime_ids:
+- regime-later-jin
+- regime-liao
+importance: major
+summary_zh_cn: 936年石敬瑭为借契丹之力灭后唐，允诺割让幽、蓟、瀛、莫、涿、檀、顺、新、妫、儒、武、云、应、寰、朔、蔚十六州（燕云十六州）予契丹；938年正式交割。燕云十六州之割使中原失去长城天险，对宋辽对峙格局影响深远（§34：行政区划的政治领土安排，非单次战役）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧五代史·晋高祖纪》《辽史·太宗纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-shi-jingtang-dai-tang
+  relation_type: follows
+  description_zh_cn: 后晋立国即割燕云
+- target_event_id: event-qidan-mie-houjin
+  relation_type: leads_to
+  confidence: 0.6
+  description_zh_cn: 后晋虽事契丹，仍终于947年为契丹所灭

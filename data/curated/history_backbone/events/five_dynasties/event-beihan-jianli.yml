@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-beihan-jianli
+name_zh_cn: 北汉建立
+event_type: dynastic-transition
+start_year: 951
+end_year: 951
+date_precision: year
+period_id: period-five-dynasties-ten-kingdoms
+regime_ids:
+- regime-northern-han
+importance: major
+summary_zh_cn: 乾祐四年（951年）郭威代汉，后汉宗室刘崇（刘旻）在太原称帝，国号仍称汉（北汉），依附契丹。北汉是十国中唯一地处北方、与中原政权对抗的政权，也是后来宋辽冲突的直接前台。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《新五代史·东汉世家》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+relations:
+- target_event_id: event-guo-wei-dai-han
+  relation_type: follows
+  description_zh_cn: 后周代汉后北汉别立于太原

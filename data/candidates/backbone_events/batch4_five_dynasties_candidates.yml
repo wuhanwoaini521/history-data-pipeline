@@ -1,0 +1,189 @@
+# China History Backbone V1 · Batch 4 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 6 五代十国
+compiled_from: AI 依据《隋书》《旧唐书》《新唐书》《旧五代史》《新五代史》《资治通鉴》《辽史》及现代隋唐五代史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yangjian-dai-beizhou（581 隋建立）/ event-sui-mie-chen（589 隋灭陈统一）
+- 安史之乱 Story 9 Event：event-anlu-three-frontiers(751)/uprising(755)/luoyang(756)/tongguan(756)/changan(756)/xuanzong-shu(756)/changan-recapture(757)/shi-siming(759-761)/pacification(763)
+candidates:
+- id: event-houliang-dai-tang
+  name_zh_cn: 朱温废哀帝、后梁建立、唐朝灭亡
+  start_year: 907
+  end_year: 907
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-liang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-houliang-dai-tang.review.json
+- id: event-qian-shu-jianli
+  name_zh_cn: 前蜀建立（王建称帝）
+  start_year: 907
+  end_year: 907
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-former-shu
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-shu-jianli.review.json
+- id: event-qidan-jianguo
+  name_zh_cn: 耶律阿保机建契丹（916称帝）
+  start_year: 907
+  end_year: 916
+  date_precision: range
+  period_id: period-liao
+  regime_ids:
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qidan-jianguo.review.json
+- id: event-hou-tang-jianguo
+  name_zh_cn: 李存勖灭后梁、后唐建立
+  start_year: 923
+  end_year: 923
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hou-tang-jianguo.review.json
+- id: event-hou-shu-jianli
+  name_zh_cn: 后蜀建立
+  start_year: 934
+  end_year: 934
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-shu
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hou-shu-jianli.review.json
+- id: event-shi-jingtang-dai-tang
+  name_zh_cn: 石敬瑭灭后唐、后晋建立
+  start_year: 936
+  end_year: 936
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-jin
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shi-jingtang-dai-tang.review.json
+- id: event-yan-yun-shiliuzhou
+  name_zh_cn: 燕云十六州割让契丹
+  start_year: 936
+  end_year: 938
+  date_precision: range
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-jin
+  - regime-liao
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yan-yun-shiliuzhou.review.json
+- id: event-nan-tang-jianli
+  name_zh_cn: 南唐建立（李昪代吴）
+  start_year: 937
+  end_year: 937
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-southern-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nan-tang-jianli.review.json
+- id: event-qidan-mie-houjin
+  name_zh_cn: 契丹灭后晋（辽改国号大辽）
+  start_year: 946
+  end_year: 947
+  date_precision: range
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-liao
+  - regime-later-jin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qidan-mie-houjin.review.json
+- id: event-liuzhiyuan-jianhan
+  name_zh_cn: 刘知远建立后汉
+  start_year: 947
+  end_year: 947
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liuzhiyuan-jianhan.review.json
+- id: event-beihan-jianli
+  name_zh_cn: 北汉建立
+  start_year: 951
+  end_year: 951
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-northern-han
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beihan-jianli.review.json
+- id: event-guo-wei-dai-han
+  name_zh_cn: 郭威代汉、后周建立
+  start_year: 951
+  end_year: 951
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-zhou
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-guo-wei-dai-han.review.json
+- id: event-chai-rong-jiwei
+  name_zh_cn: 后周世宗即位
+  start_year: 954
+  end_year: 954
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chai-rong-jiwei.review.json
+- id: event-chai-rong-gaige
+  name_zh_cn: 柴荣改革
+  start_year: 954
+  end_year: 959
+  date_precision: range
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chai-rong-gaige.review.json
+- id: event-gaoping-zhizhan
+  name_zh_cn: 高平之战
+  start_year: 954
+  end_year: 954
+  date_precision: year
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaoping-zhizhan.review.json
+- id: event-houzhou-nanzheng
+  name_zh_cn: 后周征南唐
+  start_year: 956
+  end_year: 958
+  date_precision: range
+  period_id: period-five-dynasties-ten-kingdoms
+  regime_ids:
+  - regime-later-zhou
+  - regime-southern-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-houzhou-nanzheng.review.json

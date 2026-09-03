@@ -19,3 +19,7 @@ source_ids:
 relations:
 - target_event_id: event-liyuan-qibing
   relation_type: follows
+- target_event_id: event-tang-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 定都长安后李渊于次年称帝建唐

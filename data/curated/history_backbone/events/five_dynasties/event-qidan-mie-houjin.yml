@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qidan-mie-houjin
+name_zh_cn: 契丹灭后晋（辽改国号大辽）
+event_type: war
+start_year: 946
+end_year: 947
+date_precision: range
+period_id: period-five-dynasties-ten-kingdoms
+regime_ids:
+- regime-liao
+- regime-later-jin
+importance: major
+summary_zh_cn: 开运三年至四年（946—947年）后晋出帝背盟拒契丹，耶律德光大举南下，946年冬灭后晋、入开封，947年正月改国号为大辽（契丹—辽政权国号变化节点）。契丹虽旋即北返，但「契丹灭后晋」使中原政权首次被北方民族政权所灭。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧五代史·晋少帝纪》《辽史·太宗纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-yan-yun-shiliuzhou
+  relation_type: follows
+- target_event_id: event-liuzhiyuan-jianhan
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 契丹北返后，刘知远在太原建后汉

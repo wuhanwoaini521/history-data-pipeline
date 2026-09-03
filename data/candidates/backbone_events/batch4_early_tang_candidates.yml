@@ -1,0 +1,141 @@
+# China History Backbone V1 · Batch 4 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 初唐
+compiled_from: AI 依据《隋书》《旧唐书》《新唐书》《旧五代史》《新五代史》《资治通鉴》《辽史》及现代隋唐五代史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yangjian-dai-beizhou（581 隋建立）/ event-sui-mie-chen（589 隋灭陈统一）
+- 安史之乱 Story 9 Event：event-anlu-three-frontiers(751)/uprising(755)/luoyang(756)/tongguan(756)/changan(756)/xuanzong-shu(756)/changan-recapture(757)/shi-siming(759-761)/pacification(763)
+candidates:
+- id: event-tang-jianguo
+  name_zh_cn: 李渊称帝、唐朝建立
+  start_year: 618
+  end_year: 618
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-jianguo.review.json
+- id: event-tang-mie-xueju
+  name_zh_cn: 唐灭薛举、薛仁杲
+  start_year: 618
+  end_year: 619
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-mie-xueju.review.json
+- id: event-hulao-zhizhan
+  name_zh_cn: 虎牢之战
+  start_year: 620
+  end_year: 621
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hulao-zhizhan.review.json
+- id: event-tang-tongyi-quanguo
+  name_zh_cn: 唐统一全国
+  start_year: 618
+  end_year: 628
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-tongyi-quanguo.review.json
+- id: event-weishui-zhi-meng
+  name_zh_cn: 渭水之盟
+  start_year: 626
+  end_year: 626
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-weishui-zhi-meng.review.json
+- id: event-xuanwumen-zhibian
+  name_zh_cn: 玄武门之变
+  start_year: 626
+  end_year: 626
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-xuanwumen-zhibian.review.json
+- id: event-li-shimin-jiwei
+  name_zh_cn: 李世民即位
+  start_year: 626
+  end_year: 626
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-li-shimin-jiwei.review.json
+- id: event-zhenguan-zhizhi
+  name_zh_cn: 贞观之治
+  start_year: 627
+  end_year: 649
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhenguan-zhizhi.review.json
+- id: event-tang-mie-dong-tujue
+  name_zh_cn: 唐灭东突厥
+  start_year: 630
+  end_year: 630
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-mie-dong-tujue.review.json
+- id: event-tang-ping-gaochang-ansixi
+  name_zh_cn: 唐灭高昌、设安西都护府
+  start_year: 640
+  end_year: 640
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-ping-gaochang-ansixi.review.json
+- id: event-tang-ping-qiuzi-sizhen
+  name_zh_cn: 唐灭龟兹、安西四镇格局形成
+  start_year: 648
+  end_year: 648
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-ping-qiuzi-sizhen.review.json
+- id: event-tang-zheng-gaogouli
+  name_zh_cn: 唐太宗征高句丽
+  start_year: 645
+  end_year: 645
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-zheng-gaogouli.review.json

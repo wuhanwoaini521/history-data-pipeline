@@ -20,3 +20,6 @@ relations:
 - target_event_id: event-wagang-jun-jueqi
   relation_type: precedes
   description_zh_cn: 河北与河南民变并立
+- target_event_id: event-hulao-zhizhan
+  relation_type: precedes
+  description_zh_cn: 窦建德最终败亡于虎牢之战

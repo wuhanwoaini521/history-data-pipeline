@@ -31,12 +31,12 @@
   },
   "five_dynasties": {
     "label": "五代十国",
-    "events": 0,
+    "events": 15,
     "stories": 0
   },
   "song_liao_xia_jin": {
     "label": "宋辽金夏",
-    "events": 0,
+    "events": 1,
     "stories": 0
   },
   "yuan": {
@@ -261,13 +261,13 @@
     {
       "period_id": "period-five-dynasties-ten-kingdoms",
       "name_zh_cn": "五代十国",
-      "critical": 0,
-      "major": 0,
+      "critical": 2,
+      "major": 13,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 15,
       "reused": 0,
-      "total": 0
+      "total": 15
     },
     {
       "period_id": "period-northern-song",
@@ -284,12 +284,12 @@
       "period_id": "period-liao",
       "name_zh_cn": "辽",
       "critical": 0,
-      "major": 0,
+      "major": 1,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 1,
       "reused": 0,
-      "total": 0
+      "total": 1
     },
     {
       "period_id": "period-western-xia",

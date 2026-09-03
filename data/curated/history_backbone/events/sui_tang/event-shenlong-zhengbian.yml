@@ -22,3 +22,7 @@ relations:
 - target_event_id: event-wu-zhou-jianguo
   relation_type: follows
   description_zh_cn: 武周统治被政变终结
+- target_event_id: event-tang-long-zhengbian
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 中宗复位后韦后乱政，旋有唐隆政变

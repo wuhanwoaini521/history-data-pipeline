@@ -1,0 +1,119 @@
+# China History Backbone V1 · Batch 4 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 高宗/武周
+compiled_from: AI 依据《隋书》《旧唐书》《新唐书》《旧五代史》《新五代史》《资治通鉴》《辽史》及现代隋唐五代史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yangjian-dai-beizhou（581 隋建立）/ event-sui-mie-chen（589 隋灭陈统一）
+- 安史之乱 Story 9 Event：event-anlu-three-frontiers(751)/uprising(755)/luoyang(756)/tongguan(756)/changan(756)/xuanzong-shu(756)/changan-recapture(757)/shi-siming(759-761)/pacification(763)
+candidates:
+- id: event-tang-gaozong-jiwei
+  name_zh_cn: 唐高宗即位
+  start_year: 649
+  end_year: 649
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-gaozong-jiwei.review.json
+- id: event-gaozong-feiwang-liwu
+  name_zh_cn: 高宗废王立武、长孙无忌失势
+  start_year: 655
+  end_year: 659
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-gaozong-feiwang-liwu.review.json
+- id: event-tang-mie-xi-tujue
+  name_zh_cn: 唐灭西突厥
+  start_year: 657
+  end_year: 657
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-mie-xi-tujue.review.json
+- id: event-tang-mie-gaogouli
+  name_zh_cn: 唐灭高句丽
+  start_year: 668
+  end_year: 668
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-mie-gaogouli.review.json
+- id: event-baijiangkou-zhizhan
+  name_zh_cn: 白江口之战
+  start_year: 663
+  end_year: 663
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-baijiangkou-zhizhan.review.json
+- id: event-dafeichuan-zhizhan
+  name_zh_cn: 大非川之战
+  start_year: 670
+  end_year: 670
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dafeichuan-zhizhan.review.json
+- id: event-wu-zhao-linchao
+  name_zh_cn: 武则天临朝称制
+  start_year: 683
+  end_year: 690
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wu-zhao-linchao.review.json
+- id: event-wu-zhou-jianguo
+  name_zh_cn: 武则天称帝、武周建立
+  start_year: 690
+  end_year: 690
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-wu-zhou
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-wu-zhou-jianguo.review.json
+- id: event-wu-zhou-zhidu
+  name_zh_cn: 武周政治制度变革（洛阳为神都、改制选官）
+  start_year: 690
+  end_year: 700
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-wu-zhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wu-zhou-zhidu.review.json
+- id: event-shenlong-zhengbian
+  name_zh_cn: 神龙政变、唐中宗复位
+  start_year: 705
+  end_year: 705
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-wu-zhou
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-shenlong-zhengbian.review.json

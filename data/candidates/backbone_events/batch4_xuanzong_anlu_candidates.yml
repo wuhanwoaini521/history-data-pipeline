@@ -1,0 +1,108 @@
+# China History Backbone V1 · Batch 4 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 开元/天宝/安史
+compiled_from: AI 依据《隋书》《旧唐书》《新唐书》《旧五代史》《新五代史》《资治通鉴》《辽史》及现代隋唐五代史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yangjian-dai-beizhou（581 隋建立）/ event-sui-mie-chen（589 隋灭陈统一）
+- 安史之乱 Story 9 Event：event-anlu-three-frontiers(751)/uprising(755)/luoyang(756)/tongguan(756)/changan(756)/xuanzong-shu(756)/changan-recapture(757)/shi-siming(759-761)/pacification(763)
+candidates:
+- id: event-tang-long-zhengbian
+  name_zh_cn: 唐隆政变
+  start_year: 710
+  end_year: 710
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-long-zhengbian.review.json
+- id: event-xuanzong-jiwei
+  name_zh_cn: 唐玄宗即位
+  start_year: 712
+  end_year: 712
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xuanzong-jiwei.review.json
+- id: event-xiantian-zhengbian
+  name_zh_cn: 先天政变（玄宗掌权）
+  start_year: 713
+  end_year: 713
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xiantian-zhengbian.review.json
+- id: event-kaiyuan-zhizheng
+  name_zh_cn: 开元前期政治整顿（姚崇宋璟执政）
+  start_year: 713
+  end_year: 728
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-kaiyuan-zhizheng.review.json
+- id: event-kaiyuan-shengshi
+  name_zh_cn: 开元盛世
+  start_year: 713
+  end_year: 741
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-kaiyuan-shengshi.review.json
+- id: event-tianbao-li-linfu
+  name_zh_cn: 李林甫长期执政
+  start_year: 736
+  end_year: 752
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tianbao-li-linfu.review.json
+- id: event-tianbao-yangguozhong
+  name_zh_cn: 杨国忠执政
+  start_year: 752
+  end_year: 755
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tianbao-yangguozhong.review.json
+- id: event-tang-mubing-zhuanxing
+  name_zh_cn: 府兵制瓦解与募兵制转变
+  start_year: 722
+  end_year: 737
+  date_precision: range
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tang-mubing-zhuanxing.review.json
+- id: event-suzong-jiwei
+  name_zh_cn: 唐肃宗灵武即位
+  start_year: 756
+  end_year: 756
+  date_precision: year
+  period_id: period-tang
+  regime_ids:
+  - regime-tang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-suzong-jiwei.review.json
