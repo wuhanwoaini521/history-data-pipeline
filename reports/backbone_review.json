@@ -35,6 +35,10 @@
         "part_of_children": 3
       },
       {
+        "event_id": "event-jiawu-zhanzheng",
+        "part_of_children": 3
+      },
+      {
         "event_id": "event-zhongfa-zhanzheng",
         "part_of_children": 3
       },
@@ -84,6 +88,10 @@
       },
       {
         "event_id": "event-chuhan-qin-revolt",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-yihetuan-yundong",
         "part_of_children": 2
       },
       {
@@ -182,16 +190,16 @@
       }
     ],
     "event_type_distribution": {
-      "war": 188,
-      "political": 133,
-      "reform": 46,
+      "war": 192,
+      "political": 134,
+      "reform": 47,
       "dynastic-transition": 43,
-      "rebellion": 30,
+      "rebellion": 31,
       "political-military": 22,
+      "treaty": 18,
       "foundation": 17,
-      "treaty": 16,
       "economic": 15,
-      "diplomatic": 8,
+      "diplomatic": 10,
       "cultural": 7,
       "migration": 7,
       "succession": 6,

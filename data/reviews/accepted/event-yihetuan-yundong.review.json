@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yihetuan-yundong",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:37:30.391668Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch7)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-qing"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 7（清→晚清→辛亥革命）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n义和团性质（民间反抗/排外/愚昧迷信）评价分歧大；八国联军侵华事实中外记载一致。本事件以事实框架记录，不用带立场标签。"
+}

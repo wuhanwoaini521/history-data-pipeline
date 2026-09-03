@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wuxu-bianfa
+name_zh_cn: 戊戌变法（百日维新与政变）
+event_type: reform
+start_year: 1898
+end_year: 1898
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪二十四年（1898 年），光绪帝采纳康有为等维新派主张，6 月 11 日下诏定国是，先后颁行废八股、设学堂、改官制、练兵等新政百余日（史称百日维新）；9 月 21 日慈禧太后发动政变，幽禁光绪帝，诛杀谭嗣同等"戊戌六君子"，康梁出亡，新政罢废。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·德宗实录》；《戊戌变法》资料丛刊；现代参考：戚其章《甲午战争史》（人民出版社）；李剑农《中国近百年政治史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-gongche-shangshu
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 公车上书后的变法运动。

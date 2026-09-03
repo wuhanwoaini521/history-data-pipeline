@@ -9,9 +9,9 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 188, "political": 133, "reform": 46, "dynastic-transition": 43, "rebellion": 30, "political-military": 22, "foundation": 17, "treaty": 16, "economic": 15, "diplomatic": 8, "cultural": 7, "migration": 7, "succession": 6, "alliance": 5, "unification": 3, "disaster": 1}
+- 事件类型分布：{"war": 192, "political": 134, "reform": 47, "dynastic-transition": 43, "rebellion": 31, "political-military": 22, "treaty": 18, "foundation": 17, "economic": 15, "diplomatic": 10, "cultural": 7, "migration": 7, "succession": 6, "alliance": 5, "unification": 3, "disaster": 1}
 
-- Aggregate（有子事件 part_of）数量：42
+- Aggregate（有子事件 part_of）数量：44
   - event-qin-mie-liuguo：7 个子事件
   - event-song-tongyi-zhanzheng：6 个子事件
   - event-han-xiongnu-war：5 个子事件
@@ -20,6 +20,7 @@
   - event-taiping-tianguo：4 个子事件
   - event-bawang-zhi-luan：3 个子事件
   - event-zhangjuzheng-gaige：3 个子事件
+  - event-jiawu-zhanzheng：3 个子事件
   - event-zhongfa-zhanzheng：3 个子事件
   - event-song-meng-zhanzheng：3 个子事件
   - event-sui-zheng-gaogouli：3 个子事件
@@ -33,6 +34,7 @@
   - event-dongnan-wokou：2 个子事件
   - event-zhenghe-xiaxiyang：2 个子事件
   - event-chuhan-qin-revolt：2 个子事件
+  - event-yihetuan-yundong：2 个子事件
   - event-dierci-yapian-zhanzheng：2 个子事件
   - event-huangchao-qiyi：2 个子事件
   - event-zhuge-liang-beifa：2 个子事件

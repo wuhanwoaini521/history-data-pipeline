@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dongnan-hubao
+name_zh_cn: 东南互保
+event_type: diplomatic
+start_year: 1900
+end_year: 1900
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪二十六年（1900 年），八国联军战争期间，两江总督刘坤一、湖广总督张之洞等与各国驻沪领事达成《东南保护约款》，长江流域督抚不与联军作战、维护地方秩序（东南互保）；反映清廷中央权威在地方督抚实力上升背景下的松动。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：东南互保档案（《义和团档案史料》）；现代参考：戚其章《甲午战争史》（人民出版社）；李剑农《中国近百年政治史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-baguo-lianjun-ru-jing
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 与联军开战同时的东南自保。

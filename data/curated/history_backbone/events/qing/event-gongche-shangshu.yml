@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-gongche-shangshu
+name_zh_cn: 公车上书
+event_type: political
+start_year: 1895
+end_year: 1895
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪二十一年（1895 年）4 月，《马关条约》签订消息传京，康有为、梁启超联合各省在京应试举人上书光绪帝，请拒和、迁都、变法（公车上书）；上书被拒，但变法舆论由此兴起，为维新运动之先声。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《康有为自编年谱》；现代参考（学界对签名人数有考订）：戚其章《甲午战争史》（人民出版社）；李剑农《中国近百年政治史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-maguan-tiaoyue
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 条约刺激下的请愿行动。
+- target_event_id: event-wuxu-bianfa
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 三年后发展为百日维新。

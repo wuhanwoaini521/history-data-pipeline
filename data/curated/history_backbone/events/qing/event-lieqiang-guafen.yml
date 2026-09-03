@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-lieqiang-guafen
+name_zh_cn: 列强瓜分势力范围（胶州湾等租借）
+event_type: diplomatic
+start_year: 1897
+end_year: 1899
+date_precision: range
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪二十三至二十五年（1897—1899 年），俄、德、英、法、日相继强租旅大、胶州湾、威海卫、广州湾、九龙新界等并划分铁路矿山势力范围，掀起瓜分中国的狂潮（史称"瓜分豆剖"）；刺激了反帝与变法思潮。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·德宗实录》；近代中外条约集；现代参考：戚其章《甲午战争史》（人民出版社）；李剑农《中国近百年政治史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-maguan-tiaoyue
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 甲午后列强竞相划占势力范围。
