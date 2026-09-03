@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-qin-mie-zhao
+name_zh_cn: 秦灭赵
+event_type: war
+start_year: -228
+end_year: -228
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前228年，秦将王翦攻占邯郸，俘赵王迁，赵国灭亡（公子嘉奔代地自立，前222年亦亡）。赵国为长平战后唯一仍有抵抗力的关东大国。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·秦始皇本纪》《赵世家》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-mie-liuguo
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 秦灭赵为秦灭六国进程的第二步

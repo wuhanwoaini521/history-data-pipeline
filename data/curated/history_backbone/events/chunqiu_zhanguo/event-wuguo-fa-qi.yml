@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-wuguo-fa-qi
+name_zh_cn: 五国伐齐（乐毅破齐）
+event_type: war
+start_year: -284
+end_year: -284
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前284年，燕昭王以乐毅为将，联合秦、赵、韩、魏五国伐齐，连下七十余城，齐湣王被杀，齐国仅存莒、即墨二城。齐从此由东方最强沦为二等国家，列国均势剧变。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·乐毅列传》《田单列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qi-mie-song
+  relation_type: follows
+- target_event_id: event-tiandan-fu-qi
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 齐仅存即墨、莒两城，田单据此复国

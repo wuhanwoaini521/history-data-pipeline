@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-tianshi-dai-qi
+name_zh_cn: 田氏代齐
+event_type: dynastic-transition
+start_year: -386
+end_year: -386
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前386年，齐相田和经周安王册命列为诸侯，姜氏齐国为田氏齐国取代，史称"田氏代齐"。与三家分晋并列为战国初年"大夫夺权"的两大标志性事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·齐太公世家》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-sanjia-fenjin
+  relation_type: follows
+- target_event_id: event-jixia-xuegong
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 田氏代齐后田齐君主兴办稷下学宫以固统治

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-handan-zhizhan
+name_zh_cn: 邯郸之战
+event_type: war
+start_year: -259
+end_year: -257
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前259年至前257年，秦军长期围攻赵都邯郸，赵无力支撑，魏信陵君窃符救赵、楚春申君来援，秦军大败而还。邯郸之战使秦的统一推迟了近三十年，也是"窃符救赵"故事的史实背景。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·魏公子列传》《白起王翦列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-changping-zhizhan
+  relation_type: follows
+- target_event_id: event-xinlingjun-hezong
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 邯郸之围后信陵君威名大振，其再度合纵诸侯救他国

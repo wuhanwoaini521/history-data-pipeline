@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-chu-mie-yue
+name_zh_cn: 楚灭越
+event_type: war
+start_year: -333
+end_year: -333
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前333年，楚威王出兵伐越，杀越王无强，越国灭亡，吴越之争最终以楚收场。楚国将势力深入东南，但其后楚与秦的冲突日趋不利。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·越王勾践世家》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-zhangyi-po-chu
+  relation_type: precedes
+- target_event_id: event-yique-zhizhan
+  relation_type: precedes

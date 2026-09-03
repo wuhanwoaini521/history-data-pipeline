@@ -36,8 +36,8 @@ def schemas():
 def test_backbone_loads(backbone):
     assert len(backbone.periods) >= 30
     assert len(backbone.regimes) >= 30
-    # China History Backbone V1 · Batch 1 · 阶段提交：Phase A+Phase B（春秋）已入主干
-    assert len(backbone.events) == 73
+    # China History Backbone V1 · Batch 1：先秦主干 82 个 Event（26 个既有 + 82 新增）
+    assert len(backbone.events) == 108
     assert len(backbone.stories) == 3
     # 三个 Story 标题
     assert {story["title_zh_cn"] for story in backbone.stories} == {"楚汉争霸", "三国格局形成", "安史之乱"}
@@ -225,3 +225,61 @@ def test_unique_person_ids(resolution):
     assert len(ids) == len(set(ids))
     assert "cbdb-person-30257" in ids  # 曹操
     assert "curated-person-fan-zeng" in ids  # 范增
+
+def test_pre_qin_events_baseline(backbone):
+    """China History Backbone V1 · Batch 1：先秦 Event 主干完整性基线。"""
+    pre_qin = [e for e in backbone.events if e["period_id"] in {"period-xia", "period-shang", "period-western-zhou"}]
+    chunqiu = [e for e in backbone.events if e["period_id"] == "period-spring-autumn"]
+    zhanguo = [e for e in backbone.events if e["period_id"] == "period-warring-states"]
+    assert len(pre_qin) >= 15, f"夏商周事件过少: {len(pre_qin)}"
+    assert len(chunqiu) >= 20, f"春秋事件过少: {len(chunqiu)}"
+    assert len(zhanguo) >= 25, f"战国事件过少: {len(zhanguo)}"
+    batch1 = pre_qin + chunqiu + zhanguo
+    # V1 主干只维护 critical + major
+    assert all(e["importance"] in {"critical", "major"} for e in batch1)
+    assert all(e.get("source_reference") for e in batch1)
+    # 早期纪年不伪装精确：前 1000 年以前的节点必须是 approximate/range
+    for e in pre_qin:
+        if e["start_year"] is not None and e["start_year"] < -1000:
+            assert e["date_precision"] in {"approximate", "range"}, f"{e['id']} 早期纪年不应伪装精确"
+    # 秦灭六国 aggregate + 至少 6 个 part_of 子事件（韩/赵/燕/魏/楚/齐）
+    liuguo = next(e for e in batch1 if e["id"] == "event-qin-mie-liuguo")
+    children = {e["id"] for e in batch1 for r in e.get("relations", [])
+                if r["relation_type"] == "part_of" and r["target_event_id"] == "event-qin-mie-liuguo"}
+    assert liuguo["importance"] == "critical"
+    assert len(children) >= 6, f"秦灭六国子事件不足: {children}"
+
+
+def test_timeline_filter_sorted(backbone):
+    """backbone timeline：默认只含 critical+major，并按 start_year 升序。"""
+    from history_data_pipeline.backbone.timeline import filter_timeline, timeline_record
+
+    records = [timeline_record(e) for e in filter_timeline(backbone)]
+    assert records
+    assert all(r["importance"] in {"critical", "major"} for r in records)
+    years = [r["start_year"] for r in records]
+    assert years == sorted(years)
+    # 先秦最早节点 = 夏朝建立（前2070）
+    assert records[0]["id"] == "event-xia-jianguo"
+    # period 过滤：战国只含 period-warring-states
+    zhanguo = [r for r in (timeline_record(e) for e in filter_timeline(backbone, period_filter="warring"))]
+    assert zhanguo and all(r["period_id"] == "period-warring-states" for r in zhanguo)
+    # critical 过滤
+    critical = [r for r in (timeline_record(e) for e in filter_timeline(backbone, importance={"critical"}))]
+    assert all(r["importance"] == "critical" for r in critical)
+    assert len(critical) >= 7
+
+
+def test_backbone_qa_report_functions(backbone):
+    """qa --report：duplicate 候选不应再标记已用 part_of 结构解释的 秦灭X 系列。"""
+    from history_data_pipeline.backbone.qa_report import duplicate_check, gap_detection
+
+    duplicates = duplicate_check(backbone)
+    qin_mie_children = {"event-qin-mie-han", "event-qin-mie-zhao", "event-qin-mie-yan",
+                        "event-qin-mie-wei", "event-qin-mie-chu", "event-qin-mie-qi"}
+    for item in duplicates:
+        pair = {item["event_a"]["id"], item["event_b"]["id"]}
+        assert not pair <= qin_mie_children, f"秦灭X 子事件不应被标记为重复候选: {pair}"
+    gaps = gap_detection(backbone)
+    # 夏代传统纪年节点稀疏，存在真实空白（属于预期，不自动补点）
+    assert any(g["period_id"] == "period-xia" for g in gaps)

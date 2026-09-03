@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-sanjia-fenjin",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:36:41.229524Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n三家分晋前403年（周威烈王二十三年）为通行纪年；战国起始另有前481/前476/前473/前453等说，项目 taxonomy 采用史识通行的前475年。详见 EARLY_HISTORY_UNCERTAINTY.md。"
+}

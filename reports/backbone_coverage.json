@@ -6,7 +6,7 @@
   },
   "chunqiu_zhanguo": {
     "label": "春秋战国",
-    "events": 26,
+    "events": 61,
     "stories": 0
   },
   "qin_han": {
@@ -108,11 +108,11 @@
     {
       "period_id": "period-warring-states",
       "name_zh_cn": "战国",
-      "critical": 0,
-      "major": 2,
+      "critical": 4,
+      "major": 33,
       "normal": 0,
       "minor": 0,
-      "total": 2
+      "total": 37
     },
     {
       "period_id": "period-qin",

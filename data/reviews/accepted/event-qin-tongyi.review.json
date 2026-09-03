@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qin-tongyi",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:36:41.416198Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n秦统一前221年为确定纪年；统一后各项制度变革（郡县/文字/度量衡）留待秦汉批详细展开。"
+}

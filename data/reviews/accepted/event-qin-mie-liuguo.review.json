@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qin-mie-liuguo",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:36:41.373401Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "range",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n秦灭六国为覆盖前230—前221年的过程事件（aggregate），各子事件按《史记·秦始皇本纪》系年。"
+}

@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-qin-mie-dongzhou
+name_zh_cn: 秦灭东周
+event_type: dynastic-transition
+start_year: -256
+end_year: -256
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前256年，秦昭襄王派兵灭西周（周赧王所居之周），取九鼎宝器；前249年秦又灭东周。延续约八百年的周王朝至此彻底终结，"天下共主"的名分体系消亡，秦的统一只剩军事收尾。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》《秦本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-handan-zhizhan
+  relation_type: follows
+- target_event_id: event-qin-mie-liuguo
+  relation_type: precedes

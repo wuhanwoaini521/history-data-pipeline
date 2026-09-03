@@ -1,0 +1,20 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-hezong-lianheng
+name_zh_cn: 合纵连横
+event_type: alliance
+start_year: -334
+end_year: -247
+date_precision: approximate
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 战国中后期，苏秦倡导"合纵"（关东诸国联兵抗秦）与张仪推行"连横"（事秦以自保攻他国）交替运用，形成列国间纵横捭阖的外交格局。合纵连横时期是秦与关东诸国力量博弈的关键阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·苏秦列传》《张仪列传》《战国策》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zhanguoce
+relations: []

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-dujiangyan-xiuzhu
+name_zh_cn: 都江堰修筑
+event_type: economic
+start_year: -256
+end_year: -256
+date_precision: approximate
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 秦昭襄王晚年，蜀郡守李冰组织修筑都江堰，使成都平原成为"天府之国"，为秦国提供稳定粮源，并沿用两千余年至今。修筑年代约前256年（亦有前277—前250诸说）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·河渠书》《华阳国志》追述；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-bing-bashu
+  relation_type: follows
+- target_event_id: event-qin-mie-liuguo
+  relation_type: contributes_to
+  confidence: 0.7
+  description_zh_cn: 成都平原粮仓为秦统一提供物资支撑

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-guiling-zhizhan
+name_zh_cn: 桂陵之战
+event_type: war
+start_year: -354
+end_year: -353
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前354年魏军围困赵都邯郸，前353年齐将田忌、军师孙膑以"围魏救赵"之策截击魏军于桂陵（今河南长垣一带），大败魏军。此役为"围魏救赵"战法经典，齐国开始挑战魏国霸权。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·孙子吴起列传》《孙膑兵法》（出土文献）；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-likui-bianfa
+  relation_type: follows
+- target_event_id: event-maling-zhizhan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 桂陵之战后魏国国力受损，齐魏再战于马陵

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-zheng-guoqu-xiuzhu
+name_zh_cn: 郑国渠修筑
+event_type: economic
+start_year: -246
+end_year: -237
+date_precision: approximate
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 秦王政元年（约前246年），韩国遣水工郑国入秦修渠，本为"疲秦"之计，反使关中灌溉四万余顷，秦国力大增。郑国渠与都江堰并列为秦统一的经济基石。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·河渠书》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-mie-dongzhou
+  relation_type: follows
+- target_event_id: event-qin-mie-liuguo
+  relation_type: contributes_to
+  confidence: 0.7
+  description_zh_cn: 郑国渠使关中沃野千里，支撑秦的战争机器

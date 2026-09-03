@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-zizhi-zhi-luan
+name_zh_cn: 子之之乱
+event_type: political
+start_year: -316
+end_year: -314
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 燕王哙约前316年让位于相国子之，引发燕国内乱，齐军乘机伐燕（前314年），燕国几亡，靠燕人反抗与诸侯干预得复国。此事件暴露列国变法与权力继承的激烈矛盾。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·燕召公世家》《战国策·燕策》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zhanguoce
+relations:
+- target_event_id: event-shangyang-bianfa
+  relation_type: follows
+- target_event_id: event-qi-mie-song
+  relation_type: precedes

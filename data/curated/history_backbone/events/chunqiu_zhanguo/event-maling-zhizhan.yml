@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-maling-zhizhan
+name_zh_cn: 马陵之战
+event_type: war
+start_year: -341
+end_year: -341
+date_precision: approximate
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 齐魏再战于马陵（今山东郯城一带），孙膑以"减灶示弱"之计诱敌，魏将庞涓败死，魏军主力覆没。此役后魏国霸权彻底丧失，齐国崛起为东方强国。年代有前341年（《史记》系年）与前342年（《竹书纪年》系年）两说。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·孙子吴起列传》、古本《竹书纪年》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zhushu-jinian
+relations:
+- target_event_id: event-guiling-zhizhan
+  relation_type: follows
+- target_event_id: event-shangyang-bianfa
+  relation_type: follows
+  description_zh_cn: 马陵之战晚于商鞅变法完成之年（前350）

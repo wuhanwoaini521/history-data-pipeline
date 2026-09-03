@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-yuanmen-zhizhan
+name_zh_cn: 阏与之战
+event_type: war
+start_year: -269
+end_year: -269
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前269年，秦军围攻赵地阏与（今山西和顺一带），赵将赵奢率军疾进，大破秦军。此役是胡服骑射后赵国对秦的少数胜仗之一，延迟了秦灭赵的进程。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·廉颇蔺相如列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-tiandan-fu-qi
+  relation_type: follows
+- target_event_id: event-changping-zhizhan
+  relation_type: precedes

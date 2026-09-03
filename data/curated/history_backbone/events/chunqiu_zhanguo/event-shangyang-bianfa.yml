@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-shangyang-bianfa
+name_zh_cn: 商鞅变法
+event_type: reform
+start_year: -356
+end_year: -350
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 秦孝公任用商鞅两次变法（前356年、前350年）：废井田、开阡陌，推行县制、军功爵制，统一度量衡并迁都咸阳，秦国自此建立耕战强国体制。商鞅变法是战国影响最深远的制度变革，为秦统一奠定根本基础。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·商君列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-maling-zhizhan
+  relation_type: follows
+- target_event_id: event-yique-zhizhan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 商鞅变法使秦国军力跃居列国之上，开启东出之路
+- target_event_id: event-zizhi-zhi-luan
+  relation_type: precedes

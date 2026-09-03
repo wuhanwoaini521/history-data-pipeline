@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-sanjia-fenjin
+name_zh_cn: 三家分晋
+event_type: dynastic-transition
+start_year: -403
+end_year: -403
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: critical
+summary_zh_cn: 前403年，周威烈王正式册命韩、赵、魏三家为诸侯，晋国分裂为三国，史称"三家分晋"。《资治通鉴》以此为战国时代的开端。此事件标志世卿执政卿大夫夺权的制度性完成，列国兼并战争的新格局自此全面展开。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·晋世家》《资治通鉴·周纪一》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-jin-mie-zhi
+  relation_type: follows
+- target_event_id: event-tianshi-dai-qi
+  relation_type: precedes
+- target_event_id: event-likui-bianfa
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 三家分晋标志世卿执政的完成，列国变法图强浪潮随之展开，魏国李悝变法为其中最早者

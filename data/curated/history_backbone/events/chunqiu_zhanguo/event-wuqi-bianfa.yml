@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-wuqi-bianfa
+name_zh_cn: 吴起变法
+event_type: reform
+start_year: -386
+end_year: -381
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 楚悼王任用吴起变法，明法审令、裁撤冗官、强兵拓土，楚国一度强盛；前381年悼王卒，吴起被旧贵族射杀，变法失败。吴起变法为楚国后期国势的关键变量。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·孙子吴起列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-likui-bianfa
+  relation_type: follows
+- target_event_id: event-guiling-zhizhan
+  relation_type: precedes

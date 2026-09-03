@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-changping-zhizhan
+name_zh_cn: 长平之战
+event_type: war
+start_year: -260
+end_year: -260
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: critical
+summary_zh_cn: 前260年，秦将白起与赵括在长平（今山西高平一带）决战，赵军四十五万主力被围歼，赵国从此一蹶不振。此役是战国战争烈度巅峰，消灭了关东唯一可与秦抗衡的军事力量，秦统一六国的格局由此基本锁定。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·白起王翦列传》《廉颇蔺相如列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-yuanmen-zhizhan
+  relation_type: follows
+- target_event_id: event-handan-zhizhan
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 长平战后秦乘胜围邯郸，爆发邯郸之战
+- target_event_id: event-qin-mie-liuguo
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 长平之战后关东再无力量阻挡秦的统一进程

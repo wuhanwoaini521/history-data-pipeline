@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-zhangyi-po-chu
+name_zh_cn: 张仪欺楚
+event_type: diplomatic
+start_year: -313
+end_year: -311
+date_precision: range
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 秦相张仪以外交欺诈拆散齐楚联盟：许诺割地诱楚怀王绝齐，随即毁约，楚秦交恶，秦军在丹阳、蓝田大败楚军（约前312年），楚国元气大伤。此事件为"连横"战略的典型案例。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·张仪列传》《战国策·秦策》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zhanguoce
+relations:
+- target_event_id: event-qin-bing-bashu
+  relation_type: follows
+- target_event_id: event-hezong-lianheng
+  relation_type: part_of
+  confidence: 0.8
+  description_zh_cn: 张仪连横外交为合纵连横格局中的"连横"代表

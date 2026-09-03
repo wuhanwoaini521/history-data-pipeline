@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-tiandan-fu-qi
+name_zh_cn: 田单复齐
+event_type: war
+start_year: -279
+end_year: -279
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前279年，齐将田单以"火牛阵"大破燕军于即墨，陆续收复七十余城，齐襄王复位，齐国复国。但齐国元气大伤，从此无力与秦争衡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·田单列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-wuguo-fa-qi
+  relation_type: follows
+- target_event_id: event-yuanmen-zhizhan
+  relation_type: precedes

@@ -1,0 +1,285 @@
+{
+  "duplicate_candidates": [],
+  "granularity": {
+    "aggregates": [
+      {
+        "event_id": "event-qin-mie-liuguo",
+        "part_of_children": 7
+      },
+      {
+        "event_id": "event-chuzhuang-wang-ba",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-qihuan-gong-ba",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-hezong-lianheng",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-wu-guo-jueqi",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-zheng-zhuanggong-xiaoba",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-zhougong-shezheng",
+        "part_of_children": 1
+      }
+    ],
+    "long_range_events": [
+      {
+        "id": "event-hezong-lianheng",
+        "name_zh_cn": "合纵连横",
+        "start_year": -334,
+        "end_year": -247,
+        "date_precision": "approximate",
+        "note": "长跨度事件（>80 年）：多为阶段性过程/治世节点或宏观格局事件，注意与单点事件粒度区分。"
+      }
+    ],
+    "event_type_distribution": {
+      "war": 42,
+      "political": 16,
+      "political-military": 15,
+      "dynastic-transition": 7,
+      "reform": 6,
+      "rebellion": 6,
+      "diplomatic": 3,
+      "treaty": 3,
+      "economic": 2,
+      "alliance": 2,
+      "migration": 2,
+      "unification": 2,
+      "cultural": 1,
+      "foundation": 1
+    }
+  },
+  "coverage_gaps": [
+    {
+      "period_id": "period-antiquity",
+      "period_name": "上古",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-xia",
+      "period_name": "夏",
+      "kind": "coverage_gap",
+      "severity": "gap",
+      "from_event": {
+        "id": "event-xia-shaokang-zhongxing",
+        "name_zh_cn": "少康中兴",
+        "start_year": -1990
+      },
+      "to_event": {
+        "id": "event-shangtang-miexia",
+        "name_zh_cn": "商汤灭夏",
+        "start_year": -1600
+      },
+      "gap_years": 390,
+      "detail": "相邻 critical/major 事件间隔 390 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
+    },
+    {
+      "period_id": "period-shang",
+      "period_name": "商",
+      "kind": "coverage_gap",
+      "severity": "gap",
+      "from_event": {
+        "id": "event-shang-jianguo",
+        "name_zh_cn": "商朝建立",
+        "start_year": -1600
+      },
+      "to_event": {
+        "id": "event-pangeng-qianyin",
+        "name_zh_cn": "盘庚迁殷",
+        "start_year": -1300
+      },
+      "gap_years": 300,
+      "detail": "相邻 critical/major 事件间隔 300 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
+    },
+    {
+      "period_id": "period-shang",
+      "period_name": "商",
+      "kind": "coverage_gap",
+      "severity": "gap",
+      "from_event": {
+        "id": "event-wuding-zhongxing",
+        "name_zh_cn": "武丁中兴",
+        "start_year": -1250
+      },
+      "to_event": {
+        "id": "event-wuwang-fazhou",
+        "name_zh_cn": "武王伐纣",
+        "start_year": -1046
+      },
+      "gap_years": 204,
+      "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
+    },
+    {
+      "period_id": "period-xin",
+      "period_name": "新",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-eastern-han",
+      "period_name": "东汉",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-western-jin",
+      "period_name": "西晋",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-eastern-jin",
+      "period_name": "东晋",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-sixteen-kingdoms",
+      "period_name": "十六国",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-northern-southern",
+      "period_name": "南北朝",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-sui",
+      "period_name": "隋",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-five-dynasties-ten-kingdoms",
+      "period_name": "五代十国",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-northern-song",
+      "period_name": "北宋",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-liao",
+      "period_name": "辽",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-western-xia",
+      "period_name": "西夏",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-jin",
+      "period_name": "金",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-southern-song",
+      "period_name": "南宋",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-song-liao-jin",
+      "period_name": "宋辽金时期",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-yuan",
+      "period_name": "元",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-ming",
+      "period_name": "明",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-qing",
+      "period_name": "清",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-late-qing",
+      "period_name": "晚清",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-republic",
+      "period_name": "中华民国",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    },
+    {
+      "period_id": "period-modern",
+      "period_name": "近现代",
+      "kind": "coverage_gap",
+      "severity": "empty",
+      "detail": "该 Period 尚无 critical/major Event。",
+      "events": 0
+    }
+  ]
+}
