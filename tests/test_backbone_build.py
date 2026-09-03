@@ -35,10 +35,10 @@ def test_backbone_build():
             for table in ("events", "stories", "story_events", "event_relations",
                           "event_person", "event_place", "event_evidence", "periods", "regimes")
         }
-    assert counts["events"] == 480  # + Batch6 MING_MIDDLE(17)
+    assert counts["events"] == 500  # Batch6 完成（82 new）
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 841
+    assert counts["event_relations"] == 872
     assert counts["event_person"] == 58
     assert counts["event_place"] == 26
     assert counts["event_evidence"] == 26
@@ -121,7 +121,7 @@ def test_manifest():
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     assert manifest["version"] == (ROOT / "DATA_VERSION").read_text(encoding="utf-8").strip()
     assert manifest["built_at"]
-    assert manifest["counts"]["events"] == 480
+    assert manifest["counts"]["events"] == 500
     assert manifest["counts"]["stories"] == 3
     assert manifest["counts"]["historical_texts"] == 0  # 文本语料待知识库重建
     assert "by_period_group" in manifest
@@ -138,7 +138,7 @@ def test_exports():
         records = json.loads(path.read_text(encoding="utf-8"))
         assert isinstance(records, list)
         if group == "events":
-            assert len(records) == 480
+            assert len(records) == 500
     parquet_dir = ROOT / "dist" / "parquet"
     for group in ("events", "event_evidence", "people", "periods"):
         assert (parquet_dir / f"{group}.parquet").exists()

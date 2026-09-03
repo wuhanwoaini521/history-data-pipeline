@@ -23,6 +23,10 @@
         "part_of_children": 3
       },
       {
+        "event_id": "event-zhangjuzheng-gaige",
+        "part_of_children": 3
+      },
+      {
         "event_id": "event-song-meng-zhanzheng",
         "part_of_children": 3
       },
@@ -48,6 +52,10 @@
       },
       {
         "event_id": "event-xiaowendi-gaige",
+        "part_of_children": 2
+      },
+      {
+        "event_id": "event-wanli-chaoxian",
         "part_of_children": 2
       },
       {
@@ -158,13 +166,13 @@
       }
     ],
     "event_type_distribution": {
-      "war": 167,
-      "political": 117,
-      "dynastic-transition": 41,
-      "reform": 39,
-      "rebellion": 26,
+      "war": 172,
+      "political": 125,
+      "reform": 42,
+      "dynastic-transition": 42,
+      "rebellion": 27,
       "political-military": 22,
-      "foundation": 13,
+      "foundation": 15,
       "economic": 12,
       "treaty": 11,
       "diplomatic": 7,

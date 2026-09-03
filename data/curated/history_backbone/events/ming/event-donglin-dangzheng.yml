@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-donglin-dangzheng
+name_zh_cn: 东林党争
+event_type: political
+start_year: 1604
+end_year: 1627
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 万历三十二年至天启末（1604—1627 年），顾宪成等以东林书院议政，与齐楚浙诸党及宦官集团反复争斗，党争贯穿万历、泰昌、天启三朝，加深明末政治内耗。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·顾宪成传》等列传；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhangjuzheng-shoucuo
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 张居正死后党派纷争渐起。
+- target_event_id: event-weizhongxian-zhuanquan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 天启朝宦官魏忠贤与东林争斗。

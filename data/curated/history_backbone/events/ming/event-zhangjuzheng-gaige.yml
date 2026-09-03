@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhangjuzheng-gaige
+name_zh_cn: 张居正改革
+event_type: reform
+start_year: 1572
+end_year: 1582
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 隆庆六年至万历十年（1572—1582 年），内阁首辅张居正主持改革：考成法整顿吏治、清丈田亩、推广一条鞭法、整顿边防与河工，财政与行政效率明显改善；张居正死后遭清算，改革多被废罢或存废反复。本事件为 aggregate，子事件（考成法、一条鞭法推广、改革受挫）经
+  part_of 关联。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·张居正传》《神宗纪》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-taizhou-dajie
+  relation_type: follows
+  confidence: 0.5
+  description_zh_cn: 嘉靖末抗倭后至万历初张居正执政。
+- target_event_id: event-wanli-chaoxian
+  relation_type: leads_to
+  confidence: 0.6
+  description_zh_cn: 张居正死后万历朝进入抗战与怠政时期。

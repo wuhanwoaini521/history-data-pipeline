@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-li-zicheng-jian-dashun
+name_zh_cn: 李自成称帝、建立大顺
+event_type: foundation
+start_year: 1644
+end_year: 1644
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 崇祯十七年（1644 年）正月，李自成在西安称帝，国号大顺，建元永昌，随后率大军东征，直指北京。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·流贼传》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-li-zicheng-fazhan
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 势力发展的顶点。
+- target_event_id: event-lizicheng-gong-beijing
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 称帝后东征北京。

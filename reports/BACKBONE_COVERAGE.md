@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：59
-- Event：480
+- Event：500
 - Story：3
 
 ## 按时期组
@@ -23,7 +23,7 @@
 | 五代十国 | 15 | 0 |
 | 宋辽金夏 | 65 | 0 |
 | 元 | 30 | 0 |
-| 明 | 31 | 0 |
+| 明 | 51 | 0 |
 | 清 | 0 | 0 |
 | 近现代 | 0 | 0 |
 
@@ -56,7 +56,7 @@
 | 南宋 | 16 | 0 | 16 | 2 | 14 |
 | 宋辽金时期 | 8 | 2 | 10 | 1 | 9 |
 | 元 | 1 | 29 | 30 | 2 | 28 |
-| 明 | 0 | 31 | 31 | 5 | 26 |
+| 明 | 0 | 51 | 51 | 7 | 44 |
 
 ## 缺口提示
 
@@ -67,26 +67,4 @@
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
-
-## 最新 Manifest
-
-```json
-{
-  "periods": 31,
-  "regimes": 59,
-  "events": 480,
-  "stories": 3,
-  "story_events": 26,
-  "event_relations": 841,
-  "event_people": 58,
-  "event_places": 26,
-  "event_evidence": 26,
-  "people": 18,
-  "places": 3,
-  "works": 32,
-  "historical_texts": 0,
-  "sources": 7,
-  "entity_source_mapping": 21
-}
-```
 

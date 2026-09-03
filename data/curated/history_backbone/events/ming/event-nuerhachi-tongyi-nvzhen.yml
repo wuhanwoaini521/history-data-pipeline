@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-nuerhachi-tongyi-nvzhen
+name_zh_cn: 努尔哈赤统一女真诸部
+event_type: political
+start_year: 1583
+end_year: 1616
+date_precision: range
+period_id: period-ming
+regime_ids: []
+importance: major
+summary_zh_cn: 万历十一年至四十四年（1583—1616 年），建州女真首领努尔哈赤以父祖被误杀为起兵之由，逐步统一建州、海西、野人女真诸部，创制八旗制度与满文，1616 年在赫图阿拉建立政权（后金）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清太祖武皇帝实录》（崇德本）；《明史·神宗纪》相关；现代参考：稻叶岩吉《清朝全史》（中译本）与《明史·列传》；孙文良、李治亭《明清战争史略》（辽宁人民出版社）；白寿彝《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-houjin-jianguo
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 统一女真后建国。

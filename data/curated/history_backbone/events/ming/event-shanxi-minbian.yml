@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-shanxi-minbian
+name_zh_cn: 陕西民变扩大（明末农民战争开端）
+event_type: rebellion
+start_year: 1627
+end_year: 1631
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 天启七年至崇祯四年（1627—1631 年），陕西连年旱灾、驿卒与边兵欠饷，王二、高迎祥、李自成等相继聚众起义，民变蔓延陕甘，明朝将全力剿抚，农民战争进入长期化。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·庄烈帝纪》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-chongzhen-jiwei
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 崇祯初年陕西民变即已扩大。
+- target_event_id: event-li-zicheng-fazhan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 李自成等势力在民变中崛起。

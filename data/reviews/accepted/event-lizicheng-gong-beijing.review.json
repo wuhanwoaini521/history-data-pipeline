@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-lizicheng-gong-beijing",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:18:12.960491Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch6)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-ming"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 6（元→元末→明）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n本事件为本批终点（§29）；南明诸政权（弘光/隆武/永历）与清军入关等在 Batch7 展开。"
+}

@@ -1,0 +1,86 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 元中期
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-yanyou-kaike
+  name_zh_cn: 延祐开科（元代恢复科举）
+  start_year: 1313
+  end_year: 1315
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yanyou-kaike.review.json
+- id: event-yanyou-jingli
+  name_zh_cn: 延祐经理（清查田土）
+  start_year: 1314
+  end_year: 1315
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yanyou-jingli.review.json
+- id: event-zhizhi-xinzheng
+  name_zh_cn: 至治新政（英宗朝改革）
+  start_year: 1321
+  end_year: 1323
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhizhi-xinzheng.review.json
+- id: event-nanpo-zhi-bian
+  name_zh_cn: 南坡之变（英宗遇弑）
+  start_year: 1323
+  end_year: 1323
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanpo-zhi-bian.review.json
+- id: event-liangdu-zhizhan
+  name_zh_cn: 两都之战（皇位之争内战）
+  start_year: 1328
+  end_year: 1328
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liangdu-zhizhan.review.json
+- id: event-boyan-ba-keju
+  name_zh_cn: 伯颜专权、罢废科举
+  start_year: 1333
+  end_year: 1340
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-boyan-ba-keju.review.json
+- id: event-tuotuo-genghua
+  name_zh_cn: 脱脱更化（顺帝朝新政）
+  start_year: 1340
+  end_year: 1344
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-tuotuo-genghua.review.json

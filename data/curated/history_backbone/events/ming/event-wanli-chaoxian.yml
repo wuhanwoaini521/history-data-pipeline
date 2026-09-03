@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wanli-chaoxian
+name_zh_cn: 万历朝鲜战争（援朝抗倭）
+event_type: war
+start_year: 1592
+end_year: 1598
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 万历二十年至二十六年（1592—1598 年），日本丰臣秀吉两次侵朝，明军两次入朝救援，最后于万历二十六年（1598 年）与朝鲜军联合击退日军。本事件为 aggregate，子事件（壬辰之役、丁酉再乱）经 part_of
+  关联；本库核心为中国史视角，明介入与援朝为主线。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·神宗纪》朝鲜传（外国传）；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-kaocheng-fa
+  relation_type: follows
+  confidence: 0.5
+  description_zh_cn: 张居正整顿后的国力用于援朝战争。

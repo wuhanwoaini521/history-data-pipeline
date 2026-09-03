@@ -1,0 +1,153 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 元末社会危机与群雄
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-huanghe-juekou
+  name_zh_cn: 黄河决口与连年水患
+  start_year: 1344
+  end_year: 1348
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huanghe-juekou.review.json
+- id: event-jialu-zhihe
+  name_zh_cn: 贾鲁治河
+  start_year: 1351
+  end_year: 1351
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jialu-zhihe.review.json
+- id: event-yuan-zhizheng-chao
+  name_zh_cn: 至正钞改制与通货膨胀
+  start_year: 1350
+  end_year: 1350
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zhizheng-chao.review.json
+- id: event-hongjin-jun-qiyi
+  name_zh_cn: 红巾军起义（刘福通等起兵反元）
+  start_year: 1351
+  end_year: 1351
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hongjin-jun-qiyi.review.json
+- id: event-guo-zixing-qibing
+  name_zh_cn: 郭子兴起兵濠州
+  start_year: 1352
+  end_year: 1352
+  date_precision: year
+  period_id: period-yuan
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-guo-zixing-qibing.review.json
+- id: event-zhuyuanzhang-toujun
+  name_zh_cn: 朱元璋加入起义军（投郭子兴）
+  start_year: 1352
+  end_year: 1352
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-zhuzhang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuyuanzhang-toujun.review.json
+- id: event-zhangshichen-ju-gaoyou
+  name_zh_cn: 张士诚据高邮、称诚王（大周）
+  start_year: 1353
+  end_year: 1353
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-dazhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhangshichen-ju-gaoyou.review.json
+- id: event-han-liner-chengdi
+  name_zh_cn: 韩林儿称帝（小明王、龙凤政权）
+  start_year: 1355
+  end_year: 1355
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-dasong
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-han-liner-chengdi.review.json
+- id: event-zhuyuanzhang-qu-jqing
+  name_zh_cn: 朱元璋渡江取集庆（应天府）
+  start_year: 1356
+  end_year: 1356
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-zhuzhang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuyuanzhang-qu-jqing.review.json
+- id: event-chenyouliang-dai-han
+  name_zh_cn: 陈友谅代汉称帝
+  start_year: 1360
+  end_year: 1360
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-dahan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chenyouliang-dai-han.review.json
+- id: event-poyanghu-zhizhan
+  name_zh_cn: 鄱阳湖之战、陈友谅覆灭
+  start_year: 1363
+  end_year: 1363
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-zhuzhang
+  - regime-dahan
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-poyanghu-zhizhan.review.json
+- id: event-zhuyuanzhang-mie-zhang
+  name_zh_cn: 朱元璋灭张士诚
+  start_year: 1366
+  end_year: 1367
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-zhuzhang
+  - regime-dazhou
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuyuanzhang-mie-zhang.review.json
+- id: event-fangguozhen-jiang
+  name_zh_cn: 方国珍降朱元璋
+  start_year: 1367
+  end_year: 1367
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-zhuzhang
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fangguozhen-jiang.review.json

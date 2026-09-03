@@ -1,0 +1,196 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 明中期
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-zhenghe-xiaxiyang
+  name_zh_cn: 郑和下西洋
+  start_year: 1405
+  end_year: 1433
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhenghe-xiaxiyang.review.json
+- id: event-zhenghe-di-yici
+  name_zh_cn: 郑和第一次下西洋
+  start_year: 1405
+  end_year: 1407
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhenghe-di-yici.review.json
+- id: event-zhenghe-zui-hou
+  name_zh_cn: 郑和最后一次下西洋与停止远航
+  start_year: 1430
+  end_year: 1433
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhenghe-zui-hou.review.json
+- id: event-ming-zheng-annan
+  name_zh_cn: 明征安南、设交趾布政司
+  start_year: 1406
+  end_year: 1407
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-zheng-annan.review.json
+- id: event-ming-qi-jiaozhi
+  name_zh_cn: 明弃交趾（撤军还安南）
+  start_year: 1427
+  end_year: 1427
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-qi-jiaozhi.review.json
+- id: event-yongle-beizheng
+  name_zh_cn: 明成祖五征漠北
+  start_year: 1410
+  end_year: 1424
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yongle-beizheng.review.json
+- id: event-qian-du-beijing
+  name_zh_cn: 迁都北京
+  start_year: 1421
+  end_year: 1421
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-qian-du-beijing.review.json
+- id: event-tumu-bao-zhibian
+  name_zh_cn: 土木堡之变
+  start_year: 1449
+  end_year: 1449
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-tumu-bao-zhibian.review.json
+- id: event-jingtai-jiwei
+  name_zh_cn: 景泰帝即位（英宗北狩）
+  start_year: 1449
+  end_year: 1449
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jingtai-jiwei.review.json
+- id: event-beijing-baoweizhan
+  name_zh_cn: 北京保卫战
+  start_year: 1449
+  end_year: 1449
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-beijing-baoweizhan.review.json
+- id: event-duomen-zhibian
+  name_zh_cn: 夺门之变、英宗复位
+  start_year: 1457
+  end_year: 1457
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-duomen-zhibian.review.json
+- id: event-daliyi
+  name_zh_cn: 大礼议（嘉靖即位与礼制之争）
+  start_year: 1521
+  end_year: 1524
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-daliyi.review.json
+- id: event-ningwang-zhi-luan
+  name_zh_cn: 宁王之乱（朱宸濠起兵）
+  start_year: 1519
+  end_year: 1519
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ningwang-zhi-luan.review.json
+- id: event-dongnan-wokou
+  name_zh_cn: 东南沿海倭患
+  start_year: 1552
+  end_year: 1565
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dongnan-wokou.review.json
+- id: event-wangzhi-yousha
+  name_zh_cn: 胡宗宪诱诛王直
+  start_year: 1557
+  end_year: 1558
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wangzhi-yousha.review.json
+- id: event-taizhou-dajie
+  name_zh_cn: 戚继光台州大捷
+  start_year: 1561
+  end_year: 1561
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-taizhou-dajie.review.json
+- id: event-zhengde-zhengzhi
+  name_zh_cn: 正德朝政治起伏（豹房与刘瑾）
+  start_year: 1505
+  end_year: 1521
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhengde-zhengzhi.review.json

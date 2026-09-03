@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-li-zicheng-fazhan
+name_zh_cn: 李自成势力发展
+event_type: political
+start_year: 1633
+end_year: 1643
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 崇祯六年至十六年（1633—1643 年），农民军反复聚散，李自成转战陕豫湖广，崇祯十六年（1643 年）据襄阳称新顺王，次年（1644 年）正月在西安称帝建大顺。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·庄烈帝纪》《流贼传》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-shanxi-minbian
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 陕西民变中李自成势力逐步壮大。
+- target_event_id: event-li-zicheng-jian-dashun
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 称帝建大顺。

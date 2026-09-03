@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-saerhu-zhizhan
+name_zh_cn: 萨尔浒之战
+event_type: war
+start_year: 1619
+end_year: 1619
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-ming
+- regime-houjin
+importance: critical
+summary_zh_cn: 天命四年（1619 年），明辽东经略杨镐督四路大军征伐后金，努尔哈赤采取"凭尔几路来，我只一路去"之策，在萨尔浒（今辽宁抚顺东）先后各个击破明军，明军主力受创，辽东攻守之势倒转，明朝自此转入辽事防御。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·杨镐传》；《清太祖武皇帝实录》；现代参考：稻叶岩吉《清朝全史》（中译本）与《明史·列传》；孙文良、李治亭《明清战争史略》（辽宁人民出版社）；白寿彝《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-qidahen
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 宣战后明军四路来攻被各个击破。
+- target_event_id: event-liaoshen-shixian
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 萨尔浒后后金转守为攻，占领辽沈。

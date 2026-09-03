@@ -46,7 +46,7 @@
   },
   "ming": {
     "label": "明",
-    "events": 31,
+    "events": 51,
     "stories": 0
   },
   "qing": {
@@ -349,13 +349,13 @@
     {
       "period_id": "period-ming",
       "name_zh_cn": "明",
-      "critical": 5,
-      "major": 26,
+      "critical": 7,
+      "major": 44,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 31,
-      "total": 31
+      "reused": 51,
+      "total": 51
     },
     {
       "period_id": "period-qing",

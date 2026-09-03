@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhang-xianzhong-fazhan
+name_zh_cn: 张献忠势力发展
+event_type: political
+start_year: 1633
+end_year: 1644
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-ming
+importance: major
+summary_zh_cn: 崇祯六年至十七年（1633—1644 年），张献忠转战楚蜀，崇祯十六年（1643 年）攻克武昌称大西王，次年（1644 年）在成都称帝建大西；与李自成大顺并行的两支明末农民军势力。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·流贼传》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-shanxi-minbian
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 与李自成并起的另一支主力。

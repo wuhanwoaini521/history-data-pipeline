@@ -1,0 +1,130 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 1 元初/元世祖朝
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-yuan-zhongshusheng
+  name_zh_cn: 元初中书省设立（中央政务中枢）
+  start_year: 1260
+  end_year: 1260
+  date_precision: year
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zhongshusheng.review.json
+- id: event-yuan-dingdu-dadu
+  name_zh_cn: 元定都大都（营建新城）
+  start_year: 1267
+  end_year: 1276
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-dingdu-dadu.review.json
+- id: event-yuan-xingsheng-zhidu
+  name_zh_cn: 行省制度确立（分置行中书省）
+  start_year: 1276
+  end_year: 1280
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-xingsheng-zhidu.review.json
+- id: event-yuan-zhongtong-chao
+  name_zh_cn: 中统钞发行（元初纸币制度建立）
+  start_year: 1260
+  end_year: 1260
+  date_precision: year
+  period_id: period-song-liao-jin
+  regime_ids:
+  - regime-mongol-empire
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zhongtong-chao.review.json
+- id: event-yuan-zhiyuan-chao
+  name_zh_cn: 至元钞发行与币制调整
+  start_year: 1287
+  end_year: 1287
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zhiyuan-chao.review.json
+- id: event-yuan-zheng-ri-yi
+  name_zh_cn: 元朝第一次征日（文永之役）
+  start_year: 1274
+  end_year: 1274
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zheng-ri-yi.review.json
+- id: event-yuan-zheng-ri-er
+  name_zh_cn: 元朝第二次征日（弘安之役）
+  start_year: 1281
+  end_year: 1281
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zheng-ri-er.review.json
+- id: event-yuan-aluohe-licai
+  name_zh_cn: 阿合马理财与财政之争
+  start_year: 1262
+  end_year: 1282
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-aluohe-licai.review.json
+- id: event-yuan-naiyan-zhi-luan
+  name_zh_cn: 乃颜之乱（辽东宗王反元）
+  start_year: 1287
+  end_year: 1287
+  date_precision: year
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-naiyan-zhi-luan.review.json
+- id: event-yuan-haidu-zhi-luan
+  name_zh_cn: 海都之乱（西北诸王战争）
+  start_year: 1277
+  end_year: 1301
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-haidu-zhi-luan.review.json
+- id: event-yuan-zheng-zhuawa
+  name_zh_cn: 元朝远征爪哇
+  start_year: 1292
+  end_year: 1293
+  date_precision: range
+  period_id: period-yuan
+  regime_ids:
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuan-zheng-zhuawa.review.json

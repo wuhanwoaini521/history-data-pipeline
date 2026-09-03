@@ -1,0 +1,165 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 明初
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-zhuyuanzhang-chendi
+  name_zh_cn: 朱元璋称帝、明朝建立
+  start_year: 1368
+  end_year: 1368
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-zhuyuanzhang-chendi.review.json
+- id: event-xuda-beifa
+  name_zh_cn: 徐达北伐、攻克大都（元退出中原）
+  start_year: 1368
+  end_year: 1368
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-xuda-beifa.review.json
+- id: event-ming-ping-yunnan
+  name_zh_cn: 明军平定云南
+  start_year: 1381
+  end_year: 1382
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-ping-yunnan.review.json
+- id: event-ming-wei-suo
+  name_zh_cn: 卫所制度建立
+  start_year: 1368
+  end_year: 1382
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-wei-suo.review.json
+- id: event-ming-li-jia
+  name_zh_cn: 里甲制与赋役黄册编造
+  start_year: 1381
+  end_year: 1381
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-li-jia.review.json
+- id: event-hu-weiyong-an
+  name_zh_cn: 胡惟庸案、废中书省罢丞相
+  start_year: 1380
+  end_year: 1380
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-hu-weiyong-an.review.json
+- id: event-lanyu-an
+  name_zh_cn: 蓝玉案（功臣清洗）
+  start_year: 1393
+  end_year: 1393
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-lanyu-an.review.json
+- id: event-ming-chu-beizheng
+  name_zh_cn: 明初北征蒙古（捕鱼儿海之战）
+  start_year: 1387
+  end_year: 1388
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  - regime-yuan
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-chu-beizheng.review.json
+- id: event-ming-feng-zhuzhuwang
+  name_zh_cn: 明初分封诸王
+  start_year: 1370
+  end_year: 1391
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-ming-feng-zhuzhuwang.review.json
+- id: event-jianwen-jiwei
+  name_zh_cn: 建文帝即位
+  start_year: 1398
+  end_year: 1398
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jianwen-jiwei.review.json
+- id: event-jianwen-xuefan
+  name_zh_cn: 建文帝削藩
+  start_year: 1399
+  end_year: 1399
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jianwen-xuefan.review.json
+- id: event-jingnan-zhizhan
+  name_zh_cn: 靖难之役
+  start_year: 1399
+  end_year: 1402
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jingnan-zhizhan.review.json
+- id: event-jingnan-qibing
+  name_zh_cn: 靖难起兵（燕王举兵北平）
+  start_year: 1399
+  end_year: 1399
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jingnan-qibing.review.json
+- id: event-yanjun-ru-jing
+  name_zh_cn: 燕军攻入南京、永乐帝即位
+  start_year: 1402
+  end_year: 1402
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yanjun-ru-jing.review.json

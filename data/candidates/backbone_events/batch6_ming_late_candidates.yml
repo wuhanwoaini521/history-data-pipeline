@@ -1,0 +1,230 @@
+# China History Backbone V1 · Batch 6 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 6 晚明
+compiled_from: AI 依据《元史》《明史》《明实录》《清太祖武皇帝实录》及现代元明清史研究整理候选；候选进入 review，accepted 后才写入 curated events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-yuan-jianguo（1271 元建立）
+- 南宋灭亡段（1276 临安降/1279 崖山）边界不重记
+candidates:
+- id: event-zhangjuzheng-gaige
+  name_zh_cn: 张居正改革
+  start_year: 1572
+  end_year: 1582
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhangjuzheng-gaige.review.json
+- id: event-kaocheng-fa
+  name_zh_cn: 考成法（张居正整顿吏治）
+  start_year: 1573
+  end_year: 1573
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-kaocheng-fa.review.json
+- id: event-yitiao-bianfa
+  name_zh_cn: 一条鞭法推广（赋役折银）
+  start_year: 1581
+  end_year: 1581
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yitiao-bianfa.review.json
+- id: event-zhangjuzheng-shoucuo
+  name_zh_cn: 张居正病逝与改革受挫
+  start_year: 1582
+  end_year: 1584
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhangjuzheng-shoucuo.review.json
+- id: event-wanli-chaoxian
+  name_zh_cn: 万历朝鲜战争（援朝抗倭）
+  start_year: 1592
+  end_year: 1598
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wanli-chaoxian.review.json
+- id: event-renchen-yizhan
+  name_zh_cn: 壬辰之役（第一次援朝、平壤大捷）
+  start_year: 1592
+  end_year: 1593
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-renchen-yizhan.review.json
+- id: event-dingyou-zailuan
+  name_zh_cn: 丁酉再乱（第二次战争与结束）
+  start_year: 1597
+  end_year: 1598
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dingyou-zailuan.review.json
+- id: event-donglin-dangzheng
+  name_zh_cn: 东林党争
+  start_year: 1604
+  end_year: 1627
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-donglin-dangzheng.review.json
+- id: event-weizhongxian-zhuanquan
+  name_zh_cn: 魏忠贤专权（天启朝政治）
+  start_year: 1624
+  end_year: 1627
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-weizhongxian-zhuanquan.review.json
+- id: event-chongzhen-jiwei
+  name_zh_cn: 崇祯帝即位、清除魏忠贤集团
+  start_year: 1627
+  end_year: 1628
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chongzhen-jiwei.review.json
+- id: event-shanxi-minbian
+  name_zh_cn: 陕西民变扩大（明末农民战争开端）
+  start_year: 1627
+  end_year: 1631
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-shanxi-minbian.review.json
+- id: event-nuerhachi-tongyi-nvzhen
+  name_zh_cn: 努尔哈赤统一女真诸部
+  start_year: 1583
+  end_year: 1616
+  date_precision: range
+  period_id: period-ming
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nuerhachi-tongyi-nvzhen.review.json
+- id: event-houjin-jianguo
+  name_zh_cn: 后金建立（努尔哈赤称汗）
+  start_year: 1616
+  end_year: 1616
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-houjin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-houjin-jianguo.review.json
+- id: event-qidahen
+  name_zh_cn: 七大恨（后金对明宣战）
+  start_year: 1618
+  end_year: 1618
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-houjin
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qidahen.review.json
+- id: event-saerhu-zhizhan
+  name_zh_cn: 萨尔浒之战
+  start_year: 1619
+  end_year: 1619
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  - regime-houjin
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-saerhu-zhizhan.review.json
+- id: event-liaoshen-shixian
+  name_zh_cn: 辽沈失守（辽东格局变化）
+  start_year: 1621
+  end_year: 1621
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-houjin
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liaoshen-shixian.review.json
+- id: event-li-zicheng-fazhan
+  name_zh_cn: 李自成势力发展
+  start_year: 1633
+  end_year: 1643
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-li-zicheng-fazhan.review.json
+- id: event-zhang-xianzhong-fazhan
+  name_zh_cn: 张献忠势力发展
+  start_year: 1633
+  end_year: 1644
+  date_precision: range
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhang-xianzhong-fazhan.review.json
+- id: event-li-zicheng-jian-dashun
+  name_zh_cn: 李自成称帝、建立大顺
+  start_year: 1644
+  end_year: 1644
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-li-zicheng-jian-dashun.review.json
+- id: event-lizicheng-gong-beijing
+  name_zh_cn: 李自成攻入北京、明朝灭亡
+  start_year: 1644
+  end_year: 1644
+  date_precision: year
+  period_id: period-ming
+  regime_ids:
+  - regime-ming
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-lizicheng-gong-beijing.review.json
