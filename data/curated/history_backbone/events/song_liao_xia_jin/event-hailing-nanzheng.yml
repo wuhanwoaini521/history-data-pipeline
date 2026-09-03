@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hailing-nanzheng
+name_zh_cn: 海陵王南征（完颜亮攻宋）
+event_type: war
+start_year: 1158
+end_year: 1161
+date_precision: range
+period_id: period-jin
+regime_ids:
+- regime-jin
+- regime-southern-song
+importance: major
+summary_zh_cn: 正隆三年至六年（1158—1161 年），金海陵王完颜亮迁都燕京、大举征调兵民，1161 年亲率大军分路南攻南宋，意图统一南北；
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《金史·海陵纪》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-jinshi
+relations:
+- target_event_id: event-shaoxing-heyi
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 绍兴和议二十年后金毁约南侵。
+- target_event_id: event-caishi-zhizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 南征军在采石渡江失败。

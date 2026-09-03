@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-shaoxing-heyi
+name_zh_cn: 绍兴和议（宋金划淮为界）
+event_type: treaty
+start_year: 1141
+end_year: 1142
+date_precision: range
+period_id: period-southern-song
+regime_ids:
+- regime-southern-song
+- regime-jin
+importance: major
+summary_zh_cn: 绍兴十一年至十二年（1141—1142 年），宋金订立和议：宋向金称臣纳贡，以淮水—大散关一线为界，南宋放弃北方领土，双方各守疆界，宋金第一次和议确立了两国长期对峙的基本格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·高宗纪》；《金史·熙宗纪》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+- work-curated-jinshi
+relations:
+- target_event_id: event-yuefei-banshi
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 班师与解除兵权后和议达成。
+- target_event_id: event-yuefei-beisha
+  relation_type: precedes
+  confidence: 0.8
+  description_zh_cn: 和议期间岳飞被处死（绍兴十一年岁末）。

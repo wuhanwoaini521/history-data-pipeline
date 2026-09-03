@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-jianyan-nandu
+name_zh_cn: 建炎南渡（宋廷南迁临安）
+event_type: migration
+start_year: 1127
+end_year: 1138
+date_precision: range
+period_id: period-southern-song
+regime_ids:
+- regime-southern-song
+importance: major
+summary_zh_cn: 建炎元年至绍兴八年（1127—1138 年），宋高宗经历扬州之难（1129 年）后渡江南逃，辗转江淮浙闽，绍兴八年（1138 年）正式定都临安（今杭州），南宋政权趋于稳定。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·高宗纪》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-zhao-gou-nansong-jianguo
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 即位后南渡定都。
+- target_event_id: event-huangtiandang-zhizhan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 南渡期间宋金在长江沿线交战（黄天荡）。

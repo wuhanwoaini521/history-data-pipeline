@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-caishi-zhizhan
+name_zh_cn: 采石之战
+event_type: war
+start_year: 1161
+end_year: 1161
+date_precision: year
+period_id: period-southern-song
+regime_ids:
+- regime-southern-song
+- regime-jin
+importance: major
+summary_zh_cn: 绍兴三十一年（1161 年）十一月，金军主力在采石（今安徽马鞍山）渡江，宋中书舍人虞允文督战于采石矶，以水军击败金军，金军渡江失败，完颜亮在扬州军中被废杀，金军北撤。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·虞允文传》；《金史·海陵纪》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+- work-curated-jinshi
+relations:
+- target_event_id: event-hailing-nanzheng
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 海陵南征军渡江受挫。
+- target_event_id: event-jin-shizong-jiwei
+  relation_type: precedes
+  confidence: 0.8
+  description_zh_cn: 金世宗已于十月在辽阳即位，采石败后海陵被废杀。

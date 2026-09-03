@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuefei-banshi
+name_zh_cn: 岳飞班师（北伐中止、解除兵权）
+event_type: political
+start_year: 1140
+end_year: 1141
+date_precision: range
+period_id: period-southern-song
+regime_ids:
+- regime-southern-song
+importance: major
+summary_zh_cn: 绍兴十年至十一年（1140—1141 年），前线宋军奉令班师，岳飞北伐中止；绍兴十一年春，岳飞、韩世忠等被解除兵权，宋廷转向与金议和。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·岳飞传》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-yancheng-zhizhan
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 郾城大捷后奉诏班师。
+- target_event_id: event-shaoxing-heyi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 罢兵权后宋金订立绍兴和议。

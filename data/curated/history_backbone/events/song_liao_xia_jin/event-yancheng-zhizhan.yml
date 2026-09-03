@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yancheng-zhizhan
+name_zh_cn: 郾城之战（岳飞北伐）
+event_type: war
+start_year: 1140
+end_year: 1140
+date_precision: year
+period_id: period-southern-song
+regime_ids:
+- regime-southern-song
+- regime-jin
+importance: major
+summary_zh_cn: 绍兴十年（1140 年）七月，岳飞率部在郾城（今属河南漯河）与金军主力决战，以背嵬军等击退金军重甲骑兵，取得北伐中的关键胜利，其后宋廷一日十二道金字牌催令班师（史料见《建炎以来系年要录》等，学界对金牌说尚有考订）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·岳飞传》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-shunchang-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 绍兴十年宋军全线反攻中的主战场。
+- target_event_id: event-yuefei-banshi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 郾城大捷后宋廷令班师。

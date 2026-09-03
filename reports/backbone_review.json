@@ -1,5 +1,26 @@
 {
-  "duplicate_candidates": [],
+  "duplicate_candidates": [
+    {
+      "kind": "name_contain_or_similar",
+      "event_a": {
+        "id": "event-jin-di-erci-weikaifeng",
+        "name_zh_cn": "金军第二次围攻开封、城陷",
+        "start_year": 1126,
+        "event_type": "war",
+        "importance": "major"
+      },
+      "event_b": {
+        "id": "event-jin-di-yici-weikaifeng",
+        "name_zh_cn": "金军第一次围攻开封",
+        "start_year": 1126,
+        "event_type": "war",
+        "importance": "major"
+      },
+      "period_id": "period-northern-song",
+      "similarity": 0.76,
+      "note": "可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review，不自动合并。"
+    }
+  ],
   "granularity": {
     "aggregates": [
       {
@@ -142,20 +163,21 @@
       }
     ],
     "event_type_distribution": {
-      "war": 129,
-      "political": 96,
-      "dynastic-transition": 40,
+      "war": 137,
+      "political": 98,
+      "dynastic-transition": 41,
       "reform": 32,
       "political-military": 22,
       "rebellion": 22,
-      "treaty": 8,
+      "treaty": 10,
       "economic": 7,
       "diplomatic": 7,
-      "foundation": 6,
+      "foundation": 7,
+      "migration": 6,
       "alliance": 5,
-      "migration": 5,
       "cultural": 3,
-      "unification": 3
+      "unification": 3,
+      "succession": 1
     }
   },
   "coverage_gaps": [
@@ -220,14 +242,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-southern-song",
-      "period_name": "南宋",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-song-liao-jin",
