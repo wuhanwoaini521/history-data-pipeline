@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-xin-gaizhi",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:57:27.148271Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch2)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 2（秦→西汉→新→东汉）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考）。\n王莽改制为一系列政策的总称（约公元9—17年），王田、币改、官制改名等各有具体年份；按 §18 原则聚合为单事件，不逐条单列。改制的得失与动因为长期学术课题。"
+}

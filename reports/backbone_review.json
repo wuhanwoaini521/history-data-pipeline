@@ -54,12 +54,12 @@
       }
     ],
     "event_type_distribution": {
-      "war": 52,
+      "war": 53,
       "political": 35,
       "political-military": 18,
-      "reform": 12,
-      "dynastic-transition": 7,
-      "rebellion": 7,
+      "reform": 13,
+      "dynastic-transition": 9,
+      "rebellion": 9,
       "economic": 6,
       "diplomatic": 6,
       "treaty": 4,
@@ -132,14 +132,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-xin",
-      "period_name": "新",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-eastern-han",

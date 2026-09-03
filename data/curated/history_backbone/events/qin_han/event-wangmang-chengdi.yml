@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wangmang-chengdi
+name_zh_cn: 王莽称帝、新朝建立
+event_type: dynastic-transition
+start_year: 9
+end_year: 9
+date_precision: year
+period_id: period-xin
+regime_ids: []
+importance: critical
+summary_zh_cn: 公元9年（初始元年十二月/始建国元年），王莽接受刘氏禅让称帝，改国号曰"新"，废汉朝年号，西汉刘氏统治终结。王莽代汉是中国历史上第一次以外戚身份通过禅让程序改朝换代，也是西汉外戚政治的终局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·王莽传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-hanshu
+relations:
+- target_event_id: event-wangmang-jushe
+  relation_type: follows
+  description_zh_cn: 居摄三年后禅代
+- target_event_id: event-xin-gaizhi
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 建立新朝后全面推行改制

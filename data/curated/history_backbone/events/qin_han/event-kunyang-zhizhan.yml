@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-kunyang-zhizhan
+name_zh_cn: 昆阳之战
+event_type: war
+start_year: 23
+end_year: 23
+date_precision: year
+period_id: period-xin
+regime_ids: []
+importance: major
+summary_zh_cn: 公元23年（更始元年）三月，绿林军建立更始政权；王莽遣王邑、王寻率号称四十二万大军围攻昆阳（今河南叶县一带），刘秀率数千守军以奇袭大破之，新军主力溃败。昆阳之战是新莽政权的决定性军事失败，直接导致新朝灭亡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-lvlin-qiyi
+  relation_type: follows
+- target_event_id: event-xin-mie
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 昆阳大捷后更始军进长安，王莽被杀，新朝灭亡

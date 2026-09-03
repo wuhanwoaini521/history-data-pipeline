@@ -20,3 +20,7 @@ relations:
 - target_event_id: event-wangmang-fuchu
   relation_type: follows
   description_zh_cn: 由辅政进而居摄
+- target_event_id: event-wangmang-chengdi
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 居摄三年后王莽正式代汉称帝

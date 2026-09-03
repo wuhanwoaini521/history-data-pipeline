@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xin-mie
+name_zh_cn: 新朝灭亡
+event_type: dynastic-transition
+start_year: 23
+end_year: 23
+date_precision: year
+period_id: period-xin
+regime_ids: []
+importance: critical
+summary_zh_cn: 公元23年十月，更始军攻入长安，王莽被杀于渐台，新朝灭亡。新朝的失败结束了王莽改制试验，中国历史进入更始与群雄争夺、刘秀重建汉室的东汉建立阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《汉书·王莽传》《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-kunyang-zhizhan
+  relation_type: follows
+  description_zh_cn: 昆阳战后新朝迅速崩溃

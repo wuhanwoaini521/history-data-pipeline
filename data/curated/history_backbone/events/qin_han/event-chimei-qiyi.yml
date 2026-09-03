@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-chimei-qiyi
+name_zh_cn: 赤眉起义
+event_type: rebellion
+start_year: 18
+end_year: 18
+date_precision: year
+period_id: period-xin
+regime_ids: []
+importance: major
+summary_zh_cn: 公元18年（天凤五年），樊崇等聚众于泰山一带起义，以朱色涂眉为号，故称"赤眉军"。赤眉军与绿林军并行为新末两大起义力量，与新朝官军反复交战，后成为关东地区的强大反新势力。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·刘盆子传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-lvlin-qiyi
+  relation_type: follows
+  description_zh_cn: 与新末其他起义并举
+- target_event_id: event-xin-mie
+  relation_type: precedes
+  description_zh_cn: 赤眉军亦参与推翻新朝之战

@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-lvlin-qiyi
+name_zh_cn: 绿林起义
+event_type: rebellion
+start_year: 17
+end_year: 17
+date_precision: year
+period_id: period-xin
+regime_ids: []
+importance: major
+summary_zh_cn: 公元17年（天凤四年），荆州饥民在王匡、王凤等率领下聚于绿林山（今湖北大洪山一带）起义，号"绿林军"。绿林军后来成为反新主力，公元22年遭王莽军重创后分路活动，更始政权与刘秀势力皆由绿林部曲发展而来。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《后汉书·刘玄传》及《光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_ids:
+- work-curated-houhanshu
+relations:
+- target_event_id: event-xin-gaizhi
+  relation_type: follows
+  description_zh_cn: 改制失败后社会动荡
+- target_event_id: event-kunyang-zhizhan
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 绿林军发展为反新主力，与新军决战于昆阳
