@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xiaodaocheng-dai-song
+name_zh_cn: 萧道成代宋、南齐建立
+event_type: dynastic-transition
+start_year: 479
+end_year: 479
+date_precision: year
+period_id: period-northern-southern
+regime_ids:
+- regime-southern-qi
+importance: major
+summary_zh_cn: 昇明三年（479年）萧道成受宋顺帝禅让称帝，国号齐（南齐），都建康。南齐建立继刘宋之后，延续南朝政权更替的模式。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《南齐书·高帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-liangshu
+- work-curated-chenshu
+- work-curated-nanshi
+relations:
+- target_event_id: event-yuanjia-beifa
+  relation_type: follows
+  description_zh_cn: 刘宋末世内乱后权臣萧道成代宋
+- target_event_id: event-xiaoyan-dai-qi
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 南齐宗室内乱为萧衍代齐创造条件

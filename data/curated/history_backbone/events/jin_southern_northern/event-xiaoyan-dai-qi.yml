@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xiaoyan-dai-qi
+name_zh_cn: 萧衍代齐、梁建立
+event_type: dynastic-transition
+start_year: 502
+end_year: 502
+date_precision: year
+period_id: period-northern-southern
+regime_ids:
+- regime-liang
+importance: major
+summary_zh_cn: 天监元年（502年）萧衍受齐和帝禅让称帝，国号梁，都建康。萧衍在位近五十年（502—549年），前期政治较清明、文化鼎盛，后期佞佛失政，为侯景之乱留下隐患。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《梁书·武帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-liangshu
+- work-curated-chenshu
+- work-curated-nanshi
+relations:
+- target_event_id: event-xiaodaocheng-dai-song
+  relation_type: follows
+- target_event_id: event-houjing-zhi-luan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 萧衍晚年接纳侯景，招致侯景之乱

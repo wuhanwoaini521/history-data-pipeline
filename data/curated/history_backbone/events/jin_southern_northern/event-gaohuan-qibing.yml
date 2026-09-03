@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-gaohuan-qibing
+name_zh_cn: 高欢起兵讨尔朱氏
+event_type: war
+start_year: 531
+end_year: 534
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-wei
+importance: major
+summary_zh_cn: 531年高欢以东魏（河北）为基地起兵讨伐尔朱氏，532年攻入洛阳立孝武帝（北魏末帝）；534年孝武帝西奔长安投宇文泰，高欢另立孝静帝、迁都邺，北魏就此分裂为东西。高欢势力为后来东魏—北齐的政治军事基础。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·孝静纪》《周书·文帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-heyin-zhi-bian
+  relation_type: follows
+- target_event_id: event-beiwei-fenlie
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 高欢与宇文泰分庭抗礼导致北魏分裂

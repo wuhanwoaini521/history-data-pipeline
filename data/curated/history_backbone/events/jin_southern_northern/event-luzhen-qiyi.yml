@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-luzhen-qiyi
+name_zh_cn: 六镇起义
+event_type: rebellion
+start_year: 523
+end_year: 525
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-wei
+importance: major
+summary_zh_cn: 正光四年（523年）沃野镇镇兵破六韩拔陵领导起义，六镇（北魏北边防戍军镇）相继响应，北魏朝廷镇压不力，被迫诏准胡汉通婚、募镇民为兵。六镇起义动摇了北魏统治根基，并孕育了北魏末年的军阀化。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·肃宗纪》《尔朱荣传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+relations:
+- target_event_id: event-taihe-hanhua
+  relation_type: follows
+  description_zh_cn: 汉化改革与镇将矛盾积累引发六镇之乱
+- target_event_id: event-heyin-zhi-bian
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 六镇乱后尔朱荣势力北上，制造河阴之变

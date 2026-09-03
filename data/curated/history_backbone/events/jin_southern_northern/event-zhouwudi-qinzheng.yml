@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhouwudi-qinzheng
+name_zh_cn: 周武帝亲政与改革
+event_type: reform
+start_year: 572
+end_year: 578
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-zhou
+importance: major
+summary_zh_cn: 建德元年（572年）周武帝宇文邕诛杀权臣宇文护，正式亲政，实行改革：整顿府兵、褒奖农桑、灭佛（574年）以充实国力，并积极备战东伐。周武帝改革使北周国力反超北齐，为统一北方奠定基础。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《周书·武帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-nanshi
+- work-curated-beishi
+relations:
+- target_event_id: event-yuwenjue-dai-xiwei
+  relation_type: follows
+  description_zh_cn: 北周自宇文护专权走向周武帝亲政
+- target_event_id: event-beizhou-mie-beiqi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 周武帝改革后出兵灭北齐

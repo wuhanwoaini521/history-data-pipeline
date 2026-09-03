@@ -21,7 +21,7 @@
   },
   "jin_southern_northern": {
     "label": "魏晋南北朝",
-    "events": 34,
+    "events": 57,
     "stories": 0
   },
   "sui_tang": {
@@ -228,13 +228,13 @@
     {
       "period_id": "period-northern-southern",
       "name_zh_cn": "南北朝",
-      "critical": 1,
-      "major": 0,
+      "critical": 4,
+      "major": 20,
       "normal": 0,
       "minor": 0,
-      "new": 1,
+      "new": 24,
       "reused": 0,
-      "total": 1
+      "total": 24
     },
     {
       "period_id": "period-sui",

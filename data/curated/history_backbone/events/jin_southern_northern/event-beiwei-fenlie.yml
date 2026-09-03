@@ -1,0 +1,32 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-beiwei-fenlie
+name_zh_cn: 北魏分裂为东魏西魏
+event_type: political
+start_year: 534
+end_year: 535
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-wei
+importance: critical
+summary_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·孝静纪》《周书·文帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-gaohuan-qibing
+  relation_type: follows
+  description_zh_cn: 高欢、宇文泰分割北魏
+- target_event_id: event-gaoyang-dai-dongwei
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 东魏过渡到北齐
+- target_event_id: event-yuwenjue-dai-xiwei
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 西魏过渡到北周

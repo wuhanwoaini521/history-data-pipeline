@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-houjing-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T08:37:37.327680Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch3)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-liang"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 3（东汉末—隋统一）人工审核：确认事件必要性、时期归属、时间与重要性分级；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n侯景之乱（548—552）为 process+aggregate；梁武帝饿死台城、建康湮灭、江陵之乱均为其组成部分。南朝衰势自此不可逆。"
+}

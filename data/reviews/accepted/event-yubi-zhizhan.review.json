@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yubi-zhizhan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T08:37:37.412258Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch3)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-eastern-wei",
+    "regime-western-wei"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 3（东汉末—隋统一）人工审核：确认事件必要性、时期归属、时间与重要性分级；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n玉壁之战在546年（东西魏第三次大战）；韦孝宽守城战为古代攻城战典型战例。"
+}

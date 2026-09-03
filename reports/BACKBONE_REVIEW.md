@@ -15,9 +15,9 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 81, "political": 62, "dynastic-transition": 21, "political-military": 20, "reform": 14, "rebellion": 11, "diplomatic": 7, "economic": 6, "treaty": 4, "migration": 4, "alliance": 3, "cultural": 3, "unification": 2, "foundation": 2}
+- 事件类型分布：{"war": 89, "political": 65, "dynastic-transition": 27, "political-military": 20, "reform": 18, "rebellion": 12, "diplomatic": 7, "economic": 6, "migration": 5, "treaty": 4, "alliance": 3, "cultural": 3, "unification": 2, "foundation": 2}
 
-- Aggregate（有子事件 part_of）数量：16
+- Aggregate（有子事件 part_of）数量：20
   - event-qin-mie-liuguo：7 个子事件
   - event-han-xiongnu-war：5 个子事件
   - event-chuhan-war：4 个子事件
@@ -25,10 +25,14 @@
   - event-chuzhuang-wang-ba：2 个子事件
   - event-qihuan-gong-ba：2 个子事件
   - event-hezong-lianheng：2 个子事件
+  - event-xiaowendi-gaige：2 个子事件
   - event-chuhan-qin-revolt：2 个子事件
   - event-zhuge-liang-beifa：2 个子事件
   - event-wu-guo-jueqi：1 个子事件
   - event-zheng-zhuanggong-xiaoba：1 个子事件
+  - event-houjing-zhi-luan：1 个子事件
+  - event-houjing-po-taicheng：1 个子事件
+  - event-xiwei-po-jiangling：1 个子事件
   - event-yongjia-zhi-luan：1 个子事件
   - event-luoyang-xianshi：1 个子事件
   - event-xijin-mie-wang：1 个子事件

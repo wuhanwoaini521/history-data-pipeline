@@ -52,6 +52,10 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-xiaowendi-gaige",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-chuhan-qin-revolt",
         "part_of_children": 2
       },
@@ -65,6 +69,18 @@
       },
       {
         "event_id": "event-zheng-zhuanggong-xiaoba",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-houjing-zhi-luan",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-houjing-po-taicheng",
+        "part_of_children": 1
+      },
+      {
+        "event_id": "event-xiwei-po-jiangling",
         "part_of_children": 1
       },
       {
@@ -99,16 +115,16 @@
       }
     ],
     "event_type_distribution": {
-      "war": 81,
-      "political": 62,
-      "dynastic-transition": 21,
+      "war": 89,
+      "political": 65,
+      "dynastic-transition": 27,
       "political-military": 20,
-      "reform": 14,
-      "rebellion": 11,
+      "reform": 18,
+      "rebellion": 12,
       "diplomatic": 7,
       "economic": 6,
+      "migration": 5,
       "treaty": 4,
-      "migration": 4,
       "alliance": 3,
       "cultural": 3,
       "unification": 2,

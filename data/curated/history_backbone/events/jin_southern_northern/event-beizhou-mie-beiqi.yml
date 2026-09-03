@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-beizhou-mie-beiqi
+name_zh_cn: 北周灭北齐
+event_type: war
+start_year: 576
+end_year: 577
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-zhou
+- regime-northern-qi
+importance: critical
+summary_zh_cn: 建德五年至六年（576—577年）周武帝亲率大军伐齐，破晋阳、克邺，北齐后主被俘，北齐灭亡，北周统一北方。北周灭北齐结束北方东西对峙，北方重归一统，为隋朝取代北周并统一全国铺平道路。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《周书·武帝纪》《北齐书·后主纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-nanshi
+- work-curated-beishi
+relations:
+- target_event_id: event-zhouwudi-qinzheng
+  relation_type: follows
+  description_zh_cn: 周武帝改革后大举灭齐
+  description_zh_cn: 统一北方的北周旋即被杨坚代周（隋）

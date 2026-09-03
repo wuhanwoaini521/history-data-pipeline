@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xiaowendi-gaige
+name_zh_cn: 北魏孝文帝改革
+event_type: reform
+start_year: 471
+end_year: 499
+date_precision: range
+period_id: period-northern-southern
+regime_ids:
+- regime-northern-wei
+importance: major
+summary_zh_cn: 北魏献文帝、孝文帝时期（471—499年），冯太后临朝与孝文帝亲政相继推进汉化改革：行均田制、三长制、俸禄制，493年迁都洛阳，其后改革官制、禁胡服、断北语、改汉姓、定门第。本事件为 aggregate，具体节点（迁都/汉化）见
+  part_of 子事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·高祖纪》《冯太后传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+relations:
+- target_event_id: event-beiwei-tongyi-beifang
+  relation_type: follows
+  description_zh_cn: 统一北方后转向中原化改革
+- target_event_id: event-luzhen-qiyi
+  relation_type: leads_to
+  confidence: 0.5
+  description_zh_cn: 汉化改革加强洛阳权贵而削弱六镇军镇，为六镇起义埋因

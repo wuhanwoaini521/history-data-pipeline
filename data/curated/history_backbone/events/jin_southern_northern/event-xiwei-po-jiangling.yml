@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xiwei-po-jiangling
+name_zh_cn: 西魏破江陵、梁灭亡
+event_type: war
+start_year: 554
+end_year: 554
+date_precision: year
+period_id: period-northern-southern
+regime_ids:
+- regime-liang
+- regime-western-wei
+importance: major
+summary_zh_cn: 承圣三年（554年）西魏于谨、杨忠攻破江陵，杀梁元帝萧绎，梁政权至此实质灭亡（萧詧在江陵立西梁为附庸）。侯景之乱后梁宗室相攻，江陵陷落使南朝最后抵抗力量丧失，南方转入陈朝重建阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《梁书·元帝纪》《周书·文帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-liangshu
+- work-curated-chenshu
+- work-curated-nanshi
+relations:
+- target_event_id: event-houjing-zhi-luan
+  relation_type: follows
+  description_zh_cn: 侯景之乱后梁室相攻、江陵被破
+- target_event_id: event-chenbaxian-jianzhen
+  relation_type: leads_to
+  confidence: 0.6
+  description_zh_cn: 梁亡后陈霸先在建康建陈
