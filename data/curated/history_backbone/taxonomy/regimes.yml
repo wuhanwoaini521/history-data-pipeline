@@ -64,3 +64,5 @@ regimes:
   - {id: regime-nanming, name_zh_cn: 南明（弘光/隆武/永历）, start_year: 1644, end_year: 1662, date_precision: range, period_id: period-qing, description_zh_cn: 明亡后南方宗室政权，1662 年永历帝被杀而结束。}
   - {id: regime-taiping, name_zh_cn: 太平天国, start_year: 1851, end_year: 1864, date_precision: range, period_id: period-late-qing, description_zh_cn: 洪秀全建立的政权（1851-1864）。}
   - {id: regime-agubo, name_zh_cn: 阿古柏政权, start_year: 1865, end_year: 1877, date_precision: range, period_id: period-late-qing, description_zh_cn: 阿古柏在南疆建立的政权（1865-1877）。}
+  - {id: regime-manchukuo, name_zh_cn: 满洲国, start_year: 1932, end_year: 1945, date_precision: range, period_id: period-republic, description_zh_cn: 日本关东军扶持的政权（1932-1945），史称伪满洲国。}
+  - {id: regime-chinese-soviet-republic, name_zh_cn: 中华苏维埃共和国, start_year: 1931, end_year: 1937, date_precision: range, period_id: period-republic, description_zh_cn: 中国共产党于 1931 年在瑞金成立的政权（1931-1937）。}
