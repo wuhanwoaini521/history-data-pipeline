@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuanfeng-gaizhi
+name_zh_cn: 元丰改制（官制改革）
+event_type: reform
+start_year: 1080
+end_year: 1082
+date_precision: range
+period_id: period-northern-song
+regime_ids: []
+importance: major
+summary_zh_cn: 元丰三年至五年（1080—1082 年），宋神宗依据《唐六典》改革官制，恢复三省六部职能、以阶官寄禄，罢去使职差遣的冗制，是国家行政制度的一次系统整理。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·神宗纪》《职官志》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-wanganshi-bianfa
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 熙宁新法推行后神宗继续改制。
+- target_event_id: event-yuanyou-genghua
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 元丰改制后哲宗初年政治转向。

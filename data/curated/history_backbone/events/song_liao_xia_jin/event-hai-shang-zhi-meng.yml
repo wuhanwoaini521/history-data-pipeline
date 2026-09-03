@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hai-shang-zhi-meng
+name_zh_cn: 海上之盟（宋金联合攻辽）
+event_type: alliance
+start_year: 1120
+end_year: 1120
+date_precision: year
+period_id: period-northern-song
+regime_ids:
+- regime-northern-song
+- regime-jin
+importance: major
+summary_zh_cn: 宣和二年（1120 年），北宋徽宗君臣经登州海路遣使赴金，与金缔结盟约：宋金夹攻辽国，灭辽后燕云十六州之地归还北宋（金取中京、宋取燕京）；盟约随后因宋军攻燕不力及金军索价而埋下宋金冲突伏笔。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·徽宗纪》；《三朝北盟会编》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-jin-jianguo
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 金立国后宋金缔约。
+- target_event_id: event-liao-miewang
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 盟约目标为联合灭辽。

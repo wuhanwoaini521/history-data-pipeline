@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-fangla-qiyi
+name_zh_cn: 方腊起义（睦州）
+event_type: rebellion
+start_year: 1120
+end_year: 1121
+date_precision: range
+period_id: period-northern-song
+regime_ids: []
+importance: major
+summary_zh_cn: 宣和二年至三年（1120—1121 年），两浙睦州青溪方腊聚众起义，攻占六州五十余县，后童贯率军镇压，方腊被俘遇害；起义与花石纲及东南赋役有关，是北宋末江南社会矛盾的集中爆发。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·徽宗纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-hai-shang-zhi-meng
+  relation_type: precedes
+  confidence: 0.5
+  description_zh_cn: 与宋金海上之盟同时期（宣和二年）。

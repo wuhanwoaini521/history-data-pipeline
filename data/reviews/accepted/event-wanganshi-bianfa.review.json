@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wanganshi-bianfa",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:45:21.659625Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch5)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n青苗、募役、保甲、市易等为新法的主要内容，本事件作为一个政治改革进程统一记录，不逐法单列事件（避免概念碎片化）；对旧党把新法失败归于王安石个人及\"变法一律扰民\"的说法，学界有争议，本事件按制度颁布与罢行过程陈述。"
+}
