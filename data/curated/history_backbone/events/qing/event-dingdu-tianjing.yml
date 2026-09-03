@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dingdu-tianjing
+name_zh_cn: 太平军攻占南京、定都天京
+event_type: war
+start_year: 1853
+end_year: 1853
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-taiping
+- regime-qing
+importance: major
+summary_zh_cn: 咸丰三年（1853 年）3 月，太平军（春官正丞相杨秀清等统军）攻占江宁（南京），改名天京定为都城，随即派出北伐军与西征军，太平天国控制区扩展至长江中下游；清政府设江南、江北大营围困天京。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·文宗实录》；现代参考：罗尔纲《太平天国史》（中华书局）；郭廷以《近代中国史纲》；茅海建《天朝的崩溃》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-taiping-tianguo
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 定都后的政权巩固阶段。
+- target_event_id: event-jintian-qiyi
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 起义后两年攻占南京。

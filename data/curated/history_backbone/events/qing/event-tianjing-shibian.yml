@@ -1,0 +1,33 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tianjing-shibian
+name_zh_cn: 天京事变
+event_type: political
+start_year: 1856
+end_year: 1856
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-taiping
+importance: major
+summary_zh_cn: 咸丰六年（1856 年），太平天国领导集团内讧：韦昌辉奉洪秀全密令杀杨秀清，旋又被洪秀全处死，石达开出走；天京事变致太平天国元气大伤，由盛转衰。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录》相关奏报；《李秀成自述》等；现代参考：罗尔纲《太平天国史》（中华书局）；郭廷以《近代中国史纲》；茅海建《天朝的崩溃》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-taiping-tianguo
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 领导集团内讧。
+- target_event_id: event-dingdu-tianjing
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 定都三年后的权力斗争。
+- target_event_id: event-tianjing-xianluo
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 事变后清军湘军乘势反攻。
