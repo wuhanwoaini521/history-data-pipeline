@@ -69,6 +69,10 @@ evidence:
   review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
   rejected_text_ids: []
 relations:
+- target_event_id: event-chuhan-war
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 垓下之战为楚汉战争的子事件。
 - target_event_id: event-chuhan-han-foundation
   relation_type: leads_to
   confidence: 0.85

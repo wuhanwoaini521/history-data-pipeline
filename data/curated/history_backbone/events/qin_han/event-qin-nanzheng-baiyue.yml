@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-nanzheng-baiyue
+name_zh_cn: 南征百越
+event_type: war
+start_year: -218
+end_year: -214
+date_precision: range
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇二十八年（前219年）后发兵五十万征南越，经数年征战，约前214年平岭南，置桂林、南海、象三郡，并开凿灵渠沟通湘漓水系。百越之地自此纳入秦郡县体系，中原与岭南联系加强。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·南越列传》《秦始皇本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-chidao
+  relation_type: follows
+  description_zh_cn: 南服百越的军事行动

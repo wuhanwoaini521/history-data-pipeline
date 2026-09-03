@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-tongyi-duliangheng
+name_zh_cn: 统一度量衡
+event_type: reform
+start_year: -221
+end_year: -221
+date_precision: year
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇下令统一度量衡制度：明令度量衡沿秦国商鞅之法推广全国，在衡器上刻诏书铭文，确立统一的权衡、尺与量制。此举为全国征税、贸易与工程提供统一标准。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·秦始皇本纪》、出土秦权量铭文；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-shutongwen
+  relation_type: follows
+  description_zh_cn: 与书同文同为秦大统一措施

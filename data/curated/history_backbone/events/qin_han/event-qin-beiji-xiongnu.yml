@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-beiji-xiongnu
+name_zh_cn: 北击匈奴（蒙恬却匈奴）
+event_type: war
+start_year: -215
+end_year: -214
+date_precision: range
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇三十二年（前215年）遣蒙恬率三十万大军北击匈奴，前214年前后收复河南地（今河套一带），逐匈奴七百余里，置九原郡并沿黄河设塞，匈奴退居阴山以北。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·蒙恬列传》《秦始皇本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-chidao
+  relation_type: follows
+  description_zh_cn: 北防匈奴的军事行动

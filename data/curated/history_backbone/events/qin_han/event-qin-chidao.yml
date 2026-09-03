@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-chidao
+name_zh_cn: 修建驰道
+event_type: economic
+start_year: -220
+end_year: -220
+date_precision: year
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇二十七年（前220年）起修筑驰道，以都城咸阳为中心通往全国，东至燕齐、南达吴楚，道广五十步、树以青松，形成全国性道路交通骨干，并为军事调动与巡游统治提供支撑（后又有直道等干道工程）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-tongyi-bihuo
+  relation_type: follows
+  description_zh_cn: 统一后大规模交通建设

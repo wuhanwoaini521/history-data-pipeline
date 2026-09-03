@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-junxian
+name_zh_cn: 秦推行郡县制
+event_type: reform
+start_year: -221
+end_year: -221
+date_precision: year
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇二十六年（前221年）丞相王绾等主张分封诸子，廷尉李斯力主郡县制，始皇帝从之，废分封、行郡县，全国设三十六郡（后增至四十余郡）。郡县制是秦强化中央集权、代替世卿贵族分封的关键制度变革，成为中国此后两千余年地方行政的基本框架。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-tongyi
+  relation_type: follows
+  description_zh_cn: 统一后随即推行郡县制

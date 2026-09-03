@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-chuhan-war
+name_zh_cn: 楚汉战争
+event_type: political-military
+start_year: -206
+end_year: -202
+date_precision: range
+period_id: period-western-han
+regime_ids: []
+importance: major
+summary_zh_cn: 楚汉战争指前206年至前202年项羽楚政权与刘邦汉政权争夺天下的战争过程：自鸿门宴后的政治对抗、彭城之战、荥阳对峙至垓下决战，刘邦最终获胜。本事件为 aggregate，子事件（鸿门宴/彭城之战/荥阳对峙/垓下之战）通过
+  part_of 关联；各子事件沿用已审核的楚汉 Story Event，不重复建档。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·项羽本纪》《高祖本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-chuhan-qin-fall
+  relation_type: follows
+  description_zh_cn: 秦亡后进入楚汉相争
+- target_event_id: event-chuhan-han-foundation
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 楚汉战争以刘邦建立汉朝告终

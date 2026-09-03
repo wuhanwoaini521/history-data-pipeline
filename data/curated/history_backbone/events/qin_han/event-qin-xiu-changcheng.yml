@@ -1,0 +1,22 @@
+# China History Backbone V1 · Batch 2（秦→西汉→新→东汉）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qin-xiu-changcheng
+name_zh_cn: 修筑长城
+event_type: economic
+start_year: -214
+end_year: -213
+date_precision: range
+period_id: period-qin
+regime_ids: []
+importance: major
+summary_zh_cn: 秦始皇命蒙恬连接并修筑西起临洮、东至辽东的万里长城，利用原秦、赵、燕三国边城，筑障塞以御匈奴。秦长城是空前规模的国防工程，但征发大量民力，加重百姓负担。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·蒙恬列传》《秦始皇本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-qin-beiji-xiongnu
+  relation_type: follows
+  description_zh_cn: 全面筑塞的国防工程

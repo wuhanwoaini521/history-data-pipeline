@@ -36,8 +36,8 @@ def schemas():
 def test_backbone_loads(backbone):
     assert len(backbone.periods) >= 30
     assert len(backbone.regimes) >= 30
-    # China History Backbone V1 · Batch 1：先秦主干 82 个 Event（26 个既有 + 82 新增）
-    assert len(backbone.events) == 108
+    # Batch 1（先秦 82）+ Batch 2 阶段提交（QIN 13）
+    assert len(backbone.events) == 121
     assert len(backbone.stories) == 3
     # 三个 Story 标题
     assert {story["title_zh_cn"] for story in backbone.stories} == {"楚汉争霸", "三国格局形成", "安史之乱"}
