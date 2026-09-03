@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-wending-zhongyuan
+name_zh_cn: 问鼎中原
+event_type: diplomatic
+start_year: -606
+end_year: -606
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前606年，楚庄王北伐陆浑之戎、陈兵周疆，向周大夫王孙满问九鼎之轻重，彰显取代周天子的野心，史称"问鼎中原"。此事件为楚庄王霸权与周王室权威衰落的标志。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·宣公三年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-chuzhuang-wang-ba
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 问鼎中原为楚庄王时期标志性外交事件
+- target_event_id: event-zichan-xingshu
+  relation_type: precedes

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-guanzhong-gaige
+name_zh_cn: 管仲改革
+event_type: reform
+start_year: -685
+end_year: -645
+date_precision: range
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 齐桓公即位后任用管仲为相，推行"通货积财"、四民分业、三选等内政改革与"尊王攘夷"方针，齐国迅速富强，为齐桓公称霸奠定基础。管仲辅政约前685—前645年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·齐太公世家》《管子》（托名）；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-xuge-zhizhan
+  relation_type: follows
+- target_event_id: event-qihuan-gong-ba
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 管仲改革成就齐桓公霸业

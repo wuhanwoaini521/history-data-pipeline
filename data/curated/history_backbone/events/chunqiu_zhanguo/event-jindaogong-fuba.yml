@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-jindaogong-fuba
+name_zh_cn: 晋悼公复霸
+event_type: political-military
+start_year: -573
+end_year: -558
+date_precision: range
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 晋悼公即位（前573年）后，整顿内政、和戎政策并举，恢复晋国霸权，史称"晋悼公复霸"。晋国霸权延续至其逝世（前558年）后逐渐让于弭兵格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·成公十八年至襄公十五年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-yanling-zhizhan
+  relation_type: follows
+- target_event_id: event-xiangxu-mibing
+  relation_type: precedes

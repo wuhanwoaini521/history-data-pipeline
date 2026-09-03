@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-huangchi-zhi-hui
+name_zh_cn: 黄池之会
+event_type: diplomatic
+start_year: -482
+end_year: -482
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前482年，吴王夫差率精锐北上黄池（今河南封丘一带）与晋争盟主，越王勾践趁机袭吴，吴国腹背受敌。黄池之会虽使夫差夺得盟主名号，却是吴国王权由盛转衰的转折点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·哀公十三年》《史记·吴太伯世家》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+- work-curated-shiji
+relations:
+- target_event_id: event-fujiao-zhizhan
+  relation_type: follows
+- target_event_id: event-yue-mie-wu
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 黄池之会期间越国袭吴，吴国自此衰亡

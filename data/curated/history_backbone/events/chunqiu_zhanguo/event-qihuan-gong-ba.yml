@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-qihuan-gong-ba
+name_zh_cn: 齐桓公称霸
+event_type: political-military
+start_year: -679
+end_year: -643
+date_precision: range
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 齐桓公以"尊王攘夷"为旗号会盟诸侯，北御戎狄、南阻楚国，成为春秋第一位霸主，葵丘之会（前651年）达到霸业顶点。齐桓公霸权奠定了春秋"霸主政治"的基本格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传》《史记·齐太公世家》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-guanzhong-gaige
+  relation_type: follows
+- target_event_id: event-hong-zhizhan
+  relation_type: precedes

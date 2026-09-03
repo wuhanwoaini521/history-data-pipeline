@@ -1,0 +1,21 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-jin-mie-zhi
+name_zh_cn: 三家灭智
+event_type: war
+start_year: -453
+end_year: -453
+date_precision: year
+period_id: period-warring-states
+regime_ids: []
+importance: major
+summary_zh_cn: 前453年，晋国韩、赵、魏三家联合灭掉执政的智氏，三分其地，晋公室名存实亡。三家灭智是"三家分晋"的前奏，为战国七雄格局的形成埋下伏笔。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·晋世家》《资治通鉴·周纪一》追述；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》、杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-yue-mie-wu
+  relation_type: follows

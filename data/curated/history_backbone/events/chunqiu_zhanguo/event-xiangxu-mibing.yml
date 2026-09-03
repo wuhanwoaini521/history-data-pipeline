@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-xiangxu-mibing
+name_zh_cn: 向戌弭兵
+event_type: treaty
+start_year: -546
+end_year: -546
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前546年，宋大夫向戌促成晋、楚、齐、秦等十四国在宋都结盟弭兵，晋楚平分霸权，中原战场暂时休战。弭兵之会开启春秋后期相对和平的格局，各国内政问题上升。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·襄公二十七年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-jindaogong-fuba
+  relation_type: follows
+- target_event_id: event-wu-guo-jueqi
+  relation_type: precedes

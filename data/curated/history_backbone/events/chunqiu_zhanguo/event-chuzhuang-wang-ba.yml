@@ -1,0 +1,20 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-chuzhuang-wang-ba
+name_zh_cn: 楚庄王称霸
+event_type: political-military
+start_year: -613
+end_year: -591
+date_precision: range
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 楚庄王在位（前613—前591年）期间，"一鸣惊人"整顿内政，问鼎中原、败晋于邲，成为继齐桓、晋文后第三代霸主，楚国势力达到鼎盛。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·楚世家》《左传》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zuozhuan
+relations: []

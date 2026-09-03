@@ -6,7 +6,7 @@
   },
   "chunqiu_zhanguo": {
     "label": "春秋战国",
-    "events": 0,
+    "events": 26,
     "stories": 0
   },
   "qin_han": {
@@ -99,20 +99,20 @@
     {
       "period_id": "period-spring-autumn",
       "name_zh_cn": "春秋",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 23,
       "normal": 0,
       "minor": 0,
-      "total": 0
+      "total": 24
     },
     {
       "period_id": "period-warring-states",
       "name_zh_cn": "战国",
       "critical": 0,
-      "major": 0,
+      "major": 2,
       "normal": 0,
       "minor": 0,
-      "total": 0
+      "total": 2
     },
     {
       "period_id": "period-qin",

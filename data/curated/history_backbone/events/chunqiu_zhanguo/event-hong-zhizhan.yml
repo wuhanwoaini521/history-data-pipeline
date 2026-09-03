@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-hong-zhizhan
+name_zh_cn: 泓之战
+event_type: war
+start_year: -638
+end_year: -638
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前638年，宋襄公与楚军在泓水（今河南柘城一带）交战，宋襄公恪守"不鼓不成列"的旧礼而战败受伤，宋国称霸企图破产。此役常被用作"礼崩乐坏"时代军事观念转变的标志。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·僖公二十二年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-kuiqiu-zhi-hui
+  relation_type: follows
+- target_event_id: event-chengpu-zhizhan
+  relation_type: precedes

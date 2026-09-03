@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-chuwuwang-chengwang
+name_zh_cn: 楚武王称王
+event_type: political
+start_year: -704
+end_year: -704
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前704年，楚君熊通自立为王，成为春秋时期第一个僭号称王的诸侯，打破周天子独尊的名分秩序。楚国由此以"王"号独立于诸侯体系，是南方大国崛起的标志性节点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·桓公八年》《史记·楚世家》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+- work-curated-shiji
+relations:
+- target_event_id: event-wending-zhongyuan
+  relation_type: precedes
+- target_event_id: event-chuzhuang-wang-ba
+  relation_type: precedes

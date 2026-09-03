@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-yanling-zhizhan
+name_zh_cn: 鄢陵之战
+event_type: war
+start_year: -575
+end_year: -575
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前575年，晋厉公率军在鄢陵（今河南鄢陵一带）击败楚共王与郑国联军，晋国重夺中原霸权，楚军北进再次受阻。此役为晋楚争霸中的第三次大战。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·成公十六年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-bi-zhizhan
+  relation_type: follows
+- target_event_id: event-xiangxu-mibing
+  relation_type: precedes

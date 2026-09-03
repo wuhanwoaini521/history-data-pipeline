@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-qinmu-gong-ba-xirong
+name_zh_cn: 秦穆公称霸西戎
+event_type: political-military
+start_year: -659
+end_year: -621
+date_precision: range
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 秦穆公在位（前659—前621年）期间，任用百里奚、蹇叔等贤臣，向东争霸受阻于晋（崤之战后），遂转向经营西方，"益国十二，开地千里，遂霸西戎"，奠定秦国的西部根基。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·秦本纪》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-xiao-zhizhan
+  relation_type: follows
+- target_event_id: event-yue-mie-wu
+  relation_type: precedes

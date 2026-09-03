@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-huangchi-zhi-hui",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:36:01.956463Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n黄池之会前482年（鲁哀公十三年）为《春秋》系年，无争议。"
+}

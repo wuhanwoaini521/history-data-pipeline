@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-xiao-zhizhan
+name_zh_cn: 崤之战
+event_type: war
+start_year: -627
+end_year: -627
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前627年，秦军东袭郑国未果而返，晋襄公在崤山（今河南三门峡一带）伏击全歼秦军，秦穆公东进战略受挫，秦晋冲突加剧。此役强化了"秦晋阻隔"的格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·僖公三十三至三十二年》所记崤之战；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-chengpu-zhizhan
+  relation_type: follows
+- target_event_id: event-qinmu-gong-ba-xirong
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 东进受阻后秦穆公转向霸西戎

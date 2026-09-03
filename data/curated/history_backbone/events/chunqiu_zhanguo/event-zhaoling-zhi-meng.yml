@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-zhaoling-zhi-meng
+name_zh_cn: 召陵之盟
+event_type: treaty
+start_year: -656
+end_year: -656
+date_precision: year
+period_id: period-spring-autumn
+regime_ids: []
+importance: major
+summary_zh_cn: 前656年，齐桓公率齐、宋、陈、卫、郑、许、曹联军伐楚，与楚在召陵（今河南郾城一带）结盟，楚北上势头被阻。此役是齐桓公"尊王攘夷"霸业中与强楚正面对抗的重要事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《左传·僖公四年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-zuozhuan
+relations:
+- target_event_id: event-qihuan-gong-ba
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 召陵之盟为齐桓公霸权下对楚外交的成果
+- target_event_id: event-kuiqiu-zhi-hui
+  relation_type: precedes
