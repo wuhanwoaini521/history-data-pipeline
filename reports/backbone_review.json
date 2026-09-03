@@ -7,6 +7,10 @@
         "part_of_children": 7
       },
       {
+        "event_id": "event-song-tongyi-zhanzheng",
+        "part_of_children": 6
+      },
+      {
         "event_id": "event-han-xiongnu-war",
         "part_of_children": 5
       },
@@ -138,10 +142,10 @@
       }
     ],
     "event_type_distribution": {
-      "war": 116,
+      "war": 122,
       "political": 93,
       "dynastic-transition": 40,
-      "reform": 28,
+      "reform": 29,
       "political-military": 22,
       "rebellion": 20,
       "economic": 7,
@@ -149,9 +153,9 @@
       "treaty": 5,
       "migration": 5,
       "alliance": 4,
+      "foundation": 4,
       "cultural": 3,
-      "foundation": 3,
-      "unification": 2
+      "unification": 3
     }
   },
   "coverage_gaps": [
@@ -216,14 +220,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-northern-song",
-      "period_name": "北宋",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-western-xia",

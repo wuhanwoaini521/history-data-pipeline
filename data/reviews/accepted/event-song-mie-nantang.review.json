@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event_id": "event-song-mie-nantang",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:37:09.142493Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch5)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "single",
+  "regime_ids": [
+    "regime-northern-song",
+    "regime-southern-tang"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n王安石《桂枝香》等文学书写与史实分属不同层；本事件按《续资治通鉴长编》记载的开宝七年冬—八年十一月围城与降服过程记录。"
+}

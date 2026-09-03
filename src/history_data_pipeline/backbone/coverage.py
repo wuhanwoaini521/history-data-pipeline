@@ -50,7 +50,7 @@ def _event_in_batch(root: Path, event_id: str, batch: str) -> bool:
 
 
 def compute_importance_by_period(backbone: Backbone, root: Path | None = None,
-                                  current_batch: str = "batch4") -> list[dict[str, Any]]:
+                                  current_batch: str = "batch5") -> list[dict[str, Any]]:
     """按 Period（taxonomy 顺序）统计 Event 数：critical/major/normal/minor + New/Reused。
 
     New = 本批（Batch3）新增（review provenance）；Reused = 该 Period 内既有 Event。

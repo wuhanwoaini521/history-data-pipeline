@@ -1,0 +1,34 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wuyue-natu
+name_zh_cn: 吴越纳土归宋
+event_type: war
+start_year: 978
+end_year: 978
+date_precision: year
+period_id: period-northern-song
+regime_ids:
+- regime-northern-song
+- regime-wuyue
+importance: major
+summary_zh_cn: 太平兴国三年（978 年），吴越王钱俶入朝，主动献纳两浙十三州之地，吴越国结束，五代十国最后的江南割据政权以和平方式并入北宋。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·世家》；《续资治通鉴长编》太平兴国三年；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-songshi
+- work-curated-xuzizhitongjianchangbian
+relations:
+- target_event_id: event-song-tongyi-zhanzheng
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 统一战争第五阶段（和平纳土）。
+- target_event_id: event-song-mie-nantang
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 975 年灭南唐后吴越纳土。
+- target_event_id: event-song-mie-beihan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 纳土后北宋北攻北汉。

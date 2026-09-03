@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-song-shou-bingquan
+name_zh_cn: 宋初收兵权（罢宿将典禁兵）
+event_type: reform
+start_year: 961
+end_year: 963
+date_precision: range
+period_id: period-northern-song
+regime_ids: []
+importance: major
+summary_zh_cn: 建隆二年至乾德元年（961—963 年），宋太祖罢去石守信、王审琦等宿将的禁军统帅职务，以"三衙"（殿前司、侍卫马军司、侍卫步军司）分掌禁军、枢密院掌军政，形成强干弱枝、兵权集于中央的军事制度安排，北宋开国"杯酒释兵权"即指此一过程。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《续资治通鉴长编》建隆二年七月；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-xuzizhitongjianchangbian
+relations:
+- target_event_id: event-chenqiao-bingbian
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 建国后随即调整禁军统帅权。
+- target_event_id: event-song-tongyi-zhanzheng
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 收兵权先于大规模统一作战展开。

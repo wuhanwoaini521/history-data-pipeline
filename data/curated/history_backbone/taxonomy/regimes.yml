@@ -29,7 +29,8 @@ regimes:
   - {id: regime-liao, name_zh_cn: 辽, start_year: 916, end_year: 1125, date_precision: range, period_id: period-liao, description_zh_cn: 辽政权。}
   - {id: regime-western-xia, name_zh_cn: 西夏, start_year: 1038, end_year: 1227, date_precision: range, period_id: period-western-xia, description_zh_cn: 西夏政权。}
   - {id: regime-jin, name_zh_cn: 金, start_year: 1115, end_year: 1234, date_precision: range, period_id: period-jin, description_zh_cn: 金政权。}
-  - {id: regime-yuan, name_zh_cn: 元, start_year: 1271, end_year: 1368, date_precision: range, period_id: period-yuan, description_zh_cn: 元政权。}
+  - {id: regime-mongol-empire, name_zh_cn: 大蒙古国, start_year: 1206, end_year: 1271, date_precision: range, period_id: period-song-liao-jin, description_zh_cn: 蒙古帝国（成吉思汗1206年建），1271年改国号大元（regime-yuan）；两者是用different Regime 表达 1206—1271 与 1271以后，非串行王朝链。}
+  - {id: regime-yuan, name_zh_cn: 元, start_year: 1271, end_year: 1368, date_precision: range, period_id: period-yuan, parent_regime_id: regime-mongol-empire, description_zh_cn: 元政权（1271年忽必烈改国号大元），承接大蒙古国。}
   - {id: regime-ming, name_zh_cn: 明, start_year: 1368, end_year: 1644, date_precision: range, period_id: period-ming, description_zh_cn: 明政权。}
   - {id: regime-qing, name_zh_cn: 清, start_year: 1644, end_year: 1911, date_precision: range, period_id: period-qing, description_zh_cn: 清政权。}
   - {id: regime-republic, name_zh_cn: 中华民国, start_year: 1912, end_year: 1949, date_precision: range, period_id: period-republic, description_zh_cn: 中华民国政权/政府。}

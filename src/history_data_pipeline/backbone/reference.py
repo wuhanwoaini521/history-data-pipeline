@@ -210,5 +210,10 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         {"id": "work-curated-jiuwudaishi", "title": "旧五代史", "title_raw": "旧五代史", "title_zh_cn": "旧五代史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-xinwudaishi", "title": "新五代史", "title_raw": "新五代史", "title_zh_cn": "新五代史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-liaoshi", "title": "辽史", "title_raw": "辽史", "title_zh_cn": "辽史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- China History Backbone V1 · Batch 5：宋辽夏金/元 works seeds ----
+        {"id": "work-curated-songshi", "title": "宋史", "title_raw": "宋史", "title_zh_cn": "宋史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-jinshi", "title": "金史", "title_raw": "金史", "title_zh_cn": "金史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-xuzizhitongjianchangbian", "title": "续资治通鉴长编", "title_raw": "续资治通鉴长编", "title_zh_cn": "续资治通鉴长编", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-yuanshi", "title": "元史", "title_raw": "元史", "title_zh_cn": "元史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

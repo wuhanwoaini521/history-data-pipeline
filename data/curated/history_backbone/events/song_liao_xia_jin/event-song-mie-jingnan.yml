@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-song-mie-jingnan
+name_zh_cn: 北宋灭荆南（平荆湖）
+event_type: war
+start_year: 963
+end_year: 963
+date_precision: year
+period_id: period-northern-song
+regime_ids:
+- regime-northern-song
+- regime-jingnan
+importance: major
+summary_zh_cn: 乾德元年（963 年），北宋以讨伐张文表为名假道荆南，一举收降荆南高氏并与湖南周行逢势力合并处置，随即进取湖南，是为统一战争第一步（平荆湖）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·太祖纪》；《续资治通鉴长编》乾德元年；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-songshi
+- work-curated-xuzizhitongjianchangbian
+relations:
+- target_event_id: event-song-tongyi-zhanzheng
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 统一战争第一阶段。
+- target_event_id: event-song-mie-houshu
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 荆湖平定后西进攻蜀。

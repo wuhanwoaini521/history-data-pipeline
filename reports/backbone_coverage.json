@@ -36,7 +36,7 @@
   },
   "song_liao_xia_jin": {
     "label": "宋辽金夏",
-    "events": 1,
+    "events": 10,
     "stories": 0
   },
   "yuan": {
@@ -243,8 +243,8 @@
       "major": 22,
       "normal": 0,
       "minor": 0,
-      "new": 21,
-      "reused": 3,
+      "new": 0,
+      "reused": 24,
       "total": 24
     },
     {
@@ -254,8 +254,8 @@
       "major": 54,
       "normal": 0,
       "minor": 0,
-      "new": 51,
-      "reused": 9,
+      "new": 0,
+      "reused": 60,
       "total": 60
     },
     {
@@ -265,20 +265,20 @@
       "major": 13,
       "normal": 0,
       "minor": 0,
-      "new": 15,
-      "reused": 0,
+      "new": 0,
+      "reused": 15,
       "total": 15
     },
     {
       "period_id": "period-northern-song",
       "name_zh_cn": "北宋",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 8,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 9,
       "reused": 0,
-      "total": 0
+      "total": 9
     },
     {
       "period_id": "period-liao",
@@ -287,8 +287,8 @@
       "major": 1,
       "normal": 0,
       "minor": 0,
-      "new": 1,
-      "reused": 0,
+      "new": 0,
+      "reused": 1,
       "total": 1
     },
     {
