@@ -1,26 +1,5 @@
 {
-  "duplicate_candidates": [
-    {
-      "kind": "name_contain_or_similar",
-      "event_a": {
-        "id": "event-hou-qin-jianli",
-        "name_zh_cn": "后秦建立",
-        "start_year": 384,
-        "event_type": "dynastic-transition",
-        "importance": "major"
-      },
-      "event_b": {
-        "id": "event-hou-yan-jianli",
-        "name_zh_cn": "后燕建立",
-        "start_year": 384,
-        "event_type": "dynastic-transition",
-        "importance": "major"
-      },
-      "period_id": "period-sixteen-kingdoms",
-      "similarity": 0.75,
-      "note": "可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review，不自动合并。"
-    }
-  ],
+  "duplicate_candidates": [],
   "granularity": {
     "aggregates": [
       {

@@ -5,13 +5,7 @@
 
 ## 1. Duplicate Check（候选，不自动 Merge）
 
-共 1 组候选：
-
-| A | B | 类型 | 时间相邻 | 相似度 |
-|---|---|---|---|---:|
-| `后秦建立`event-hou-qin-jianli | `后燕建立`event-hou-yan-jianli | name_contain_or_similar | 0 年 | 0.75 |
-
-> 说明：可能为同一事件的不同表述或上下层事件（aggregate/子事件）；需人工 review。
+未发现疑似重复/上下层事件候选。
 
 ## 2. Granularity QA
 

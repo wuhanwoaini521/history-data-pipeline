@@ -92,6 +92,10 @@ def duplicate_check(backbone: Backbone) -> list[dict[str, Any]]:
             name_a, name_b = a["name_zh_cn"], b["name_zh_cn"]
             if _is_enumerated_series(name_a, name_b):
                 continue  # 第X次枚举系列（如 党锢一/党锢二），刻意分列不视为重复
+            regimes_a = set(a.get("regime_ids") or [])
+            regimes_b = set(b.get("regime_ids") or [])
+            if regimes_a and regimes_b and not (regimes_a & regimes_b):
+                continue  # 分属不同政权（并列 Regime，如 后燕建立/后秦建立）：并行事件而非重复
             contained = (name_a in name_b or name_b in name_a) and name_a != name_b
             ratio = _name_ratio(name_a, name_b)
             if same_period and (contained or (nearby and ratio >= 0.65)):
