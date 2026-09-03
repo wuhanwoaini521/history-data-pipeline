@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-shenlong-zhengbian
+name_zh_cn: 神龙政变、唐中宗复位
+event_type: political
+start_year: 705
+end_year: 705
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-wu-zhou
+importance: critical
+summary_zh_cn: 神龙元年（705年）正月张柬之、崔玄暐等发动政变，迫武则天退位，中宗李显复位，复国号唐。武周政权终结，武则天不久病逝。神龙政变是唐朝恢复的关键政治事件，武周时期由此落幕。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·则天皇后纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-wu-zhou-jianguo
+  relation_type: follows
+  description_zh_cn: 武周统治被政变终结

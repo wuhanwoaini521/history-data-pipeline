@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-shenlong-zhengbian",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:13:05.900843Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch4)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-wu-zhou"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 4（隋—唐—五代十国）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n神龙政变在705年正月（神龙元年）；政变与「中宗复位」合一节点（§48：政变+复位为行动与 outcome）。"
+}

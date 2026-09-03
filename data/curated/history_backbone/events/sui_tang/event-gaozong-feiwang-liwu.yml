@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-gaozong-feiwang-liwu
+name_zh_cn: 高宗废王立武、长孙无忌失势
+event_type: political
+start_year: 655
+end_year: 659
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 永徽六年（655年）高宗废皇后王氏、立武昭仪为后（「废王立武」），次年改元显庆；659年长孙无忌被逐贬自杀，关陇士族集团势力受挫。此事件标志着武则天进入权力核心，也改变了唐初的朝局结构。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·高宗纪》《长孙无忌传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-tang-gaozong-jiwei
+  relation_type: follows
+- target_event_id: event-tang-mie-xi-tujue
+  relation_type: precedes
+  description_zh_cn: 武后干政背景下的对外战争仍由高宗朝主导

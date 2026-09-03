@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-baijiangkou-zhizhan
+name_zh_cn: 白江口之战
+event_type: war
+start_year: 663
+end_year: 663
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 龙朔三年（663年）唐将刘仁轨在白江口（今韩国锦江入海口）大破援助百济的日本水军，焚船四百余艘。此役确立唐对朝鲜半岛南部的控制，日本从此数百年间不再设登陆朝鲜半岛之志。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·刘仁轨传》《日本书纪》等；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-tang-mie-gaogouli
+  relation_type: follows
+  description_zh_cn: 白江口之胜为灭高句丽之辅
+- target_event_id: event-dafeichuan-zhizhan
+  relation_type: precedes
