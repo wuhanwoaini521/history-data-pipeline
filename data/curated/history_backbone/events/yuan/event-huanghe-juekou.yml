@@ -1,0 +1,32 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-huanghe-juekou
+name_zh_cn: 黄河决口与连年水患
+event_type: disaster
+start_year: 1344
+end_year: 1348
+date_precision: range
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至正四年（1344 年）黄河在白茅堤、金堤等处决口，山东、河南一带水患连年，河道南徙、灾民流离，治河方略（堵口还是疏浚）成为朝野争议焦点，为元末全面社会危机的重要诱因。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·顺帝纪》河渠志；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-tuotuo-genghua
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 脱脱更化后期黄河问题凸显。
+- target_event_id: event-jialu-zhihe
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 水患催生贾鲁治河工程。
+- target_event_id: event-hongjin-jun-qiyi
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 治河征夫与灾民成为红巾起义的社会基础。

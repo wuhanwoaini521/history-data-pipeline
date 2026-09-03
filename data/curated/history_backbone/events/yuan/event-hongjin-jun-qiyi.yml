@@ -1,0 +1,33 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-hongjin-jun-qiyi
+name_zh_cn: 红巾军起义（刘福通等起兵反元）
+event_type: rebellion
+start_year: 1351
+end_year: 1351
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至正十一年（1351 年），白莲教首领韩山童、刘福通等以"明王出世、弥勒降生"为号召在颍州（今安徽阜阳）起兵，以红巾为号，史称红巾军；同年徐寿辉（蕲黄）、郭子兴（濠州）等相继起兵，元末农民战争全面爆发。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·顺帝纪》；《明史·太祖纪》追述；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+- work-curated-mingshi
+relations:
+- target_event_id: event-jialu-zhihe
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 治河与钞法危机背景下爆发。
+- target_event_id: event-guo-zixing-qibing
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 郭子兴等响应起兵。
+- target_event_id: event-han-liner-chengdi
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 刘福通拥立韩林儿（龙凤政权）。

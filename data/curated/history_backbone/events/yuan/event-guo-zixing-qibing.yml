@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-guo-zixing-qibing
+name_zh_cn: 郭子兴起兵濠州
+event_type: rebellion
+start_year: 1352
+end_year: 1352
+date_precision: year
+period_id: period-yuan
+regime_ids: []
+importance: major
+summary_zh_cn: 至正十二年（1352 年），郭子兴响应红巾在濠州（今安徽凤阳）起兵，占据濠州城，成为淮西反元武装之一，朱元璋即于是年投其麾下。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》；《国初事迹》相关记载；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-hongjin-jun-qiyi
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 红巾起义后濠州响应。
+- target_event_id: event-zhuyuanzhang-toujun
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 朱元璋投郭子兴部。

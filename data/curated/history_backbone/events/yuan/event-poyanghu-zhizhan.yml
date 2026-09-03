@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-poyanghu-zhizhan
+name_zh_cn: 鄱阳湖之战、陈友谅覆灭
+event_type: war
+start_year: 1363
+end_year: 1363
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-zhuzhang
+- regime-dahan
+importance: critical
+summary_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》《陈友谅传》；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-chenyouliang-dai-han
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 陈友谅倾国来攻，朱元璋决战。
+- target_event_id: event-zhuyuanzhang-mie-zhang
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭陈后转向攻张士诚。

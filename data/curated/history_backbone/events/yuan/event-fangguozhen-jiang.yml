@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-fangguozhen-jiang
+name_zh_cn: 方国珍降朱元璋
+event_type: political
+start_year: 1367
+end_year: 1367
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-zhuzhang
+importance: major
+summary_zh_cn: 至正二十七年（1367 年），割据浙东沿海二十年的方国珍（未称帝，以行省平章名义据守）在朱元璋大军进逼下请降，南方群雄只剩福建陈友定、云南梁王等零星势力。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·方国珍传》；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-mie-zhang
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 张士诚灭后兵锋东指浙东。

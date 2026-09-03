@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-chenyouliang-dai-han
+name_zh_cn: 陈友谅代汉称帝
+event_type: foundation
+start_year: 1360
+end_year: 1360
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-dahan
+importance: major
+summary_zh_cn: 至正二十年（1360 年），陈友谅杀徐寿辉，在江州称帝，国号大汉，控制长江中游（江西、湖广大部），拥众最盛，与朱元璋争夺长江流域主导权。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·陈友谅传》；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+relations:
+- target_event_id: event-zhuyuanzhang-qu-jqing
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 朱元璋据集庆后，双方争长江。
+- target_event_id: event-poyanghu-zhizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 三年后爆发鄱阳湖决战。

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-han-liner-chengdi
+name_zh_cn: 韩林儿称帝（小明王、龙凤政权）
+event_type: foundation
+start_year: 1355
+end_year: 1355
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-dasong
+importance: major
+summary_zh_cn: 至正十五年（1355 年），刘福通迎立韩山童之子韩林儿在亳州称帝，国号大宋，年号龙凤，史称小明王；各地红巾（包括朱元璋部）名义上奉其正朔，龙凤政权后期名存实亡（1366 年韩林儿卒）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·顺帝纪》；《明史·太祖纪》；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+- work-curated-mingshi
+relations:
+- target_event_id: event-hongjin-jun-qiyi
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 红巾军建立的政权性组织。
