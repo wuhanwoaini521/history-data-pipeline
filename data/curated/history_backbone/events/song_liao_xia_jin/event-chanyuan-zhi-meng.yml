@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-chanyuan-zhi-meng
+name_zh_cn: 澶州之战与澶渊之盟
+event_type: treaty
+start_year: 1004
+end_year: 1005
+date_precision: range
+period_id: period-northern-song
+regime_ids:
+- regime-northern-song
+- regime-liao
+importance: major
+summary_zh_cn: 景德元年（1004 年）辽圣宗大举南侵，宋真宗亲征至澶州（今河南濮阳），辽军主帅萧挞凛被宋军射杀，双方罢兵议和，次年（1005 年）正月订立澶渊之盟：宋辽约为兄弟之国，宋岁输银绢，边境开榷场互市，维持约百年和平。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·真宗纪》；《辽史·圣宗纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
+source_ids:
+- work-curated-liaoshi
+- work-curated-songshi
+relations:
+- target_event_id: event-yongxi-beifa
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 雍熙北伐失败后宋辽攻守转换，澶渊之盟终结了大规模战争。
+- target_event_id: event-chongxi-zengbi
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 1042 年辽索关南地，宋增岁币（重熙增币）。

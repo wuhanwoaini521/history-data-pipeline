@@ -142,18 +142,18 @@
       }
     ],
     "event_type_distribution": {
-      "war": 122,
-      "political": 93,
+      "war": 127,
+      "political": 94,
       "dynastic-transition": 40,
-      "reform": 29,
+      "reform": 30,
       "political-military": 22,
-      "rebellion": 20,
+      "rebellion": 21,
+      "treaty": 8,
       "economic": 7,
       "diplomatic": 7,
-      "treaty": 5,
       "migration": 5,
+      "foundation": 5,
       "alliance": 4,
-      "foundation": 4,
       "cultural": 3,
       "unification": 3
     }
@@ -220,14 +220,6 @@
       },
       "gap_years": 204,
       "detail": "相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-western-xia",
-      "period_name": "西夏",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-jin",

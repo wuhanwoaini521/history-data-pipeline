@@ -9,7 +9,7 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 122, "political": 93, "dynastic-transition": 40, "reform": 29, "political-military": 22, "rebellion": 20, "economic": 7, "diplomatic": 7, "treaty": 5, "migration": 5, "alliance": 4, "foundation": 4, "cultural": 3, "unification": 3}
+- 事件类型分布：{"war": 127, "political": 94, "dynastic-transition": 40, "reform": 30, "political-military": 22, "rebellion": 21, "treaty": 8, "economic": 7, "diplomatic": 7, "migration": 5, "foundation": 5, "alliance": 4, "cultural": 3, "unification": 3}
 
 - Aggregate（有子事件 part_of）数量：32
   - event-qin-mie-liuguo：7 个子事件
@@ -51,7 +51,7 @@
 ## 3. Timeline Gap Detection
 
 - 阈值：相邻 critical/major 事件间隔 > 150 年（且 > 该 Period 跨度的 25%）
-- 共 14 处：
+- 共 13 处：
 
 | Period | 类型 | 明细 |
 |---|---|---|
@@ -59,7 +59,6 @@
 | 夏 | 间隔过大 | 少康中兴（-1990）→ 商汤灭夏（-1600）：间隔 390 年。相邻 critical/major 事件间隔 390 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 商朝建立（-1600）→ 盘庚迁殷（-1300）：间隔 300 年。相邻 critical/major 事件间隔 300 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 武丁中兴（-1250）→ 武王伐纣（-1046）：间隔 204 年。相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
-| 西夏 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 金 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 南宋 | 空白 | 该 Period 尚无 critical/major Event。 |
 | 宋辽金时期 | 空白 | 该 Period 尚无 critical/major Event。 |

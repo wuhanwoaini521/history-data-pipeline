@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-gaolianghe-zhizhan
+name_zh_cn: 高梁河之战
+event_type: war
+start_year: 979
+end_year: 979
+date_precision: year
+period_id: period-northern-song
+regime_ids:
+- regime-northern-song
+- regime-liao
+importance: major
+summary_zh_cn: 太平兴国四年（979 年），宋太宗灭北汉后随即亲率大军攻辽南京（幽州），在高梁河（今北京西郊一带）被辽军与援军内外夹击大败，宋太宗受伤南逃，北宋第一次伐辽（收复燕云）尝试失败，此后宋辽进入长期对峙。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·太宗纪》；《辽史·景宗纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
+source_ids:
+- work-curated-liaoshi
+- work-curated-songshi
+relations:
+- target_event_id: event-song-mie-beihan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 灭北汉同年攻辽失败。
+- target_event_id: event-yongxi-beifa
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 高梁河之败后七年北宋再伐（雍熙北伐）。

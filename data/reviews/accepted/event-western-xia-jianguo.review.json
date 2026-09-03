@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-western-xia-jianguo",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:43:10.144970Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch5)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-western-xia"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n西夏建国时间以元昊称帝（1038）计；\"西夏\"为后世称谓，当时国号为大夏。"
+}

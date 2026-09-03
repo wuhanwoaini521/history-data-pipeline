@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-dingchuanzhai-zhizhan
+name_zh_cn: 定川寨之战
+event_type: war
+start_year: 1042
+end_year: 1042
+date_precision: year
+period_id: period-western-xia
+regime_ids:
+- regime-western-xia
+- regime-northern-song
+importance: major
+summary_zh_cn: 庆历二年（1042 年），西夏军再攻宋泾原路，宋将葛怀敏战死，宋军在定川寨遭遇第三次大败，此后宋夏双方皆疲，转向议和。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·仁宗纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
+source_ids:
+- work-curated-songshi
+relations:
+- target_event_id: event-haoshuichuan-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 第三次大会战。
+- target_event_id: event-qingli-heyi
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 三川口、好水川、定川寨三败后宋夏议和。

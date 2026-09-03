@@ -1,0 +1,20 @@
+# China History Backbone V1 · Batch 5（北宋·辽·西夏·金·南宋·蒙古/元边界）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qingli-xinzheng
+name_zh_cn: 庆历新政
+event_type: reform
+start_year: 1043
+end_year: 1044
+date_precision: range
+period_id: period-northern-song
+regime_ids: []
+importance: major
+summary_zh_cn: 庆历三年（1043 年）范仲淹出任参知政事，提出明黜陟、抑侥幸、精贡举等十事改革方案，史称庆历新政；因遭保守势力反对，一年多后即告失败，范仲淹等相继去职，为北宋中期政治改革（后之王安石变法）的先声。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·范仲淹传》；《续资治通鉴长编》庆历三年至四年；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《北宋政治改革家王安石》（生活·读书·新知三联书店）；漆侠《王安石变法》（河北人民出版社）；王曾瑜《岳飞新传》（上海古籍出版社）
+source_ids:
+- work-curated-songshi
+- work-curated-xuzizhitongjianchangbian
+relations: []
