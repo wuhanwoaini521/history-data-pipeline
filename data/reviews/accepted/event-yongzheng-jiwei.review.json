@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yongzheng-jiwei",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:32:05.288213Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch7)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-qing"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 7（清→晚清→辛亥革命）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n雍正继承存在\"遗诏合法\"与\"矫诏夺位\"两种说法（《大义觉迷录》相关公案），本事件记录即位事实，不采单一下断。"
+}

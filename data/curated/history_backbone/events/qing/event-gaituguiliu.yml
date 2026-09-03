@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-gaituguiliu
+name_zh_cn: 改土归流（雍正朝西南改流）
+event_type: reform
+start_year: 1726
+end_year: 1731
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 雍正四至九年（1726—1731 年），清廷在西南（云贵桂川等）大规模推行改土归流：废除世袭土司，改设流官，中央直接治理；为统一边疆的重要政治举措，过程中伴随武力镇抚。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-yongzheng-jiwei
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 雍正朝的边疆治理改革。

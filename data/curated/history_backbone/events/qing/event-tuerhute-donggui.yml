@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tuerhute-donggui
+name_zh_cn: 土尔扈特部东归
+event_type: migration
+start_year: 1771
+end_year: 1771
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 乾隆三十六年（1771 年），滞留伏尔加河下游近一个半世纪的土尔扈特部在渥巴锡率领下万里东归，返回伊犁，清廷予以安置；为清中期民族迁徙与边疆治理的重要事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·高宗实录》土尔扈特归附档；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-qianlong-ping-jun
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 新疆平定后土尔扈特东归归清。

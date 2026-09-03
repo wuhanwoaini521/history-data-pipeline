@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-bailianjiao-qiyi
+name_zh_cn: 川楚白莲教起义
+event_type: rebellion
+start_year: 1796
+end_year: 1804
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 嘉庆元年至九年（1796—1804 年），川、楚、陕三省白莲教教徒因赋役与流民问题聚合起义，清廷调集重兵历时九年方基本平定；起义耗费巨帑、暴露八旗与绿营颓势，成为清朝由盛转衰的重要转折（清中期分水岭）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清史稿》仁宗纪；《清实录·仁宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-macartney-shi-tuan
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 乾隆末年-嘉庆初年社会矛盾爆发。

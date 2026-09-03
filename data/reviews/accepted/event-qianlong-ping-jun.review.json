@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qianlong-ping-jun",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:32:05.312772Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch7)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "range",
+  "regime_ids": [
+    "regime-qing"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 7（清→晚清→辛亥革命）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n乾隆朝对准噶尔用兵的过程与后果（包括大规模动迁与人口损失）是清史研究重要课题，各当事人文献与后世研究记载不一；本事件记录军事进程与政区建置事实，对伤亡与\"绝灭\"类叙述不作未经考订的断言。"
+}

@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-junjichu
+name_zh_cn: 军机处设立
+event_type: reform
+start_year: 1729
+end_year: 1732
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 雍正七年（1729 年）因西北用兵设军机处（初为军需房），后演变为辅佐皇帝处理军国要务的常设机构；军机处制度使清朝皇权行使达到此前历代之最集中形态，并沿至清末。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清史稿·职官志》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+relations:
+- target_event_id: event-yongzheng-jiwei
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 雍正朝设立的中枢机构。

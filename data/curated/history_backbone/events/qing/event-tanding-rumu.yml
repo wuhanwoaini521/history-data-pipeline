@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tanding-rumu
+name_zh_cn: 摊丁入亩与耗羡归公（雍正财政改革）
+event_type: reform
+start_year: 1723
+end_year: 1729
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 雍正元年至七年（1723—1729 年），雍正帝推行"摊丁入亩"（将丁银并入田赋征收）与"耗羡归公"（火耗统一上缴并发放养廉银），简化赋役、整顿地方财政，为清代税收制度的重要变革。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-yongzheng-jiwei
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 雍正朝财政改革。
+- target_event_id: event-gaituguiliu
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 同期推行改土归流。

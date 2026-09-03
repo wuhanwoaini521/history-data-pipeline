@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-kangxi-zheng-galdan
+name_zh_cn: 康熙亲征噶尔丹（准噶尔战争）
+event_type: war
+start_year: 1690
+end_year: 1697
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 康熙二十九年至三十六年（1690—1697 年），康熙帝三次亲征漠西蒙古准噶尔部噶尔丹，先后在乌兰布通、昭莫多等地大败噶尔丹军，噶尔丹败亡；清朝遏制准噶尔东扩的战争取得阶段性胜利。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·圣祖实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-nibuchu-tiaoyue
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 东北边约定后转向西北准噶尔问题。
+- target_event_id: event-qianlong-ping-jun
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 准噶尔问题至乾隆朝最终解决。

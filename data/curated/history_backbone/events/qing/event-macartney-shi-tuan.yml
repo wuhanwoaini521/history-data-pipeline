@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-macartney-shi-tuan
+name_zh_cn: 马戛尔尼使团来华
+event_type: diplomatic
+start_year: 1793
+end_year: 1793
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 乾隆五十八年（1793 年），英国派遣马戛尔尼使团来华，在热河觐见乾隆帝，提出通商与使节驻京等要求，清廷以"天朝体制"为由拒绝，中英首次正式外交接触以无果告终，为鸦片战争前中西关系的标志性节点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·高宗实录》英吉利来使档；马戛尔尼使团纪录（《英使谒见乾隆纪实》）；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-siku-quanshu
+  relation_type: follows
+  confidence: 0.5
+  description_zh_cn: 乾隆盛世后期的中西接触。
+- target_event_id: event-bailianjiao-qiyi
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 三年后白莲教起义爆发。

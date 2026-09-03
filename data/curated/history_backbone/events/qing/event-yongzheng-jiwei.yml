@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yongzheng-jiwei
+name_zh_cn: 雍正帝即位
+event_type: succession
+start_year: 1722
+end_year: 1722
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 康熙六十一年（1722 年）康熙帝去世，皇四子胤禛即位，是为雍正帝；雍正朝整顿吏治、强化皇权，是清中期制度调整的关键阶段（"夺嫡"说为清代宫廷史学公案，两说并存）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-kangxi-zheng-galdan
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 康熙晚年权力交接。

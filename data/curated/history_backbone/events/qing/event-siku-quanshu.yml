@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-siku-quanshu
+name_zh_cn: 《四库全书》编纂
+event_type: cultural
+start_year: 1773
+end_year: 1782
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 乾隆三十八年至四十七年（1773—1782 年），乾隆帝组织编纂《四库全书》，辑录古今典籍三万四千余种，抄成七部藏于文渊、文澜等阁；编纂过程同时伴随大规模禁毁书目（四库禁毁书），为文献整理与文化管制并存事件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《四库全书总目》；《清实录·高宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-qianlong-ping-jun
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 乾隆中期文治工程。
