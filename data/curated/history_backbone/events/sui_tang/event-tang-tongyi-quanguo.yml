@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tang-tongyi-quanguo
+name_zh_cn: 唐统一全国
+event_type: war
+start_year: 618
+end_year: 628
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 武德至贞观初（约618—628年），唐朝先后平定薛举、刘武周、窦建德（及余部刘黑闼）、王世充、辅公祏等割据势力，628年灭梁师都，基本完成全国统一。唐在隋末群雄混战的废墟上重建大一统。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·高祖纪》《太宗纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-hulao-zhizhan
+  relation_type: follows
+- target_event_id: event-xuanwumen-zhibian
+  relation_type: precedes
+  description_zh_cn: 统一战争后期发生玄武门之变

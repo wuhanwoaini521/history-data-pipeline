@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tang-ping-gaochang-ansixi
+name_zh_cn: 唐灭高昌、设安西都护府
+event_type: war
+start_year: 640
+end_year: 640
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 贞观十四年（640年）唐军灭高昌国（今新疆吐鲁番一带），以其地设西州、置安西都护府，唐的行政统治正式进入西域。安西都护府的设置是唐朝经营西域、巩固丝绸之路的战略支点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·太宗纪》《西戎传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-tang-mie-dong-tujue
+  relation_type: follows
+- target_event_id: event-tang-ping-qiuzi-sizhen
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 设安西都护府后继续西进（龟兹等）

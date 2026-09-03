@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tang-jianguo
+name_zh_cn: 李渊称帝、唐朝建立
+event_type: dynastic-transition
+start_year: 618
+end_year: 618
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: critical
+summary_zh_cn: 武德元年（618年）五月，李渊在长安称帝，国号唐，隋恭帝禅让，隋朝正式灭亡。唐朝建立继隋之后开启中国历史上又一个强盛王朝，并迅速展开统一全国的战争。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·高祖纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-jiangdu-bingbian
+  relation_type: follows
+  description_zh_cn: 隋炀帝死后李渊称帝建唐
+- target_event_id: event-liyuan-ru-guan
+  relation_type: follows

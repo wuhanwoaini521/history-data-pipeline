@@ -110,17 +110,17 @@
       }
     ],
     "event_type_distribution": {
-      "war": 97,
-      "political": 70,
-      "dynastic-transition": 28,
+      "war": 104,
+      "political": 73,
+      "dynastic-transition": 29,
       "reform": 22,
       "political-military": 20,
       "rebellion": 17,
       "economic": 7,
       "diplomatic": 7,
       "migration": 5,
+      "alliance": 4,
       "treaty": 4,
-      "alliance": 3,
       "cultural": 3,
       "foundation": 3,
       "unification": 2

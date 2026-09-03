@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "event_id": "event-tang-mie-dong-tujue",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T09:11:15.945711Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch4)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-tang"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 4（隋—唐—五代十国）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n灭东突厥在630年（贞观四年）三月；李靖夜袭阴山获捷。\"天可汗\"为称号/概念，不立 Event（§14）。"
+}
