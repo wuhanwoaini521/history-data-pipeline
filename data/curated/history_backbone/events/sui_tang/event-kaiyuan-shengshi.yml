@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-kaiyuan-shengshi
+name_zh_cn: 开元盛世
+event_type: political
+start_year: 713
+end_year: 741
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 唐玄宗开元年间（713—741年）户口倍增、仓储充溢、海内晏然，文教武备皆极一时之盛，史称「开元盛世」（属后世概括）。开元盛世是唐朝以至于中国古代社会的繁盛高峰，其后期潜藏的政治军事弊端（府兵废弛、节度权重）渐次显现。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·玄宗纪》《资治通鉴·唐纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+relations:
+- target_event_id: event-kaiyuan-zhizheng
+  relation_type: follows
+- target_event_id: event-tianbao-li-linfu
+  relation_type: precedes
+  description_zh_cn: 开元末李林甫执政，天宝由盛转衰

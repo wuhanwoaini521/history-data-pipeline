@@ -26,7 +26,7 @@
   },
   "sui_tang": {
     "label": "隋唐",
-    "events": 55,
+    "events": 64,
     "stories": 1
   },
   "five_dynasties": {
@@ -251,12 +251,12 @@
       "period_id": "period-tang",
       "name_zh_cn": "唐",
       "critical": 5,
-      "major": 26,
+      "major": 35,
       "normal": 0,
       "minor": 0,
-      "new": 22,
+      "new": 31,
       "reused": 9,
-      "total": 31
+      "total": 40
     },
     {
       "period_id": "period-five-dynasties-ten-kingdoms",

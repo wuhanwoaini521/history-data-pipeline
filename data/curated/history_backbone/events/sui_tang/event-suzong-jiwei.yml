@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-suzong-jiwei
+name_zh_cn: 唐肃宗灵武即位
+event_type: political
+start_year: 756
+end_year: 756
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 至德元年（756年）玄宗出逃入蜀途中，太子李亨在灵武（今宁夏灵武）即位，是为唐肃宗，遥尊玄宗为太上皇。肃宗即位重整平叛中枢，成为安史之乱中唐朝组织反攻的起点（衔接安史 Story 事件链）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·肃宗纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-anlu-xuanzong-shu
+  relation_type: follows
+  description_zh_cn: 玄宗入蜀后太子灵武即位
+- target_event_id: event-anlu-changan-recapture
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 肃宗组织平叛，收复两京

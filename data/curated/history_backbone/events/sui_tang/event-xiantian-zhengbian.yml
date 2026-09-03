@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-xiantian-zhengbian
+name_zh_cn: 先天政变（玄宗掌权）
+event_type: political
+start_year: 713
+end_year: 713
+date_precision: year
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 开元元年（713年）玄宗诛太平公主党羽，太平公主赐死，武则天以来的宫廷政变周期结束，玄宗真正独揽朝政。先天政变为玄宗全面执政与开元盛世的真正开端。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·玄宗纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+relations:
+- target_event_id: event-xuanzong-jiwei
+  relation_type: follows
+  description_zh_cn: 执掌大权
+- target_event_id: event-kaiyuan-zhizheng
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 掌权后励精图治，开开元之治

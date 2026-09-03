@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 4（隋→唐→五代十国）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tang-mubing-zhuanxing
+name_zh_cn: 府兵制瓦解与募兵制转变
+event_type: reform
+start_year: 722
+end_year: 737
+date_precision: range
+period_id: period-tang
+regime_ids:
+- regime-tang
+importance: major
+summary_zh_cn: 府兵制至开元年间渐趋废弛，开元十年（722年）后募兵（「长征健儿」）渐成定制，国家军事力量由兵农合一之府兵转向职业募兵；同时缘边节度使集军、政、财权于一身。这一军事制度转变（§19 制度变化节点）为安史之乱与藩镇割据提供了制度条件。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《唐会要》及《新唐书·兵志》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》；陈寅恪《隋唐制度渊源略论稿》
+source_ids:
+- work-curated-xintangshu
+relations:
+- target_event_id: event-kaiyuan-zhizheng
+  relation_type: follows
+- target_event_id: event-anlu-three-frontiers
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 节度使权重扩张至安禄山兼领三镇
