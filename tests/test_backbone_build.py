@@ -35,15 +35,15 @@ def test_backbone_build():
             for table in ("events", "stories", "story_events", "event_relations",
                           "event_person", "event_place", "event_evidence", "periods", "regimes")
         }
-    assert counts["events"] == 418  # Batch5 完成（63 new）
+    assert counts["events"] == 429  # + Batch6 YUAN_EARLY(11)
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 745
+    assert counts["event_relations"] == 759
     assert counts["event_person"] == 58
     assert counts["event_place"] == 26
     assert counts["event_evidence"] == 26
     assert counts["periods"] == 31
-    assert counts["regimes"] == 54  # +Batch5 大蒙古国
+    assert counts["regimes"] == 59  # +Batch6 后金/元末群雄（4）
     assert manifest["counts"]["events"] == counts["events"]
     # 三个 Story 全部可按序查询
     with duckdb.connect(str(db), read_only=True) as connection:
@@ -121,7 +121,7 @@ def test_manifest():
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     assert manifest["version"] == (ROOT / "DATA_VERSION").read_text(encoding="utf-8").strip()
     assert manifest["built_at"]
-    assert manifest["counts"]["events"] == 418
+    assert manifest["counts"]["events"] == 429
     assert manifest["counts"]["stories"] == 3
     assert manifest["counts"]["historical_texts"] == 0  # 文本语料待知识库重建
     assert "by_period_group" in manifest
@@ -138,7 +138,7 @@ def test_exports():
         records = json.loads(path.read_text(encoding="utf-8"))
         assert isinstance(records, list)
         if group == "events":
-            assert len(records) == 418
+            assert len(records) == 429
     parquet_dir = ROOT / "dist" / "parquet"
     for group in ("events", "event_evidence", "people", "periods"):
         assert (parquet_dir / f"{group}.parquet").exists()

@@ -9,7 +9,7 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 148, "political": 100, "dynastic-transition": 41, "reform": 32, "political-military": 22, "rebellion": 22, "treaty": 11, "foundation": 9, "economic": 7, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 2}
+- 事件类型分布：{"war": 152, "political": 102, "dynastic-transition": 41, "reform": 34, "rebellion": 23, "political-military": 22, "treaty": 11, "economic": 9, "foundation": 9, "diplomatic": 7, "migration": 6, "alliance": 5, "cultural": 3, "unification": 3, "succession": 2}
 
 - Aggregate（有子事件 part_of）数量：33
   - event-qin-mie-liuguo：7 个子事件

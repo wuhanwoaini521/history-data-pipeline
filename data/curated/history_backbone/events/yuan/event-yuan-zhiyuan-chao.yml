@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuan-zhiyuan-chao
+name_zh_cn: 至元钞发行与币制调整
+event_type: economic
+start_year: 1287
+end_year: 1287
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至元二十四年（1287 年）发行至元通行宝钞，与中统钞以一兑五并行，钞法自此常有变更，纸币贬值与物价上涨问题成为元代财政长期话题。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·食货志》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yuan-zhongtong-chao
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 中统钞基础上的币制改革。

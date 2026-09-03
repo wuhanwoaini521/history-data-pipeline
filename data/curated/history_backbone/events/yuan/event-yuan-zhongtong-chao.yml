@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuan-zhongtong-chao
+name_zh_cn: 中统钞发行（元初纸币制度建立）
+event_type: economic
+start_year: 1260
+end_year: 1260
+date_precision: year
+period_id: period-song-liao-jin
+regime_ids:
+- regime-mongol-empire
+importance: major
+summary_zh_cn: 中统元年（1260 年）发行中统元宝交钞，以银为本位（各钞以银计价），通行全国并逐步禁止金银铜钱流通，大蒙古国—元朝的纸币制度由此建立。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·食货志》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yuan-zhiyuan-chao
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 中统钞之后的币制调整（至元钞）。

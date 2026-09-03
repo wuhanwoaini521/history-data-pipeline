@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuan-zheng-ri-yi
+name_zh_cn: 元朝第一次征日（文永之役）
+event_type: war
+start_year: 1274
+end_year: 1274
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至元十一年（1274 年），元军水陆渡海攻日本，在九州博多湾登陆作战，遭日军抵抗并因台风受损而撤军（日本方面称文永之役）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·世祖纪》；《高丽史》相关记载；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yuan-zheng-ri-er
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 第一次征日未成，忽必烈再谋东征。

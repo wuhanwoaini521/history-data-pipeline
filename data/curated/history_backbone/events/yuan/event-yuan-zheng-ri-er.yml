@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuan-zheng-ri-er
+name_zh_cn: 元朝第二次征日（弘安之役）
+event_type: war
+start_year: 1281
+end_year: 1281
+date_precision: year
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 至元十八年（1281 年），元军两路大军（东路军、江南军）约十万人再度渡海攻日，在九州、对马等岛登陆作战，遭台风袭击与日军抵抗，元军大部覆没，此后元朝不再征日。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yuan-zheng-ri-yi
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 第二次更大规模的征日行动。
+- target_event_id: event-yuan-zheng-zhuawa
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 征日失败后十余年元军远征爪哇。

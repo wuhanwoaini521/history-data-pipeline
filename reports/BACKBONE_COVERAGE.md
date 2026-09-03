@@ -6,8 +6,8 @@
 ## 总览
 
 - Period：31
-- Regime：54
-- Event：418
+- Regime：59
+- Event：429
 - Story：3
 
 ## 按时期组
@@ -21,8 +21,8 @@
 | 魏晋南北朝 | 58 | 0 |
 | 隋唐 | 84 | 1 |
 | 五代十国 | 15 | 0 |
-| 宋辽金夏 | 63 | 0 |
-| 元 | 1 | 0 |
+| 宋辽金夏 | 65 | 0 |
+| 元 | 10 | 0 |
 | 明 | 0 | 0 |
 | 清 | 0 | 0 |
 | 近现代 | 0 | 0 |
@@ -54,8 +54,8 @@
 | 西夏 | 6 | 0 | 6 | 1 | 5 |
 | 金 | 6 | 0 | 6 | 1 | 5 |
 | 南宋 | 16 | 0 | 16 | 2 | 14 |
-| 宋辽金时期 | 8 | 0 | 8 | 1 | 7 |
-| 元 | 1 | 0 | 1 | 1 | 0 |
+| 宋辽金时期 | 8 | 2 | 10 | 1 | 9 |
+| 元 | 1 | 9 | 10 | 1 | 9 |
 
 ## 缺口提示
 
@@ -66,4 +66,26 @@
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
+
+## 最新 Manifest
+
+```json
+{
+  "periods": 31,
+  "regimes": 59,
+  "events": 429,
+  "stories": 3,
+  "story_events": 26,
+  "event_relations": 759,
+  "event_people": 58,
+  "event_places": 26,
+  "event_evidence": 26,
+  "people": 18,
+  "places": 3,
+  "works": 32,
+  "historical_texts": 0,
+  "sources": 7,
+  "entity_source_mapping": 21
+}
+```
 

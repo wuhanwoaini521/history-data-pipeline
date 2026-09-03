@@ -1,0 +1,28 @@
+# China History Backbone V1 · Batch 6（元→元末→明）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yuan-xingsheng-zhidu
+name_zh_cn: 行省制度确立（分置行中书省）
+event_type: reform
+start_year: 1276
+end_year: 1280
+date_precision: range
+period_id: period-yuan
+regime_ids:
+- regime-yuan
+importance: major
+summary_zh_cn: 灭南宋前后，元廷在中书省之外于大地区分设行中书省（行省）统领地方军政，至元年间渐次确立岭北、辽阳、河南江北、陕西、四川、云南、湖广、江西、江浙、甘肃等行省；行省由朝廷派出机构演变为常设行政区，元代确立的地方行政制度为后世沿用。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·百官志》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；萧启庆《内北国而外中国》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-yuanshi
+relations:
+- target_event_id: event-yuan-zhongshusheng
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 行省为中书省的派出与地方化。
+- target_event_id: event-yuan-jianguo
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 国号大元后行省制度在灭宋进程中定型。

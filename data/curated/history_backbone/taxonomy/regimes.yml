@@ -32,7 +32,7 @@ regimes:
   - {id: regime-mongol-empire, name_zh_cn: 大蒙古国, start_year: 1206, end_year: 1271, date_precision: range, period_id: period-song-liao-jin, description_zh_cn: 蒙古帝国（成吉思汗1206年建），1271年改国号大元（regime-yuan）；两者是用different Regime 表达 1206—1271 与 1271以后，非串行王朝链。}
   - {id: regime-yuan, name_zh_cn: 元, start_year: 1271, end_year: 1368, date_precision: range, period_id: period-yuan, parent_regime_id: regime-mongol-empire, description_zh_cn: 元政权（1271年忽必烈改国号大元），承接大蒙古国。}
   - {id: regime-ming, name_zh_cn: 明, start_year: 1368, end_year: 1644, date_precision: range, period_id: period-ming, description_zh_cn: 明政权。}
-  - {id: regime-qing, name_zh_cn: 清, start_year: 1644, end_year: 1911, date_precision: range, period_id: period-qing, description_zh_cn: 清政权。}
+  - {id: regime-qing, name_zh_cn: 清, start_year: 1636, end_year: 1912, date_precision: range, period_id: period-qing, parent_regime_id: regime-houjin, description_zh_cn: 清政权（1636 皇太极改国号大清，1644 入关，1912 清帝退位）。}
   - {id: regime-republic, name_zh_cn: 中华民国, start_year: 1912, end_year: 1949, date_precision: range, period_id: period-republic, description_zh_cn: 中华民国政权/政府。}
   - {id: regime-han-zhao, name_zh_cn: 前赵（汉赵）, start_year: 304, end_year: 329, date_precision: range, period_id: period-sixteen-kingdoms, description_zh_cn: 十六国政权（刘渊汉—刘曜前赵）。}
   - {id: regime-later-zhao, name_zh_cn: 后赵, start_year: 319, end_year: 351, date_precision: range, period_id: period-sixteen-kingdoms, description_zh_cn: 十六国政权（石勒）。}
@@ -56,3 +56,8 @@ regimes:
   - {id: regime-southern-han, name_zh_cn: 南汉, start_year: 917, end_year: 971, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（刘䶮），都广州（兴王府）。}
   - {id: regime-jingnan, name_zh_cn: 荆南（南平）, start_year: 924, end_year: 963, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（高季兴），都江陵。}
   - {id: regime-northern-han, name_zh_cn: 北汉, start_year: 951, end_year: 979, date_precision: range, period_id: period-five-dynasties-ten-kingdoms, description_zh_cn: 十国政权（刘旻），都太原，依附契丹。}
+  - {id: regime-zhuzhang, name_zh_cn: 朱元璋势力（吴国公/吴王）, start_year: 1352, end_year: 1368, date_precision: range, period_id: period-yuan, description_zh_cn: 元末朱元璋集团（红巾系至吴王），1368 年改称明（regime-ming）。}
+  - {id: regime-dahan, name_zh_cn: 大汉（陈友谅）, start_year: 1360, end_year: 1364, date_precision: range, period_id: period-yuan, description_zh_cn: 元末陈友谅政权（1360 年称帝）。}
+  - {id: regime-dazhou, name_zh_cn: 大周（张士诚）, start_year: 1353, end_year: 1367, date_precision: range, period_id: period-yuan, description_zh_cn: 元末张士诚政权（高邮称诚王）。}
+  - {id: regime-dasong, name_zh_cn: 大宋（韩林儿/小明王）, start_year: 1355, end_year: 1366, date_precision: range, period_id: period-yuan, description_zh_cn: 元末刘福通拥立韩林儿的龙凤政权。}
+  - {id: regime-houjin, name_zh_cn: 后金, start_year: 1616, end_year: 1636, date_precision: range, period_id: period-ming, description_zh_cn: 努尔哈赤建立的政权（1616-1636），1636 年皇太极改国号大清（regime-qing）。}
