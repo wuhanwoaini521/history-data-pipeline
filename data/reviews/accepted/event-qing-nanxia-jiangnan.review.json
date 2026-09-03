@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qing-nanxia-jiangnan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:28:24.684199Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch7)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-qing",
+    "regime-nanming"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 7（清→晚清→辛亥革命）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n扬州围城中死亡人数各记载出入大（\"扬州十日\"之说源自《扬州十日记》，现代研究对其具体数字有保留）；本事件记录城破与政权覆亡的事实。"
+}

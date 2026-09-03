@@ -61,3 +61,6 @@ regimes:
   - {id: regime-dazhou, name_zh_cn: 大周（张士诚）, start_year: 1353, end_year: 1367, date_precision: range, period_id: period-yuan, description_zh_cn: 元末张士诚政权（高邮称诚王）。}
   - {id: regime-dasong, name_zh_cn: 大宋（韩林儿/小明王）, start_year: 1355, end_year: 1366, date_precision: range, period_id: period-yuan, description_zh_cn: 元末刘福通拥立韩林儿的龙凤政权。}
   - {id: regime-houjin, name_zh_cn: 后金, start_year: 1616, end_year: 1636, date_precision: range, period_id: period-ming, description_zh_cn: 努尔哈赤建立的政权（1616-1636），1636 年皇太极改国号大清（regime-qing）。}
+  - {id: regime-nanming, name_zh_cn: 南明（弘光/隆武/永历）, start_year: 1644, end_year: 1662, date_precision: range, period_id: period-qing, description_zh_cn: 明亡后南方宗室政权，1662 年永历帝被杀而结束。}
+  - {id: regime-taiping, name_zh_cn: 太平天国, start_year: 1851, end_year: 1864, date_precision: range, period_id: period-late-qing, description_zh_cn: 洪秀全建立的政权（1851-1864）。}
+  - {id: regime-agubo, name_zh_cn: 阿古柏政权, start_year: 1865, end_year: 1877, date_precision: range, period_id: period-late-qing, description_zh_cn: 阿古柏在南疆建立的政权（1865-1877）。}

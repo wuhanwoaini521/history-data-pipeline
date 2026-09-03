@@ -218,5 +218,8 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         # ---- China History Backbone V1 · Batch 6：明 works seeds ----
         {"id": "work-curated-mingshi", "title": "明史", "title_raw": "明史", "title_zh_cn": "明史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-mingshilu", "title": "明实录", "title_raw": "明实录", "title_zh_cn": "明实录（校勘本）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- China History Backbone V1 · Batch 7：清 works seeds ----
+        {"id": "work-curated-qingshigao", "title": "清史稿", "title_raw": "清史稿", "title_zh_cn": "清史稿", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-qingshilu", "title": "清实录", "title_raw": "清实录", "title_zh_cn": "清实录", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-nanming-longwu-yongli
+name_zh_cn: 南明隆武、永历政权（至南明灭亡）
+event_type: political
+start_year: 1645
+end_year: 1662
+date_precision: range
+period_id: period-qing
+regime_ids:
+- regime-nanming
+importance: major
+summary_zh_cn: 顺治二年至康熙元年（1645—1662 年），明宗室先后建立隆武（福州，1645—1646）、绍武、永历（肇庆/云贵，1646—1662）等政权，与清军周旋于东南与西南；康熙元年（1662 年）永历帝在昆明被吴三桂杀害，南明主要政权灭亡
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史》诸王传；《清实录·世祖实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-qing-nanxia-jiangnan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 弘光亡后南方继续抗清。
+- target_event_id: event-zhengchenggong-qu-taiwan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 郑成功等依托海疆继续抗清。

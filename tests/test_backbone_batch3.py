@@ -139,9 +139,9 @@ def test_sui_unification_boundary(backbone):
     assert by_id["event-yangjian-dai-beizhou"]["start_year"] == 581
     assert by_id["event-sui-mie-chen"]["start_year"] == 589
     assert by_id["event-sui-mie-chen"]["importance"] == "critical"
-    # Batch3 边界：不得进入 Batch7（清）内容（元明为 Batch6 范围）
-    for banned in ("清军入关", "三藩之乱", "鸦片战争", "太平天国"):
-        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch7 内容不应出现: {banned}"
+    # Batch3 边界：不得进入 Batch8（民国）内容（清为 Batch7 范围）
+    for banned in ("九一八事变", "七七事变", "南昌起义", "长征"):
+        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch8 内容不应出现: {banned}"
 
 
 def test_batch3_source_coverage(backbone):

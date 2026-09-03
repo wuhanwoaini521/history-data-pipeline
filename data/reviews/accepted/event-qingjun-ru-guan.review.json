@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qingjun-ru-guan",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T10:28:24.659814Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch7)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "critical",
+  "date_precision": "year",
+  "regime_ids": [
+    "regime-qing",
+    "regime-ming"
+  ],
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 7（清→晚清→辛亥革命）人工审核：确认事件必要性、时期归属、时间与重要性；来源链见 source_reference。multi-regime 事件在 regime_ids 并列记录参与政权。\n\"吴三桂引清兵入关\"情节按《清实录》与明清双方文献记录；对吴三桂个人动机（联清还是降清的名分问题）史家有分歧，本事件记录入关与定鼎的事实进程。"
+}

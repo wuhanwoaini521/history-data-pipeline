@@ -1,0 +1,29 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-huangtaiji-jiwei
+name_zh_cn: 皇太极即后金汗位
+event_type: succession
+start_year: 1626
+end_year: 1626
+date_precision: year
+period_id: period-ming
+regime_ids:
+- regime-houjin
+importance: major
+summary_zh_cn: 天命十一年（1626 年），努尔哈赤去世，皇太极继后金汗位，改元天聪；皇太极在位期间改革女真制度、强化集权，并推进对明战争。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·太宗实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-houjin-jianguo
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 继努尔哈赤之后执掌后金。
+- target_event_id: event-gaiguohao-qing
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 皇太极在位时改国号大清。

@@ -125,9 +125,9 @@ def test_yanya_endpoint(backbone):
     ev = by_id["event-yanya-haizhan"]
     assert ev["start_year"] == 1279 and ev["importance"] == "critical"
     assert {x["period_id"] for x in (ev,)} == {"period-southern-song"}
-    # Batch5 边界：不得进入 Batch7（清）内容（元明为 Batch6 范围）
-    for banned in ("清军入关", "三藩之乱", "鸦片战争"):
-        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch7 内容不应出现: {banned}"
+    # Batch5 边界：不得进入 Batch8（民国）内容（清为 Batch7 范围）
+    for banned in ("九一八事变", "七七事变", "南昌起义", "长征"):
+        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch8 内容不应出现: {banned}"
 
 
 def test_batch5_source_coverage(backbone):

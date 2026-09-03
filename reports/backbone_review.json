@@ -166,20 +166,20 @@
       }
     ],
     "event_type_distribution": {
-      "war": 172,
-      "political": 125,
+      "war": 177,
+      "political": 128,
+      "dynastic-transition": 43,
       "reform": 42,
-      "dynastic-transition": 42,
       "rebellion": 27,
       "political-military": 22,
-      "foundation": 15,
+      "foundation": 17,
       "economic": 12,
-      "treaty": 11,
+      "treaty": 12,
       "diplomatic": 7,
       "cultural": 6,
       "migration": 6,
       "alliance": 5,
-      "succession": 4,
+      "succession": 5,
       "unification": 3,
       "disaster": 1
     }
@@ -264,14 +264,6 @@
       },
       "gap_years": 182,
       "detail": "相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-qing",
-      "period_name": "清",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     },
     {
       "period_id": "period-late-qing",

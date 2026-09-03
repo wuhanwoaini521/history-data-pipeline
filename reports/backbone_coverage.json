@@ -46,12 +46,12 @@
   },
   "ming": {
     "label": "明",
-    "events": 51,
+    "events": 54,
     "stories": 0
   },
   "qing": {
     "label": "清",
-    "events": 0,
+    "events": 10,
     "stories": 0
   },
   "modern": {
@@ -350,23 +350,23 @@
       "period_id": "period-ming",
       "name_zh_cn": "明",
       "critical": 7,
-      "major": 44,
+      "major": 47,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 51,
-      "total": 51
+      "reused": 54,
+      "total": 54
     },
     {
       "period_id": "period-qing",
       "name_zh_cn": "清",
-      "critical": 0,
-      "major": 0,
+      "critical": 1,
+      "major": 9,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 0,
-      "total": 0
+      "reused": 10,
+      "total": 10
     },
     {
       "period_id": "period-late-qing",

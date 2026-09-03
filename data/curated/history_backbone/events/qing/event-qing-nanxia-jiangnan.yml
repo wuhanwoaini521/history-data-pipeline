@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qing-nanxia-jiangnan
+name_zh_cn: 清军南下、扬州之战与南京失守
+event_type: war
+start_year: 1645
+end_year: 1645
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+- regime-nanming
+importance: major
+summary_zh_cn: 顺治二年（1645 年），清军多铎部南下，四月围攻扬州，史可法督守城破殉难，清军入城（扬州屠城说见时人记载，学界对死亡人数有不同估计）；五月清军克南京，弘光帝被俘，弘光政权灭亡。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世祖实录》；《扬州十日记》等时人记载；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-nanming-hongguang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 清军南下灭弘光。
+- target_event_id: event-nanming-longwu-yongli
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 南方继续拥立隆武、永历。

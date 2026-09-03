@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-songjin-zhizhan
+name_zh_cn: 松锦之战（明清辽西决战）
+event_type: war
+start_year: 1640
+end_year: 1642
+date_precision: range
+period_id: period-ming
+regime_ids:
+- regime-qing
+- regime-ming
+importance: major
+summary_zh_cn: 崇德五年至七年（1640—1642 年），清军围困锦州、松山，与明军（洪承畴督师）大战，明军主力溃败，松山、锦州相继失守，洪承畴被俘降清；明在山海关外的防线仅存宁远孤城，清军入关的通道基本打开。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·太宗实录》；《明史·洪承畴传》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-gaiguohao-qing
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 改国号后的辽西决战。
+- target_event_id: event-qingjun-ru-guan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 松锦战后两年清军入关。

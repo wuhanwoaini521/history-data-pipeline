@@ -1,0 +1,30 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qing-tongyi-taiwan
+name_zh_cn: 清统一台湾（澎湖海战、郑氏投降）
+event_type: war
+start_year: 1683
+end_year: 1683
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+- regime-nanming
+importance: major
+summary_zh_cn: 康熙二十二年（1683 年），清军施琅率水师在澎湖海战大败郑军，郑克塽（郑成功之孙）降清，台湾纳入清朝版图，设台湾府隶属福建；清统一台湾完成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清史稿》施琅传；《清实录·圣祖实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-zhengchenggong-qu-taiwan
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 明郑政权终结，台湾入清。
+- target_event_id: event-yaquesha-zhizhan
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 同年对俄雅克萨战争。

@@ -1,0 +1,34 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-qingjun-ru-guan
+name_zh_cn: 清军入关、定鼎北京（山海关之战）
+event_type: dynastic-transition
+start_year: 1644
+end_year: 1644
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+- regime-ming
+importance: critical
+summary_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世祖实录》；《明史·庄烈帝纪》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-lizicheng-gong-beijing
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 李自成入京后吴三桂引清军入关。
+- target_event_id: event-songjin-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 松锦决战扫清入关障碍。
+- target_event_id: event-nanming-hongguang
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 明宗室在南京建立南明。

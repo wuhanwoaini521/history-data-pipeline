@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-tifa-yifu
+name_zh_cn: 清廷推行剃发易服令
+event_type: political
+start_year: 1645
+end_year: 1645
+date_precision: year
+period_id: period-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 顺治二年（1645 年），清廷下令全国军民剃发易服（发式与衣冠改从满俗），以摄政王多尔衮名义重申"剃发令"；在江南引发大规模反抗并影响此后政治认同，为清初高压政策的组成部分。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世祖实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-qingjun-ru-guan
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 入关后次年颁行剃发令。
