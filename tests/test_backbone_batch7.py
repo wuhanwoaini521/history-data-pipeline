@@ -125,8 +125,9 @@ def test_xinhai_boundary(backbone):
     by_id = {e["id"]: e for e in backbone.events}
     assert by_id["event-wuchang-qiyi"]["start_year"] == 1911 and by_id["event-wuchang-qiyi"]["importance"] == "critical"
     assert by_id["event-qingdi-tuiwei"]["start_year"] == 1912 and by_id["event-qingdi-tuiwei"]["importance"] == "critical"
-    for banned in ("五四运动", "九一八事变", "遵义会议"):
-        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch8 内容不应出现: {banned}"
+    # Batch7 边界：1950 以后（Modern China V2）内容不得出现
+    for banned in ("抗美援朝", "改革开放", "文化大革命"):
+        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"V2 内容不应出现: {banned}"
 
 
 def test_batch7_source_coverage(backbone):
