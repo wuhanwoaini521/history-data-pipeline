@@ -131,8 +131,8 @@ def test_1644_boundary(backbone):
     by_id = {e["id"]: e for e in backbone.events}
     ev = by_id["event-lizicheng-gong-beijing"]
     assert ev["start_year"] == 1644 and ev["importance"] == "critical"
-    for banned in ("九一八事变", "七七事变", "南昌起义", "长征"):
-        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"Batch8 内容不应出现: {banned}"
+    for banned in ("抗美援朝", "改革开放", "文化大革命"):
+        assert not any(banned in e["name_zh_cn"] for e in backbone.events), f"V2(1950+) 内容不应出现: {banned}"
 
 
 def test_batch6_source_coverage(backbone):

@@ -147,6 +147,10 @@
         "part_of_children": 1
       },
       {
+        "event_id": "event-changzheng",
+        "part_of_children": 1
+      },
+      {
         "event_id": "event-zhougong-shezheng",
         "part_of_children": 1
       },
@@ -190,13 +194,13 @@
       }
     ],
     "event_type_distribution": {
-      "war": 199,
-      "political": 145,
+      "war": 200,
+      "political": 146,
       "reform": 50,
       "dynastic-transition": 43,
-      "rebellion": 33,
+      "rebellion": 35,
+      "foundation": 23,
       "political-military": 22,
-      "foundation": 20,
       "treaty": 19,
       "economic": 15,
       "diplomatic": 11,
