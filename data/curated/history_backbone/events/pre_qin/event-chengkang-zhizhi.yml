@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-chengkang-zhizhi
+name_zh_cn: 成康之治
+event_type: political
+start_year: -1035
+end_year: -996
+date_precision: approximate
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 成王、康王时期，周公所定制度渐趋稳定，史称"成康之治"，为西周盛世。《史记》载"成康之际，天下安宁，刑错四十余年不用"。年代为断代工程框架值。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-zhougong-shezheng
+  relation_type: follows
+- target_event_id: event-zhaowang-nanzheng
+  relation_type: precedes

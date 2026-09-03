@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-gonghe-xingzheng
+name_zh_cn: 共和行政
+event_type: political
+start_year: -841
+end_year: -828
+date_precision: range
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 厉王流亡后，由周定公、召穆公二相共同执政（一说共伯和摄行天子事），史称"共和行政"。共和元年（前841年）是中国历史上有确切纪年的开始。共和凡十四年，至前828年止。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》（周召共和）与古本《竹书纪年》（共伯和）；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-zhushu-jinian
+relations:
+- target_event_id: event-guoren-baodong
+  relation_type: follows
+- target_event_id: event-xuanwang-zhongxing
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 共和结束，宣王即位，开启宣王中兴

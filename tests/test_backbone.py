@@ -36,7 +36,8 @@ def schemas():
 def test_backbone_loads(backbone):
     assert len(backbone.periods) >= 30
     assert len(backbone.regimes) >= 30
-    assert len(backbone.events) == 26
+    # China History Backbone V1 · Batch 1 · 阶段提交：Phase A（夏商西周）已入主干
+    assert len(backbone.events) == 47
     assert len(backbone.stories) == 3
     # 三个 Story 标题
     assert {story["title_zh_cn"] for story in backbone.stories} == {"楚汉争霸", "三国格局形成", "安史之乱"}
@@ -47,14 +48,20 @@ def test_validate_backbone_clean(backbone):
 
 
 def test_raw_immutable():
-    """Layer 1 规则：data/raw 永不可变、不入 Git。"""
+    """Layer 1 规则：data/raw 永不可变、不入 Git；构建产物不得出现在 raw。
+
+    本地可能已下载官方快照（cbdb/ctext/wikipedia/wikisource/classical-modern 等，gitignored）；
+    无论是否下载，raw 都不得出现任何 Pipeline 构建产物（构建产物归 dist/ 与 data/reports 等）。
+    """
     gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
     assert "data/raw/" in gitignore
-    # 构建产物不得出现在 raw；raw 目录只允许 .gitkeep 占位
     raw = ROOT / "data" / "raw"
     assert raw.exists()
-    entries = [path.name for path in raw.iterdir() if path.name != ".gitkeep"]
-    assert entries == []
+    entries = {path.name for path in raw.iterdir() if path.name != ".gitkeep"}
+    forbidden = {"dist", "normalized", "exports", "reports", "logs", "staging", "curated", "candidates"}
+    assert not (entries & forbidden), f"raw 中出现构建产物: {entries & forbidden}"
+    # 官方数据集快照以外的内容不应在 raw（构建产物禁止写入 raw）
+    assert not any(path.is_file() for path in raw.iterdir() if path.name != ".gitkeep"), "raw 根目录不应有散落文件"
 
 
 def test_legacy_curated_preserved():
@@ -151,13 +158,16 @@ def test_event_place_reference(backbone):
 
 
 def test_event_evidence_reference(backbone):
+    """Evidence 规则（V1 采用 Event First, Evidence Later，见 China History Backbone V1 §11/§13）：
+    事件允许暂不携带 evidence（不要求第一阶段就具备 HistoricalText ID）；
+    凡携带 evidence 的必须满足 work/term/role/link_status 规则。"""
     for event in backbone.events:
-        assert event.get("evidence"), f"{event['id']}: 缺少 evidence"
         for evidence in event.get("evidence", []):
             assert evidence.get("work") and evidence.get("term"), f"{event['id']}: evidence 缺 work/term"
             assert evidence.get("evidence_role") in EVIDENCE_ROLES, f"{event['id']}: role={evidence.get('evidence_role')}"
-            assert evidence.get("historical_text_id"), f"{event['id']}: evidence 缺 historical_text_id"
             assert evidence.get("link_status") in {"linked", "needs_linking", "pending_knowledge", "rejected"}
+            if evidence.get("link_status") == "linked":
+                assert evidence.get("historical_text_id"), f"{event['id']}: linked evidence 缺 historical_text_id"
 
 
 def test_event_relation_reference(backbone):

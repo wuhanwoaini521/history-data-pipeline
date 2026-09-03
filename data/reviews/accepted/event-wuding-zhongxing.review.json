@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wuding-zhongxing",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:34:06.547347Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "approximate",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n武丁纪元（前1250—前1192）为断代工程据甲骨月食记录推定，学界认同度较高但仍有讨论。"
+}

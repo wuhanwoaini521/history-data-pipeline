@@ -188,5 +188,12 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         {"id": "work-curated-zizhitongjian", "title": "资治通鉴", "title_raw": "资治通鉴", "title_zh_cn": "资治通鉴", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-jiutangshu", "title": "旧唐书", "title_raw": "旧唐书", "title_zh_cn": "旧唐书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-xintangshu", "title": "新唐书", "title_raw": "新唐书", "title_zh_cn": "新唐书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- China History Backbone V1 · Batch 1：先秦 works seeds ----
+        {"id": "work-curated-chunqiu", "title": "春秋", "title_raw": "春秋", "title_zh_cn": "春秋", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zuozhuan", "title": "左传", "title_raw": "左传", "title_zh_cn": "左传", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-guoyu", "title": "国语", "title_raw": "国语", "title_zh_cn": "国语", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-shangshu", "title": "尚书", "title_raw": "尚书", "title_zh_cn": "尚书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zhushu-jinian", "title": "竹书纪年", "title_raw": "竹书纪年", "title_zh_cn": "竹书纪年", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zhanguoce", "title": "战国策", "title_raw": "战国策", "title_zh_cn": "战国策", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

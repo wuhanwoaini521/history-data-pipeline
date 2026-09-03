@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-youwang-zhi-luan
+name_zh_cn: 幽王之乱
+event_type: political
+start_year: -781
+end_year: -771
+date_precision: approximate
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 周幽王废申后与太子宜臼，立褒姒及其子伯服，王朝内乱加速；"烽火戏诸侯"的传说亦见于后世记载（传说成分需辨析）。此乱导致申侯联合犬戎攻周，西周灭亡于前771年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》（含"烽火"传说记载）；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-xuanwang-zhongxing
+  relation_type: follows
+- target_event_id: event-quanrong-mie-xizhou
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 幽王之乱直接导致犬戎攻破镐京

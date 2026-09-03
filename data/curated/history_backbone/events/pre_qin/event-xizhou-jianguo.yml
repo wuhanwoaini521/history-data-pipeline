@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-xizhou-jianguo
+name_zh_cn: 西周建立
+event_type: dynastic-transition
+start_year: -1046
+end_year: -1046
+date_precision: approximate
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 武王克商灭商建周，定都镐京（今陕西西安一带），史称西周。周人以宗法分封构建统治体系，西周成为中国早期国家制度建设的关键阶段。起始年与武王伐纣同为前1046年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-wuwang-fazhou
+  relation_type: follows
+- target_event_id: event-sanjian-zhiluan
+  relation_type: precedes

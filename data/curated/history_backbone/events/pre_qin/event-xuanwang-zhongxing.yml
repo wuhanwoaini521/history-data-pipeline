@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-xuanwang-zhongxing
+name_zh_cn: 宣王中兴
+event_type: political-military
+start_year: -827
+end_year: -782
+date_precision: range
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 周宣王在位期间（前827—前782年），征伐猃狁、淮夷，诸侯复朝，西周一度复兴，史称"宣王中兴"。这是西周王权在衰败前的最后一次振作。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《诗经》相关篇章、《史记·周本纪》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+relations:
+- target_event_id: event-gonghe-xingzheng
+  relation_type: follows
+- target_event_id: event-youwang-zhi-luan
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 宣王晚年政衰，其后的幽王时期西周走向灭亡

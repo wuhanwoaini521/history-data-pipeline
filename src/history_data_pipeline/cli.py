@@ -69,7 +69,15 @@ def parser() -> argparse.ArgumentParser:
     backbone_build = backbone_actions.add_parser("build", help="构建 dist/history.duckdb + manifest + 导出")
     backbone_build.add_argument("--skip-exports", action="store_true", help="跳过 parquet/json 导出")
     backbone_actions.add_parser("coverage", help="生成 reports/BACKBONE_COVERAGE.md")
-    backbone_actions.add_parser("qa", help="输出 Backbone 链接 QA 摘要（person/place/evidence 解析状态）")
+    backbone_timeline = backbone_actions.add_parser("timeline", help="Critical/Major 主时间线查询")
+    backbone_timeline.add_argument("--importance", action="append", default=None,
+                                   choices=["critical", "major", "normal", "minor"],
+                                   help="按重要性过滤（可重复；默认 critical+major）")
+    backbone_timeline.add_argument("--period", type=str, default=None,
+                                   help="按 Period id（前缀/子串）或名称过滤，如 --period chunqiu")
+    backbone_timeline.add_argument("--json", action="store_true", dest="as_json", help="输出 JSON")
+    backbone_qa = backbone_actions.add_parser("qa", help="输出 Backbone 链接 QA 摘要（person/place/evidence 解析状态）")
+    backbone_qa.add_argument("--report", action="store_true", help="额外生成 reports/BACKBONE_REVIEW.md（duplicate/granularity/gap）")
     return root
 
 
@@ -206,7 +214,10 @@ def main(argv: list[str] | None = None) -> int:
             print(json.dumps(stats, ensure_ascii=False, indent=2, default=str))
             return 0
         if args.backbone_action == "build":
-            manifest = build_backbone(paths, knowledge_db=knowledge_db)
+            # 默认不并入 legacy data/normalized 知识库：Knowledge Store（Layer 2）等待 V2 重建
+            # （docs/HISTORY_BACKBONE.md：Evidence 与文本语料等待知识库重建）。
+            # 仅显式 --knowledge 指定正式知识库时才并入真实实体。
+            manifest = build_backbone(paths, knowledge_db=args.knowledge)
             write_backbone_coverage(paths.root, manifest=manifest)
             print(json.dumps(manifest, ensure_ascii=False, indent=2, default=str))
             print(f"dist: {paths.dist_database}")
@@ -225,6 +236,29 @@ def main(argv: list[str] | None = None) -> int:
                                              "evidences": result.evidences, "broken": result.broken,
                                              "pending": result.pending}},
                              ensure_ascii=False, indent=2))
+            if getattr(args, "report", False):
+                from .backbone.qa_report import write_backbone_review
+                report = write_backbone_review(paths.root, backbone)
+                print(f"BACKBONE_REVIEW: {report}", file=sys.stderr)
+            return 0
+        if args.backbone_action == "timeline":
+            from .backbone.timeline import filter_timeline, timeline_record
+
+            backbone = load_backbone(paths.root)
+            importance = set(args.importance) if args.importance else None
+            events = filter_timeline(backbone, importance=importance, period_filter=args.period)
+            records = [timeline_record(ev) for ev in events]
+            if args.as_json:
+                print(json.dumps(records, ensure_ascii=False, indent=2, default=str))
+            else:
+                period_names = {p["id"]: p["name_zh_cn"] for p in backbone.periods}
+                print(f"Timeline: {len(records)} events")
+                for record in records:
+                    year = record["start_year"] if record["start_year"] is not None else "?"
+                    end = record["end_year"] if record["end_year"] is not None else year
+                    period = period_names.get(record["period_id"], record["period_id"])
+                    print(f"{year if year == '?' else (str(year) + ('~' + str(end) if end != year else '')):>14}  "
+                          f"[{period}] [{record['importance']}] {record['name_zh_cn']}  ({record['id']})")
             return 0
     if not paths.database.exists() and args.command in ("query", "validate", "stats", "export"):
         if not paths.dist_database.exists():

@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-pangeng-qianyin
+name_zh_cn: 盘庚迁殷
+event_type: migration
+start_year: -1300
+end_year: -1300
+date_precision: approximate
+period_id: period-shang
+regime_ids: []
+importance: major
+summary_zh_cn: 商王盘庚将都城迁至殷（今河南安阳殷墟），此后商朝都城长期稳定在殷，故商后期又称"殷商"。断代工程据《竹书纪年》"盘庚迁殷至纣之灭273年"推定为约前1300年。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·殷本纪》《尚书·盘庚》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+relations:
+- target_event_id: event-shang-jianguo
+  relation_type: follows
+- target_event_id: event-wuding-zhongxing
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 迁殷后商政权稳定，为武丁中兴提供基础

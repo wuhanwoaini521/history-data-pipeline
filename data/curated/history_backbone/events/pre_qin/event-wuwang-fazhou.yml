@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-wuwang-fazhou
+name_zh_cn: 武王伐纣
+event_type: war
+start_year: -1046
+end_year: -1046
+date_precision: approximate
+period_id: period-shang
+regime_ids: []
+importance: critical
+summary_zh_cn: 周武王姬发率诸侯联军伐商，与商军战于牧野（今河南淇县南），商纣王自焚，商朝灭亡，史称"武王伐纣"或"牧野之战"。这是商周分界的标志性节点。断代工程经多方推定为前1046年，另有前1027年（《竹书纪年》系统）等四十余种异说。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》《尚书·牧誓》、青铜利簋铭文；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+relations:
+- target_event_id: event-xizhou-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 克商后周人建立西周政权

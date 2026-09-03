@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-xia-jianguo
+name_zh_cn: 夏朝建立（家天下）
+event_type: dynastic-transition
+start_year: -2070
+end_year: -2070
+date_precision: approximate
+period_id: period-xia
+regime_ids: []
+importance: major
+summary_zh_cn: 传统纪年称禹传位于启，王位世袭的"家天下"秩序由此确立，中国历史上第一个王朝夏朝开始形成。年代依据《夏商周断代工程》框架与传统文献（《史记·夏本纪》《竹书纪年》），属于推算纪年，不视为精确断代。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·夏本纪》、古本《竹书纪年》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-zhushu-jinian
+relations:
+- target_event_id: event-shangtang-miexia
+  relation_type: precedes
+  description_zh_cn: 自夏朝建立至商汤灭夏的时段主干

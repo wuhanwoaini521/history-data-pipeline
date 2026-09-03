@@ -173,15 +173,15 @@ def _insert_taxonomy(connection, backbone: Backbone) -> None:
 def _insert_knowledge(connection, result: ResolutionResult, real_knowledge_db: Path | None) -> None:
     people, places, works = knowledge_seed_rows(result)
     if real_knowledge_db and real_knowledge_db.exists():
-        # 正式知识库存在时，先并入真实知识库实体（seed 只补缺失）。
-        import duckdb
-        with duckdb.connect(str(real_knowledge_db), read_only=True) as source:
-            connection.execute(f"INSERT OR REPLACE INTO people SELECT * FROM source.people")
-            connection.execute(f"INSERT OR REPLACE INTO places SELECT * FROM source.places")
-            connection.execute(f"INSERT OR REPLACE INTO works SELECT * FROM source.works")
-            connection.execute(f"INSERT OR REPLACE INTO historical_texts SELECT * FROM source.historical_texts")
-            connection.execute(f"INSERT OR REPLACE INTO person_aliases SELECT * FROM source.person_aliases")
-            connection.execute(f"INSERT OR REPLACE INTO entity_source_mapping SELECT * FROM source.entity_source_mapping")
+        # 正式知识库（Layer 2）存在时，先并入真实知识库实体（seed 只补缺失）。
+        # 仅当通过 --knowledge 显式指定（默认构建为 seed-only，见 docs/HISTORY_BACKBONE.md：
+        # Evidence 与文本语料等待知识库重建）。
+        for table in ("people", "places", "works", "historical_texts", "person_aliases", "entity_source_mapping"):
+            connection.execute(f"ATTACH '{_sql_path(real_knowledge_db)}' AS knowledge (READ_ONLY)")
+            try:
+                connection.execute(f"INSERT OR REPLACE INTO {table} SELECT * FROM knowledge.{table}")
+            finally:
+                connection.execute("DETACH knowledge")
     for row in people:
         connection.execute("""
             INSERT OR REPLACE INTO people
@@ -517,5 +517,9 @@ def build_backbone(paths, knowledge_db: Path | None = None) -> dict[str, Any]:
     database = _build_duckdb(paths, backbone, result, knowledge_db)
     export_parquet(database, paths.dist_parquet)
     export_json(database, paths.dist_json)
+    # China History Backbone V1：Major Timeline（critical+major，按 start_year 排序）
+    from .timeline import write_major_timeline_json
+
+    write_major_timeline_json(paths.dist_json, backbone, version)
     manifest = write_manifest(paths, backbone, result, database, version, built_at, commit)
     return manifest

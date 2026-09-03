@@ -1,0 +1,24 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-shangtang-miexia
+name_zh_cn: 商汤灭夏
+event_type: dynastic-transition
+start_year: -1600
+end_year: -1600
+date_precision: approximate
+period_id: period-xia
+regime_ids: []
+importance: critical
+summary_zh_cn: 夏朝末年商汤起兵伐夏，在鸣条（今河南一带，具体地望有争议）击败夏桀，夏朝灭亡，史称"商汤革命"。这是中国历史上有明确文献记载的第一次王朝更替，标志夏商年代分界。年代采用《夏商周断代工程》约前1600年框架，另有学者主张前1556年前后，存在分歧。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·殷本纪》《尚书·汤誓》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+relations:
+- target_event_id: event-shang-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭夏后商政权建立

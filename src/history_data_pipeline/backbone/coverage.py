@@ -36,16 +36,41 @@ def compute_coverage(backbone: Backbone) -> dict[str, dict[str, int]]:
     return coverage
 
 
+def compute_importance_by_period(backbone: Backbone) -> list[dict[str, Any]]:
+    """按 Period（taxonomy 顺序）统计 critical/major/normal/minor Event 数。"""
+    rows: list[dict[str, Any]] = []
+    order = [p["id"] for p in backbone.periods]
+    by_period: dict[str, dict[str, int]] = {}
+    for event in backbone.events:
+        period_id = event.get("period_id") or "?"
+        bucket = by_period.setdefault(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0})
+        bucket[event.get("importance", "normal")] = bucket.get(event.get("importance", "normal"), 0) + 1
+    for period_id in order:
+        bucket = by_period.get(period_id, {"critical": 0, "major": 0, "normal": 0, "minor": 0})
+        rows.append({
+            "period_id": period_id,
+            "name_zh_cn": next((p["name_zh_cn"] for p in backbone.periods if p["id"] == period_id), period_id),
+            **bucket,
+            "total": bucket["critical"] + bucket["major"] + bucket["normal"] + bucket["minor"],
+        })
+    return rows
+
+
 def write_backbone_coverage(root: Path, backbone: Backbone | None = None,
                             manifest: dict[str, Any] | None = None) -> Path:
     if backbone is None:
         from .loader import load_backbone
         backbone = load_backbone(root)
     coverage = compute_coverage(backbone)
+    importance_rows = compute_importance_by_period(backbone)
     reports_dir = root / "reports"
     reports_dir.mkdir(parents=True, exist_ok=True)
+    json_payload = {
+        **coverage,
+        "by_period": importance_rows,
+    }
     (reports_dir / "backbone_coverage.json").write_text(
-        json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        json.dumps(json_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     order = ("pre_qin", "chunqiu_zhanguo", "qin_han", "three_kingdoms", "jin_southern_northern",
              "sui_tang", "five_dynasties", "song_liao_xia_jin", "yuan", "ming", "qing", "modern")
@@ -72,6 +97,19 @@ def write_backbone_coverage(root: Path, backbone: Backbone | None = None,
     for group in order:
         label = GROUP_LABELS.get(group, group)
         lines.append(f"| {label} | {coverage[group]['events']} | {coverage[group]['stories']} |")
+    lines += [
+        "",
+        "## 按 Period 的重要性分布",
+        "",
+        "| Period | Critical | Major | Normal | Minor | Total |",
+        "| ------ | -------: | ----: | -----: | ----: | ----: |",
+    ]
+    for row in importance_rows:
+        if row["total"] == 0:
+            continue
+        lines.append(
+            f"| {row['name_zh_cn']} | {row['critical']} | {row['major']} | {row['normal']} | {row['minor']} | {row['total']} |"
+        )
     lines += [
         "",
         "## 缺口提示",

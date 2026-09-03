@@ -1,7 +1,7 @@
 {
   "pre_qin": {
     "label": "夏商周",
-    "events": 0,
+    "events": 21,
     "stories": 0
   },
   "chunqiu_zhanguo": {
@@ -58,5 +58,286 @@
     "label": "近现代",
     "events": 0,
     "stories": 0
-  }
+  },
+  "by_period": [
+    {
+      "period_id": "period-antiquity",
+      "name_zh_cn": "上古",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-xia",
+      "name_zh_cn": "夏",
+      "critical": 1,
+      "major": 3,
+      "normal": 0,
+      "minor": 0,
+      "total": 4
+    },
+    {
+      "period_id": "period-shang",
+      "name_zh_cn": "商",
+      "critical": 1,
+      "major": 3,
+      "normal": 0,
+      "minor": 0,
+      "total": 4
+    },
+    {
+      "period_id": "period-western-zhou",
+      "name_zh_cn": "西周",
+      "critical": 0,
+      "major": 13,
+      "normal": 0,
+      "minor": 0,
+      "total": 13
+    },
+    {
+      "period_id": "period-spring-autumn",
+      "name_zh_cn": "春秋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-warring-states",
+      "name_zh_cn": "战国",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-qin",
+      "name_zh_cn": "秦",
+      "critical": 0,
+      "major": 2,
+      "normal": 0,
+      "minor": 0,
+      "total": 2
+    },
+    {
+      "period_id": "period-western-han",
+      "name_zh_cn": "西汉",
+      "critical": 0,
+      "major": 6,
+      "normal": 1,
+      "minor": 0,
+      "total": 7
+    },
+    {
+      "period_id": "period-xin",
+      "name_zh_cn": "新",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-eastern-han",
+      "name_zh_cn": "东汉",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-late-eastern-han",
+      "name_zh_cn": "东汉末",
+      "critical": 0,
+      "major": 7,
+      "normal": 0,
+      "minor": 0,
+      "total": 7
+    },
+    {
+      "period_id": "period-three-kingdoms",
+      "name_zh_cn": "三国",
+      "critical": 0,
+      "major": 1,
+      "normal": 0,
+      "minor": 0,
+      "total": 1
+    },
+    {
+      "period_id": "period-western-jin",
+      "name_zh_cn": "西晋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-eastern-jin",
+      "name_zh_cn": "东晋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-sixteen-kingdoms",
+      "name_zh_cn": "十六国",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-northern-southern",
+      "name_zh_cn": "南北朝",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-sui",
+      "name_zh_cn": "隋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-tang",
+      "name_zh_cn": "唐",
+      "critical": 0,
+      "major": 9,
+      "normal": 0,
+      "minor": 0,
+      "total": 9
+    },
+    {
+      "period_id": "period-five-dynasties-ten-kingdoms",
+      "name_zh_cn": "五代十国",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-northern-song",
+      "name_zh_cn": "北宋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-liao",
+      "name_zh_cn": "辽",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-western-xia",
+      "name_zh_cn": "西夏",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-jin",
+      "name_zh_cn": "金",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-southern-song",
+      "name_zh_cn": "南宋",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-song-liao-jin",
+      "name_zh_cn": "宋辽金时期",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-yuan",
+      "name_zh_cn": "元",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-ming",
+      "name_zh_cn": "明",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-qing",
+      "name_zh_cn": "清",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-late-qing",
+      "name_zh_cn": "晚清",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-republic",
+      "name_zh_cn": "中华民国",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    },
+    {
+      "period_id": "period-modern",
+      "name_zh_cn": "近现代",
+      "critical": 0,
+      "major": 0,
+      "normal": 0,
+      "minor": 0,
+      "total": 0
+    }
+  ]
 }

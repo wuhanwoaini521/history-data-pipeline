@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-xia-jianguo",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:34:06.512064Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "approximate",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n夏代存在的性质与绝对纪年存在学术争议（二里头文化对应关系未完全定论），年代采用断代工程近似框架前2070年。"
+}

@@ -1,0 +1,21 @@
+# China History Backbone V1 · Batch 1（先秦）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链（Event First, Evidence Later）。
+# 修改后请运行：history-data backbone validate
+id: event-quanrong-mie-xizhou
+name_zh_cn: 犬戎灭西周
+event_type: war
+start_year: -771
+end_year: -771
+date_precision: year
+period_id: period-western-zhou
+regime_ids: []
+importance: major
+summary_zh_cn: 前771年，申侯联合缯国、犬戎攻破镐京，周幽王被杀于骊山之下，宗周被毁，西周灭亡。这是中国早期王朝第一次"亡国"事件，标志两周之际政治格局的剧变。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+relations:
+- target_event_id: event-youwang-zhi-luan
+  relation_type: follows

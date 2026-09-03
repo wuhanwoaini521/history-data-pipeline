@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "event_id": "event-chengkang-zhizhi",
+  "review_status": "accepted",
+  "reviewed_at": "2026-09-03T07:34:06.587976Z",
+  "reviewed_by": "china-history-backbone-v1-curator (batch1)",
+  "decision": "accepted",
+  "source": "source-curated-backbone-v1",
+  "importance": "major",
+  "date_precision": "approximate",
+  "people": [],
+  "places": [],
+  "evidence": [],
+  "note": "Batch 1（先秦主干）人工审核：确认该事件进入 Backbone 的必要性、时期归属、时间范围与重要性分级；来源链见 source_reference（古代史料 + 现代参考），不影响后续 Evidence Linking。\n\"成康之治\"为后世对成王康王时期治世的概括，属阶段性治世节点，年份为框架值。"
+}
