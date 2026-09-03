@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：64
-- Event：594
+- Event：599
 - Story：3
 
 ## 按时期组
@@ -25,7 +25,7 @@
 | 元 | 30 | 0 |
 | 明 | 54 | 0 |
 | 清 | 61 | 0 |
-| 近现代 | 30 | 0 |
+| 近现代 | 35 | 0 |
 
 ## 按 Period 的重要性分布
 
@@ -59,7 +59,7 @@
 | 明 | 0 | 54 | 54 | 7 | 47 |
 | 清 | 0 | 21 | 21 | 2 | 19 |
 | 晚清 | 0 | 40 | 40 | 3 | 37 |
-| 中华民国 | 0 | 30 | 30 | 2 | 28 |
+| 中华民国 | 0 | 35 | 35 | 4 | 31 |
 
 ## 缺口提示
 
@@ -76,10 +76,10 @@
 {
   "periods": 31,
   "regimes": 64,
-  "events": 594,
+  "events": 599,
   "stories": 3,
   "story_events": 26,
-  "event_relations": 1023,
+  "event_relations": 1031,
   "event_people": 58,
   "event_places": 26,
   "event_evidence": 26,

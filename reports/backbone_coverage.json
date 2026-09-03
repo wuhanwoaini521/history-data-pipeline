@@ -56,7 +56,7 @@
   },
   "modern": {
     "label": "近现代",
-    "events": 30,
+    "events": 35,
     "stories": 0
   },
   "by_period": [
@@ -382,13 +382,13 @@
     {
       "period_id": "period-republic",
       "name_zh_cn": "中华民国",
-      "critical": 2,
-      "major": 28,
+      "critical": 4,
+      "major": 31,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 30,
-      "total": 30
+      "reused": 35,
+      "total": 35
     },
     {
       "period_id": "period-modern",
