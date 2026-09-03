@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：64
-- Event：599
+- Event：618
 - Story：3
 
 ## 按时期组
@@ -25,7 +25,7 @@
 | 元 | 30 | 0 |
 | 明 | 54 | 0 |
 | 清 | 61 | 0 |
-| 近现代 | 35 | 0 |
+| 近现代 | 54 | 0 |
 
 ## 按 Period 的重要性分布
 
@@ -59,7 +59,8 @@
 | 明 | 0 | 54 | 54 | 7 | 47 |
 | 清 | 0 | 21 | 21 | 2 | 19 |
 | 晚清 | 0 | 40 | 40 | 3 | 37 |
-| 中华民国 | 0 | 35 | 35 | 4 | 31 |
+| 中华民国 | 0 | 53 | 53 | 7 | 46 |
+| 近现代 | 0 | 1 | 1 | 1 | 0 |
 
 ## 缺口提示
 
@@ -69,26 +70,4 @@
 
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
-
-## 最新 Manifest
-
-```json
-{
-  "periods": 31,
-  "regimes": 64,
-  "events": 599,
-  "stories": 3,
-  "story_events": 26,
-  "event_relations": 1031,
-  "event_people": 58,
-  "event_places": 26,
-  "event_evidence": 26,
-  "people": 18,
-  "places": 3,
-  "works": 36,
-  "historical_texts": 0,
-  "sources": 7,
-  "entity_source_mapping": 21
-}
-```
 

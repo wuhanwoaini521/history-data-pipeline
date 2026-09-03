@@ -1,0 +1,80 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 4 中共早期节点
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-zggcd-chengli
+  name_zh_cn: 中国共产党成立（中共一大）
+  start_year: 1921
+  end_year: 1921
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zggcd-chengli.review.json
+- id: event-nanchang-qiyi
+  name_zh_cn: 南昌起义
+  start_year: 1927
+  end_year: 1927
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanchang-qiyi.review.json
+- id: event-qiushou-qiyi
+  name_zh_cn: 秋收起义
+  start_year: 1927
+  end_year: 1927
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-qiushou-qiyi.review.json
+- id: event-jinggangshan-jidi
+  name_zh_cn: 井冈山根据地形成
+  start_year: 1927
+  end_year: 1928
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-jinggangshan-jidi.review.json
+- id: event-zhonghua-suweiai
+  name_zh_cn: 中华苏维埃共和国成立（瑞金）
+  start_year: 1931
+  end_year: 1931
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-chinese-soviet-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhonghua-suweiai.review.json
+- id: event-changzheng
+  name_zh_cn: 红军长征（战略转移）
+  start_year: 1934
+  end_year: 1936
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-changzheng.review.json
+- id: event-zunyi-huiyi
+  name_zh_cn: 遵义会议
+  start_year: 1935
+  end_year: 1935
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zunyi-huiyi.review.json

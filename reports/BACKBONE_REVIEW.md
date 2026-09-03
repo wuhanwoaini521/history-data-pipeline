@@ -9,7 +9,7 @@
 
 ## 2. Granularity QA
 
-- 事件类型分布：{"war": 202, "political": 148, "reform": 50, "dynastic-transition": 43, "rebellion": 35, "foundation": 24, "political-military": 22, "treaty": 19, "economic": 15, "diplomatic": 11, "cultural": 7, "migration": 7, "succession": 7, "alliance": 5, "unification": 3, "disaster": 1}
+- 事件类型分布：{"war": 216, "political": 149, "reform": 50, "dynastic-transition": 43, "rebellion": 35, "foundation": 25, "political-military": 22, "treaty": 20, "economic": 15, "diplomatic": 13, "cultural": 7, "migration": 7, "succession": 7, "alliance": 5, "unification": 3, "disaster": 1}
 
 - Aggregate（有子事件 part_of）数量：45
   - event-qin-mie-liuguo：7 个子事件
@@ -64,7 +64,7 @@
 ## 3. Timeline Gap Detection
 
 - 阈值：相邻 critical/major 事件间隔 > 150 年（且 > 该 Period 跨度的 25%）
-- 共 6 处：
+- 共 5 处：
 
 | Period | 类型 | 明细 |
 |---|---|---|
@@ -73,7 +73,6 @@
 | 商 | 间隔过大 | 商朝建立（-1600）→ 盘庚迁殷（-1300）：间隔 300 年。相邻 critical/major 事件间隔 300 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 商 | 间隔过大 | 武丁中兴（-1250）→ 武王伐纣（-1046）：间隔 204 年。相邻 critical/major 事件间隔 204 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
 | 西夏 | 间隔过大 | 庆历和议（宋夏议和）（1044）→ 蒙古灭西夏（1226）：间隔 182 年。相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。 |
-| 近现代 | 空白 | 该 Period 尚无 critical/major Event。 |
 
 > 注意：此处仅报告，不自动补造 Event；是否补点由人工依据真实历史粒度判断。
 

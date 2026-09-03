@@ -1,0 +1,86 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 1 民国初期
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-yuanshikai-jiuwei
+  name_zh_cn: 袁世凯就任临时大总统（北京政府形成）
+  start_year: 1912
+  end_year: 1912
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanshikai-jiuwei.review.json
+- id: event-linshi-yuefa
+  name_zh_cn: 《中华民国临时约法》颁布
+  start_year: 1912
+  end_year: 1912
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-linshi-yuefa.review.json
+- id: event-songjiaoren-yuci
+  name_zh_cn: 宋教仁遇刺
+  start_year: 1913
+  end_year: 1913
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-songjiaoren-yuci.review.json
+- id: event-erci-geming
+  name_zh_cn: 二次革命（讨袁战争）
+  start_year: 1913
+  end_year: 1913
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-erci-geming.review.json
+- id: event-yuanshikai-chendi
+  name_zh_cn: 袁世凯称帝（洪宪帝制）
+  start_year: 1915
+  end_year: 1915
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanshikai-chendi.review.json
+- id: event-huguo-zhanzheng
+  name_zh_cn: 护国战争
+  start_year: 1915
+  end_year: 1916
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huguo-zhanzheng.review.json
+- id: event-yuanshikai-qushi
+  name_zh_cn: 袁世凯取消帝制与去世
+  start_year: 1916
+  end_year: 1916
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanshikai-qushi.review.json

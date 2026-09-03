@@ -1,0 +1,75 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 3 国民革命与北伐
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-guomindang-gaizu
+  name_zh_cn: 国民党改组与第一次全国代表大会
+  start_year: 1924
+  end_year: 1924
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-guomindang-gaizu.review.json
+- id: event-huangpu-junxiao
+  name_zh_cn: 黄埔军校建立
+  start_year: 1924
+  end_year: 1924
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huangpu-junxiao.review.json
+- id: event-guomin-gemingjun-beifa
+  name_zh_cn: 国民革命军北伐
+  start_year: 1926
+  end_year: 1928
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-guomin-gemingjun-beifa.review.json
+- id: event-nanjing-guominzhengfu
+  name_zh_cn: 南京国民政府建立
+  start_year: 1927
+  end_year: 1927
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanjing-guominzhengfu.review.json
+- id: event-guogong-fenlie-1927
+  name_zh_cn: 国共合作破裂（1927 年清党与分共）
+  start_year: 1927
+  end_year: 1927
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-guogong-fenlie-1927.review.json
+- id: event-dongbei-yizhi
+  name_zh_cn: 东北易帜
+  start_year: 1928
+  end_year: 1928
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dongbei-yizhi.review.json

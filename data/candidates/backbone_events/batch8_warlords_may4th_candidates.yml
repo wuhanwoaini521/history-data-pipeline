@@ -1,0 +1,97 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 2 军阀混战与五四
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-fuyuan-zhi-zheng
+  name_zh_cn: 府院之争（总统府与国务院冲突）
+  start_year: 1917
+  end_year: 1917
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-fuyuan-zhi-zheng.review.json
+- id: event-zhangxun-fubi
+  name_zh_cn: 张勋复辟（清室复辟）
+  start_year: 1917
+  end_year: 1917
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhangxun-fubi.review.json
+- id: event-hufa-yundong
+  name_zh_cn: 护法运动（孙中山南下护法）
+  start_year: 1917
+  end_year: 1918
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-hufa-yundong.review.json
+- id: event-bali-hehui
+  name_zh_cn: 巴黎和会与中国外交失败
+  start_year: 1919
+  end_year: 1919
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-bali-hehui.review.json
+- id: event-wusi-yundong
+  name_zh_cn: 五四运动
+  start_year: 1919
+  end_year: 1919
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-wusi-yundong.review.json
+- id: event-zhiwan-zhanzheng
+  name_zh_cn: 直皖战争
+  start_year: 1920
+  end_year: 1920
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhiwan-zhanzheng.review.json
+- id: event-diyici-zhifeng-zhanzheng
+  name_zh_cn: 第一次直奉战争
+  start_year: 1922
+  end_year: 1922
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-diyici-zhifeng-zhanzheng.review.json
+- id: event-dierci-zhifeng-zhanzheng
+  name_zh_cn: 第二次直奉战争与北京政变
+  start_year: 1924
+  end_year: 1924
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dierci-zhifeng-zhanzheng.review.json

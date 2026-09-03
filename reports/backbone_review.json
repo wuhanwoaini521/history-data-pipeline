@@ -194,16 +194,16 @@
       }
     ],
     "event_type_distribution": {
-      "war": 202,
-      "political": 148,
+      "war": 216,
+      "political": 149,
       "reform": 50,
       "dynastic-transition": 43,
       "rebellion": 35,
-      "foundation": 24,
+      "foundation": 25,
       "political-military": 22,
-      "treaty": 19,
+      "treaty": 20,
       "economic": 15,
-      "diplomatic": 11,
+      "diplomatic": 13,
       "cultural": 7,
       "migration": 7,
       "succession": 7,
@@ -292,14 +292,6 @@
       },
       "gap_years": 182,
       "detail": "相邻 critical/major 事件间隔 182 年（阈值 150 年），可能遗漏重要节点；是否补点需人工判断。"
-    },
-    {
-      "period_id": "period-modern",
-      "period_name": "近现代",
-      "kind": "coverage_gap",
-      "severity": "empty",
-      "detail": "该 Period 尚无 critical/major Event。",
-      "events": 0
     }
   ]
 }

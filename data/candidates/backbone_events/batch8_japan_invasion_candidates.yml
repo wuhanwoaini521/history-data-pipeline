@@ -1,0 +1,65 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 5 日本侵华
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-jiuyiba-shibian
+  name_zh_cn: 九一八事变（沈阳）
+  start_year: 1931
+  end_year: 1931
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-jiuyiba-shibian.review.json
+- id: event-manzhouguo-jianli
+  name_zh_cn: 满洲国建立（日本扶持）
+  start_year: 1932
+  end_year: 1932
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-manchukuo
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-manzhouguo-jianli.review.json
+- id: event-yi-er-ba-shibian
+  name_zh_cn: 一二八事变（淞沪抗战）
+  start_year: 1932
+  end_year: 1932
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yi-er-ba-shibian.review.json
+- id: event-huabei-shibian
+  name_zh_cn: 华北事变
+  start_year: 1935
+  end_year: 1935
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huabei-shibian.review.json
+- id: event-xian-shibian
+  name_zh_cn: 西安事变
+  start_year: 1936
+  end_year: 1936
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-xian-shibian.review.json

@@ -1,0 +1,211 @@
+# China History Backbone V1 · Batch 8 候选（Candidate）
+version: backbone-candidates-v1
+phase: Phase 6 全面抗战与 1949 边界
+compiled_from: AI 依据南京临时政府公报、《中华民国史》（张宪文主编）、《中国共产党历史》第一卷、军事科学院《中国抗日战争史》、《南京大屠杀史料集》等整理候选；候选进入 review，accepted 后才写入 curated
+  events/
+flow: candidate → data/reviews/accepted/<event_id>.review.json → curated events/
+reused_events:
+- event-nanjing-linshi-zhengfu（1912-01-01 南京临时政府，Batch7）
+candidates:
+- id: event-qiqishi-bian
+  name_zh_cn: 七七事变（卢沟桥事变）
+  start_year: 1937
+  end_year: 1937
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-qiqishi-bian.review.json
+- id: event-songhu-huizhan
+  name_zh_cn: 淞沪会战（八一三战役）
+  start_year: 1937
+  end_year: 1937
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-songhu-huizhan.review.json
+- id: event-nanjing-baoweizhan
+  name_zh_cn: 南京保卫战与失守
+  start_year: 1937
+  end_year: 1937
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-nanjing-baoweizhan.review.json
+- id: event-nanjing-datusha
+  name_zh_cn: 南京大屠杀
+  start_year: 1937
+  end_year: 1938
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-nanjing-datusha.review.json
+- id: event-wuhan-huizhan
+  name_zh_cn: 武汉会战
+  start_year: 1938
+  end_year: 1938
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-wuhan-huizhan.review.json
+- id: event-changsha-huizhan
+  name_zh_cn: 长沙会战（三次大会战）
+  start_year: 1939
+  end_year: 1942
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-changsha-huizhan.review.json
+- id: event-baidatuan
+  name_zh_cn: 百团大战
+  start_year: 1940
+  end_year: 1940
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-baidatuan.review.json
+- id: event-yuanzhengjun
+  name_zh_cn: 中国远征军（滇缅战场）
+  start_year: 1942
+  end_year: 1945
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuanzhengjun.review.json
+- id: event-yuxianggui
+  name_zh_cn: 豫湘桂战役
+  start_year: 1944
+  end_year: 1944
+  date_precision: range
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-yuxianggui.review.json
+- id: event-riben-touxiang
+  name_zh_cn: 日本宣布投降（抗日战争胜利）
+  start_year: 1945
+  end_year: 1945
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-riben-touxiang.review.json
+- id: event-taiwan-guangfu
+  name_zh_cn: 台湾光复
+  start_year: 1945
+  end_year: 1945
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-taiwan-guangfu.review.json
+- id: event-chongqing-tanpan
+  name_zh_cn: 重庆谈判（国共和谈）
+  start_year: 1945
+  end_year: 1945
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-chongqing-tanpan.review.json
+- id: event-zhengzhi-xieshang-huiyi
+  name_zh_cn: 政治协商会议（旧政协）
+  start_year: 1946
+  end_year: 1946
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-zhengzhi-xieshang-huiyi.review.json
+- id: event-quanmian-neizhan
+  name_zh_cn: 全面内战爆发
+  start_year: 1946
+  end_year: 1946
+  date_precision: year
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-quanmian-neizhan.review.json
+- id: event-liaoshen-zhanyi
+  name_zh_cn: 辽沈战役
+  start_year: 1948
+  end_year: 1948
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-liaoshen-zhanyi.review.json
+- id: event-huaihai-zhanyi
+  name_zh_cn: 淮海战役
+  start_year: 1948
+  end_year: 1949
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-huaihai-zhanyi.review.json
+- id: event-pingjin-zhanyi
+  name_zh_cn: 平津战役（北平和平改编）
+  start_year: 1948
+  end_year: 1949
+  date_precision: range
+  period_id: period-republic
+  regime_ids: []
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-pingjin-zhanyi.review.json
+- id: event-dujiang-nanjing
+  name_zh_cn: 渡江战役与南京易手（国民政府南迁）
+  start_year: 1949
+  end_year: 1949
+  date_precision: year
+  period_id: period-republic
+  regime_ids:
+  - regime-republic
+  importance: major
+  accepted: true
+  review_file: data/reviews/accepted/event-dujiang-nanjing.review.json
+- id: event-xinzhongguo-chengli
+  name_zh_cn: 中华人民共和国成立
+  start_year: 1949
+  end_year: 1949
+  date_precision: year
+  period_id: period-modern
+  regime_ids:
+  - regime-republic
+  importance: critical
+  accepted: true
+  review_file: data/reviews/accepted/event-xinzhongguo-chengli.review.json
