@@ -51,7 +51,7 @@
   },
   "qing": {
     "label": "清",
-    "events": 32,
+    "events": 44,
     "stories": 0
   },
   "modern": {
@@ -372,12 +372,12 @@
       "period_id": "period-late-qing",
       "name_zh_cn": "晚清",
       "critical": 1,
-      "major": 10,
+      "major": 22,
       "normal": 0,
       "minor": 0,
       "new": 0,
-      "reused": 11,
-      "total": 11
+      "reused": 23,
+      "total": 23
     },
     {
       "period_id": "period-republic",

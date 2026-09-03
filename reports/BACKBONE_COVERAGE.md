@@ -7,7 +7,7 @@
 
 - Period：31
 - Regime：62
-- Event：535
+- Event：547
 - Story：3
 
 ## 按时期组
@@ -24,7 +24,7 @@
 | 宋辽金夏 | 65 | 0 |
 | 元 | 30 | 0 |
 | 明 | 54 | 0 |
-| 清 | 32 | 0 |
+| 清 | 44 | 0 |
 | 近现代 | 0 | 0 |
 
 ## 按 Period 的重要性分布
@@ -58,7 +58,7 @@
 | 元 | 1 | 29 | 30 | 2 | 28 |
 | 明 | 0 | 54 | 54 | 7 | 47 |
 | 清 | 0 | 21 | 21 | 2 | 19 |
-| 晚清 | 0 | 11 | 11 | 1 | 10 |
+| 晚清 | 0 | 23 | 23 | 1 | 22 |
 
 ## 缺口提示
 
@@ -76,10 +76,10 @@
 {
   "periods": 31,
   "regimes": 62,
-  "events": 535,
+  "events": 547,
   "stories": 3,
   "story_events": 26,
-  "event_relations": 930,
+  "event_relations": 944,
   "event_people": 58,
   "event_places": 26,
   "event_evidence": 26,

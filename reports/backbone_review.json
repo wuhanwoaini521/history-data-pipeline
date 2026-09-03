@@ -19,6 +19,10 @@
         "part_of_children": 4
       },
       {
+        "event_id": "event-yangwu-yundong",
+        "part_of_children": 4
+      },
+      {
         "event_id": "event-taiping-tianguo",
         "part_of_children": 4
       },
@@ -28,6 +32,10 @@
       },
       {
         "event_id": "event-zhangjuzheng-gaige",
+        "part_of_children": 3
+      },
+      {
+        "event_id": "event-zhongfa-zhanzheng",
         "part_of_children": 3
       },
       {
@@ -174,15 +182,15 @@
       }
     ],
     "event_type_distribution": {
-      "war": 184,
-      "political": 130,
-      "reform": 45,
+      "war": 188,
+      "political": 133,
+      "reform": 46,
       "dynastic-transition": 43,
       "rebellion": 30,
       "political-military": 22,
       "foundation": 17,
-      "treaty": 15,
-      "economic": 12,
+      "treaty": 16,
+      "economic": 15,
       "diplomatic": 8,
       "cultural": 7,
       "migration": 7,

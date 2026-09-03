@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-yangwu-yundong
+name_zh_cn: 洋务运动（自强求富）
+event_type: reform
+start_year: 1861
+end_year: 1894
+date_precision: range
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 咸丰十一年至光绪二十年（1861—1894 年），清廷部分官僚主持"自强""求富"新政：创立总理衙门、兴办近代军事与民用工业、编练新式海陆军、设学堂派留学生；甲午战争北洋海军覆没后，洋务运动宣告破产。本事件为 aggregate，子事件（江南制造总局、福州船政、轮船招商局、北洋海军成军）经
+  part_of 关联。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：洋务档案（《洋务运动》资料丛刊）；《清实录·穆宗/德宗实录》；现代参考：夏东元《洋务运动史》（华东师范大学出版社）；罗尔纲《太平天国史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-dierci-yapian-zhanzheng
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 第二次鸦片战争失败促发自强运动。

@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 7（清→晚清→辛亥革命）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-beiyang-haijun
+name_zh_cn: 北洋海军成军
+event_type: political
+start_year: 1888
+end_year: 1888
+date_precision: year
+period_id: period-late-qing
+regime_ids:
+- regime-qing
+importance: major
+summary_zh_cn: 光绪十四年（1888 年），北洋海军正式成军（提督丁汝昌），拥有定远、镇远等主力舰，一时为远东劲旅；甲午战争（1894—1895）中北洋海军覆没，洋务海防遂败。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·德宗实录》；现代参考：夏东元《洋务运动史》（华东师范大学出版社）；罗尔纲《太平天国史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+relations:
+- target_event_id: event-yangwu-yundong
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 海防近代化。
