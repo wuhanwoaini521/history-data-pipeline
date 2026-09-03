@@ -1,0 +1,26 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-caopi-dai-han
+name_zh_cn: 曹丕代汉、曹魏建立
+event_type: dynastic-transition
+start_year: 220
+end_year: 220
+date_precision: year
+period_id: period-three-kingdoms
+regime_ids:
+- regime-cao-wei
+importance: critical
+summary_zh_cn: 建安二十五年（220年）正月曹操去世，十月曹丕接受汉献帝禅让称帝，改元黄初，国号魏，东汉正式灭亡。曹丕代汉是三国鼎立格局在名分上的确立，也是"禅让"改朝模式的重要案例。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·魏书·文帝纪》《后汉书·献帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-lv-meng-xi-jingzhou
+  relation_type: follows
+- target_event_id: event-liubei-chengdi
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 曹魏代汉后刘备亦践祚称帝以继汉统

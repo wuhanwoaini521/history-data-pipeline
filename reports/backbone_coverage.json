@@ -16,7 +16,7 @@
   },
   "three_kingdoms": {
     "label": "魏晋南北朝（三国）",
-    "events": 23,
+    "events": 36,
     "stories": 1
   },
   "jin_southern_northern": {
@@ -184,13 +184,13 @@
     {
       "period_id": "period-three-kingdoms",
       "name_zh_cn": "三国",
-      "critical": 0,
-      "major": 1,
+      "critical": 1,
+      "major": 13,
       "normal": 0,
       "minor": 0,
-      "new": 0,
+      "new": 13,
       "reused": 1,
-      "total": 1
+      "total": 14
     },
     {
       "period_id": "period-western-jin",

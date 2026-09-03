@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-jiangwei-beifa
+name_zh_cn: 姜维北伐
+event_type: war
+start_year: 247
+end_year: 262
+date_precision: range
+period_id: period-three-kingdoms
+regime_ids:
+- regime-shu-han
+importance: major
+summary_zh_cn: 延熙至景耀年间（约247—262年），姜维多次出兵北伐曹魏，虽屡有胜绩却耗损蜀汉国力，"费祎常制姜维"之说反映朝中分歧。姜维北伐延续蜀汉进取战略，但未能改变魏强蜀弱的总体格局。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·蜀书·姜维传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-zhuge-liang-zhishi
+  relation_type: follows
+- target_event_id: event-wei-mie-shu
+  relation_type: precedes
+  description_zh_cn: 姜维北伐终未能阻魏军灭蜀

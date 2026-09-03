@@ -1,0 +1,23 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-wei-mie-shu
+name_zh_cn: 魏灭蜀
+event_type: war
+start_year: 263
+end_year: 263
+date_precision: year
+period_id: period-three-kingdoms
+regime_ids:
+- regime-cao-wei
+- regime-shu-han
+importance: major
+summary_zh_cn: 景元四年（263年）司马昭遣钟会、邓艾、诸葛绪三路伐蜀，邓艾偷渡阴平直取成都，刘禅出降，蜀汉灭亡。魏灭蜀使三国并立变为魏吴对峙，为司马氏代魏扫清最大障碍。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·魏书·钟会邓艾传》《蜀书·后主传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-jiangwei-beifa
+  relation_type: follows

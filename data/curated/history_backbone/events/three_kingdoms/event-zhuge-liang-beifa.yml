@@ -1,0 +1,25 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-zhuge-liang-beifa
+name_zh_cn: 诸葛亮北伐
+event_type: war
+start_year: 228
+end_year: 234
+date_precision: range
+period_id: period-three-kingdoms
+regime_ids:
+- regime-shu-han
+importance: major
+summary_zh_cn: 建兴六年至十二年（228—234年），诸葛亮五次出兵北伐曹魏，多为粮尽退兵，未能实现"兴复汉室"目标。本事件为 aggregate，子事件（首次北伐、五丈原）经 part_of 关联，历次战役细节不在主干单列。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·蜀书·诸葛亮传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-zhuge-liang-nanzheng
+  relation_type: follows
+- target_event_id: event-zhuge-liang-zhishi
+  relation_type: precedes
+  description_zh_cn: 北伐至五丈原诸葛亮病逝而止

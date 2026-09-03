@@ -31,6 +31,10 @@
         "part_of_children": 2
       },
       {
+        "event_id": "event-zhuge-liang-beifa",
+        "part_of_children": 2
+      },
+      {
         "event_id": "event-wu-guo-jueqi",
         "part_of_children": 1
       },
@@ -58,11 +62,11 @@
       }
     ],
     "event_type_distribution": {
-      "war": 61,
-      "political": 50,
+      "war": 67,
+      "political": 54,
       "political-military": 19,
       "reform": 13,
-      "dynastic-transition": 10,
+      "dynastic-transition": 13,
       "rebellion": 9,
       "diplomatic": 7,
       "economic": 6,

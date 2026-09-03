@@ -1,0 +1,27 @@
+# China History Backbone V1 · Batch 3（东汉末→三国→西晋→东晋/十六国→南北朝→隋统一）
+# summary 为 1~3 句事实描述；sources 采用「古代史料 + 现代参考」两层链。
+# 修改后请运行：history-data backbone validate
+id: event-liubei-chengdi
+name_zh_cn: 刘备称帝、蜀汉建立
+event_type: dynastic-transition
+start_year: 221
+end_year: 221
+date_precision: year
+period_id: period-three-kingdoms
+regime_ids:
+- regime-shu-han
+importance: major
+summary_zh_cn: 章武元年（221年）四月，刘备在成都称帝，国号汉（史称蜀汉或季汉），宣称继承汉统。蜀汉建立与曹魏并峙，三国政权结构完成三分之二。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·蜀书·先主传》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+relations:
+- target_event_id: event-caopi-dai-han
+  relation_type: follows
+  description_zh_cn: 魏代汉后刘备继汉统称帝
+- target_event_id: event-yiling-zhizhan
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 刘备称帝后发动伐吴之役（夷陵之战）
