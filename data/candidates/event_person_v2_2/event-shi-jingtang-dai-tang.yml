@@ -1,0 +1,35 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-shi-jingtang-dai-tang
+event_name: 石敬瑭灭后唐、后晋建立
+event_years: 936–936
+accepted:
+- person_id: cbdb-person-339657
+  person_name_raw: 石敬瑭
+  canonical_name: 石敬瑭
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（石敬瑭→石敬瑭），事件时窗 936–936 内唯一存活候选，无身份冲突
+  event_evidence: 《石敬瑭灭后唐、后晋建立》summary 明确出现 石敬瑭（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-43077
+  person_name_raw: 耶律德光
+  canonical_name: 耶律德光
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（耶律德光→耶律德光），事件时窗 936–936 内唯一存活候选，无身份冲突
+  event_evidence: 《石敬瑭灭后唐、后晋建立》summary 明确出现 耶律德光（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 福元
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

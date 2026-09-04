@@ -1,0 +1,10 @@
+{
+  "event_id": "event-dongnan-hubao",
+  "event_name": "东南互保",
+  "event_years": "1900–1900",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": []
+}

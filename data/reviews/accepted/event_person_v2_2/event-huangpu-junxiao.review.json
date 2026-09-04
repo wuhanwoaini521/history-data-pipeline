@@ -1,0 +1,29 @@
+{
+  "event_id": "event-huangpu-junxiao",
+  "event_name": "黄埔军校建立",
+  "event_years": "1924–1924",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "curated-person-zhou-enlai",
+      "person_name_raw": "周恩来",
+      "canonical_name": "周恩来",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "curated-person-chiang-kai-shek",
+      "person_name_raw": "蒋介石",
+      "canonical_name": "蒋介石",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

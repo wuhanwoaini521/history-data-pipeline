@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-mubing-zhuanxing
+event_name: 府兵制瓦解与募兵制转变
+event_years: 722–737
+accepted: []
+unlinked:
+- person_name_raw: 制至
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

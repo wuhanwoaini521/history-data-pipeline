@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-daliyi
+event_name: 大礼议（嘉靖即位与礼制之争）
+event_years: 1521–1524
+accepted:
+- person_id: ctext-person-414147
+  person_name_raw: 明世宗
+  canonical_name: 明世宗
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（明世宗→明世宗），事件时窗 1521–1524 内唯一存活候选，无身份冲突
+  event_evidence: 《大礼议（嘉靖即位与礼制之争）》summary 明确出现 明世宗（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

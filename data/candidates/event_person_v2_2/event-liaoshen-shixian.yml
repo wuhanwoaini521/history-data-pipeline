@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liaoshen-shixian
+event_name: 辽沈失守（辽东格局变化）
+event_years: 1621–1621
+accepted: []
+unlinked:
+- person_name_raw: 盛京
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

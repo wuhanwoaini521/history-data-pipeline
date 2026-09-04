@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-wei-mie-shu
+event_name: 魏灭蜀
+event_years: 263–263
+accepted: []
+unlinked:
+- person_name_raw: 景元
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

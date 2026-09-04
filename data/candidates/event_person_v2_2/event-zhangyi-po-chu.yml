@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhangyi-po-chu
+event_name: 张仪欺楚
+event_years: -313–-311
+accepted: []
+unlinked:
+- person_name_raw: 田大
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 秦相
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

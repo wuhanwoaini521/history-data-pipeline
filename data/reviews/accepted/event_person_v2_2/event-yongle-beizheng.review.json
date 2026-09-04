@@ -1,0 +1,20 @@
+{
+  "event_id": "event-yongle-beizheng",
+  "event_name": "明成祖五征漠北",
+  "event_years": "1410–1424",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-654665",
+      "person_name_raw": "本雅失里",
+      "canonical_name": "本雅失里",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

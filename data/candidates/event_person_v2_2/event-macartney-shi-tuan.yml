@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-macartney-shi-tuan
+event_name: 马戛尔尼使团来华
+event_years: 1793–1793
+accepted: []
+unlinked:
+- person_name_raw: 五十八
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-junxian
+event_name: 秦推行郡县制
+event_years: -221–-221
+accepted: []
+unlinked:
+- person_name_raw: 李斯
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

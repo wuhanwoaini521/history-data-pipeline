@@ -1,0 +1,22 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qingli-heyi
+event_name: 庆历和议（宋夏议和）
+event_years: 1044–1044
+accepted:
+- person_id: cbdb-person-339687
+  person_name_raw: 李元昊
+  canonical_name: 李元昊
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（李元昊→李元昊），事件时窗 1044–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历和议（宋夏议和）》summary 明确出现 李元昊（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 宋夏
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

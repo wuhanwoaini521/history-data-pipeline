@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-dongnan-wokou
+event_name: 东南沿海倭患
+event_years: 1552–1565
+accepted: []
+unlinked:
+- person_name_raw: 俞大猷
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 王直
+  resolution: ambiguous
+  reason: 候选 9 人，无法唯一确认 → 不自动链接
+- person_name_raw: 胡宗
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

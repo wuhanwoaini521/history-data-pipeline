@@ -1,0 +1,20 @@
+{
+  "event_id": "event-beiyang-haijun",
+  "event_name": "北洋海军成军",
+  "event_years": "1888–1888",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-58649",
+      "person_name_raw": "丁汝昌",
+      "canonical_name": "丁汝昌",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

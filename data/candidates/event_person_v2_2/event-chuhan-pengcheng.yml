@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-chuhan-pengcheng
+event_name: 彭城之战
+event_years: -205–-205
+accepted: []
+unlinked:
+- person_name_raw: 彭城
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

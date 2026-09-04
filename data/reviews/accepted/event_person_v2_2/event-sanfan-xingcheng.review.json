@@ -1,0 +1,29 @@
+{
+  "event_id": "event-sanfan-xingcheng",
+  "event_name": "三藩局面形成（吴三桂等镇守南疆）",
+  "event_years": "1662–1673",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-59135",
+      "person_name_raw": "尚可喜",
+      "canonical_name": "尚可喜",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-65757",
+      "person_name_raw": "耿精忠",
+      "canonical_name": "耿精忠",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tianshi-dai-qi
+event_name: 田氏代齐
+event_years: -386–-386
+accepted:
+- person_id: ctext-person-134993
+  person_name_raw: 周安王
+  canonical_name: 周安王
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（周安王→周安王），事件时窗 -386–-386 内唯一存活候选，无身份冲突
+  event_evidence: 《田氏代齐》summary 明确出现 周安王（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 姜氏
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接
+- person_name_raw: 田氏
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

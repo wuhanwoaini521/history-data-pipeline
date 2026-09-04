@@ -1,0 +1,10 @@
+{
+  "event_id": "event-yuanshikai-chendi",
+  "event_name": "袁世凯称帝（洪宪帝制）",
+  "event_years": "1915–1915",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": []
+}

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-beijing-baoweizhan
+event_name: 北京保卫战
+event_years: 1449–1449
+accepted: []
+unlinked:
+- person_name_raw: 也先
+  resolution: ambiguous
+  reason: 候选 10 人，无法唯一确认 → 不自动链接

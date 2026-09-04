@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-gaoping-zhizhan
+event_name: 高平之战
+event_years: 954–954
+accepted: []
+unlinked:
+- person_name_raw: 七十
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名
+- person_name_raw: 德元
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 高平
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-mayi-zhi-mou
+event_name: 马邑之谋
+event_years: -133–-133
+accepted: []
+unlinked:
+- person_name_raw: 王恢之
+  resolution: excluded_by_review
+  reason: 正确应为 王恢（马邑之谋）；王恢之 为另一人

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zheng-guoqu-xiuzhu
+event_name: 郑国渠修筑
+event_years: -246–-237
+accepted: []
+unlinked:
+- person_name_raw: 王政
+  resolution: ambiguous
+  reason: 候选 46 人，无法唯一确认 → 不自动链接

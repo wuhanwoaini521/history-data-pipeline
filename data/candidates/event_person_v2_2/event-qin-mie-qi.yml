@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-mie-qi
+event_name: 秦灭齐
+event_years: -221–-221
+accepted: []
+unlinked:
+- person_name_raw: 王建
+  resolution: ambiguous
+  reason: 候选 12 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,29 @@
+{
+  "event_id": "event-shi-jingtang-dai-tang",
+  "event_name": "石敬瑭灭后唐、后晋建立",
+  "event_years": "936–936",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-339657",
+      "person_name_raw": "石敬瑭",
+      "canonical_name": "石敬瑭",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-43077",
+      "person_name_raw": "耶律德光",
+      "canonical_name": "耶律德光",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

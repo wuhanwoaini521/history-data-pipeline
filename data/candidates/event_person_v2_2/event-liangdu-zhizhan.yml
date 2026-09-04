@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liangdu-zhizhan
+event_name: 两都之战（皇位之争内战）
+event_years: 1328–1328
+accepted: []
+unlinked:
+- person_name_raw: 于致和
+  resolution: excluded_by_review
+  reason: 「泰定帝于致和元年」：纪年片段，非人名
+- person_name_raw: 大都
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接
+- person_name_raw: 阿速吉八
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

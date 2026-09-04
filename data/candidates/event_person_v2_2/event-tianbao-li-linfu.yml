@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tianbao-li-linfu
+event_name: 李林甫长期执政
+event_years: 736–752
+accepted:
+- person_id: cbdb-person-32534
+  person_name_raw: 李林甫
+  canonical_name: 李林甫
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（李林甫→李林甫），事件时窗 736–752 内唯一存活候选，无身份冲突
+  event_evidence: 《李林甫长期执政》summary 明确出现 李林甫（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

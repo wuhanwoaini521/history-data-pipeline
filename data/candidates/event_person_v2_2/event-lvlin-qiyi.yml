@@ -1,0 +1,28 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-lvlin-qiyi
+event_name: 绿林起义
+event_years: 17–17
+accepted:
+- person_id: cbdb-person-339519
+  person_name_raw: 王莽
+  canonical_name: 王莽
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王莽→王莽），事件时窗 17–17 内唯一存活候选，无身份冲突
+  event_evidence: 《绿林起义》summary 明确出现 王莽（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 公元
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 林山
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接
+- person_name_raw: 王匡
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

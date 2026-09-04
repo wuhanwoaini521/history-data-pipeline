@@ -1,0 +1,32 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qingli-xinzheng
+event_name: 庆历新政
+event_years: 1043–1044
+accepted:
+- person_id: cbdb-person-1762
+  person_name_raw: 王安石
+  canonical_name: 王安石
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王安石→王安石），事件时窗 1043–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历新政》summary 明确出现 王安石（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-8043
+  person_name_raw: 范仲淹
+  canonical_name: 范仲淹
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（范仲淹→范仲淹），事件时窗 1043–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历新政》summary 明确出现 范仲淹（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

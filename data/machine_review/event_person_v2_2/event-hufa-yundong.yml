@@ -1,0 +1,36 @@
+# China History Backbone V2.2 · Machine-Reviewed Major EventPerson (待 V2.3 人工放行)
+# 本目录不被 loader/backbone 扫描；正式 backbone 冻结 gate（events=618, event_person=200）不受影响。
+# 每行 people 字段与最终 schema 兼容；quality_status=candidate，需人工 review 后并入。
+event_id: event-hufa-yundong
+event_years: 1917–1918
+machine_review: china-history-backbone-v2.2-machine
+quality_status: candidate
+people:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（孙中山→孙中山），事件时窗
+    1917–1918 内唯一存活候选，无身份冲突
+  event_evidence: 《护法运动（孙中山南下护法）》summary 明确出现 孙中山（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-63908
+  person_name_raw: 段祺瑞
+  canonical_name: 段祺瑞
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（段祺瑞→段祺瑞），事件时窗
+    1917–1918 内唯一存活候选，无身份冲突
+  event_evidence: 《护法运动（孙中山南下护法）》summary 明确出现 段祺瑞（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine

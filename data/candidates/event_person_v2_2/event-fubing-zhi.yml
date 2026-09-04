@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-fubing-zhi
+event_name: 西魏府兵制创建
+event_years: 543–550
+accepted: []
+unlinked:
+- person_name_raw: 宇文泰
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

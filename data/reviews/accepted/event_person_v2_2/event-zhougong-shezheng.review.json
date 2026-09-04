@@ -1,0 +1,20 @@
+{
+  "event_id": "event-zhougong-shezheng",
+  "event_name": "周公摄政",
+  "event_years": "-1042–-1035",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-263104",
+      "person_name_raw": "周公旦",
+      "canonical_name": "周公旦",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

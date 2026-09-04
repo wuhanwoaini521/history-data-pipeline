@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-hongjin-jun-qiyi
+event_name: 红巾军起义（刘福通等起兵反元）
+event_years: 1351–1351
+accepted: []
+unlinked:
+- person_name_raw: 山童
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhenghe-zui-hou
+event_name: 郑和最后一次下西洋与停止远航
+event_years: 1430–1433
+accepted: []
+unlinked:
+- person_name_raw: 宣德
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

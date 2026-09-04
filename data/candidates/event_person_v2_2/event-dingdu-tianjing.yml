@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-dingdu-tianjing
+event_name: 太平军攻占南京、定都天京
+event_years: 1853–1853
+accepted: []
+unlinked:
+- person_name_raw: 太平
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接
+- person_name_raw: 江北
+  resolution: excluded_by_review
+  reason: 江北大营（地方/军事部署），非人名
+- person_name_raw: 江南
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

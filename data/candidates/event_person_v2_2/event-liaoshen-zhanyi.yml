@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liaoshen-zhanyi
+event_name: 辽沈战役
+event_years: 1948–1948
+accepted: []
+unlinked:
+- person_name_raw: 四十七
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名

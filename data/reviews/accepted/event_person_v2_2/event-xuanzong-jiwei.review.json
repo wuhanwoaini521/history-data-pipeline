@@ -1,0 +1,20 @@
+{
+  "event_id": "event-xuanzong-jiwei",
+  "event_name": "唐玄宗即位",
+  "event_years": "712–712",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 5,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-840838",
+      "person_name_raw": "太平公主",
+      "canonical_name": "太平公主",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

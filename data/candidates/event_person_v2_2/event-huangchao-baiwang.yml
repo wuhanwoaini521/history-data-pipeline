@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-huangchao-baiwang
+event_name: 黄巢败亡
+event_years: 883–884
+accepted: []
+unlinked:
+- person_name_raw: 于泰
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接
+- person_name_raw: 李克用
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

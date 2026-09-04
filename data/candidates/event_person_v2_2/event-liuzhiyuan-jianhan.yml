@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liuzhiyuan-jianhan
+event_name: 刘知远建立后汉
+event_years: 947–947
+accepted: []
+unlinked:
+- person_name_raw: 郭威
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

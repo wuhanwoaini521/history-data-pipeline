@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-huo-shi-fumie
+event_name: 霍氏集团覆灭
+event_years: -66–-66
+accepted: []
+unlinked:
+- person_name_raw: 霍光
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

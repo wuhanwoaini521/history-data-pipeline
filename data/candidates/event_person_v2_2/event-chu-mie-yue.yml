@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-chu-mie-yue
+event_name: 楚灭越
+event_years: -333–-333
+accepted:
+- person_id: ctext-person-441859
+  person_name_raw: 楚威王
+  canonical_name: 楚威王
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（楚威王→楚威王），事件时窗 -333–-333 内唯一存活候选，无身份冲突
+  event_evidence: 《楚灭越》summary 明确出现 楚威王（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

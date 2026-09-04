@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-weizhongxian-zhuanquan
+event_name: 魏忠贤专权（天启朝政治）
+event_years: 1624–1627
+accepted: []
+unlinked:
+- person_name_raw: 魏忠
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接

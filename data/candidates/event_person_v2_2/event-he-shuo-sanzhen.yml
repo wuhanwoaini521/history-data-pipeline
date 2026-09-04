@@ -1,0 +1,28 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-he-shuo-sanzhen
+event_name: 河朔三镇割据格局形成
+event_years: 763–781
+accepted:
+- person_id: cbdb-person-146183
+  person_name_raw: 田承嗣
+  canonical_name: 田承嗣
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（田承嗣→田承嗣），事件时窗 763–781 内唯一存活候选，无身份冲突
+  event_evidence: 《河朔三镇割据格局形成》summary 明确出现 田承嗣（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 唐中
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 成德
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接
+- person_name_raw: 魏博
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

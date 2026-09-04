@@ -1,0 +1,29 @@
+{
+  "event_id": "event-beiwei-mie-hou-yan",
+  "event_name": "北魏击灭后燕（参合陂之战）",
+  "event_years": "395–398",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-17122",
+      "person_name_raw": "慕容德",
+      "canonical_name": "慕容德",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-31005",
+      "person_name_raw": "拓跋珪",
+      "canonical_name": "拓跋珪",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

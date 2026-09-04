@@ -1,0 +1,29 @@
+{
+  "event_id": "event-zhuyuanzhang-mie-zhang",
+  "event_name": "朱元璋灭张士诚",
+  "event_years": "1366–1367",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-66291",
+      "person_name_raw": "常遇春",
+      "canonical_name": "常遇春",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-30148",
+      "person_name_raw": "朱元璋",
+      "canonical_name": "朱元璋",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

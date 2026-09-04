@@ -1,0 +1,20 @@
+{
+  "event_id": "event-chongxi-zengbi",
+  "event_name": "重熙增币（辽索关南地、宋增岁币）",
+  "event_years": "1042–1042",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-628",
+      "person_name_raw": "富弼",
+      "canonical_name": "富弼",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

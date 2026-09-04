@@ -1,0 +1,10 @@
+{
+  "event_id": "event-tang-gaozong-jiwei",
+  "event_name": "唐高宗即位",
+  "event_years": "649–649",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 5,
+  "accepted_links": []
+}

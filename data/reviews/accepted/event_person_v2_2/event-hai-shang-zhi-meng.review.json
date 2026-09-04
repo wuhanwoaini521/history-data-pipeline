@@ -1,0 +1,20 @@
+{
+  "event_id": "event-hai-shang-zhi-meng",
+  "event_name": "海上之盟（宋金联合攻辽）",
+  "event_years": "1120–1120",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "curated-person-songhuizong",
+      "person_name_raw": "宋徽宗",
+      "canonical_name": "赵佶(宋徽宗)",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 0.95
+    }
+  ]
+}

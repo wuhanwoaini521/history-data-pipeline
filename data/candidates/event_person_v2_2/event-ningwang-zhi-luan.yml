@@ -1,0 +1,32 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-ningwang-zhi-luan
+event_name: 宁王之乱（朱宸濠起兵）
+event_years: 1519–1519
+accepted:
+- person_id: cbdb-person-67356
+  person_name_raw: 朱宸濠
+  canonical_name: 朱宸濠
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（朱宸濠→朱宸濠），事件时窗 1519–1519 内唯一存活候选，无身份冲突
+  event_evidence: 《宁王之乱（朱宸濠起兵）》summary 明确出现 朱宸濠（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-30374
+  person_name_raw: 王守仁
+  canonical_name: 王守仁
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王守仁→王守仁），事件时窗 1519–1519 内唯一存活候选，无身份冲突
+  event_evidence: 《宁王之乱（朱宸濠起兵）》summary 明确出现 王守仁（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

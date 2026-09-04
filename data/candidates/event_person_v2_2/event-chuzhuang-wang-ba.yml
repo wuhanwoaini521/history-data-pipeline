@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-chuzhuang-wang-ba
+event_name: 楚庄王称霸
+event_years: -613–-591
+accepted: []
+unlinked:
+- person_name_raw: 王在
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

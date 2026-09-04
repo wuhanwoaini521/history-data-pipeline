@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-pingjin-zhanyi
+event_name: 平津战役（北平和平改编）
+event_years: 1948–1949
+accepted: []
+unlinked:
+- person_name_raw: 和平
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 平和
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

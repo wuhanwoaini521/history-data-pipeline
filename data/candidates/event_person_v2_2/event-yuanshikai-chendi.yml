@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuanshikai-chendi
+event_name: 袁世凯称帝（洪宪帝制）
+event_years: 1915–1915
+accepted: []
+unlinked:
+- person_name_raw: 元洪
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

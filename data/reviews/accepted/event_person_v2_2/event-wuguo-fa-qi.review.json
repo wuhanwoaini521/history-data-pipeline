@@ -1,0 +1,20 @@
+{
+  "event_id": "event-wuguo-fa-qi",
+  "event_name": "五国伐齐（乐毅破齐）",
+  "event_years": "-284–-284",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-657661",
+      "person_name_raw": "燕昭王",
+      "canonical_name": "燕昭王",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

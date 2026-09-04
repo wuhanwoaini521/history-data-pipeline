@@ -1,0 +1,20 @@
+{
+  "event_id": "event-sui-keju-chuangjian",
+  "event_name": "科举制度开创（废九品中正、设进士科）",
+  "event_years": "581–605",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-803544",
+      "person_name_raw": "隋文帝",
+      "canonical_name": "隋文帝",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

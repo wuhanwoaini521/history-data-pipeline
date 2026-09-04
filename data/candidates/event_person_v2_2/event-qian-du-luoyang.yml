@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qian-du-luoyang
+event_name: 孝文帝迁都洛阳
+event_years: 493–493
+accepted: []
+unlinked:
+- person_name_raw: 魏政
+  resolution: not_found
+  reason: KB 无 魏政 精确命中（或全部被时间窗排除）

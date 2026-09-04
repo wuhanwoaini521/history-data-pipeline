@@ -1,0 +1,29 @@
+{
+  "event_id": "event-jianzhong-zhi-luan",
+  "event_name": "建中之乱（泾原兵变、奉天之难）",
+  "event_years": "781–784",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 6,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-194619",
+      "person_name_raw": "朱泚",
+      "canonical_name": "朱泚",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-191752",
+      "person_name_raw": "王武俊",
+      "canonical_name": "王武俊",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

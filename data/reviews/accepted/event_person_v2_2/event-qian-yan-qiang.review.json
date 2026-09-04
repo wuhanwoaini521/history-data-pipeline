@@ -1,0 +1,29 @@
+{
+  "event_id": "event-qian-yan-qiang",
+  "event_name": "前燕崛起",
+  "event_years": "337–352",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-402973",
+      "person_name_raw": "慕容儁",
+      "canonical_name": "慕容儁",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-17120",
+      "person_name_raw": "慕容皝",
+      "canonical_name": "慕容皝",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

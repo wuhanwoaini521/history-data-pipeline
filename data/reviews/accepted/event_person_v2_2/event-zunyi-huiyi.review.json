@@ -1,0 +1,20 @@
+{
+  "event_id": "event-zunyi-huiyi",
+  "event_name": "遵义会议",
+  "event_years": "1935–1935",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "curated-person-mao-zedong",
+      "person_name_raw": "毛泽东",
+      "canonical_name": "毛泽东",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

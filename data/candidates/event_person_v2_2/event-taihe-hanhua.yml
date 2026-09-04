@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-taihe-hanhua
+event_name: 孝文帝汉化改革（改官制、禁胡服胡语、改汉姓）
+event_years: 494–499
+accepted: []
+unlinked:
+- person_name_raw: 元氏
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

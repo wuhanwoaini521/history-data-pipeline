@@ -1,0 +1,20 @@
+{
+  "event_id": "event-three-sun-liu-alliance",
+  "event_name": "孙刘联盟",
+  "event_years": "208–208",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-20609",
+      "person_name_raw": "孙权",
+      "canonical_name": "孙权",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

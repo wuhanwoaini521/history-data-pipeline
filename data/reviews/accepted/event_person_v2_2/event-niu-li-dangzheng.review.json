@@ -1,0 +1,29 @@
+{
+  "event_id": "event-niu-li-dangzheng",
+  "event_name": "牛李党争",
+  "event_years": "821–846",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-15161",
+      "person_name_raw": "李德裕",
+      "canonical_name": "李德裕",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-32054",
+      "person_name_raw": "牛僧孺",
+      "canonical_name": "牛僧孺",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

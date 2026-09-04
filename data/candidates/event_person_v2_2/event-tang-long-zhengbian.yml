@@ -1,0 +1,28 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-long-zhengbian
+event_name: 唐隆政变
+event_years: 710–710
+accepted:
+- person_id: ctext-person-840838
+  person_name_raw: 太平公主
+  canonical_name: 太平公主
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（太平公主→太平公主），事件时窗 710–710 内唯一存活候选，无身份冲突
+  event_evidence: 《唐隆政变》summary 明确出现 太平公主（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 中宗
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 唐隆
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 李隆
+  resolution: ambiguous
+  reason: 候选 10 人，无法唯一确认 → 不自动链接

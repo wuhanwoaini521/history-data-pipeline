@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-song-tongyi-zhanzheng
+event_name: 北宋统一战争
+event_years: 962–979
+accepted: []
+unlinked:
+- person_name_raw: 太平
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接
+- person_name_raw: 宋先
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

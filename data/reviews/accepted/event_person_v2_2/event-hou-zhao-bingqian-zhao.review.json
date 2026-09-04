@@ -1,0 +1,29 @@
+{
+  "event_id": "event-hou-zhao-bingqian-zhao",
+  "event_name": "后赵灭前赵",
+  "event_years": "329–329",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-31360",
+      "person_name_raw": "石勒",
+      "canonical_name": "石勒",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-31362",
+      "person_name_raw": "石虎",
+      "canonical_name": "石虎",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

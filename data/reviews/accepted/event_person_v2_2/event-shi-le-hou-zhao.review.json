@@ -1,0 +1,20 @@
+{
+  "event_id": "event-shi-le-hou-zhao",
+  "event_name": "石勒建立后赵",
+  "event_years": "319–319",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-31360",
+      "person_name_raw": "石勒",
+      "canonical_name": "石勒",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-sujun-zhi-luan
+event_name: 苏峻之乱
+event_years: 327–329
+accepted: []
+unlinked:
+- person_name_raw: 陶侃
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

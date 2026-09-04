@@ -1,0 +1,28 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhonghua-suweiai
+event_name: 中华苏维埃共和国成立（瑞金）
+event_years: 1931–1931
+accepted:
+- person_id: curated-person-mao-zedong
+  person_name_raw: 毛泽东
+  canonical_name: 毛泽东
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（毛泽东→毛泽东），事件时窗 1931–1931 内唯一存活候选，无身份冲突
+  event_evidence: 《中华苏维埃共和国成立（瑞金）》summary 明确出现 毛泽东（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 共和
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 成立
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 江西
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-wuqi-bianfa
+event_name: 吴起变法
+event_years: -386–-381
+accepted:
+- person_id: ctext-person-746424
+  person_name_raw: 楚悼王
+  canonical_name: 楚悼王
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（楚悼王→楚悼王），事件时窗 -386–-381 内唯一存活候选，无身份冲突
+  event_evidence: 《吴起变法》summary 明确出现 楚悼王（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

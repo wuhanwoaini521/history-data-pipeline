@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-li-jue-guo-si
+event_name: 李傕郭汜之乱
+event_years: 192–195
+accepted: []
+unlinked:
+- person_name_raw: 李傕
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 郭汜
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

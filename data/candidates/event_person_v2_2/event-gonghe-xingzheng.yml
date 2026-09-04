@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-gonghe-xingzheng
+event_name: 共和行政
+event_years: -841–-828
+accepted: []
+unlinked:
+- person_name_raw: 共和
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 周定
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

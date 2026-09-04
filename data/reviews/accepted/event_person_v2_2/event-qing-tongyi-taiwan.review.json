@@ -1,0 +1,20 @@
+{
+  "event_id": "event-qing-tongyi-taiwan",
+  "event_name": "清统一台湾（澎湖海战、郑氏投降）",
+  "event_years": "1683–1683",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-56824",
+      "person_name_raw": "施琅",
+      "canonical_name": "施琅",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

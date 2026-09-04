@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jingke-ci-qin
+event_name: 荆轲刺秦
+event_years: -227–-227
+accepted: []
+unlinked:
+- person_name_raw: 王政
+  resolution: ambiguous
+  reason: 候选 46 人，无法唯一确认 → 不自动链接

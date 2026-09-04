@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-nanjing-guominzhengfu
+event_name: 南京国民政府建立
+event_years: 1927–1927
+accepted: []
+unlinked:
+- person_name_raw: 成立
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

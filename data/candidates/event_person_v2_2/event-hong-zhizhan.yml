@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-hong-zhizhan
+event_name: 泓之战
+event_years: -638–-638
+accepted: []
+unlinked:
+- person_name_raw: 宋襄
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

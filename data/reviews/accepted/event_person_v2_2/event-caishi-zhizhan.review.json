@@ -1,0 +1,20 @@
+{
+  "event_id": "event-caishi-zhizhan",
+  "event_name": "采石之战",
+  "event_years": "1161–1161",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-8170",
+      "person_name_raw": "虞允文",
+      "canonical_name": "虞允文",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

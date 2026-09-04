@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-ping-qiuzi-sizhen
+event_name: 唐灭龟兹、安西四镇格局形成
+event_years: 648–648
+accepted: []
+unlinked:
+- person_name_raw: 程度
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接
+- person_name_raw: 阿史那
+  resolution: excluded_by_review
+  reason: 复合姓氏（阿史那社尔），非独立人名

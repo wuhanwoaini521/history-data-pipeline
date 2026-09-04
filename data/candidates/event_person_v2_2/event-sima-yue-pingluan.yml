@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-sima-yue-pingluan
+event_name: 东海王司马越定乱
+event_years: 306–306
+accepted: []
+unlinked:
+- person_name_raw: 光熙
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

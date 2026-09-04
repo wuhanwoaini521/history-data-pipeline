@@ -1,0 +1,29 @@
+{
+  "event_id": "event-wangmang-fuchu",
+  "event_name": "王莽复出辅政",
+  "event_years": "-1–-1",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-135028",
+      "person_name_raw": "王政君",
+      "canonical_name": "王政君",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-339519",
+      "person_name_raw": "王莽",
+      "canonical_name": "王莽",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

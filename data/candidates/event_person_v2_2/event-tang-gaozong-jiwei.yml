@@ -1,0 +1,21 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-gaozong-jiwei
+event_name: 唐高宗即位
+event_years: 649–649
+accepted: []
+unlinked:
+- person_name_raw: 上升
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 唐朝政
+  resolution: not_found
+  reason: KB 无 唐朝政 精确命中（或全部被时间窗排除）
+- person_name_raw: 唐高
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 李治
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接
+- person_name_raw: 武氏
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

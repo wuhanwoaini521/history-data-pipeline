@@ -1,0 +1,29 @@
+{
+  "event_id": "event-hanchu-yixingwang",
+  "event_name": "剪除异姓诸侯王",
+  "event_years": "-202–-195",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 7,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-16622",
+      "person_name_raw": "刘邦",
+      "canonical_name": "刘邦",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-22437",
+      "person_name_raw": "韩信",
+      "canonical_name": "韩信",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

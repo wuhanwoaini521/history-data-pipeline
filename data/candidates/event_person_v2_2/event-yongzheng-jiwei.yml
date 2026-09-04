@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yongzheng-jiwei
+event_name: 雍正帝即位
+event_years: 1722–1722
+accepted: []
+unlinked:
+- person_name_raw: 六十一
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名

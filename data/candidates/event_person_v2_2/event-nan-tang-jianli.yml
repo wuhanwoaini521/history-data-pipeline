@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-nan-tang-jianli
+event_name: 南唐建立（李昪代吴）
+event_years: 937–937
+accepted: []
+unlinked:
+- person_name_raw: 李昪
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 江淮
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 金陵
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

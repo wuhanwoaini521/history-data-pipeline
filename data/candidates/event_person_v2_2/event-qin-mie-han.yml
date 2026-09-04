@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-mie-han
+event_name: 秦灭韩
+event_years: -230–-230
+accepted: []
+unlinked:
+- person_name_raw: 王安
+  resolution: ambiguous
+  reason: 候选 29 人，无法唯一确认 → 不自动链接

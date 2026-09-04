@@ -1,0 +1,20 @@
+{
+  "event_id": "event-suzong-jiwei",
+  "event_name": "唐肃宗灵武即位",
+  "event_years": "756–756",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-62031",
+      "person_name_raw": "唐肃宗",
+      "canonical_name": "唐肃宗",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

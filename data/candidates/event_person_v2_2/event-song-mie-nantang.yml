@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-song-mie-nantang
+event_name: 北宋灭南唐
+event_years: 975–975
+accepted: []
+unlinked:
+- person_name_raw: 宋曹
+  resolution: not_found
+  reason: KB 无 宋曹 精确命中（或全部被时间窗排除）
+- person_name_raw: 李煜
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接

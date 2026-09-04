@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-baidatuan
+event_name: 百团大战
+event_years: 1940–1940
+accepted: []
+unlinked:
+- person_name_raw: 方文
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接

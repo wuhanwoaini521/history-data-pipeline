@@ -1,0 +1,20 @@
+{
+  "event_id": "event-guogong-fenlie-1927",
+  "event_name": "国共合作破裂（1927 年清党与分共）",
+  "event_years": "1927–1927",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "curated-person-chiang-kai-shek",
+      "person_name_raw": "蒋介石",
+      "canonical_name": "蒋介石",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

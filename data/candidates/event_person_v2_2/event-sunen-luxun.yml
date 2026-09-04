@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-sunen-luxun
+event_name: 孙恩卢循起义
+event_years: 399–411
+accepted: []
+unlinked:
+- person_name_raw: 隆安
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

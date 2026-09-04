@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuan-naiyan-zhi-luan
+event_name: 乃颜之乱（辽东宗王反元）
+event_years: 1287–1287
+accepted: []
+unlinked:
+- person_name_raw: 海都
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

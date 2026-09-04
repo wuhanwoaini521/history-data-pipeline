@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-bailianjiao-qiyi
+event_name: 川楚白莲教起义
+event_years: 1796–1804
+accepted: []
+unlinked:
+- person_name_raw: 方基
+  resolution: not_found
+  reason: KB 无 方基 精确命中（或全部被时间窗排除）

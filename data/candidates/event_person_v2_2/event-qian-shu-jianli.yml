@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qian-shu-jianli
+event_name: 前蜀建立（王建称帝）
+event_years: 907–907
+accepted: []
+unlinked:
+- person_name_raw: 王建
+  resolution: ambiguous
+  reason: 候选 15 人，无法唯一确认 → 不自动链接

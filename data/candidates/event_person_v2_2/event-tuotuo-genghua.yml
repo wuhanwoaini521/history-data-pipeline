@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tuotuo-genghua
+event_name: 脱脱更化（顺帝朝新政）
+event_years: 1340–1344
+accepted: []
+unlinked:
+- person_name_raw: 脱脱
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

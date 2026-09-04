@@ -1,0 +1,20 @@
+{
+  "event_id": "event-wangxiaobo-li-shun-qiyi",
+  "event_name": "王小波、李顺起义（四川）",
+  "event_years": "993–995",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-768940",
+      "person_name_raw": "王小波",
+      "canonical_name": "王小波",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

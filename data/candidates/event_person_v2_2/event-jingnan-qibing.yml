@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jingnan-qibing
+event_name: 靖难起兵（燕王举兵北平）
+event_years: 1399–1399
+accepted: []
+unlinked:
+- person_name_raw: 文元
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 朱棣
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

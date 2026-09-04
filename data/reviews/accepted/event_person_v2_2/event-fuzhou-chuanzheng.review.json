@@ -1,0 +1,20 @@
+{
+  "event_id": "event-fuzhou-chuanzheng",
+  "event_name": "福州船政局设立（马尾船政）",
+  "event_years": "1866–1866",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-54964",
+      "person_name_raw": "左宗棠",
+      "canonical_name": "左宗棠",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

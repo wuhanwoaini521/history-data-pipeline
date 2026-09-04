@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhengzhi-xieshang-huiyi
+event_name: 政治协商会议（旧政协）
+event_years: 1946–1946
+accepted: []
+unlinked:
+- person_name_raw: 和平
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

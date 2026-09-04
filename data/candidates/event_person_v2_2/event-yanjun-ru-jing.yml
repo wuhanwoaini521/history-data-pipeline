@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yanjun-ru-jing
+event_name: 燕军攻入南京、永乐帝即位
+event_years: 1402–1402
+accepted: []
+unlinked:
+- person_name_raw: 朱棣
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

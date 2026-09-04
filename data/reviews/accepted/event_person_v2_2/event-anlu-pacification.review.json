@@ -1,0 +1,10 @@
+{
+  "event_id": "event-anlu-pacification",
+  "event_name": "安史之乱平定",
+  "event_years": "763–763",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 0,
+  "accepted_links": []
+}

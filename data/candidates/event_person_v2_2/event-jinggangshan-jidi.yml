@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jinggangshan-jidi
+event_name: 井冈山根据地形成
+event_years: 1927–1928
+accepted: []
+unlinked:
+- person_name_raw: 朱德
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-weishui-zhi-meng
+event_name: 渭水之盟
+event_years: 626–626
+accepted: []
+unlinked:
+- person_name_raw: 唐政
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 武德
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

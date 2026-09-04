@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-han-yuandi-jiwei
+event_name: 汉元帝即位
+event_years: -48–-48
+accepted: []
+unlinked:
+- person_name_raw: 官政
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 王氏
+  resolution: ambiguous
+  reason: 候选 59 人，无法唯一确认 → 不自动链接

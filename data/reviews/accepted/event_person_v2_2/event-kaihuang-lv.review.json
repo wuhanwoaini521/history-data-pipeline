@@ -1,0 +1,20 @@
+{
+  "event_id": "event-kaihuang-lv",
+  "event_name": "开皇律制定",
+  "event_years": "581–583",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-803544",
+      "person_name_raw": "隋文帝",
+      "canonical_name": "隋文帝",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

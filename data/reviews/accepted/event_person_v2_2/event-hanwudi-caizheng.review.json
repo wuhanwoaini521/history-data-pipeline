@@ -1,0 +1,20 @@
+{
+  "event_id": "event-hanwudi-caizheng",
+  "event_name": "汉武帝财政集权（盐铁官营、均输平准、算缗告缗）",
+  "event_years": "-119–-110",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-482249",
+      "person_name_raw": "桑弘羊",
+      "canonical_name": "桑弘羊",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

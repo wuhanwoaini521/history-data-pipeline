@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-longxing-heyi
+event_name: 隆兴和议（宋金改名分、减岁币）
+event_years: 1164–1165
+accepted: []
+unlinked:
+- person_name_raw: 金格
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-ping-gaochang-ansixi
+event_name: 唐灭高昌、设安西都护府
+event_years: 640–640
+accepted: []
+unlinked:
+- person_name_raw: 高昌
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

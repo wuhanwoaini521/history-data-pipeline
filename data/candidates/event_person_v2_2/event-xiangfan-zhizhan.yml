@@ -1,0 +1,18 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-xiangfan-zhizhan
+event_name: 襄樊之战（襄阳失守）
+event_years: 1267–1273
+accepted: []
+unlinked:
+- person_name_raw: 咸淳
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 文焕
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 樊城
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 江中
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

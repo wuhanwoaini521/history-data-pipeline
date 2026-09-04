@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-manzhouguo-jianli
+event_name: 满洲国建立（日本扶持）
+event_years: 1932–1932
+accepted: []
+unlinked:
+- person_name_raw: 溥仪
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

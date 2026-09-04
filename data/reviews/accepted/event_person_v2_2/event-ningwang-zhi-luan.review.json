@@ -1,0 +1,29 @@
+{
+  "event_id": "event-ningwang-zhi-luan",
+  "event_name": "宁王之乱（朱宸濠起兵）",
+  "event_years": "1519–1519",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-67356",
+      "person_name_raw": "朱宸濠",
+      "canonical_name": "朱宸濠",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-30374",
+      "person_name_raw": "王守仁",
+      "canonical_name": "王守仁",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

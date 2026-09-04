@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-gaohuan-qibing
+event_name: 高欢起兵讨尔朱氏
+event_years: 531–534
+accepted: []
+unlinked:
+- person_name_raw: 宇文泰
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 朱氏
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

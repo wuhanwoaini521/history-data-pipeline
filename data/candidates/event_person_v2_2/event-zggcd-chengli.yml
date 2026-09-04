@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zggcd-chengli
+event_name: 中国共产党成立（中共一大）
+event_years: 1921–1921
+accepted: []
+unlinked:
+- person_name_raw: 党成
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

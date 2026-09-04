@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-li-zicheng-fazhan
+event_name: 李自成势力发展
+event_years: 1633–1643
+accepted:
+- person_id: cbdb-person-65627
+  person_name_raw: 李自成
+  canonical_name: 李自成
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（李自成→李自成），事件时窗 1633–1643 内唯一存活候选，无身份冲突
+  event_evidence: 《李自成势力发展》summary 明确出现 李自成（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

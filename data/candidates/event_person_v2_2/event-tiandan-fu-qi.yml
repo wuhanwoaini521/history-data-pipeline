@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tiandan-fu-qi
+event_name: 田单复齐
+event_years: -279–-279
+accepted: []
+unlinked:
+- person_name_raw: 七十
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名

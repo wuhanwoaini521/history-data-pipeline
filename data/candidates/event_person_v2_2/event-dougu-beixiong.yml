@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-dougu-beixiong
+event_name: 窦固窦宪北伐匈奴（燕然勒石）
+event_years: 89–91
+accepted: []
+unlinked:
+- person_name_raw: 耿秉
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

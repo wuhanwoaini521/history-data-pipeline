@@ -1,0 +1,20 @@
+{
+  "event_id": "event-weihaiwei-zhizhan",
+  "event_name": "威海卫之战（北洋海军覆没）",
+  "event_years": "1895–1895",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-58649",
+      "person_name_raw": "丁汝昌",
+      "canonical_name": "丁汝昌",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

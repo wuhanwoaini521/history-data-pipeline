@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jiangnan-zaochu
+event_name: 江南制造总局设立
+event_years: 1865–1865
+accepted: []
+unlinked:
+- person_name_raw: 江南
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

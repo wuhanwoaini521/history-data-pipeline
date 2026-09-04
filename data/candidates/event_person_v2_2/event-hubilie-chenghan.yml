@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-hubilie-chenghan
+event_name: 忽必烈称汗（与阿里不哥争位）
+event_years: 1260–1260
+accepted: []
+unlinked:
+- person_name_raw: 阿里不哥
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

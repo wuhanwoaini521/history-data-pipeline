@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-chongzhen-jiwei
+event_name: 崇祯帝即位、清除魏忠贤集团
+event_years: 1627–1628
+accepted: []
+unlinked:
+- person_name_raw: 魏忠
+  resolution: ambiguous
+  reason: 候选 6 人，无法唯一确认 → 不自动链接

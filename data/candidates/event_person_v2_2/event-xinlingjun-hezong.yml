@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-xinlingjun-hezong
+event_name: 信陵君合纵
+event_years: -247–-247
+accepted: []
+unlinked:
+- person_name_raw: 魏信
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

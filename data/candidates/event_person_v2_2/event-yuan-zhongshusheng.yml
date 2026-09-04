@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuan-zhongshusheng
+event_name: 元初中书省设立（中央政务中枢）
+event_years: 1260–1260
+accepted: []
+unlinked:
+- person_name_raw: 方行
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

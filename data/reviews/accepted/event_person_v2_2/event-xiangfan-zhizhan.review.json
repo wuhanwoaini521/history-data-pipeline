@@ -1,0 +1,10 @@
+{
+  "event_id": "event-xiangfan-zhizhan",
+  "event_name": "襄樊之战（襄阳失守）",
+  "event_years": "1267–1273",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": []
+}

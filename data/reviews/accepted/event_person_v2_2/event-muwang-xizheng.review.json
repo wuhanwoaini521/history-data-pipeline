@@ -1,0 +1,20 @@
+{
+  "event_id": "event-muwang-xizheng",
+  "event_name": "穆王西征",
+  "event_years": "-960–-960",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-533410",
+      "person_name_raw": "周穆王",
+      "canonical_name": "周穆王",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-bing-bashu
+event_name: 秦并巴蜀
+event_years: -316–-316
+accepted: []
+unlinked:
+- person_name_raw: 秦惠
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

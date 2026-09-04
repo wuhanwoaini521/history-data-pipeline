@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-xia-jianguo
+event_name: 夏朝建立（家天下）
+event_years: -2070–-2070
+accepted: []
+unlinked:
+- person_name_raw: 夏商
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 王位
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

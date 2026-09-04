@@ -1,0 +1,22 @@
+# China History Backbone V2.2 · Machine-Reviewed Major EventPerson (待 V2.3 人工放行)
+# 本目录不被 loader/backbone 扫描；正式 backbone 冻结 gate（events=618, event_person=200）不受影响。
+# 每行 people 字段与最终 schema 兼容；quality_status=candidate，需人工 review 后并入。
+event_id: event-tongmenghui-chengli
+event_years: 1905–1905
+machine_review: china-history-backbone-v2.2-machine
+quality_status: candidate
+people:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（孙中山→孙中山），事件时窗
+    1905–1905 内唯一存活候选，无身份冲突
+  event_evidence: 《中国同盟会成立（东京）》summary 明确出现 孙中山（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine

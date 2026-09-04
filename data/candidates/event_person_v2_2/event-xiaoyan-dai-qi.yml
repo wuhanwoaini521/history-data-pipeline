@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-xiaoyan-dai-qi
+event_name: 萧衍代齐、梁建立
+event_years: 502–502
+accepted: []
+unlinked:
+- person_name_raw: 五十
+  resolution: excluded_by_review
+  reason: 纯数字/计数词，非人名
+- person_name_raw: 侯景
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 清明
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

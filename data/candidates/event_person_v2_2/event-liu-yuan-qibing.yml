@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liu-yuan-qibing
+event_name: 刘渊起兵、汉赵政权建立
+event_years: 304–308
+accepted: []
+unlinked:
+- person_name_raw: 左部
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 石起
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

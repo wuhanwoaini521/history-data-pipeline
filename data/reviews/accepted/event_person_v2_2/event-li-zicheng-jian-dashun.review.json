@@ -1,0 +1,20 @@
+{
+  "event_id": "event-li-zicheng-jian-dashun",
+  "event_name": "李自成称帝、建立大顺",
+  "event_years": "1644–1644",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-65627",
+      "person_name_raw": "李自成",
+      "canonical_name": "李自成",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

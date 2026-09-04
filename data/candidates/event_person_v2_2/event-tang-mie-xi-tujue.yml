@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-tang-mie-xi-tujue
+event_name: 唐灭西突厥
+event_years: 657–657
+accepted: []
+unlinked:
+- person_name_raw: 大都
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

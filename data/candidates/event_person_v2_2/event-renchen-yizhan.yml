@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-renchen-yizhan
+event_name: 壬辰之役（第一次援朝、平壤大捷）
+event_years: 1592–1593
+accepted: []
+unlinked:
+- person_name_raw: 李如松
+  resolution: ambiguous
+  reason: 候选 7 人，无法唯一确认 → 不自动链接

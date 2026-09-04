@@ -1,0 +1,20 @@
+{
+  "event_id": "event-liubang-si",
+  "event_name": "汉高祖刘邦去世",
+  "event_years": "-195–-195",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-16622",
+      "person_name_raw": "刘邦",
+      "canonical_name": "刘邦",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

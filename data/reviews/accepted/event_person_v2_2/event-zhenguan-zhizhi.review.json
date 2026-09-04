@@ -1,0 +1,29 @@
+{
+  "event_id": "event-zhenguan-zhizhi",
+  "event_name": "贞观之治",
+  "event_years": "627–649",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 5,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30864",
+      "person_name_raw": "杜如晦",
+      "canonical_name": "杜如晦",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-15610",
+      "person_name_raw": "魏徵",
+      "canonical_name": "魏徵",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-diyici-zhifeng-zhanzheng
+event_name: 第一次直奉战争
+event_years: 1922–1922
+accepted: []
+unlinked:
+- person_name_raw: 文章
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

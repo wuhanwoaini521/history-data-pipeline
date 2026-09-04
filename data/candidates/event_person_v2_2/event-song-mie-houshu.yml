@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-song-mie-houshu
+event_name: 北宋灭后蜀
+event_years: 965–965
+accepted: []
+unlinked:
+- person_name_raw: 孟昶
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

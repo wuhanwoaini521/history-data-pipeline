@@ -1,0 +1,35 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-huangpu-junxiao
+event_name: 黄埔军校建立
+event_years: 1924–1924
+accepted:
+- person_id: curated-person-zhou-enlai
+  person_name_raw: 周恩来
+  canonical_name: 周恩来
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（周恩来→周恩来），事件时窗 1924–1924 内唯一存活候选，无身份冲突
+  event_evidence: 《黄埔军校建立》summary 明确出现 周恩来（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: curated-person-chiang-kai-shek
+  person_name_raw: 蒋介石
+  canonical_name: 蒋介石
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（蒋介石→蒋介石），事件时窗 1924–1924 内唯一存活候选，无身份冲突
+  event_evidence: 《黄埔军校建立》summary 明确出现 蒋介石（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 成立
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

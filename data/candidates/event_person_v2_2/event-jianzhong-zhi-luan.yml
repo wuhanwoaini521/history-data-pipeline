@@ -1,0 +1,44 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jianzhong-zhi-luan
+event_name: 建中之乱（泾原兵变、奉天之难）
+event_years: 781–784
+accepted:
+- person_id: cbdb-person-194619
+  person_name_raw: 朱泚
+  canonical_name: 朱泚
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（朱泚→朱泚），事件时窗 781–784 内唯一存活候选，无身份冲突
+  event_evidence: 《建中之乱（泾原兵变、奉天之难）》summary 明确出现 朱泚（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-191752
+  person_name_raw: 王武俊
+  canonical_name: 王武俊
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王武俊→王武俊），事件时窗 781–784 内唯一存活候选，无身份冲突
+  event_evidence: 《建中之乱（泾原兵变、奉天之难）》summary 明确出现 王武俊（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 朱滔
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 李希烈
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 李晟
+  resolution: ambiguous
+  reason: 候选 17 人，无法唯一确认 → 不自动链接
+- person_name_raw: 田悦
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

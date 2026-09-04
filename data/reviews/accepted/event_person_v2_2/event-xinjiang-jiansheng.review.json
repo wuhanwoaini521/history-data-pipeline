@@ -1,0 +1,20 @@
+{
+  "event_id": "event-xinjiang-jiansheng",
+  "event_name": "新疆建省",
+  "event_years": "1884–1884",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-54964",
+      "person_name_raw": "左宗棠",
+      "canonical_name": "左宗棠",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

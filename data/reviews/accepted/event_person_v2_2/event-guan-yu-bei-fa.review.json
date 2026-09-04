@@ -1,0 +1,29 @@
+{
+  "event_id": "event-guan-yu-bei-fa",
+  "event_name": "关羽北伐襄樊",
+  "event_years": "219–219",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-20609",
+      "person_name_raw": "孙权",
+      "canonical_name": "孙权",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-30257",
+      "person_name_raw": "曹操",
+      "canonical_name": "曹操",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

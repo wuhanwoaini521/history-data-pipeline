@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-li-jiqian-juxia
+event_name: 李继迁据夏州、党项势力兴起
+event_years: 985–997
+accepted: []
+unlinked:
+- person_name_raw: 夏政
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 雍熙
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

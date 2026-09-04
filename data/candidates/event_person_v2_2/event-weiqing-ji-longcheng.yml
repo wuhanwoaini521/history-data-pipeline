@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-weiqing-ji-longcheng
+event_name: 卫青首战龙城
+event_years: -129–-129
+accepted: []
+unlinked:
+- person_name_raw: 余三
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

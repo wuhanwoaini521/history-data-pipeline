@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-mie-zhao
+event_name: 秦灭赵
+event_years: -228–-228
+accepted: []
+unlinked:
+- person_name_raw: 王翦
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

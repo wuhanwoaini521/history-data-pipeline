@@ -1,0 +1,20 @@
+{
+  "event_id": "event-jin-qian-du-bian",
+  "event_name": "金迁都开封（中都陷蒙古）",
+  "event_years": "1214–1215",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-364088",
+      "person_name_raw": "金宣宗",
+      "canonical_name": "金宣宗",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

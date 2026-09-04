@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhongli-zhizhan
+event_name: 钟离之战
+event_years: 507–507
+accepted: []
+unlinked:
+- person_name_raw: 曹景宗
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

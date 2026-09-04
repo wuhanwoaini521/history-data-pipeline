@@ -1,0 +1,20 @@
+{
+  "event_id": "event-jin-wudi-beng",
+  "event_name": "晋武帝去世、惠帝即位",
+  "event_years": "290–290",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "curated-person-jia-nanfeng",
+      "person_name_raw": "贾后",
+      "canonical_name": "贾南风",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 0.95
+    }
+  ]
+}

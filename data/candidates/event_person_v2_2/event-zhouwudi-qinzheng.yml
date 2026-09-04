@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhouwudi-qinzheng
+event_name: 周武帝亲政与改革
+event_years: 572–578
+accepted: []
+unlinked:
+- person_name_raw: 周武
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接
+- person_name_raw: 德元
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

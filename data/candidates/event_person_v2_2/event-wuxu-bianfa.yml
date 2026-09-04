@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-wuxu-bianfa
+event_name: 戊戌变法（百日维新与政变）
+event_years: 1898–1898
+accepted:
+- person_id: curated-person-cixi-taihou
+  person_name_raw: 慈禧太后
+  canonical_name: 慈禧太后
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（慈禧太后→慈禧太后），事件时窗 1898–1898 内唯一存活候选，无身份冲突
+  event_evidence: 《戊戌变法（百日维新与政变）》summary 明确出现 慈禧太后（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

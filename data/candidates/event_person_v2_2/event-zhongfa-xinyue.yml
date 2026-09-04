@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhongfa-xinyue
+event_name: 《中法新约》签订
+event_years: 1885–1885
+accepted: []
+unlinked:
+- person_name_raw: 路通
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接

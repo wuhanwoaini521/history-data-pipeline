@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuanjia-beifa
+event_name: 元嘉北伐
+event_years: 430–452
+accepted: []
+unlinked:
+- person_name_raw: 元嘉
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 宋文
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接
+- person_name_raw: 宋江
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

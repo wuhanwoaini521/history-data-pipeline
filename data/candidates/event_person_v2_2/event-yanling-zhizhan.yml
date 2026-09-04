@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yanling-zhizhan
+event_name: 鄢陵之战
+event_years: -575–-575
+accepted:
+- person_id: ctext-person-443095
+  person_name_raw: 楚共王
+  canonical_name: 楚共王
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（楚共王→楚共王），事件时窗 -575–-575 内唯一存活候选，无身份冲突
+  event_evidence: 《鄢陵之战》summary 明确出现 楚共王（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-wugu-zhi-huo
+event_name: 巫蛊之祸
+event_years: -91–-91
+accepted: []
+unlinked:
+- person_name_raw: 江充
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

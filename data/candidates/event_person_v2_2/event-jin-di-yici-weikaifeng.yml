@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jin-di-yici-weikaifeng
+event_name: 金军第一次围攻开封
+event_years: 1126–1126
+accepted: []
+unlinked:
+- person_name_raw: 中山
+  resolution: not_found
+  reason: KB 无 中山 精确命中（或全部被时间窗排除）
+- person_name_raw: 宋都
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 靖康
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

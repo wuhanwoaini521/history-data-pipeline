@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-mie-chu
+event_name: 秦灭楚
+event_years: -224–-223
+accepted: []
+unlinked:
+- person_name_raw: 王政
+  resolution: ambiguous
+  reason: 候选 46 人，无法唯一确认 → 不自动链接

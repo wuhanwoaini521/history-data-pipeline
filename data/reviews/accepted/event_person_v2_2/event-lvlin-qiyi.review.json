@@ -1,0 +1,20 @@
+{
+  "event_id": "event-lvlin-qiyi",
+  "event_name": "绿林起义",
+  "event_years": "17–17",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-339519",
+      "person_name_raw": "王莽",
+      "canonical_name": "王莽",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

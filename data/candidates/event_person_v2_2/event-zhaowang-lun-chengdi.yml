@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhaowang-lun-chengdi
+event_name: 赵王伦篡位
+event_years: 301–301
+accepted: []
+unlinked:
+- person_name_raw: 王冏
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 王正
+  resolution: ambiguous
+  reason: 候选 14 人，无法唯一确认 → 不自动链接

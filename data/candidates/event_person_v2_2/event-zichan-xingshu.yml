@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zichan-xingshu
+event_name: 子产铸刑书
+event_years: -536–-536
+accepted: []
+unlinked:
+- person_name_raw: 于鼎
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

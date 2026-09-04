@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liubei-chengdi
+event_name: 刘备称帝、蜀汉建立
+event_years: 221–221
+accepted: []
+unlinked:
+- person_name_raw: 刘备
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 章武
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

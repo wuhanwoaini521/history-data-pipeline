@@ -1,0 +1,25 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-guan-dong-tao-dong
+event_name: 关东诸侯讨董
+event_years: 190–190
+accepted:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  canonical_name: 曹操
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（曹操→曹操），事件时窗 190–190 内唯一存活候选，无身份冲突
+  event_evidence: 《关东诸侯讨董》summary 明确出现 曹操（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 董卓
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 袁绍
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

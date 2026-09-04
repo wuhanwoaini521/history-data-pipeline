@@ -1,0 +1,15 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-dingyou-zailuan
+event_name: 丁酉再乱（第二次战争与结束）
+event_years: 1597–1598
+accepted: []
+unlinked:
+- person_name_raw: 李舜臣
+  resolution: ambiguous
+  reason: 候选 5 人，无法唯一确认 → 不自动链接
+- person_name_raw: 梁海
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 秀吉
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

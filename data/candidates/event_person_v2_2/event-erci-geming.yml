@@ -1,0 +1,22 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-erci-geming
+event_name: 二次革命（讨袁战争）
+event_years: 1913–1913
+accepted:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（孙中山→孙中山），事件时窗 1913–1913 内唯一存活候选，无身份冲突
+  event_evidence: 《二次革命（讨袁战争）》summary 明确出现 孙中山（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 江西
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

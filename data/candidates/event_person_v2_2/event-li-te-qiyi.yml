@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-li-te-qiyi
+event_name: 李特流民起义（益州）
+event_years: 301–303
+accepted: []
+unlinked:
+- person_name_raw: 李雄
+  resolution: ambiguous
+  reason: 候选 26 人，无法唯一确认 → 不自动链接

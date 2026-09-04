@@ -1,0 +1,10 @@
+{
+  "event_id": "event-chimei-qiyi",
+  "event_name": "赤眉起义",
+  "event_years": "18–18",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": []
+}

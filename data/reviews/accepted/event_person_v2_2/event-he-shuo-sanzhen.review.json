@@ -1,0 +1,20 @@
+{
+  "event_id": "event-he-shuo-sanzhen",
+  "event_name": "河朔三镇割据格局形成",
+  "event_years": "763–781",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-146183",
+      "person_name_raw": "田承嗣",
+      "canonical_name": "田承嗣",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

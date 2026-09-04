@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-ming-zheng-annan
+event_name: 明征安南、设交趾布政司
+event_years: 1406–1407
+accepted: []
+unlinked:
+- person_name_raw: 司直
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 胡朝
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

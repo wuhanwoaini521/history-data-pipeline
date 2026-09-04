@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-wangzhi-yousha
+event_name: 胡宗宪诱诛王直
+event_years: 1557–1558
+accepted: []
+unlinked:
+- person_name_raw: 王直
+  resolution: ambiguous
+  reason: 候选 9 人，无法唯一确认 → 不自动链接
+- person_name_raw: 胡宗
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

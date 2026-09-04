@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-linan-touxiang
+event_name: 元军攻陷临安、南宋恭帝出降
+event_years: 1275–1276
+accepted: []
+unlinked:
+- person_name_raw: 安城
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 宋恭
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-henan-zhizhan
+event_name: 河南之战（收复河套）
+event_years: -127–-127
+accepted: []
+unlinked:
+- person_name_raw: 方城
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

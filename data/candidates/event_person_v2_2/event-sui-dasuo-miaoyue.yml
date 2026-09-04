@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-sui-dasuo-miaoyue
+event_name: 大索貌阅、输籍定样
+event_years: 585–585
+accepted:
+- person_id: ctext-person-803544
+  person_name_raw: 隋文帝
+  canonical_name: 隋文帝
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（隋文帝→隋文帝），事件时窗 585–585 内唯一存活候选，无身份冲突
+  event_evidence: 《大索貌阅、输籍定样》summary 明确出现 隋文帝（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

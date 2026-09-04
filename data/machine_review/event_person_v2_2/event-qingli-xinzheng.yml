@@ -1,0 +1,36 @@
+# China History Backbone V2.2 · Machine-Reviewed Major EventPerson (待 V2.3 人工放行)
+# 本目录不被 loader/backbone 扫描；正式 backbone 冻结 gate（events=618, event_person=200）不受影响。
+# 每行 people 字段与最终 schema 兼容；quality_status=candidate，需人工 review 后并入。
+event_id: event-qingli-xinzheng
+event_years: 1043–1044
+machine_review: china-history-backbone-v2.2-machine
+quality_status: candidate
+people:
+- person_id: cbdb-person-1762
+  person_name_raw: 王安石
+  canonical_name: 王安石
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王安石→王安石），事件时窗
+    1043–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历新政》summary 明确出现 王安石（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-8043
+  person_name_raw: 范仲淹
+  canonical_name: 范仲淹
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（范仲淹→范仲淹），事件时窗
+    1043–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历新政》summary 明确出现 范仲淹（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine

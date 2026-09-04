@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-houjing-po-taicheng
+event_name: 侯景破台城、梁武帝去世
+event_years: 549–549
+accepted: []
+unlinked:
+- person_name_raw: 侯景
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 梁武
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

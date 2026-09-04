@@ -1,0 +1,20 @@
+{
+  "event_id": "event-qidan-mie-houjin",
+  "event_name": "契丹灭后晋（辽改国号大辽）",
+  "event_years": "946–947",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-43077",
+      "person_name_raw": "耶律德光",
+      "canonical_name": "耶律德光",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

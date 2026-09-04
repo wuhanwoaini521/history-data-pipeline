@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yangxuanggan-qibing
+event_name: 杨玄感起兵
+event_years: 613–613
+accepted: []
+unlinked:
+- person_name_raw: 宇文述
+  resolution: not_found
+  reason: KB 无 宇文述 精确命中（或全部被时间窗排除）

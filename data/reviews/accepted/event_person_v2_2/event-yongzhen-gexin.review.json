@@ -1,0 +1,38 @@
+{
+  "event_id": "event-yongzhen-gexin",
+  "event_name": "永贞革新",
+  "event_years": "805–805",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 4,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-3605",
+      "person_name_raw": "柳宗元",
+      "canonical_name": "柳宗元",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-189642",
+      "person_name_raw": "王伾",
+      "canonical_name": "王伾",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-33597",
+      "person_name_raw": "王叔文",
+      "canonical_name": "王叔文",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

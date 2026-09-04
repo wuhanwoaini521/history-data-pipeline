@@ -1,0 +1,22 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-sui-keju-chuangjian
+event_name: 科举制度开创（废九品中正、设进士科）
+event_years: 581–605
+accepted:
+- person_id: ctext-person-803544
+  person_name_raw: 隋文帝
+  canonical_name: 隋文帝
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（隋文帝→隋文帝），事件时窗 581–605 内唯一存活候选，无身份冲突
+  event_evidence: 《科举制度开创（废九品中正、设进士科）》summary 明确出现 隋文帝（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 中正
+  resolution: not_found
+  reason: KB 无 中正 精确命中（或全部被时间窗排除）

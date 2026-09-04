@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jiangwei-beifa
+event_name: 姜维北伐
+event_years: 247–262
+accepted: []
+unlinked:
+- person_name_raw: 耀年
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

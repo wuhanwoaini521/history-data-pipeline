@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-liao-miewang
+event_name: 金灭辽（天祚帝被俘）
+event_years: 1122–1125
+accepted: []
+unlinked:
+- person_name_raw: 燕京
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

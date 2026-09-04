@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yitiao-bianfa
+event_name: 一条鞭法推广（赋役折银）
+event_years: 1581–1581
+accepted: []
+unlinked:
+- person_name_raw: 向全
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

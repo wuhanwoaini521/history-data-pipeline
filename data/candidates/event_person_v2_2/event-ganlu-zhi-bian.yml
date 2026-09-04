@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-ganlu-zhi-bian
+event_name: 甘露之变
+event_years: 835–835
+accepted: []
+unlinked:
+- person_name_raw: 甘露
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

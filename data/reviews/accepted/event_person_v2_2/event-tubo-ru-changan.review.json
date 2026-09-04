@@ -1,0 +1,20 @@
+{
+  "event_id": "event-tubo-ru-changan",
+  "event_name": "吐蕃攻入长安",
+  "event_years": "763–763",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-94373",
+      "person_name_raw": "郭子仪",
+      "canonical_name": "郭子仪",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "event-ming-ping-yunnan",
+  "event_name": "明军平定云南",
+  "event_years": "1381–1382",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 3,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-66288",
+      "person_name_raw": "沐英",
+      "canonical_name": "沐英",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

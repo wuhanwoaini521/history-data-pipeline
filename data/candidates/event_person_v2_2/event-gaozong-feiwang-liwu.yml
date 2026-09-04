@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-gaozong-feiwang-liwu
+event_name: 高宗废王立武、长孙无忌失势
+event_years: 655–659
+accepted: []
+unlinked:
+- person_name_raw: 武昭
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 王立
+  resolution: ambiguous
+  reason: 候选 9 人，无法唯一确认 → 不自动链接

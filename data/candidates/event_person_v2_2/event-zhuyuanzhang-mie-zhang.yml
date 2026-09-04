@@ -1,0 +1,35 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-zhuyuanzhang-mie-zhang
+event_name: 朱元璋灭张士诚
+event_years: 1366–1367
+accepted:
+- person_id: cbdb-person-66291
+  person_name_raw: 常遇春
+  canonical_name: 常遇春
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（常遇春→常遇春），事件时窗 1366–1367 内唯一存活候选，无身份冲突
+  event_evidence: 《朱元璋灭张士诚》summary 明确出现 常遇春（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（朱元璋→朱元璋），事件时窗 1366–1367 内唯一存活候选，无身份冲突
+  event_evidence: 《朱元璋灭张士诚》summary 明确出现 朱元璋（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 平江
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

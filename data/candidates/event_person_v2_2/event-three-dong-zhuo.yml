@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-three-dong-zhuo
+event_name: 董卓进京
+event_years: 189–189
+accepted: []
+unlinked:
+- person_name_raw: 董卓
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

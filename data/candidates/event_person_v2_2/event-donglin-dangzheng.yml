@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-donglin-dangzheng
+event_name: 东林党争
+event_years: 1604–1627
+accepted: []
+unlinked:
+- person_name_raw: 及宦
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

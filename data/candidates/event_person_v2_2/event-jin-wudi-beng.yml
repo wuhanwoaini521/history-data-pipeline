@@ -1,0 +1,22 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-jin-wudi-beng
+event_name: 晋武帝去世、惠帝即位
+event_years: 290–290
+accepted:
+- person_id: curated-person-jia-nanfeng
+  person_name_raw: 贾后
+  canonical_name: 贾南风
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.95
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（贾后→贾南风），事件时窗 290–290 内唯一存活候选，无身份冲突
+  event_evidence: 《晋武帝去世、惠帝即位》summary 明确出现 贾后（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked:
+- person_name_raw: 熙元
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

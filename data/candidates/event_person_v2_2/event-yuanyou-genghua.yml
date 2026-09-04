@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuanyou-genghua
+event_name: 元祐更化（司马光执政、罢新法）
+event_years: 1086–1089
+accepted: []
+unlinked:
+- person_name_raw: 元祐
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

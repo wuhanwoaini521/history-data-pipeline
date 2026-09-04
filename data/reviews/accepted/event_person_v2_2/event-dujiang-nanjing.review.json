@@ -1,0 +1,10 @@
+{
+  "event_id": "event-dujiang-nanjing",
+  "event_name": "渡江战役与南京易手（国民政府南迁）",
+  "event_years": "1949–1949",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 1,
+  "accepted_links": []
+}

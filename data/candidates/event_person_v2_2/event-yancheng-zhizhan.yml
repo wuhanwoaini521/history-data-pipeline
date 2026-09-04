@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yancheng-zhizhan
+event_name: 郾城之战（岳飞北伐）
+event_years: 1140–1140
+accepted: []
+unlinked:
+- person_name_raw: 重甲
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接
+- person_name_raw: 金字
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

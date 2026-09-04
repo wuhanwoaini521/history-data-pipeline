@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-mongol-mie-dali
+event_name: 蒙古灭大理（征宋西南）
+event_years: 1253–1254
+accepted: []
+unlinked:
+- person_name_raw: 段氏
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

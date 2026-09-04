@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-qin-shutongwen
+event_name: 书同文（统一文字）
+event_years: -221–-221
+accepted: []
+unlinked:
+- person_name_raw: 施之
+  resolution: excluded_by_review
+  reason: 「措施之一」助词，非人名

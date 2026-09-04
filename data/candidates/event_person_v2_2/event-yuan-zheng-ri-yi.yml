@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-yuan-zheng-ri-yi
+event_name: 元朝第一次征日（文永之役）
+event_years: 1274–1274
+accepted: []
+unlinked:
+- person_name_raw: 文永
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

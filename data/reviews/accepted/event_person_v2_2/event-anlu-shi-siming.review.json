@@ -1,0 +1,29 @@
+{
+  "event_id": "event-anlu-shi-siming",
+  "event_name": "史思明再叛",
+  "event_years": "759–761",
+  "schema_version": 1,
+  "review_status": "accepted_by_machine_pending_human",
+  "reviewed_by": "china-history-backbone-v2.2-machine",
+  "candidates_count": 2,
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-32814",
+      "person_name_raw": "史思明",
+      "canonical_name": "史思明",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    },
+    {
+      "person_id": "cbdb-person-379873",
+      "person_name_raw": "安禄山",
+      "canonical_name": "安禄山",
+      "role": "participant",
+      "resolution": "exact",
+      "link_quality_status": "reviewed",
+      "link_confidence": 1.0
+    }
+  ]
+}

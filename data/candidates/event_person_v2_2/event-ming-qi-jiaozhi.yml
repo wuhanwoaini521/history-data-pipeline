@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-ming-qi-jiaozhi
+event_name: 明弃交趾（撤军还安南）
+event_years: 1427–1427
+accepted: []
+unlinked:
+- person_name_raw: 宣德
+  resolution: low_confidence
+  reason: 仅 2 字名且无生卒时间证据 → 低置信，未自动链接

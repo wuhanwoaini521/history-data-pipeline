@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-bi-zhizhan
+event_name: 邲之战
+event_years: -597–-597
+accepted: []
+unlinked:
+- person_name_raw: 王大
+  resolution: ambiguous
+  reason: 候选 4 人，无法唯一确认 → 不自动链接

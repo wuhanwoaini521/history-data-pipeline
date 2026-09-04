@@ -1,0 +1,22 @@
+# China History Backbone V2.2 · Machine-Reviewed Major EventPerson (待 V2.3 人工放行)
+# 本目录不被 loader/backbone 扫描；正式 backbone 冻结 gate（events=618, event_person=200）不受影响。
+# 每行 people 字段与最终 schema 兼容；quality_status=candidate，需人工 review 后并入。
+event_id: event-han-liner-chengdi
+event_years: 1355–1355
+machine_review: china-history-backbone-v2.2-machine
+quality_status: candidate
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（朱元璋→朱元璋），事件时窗
+    1355–1355 内唯一存活候选，无身份冲突
+  event_evidence: 《韩林儿称帝（小明王、龙凤政权）》summary 明确出现 朱元璋（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine

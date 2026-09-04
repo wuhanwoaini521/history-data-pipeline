@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-shaoxing-heyi
+event_name: 绍兴和议（宋金划淮为界）
+event_years: 1141–1142
+accepted: []
+unlinked:
+- person_name_raw: 向金
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接
+- person_name_raw: 金第
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

@@ -1,0 +1,19 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-hanwudi-caizheng
+event_name: 汉武帝财政集权（盐铁官营、均输平准、算缗告缗）
+event_years: -119–-110
+accepted:
+- person_id: ctext-person-482249
+  person_name_raw: 桑弘羊
+  canonical_name: 桑弘羊
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（桑弘羊→桑弘羊），事件时窗 -119–-110 内唯一存活候选，无身份冲突
+  event_evidence: 《汉武帝财政集权（盐铁官营、均输平准、算缗告缗）》summary 明确出现 桑弘羊（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+unlinked: []

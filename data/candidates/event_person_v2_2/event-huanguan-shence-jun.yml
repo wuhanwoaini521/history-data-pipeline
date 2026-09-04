@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-huanguan-shence-jun
+event_name: 宦官统领神策军（神策中尉制度确立）
+event_years: 796–806
+accepted: []
+unlinked:
+- person_name_raw: 唐中
+  resolution: ambiguous
+  reason: 候选 3 人，无法唯一确认 → 不自动链接

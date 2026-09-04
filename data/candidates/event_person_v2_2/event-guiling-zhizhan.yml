@@ -1,0 +1,9 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-guiling-zhizhan
+event_name: 桂陵之战
+event_years: -354–-353
+accepted: []
+unlinked:
+- person_name_raw: 于桂
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接

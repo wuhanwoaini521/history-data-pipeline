@@ -1,0 +1,12 @@
+# V2.2 Major EventPerson — machine candidates
+event_id: event-huai-xi-zhi-zhan
+event_name: 淮西之战（李愬雪夜入蔡州）
+event_years: 817–817
+accepted: []
+unlinked:
+- person_name_raw: 李愬
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
+- person_name_raw: 裴度
+  resolution: ambiguous
+  reason: 候选 2 人，无法唯一确认 → 不自动链接
