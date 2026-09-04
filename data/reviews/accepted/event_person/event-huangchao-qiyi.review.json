@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-huangchao-qiyi",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-3409",
+      "person_name_raw": "黄巢",
+      "role": "initiator",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-189295",
+      "person_name_raw": "唐僖宗",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-18316",
+      "person_name_raw": "李克用",
+      "role": "commander",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "朱温",
+      "resolution": "not_found",
+      "reason": "KB 无 朱温/朱全忠（仅 朱溫舒/其 后缀异名）"
+    }
+  ]
+}

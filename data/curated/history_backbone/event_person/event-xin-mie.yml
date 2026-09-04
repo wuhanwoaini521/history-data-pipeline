@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-xin-mie
+people:
+- person_id: cbdb-person-339519
+  person_name_raw: 王莽
+  canonical_name: 王莽
+  role: victim
+  role_zh_cn: 新朝末主（被杀）
+  side: 新
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（王莽）；事件时段 event-xin-mie 内人物活跃；无冲突
+  event_evidence: 王莽（新朝末主（被杀））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-24661
+  person_name_raw: 刘秀
+  canonical_name: 劉秀
+  role: commander
+  role_zh_cn: 昆阳之战破莽军主将
+  side: 绿林
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（劉秀）；事件时段 event-xin-mie 内人物活跃；无冲突
+  event_evidence: 刘秀（昆阳之战破莽军主将）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

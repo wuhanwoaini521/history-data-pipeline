@@ -1,0 +1,20 @@
+event_id: event-changping-zhizhan
+accepted:
+- - person_id: cbdb-person-416324
+    person_name_raw: 白起
+    canonical_name: 白起
+    role: commander
+    role_zh_cn: 秦军主将
+    side: 秦
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（白起）；事件时段 event-changping-zhizhan 内人物活跃；无冲突
+    event_evidence: 白起（秦军主将）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 赵括
+  resolution: not_found
+  reason: KB 仅 趙括大/趙括夫 后缀异名，无 赵括 本体

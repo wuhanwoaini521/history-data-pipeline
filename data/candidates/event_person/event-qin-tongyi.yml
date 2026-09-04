@@ -1,0 +1,20 @@
+event_id: event-qin-tongyi
+accepted:
+- - person_id: cbdb-person-562723
+    person_name_raw: 嬴政
+    canonical_name: 嬴政
+    role: initiator
+    role_zh_cn: 完成统一（秦始皇）
+    side: 秦
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（嬴政）；事件时段 event-qin-tongyi 内人物活跃；无冲突
+    event_evidence: 嬴政（完成统一（秦始皇））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 李斯
+  resolution: not_found
+  reason: KB 仅 李斯佺/全/讓/援/義 等后缀异名，无 李斯 本体

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-diyici-yapian-zhanzheng",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-54819",
+      "person_name_raw": "林则徐",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-64991",
+      "person_name_raw": "道光帝",
+      "role": "ruler",
+      "resolution": "exact"
+    }
+  ]
+}

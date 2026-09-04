@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-beizhou-mie-beiqi
+people:
+- person_id: cbdb-person-31773
+  person_name_raw: 北周武帝
+  canonical_name: 宇文邕(北周武帝)
+  role: commander
+  role_zh_cn: 灭齐决策者
+  side: 北周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（宇文邕(北周武帝)）；事件时段 event-beizhou-mie-beiqi 内人物活跃；lifespan 542-578
+  event_evidence: 北周武帝（灭齐决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-339604
+  person_name_raw: 高纬
+  canonical_name: 高緯
+  role: victim
+  role_zh_cn: 北齐后主（被俘）
+  side: 北齐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（高緯）；事件时段 event-beizhou-mie-beiqi 内人物活跃；姓名唯一匹配；KB dynasty 字段异常
+  event_evidence: 高纬（北齐后主（被俘））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

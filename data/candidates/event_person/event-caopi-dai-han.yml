@@ -1,0 +1,31 @@
+event_id: event-caopi-dai-han
+accepted:
+- - person_id: cbdb-person-30261
+    person_name_raw: 曹丕
+    canonical_name: 曹丕
+    role: initiator
+    role_zh_cn: 代汉称帝
+    side: 曹魏
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（曹丕）；事件时段 event-caopi-dai-han 内人物活跃；lifespan 188-227 dynasty-26
+    event_evidence: 曹丕（代汉称帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-30267
+    person_name_raw: 汉献帝
+    canonical_name: 劉協
+    role: victim
+    role_zh_cn: 禅让退位
+    side: 东汉
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（劉協）；事件时段 event-caopi-dai-han 内人物活跃；lifespan 190-234
+    event_evidence: 汉献帝（禅让退位）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

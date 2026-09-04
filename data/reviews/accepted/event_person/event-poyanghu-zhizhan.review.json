@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-poyanghu-zhizhan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30148",
+      "person_name_raw": "朱元璋",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-66246",
+      "person_name_raw": "陈友谅",
+      "role": "commander",
+      "resolution": "exact"
+    }
+  ]
+}

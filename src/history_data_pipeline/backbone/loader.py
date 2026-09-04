@@ -145,5 +145,36 @@ def load_backbone(root: Path) -> Backbone:
     backbone = Backbone(root=root, taxonomy_dir=taxonomy_dir)
     _load_taxonomy(backbone)
     _load_events(backbone)
+    _merge_external_event_person(backbone)
     _load_stories(backbone)
     return backbone
+
+
+def _merge_external_event_person(backbone: Backbone) -> None:
+    """V2.1：并入独立 V2 层 Accepted EventPerson（data/curated/history_backbone/event_person/）。
+
+    V1 Event YAML（events/）保持冻结；本层为 V2 扩展源。同一 (event_id, person_id)
+    以内联为主、外部为补（不重复插入）。
+    """
+    store_dir = backbone.root / "data" / "curated" / "history_backbone" / "event_person"
+    if not store_dir.exists():
+        return
+    by_id = {row["id"]: row for row in backbone.events}
+    for path in _iter_yaml_files(store_dir):
+        doc = read_yaml(path)
+        eid = doc.get("event_id")
+        if eid not in by_id:
+            continue
+        existing = {p.get("person_id") for p in (by_id[eid].get("people") or [])}
+        people = by_id[eid].setdefault("people", [])
+        for person in doc.get("people", []):
+            if person.get("person_id") and person["person_id"] not in existing:
+                # V1 event.schema.json 冻结：只并入 schema 兼容字段；
+                # identity/event_evidence/resolution 等完整性字段保留在 store 与 reviews（§55 provenance）。
+                inline = {k: person[k] for k in (
+                    "person_id", "person_name_raw", "role", "role_zh_cn", "side", "importance",
+                    "link_status", "link_quality_status", "link_confidence", "review_note"
+                ) if k in person}
+                inline["review_note"] = (inline.get("review_note") or "") + f" [V2.1 source={path.name}]"
+                people.append(inline)
+                existing.add(person["person_id"])

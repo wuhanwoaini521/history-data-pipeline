@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-tang-jianguo
+people:
+- person_id: cbdb-person-13059
+  person_name_raw: 唐高祖
+  canonical_name: 李淵(唐高祖)
+  role: initiator
+  role_zh_cn: 建唐之主
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李淵(唐高祖)）；事件时段 event-tang-jianguo 内人物活跃；lifespan 566-635 dynasty-6
+  event_evidence: 唐高祖（建唐之主）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-13060
+  person_name_raw: 李世民
+  canonical_name: 李世民(唐太宗)
+  role: commander
+  role_zh_cn: 开国征战核心
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李世民(唐太宗)）；事件时段 event-tang-jianguo 内人物活跃；lifespan 598-649 dynasty-6
+  event_evidence: 李世民（开国征战核心）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

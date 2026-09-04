@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-sanjia-fenjin",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-532638",
+      "person_name_raw": "周威烈王",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "ctext-person-692385",
+      "person_name_raw": "魏文侯",
+      "role": "participant",
+      "resolution": "exact"
+    }
+  ]
+}

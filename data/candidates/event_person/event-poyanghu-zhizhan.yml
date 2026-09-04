@@ -1,0 +1,31 @@
+event_id: event-poyanghu-zhizhan
+accepted:
+- - person_id: cbdb-person-30148
+    person_name_raw: 朱元璋
+    canonical_name: 朱元璋
+    role: commander
+    role_zh_cn: 决战指挥者
+    side: 朱元璋势力
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（朱元璋）；事件时段 event-poyanghu-zhizhan 内人物活跃；lifespan 1328-1398
+    event_evidence: 朱元璋（决战指挥者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-66246
+    person_name_raw: 陈友谅
+    canonical_name: 陳友諒
+    role: commander
+    role_zh_cn: 汉政权主
+    side: 大汉
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（陳友諒）；事件时段 event-poyanghu-zhizhan 内人物活跃；lifespan 1320-1363
+    event_evidence: 陈友谅（汉政权主）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

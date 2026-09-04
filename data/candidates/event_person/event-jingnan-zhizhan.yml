@@ -1,0 +1,31 @@
+event_id: event-jingnan-zhizhan
+accepted:
+- - person_id: cbdb-person-30151
+    person_name_raw: 朱棣
+    canonical_name: 朱棣
+    role: initiator
+    role_zh_cn: 靖难起兵者
+    side: 明
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（朱棣）；事件时段 event-jingnan-zhizhan 内人物活跃；lifespan 1360-1424 dynasty-19
+    event_evidence: 朱棣（靖难起兵者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-30150
+    person_name_raw: 建文帝
+    canonical_name: 朱允炆
+    role: opponent
+    role_zh_cn: 被推翻皇帝
+    side: 明
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（朱允炆）；事件时段 event-jingnan-zhizhan 内人物活跃；无冲突
+    event_evidence: 建文帝（被推翻皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

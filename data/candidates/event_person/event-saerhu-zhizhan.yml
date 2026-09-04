@@ -1,0 +1,31 @@
+event_id: event-saerhu-zhizhan
+accepted:
+- - person_id: cbdb-person-66013
+    person_name_raw: 努尔哈赤
+    canonical_name: 愛新覺羅努爾哈赤
+    role: commander
+    role_zh_cn: 后金统帅
+    side: 后金
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅努爾哈赤）；事件时段 event-saerhu-zhizhan 内人物活跃；lifespan 1559-1626
+    event_evidence: 努尔哈赤（后金统帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-65968
+    person_name_raw: 杨镐
+    canonical_name: 楊鎬
+    role: commander
+    role_zh_cn: 明军四路总指挥
+    side: 明
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（楊鎬）；事件时段 event-saerhu-zhizhan 内人物活跃；death 1629 dynasty-19
+    event_evidence: 杨镐（明军四路总指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

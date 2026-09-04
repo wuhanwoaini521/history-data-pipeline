@@ -1,0 +1,48 @@
+event_id: event-jingkang-zhi-bian
+accepted:
+- - person_id: cbdb-person-9009
+    person_name_raw: 宋钦宗
+    canonical_name: 趙桓
+    role: victim
+    role_zh_cn: 被俘皇帝
+    side: 北宋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（趙桓）；事件时段 event-jingkang-zhi-bian 内人物活跃；lifespan 1101-1161 dynasty-15
+    event_evidence: 宋钦宗（被俘皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-39892
+    person_name_raw: 完颜宗翰
+    canonical_name: 完顏宗翰
+    role: commander
+    role_zh_cn: 围汴金军主帅
+    side: 金
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（完顏宗翰）；事件时段 event-jingkang-zhi-bian 内人物活跃；cbdb 为主；KB dynasty 字段异常
+    event_evidence: 完颜宗翰（围汴金军主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-556531
+    person_name_raw: 完颜宗望
+    canonical_name: 完顏宗望
+    role: commander
+    role_zh_cn: 围汴金军主帅
+    side: 金
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（完顏宗望）；事件时段 event-jingkang-zhi-bian 内人物活跃；dynasty-17
+    event_evidence: 完颜宗望（围汴金军主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 宋徽宗
+  resolution: not_found
+  reason: KB 无 赵佶/宋徽宗（仅其女/妃等亲属记录）

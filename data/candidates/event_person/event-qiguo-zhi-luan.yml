@@ -1,0 +1,48 @@
+event_id: event-qiguo-zhi-luan
+accepted:
+- - person_id: ctext-person-647582
+    person_name_raw: 汉景帝
+    canonical_name: 漢景帝
+    role: ruler
+    role_zh_cn: 平叛决策者
+    side: 西汉
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（漢景帝）；事件时段 event-qiguo-zhi-luan 内人物活跃；无冲突
+    event_evidence: 汉景帝（平叛决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-462464
+    person_name_raw: 晁错
+    canonical_name: 晁錯
+    role: official
+    role_zh_cn: 削藩主张者
+    side: 西汉
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（晁錯）；事件时段 event-qiguo-zhi-luan 内人物活跃；dynasty-29 西汉，与事件时段相符
+    event_evidence: 晁错（削藩主张者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: ctext-person-865369
+    person_name_raw: 周亚夫
+    canonical_name: 周亞夫
+    role: commander
+    role_zh_cn: 平叛主帅
+    side: 西汉
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（周亞夫）；事件时段 event-qiguo-zhi-luan 内人物活跃；无冲突
+    event_evidence: 周亚夫（平叛主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 吴王刘濞
+  resolution: not_found
+  reason: KB 无 刘濞

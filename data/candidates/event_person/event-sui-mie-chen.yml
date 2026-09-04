@@ -1,0 +1,45 @@
+event_id: event-sui-mie-chen
+accepted:
+- - person_id: cbdb-person-30956
+    person_name_raw: 杨坚
+    canonical_name: 楊堅
+    role: ruler
+    role_zh_cn: 灭陈决策者
+    side: 隋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（楊堅）；事件时段 event-sui-mie-chen 内人物活跃；无冲突
+    event_evidence: 杨坚（灭陈决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-30957
+    person_name_raw: 杨广
+    canonical_name: 楊廣(隋煬帝)
+    role: commander
+    role_zh_cn: 灭陈军事统帅（晋王）
+    side: 隋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（楊廣(隋煬帝)）；事件时段 event-sui-mie-chen 内人物活跃；lifespan 580-618
+    event_evidence: 杨广（灭陈军事统帅（晋王））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-21303
+    person_name_raw: 陈后主
+    canonical_name: 陳叔寶
+    role: victim
+    role_zh_cn: 陈末帝被俘
+    side: 南陈
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（陳叔寶）；事件时段 event-sui-mie-chen 内人物活跃；lifespan 553-604
+    event_evidence: 陈后主（陈末帝被俘）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

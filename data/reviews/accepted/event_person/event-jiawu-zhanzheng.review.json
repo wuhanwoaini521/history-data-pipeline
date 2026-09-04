@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-jiawu-zhanzheng",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-54297",
+      "person_name_raw": "光绪帝",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-58961",
+      "person_name_raw": "李鸿章",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-58649",
+      "person_name_raw": "丁汝昌",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "慈禧太后",
+      "resolution": "not_found",
+      "reason": "KB 无 慈禧（仅 葉赫那拉氏 其他成员）"
+    }
+  ]
+}

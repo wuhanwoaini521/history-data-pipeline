@@ -1,0 +1,10 @@
+event_id: event-riben-touxiang
+accepted:
+- []
+unlinked:
+- person_name_raw: 裕仁
+  resolution: not_found
+  reason: KB 无（仅 褚裕仁/楊裕仁 等后缀异名）
+- person_name_raw: 蒋介石
+  resolution: not_found
+  reason: KB 无

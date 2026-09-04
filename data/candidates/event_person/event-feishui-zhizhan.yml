@@ -1,0 +1,45 @@
+event_id: event-feishui-zhizhan
+accepted:
+- - person_id: cbdb-person-31645
+    person_name_raw: 苻坚
+    canonical_name: 苻堅
+    role: commander
+    role_zh_cn: 前秦主（败军统帅）
+    side: 前秦
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（苻堅）；事件时段 event-feishui-zhizhan 内人物活跃；无冲突
+    event_evidence: 苻坚（前秦主（败军统帅））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-467950
+    person_name_raw: 谢安
+    canonical_name: 謝安
+    role: official
+    role_zh_cn: 东晋决策者
+    side: 东晋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（謝安）；事件时段 event-feishui-zhizhan 内人物活跃；dynasty-27
+    event_evidence: 谢安（东晋决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-136120
+    person_name_raw: 谢玄
+    canonical_name: 謝玄
+    role: commander
+    role_zh_cn: 北府军统帅
+    side: 东晋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（謝玄）；事件时段 event-feishui-zhizhan 内人物活跃；无冲突
+    event_evidence: 谢玄（北府军统帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

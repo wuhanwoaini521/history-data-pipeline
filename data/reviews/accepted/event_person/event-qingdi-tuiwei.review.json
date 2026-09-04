@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qingdi-tuiwei",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-439438",
+      "person_name_raw": "溥仪",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-63546",
+      "person_name_raw": "袁世凯",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "隆裕太后",
+      "resolution": "not_found",
+      "reason": "KB 无 隆裕（仅辽 耶律隆祐 同名异人）"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "孙中山",
+      "resolution": "not_found",
+      "reason": "KB 无 孫文/孫中山"
+    }
+  ]
+}

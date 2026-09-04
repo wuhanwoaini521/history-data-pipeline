@@ -1,0 +1,7 @@
+event_id: event-shangtang-miexia
+accepted:
+- []
+unlinked:
+- person_name_raw: 商汤
+  resolution: not_found
+  reason: CBDB/ctext 均无 商汤/汤/成汤；夏商人物覆盖缺（§20 Knowledge Gap）

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-houliang-dai-tang",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-339634",
+      "person_name_raw": "唐哀帝",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "朱温",
+      "resolution": "not_found",
+      "reason": "同上"
+    }
+  ]
+}

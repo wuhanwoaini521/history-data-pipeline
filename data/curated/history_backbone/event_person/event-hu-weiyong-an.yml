@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-hu-weiyong-an
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: initiator
+  role_zh_cn: 处置胡案的皇帝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（朱元璋）；事件时段 event-hu-weiyong-an 内人物活跃；无冲突
+  event_evidence: 朱元璋（处置胡案的皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-125388
+  person_name_raw: 胡惟庸
+  canonical_name: 胡惟庸
+  role: victim
+  role_zh_cn: 被诛丞相
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（胡惟庸）；事件时段 event-hu-weiyong-an 内人物活跃；death 1380
+  event_evidence: 胡惟庸（被诛丞相）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

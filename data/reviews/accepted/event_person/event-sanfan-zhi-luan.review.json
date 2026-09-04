@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-sanfan-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-58844",
+      "person_name_raw": "吴三桂",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-65884",
+      "person_name_raw": "康熙帝",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-65757",
+      "person_name_raw": "耿精忠",
+      "role": "participant",
+      "resolution": "exact"
+    }
+  ]
+}

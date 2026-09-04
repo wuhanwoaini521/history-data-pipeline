@@ -1,0 +1,48 @@
+event_id: event-yongjia-zhi-luan
+accepted:
+- - person_id: cbdb-person-132952
+    person_name_raw: 刘聪
+    canonical_name: 劉聰
+    role: initiator
+    role_zh_cn: 攻陷洛阳的汉赵主
+    side: 汉赵
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（劉聰）；事件时段 event-yongjia-zhi-luan 内人物活跃；姓名唯一匹配；KB dynasty 字段异常
+    event_evidence: 刘聪（攻陷洛阳的汉赵主）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-31360
+    person_name_raw: 石勒
+    canonical_name: 石勒
+    role: commander
+    role_zh_cn: 汉赵南下主将
+    side: 汉赵
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（石勒）；事件时段 event-yongjia-zhi-luan 内人物活跃；lifespan 273-332
+    event_evidence: 石勒（汉赵南下主将）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-30899
+    person_name_raw: 晋怀帝
+    canonical_name: 司馬熾
+    role: victim
+    role_zh_cn: 被俘皇帝
+    side: 西晋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（司馬熾）；事件时段 event-yongjia-zhi-luan 内人物活跃；lifespan 283-313
+    event_evidence: 晋怀帝（被俘皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 晋愍帝
+  resolution: ambiguous
+  reason: 司馬鄴 记录 dynasty-6（唐）与西晋矛盾，身份存疑

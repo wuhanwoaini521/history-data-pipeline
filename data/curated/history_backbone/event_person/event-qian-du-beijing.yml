@@ -1,0 +1,17 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-qian-du-beijing
+people:
+- person_id: cbdb-person-30151
+  person_name_raw: 明成祖
+  canonical_name: 朱棣
+  role: initiator
+  role_zh_cn: 迁都决策者
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（朱棣）；事件时段 event-qian-du-beijing 内人物活跃；lifespan 1360-1424
+  event_evidence: 明成祖（迁都决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

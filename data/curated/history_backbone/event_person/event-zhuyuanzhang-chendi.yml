@@ -1,0 +1,17 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-zhuyuanzhang-chendi
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: initiator
+  role_zh_cn: 称帝建立明朝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（朱元璋）；事件时段 event-zhuyuanzhang-chendi 内人物活跃；无冲突
+  event_evidence: 朱元璋（称帝建立明朝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

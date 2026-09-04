@@ -81,15 +81,15 @@
   "stories": 3,
   "story_events": 26,
   "event_relations": 1062,
-  "event_people": 58,
+  "event_people": 168,
   "event_places": 26,
   "event_evidence": 26,
-  "people": 18,
-  "places": 3,
-  "works": 36,
-  "historical_texts": 0,
+  "people": 676427,
+  "places": 31978,
+  "works": 27430,
+  "historical_texts": 972467,
   "sources": 7,
-  "entity_source_mapping": 21
+  "entity_source_mapping": 774056
 }
 ```
 

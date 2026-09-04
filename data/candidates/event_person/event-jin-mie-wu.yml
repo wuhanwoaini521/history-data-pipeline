@@ -1,0 +1,34 @@
+event_id: event-jin-mie-wu
+accepted:
+- - person_id: cbdb-person-21207
+    person_name_raw: 晋武帝
+    canonical_name: 司馬炎
+    role: ruler
+    role_zh_cn: 灭吴决策者
+    side: 西晋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（司馬炎）；事件时段 event-jin-mie-wu 内人物活跃；lifespan 236-290
+    event_evidence: 晋武帝（灭吴决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-20612
+    person_name_raw: 孙皓
+    canonical_name: 孫皓
+    role: victim
+    role_zh_cn: 吴末帝出降
+    side: 东吴
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（孫皓）；事件时段 event-jin-mie-wu 内人物活跃；lifespan 242-283 dynasty-42
+    event_evidence: 孙皓（吴末帝出降）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 王濬
+  resolution: ambiguous
+  reason: CBDB 两王濬 均无西晋-era 证据（dyn-19/6 均不符）

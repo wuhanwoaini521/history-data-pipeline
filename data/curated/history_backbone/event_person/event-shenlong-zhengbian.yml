@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-shenlong-zhengbian
+people:
+- person_id: cbdb-person-12419
+  person_name_raw: 张柬之
+  canonical_name: 張柬之
+  role: initiator
+  role_zh_cn: 政变发动者
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（張柬之）；事件时段 event-shenlong-zhengbian 内人物活跃；lifespan 625-706
+  event_evidence: 张柬之（政变发动者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-93663
+  person_name_raw: 武则天
+  canonical_name: 武曌(武則天)
+  role: opponent
+  role_zh_cn: 被迫退位
+  side: 武周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（武曌(武則天)）；事件时段 event-shenlong-zhengbian 内人物活跃；无冲突
+  event_evidence: 武则天（被迫退位）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-19242
+  person_name_raw: 唐中宗
+  canonical_name: 李顯(唐中宗)
+  role: ruler
+  role_zh_cn: 复位皇帝
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李顯(唐中宗)）；事件时段 event-shenlong-zhengbian 内人物活跃；无冲突
+  event_evidence: 唐中宗（复位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

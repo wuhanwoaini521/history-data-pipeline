@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-bawang-zhi-luan
+people:
+- person_id: cbdb-person-30898
+  person_name_raw: 晋惠帝
+  canonical_name: 司馬衷
+  role: ruler
+  role_zh_cn: 八王之乱中的皇帝
+  side: 西晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（司馬衷）；事件时段 event-bawang-zhi-luan 内人物活跃；lifespan 259-306
+  event_evidence: 晋惠帝（八王之乱中的皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-392865
+  person_name_raw: 司马伦
+  canonical_name: 司馬倫
+  role: participant
+  role_zh_cn: 称帝夺位者（赵王）
+  side: 西晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（司馬倫）；事件时段 event-bawang-zhi-luan 内人物活跃；cbdb 为主，ctext 同人
+  event_evidence: 司马伦（称帝夺位者（赵王））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-467964
+  person_name_raw: 司马越
+  canonical_name: 司馬越
+  role: participant
+  role_zh_cn: 乱局终结者（东海王）
+  side: 西晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（司馬越）；事件时段 event-bawang-zhi-luan 内人物活跃；cbdb 为主
+  event_evidence: 司马越（乱局终结者（东海王））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

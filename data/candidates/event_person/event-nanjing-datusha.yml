@@ -1,0 +1,13 @@
+event_id: event-nanjing-datusha
+accepted:
+- []
+unlinked:
+- person_name_raw: 松井石根
+  resolution: not_found
+  reason: KB 无（日本人物）
+- person_name_raw: 谷寿夫
+  resolution: not_found
+  reason: KB 无（日本人物）
+- person_name_raw: 唐生智
+  resolution: not_found
+  reason: KB 无

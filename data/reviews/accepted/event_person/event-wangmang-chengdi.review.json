@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wangmang-chengdi",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-339519",
+      "person_name_raw": "王莽",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "ctext-person-397611",
+      "person_name_raw": "孺子婴",
+      "role": "victim",
+      "resolution": "high_confidence"
+    }
+  ]
+}

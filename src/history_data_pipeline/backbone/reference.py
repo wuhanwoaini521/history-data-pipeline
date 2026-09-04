@@ -93,15 +93,36 @@ def _seed_place_ids(backbone: Backbone) -> dict[str, str]:
     return seeds
 
 
+def curated_event_person_seeds(root: Path) -> dict[str, str]:
+    """V2.1：读取独立 V2 层 Accepted EventPerson Store，产出 person_id -> person_name_raw
+    最小 seed 身份（供 seed-only build/resolve 下的引用解析；正式 Knowledge Store 以同 ID 覆盖）。"""
+    store_dir = root / "data" / "curated" / "history_backbone" / "event_person"
+    seeds: dict[str, str] = {}
+    if not store_dir.exists():
+        return seeds
+    try:
+        from .loader import _iter_yaml_files, read_yaml
+        for path in _iter_yaml_files(store_dir):
+            doc = read_yaml(path)
+            for person in doc.get("people", []):
+                identifier = person.get("person_id")
+                if identifier and person.get("link_status") == "linked":
+                    seeds.setdefault(identifier, person.get("person_name_raw") or identifier)
+    except Exception:
+        return seeds
+    return seeds
+
+
 def resolve_references(backbone: Backbone, knowledge_db: Path | None = None) -> ResolutionResult:
     """解析全部事件引用；broken（linked 但实体缺失）必须阻断 build。"""
     resolver = KnowledgeResolver(knowledge_db)
     resolver._load_from_db()
+    curated_person_seeds = curated_event_person_seeds(backbone.root) if hasattr(backbone, "root") else {}
 
     result = ResolutionResult(
         knowledge_available=resolver.available,
         knowledge_db=knowledge_db,
-        seed_persons=dict(CANONICAL_PERSON_NAMES),
+        seed_persons={**CANONICAL_PERSON_NAMES, **curated_person_seeds},
         seed_places=_seed_place_ids(backbone),
     )
 

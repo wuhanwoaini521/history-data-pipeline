@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-shenlong-zhengbian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-12419",
+      "person_name_raw": "张柬之",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-93663",
+      "person_name_raw": "武则天",
+      "role": "opponent",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-19242",
+      "person_name_raw": "唐中宗",
+      "role": "ruler",
+      "resolution": "exact"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-changping-zhizhan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-416324",
+      "person_name_raw": "白起",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "赵括",
+      "resolution": "not_found",
+      "reason": "KB 仅 趙括大/趙括夫 后缀异名，无 赵括 本体"
+    }
+  ]
+}

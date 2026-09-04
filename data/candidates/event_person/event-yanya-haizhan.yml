@@ -1,0 +1,47 @@
+event_id: event-yanya-haizhan
+accepted:
+- - person_id: cbdb-person-9018
+    person_name_raw: 赵昺
+    canonical_name: 趙昺
+    role: victim
+    role_zh_cn: 宋末帝（蹈海）
+    side: 南宋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（趙昺）；事件时段 event-yanya-haizhan 内人物活跃；lifespan 1271-1279；KB dynasty
+      字段为元
+    event_evidence: 赵昺（宋末帝（蹈海））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-17112
+    person_name_raw: 陆秀夫
+    canonical_name: 陸秀夫
+    role: participant
+    role_zh_cn: 负帝蹈海（丞相）
+    side: 南宋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.85
+    resolution: high_confidence
+    identity_evidence: Knowledge Store canonical/alias 匹配（陸秀夫）；事件时段 event-yanya-haizhan 内人物活跃；lifespan 1237- dynasty-15
+    event_evidence: 陆秀夫（负帝蹈海（丞相））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-15200
+    person_name_raw: 张世杰
+    canonical_name: 張世傑
+    role: commander
+    role_zh_cn: 崖山宋军统帅
+    side: 南宋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（張世傑）；事件时段 event-yanya-haizhan 内人物活跃；death 1279 dynasty-15；排除同名元人
+      106950
+    event_evidence: 张世杰（崖山宋军统帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

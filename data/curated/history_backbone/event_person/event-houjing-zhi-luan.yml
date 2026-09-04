@@ -1,0 +1,17 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-houjing-zhi-luan
+people:
+- person_id: cbdb-person-194562
+  person_name_raw: 侯景
+  canonical_name: 侯景
+  role: initiator
+  role_zh_cn: 叛乱首领
+  side: 侯景政权
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（侯景）；事件时段 event-houjing-zhi-luan 内人物活跃；无冲突
+  event_evidence: 侯景（叛乱首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

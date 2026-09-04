@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-sui-mie-chen",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30956",
+      "person_name_raw": "杨坚",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-30957",
+      "person_name_raw": "杨广",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-21303",
+      "person_name_raw": "陈后主",
+      "role": "victim",
+      "resolution": "exact"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-bawang-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30898",
+      "person_name_raw": "晋惠帝",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-392865",
+      "person_name_raw": "司马伦",
+      "role": "participant",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-467964",
+      "person_name_raw": "司马越",
+      "role": "participant",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "贾南风",
+      "resolution": "not_found",
+      "reason": "KB 无 賈南風"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "event_id": "event-jin-jianguo",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-339707",
+      "person_name_raw": "完颜阿骨打",
+      "role": "initiator",
+      "resolution": "exact"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-mobei-zhizhan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-16626",
+      "person_name_raw": "汉武帝",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-502566",
+      "person_name_raw": "卫青",
+      "role": "commander",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-432543",
+      "person_name_raw": "霍去病",
+      "role": "commander",
+      "resolution": "high_confidence"
+    }
+  ]
+}

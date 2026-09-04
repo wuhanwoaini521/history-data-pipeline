@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qingjun-ru-guan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-65991",
+      "person_name_raw": "多尔衮",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-58844",
+      "person_name_raw": "吴三桂",
+      "role": "initiator",
+      "resolution": "exact"
+    }
+  ]
+}

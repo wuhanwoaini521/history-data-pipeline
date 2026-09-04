@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-lizicheng-gong-beijing
+people:
+- person_id: cbdb-person-65627
+  person_name_raw: 李自成
+  canonical_name: 李自成
+  role: initiator
+  role_zh_cn: 大顺军首领
+  side: 大顺
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李自成）；事件时段 event-lizicheng-gong-beijing 内人物活跃；lifespan 1606-1645 dynasty-20
+  event_evidence: 李自成（大顺军首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-30165
+  person_name_raw: 崇祯帝
+  canonical_name: 朱由檢
+  role: victim
+  role_zh_cn: 自缢皇帝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（朱由檢）；事件时段 event-lizicheng-gong-beijing 内人物活跃；lifespan 1611-1644 dynasty-19
+  event_evidence: 崇祯帝（自缢皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

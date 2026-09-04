@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-houjing-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-194562",
+      "person_name_raw": "侯景",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "梁武帝",
+      "resolution": "ambiguous",
+      "reason": "蕭衍 多记录均非南梁 canonical（dyn-32/4/0/6），身份无法唯一确认"
+    }
+  ]
+}

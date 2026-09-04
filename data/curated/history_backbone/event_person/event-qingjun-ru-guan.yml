@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-qingjun-ru-guan
+people:
+- person_id: cbdb-person-65991
+  person_name_raw: 多尔衮
+  canonical_name: 愛新覺羅多爾袞
+  role: commander
+  role_zh_cn: 清军入关最高指挥
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅多爾袞）；事件时段 event-qingjun-ru-guan 内人物活跃；lifespan 1612-1650 dynasty-20
+  event_evidence: 多尔衮（清军入关最高指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-58844
+  person_name_raw: 吴三桂
+  canonical_name: 吳三桂
+  role: initiator
+  role_zh_cn: 引清军入关者
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（吳三桂）；事件时段 event-qingjun-ru-guan 内人物活跃；lifespan 1612-1678 dynasty-20
+  event_evidence: 吴三桂（引清军入关者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

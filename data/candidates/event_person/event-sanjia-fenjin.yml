@@ -1,0 +1,31 @@
+event_id: event-sanjia-fenjin
+accepted:
+- - person_id: ctext-person-532638
+    person_name_raw: 周威烈王
+    canonical_name: 周威烈王
+    role: ruler
+    role_zh_cn: 册命三家为诸侯
+    side: 周
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（周威烈王）；事件时段 event-sanjia-fenjin 内人物活跃；无冲突
+    event_evidence: 周威烈王（册命三家为诸侯）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: ctext-person-692385
+    person_name_raw: 魏文侯
+    canonical_name: 魏文侯
+    role: participant
+    role_zh_cn: 三家分晋受命诸侯
+    side: 魏
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（魏文侯）；事件时段 event-sanjia-fenjin 内人物活跃；无冲突
+    event_evidence: 魏文侯（三家分晋受命诸侯）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

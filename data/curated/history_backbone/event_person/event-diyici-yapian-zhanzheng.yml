@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-diyici-yapian-zhanzheng
+people:
+- person_id: cbdb-person-54819
+  person_name_raw: 林则徐
+  canonical_name: 林則徐
+  role: official
+  role_zh_cn: 禁烟与广东防务主持者
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（林則徐）；事件时段 event-diyici-yapian-zhanzheng 内人物活跃；lifespan 1785-1850
+  event_evidence: 林则徐（禁烟与广东防务主持者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-64991
+  person_name_raw: 道光帝
+  canonical_name: 愛新覺羅旻寧
+  role: ruler
+  role_zh_cn: 在位皇帝
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅旻寧）；事件时段 event-diyici-yapian-zhanzheng 内人物活跃；lifespan 1782-1850
+  event_evidence: 道光帝（在位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

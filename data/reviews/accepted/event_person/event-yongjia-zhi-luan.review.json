@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yongjia-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-132952",
+      "person_name_raw": "刘聪",
+      "role": "initiator",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-31360",
+      "person_name_raw": "石勒",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-30899",
+      "person_name_raw": "晋怀帝",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "晋愍帝",
+      "resolution": "ambiguous",
+      "reason": "司馬鄴 记录 dynasty-6（唐）与西晋矛盾，身份存疑"
+    }
+  ]
+}

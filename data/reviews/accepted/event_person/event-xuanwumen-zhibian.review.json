@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-xuanwumen-zhibian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-13060",
+      "person_name_raw": "李世民",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-187923",
+      "person_name_raw": "李建成",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-31176",
+      "person_name_raw": "李元吉",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-13059",
+      "person_name_raw": "唐高祖",
+      "role": "ruler",
+      "resolution": "exact"
+    }
+  ]
+}

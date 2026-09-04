@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-wuchang-qiyi",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-89699",
+      "person_name_raw": "蒋翊武",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-91349",
+      "person_name_raw": "黎元洪",
+      "role": "political_leader",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "孙武",
+      "resolution": "ambiguous",
+      "reason": "身份冲突：KB 孫武（476272）为春秋兵家/明记录，非武昌起义共进会孙武（1880-1939）"
+    }
+  ]
+}

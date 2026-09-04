@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qiguo-zhi-luan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "ctext-person-647582",
+      "person_name_raw": "汉景帝",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-462464",
+      "person_name_raw": "晁错",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "ctext-person-865369",
+      "person_name_raw": "周亚夫",
+      "role": "commander",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "吴王刘濞",
+      "resolution": "not_found",
+      "reason": "KB 无 刘濞"
+    }
+  ]
+}

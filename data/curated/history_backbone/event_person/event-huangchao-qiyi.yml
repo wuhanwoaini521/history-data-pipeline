@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-huangchao-qiyi
+people:
+- person_id: cbdb-person-3409
+  person_name_raw: 黄巢
+  canonical_name: 黃巢
+  role: initiator
+  role_zh_cn: 起义首领
+  side: 大齐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（黃巢）；事件时段 event-huangchao-qiyi 内人物活跃；姓名唯一匹配；KB 无生卒
+  event_evidence: 黄巢（起义首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-189295
+  person_name_raw: 唐僖宗
+  canonical_name: 李儇(唐僖宗)
+  role: victim
+  role_zh_cn: 在位皇帝
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李儇(唐僖宗)）；事件时段 event-huangchao-qiyi 内人物活跃；lifespan 862-888
+  event_evidence: 唐僖宗（在位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-18316
+  person_name_raw: 李克用
+  canonical_name: 李克用
+  role: commander
+  role_zh_cn: 镇压起义的沙陀将领
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（李克用）；事件时段 event-huangchao-qiyi 内人物活跃；CBDB 三同人取 18316
+  event_evidence: 李克用（镇压起义的沙陀将领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

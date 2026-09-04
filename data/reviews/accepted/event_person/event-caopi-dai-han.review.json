@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-caopi-dai-han",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30261",
+      "person_name_raw": "曹丕",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-30267",
+      "person_name_raw": "汉献帝",
+      "role": "victim",
+      "resolution": "exact"
+    }
+  ]
+}

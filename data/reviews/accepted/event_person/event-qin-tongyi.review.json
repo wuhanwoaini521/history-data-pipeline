@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qin-tongyi",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-562723",
+      "person_name_raw": "嬴政",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "李斯",
+      "resolution": "not_found",
+      "reason": "KB 仅 李斯佺/全/讓/援/義 等后缀异名，无 李斯 本体"
+    }
+  ]
+}

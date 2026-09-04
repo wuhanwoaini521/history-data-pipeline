@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-sanfan-zhi-luan
+people:
+- person_id: cbdb-person-58844
+  person_name_raw: 吴三桂
+  canonical_name: 吳三桂
+  role: initiator
+  role_zh_cn: 三藩之乱首谋
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（吳三桂）；事件时段 event-sanfan-zhi-luan 内人物活跃；无冲突
+  event_evidence: 吴三桂（三藩之乱首谋）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-65884
+  person_name_raw: 康熙帝
+  canonical_name: 愛新覺羅玄燁
+  role: ruler
+  role_zh_cn: 平叛决策者
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅玄燁）；事件时段 event-sanfan-zhi-luan 内人物活跃；lifespan 1654-1722 dynasty-20
+  event_evidence: 康熙帝（平叛决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-65757
+  person_name_raw: 耿精忠
+  canonical_name: 耿精忠
+  role: participant
+  role_zh_cn: 响应叛乱者
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（耿精忠）；事件时段 event-sanfan-zhi-luan 内人物活跃；death 1682 dynasty-20
+  event_evidence: 耿精忠（响应叛乱者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

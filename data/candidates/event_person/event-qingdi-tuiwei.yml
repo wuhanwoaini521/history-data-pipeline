@@ -1,0 +1,37 @@
+event_id: event-qingdi-tuiwei
+accepted:
+- - person_id: cbdb-person-439438
+    person_name_raw: 溥仪
+    canonical_name: 愛新覺羅溥儀
+    role: victim
+    role_zh_cn: 退位皇帝
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅溥儀）；事件时段 event-qingdi-tuiwei 内人物活跃；lifespan 1906-1967
+    event_evidence: 溥仪（退位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-63546
+    person_name_raw: 袁世凯
+    canonical_name: 袁世凱
+    role: official
+    role_zh_cn: 南北和议主导者
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（袁世凱）；事件时段 event-qingdi-tuiwei 内人物活跃；lifespan 1859-1916 dynasty-21
+    event_evidence: 袁世凯（南北和议主导者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 隆裕太后
+  resolution: not_found
+  reason: KB 无 隆裕（仅辽 耶律隆祐 同名异人）
+- person_name_raw: 孙中山
+  resolution: not_found
+  reason: KB 无 孫文/孫中山

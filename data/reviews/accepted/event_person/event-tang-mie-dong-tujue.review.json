@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-tang-mie-dong-tujue",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-31312",
+      "person_name_raw": "李靖",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-13060",
+      "person_name_raw": "唐太宗",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-444917",
+      "person_name_raw": "颉利可汗",
+      "role": "victim",
+      "resolution": "exact"
+    }
+  ]
+}

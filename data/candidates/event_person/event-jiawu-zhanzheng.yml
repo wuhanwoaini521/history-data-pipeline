@@ -1,0 +1,48 @@
+event_id: event-jiawu-zhanzheng
+accepted:
+- - person_id: cbdb-person-54297
+    person_name_raw: 光绪帝
+    canonical_name: 愛新覺羅載湉
+    role: ruler
+    role_zh_cn: 在位皇帝
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅載湉）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1871-1908
+    event_evidence: 光绪帝（在位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-58961
+    person_name_raw: 李鸿章
+    canonical_name: 李鴻章
+    role: official
+    role_zh_cn: 主和与议和代表
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（李鴻章）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1823-1901
+    event_evidence: 李鸿章（主和与议和代表）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-58649
+    person_name_raw: 丁汝昌
+    canonical_name: 丁汝昌
+    role: commander
+    role_zh_cn: 北洋海军提督（殉国）
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（丁汝昌）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1836-1895
+    event_evidence: 丁汝昌（北洋海军提督（殉国））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 慈禧太后
+  resolution: not_found
+  reason: KB 无 慈禧（仅 葉赫那拉氏 其他成员）

@@ -1,0 +1,31 @@
+event_id: event-chenqiao-bingbian
+accepted:
+- - person_id: cbdb-person-9001
+    person_name_raw: 赵匡胤
+    canonical_name: 趙匡胤
+    role: initiator
+    role_zh_cn: 陈桥兵变首领
+    side: 北宋
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（趙匡胤）；事件时段 event-chenqiao-bingbian 内人物活跃；无冲突
+    event_evidence: 赵匡胤（陈桥兵变首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-576557
+    person_name_raw: 柴宗训
+    canonical_name: 柴宗訓
+    role: victim
+    role_zh_cn: 后周恭帝（被取代）
+    side: 后周
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（柴宗訓）；事件时段 event-chenqiao-bingbian 内人物活跃；lifespan 953-973 dynasty-49
+    event_evidence: 柴宗训（后周恭帝（被取代））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

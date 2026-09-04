@@ -11,7 +11,7 @@ from pathlib import Path
 import pytest
 
 from history_data_pipeline.backbone.loader import load_backbone
-from history_data_pipeline.backbone.reference import CANONICAL_PERSON_NAMES, resolve_references, _seed_place_ids
+from history_data_pipeline.backbone.reference import CANONICAL_PERSON_NAMES, resolve_references, _seed_place_ids, curated_event_person_seeds
 from history_data_pipeline.backbone.schema import load_schemas, validate_document
 from history_data_pipeline.backbone.validate import (
     DATE_PRECISIONS,
@@ -138,7 +138,8 @@ def test_event_person_reference(backbone):
             assert link_status in {"linked", "needs_linking", "pending_knowledge", "rejected"}, f"{event['id']}: {link_status}"
             if link_status == "linked":
                 assert person.get("person_id"), f"{event['id']}: linked 但无 person_id"
-                assert person["person_id"] in CANONICAL_PERSON_NAMES, f"{event['id']}: 未知 linked person {person['person_id']}"
+                known = set(CANONICAL_PERSON_NAMES) | set(curated_event_person_seeds(ROOT))
+                assert person["person_id"] in known, f"{event['id']}: 未知 linked person {person['person_id']}"
             else:
                 assert person.get("person_id") is None, f"{event['id']}: {link_status} 不应带 person_id {person['person_id']}"
 
@@ -216,7 +217,7 @@ def test_resolution_linked_places(resolution):
 
 def test_resolution_no_broken(resolution):
     assert resolution.broken == []
-    assert resolution.persons["linked"] == 58
+    assert resolution.persons["linked"] == 168  # 58 legacy + 110 V2.1
     assert resolution.evidences["pending_knowledge"] == 26
 
 

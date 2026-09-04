@@ -1,0 +1,46 @@
+event_id: event-tang-mie-dong-tujue
+accepted:
+- - person_id: cbdb-person-31312
+    person_name_raw: 李靖
+    canonical_name: 李靖
+    role: commander
+    role_zh_cn: 灭东突厥主帅
+    side: 唐
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（李靖）；事件时段 event-tang-mie-dong-tujue 内人物活跃；lifespan 570-649 dynasty-6
+    event_evidence: 李靖（灭东突厥主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-13060
+    person_name_raw: 唐太宗
+    canonical_name: 李世民(唐太宗)
+    role: ruler
+    role_zh_cn: 用兵决策者
+    side: 唐
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（李世民(唐太宗)）；事件时段 event-tang-mie-dong-tujue 内人物活跃；无冲突
+    event_evidence: 唐太宗（用兵决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+  - person_id: cbdb-person-444917
+    person_name_raw: 颉利可汗
+    canonical_name: 阿史那咄苾(頡利可汗)
+    role: victim
+    role_zh_cn: 东突厥可汗（被俘）
+    side: 东突厥
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（阿史那咄苾(頡利可汗)）；事件时段 event-tang-mie-dong-tujue 内人物活跃；lifespan death
+      634 dynasty-6
+    event_evidence: 颉利可汗（东突厥可汗（被俘））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked: []

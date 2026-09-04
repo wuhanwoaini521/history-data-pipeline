@@ -1,0 +1,59 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-xuanwumen-zhibian
+people:
+- person_id: cbdb-person-13060
+  person_name_raw: 李世民
+  canonical_name: 李世民(唐太宗)
+  role: initiator
+  role_zh_cn: 政变发动者
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李世民(唐太宗)）；事件时段 event-xuanwumen-zhibian 内人物活跃；无冲突
+  event_evidence: 李世民（政变发动者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-187923
+  person_name_raw: 李建成
+  canonical_name: 李建成
+  role: victim
+  role_zh_cn: 太子（被杀）
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李建成）；事件时段 event-xuanwumen-zhibian 内人物活跃；lifespan 588-626
+  event_evidence: 李建成（太子（被杀））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-31176
+  person_name_raw: 李元吉
+  canonical_name: 李元吉
+  role: victim
+  role_zh_cn: 齐王（被杀）
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李元吉）；事件时段 event-xuanwumen-zhibian 内人物活跃；lifespan 603-626
+  event_evidence: 李元吉（齐王（被杀））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-13059
+  person_name_raw: 唐高祖
+  canonical_name: 李淵(唐高祖)
+  role: ruler
+  role_zh_cn: 退位太上皇
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（李淵(唐高祖)）；事件时段 event-xuanwumen-zhibian 内人物活跃；无冲突
+  event_evidence: 唐高祖（退位太上皇）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

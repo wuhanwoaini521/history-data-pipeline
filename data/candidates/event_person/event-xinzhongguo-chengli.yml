@@ -1,0 +1,13 @@
+event_id: event-xinzhongguo-chengli
+accepted:
+- []
+unlinked:
+- person_name_raw: 毛泽东
+  resolution: not_found
+  reason: KB 无 毛澤東
+- person_name_raw: 周恩来
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 朱德
+  resolution: not_found
+  reason: KB 无（仅 朱德華/輝/文 后缀异名）

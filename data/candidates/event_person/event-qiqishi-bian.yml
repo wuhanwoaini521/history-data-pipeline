@@ -1,0 +1,13 @@
+event_id: event-qiqishi-bian
+accepted:
+- []
+unlinked:
+- person_name_raw: 宋哲元
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 秦德纯
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 牟田口廉也
+  resolution: not_found
+  reason: KB 无（日本人物）

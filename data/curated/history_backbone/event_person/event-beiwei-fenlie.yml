@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-beiwei-fenlie
+people:
+- person_id: cbdb-person-339598
+  person_name_raw: 高欢
+  canonical_name: 高歡
+  role: initiator
+  role_zh_cn: 拥立东魏实权者
+  side: 东魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（高歡）；事件时段 event-beiwei-fenlie 内人物活跃；cbdb 重复记录取 339598
+  event_evidence: 高欢（拥立东魏实权者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-31770
+  person_name_raw: 宇文泰
+  canonical_name: 宇文泰
+  role: initiator
+  role_zh_cn: 拥立西魏实权者
+  side: 西魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（宇文泰）；事件时段 event-beiwei-fenlie 内人物活跃；cbdb 重复记录取 31770
+  event_evidence: 宇文泰（拥立西魏实权者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-31012
+  person_name_raw: 魏孝武帝
+  canonical_name: 元修
+  role: victim
+  role_zh_cn: 出奔西魏的皇帝
+  side: 北魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（元修）；事件时段 event-beiwei-fenlie 内人物活跃；dynasty-30 death 534
+  event_evidence: 魏孝武帝（出奔西魏的皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

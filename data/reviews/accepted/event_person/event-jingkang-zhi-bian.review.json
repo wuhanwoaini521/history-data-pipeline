@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-jingkang-zhi-bian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-9009",
+      "person_name_raw": "宋钦宗",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-39892",
+      "person_name_raw": "完颜宗翰",
+      "role": "commander",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-556531",
+      "person_name_raw": "完颜宗望",
+      "role": "commander",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "宋徽宗",
+      "resolution": "not_found",
+      "reason": "KB 无 赵佶/宋徽宗（仅其女/妃等亲属记录）"
+    }
+  ]
+}

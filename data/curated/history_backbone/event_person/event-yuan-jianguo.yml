@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-yuan-jianguo
+people:
+- person_id: cbdb-person-29244
+  person_name_raw: 忽必烈
+  canonical_name: 孛兒只斤忽必烈
+  role: initiator
+  role_zh_cn: 改国号大元
+  side: 元
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（孛兒只斤忽必烈）；事件时段 event-yuan-jianguo 内人物活跃；lifespan 1215-1294 dynasty-18
+  event_evidence: 忽必烈（改国号大元）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-28934
+  person_name_raw: 刘秉忠
+  canonical_name: 劉秉忠
+  role: official
+  role_zh_cn: 建议国号者
+  side: 元
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（劉秉忠）；事件时段 event-yuan-jianguo 内人物活跃；lifespan 1216-1274 dynasty-18
+  event_evidence: 刘秉忠（建议国号者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

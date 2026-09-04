@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-tumu-bao-zhibian
+people:
+- person_id: cbdb-person-30154
+  person_name_raw: 明英宗
+  canonical_name: 朱祁鎮
+  role: victim
+  role_zh_cn: 被俘皇帝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（朱祁鎮）；事件时段 event-tumu-bao-zhibian 内人物活跃；lifespan 1427-1464 dynasty-19
+  event_evidence: 明英宗（被俘皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-701539
+  person_name_raw: 也先
+  canonical_name: 也先
+  role: commander
+  role_zh_cn: 瓦剌首领
+  side: 瓦剌
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（也先）；事件时段 event-tumu-bao-zhibian 内人物活跃；姓名唯一匹配；ETYM 瓦剌
+  event_evidence: 也先（瓦剌首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-126644
+  person_name_raw: 王振
+  canonical_name: 王振
+  role: initiator
+  role_zh_cn: 怂恿亲征的宦官
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（王振）；事件时段 event-tumu-bao-zhibian 内人物活跃；CBDB 同人重复记录取其一
+  event_evidence: 王振（怂恿亲征的宦官）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

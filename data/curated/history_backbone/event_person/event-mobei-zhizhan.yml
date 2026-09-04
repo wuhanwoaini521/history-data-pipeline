@@ -1,0 +1,45 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-mobei-zhizhan
+people:
+- person_id: cbdb-person-16626
+  person_name_raw: 汉武帝
+  canonical_name: 劉徹
+  role: ruler
+  role_zh_cn: 北击匈奴决策者
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（劉徹）；事件时段 event-mobei-zhizhan 内人物活跃；lifespan -156~-87 与事件 -119 相符
+  event_evidence: 汉武帝（北击匈奴决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-502566
+  person_name_raw: 卫青
+  canonical_name: 衛青
+  role: commander
+  role_zh_cn: 漠北之战西路主帅
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（衛青）；事件时段 event-mobei-zhizhan 内人物活跃；姓名唯一匹配；CBDB 另有 ctext 同人
+  event_evidence: 卫青（漠北之战西路主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-432543
+  person_name_raw: 霍去病
+  canonical_name: 霍去病
+  role: commander
+  role_zh_cn: 漠北之战东路主帅
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  resolution: high_confidence
+  identity_evidence: Knowledge Store canonical/alias 匹配（霍去病）；事件时段 event-mobei-zhizhan 内人物活跃；姓名唯一匹配（dynasty-2）
+  event_evidence: 霍去病（漠北之战东路主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator

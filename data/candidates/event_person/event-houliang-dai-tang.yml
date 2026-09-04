@@ -1,0 +1,20 @@
+event_id: event-houliang-dai-tang
+accepted:
+- - person_id: cbdb-person-339634
+    person_name_raw: 唐哀帝
+    canonical_name: 李柷(唐哀宗)
+    role: victim
+    role_zh_cn: 被废末帝
+    side: 唐
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: Knowledge Store canonical/alias 匹配（李柷(唐哀宗)）；事件时段 event-houliang-dai-tang 内人物活跃；lifespan 892-908
+    event_evidence: 唐哀帝（被废末帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+unlinked:
+- person_name_raw: 朱温
+  resolution: not_found
+  reason: 同上

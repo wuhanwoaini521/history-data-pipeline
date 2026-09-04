@@ -1,0 +1,16 @@
+event_id: event-jiuyiba-shibian
+accepted:
+- []
+unlinked:
+- person_name_raw: 石原莞尔
+  resolution: not_found
+  reason: KB 无（日本近代人物）
+- person_name_raw: 板垣征四郎
+  resolution: not_found
+  reason: 同上
+- person_name_raw: 张学良
+  resolution: not_found
+  reason: KB 无（民国人物）
+- person_name_raw: 蒋介石
+  resolution: not_found
+  reason: KB 无

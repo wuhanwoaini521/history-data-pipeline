@@ -1,0 +1,16 @@
+event_id: event-xian-shibian
+accepted:
+- []
+unlinked:
+- person_name_raw: 张学良
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 杨虎城
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 蒋介石
+  resolution: not_found
+  reason: KB 无
+- person_name_raw: 周恩来
+  resolution: not_found
+  reason: KB 无

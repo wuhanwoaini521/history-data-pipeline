@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-guo-wei-dai-han",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-22530",
+      "person_name_raw": "郭威",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-19677",
+      "person_name_raw": "刘承祐",
+      "role": "opponent",
+      "resolution": "exact"
+    }
+  ]
+}

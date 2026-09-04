@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-saerhu-zhizhan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-66013",
+      "person_name_raw": "努尔哈赤",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "cbdb-person-65968",
+      "person_name_raw": "杨镐",
+      "role": "commander",
+      "resolution": "exact"
+    }
+  ]
+}

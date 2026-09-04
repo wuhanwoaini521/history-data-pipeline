@@ -1,0 +1,10 @@
+event_id: event-xijin-mie-wang
+accepted:
+- []
+unlinked:
+- person_name_raw: 晋愍帝
+  resolution: ambiguous
+  reason: 同上
+- person_name_raw: 刘曜
+  resolution: ambiguous
+  reason: CBDB 劉曜 记录 death 834（唐），非前赵刘曜

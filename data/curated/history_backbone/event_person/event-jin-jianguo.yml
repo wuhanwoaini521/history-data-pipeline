@@ -1,0 +1,17 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-jin-jianguo
+people:
+- person_id: cbdb-person-339707
+  person_name_raw: 完颜阿骨打
+  canonical_name: 完顏阿骨打
+  role: initiator
+  role_zh_cn: 建金称帝
+  side: 金
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（完顏阿骨打）；事件时段 event-jin-jianguo 内人物活跃；dynasty-17
+  event_evidence: 完颜阿骨打（建金称帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

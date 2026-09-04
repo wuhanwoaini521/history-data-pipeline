@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-yanya-haizhan",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-9018",
+      "person_name_raw": "赵昺",
+      "role": "victim",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-17112",
+      "person_name_raw": "陆秀夫",
+      "role": "participant",
+      "resolution": "high_confidence"
+    },
+    {
+      "person_id": "cbdb-person-15200",
+      "person_name_raw": "张世杰",
+      "role": "commander",
+      "resolution": "exact"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "event_id": "event-zhuyuanzhang-chendi",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "cbdb-person-30148",
+      "person_name_raw": "朱元璋",
+      "role": "initiator",
+      "resolution": "exact"
+    }
+  ]
+}

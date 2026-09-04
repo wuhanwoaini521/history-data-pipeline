@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-wuchang-qiyi
+people:
+- person_id: cbdb-person-89699
+  person_name_raw: 蒋翊武
+  canonical_name: 蔣翊武
+  role: commander
+  role_zh_cn: 起义总指挥
+  side: 革命党
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（蔣翊武）；事件时段 event-wuchang-qiyi 内人物活跃；lifespan 1885-1913 dynasty-21
+  event_evidence: 蒋翊武（起义总指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-91349
+  person_name_raw: 黎元洪
+  canonical_name: 黎元洪
+  role: political_leader
+  role_zh_cn: 被推举都督
+  side: 革命党
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（黎元洪）；事件时段 event-wuchang-qiyi 内人物活跃；lifespan 1864-1928 dynasty-21
+  event_evidence: 黎元洪（被推举都督）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator

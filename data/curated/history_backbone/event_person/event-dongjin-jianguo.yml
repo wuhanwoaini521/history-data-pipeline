@@ -1,0 +1,31 @@
+# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+event_id: event-dongjin-jianguo
+people:
+- person_id: cbdb-person-30902
+  person_name_raw: 晋元帝
+  canonical_name: 司馬睿
+  role: initiator
+  role_zh_cn: 建康即位
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（司馬睿）；事件时段 event-dongjin-jianguo 内人物活跃；dynasty-27
+  event_evidence: 晋元帝（建康即位）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: cbdb-person-25788
+  person_name_raw: 王导
+  canonical_name: 王導
+  role: official
+  role_zh_cn: 辅立元帝
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: Knowledge Store canonical/alias 匹配（王導）；事件时段 event-dongjin-jianguo 内人物活跃；dynasty-27 death 330
+  event_evidence: 王导（辅立元帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
