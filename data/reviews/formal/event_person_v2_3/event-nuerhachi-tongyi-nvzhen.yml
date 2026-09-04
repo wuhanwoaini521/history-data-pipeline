@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-nuerhachi-tongyi-nvzhen
+event_name: 努尔哈赤统一女真诸部
+period_id: period-ming
+event_years: 1583–1616
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-339768
+  person_name_raw: 努尔哈赤
+  canonical_name: 努尔哈赤
+  role: initiator
+  side: 建州(女真)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「努尔哈赤」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 努尔哈赤以「十三副遗甲」起兵、统一诸部，为统一事业的发起与统帅。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-nuerhachi-tongyi-nvzhen
+  role_zh_cn: 建州(女真)·发起者
+  curated_class: curated_accepted
+  review_status: formal_accept

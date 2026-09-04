@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-guan-dong-tao-dong
+event_name: 关东诸侯讨董
+event_years: '190'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  canonical_name: 曹操
+  role: official
+  role_zh_cn: 汉·官员
+  side: 汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「曹操」（155–220）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 曹操为关东联军中亲率其部讨董卓的直接参与方将。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

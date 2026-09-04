@@ -39,8 +39,11 @@ def _store_links():
 def test_v21_scope_is_62_critical_events(backbone):
     crit = [e for e in backbone.events if e["importance"] == "critical"]
     assert len(crit) == 62
+    crit_ids = {e["id"] for e in crit}
     store_events = {l["event_id"] for l in _store_links()}
-    assert store_events <= {e["id"] for e in crit}
+    # V2.3 起正式 store 覆盖 critical + major；非 critical 仅限 major
+    assert store_events - crit_ids <= {e["id"] for e in backbone.events if e["importance"] == "major"}
+    assert len(store_events & crit_ids) >= 61  # V2.1/2.1.1 store 覆盖的 critical 事件
 
 
 def test_v21_backbone_frozen(backbone):
@@ -62,12 +65,13 @@ def test_event_person_person_ref_exists(backbone):
 
 
 def test_event_person_event_ref_exists(backbone):
-    """store 文件 event_id 必须存在且为 critical。"""
-    ids = {e["id"] for e in backbone.events}
+    """store 文件 event_id 必须存在于事件表；非 critical 仅限 major。"""
+    ids = {e["id"]: e for e in backbone.events}
     crit = {e["id"] for e in backbone.events if e["importance"] == "critical"}
+    maj = {e["id"] for e in backbone.events if e["importance"] == "major"}
     for l in _store_links():
         assert l["event_id"] in ids
-        assert l["event_id"] in crit
+        assert l["event_id"] in crit | maj
 
 
 def test_event_person_alias_dedup(backbone):
@@ -140,7 +144,7 @@ def test_existing_event_person_preserved(backbone):
     links = [(e["id"], p["person_id"]) for e in backbone.events for p in (e.get("people") or [])
              if p.get("link_status") == "linked"]
     ids = [pid for _, pid in links]
-    assert len(links) == 200  # 58 legacy + 110 V2.1 + 32 V2.1.1 (critical gap recovery)
+    assert len(links) == 398  # 58 legacy + 110 V2.1 + 32 V2.1.1 + 198 V2.3 净新增
     assert "cbdb-person-16622" in ids  # 刘邦（楚汉 Story legacy）
     assert len(ids) == len(set(ids)) or True  # 跨事件允许同人
 
@@ -160,7 +164,7 @@ def test_critical_person_link_build(backbone):
     """build 集成：resolve_references（seed 模式）下 linked=168 且 broken=0。"""
     result = resolve_references(backbone, knowledge_db=None)
     assert result.broken == []
-    assert result.persons["linked"] == 200  # 58 + 110 V2.1 + 32 V2.1.1
+    assert result.persons["linked"] == 398  # 58 + 110 V2.1 + 32 V2.1.1 + 198 V2.3 净新增
 
 
 def test_v21_event_count_unchanged(backbone):

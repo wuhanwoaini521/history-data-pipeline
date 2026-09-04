@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-beiwei-mie-hou-yan
+event_name: 北魏击灭后燕（参合陂之战）
+event_years: 395–398
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-17122
+  person_name_raw: 慕容德
+  canonical_name: 慕容德
+  role: official
+  role_zh_cn: 后燕·官员
+  side: 后燕
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「慕容德」（336–405）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 慕容德为后燕宗室重臣，参合陂惨败后参与存亡决策，为后燕一方直接参与者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-31005
+  person_name_raw: 拓跋珪
+  canonical_name: 拓跋珪
+  role: initiator
+  role_zh_cn: 北魏·发起者
+  side: 北魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「拓跋珪」（371–409）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 拓跋珪亲率魏军在参合陂大破后燕并乘势灭燕，为灭燕战争的发动者与总指挥。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

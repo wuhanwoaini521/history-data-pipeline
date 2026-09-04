@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-zunyi-huiyi
+event_name: 遵义会议
+event_years: '1935'
+curated_class: curated_accepted
+people:
+- person_id: curated-person-mao-zedong
+  person_name_raw: 毛泽东
+  canonical_name: 毛泽东
+  role: political_leader
+  role_zh_cn: 中国共产党·政治领导人
+  side: 中国共产党
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-mao-zedong」canonical=「毛泽东」，source_id=source-curated-person-knowledge-gap，source_reference=「《毛泽东年谱》中央文献出版社」；无别名冲突。
+  event_evidence: 遵义会议重新确立毛泽东的领导地位，为其在长征转折中的决策核心。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=political_leader；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

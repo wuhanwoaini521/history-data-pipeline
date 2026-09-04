@@ -81,7 +81,7 @@
   "stories": 3,
   "story_events": 26,
   "event_relations": 1062,
-  "event_people": 200,
+  "event_people": 398,
   "event_places": 26,
   "event_evidence": 26,
   "people": 676451,
@@ -89,7 +89,7 @@
   "works": 27430,
   "historical_texts": 972467,
   "sources": 8,
-  "entity_source_mapping": 774107
+  "entity_source_mapping": 774198
 }
 ```
 

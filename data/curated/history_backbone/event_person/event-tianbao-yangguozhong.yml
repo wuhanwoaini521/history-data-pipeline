@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-tianbao-yangguozhong
+event_name: 杨国忠执政
+event_years: 752–755
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-379873
+  person_name_raw: 安禄山
+  canonical_name: 安禄山
+  role: participant
+  role_zh_cn: 范阳(边)·参与者
+  side: 范阳(边)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「安禄山」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 安禄山为边将、与杨国忠不和，是天宝末年杨国忠主政下朝局震荡的直接相关人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=participant；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-31221
+  person_name_raw: 杨国忠
+  canonical_name: 杨国忠
+  role: official
+  role_zh_cn: 唐·官员
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「杨国忠」（None–756）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 杨国忠继任宰相专决朝政，为本次事件核心当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

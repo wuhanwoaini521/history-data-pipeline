@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-longxing-beifa
+event_name: 隆兴北伐
+period_id: period-southern-song
+event_years: '1163'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: ctext-person-46529
+  person_name_raw: 宋孝宗
+  canonical_name: 宋孝宗
+  role: ruler
+  side: 南宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「宋孝宗」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 宋孝宗起用张浚兴师北伐，是隆兴北伐的最高决策者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-longxing-beifa
+  role_zh_cn: 南宋·统治者
+  curated_class: curated_accepted
+  review_status: formal_accept

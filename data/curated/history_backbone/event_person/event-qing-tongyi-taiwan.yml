@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-qing-tongyi-taiwan
+event_name: 清统一台湾（澎湖海战、郑氏投降）
+event_years: '1683'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-56824
+  person_name_raw: 施琅
+  canonical_name: 施琅
+  role: commander
+  role_zh_cn: 清·军事指挥
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「施琅」（1621–1696）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 施琅督水师澎湖海战大破郑军并收台，为统一台湾直接主将。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

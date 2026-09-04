@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-wangfeng-waigi
+event_name: 王凤辅政与王氏外戚崛起
+event_years: '-33'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-135028
+  person_name_raw: 王政君
+  canonical_name: 王政君
+  role: ruler
+  role_zh_cn: 西汉·统治者
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王政君」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王政君身为太后给兄弟王凤以政枢地位，为王氏外戚掌权的授受核心。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

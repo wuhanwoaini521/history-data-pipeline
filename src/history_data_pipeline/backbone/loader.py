@@ -175,6 +175,6 @@ def _merge_external_event_person(backbone: Backbone) -> None:
                     "person_id", "person_name_raw", "role", "role_zh_cn", "side", "importance",
                     "link_status", "link_quality_status", "link_confidence", "review_note"
                 ) if k in person}
-                inline["review_note"] = (inline.get("review_note") or "") + f" [V2.1 source={path.name}]"
+                inline["review_note"] = (inline.get("review_note") or "") + f" [V2 source={path.name}]"
                 people.append(inline)
                 existing.add(person["person_id"])

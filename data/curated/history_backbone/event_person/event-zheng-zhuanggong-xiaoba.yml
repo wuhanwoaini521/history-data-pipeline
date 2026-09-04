@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-zheng-zhuanggong-xiaoba
+event_name: 郑庄公小霸
+event_years: -743–-701
+curated_class: curated_accepted
+people:
+- person_id: ctext-person-668302
+  person_name_raw: 共叔段
+  canonical_name: 共叔段
+  role: participant
+  role_zh_cn: 郑·参与者
+  side: 郑
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「共叔段」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 共叔段据京城不臣、作乱的直接对立当事人，为郑庄公初期内政（郑庄小霸前夜）的核心人物。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=participant；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-chenyouliang-dai-han
+event_name: 陈友谅代汉称帝
+event_years: '1360'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: ruler
+  role_zh_cn: 明·统治者
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「朱元璋」（1328–1398）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 朱元璋为最终击败陈友谅、取汉政权的追溯决策者与指挥者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

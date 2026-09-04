@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-boju-zhizhan
+event_name: 柏举之战
+period_id: period-spring-autumn
+event_years: '-506'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: ctext-person-6646198
+  person_name_raw: 伍子胥
+  canonical_name: 伍子胥
+  role: commander
+  side: 吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「伍子胥」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 伍子胥辅佐阖闾运筹攻楚、与孙武分兵，为破楚入郢的重要策划与指挥者（《左传》定公四年）。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-boju-zhizhan
+  role_zh_cn: 吴·军事指挥
+  curated_class: curated_accepted
+  review_status: formal_accept

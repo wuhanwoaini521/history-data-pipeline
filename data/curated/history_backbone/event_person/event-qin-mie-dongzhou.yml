@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-qin-mie-dongzhou
+event_name: 秦灭东周
+event_years: '-256'
+curated_class: curated_accepted
+people:
+- person_id: ctext-person-703206
+  person_name_raw: 周赧王
+  canonical_name: 周赧王
+  role: victim
+  role_zh_cn: 周·受害者
+  side: 周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「周赧王」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 周赧王为末代周天子，秦灭东周视为周亡之当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=victim；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: ctext-person-457718
+  person_name_raw: 秦昭襄王
+  canonical_name: 秦昭襄王
+  role: initiator
+  role_zh_cn: 秦·发起者
+  side: 秦
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「秦昭襄王」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 秦昭襄王遣兵灭周（前256），为灭周之君。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

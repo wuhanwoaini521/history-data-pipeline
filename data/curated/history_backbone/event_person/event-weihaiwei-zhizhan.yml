@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-weihaiwei-zhizhan
+event_name: 威海卫之战（北洋海军覆没）
+event_years: '1895'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-58649
+  person_name_raw: 丁汝昌
+  canonical_name: 丁汝昌
+  role: commander
+  role_zh_cn: 清·军事指挥
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「丁汝昌」（1836–1895）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 丁汝昌督率北洋舰队守威海，城陷自裁殉国，为守卫战之提督。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

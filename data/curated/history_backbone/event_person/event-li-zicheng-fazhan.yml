@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-li-zicheng-fazhan
+event_name: 李自成势力发展
+event_years: 1633–1643
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-65627
+  person_name_raw: 李自成
+  canonical_name: 李自成
+  role: commander
+  role_zh_cn: 大顺(农民军)·军事指挥
+  side: 大顺(农民军)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「李自成」（1606–1645）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 李自成转战陕豫湖广、据襄阳称王，为势力发展的主体统帅。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

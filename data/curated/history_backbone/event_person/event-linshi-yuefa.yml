@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-linshi-yuefa
+event_name: 《中华民国临时约法》颁布
+event_years: '1912'
+curated_class: curated_accepted
+people:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: ruler
+  role_zh_cn: 中华民国·统治者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-sun-yat-sen」canonical=「孙中山」，source_id=source-curated-person-knowledge-gap，source_reference=「《孙中山全集》；张岂之主编《中国历史·晚清卷》」；无别名冲突。
+  event_evidence: 孙中山以临时大总统名义公布约法，为颁布之直接决策者（《孙中山全集》）。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

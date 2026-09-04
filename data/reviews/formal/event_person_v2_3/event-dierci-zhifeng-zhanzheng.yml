@@ -1,0 +1,27 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-dierci-zhifeng-zhanzheng
+event_name: 第二次直奉战争与北京政变
+period_id: period-republic
+event_years: '1924'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（孙中山→孙中山），事件时窗
+    1924–1924 内唯一存活候选，无身份冲突
+  event_evidence: 《第二次直奉战争与北京政变》summary 明确出现 孙中山（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+  event_id: event-dierci-zhifeng-zhanzheng
+  review_status: formal_reject
+  reject_category: 背景引用
+  reason: 事件主体为直奉再战与冯玉祥北京政变；孙中山系被邀请北上及随后的结局线索，未直接参与，参与证据不足。

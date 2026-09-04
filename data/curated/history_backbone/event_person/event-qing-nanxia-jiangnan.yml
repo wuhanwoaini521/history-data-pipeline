@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-qing-nanxia-jiangnan
+event_name: 清军南下、扬州之战与南京失守
+event_years: '1645'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-34792
+  person_name_raw: 史可法
+  canonical_name: 史可法
+  role: commander
+  role_zh_cn: 弘光(南明)·军事指挥
+  side: 弘光(南明)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「史可法」（1602–1645）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 史可法督战守扬州、城破殉难，为南明抗清之核心将领。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

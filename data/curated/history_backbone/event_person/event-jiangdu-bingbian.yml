@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-jiangdu-bingbian
+event_name: 江都兵变、隋炀帝被杀
+event_years: '618'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-173126
+  person_name_raw: 宇文化及
+  canonical_name: 宇文化及
+  role: initiator
+  role_zh_cn: 隋·发起者
+  side: 隋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「宇文化及」（None–642）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 宇文化及帅骁果军弑隋炀帝，为江都兵变的直接发动者与主谋。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

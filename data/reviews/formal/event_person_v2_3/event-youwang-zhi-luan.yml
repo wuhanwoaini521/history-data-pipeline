@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-youwang-zhi-luan
+event_name: 幽王之乱
+period_id: period-western-zhou
+event_years: -781–-771
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: ctext-person-382372
+  person_name_raw: 周幽王
+  canonical_name: 周幽王
+  role: victim
+  side: 西周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「周幽王」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 周幽王废申后等致镐京之乱，被申侯等共同兵临，为暴乱是最的直接受害者与祸主。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=victim；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-youwang-zhi-luan
+  role_zh_cn: 西周·受害者
+  curated_class: curated_accepted
+  review_status: formal_accept

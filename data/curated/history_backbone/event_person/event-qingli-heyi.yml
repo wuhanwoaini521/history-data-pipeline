@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-qingli-heyi
+event_name: 庆历和议（宋夏议和）
+event_years: '1044'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-339687
+  person_name_raw: 李元昊
+  canonical_name: 李元昊
+  role: ruler
+  role_zh_cn: 西夏·统治者
+  side: 西夏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「李元昊」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 李元昊为西夏国主，与宋议约定盟约并为受册之封伯，为缔约一方之首脑。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

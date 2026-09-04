@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-shi-jingtang-dai-tang
+event_name: 石敬瑭灭后唐、后晋建立
+event_years: '936'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-339657
+  person_name_raw: 石敬瑭
+  canonical_name: 石敬瑭
+  role: initiator
+  role_zh_cn: 后晋·发起者
+  side: 后晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「石敬瑭」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 石敬瑭引契丹兵灭后唐而定国后，为代唐自立之主。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-43077
+  person_name_raw: 耶律德光
+  canonical_name: 耶律德光
+  role: ruler
+  role_zh_cn: 辽(契丹)·统治者
+  side: 辽(契丹)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「耶律德光」（902–947）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 耶律德光大封，出兵助其灭唐，为「儿皇帝」所依之强援君主。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

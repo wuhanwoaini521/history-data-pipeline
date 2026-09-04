@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-sima-yan-dai-wei
+event_name: 司马炎代魏、西晋建立
+event_years: '265'
+curated_class: curated_accepted
+people:
+- person_id: ctext-person-138323
+  person_name_raw: 魏元帝
+  canonical_name: 魏元帝
+  role: ruler
+  role_zh_cn: 魏·统治者
+  side: 魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-ctext，canonical=「魏元帝」；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 魏元帝被迫禅位于司马炎，为「以晋代魏」的被禅让当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

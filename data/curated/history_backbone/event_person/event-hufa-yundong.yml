@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-hufa-yundong
+event_name: 护法运动（孙中山南下护法）
+event_years: 1917–1918
+curated_class: curated_accepted
+people:
+- person_id: curated-person-sun-yat-sen
+  person_name_raw: 孙中山
+  canonical_name: 孙中山
+  role: political_leader
+  role_zh_cn: 中华民国·政治领导人
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-sun-yat-sen」canonical=「孙中山」，source_id=source-curated-person-knowledge-gap，source_reference=「《孙中山全集》；张岂之主编《中国历史·晚清卷》」；无别名冲突。
+  event_evidence: 孙中山南下发起护法、组织护法军政府，为事件发动与组织者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=political_leader；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-63908
+  person_name_raw: 段祺瑞
+  canonical_name: 段祺瑞
+  role: political_leader
+  role_zh_cn: 中华民国·政治领导人
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「段祺瑞」（1864–1936）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 段祺瑞废弃临时约法、拒绝恢复国会，是护法运动直面的对手方核心。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=political_leader；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

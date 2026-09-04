@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-liubei-beng-zhugeliang
+event_name: 刘备去世、诸葛亮辅政
+event_years: '223'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-25403
+  person_name_raw: 诸葛亮
+  canonical_name: 诸葛亮
+  role: political_leader
+  role_zh_cn: 蜀汉·政治领导人
+  side: 蜀汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「诸葛亮」（181–234）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 诸葛亮受遗诏辅政、专决军政，为后刘备时代实际执政者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=political_leader；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

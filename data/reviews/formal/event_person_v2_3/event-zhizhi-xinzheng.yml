@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-zhizhi-xinzheng
+event_name: 至治新政（英宗朝改革）
+period_id: period-yuan
+event_years: 1321–1323
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-100386
+  person_name_raw: 元英宗
+  canonical_name: 元英宗
+  role: ruler
+  side: 元
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「元英宗」（1303–1323）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 元英宗在任推行新政（行新政、岁务院各行中书省更制规），因被弑而新政中断，为新政决断之元主。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-zhizhi-xinzheng
+  role_zh_cn: 元·统治者
+  curated_class: curated_accepted
+  review_status: formal_accept

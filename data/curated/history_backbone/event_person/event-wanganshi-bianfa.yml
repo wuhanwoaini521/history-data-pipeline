@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-wanganshi-bianfa
+event_name: 王安石变法（熙宁新法）
+event_years: 1069–1076
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-1762
+  person_name_raw: 王安石
+  canonical_name: 王安石
+  role: initiator
+  role_zh_cn: 北宋·发起者
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王安石」（1021–1086）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王安石主持熙宁变法、行新政，为本事件核心主持人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

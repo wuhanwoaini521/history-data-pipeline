@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-liubang-ru-guan
+event_name: 刘邦入关
+period_id: period-qin
+event_years: '-207'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-16622
+  person_name_raw: 刘邦
+  canonical_name: 刘邦
+  role: commander
+  side: 汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「刘邦」（-256–-195）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 刘邦率军自武关破入关中、兵至霸上，楚亡秦之主力一方主将。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-liubang-ru-guan
+  role_zh_cn: 汉·军事指挥
+  curated_class: curated_accepted
+  review_status: formal_accept

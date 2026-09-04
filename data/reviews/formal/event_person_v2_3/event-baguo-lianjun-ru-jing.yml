@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-baguo-lianjun-ru-jing
+event_name: 八国联军攻陷北京
+period_id: period-late-qing
+event_years: '1900'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: curated-person-cixi-taihou
+  person_name_raw: 慈禧太后
+  canonical_name: 慈禧太后
+  role: ruler
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-cixi-taihou」canonical=「慈禧太后」，source_id=source-curated-person-knowledge-gap，source_reference=「《清史稿·后妃传》；《清德宗实录》」；无别名冲突。
+  event_evidence: 太后为朝政实际掌权者，战和抉择与西巡决策均由太后拍板，是庚子国难之当事君主。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-baguo-lianjun-ru-jing
+  role_zh_cn: 清·统治者
+  curated_class: curated_accepted
+  review_status: formal_accept

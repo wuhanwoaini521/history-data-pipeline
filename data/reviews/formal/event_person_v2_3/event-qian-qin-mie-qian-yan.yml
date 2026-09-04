@@ -1,0 +1,26 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-qian-qin-mie-qian-yan
+event_name: 前秦灭前燕
+period_id: period-sixteen-kingdoms
+event_years: '370'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-31260
+  person_name_raw: 慕容暐
+  canonical_name: 慕容暐
+  role: victim
+  side: 前燕
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「慕容暐」（350–385）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 前燕主慕容暐被前秦所俘、国亡，为亡国当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=victim；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-qian-qin-mie-qian-yan
+  role_zh_cn: 前燕·受害者
+  curated_class: curated_accepted
+  review_status: formal_accept

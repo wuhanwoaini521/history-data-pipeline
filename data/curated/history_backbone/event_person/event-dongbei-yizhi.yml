@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-dongbei-yizhi
+event_name: 东北易帜
+event_years: '1928'
+curated_class: curated_accepted
+people:
+- person_id: curated-person-zhang-xueliang
+  person_name_raw: 张学良
+  canonical_name: 张学良
+  role: initiator
+  role_zh_cn: 中华民国(东北)·发起者
+  side: 中华民国(东北)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-zhang-xueliang」canonical=「张学良」，source_id=source-curated-person-knowledge-gap，source_reference=「《张学良口述历史》；西安事变专题史料集」；无别名冲突。
+  event_evidence: 张教授1928年末宣布东北易帜、归顺中央，为易帜事件的拍板者与推动人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

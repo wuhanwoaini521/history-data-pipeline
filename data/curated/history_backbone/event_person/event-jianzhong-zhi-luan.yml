@@ -1,0 +1,35 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-jianzhong-zhi-luan
+event_name: 建中之乱（泾原兵变、奉天之难）
+event_years: 781–784
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-194619
+  person_name_raw: 朱泚
+  canonical_name: 朱泚
+  role: initiator
+  role_zh_cn: 秦帝(朱泚)·发起者
+  side: 秦帝(朱泚)
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「朱泚」（741–784）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 朱泚被泾原兵拥立僭号秦帝，是建中之乱中占据长安皇权的主要反唐中心人物。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-191752
+  person_name_raw: 王武俊
+  canonical_name: 王武俊
+  role: participant
+  role_zh_cn: 成德镇·参与者
+  side: 成德镇
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王武俊」（734–801）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王武俊为起兵反削藩的镇将之一（后称冀王），属建中之乱直接参与者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=participant；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

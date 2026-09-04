@@ -1,0 +1,44 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-qingli-xinzheng
+event_name: 庆历新政
+period_id: period-northern-song
+event_years: 1043–1044
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-1762
+  person_name_raw: 王安石
+  canonical_name: 王安石
+  role: participant
+  side: ''
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: china-history-backbone-v2.2-machine：KB/curated 精确命中（王安石→王安石），事件时窗
+    1043–1044 内唯一存活候选，无身份冲突
+  event_evidence: 《庆历新政》summary 明确出现 王安石（依据事件 summary/source_reference）
+  review_note: V2.2 自动 review：exact；reviewed_by=china-history-backbone-v2.2-machine
+  event_id: event-qingli-xinzheng
+  review_status: formal_reject
+  reject_category: 背景引用
+  reason: 庆历新政系范仲淹主导（1043-44），王安石变法属多年后的熙宁新法，summary以「后之王安石变法」为远引，非本事件参与者。
+- person_id: cbdb-person-8043
+  person_name_raw: 范仲淹
+  canonical_name: 范仲淹
+  role: official
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「范仲淹」（989–1052）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 范仲淹参知政事提「十事」推行新政，为庆历新政首脑与主要推手。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-qingli-xinzheng
+  role_zh_cn: 北宋·官员
+  curated_class: curated_accepted
+  review_status: formal_accept

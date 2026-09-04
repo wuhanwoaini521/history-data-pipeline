@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-qingli-xinzheng
+event_name: 庆历新政
+event_years: 1043–1044
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-8043
+  person_name_raw: 范仲淹
+  canonical_name: 范仲淹
+  role: official
+  role_zh_cn: 北宋·官员
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「范仲淹」（989–1052）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 范仲淹参知政事提「十事」推行新政，为庆历新政首脑与主要推手。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

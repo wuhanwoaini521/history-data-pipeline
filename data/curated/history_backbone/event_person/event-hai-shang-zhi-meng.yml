@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-hai-shang-zhi-meng
+event_name: 海上之盟（宋金联合攻辽）
+event_years: '1120'
+curated_class: curated_accepted
+people:
+- person_id: curated-person-songhuizong
+  person_name_raw: 宋徽宗
+  canonical_name: 赵佶(宋徽宗)
+  role: ruler
+  role_zh_cn: 北宋·统治者
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.95
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-songhuizong」canonical=「赵佶(宋徽宗)」，source_id=source-curated-person-knowledge-gap，source_reference=「《宋史·徽宗本纪》；《续资治通鉴长编》」；无别名冲突。
+  event_evidence: 徽宗君臣定策、遣使由海路赴金缔约，为缔结海上之盟的最终决策者（《宋史·徽宗纪》）。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

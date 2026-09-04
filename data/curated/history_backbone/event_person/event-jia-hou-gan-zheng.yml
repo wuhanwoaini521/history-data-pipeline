@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-jia-hou-gan-zheng
+event_name: 贾后干政与政变
+event_years: 291–300
+curated_class: curated_accepted
+people:
+- person_id: curated-person-jia-nanfeng
+  person_name_raw: 贾南风
+  canonical_name: 贾南风
+  role: initiator
+  role_zh_cn: 西晋·发起者
+  side: 西晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: identity_q=confirmed：补充 Person「curated-person-jia-nanfeng」canonical=「贾南风」，source_id=source-curated-person-knowledge-gap，source_reference=「出生于256年左右，《晋书·惠帝纪》《晋书·后妃传》」；无别名冲突。
+  event_evidence: 贾南风联手楚王玮剪除杨骏擅政一涯，为政变与其专制干政的发起与当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

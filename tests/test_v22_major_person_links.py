@@ -77,11 +77,17 @@ def test_place_noise_not_linked(v22):
 def test_v22_store_dir_never_collides_with_formal(v22):
     formal = ROOT / "data" / "curated" / "history_backbone" / "event_person"
     v22_store = ROOT / "data" / "machine_review" / "event_person_v2_2"
-    formal_names = {p.stem for p in formal.glob("*.yml")}
-    v22_names = {p.stem for p in v22_store.glob("*.yml")}
-    assert not (formal_names & v22_names)
-    # v2.2 目录不被 loader 扫描的正式目录命名空间
+    # 机器层目录与正式目录命名空间隔离（loader 只扫正式目录）
     assert v22_store != formal
+    # 机器层不直接写正式层：凡与 v2_2 候选同名正式文件，必须携带 V2.3 策展标记
+    import yaml
+    for f in sorted(formal.glob("*.yml")):
+        if f.stem in {p.stem for p in v22_store.glob("*.yml")}:
+            doc = yaml.safe_load(f.read_text(encoding="utf-8"))
+            assert doc.get("curated_class") == "curated_accepted", f"{f.name} 缺 V2.3 策展标记"
+            note = " ".join(p.get("review_note", "") for p in doc.get("people", []))
+            assert "agent_assisted_source_review" in note or "agent_assisted" in note, f"{f.name} 缺少 agent_assisted 复核声明"
+            assert "human_reviewed" not in note, f"{f.name} 不得声称 human_reviewed"
 
 
 def test_curated_era_person_via_curated_id(v22):

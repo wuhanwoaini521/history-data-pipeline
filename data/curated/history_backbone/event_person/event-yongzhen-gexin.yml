@@ -1,0 +1,49 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-yongzhen-gexin
+event_name: 永贞革新
+event_years: '805'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-3605
+  person_name_raw: 柳宗元
+  canonical_name: 柳宗元
+  role: official
+  role_zh_cn: 唐·官员
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「柳宗元」（773–819）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 柳宗元参与永贞革新（王叔文集团）主理文事，为革新重要成员。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-189642
+  person_name_raw: 王伾
+  canonical_name: 王伾
+  role: official
+  role_zh_cn: 唐·官员
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王伾」（None–806）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王伾为永贞革新核心二人组「二王」之一，主持内务。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=official；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+- person_id: cbdb-person-33597
+  person_name_raw: 王叔文
+  canonical_name: 王叔文
+  role: initiator
+  role_zh_cn: 唐·发起者
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王叔文」（None–806）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王叔文为永贞革新实际主持（翰林学士），发起并推进新改革，革新失败后被贬杀。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

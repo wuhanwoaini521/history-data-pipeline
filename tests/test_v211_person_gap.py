@@ -81,7 +81,7 @@ def test_ambiguous_recorded_in_accepted_review():
 
 def test_store_totals_after_v211():
     links = _store_people()
-    assert len(links) == 142  # 58 legacy + 110 V2.1 + 32 V2.1.1
+    assert len(links) == 350  # 142（V2.1+V2.1.1 store）+ 208（V2.3 formal_accepted）
     supp_ids = set(SUPPLEMENT_IDS.values())
     assert len(supp_ids) == 24
     in_store = {l["person_id"] for l in links if l["person_id"]}
@@ -95,9 +95,9 @@ def test_person_files_exist():
         assert pid in files
 
 
-def test_build_resolution_linked_200(backbone):
+def test_build_resolution_linked_398(backbone):
     result = resolve_references(backbone)
-    assert result.persons["linked"] == 200  # 58 + 110 + 32
+    assert result.persons["linked"] == 398  # 58 + 110 + 32 + V2.3 208（含与内联去重的净 198）
     assert result.broken == []
 
 
@@ -108,4 +108,4 @@ def test_dist_event_person_rows():
     import duckdb
     with duckdb.connect(str(db), read_only=True) as connection:
         n = connection.execute("SELECT COUNT(*) FROM event_person").fetchone()[0]
-        assert n == 200
+        assert n == 398

@@ -1,0 +1,43 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-ningwang-zhi-luan
+event_name: 宁王之乱（朱宸濠起兵）
+period_id: period-ming
+event_years: '1519'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-67356
+  person_name_raw: 朱宸濠
+  canonical_name: 朱宸濠
+  role: initiator
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「朱宸濠」（None–1520）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 宁王朱宸濠起兵叛乱，为事件发起者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=initiator；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-ningwang-zhi-luan
+  role_zh_cn: 明·发起者
+  curated_class: curated_accepted
+  review_status: formal_accept
+- person_id: cbdb-person-30374
+  person_name_raw: 王守仁
+  canonical_name: 王守仁
+  role: commander
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「王守仁」（1472–1528）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 王守仁不待朝命募兵讨平宸濠，为平叛主帅。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-ningwang-zhi-luan
+  role_zh_cn: 明·军事指挥
+  curated_class: curated_accepted
+  review_status: formal_accept

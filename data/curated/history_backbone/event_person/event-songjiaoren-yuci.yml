@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-songjiaoren-yuci
+event_name: 宋教仁遇刺
+event_years: '1913'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-79898
+  person_name_raw: 宋教仁
+  canonical_name: 宋教仁
+  role: victim
+  role_zh_cn: 中华民国·受害者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「宋教仁」（1882–1913）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 宋教仁（国民党代理理事长）沪上遇刺身亡，为事件遇害当事人，也是「二次革命」的导火索。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=victim；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

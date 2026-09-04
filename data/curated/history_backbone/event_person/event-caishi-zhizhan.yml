@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-caishi-zhizhan
+event_name: 采石之战
+event_years: '1161'
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-8170
+  person_name_raw: 虞允文
+  canonical_name: 虞允文
+  role: commander
+  role_zh_cn: 南宋·军事指挥
+  side: 南宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「虞允文」（1110–1174）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 虞允文以文臣代督军务、督战采石击退金军，是采石大捷的直接指挥者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

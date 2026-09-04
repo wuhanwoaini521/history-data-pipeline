@@ -1,0 +1,21 @@
+# China History Backbone V2.3 · Agent-Assisted Curated Accepted EventPerson
+# curated_class=curated_accepted; method=agent_assisted_source_review（待 V2.4 人工复核）。
+event_id: event-lvbu-baiwang
+event_name: 吕布败亡（下邳之战）
+event_years: 198–199
+curated_class: curated_accepted
+people:
+- person_id: cbdb-person-30257
+  person_name_raw: 曹操
+  canonical_name: 曹操
+  role: commander
+  role_zh_cn: 魏·军事指挥
+  side: 魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「曹操」（155–220）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 曹操围攻下邳、破灭吕布，为讨灭之直接指挥者。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=commander；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）

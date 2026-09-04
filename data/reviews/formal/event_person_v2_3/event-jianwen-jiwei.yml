@@ -1,0 +1,43 @@
+# V2.3 formal review record · method=agent_assisted_source_review（待 V2.4 人工复核）
+event_id: event-jianwen-jiwei
+event_name: 建文帝即位
+period_id: period-ming
+event_years: '1398'
+importance: major
+review_method: agent_assisted_source_review
+machine_source: china-history-backbone-v2.2-machine
+people:
+- person_id: cbdb-person-30150
+  person_name_raw: 朱允炆
+  canonical_name: 朱允炆
+  role: ruler
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「朱允炆」（1377–1402）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 朱允炆以皇太孙即位，为建文朝新君，即位的当事人。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-jianwen-jiwei
+  role_zh_cn: 明·统治者
+  curated_class: curated_accepted
+  review_status: formal_accept
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  canonical_name: 朱元璋
+  role: ruler
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.3 复核(identity_q=confirmed)：Knowledge Store=source-cbdb，canonical=「朱元璋」（1328–1398）；姓名/别名在事件时窗内唯一命中，身份无冲突。
+  event_evidence: 建文帝即位系因朱元璋之死，崩殂为即位之直接前提与背景。
+  review_note: V2.3 formal=accept；identity_q=yes；participation_q=yes；role=ruler；reviewed_by=china-history-backbone-v2.3-agent（agent_assisted_source_review）
+  event_id: event-jianwen-jiwei
+  role_zh_cn: 明·统治者
+  curated_class: curated_accepted
+  review_status: formal_accept
