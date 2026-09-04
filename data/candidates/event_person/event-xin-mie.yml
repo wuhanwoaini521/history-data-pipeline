@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（王莽）；事件时段 event-xin-mie 内人物活跃；无冲突
     event_evidence: 王莽（新朝末主（被杀））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-24661
+- - person_id: cbdb-person-24661
     person_name_raw: 刘秀
     canonical_name: 劉秀
     role: commander
@@ -30,5 +30,5 @@ accepted:
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
 unlinked:
 - person_name_raw: 刘玄
-  resolution: not_found
-  reason: KB 无 更始帝刘玄（仅 劉玄豹/省/獎 后缀）
+  resolution: ambiguous
+  reason: 'V2.1.1 : 同名多项，无法唯一确认，保留 gap（不建 Person）'

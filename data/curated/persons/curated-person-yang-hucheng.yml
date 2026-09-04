@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1949
+birth_year: 1893
+aliases:
+- 虎臣
+period_ids:
+- period-republic
+intro_zh_cn: 民国第十七路军将领，与张学良发动西安事变。
+id: curated-person-yang-hucheng
+birth_precision: year
+source_reference: 《杨虎城将军传》——陕西人民出版社
+traditional_name: 楊虎城
+death_precision: year
+gender: male
+name_raw: 杨虎城
+canonical_name_zh_cn: 杨虎城
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1976
+birth_year: 1898
+aliases:
+- 翔宇
+period_ids:
+- period-republic
+- period-modern
+intro_zh_cn: 现代中国政治家，中华人民共和国首任国务院总理。
+id: curated-person-zhou-enlai
+birth_precision: year
+source_reference: 《周恩来年谱》中央文献出版社
+traditional_name: 周恩來
+death_precision: year
+gender: male
+name_raw: 周恩来
+canonical_name_zh_cn: 周恩来
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -19,8 +19,8 @@
     {
       "person_id": null,
       "person_name_raw": "刘玄",
-      "resolution": "not_found",
-      "reason": "KB 无 更始帝刘玄（仅 劉玄豹/省/獎 后缀）"
+      "resolution": "ambiguous",
+      "reason": "V2.1.1 确认同名冲突/无法唯一 → 不建 Person，保留 gap"
     }
   ]
 }

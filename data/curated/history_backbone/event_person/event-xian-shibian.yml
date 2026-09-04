@@ -1,0 +1,59 @@
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
+event_id: event-xian-shibian
+people:
+- person_id: curated-person-zhang-xueliang
+  person_name_raw: 张学良
+  canonical_name: 张学良
+  role: initiator
+  role_zh_cn: 中华民国·发起者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-zhang-xueliang），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 张学良（中华民国·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-yang-hucheng
+  person_name_raw: 杨虎城
+  canonical_name: 杨虎城
+  role: initiator
+  role_zh_cn: 中华民国·发起者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-yang-hucheng），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 杨虎城（中华民国·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-chiang-kai-shek
+  person_name_raw: 蒋介石
+  canonical_name: 蒋介石
+  role: victim
+  role_zh_cn: 中华民国·受害者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-chiang-kai-shek），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 蒋介石（中华民国·受害者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-zhou-enlai
+  person_name_raw: 周恩来
+  canonical_name: 周恩来
+  role: participant
+  role_zh_cn: 中华民国·参与者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-zhou-enlai），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 周恩来（中华民国·参与者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator

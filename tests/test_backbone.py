@@ -217,7 +217,7 @@ def test_resolution_linked_places(resolution):
 
 def test_resolution_no_broken(resolution):
     assert resolution.broken == []
-    assert resolution.persons["linked"] == 168  # 58 legacy + 110 V2.1
+    assert resolution.persons["linked"] == 200  # 58 legacy + 110 V2.1 + 32 V2.1.1
     assert resolution.evidences["pending_knowledge"] == 26
 
 

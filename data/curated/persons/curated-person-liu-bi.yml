@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: -154
+birth_year: null
+aliases:
+- 刘濞
+- 吴王濞
+period_ids:
+- period-western-han
+intro_zh_cn: 西汉吴王，汉高祖刘邦之三弟刘仲之子。七国之乱首谋，兵败被杀。
+id: curated-person-liu-bi
+birth_precision: unknown
+source_reference: 《史记·吴王濞列传》；《汉书·荆燕吴传》；白寿彝《中国通史》
+traditional_name: 劉濞
+death_precision: year
+gender: male
+name_raw: 吴王刘濞
+canonical_name_zh_cn: 刘濞
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

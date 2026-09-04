@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅溥儀）；事件时段 event-qingdi-tuiwei 内人物活跃；lifespan 1906-1967
     event_evidence: 溥仪（退位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-63546
+- - person_id: cbdb-person-63546
     person_name_raw: 袁世凯
     canonical_name: 袁世凱
     role: official
@@ -28,10 +28,38 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（袁世凱）；事件时段 event-qingdi-tuiwei 内人物活跃；lifespan 1859-1916 dynasty-21
     event_evidence: 袁世凯（南北和议主导者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: curated-person-longyu
+    person_name_raw: 隆裕太后
+    canonical_name: 隆裕太后
+    role: ruler
+    role_zh_cn: 清·统治者
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-longyu），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 隆裕太后（清·统治者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-sun-yat-sen
+    person_name_raw: 孙中山
+    canonical_name: 孙中山
+    role: political_leader
+    role_zh_cn: 中华民国·政治领导人
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-sun-yat-sen），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 孙中山（中华民国·政治领导人）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 隆裕太后
-  resolution: not_found
-  reason: KB 无 隆裕（仅辽 耶律隆祐 同名异人）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-longyu
 - person_name_raw: 孙中山
-  resolution: not_found
-  reason: KB 无 孫文/孫中山
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-sun-yat-sen

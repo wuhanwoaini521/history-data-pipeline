@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 447
+birth_year: null
+aliases:
+- 北凉哀王
+period_ids:
+- period-sixteen-kingdoms
+intro_zh_cn: 北凉末主（433-439），439年降北魏，后卒（史载447年被赐死）。
+id: curated-person-juqu-mujian
+birth_precision: unknown
+source_reference: 《魏书·沮渠蒙逊传》附牧犍；《资治通鉴》卷一二三
+traditional_name: 沮渠牧犍
+death_precision: year
+gender: male
+name_raw: 沮渠牧犍
+canonical_name_zh_cn: 沮渠牧犍
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -1,0 +1,23 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1908
+birth_year: 1835
+aliases:
+- 叶赫那拉氏
+- 西太后
+- 老佛爷
+period_ids:
+- period-late-qing
+intro_zh_cn: 晚清太后，同治、光绪两朝实际掌权者；甲午战争期间主政。
+id: curated-person-cixi-taihou
+birth_precision: year
+source_reference: 《清史稿·后妃传》；《清德宗实录》
+traditional_name: 慈禧太后
+death_precision: year
+gender: female
+name_raw: 慈禧太后
+canonical_name_zh_cn: 慈禧太后
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

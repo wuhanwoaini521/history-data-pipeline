@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1966
+birth_year: 1888
+aliases:
+- 牟田口
+period_ids:
+- period-republic
+intro_zh_cn: 日本陆军军官，卢沟桥事变时的联队长。
+id: curated-person-mutaguchi-renya
+birth_precision: year
+source_reference: 《牟田口廉也回忆录》；侵华日军驻屯军史料
+traditional_name: 牟田口廉也
+death_precision: year
+gender: male
+name_raw: 牟田口廉也
+canonical_name_zh_cn: 牟田口廉也
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

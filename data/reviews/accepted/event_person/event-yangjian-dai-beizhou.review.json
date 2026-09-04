@@ -15,6 +15,12 @@
       "person_name_raw": "周静帝",
       "resolution": "not_found",
       "reason": "KB 无 宇文阐"
+    },
+    {
+      "person_id": "ctext-person-293600",
+      "person_name_raw": "周静帝",
+      "role": "victim",
+      "resolution": "exact"
     }
   ]
 }

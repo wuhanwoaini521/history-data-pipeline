@@ -1,0 +1,17 @@
+{
+  "phase": "v2.1.1",
+  "gate": "CRITICAL_PERSON_KNOWLEDGE_GAP_RECOVERY_READY",
+  "value": true,
+  "events_total": 618,
+  "v21_accepted_links_preserved": 110,
+  "new_links_added": 32,
+  "event_person_row_total": 200,
+  "known_wrong_identity": 0,
+  "supplemental_person_count": 24,
+  "scope_count": 34,
+  "resolved_existing": 4,
+  "ambiguous": 2,
+  "store_files": 61,
+  "store_persons": 142,
+  "broken": 0
+}

@@ -27,6 +27,12 @@
       "person_name_raw": "贾南风",
       "resolution": "not_found",
       "reason": "KB 无 賈南風"
+    },
+    {
+      "person_id": "curated-person-jia-nanfeng",
+      "person_name_raw": "贾南风",
+      "role": "participant",
+      "resolution": "exact"
     }
   ]
 }

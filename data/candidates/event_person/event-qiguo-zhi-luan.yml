@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（漢景帝）；事件时段 event-qiguo-zhi-luan 内人物活跃；无冲突
     event_evidence: 汉景帝（平叛决策者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-462464
+- - person_id: cbdb-person-462464
     person_name_raw: 晁错
     canonical_name: 晁錯
     role: official
@@ -28,7 +28,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（晁錯）；事件时段 event-qiguo-zhi-luan 内人物活跃；dynasty-29 西汉，与事件时段相符
     event_evidence: 晁错（削藩主张者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: ctext-person-865369
+- - person_id: ctext-person-865369
     person_name_raw: 周亚夫
     canonical_name: 周亞夫
     role: commander
@@ -42,7 +42,21 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（周亞夫）；事件时段 event-qiguo-zhi-luan 内人物活跃；无冲突
     event_evidence: 周亚夫（平叛主帅）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: curated-person-liu-bi
+    person_name_raw: 吴王刘濞
+    canonical_name: 刘濞
+    role: initiator
+    role_zh_cn: 吴·发起者
+    side: 吴
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-liu-bi），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 吴王刘濞（吴·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 吴王刘濞
-  resolution: not_found
-  reason: KB 无 刘濞
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-liu-bi

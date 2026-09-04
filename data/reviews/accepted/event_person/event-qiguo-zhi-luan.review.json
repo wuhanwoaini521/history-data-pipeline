@@ -27,6 +27,12 @@
       "person_name_raw": "吴王刘濞",
       "resolution": "not_found",
       "reason": "KB 无 刘濞"
+    },
+    {
+      "person_id": "curated-person-liu-bi",
+      "person_name_raw": "吴王刘濞",
+      "role": "initiator",
+      "resolution": "exact"
     }
   ]
 }

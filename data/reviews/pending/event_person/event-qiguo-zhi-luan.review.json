@@ -1,6 +1,6 @@
 {
   "event_id": "event-qiguo-zhi-luan",
-  "review_status": "pending",
-  "candidates_count": 4,
-  "review": "candidate → identity resolution → 人工 review"
+  "review_status": "accepted",
+  "candidates_count": 1,
+  "review": "V2.1.1 re-resolution final（append to V2.1 store）"
 }

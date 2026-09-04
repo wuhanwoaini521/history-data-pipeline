@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1948
+birth_year: 1885
+aliases:
+- 板桓征四郎
+period_ids:
+- period-republic
+intro_zh_cn: 日本陆军军官，九一八事变时关东军高级参谋之一。
+id: curated-person-itagaki-seishiro
+birth_precision: year
+source_reference: 东京审判个人案卷（IMFTE 判决书）
+traditional_name: 板垣征四郎
+death_precision: year
+gender: male
+name_raw: 板垣征四郎
+canonical_name_zh_cn: 板垣征四郎
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

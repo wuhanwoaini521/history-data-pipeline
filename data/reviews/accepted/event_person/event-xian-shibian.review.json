@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-xian-shibian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-zhang-xueliang",
+      "person_name_raw": "张学良",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-yang-hucheng",
+      "person_name_raw": "杨虎城",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-chiang-kai-shek",
+      "person_name_raw": "蒋介石",
+      "role": "victim",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-zhou-enlai",
+      "person_name_raw": "周恩来",
+      "role": "participant",
+      "resolution": "exact"
+    }
+  ]
+}

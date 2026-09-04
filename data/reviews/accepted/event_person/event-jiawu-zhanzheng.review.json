@@ -27,6 +27,12 @@
       "person_name_raw": "慈禧太后",
       "resolution": "not_found",
       "reason": "KB 无 慈禧（仅 葉赫那拉氏 其他成员）"
+    },
+    {
+      "person_id": "curated-person-cixi-taihou",
+      "person_name_raw": "慈禧太后",
+      "role": "ruler",
+      "resolution": "exact"
     }
   ]
 }

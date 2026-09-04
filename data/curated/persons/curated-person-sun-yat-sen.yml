@@ -1,0 +1,24 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1925
+birth_year: 1866
+aliases:
+- 孙文
+- 孙逸仙
+- 中山
+- 逸仙
+period_ids:
+- period-republic
+intro_zh_cn: 近代革命运动领导人，曾任中华民国临时大总统。
+id: curated-person-sun-yat-sen
+birth_precision: year
+source_reference: 《孙中山全集》；张岂之主编《中国历史·晚清卷》
+traditional_name: 孫中山
+death_precision: year
+gender: male
+name_raw: 孙中山
+canonical_name_zh_cn: 孙中山
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

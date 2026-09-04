@@ -1,0 +1,45 @@
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
+event_id: event-nanjing-datusha
+people:
+- person_id: curated-person-matsui-iwane
+  person_name_raw: 松井石根
+  canonical_name: 松井石根
+  role: initiator
+  role_zh_cn: 日本·发起者
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-matsui-iwane），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 松井石根（日本·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-tani-hisao
+  person_name_raw: 谷寿夫
+  canonical_name: 谷寿夫
+  role: commander
+  role_zh_cn: 日本·军事指挥
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-tani-hisao），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 谷寿夫（日本·军事指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-tang-shengzhi
+  person_name_raw: 唐生智
+  canonical_name: 唐生智
+  role: commander
+  role_zh_cn: 中华民国·军事指挥
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-tang-shengzhi），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 唐生智（中华民国·军事指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator

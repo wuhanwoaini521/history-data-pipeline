@@ -1,10 +1,37 @@
 event_id: event-riben-touxiang
 accepted:
-- []
+- - person_id: curated-person-hirohito
+    person_name_raw: 裕仁
+    canonical_name: 裕仁
+    role: ruler
+    role_zh_cn: 日本·统治者
+    side: 日本
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-hirohito），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 裕仁（日本·统治者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-chiang-kai-shek
+    person_name_raw: 蒋介石
+    canonical_name: 蒋介石
+    role: ruler
+    role_zh_cn: 中华民国·统治者
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-chiang-kai-shek），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 蒋介石（中华民国·统治者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 裕仁
-  resolution: not_found
-  reason: KB 无（仅 褚裕仁/楊裕仁 等后缀异名）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-hirohito
 - person_name_raw: 蒋介石
-  resolution: not_found
-  reason: KB 无
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-chiang-kai-shek

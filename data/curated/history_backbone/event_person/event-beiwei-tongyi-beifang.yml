@@ -1,4 +1,4 @@
-# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
 event_id: event-beiwei-tongyi-beifang
 people:
 - person_id: cbdb-person-31007
@@ -15,3 +15,17 @@ people:
   identity_evidence: Knowledge Store canonical/alias 匹配（拓跋燾）；事件时段 event-beiwei-tongyi-beifang 内人物活跃；dynasty-30 death 452
   event_evidence: 拓跋焘（北魏统一北方（太武帝））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
   review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: curated-person-juqu-mujian
+  person_name_raw: 沮渠牧犍
+  canonical_name: 沮渠牧犍
+  role: victim
+  role_zh_cn: 北凉·受害者
+  side: 北凉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-juqu-mujian），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 沮渠牧犍（北凉·受害者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator

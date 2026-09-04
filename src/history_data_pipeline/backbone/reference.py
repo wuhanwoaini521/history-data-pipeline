@@ -18,6 +18,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 from .loader import Backbone
 
 # legacy QA 确认的 canonical 简体名（迁移依据，来自 semantic_layer.CURATED_PERSON_NAMES）
@@ -111,6 +113,70 @@ def curated_event_person_seeds(root: Path) -> dict[str, str]:
     except Exception:
         return seeds
     return seeds
+
+
+# V2.1.1 · curated Person 补充层（source-curated-person-knowledge-gap）
+# data/curated/persons/*.yml 为单一事实来源；build 直接读取，不外显硬编码。
+CURATED_PERSON_DIR_REL = ("data", "curated", "persons")
+
+
+def load_curated_person_records(root: Path) -> list[dict[str, Any]]:
+    """读取全部 curated-person-* 补充人物（V2.1.1）。"""
+    person_dir = root.joinpath(*CURATED_PERSON_DIR_REL)
+    if not person_dir.is_dir():
+        return []
+    records: list[dict[str, Any]] = []
+    for path in sorted(person_dir.glob("curated-person-*.yml")):
+        doc = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        if doc.get("id") and doc.get("canonical_name_zh_cn"):
+            records.append(doc)
+    return records
+
+
+def supplemental_person_rows(root: Path) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """返回 (people 增补行, person_aliases 行)。与 knowledge 种子合并后用，先插后由 supp 层覆盖。"""
+    people: list[dict[str, Any]] = []
+    aliases: list[dict[str, Any]] = []
+    for spec in load_curated_person_records(root):
+        pid = spec["id"]
+        canonical = spec["canonical_name_zh_cn"]
+        extras = list(spec.get("aliases") or [])
+        search_text = " ".join([canonical] + extras)
+        people.append({
+            "id": pid,
+            "canonical_name_zh_cn": canonical,
+            "name_raw": spec.get("name_raw", canonical),
+            "traditional_name": spec.get("traditional_name"),
+            "birth_year": spec.get("birth_year"),
+            "death_year": spec.get("death_year"),
+            "birth_precision": spec.get("birth_precision"),
+            "death_precision": spec.get("death_precision"),
+            "gender": spec.get("gender"),
+            "period_ids": _json_str(spec.get("period_ids") or []),
+            "intro_zh_cn": spec.get("intro_zh_cn"),
+            "quality_status": spec.get("quality_status", "reviewed"),
+            "created_from_source": spec.get("source_id", "source-curated-person-knowledge-gap"),
+            "source_id": spec.get("source_id", "source-curated-person-knowledge-gap"),
+            "search_name": canonical,
+            "search_aliases": ",".join(extras),
+            "search_text": search_text,
+        })
+        for alias in extras:
+            aliases.append({
+                "person_id": pid, "alias": alias, "alias_zh_cn": alias,
+                "alias_type": "alias",
+                "source": spec.get("source_id", "source-curated-person-knowledge-gap"),
+                "source_id": spec.get("source_id", "source-curated-person-knowledge-gap"),
+                "external_id": None,
+            })
+    return people, aliases
+
+
+def _json_str(values: list[Any]) -> str | None:
+    if not values:
+        return None
+    import json
+    return json.dumps(values, ensure_ascii=False)
 
 
 def resolve_references(backbone: Backbone, knowledge_db: Path | None = None) -> ResolutionResult:

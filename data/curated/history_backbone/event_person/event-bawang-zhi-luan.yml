@@ -1,4 +1,4 @@
-# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
 event_id: event-bawang-zhi-luan
 people:
 - person_id: cbdb-person-30898
@@ -43,3 +43,17 @@ people:
   identity_evidence: Knowledge Store canonical/alias 匹配（司馬越）；事件时段 event-bawang-zhi-luan 内人物活跃；cbdb 为主
   event_evidence: 司马越（乱局终结者（东海王））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
   review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: curated-person-jia-nanfeng
+  person_name_raw: 贾南风
+  canonical_name: 贾南风
+  role: participant
+  role_zh_cn: 西晋·参与者
+  side: 西晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-jia-nanfeng），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 贾南风（西晋·参与者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator

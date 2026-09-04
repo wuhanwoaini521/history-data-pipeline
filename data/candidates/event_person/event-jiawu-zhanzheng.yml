@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（愛新覺羅載湉）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1871-1908
     event_evidence: 光绪帝（在位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-58961
+- - person_id: cbdb-person-58961
     person_name_raw: 李鸿章
     canonical_name: 李鴻章
     role: official
@@ -28,7 +28,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（李鴻章）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1823-1901
     event_evidence: 李鸿章（主和与议和代表）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-58649
+- - person_id: cbdb-person-58649
     person_name_raw: 丁汝昌
     canonical_name: 丁汝昌
     role: commander
@@ -42,7 +42,21 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（丁汝昌）；事件时段 event-jiawu-zhanzheng 内人物活跃；lifespan 1836-1895
     event_evidence: 丁汝昌（北洋海军提督（殉国））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: curated-person-cixi-taihou
+    person_name_raw: 慈禧太后
+    canonical_name: 慈禧太后
+    role: ruler
+    role_zh_cn: 清·统治者
+    side: 清
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-cixi-taihou），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 慈禧太后（清·统治者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 慈禧太后
-  resolution: not_found
-  reason: KB 无 慈禧（仅 葉赫那拉氏 其他成员）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-cixi-taihou

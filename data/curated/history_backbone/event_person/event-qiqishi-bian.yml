@@ -1,0 +1,45 @@
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
+event_id: event-qiqishi-bian
+people:
+- person_id: curated-person-song-zheyuan
+  person_name_raw: 宋哲元
+  canonical_name: 宋哲元
+  role: official
+  role_zh_cn: 中华民国·官员
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-song-zheyuan），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 宋哲元（中华民国·官员）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-qin-dechun
+  person_name_raw: 秦德纯
+  canonical_name: 秦德纯
+  role: official
+  role_zh_cn: 中华民国·官员
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-qin-dechun），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 秦德纯（中华民国·官员）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- person_id: curated-person-mutaguchi-renya
+  person_name_raw: 牟田口廉也
+  canonical_name: 牟田口廉也
+  role: commander
+  role_zh_cn: 日本·军事指挥
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  resolution: exact
+  identity_evidence: V2.1.1 补充 Person（curated-person-mutaguchi-renya），curated layer，来源=source-curated-person-knowledge-gap
+  event_evidence: 牟田口廉也（日本·军事指挥）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator

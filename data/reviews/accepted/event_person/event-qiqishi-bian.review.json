@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-qiqishi-bian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-song-zheyuan",
+      "person_name_raw": "宋哲元",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-qin-dechun",
+      "person_name_raw": "秦德纯",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-mutaguchi-renya",
+      "person_name_raw": "牟田口廉也",
+      "role": "commander",
+      "resolution": "exact"
+    }
+  ]
+}

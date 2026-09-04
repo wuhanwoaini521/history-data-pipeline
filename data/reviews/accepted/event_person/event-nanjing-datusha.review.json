@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "event_id": "event-nanjing-datusha",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-matsui-iwane",
+      "person_name_raw": "松井石根",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-tani-hisao",
+      "person_name_raw": "谷寿夫",
+      "role": "commander",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-tang-shengzhi",
+      "person_name_raw": "唐生智",
+      "role": "commander",
+      "resolution": "exact"
+    }
+  ]
+}

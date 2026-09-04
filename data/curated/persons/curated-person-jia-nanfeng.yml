@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 300
+birth_year: null
+aliases:
+- 贾后
+- 贾皇后
+period_ids:
+- period-western-jin
+intro_zh_cn: 西晋惠帝皇后，八王之乱的重要推手，后被杀。
+id: curated-person-jia-nanfeng
+birth_precision: year
+source_reference: 出生于256年左右，《晋书·惠帝纪》《晋书·后妃传》
+traditional_name: 賈南風
+death_precision: year
+gender: female
+name_raw: 贾南风
+canonical_name_zh_cn: 贾南风
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

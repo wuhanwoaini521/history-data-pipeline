@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "event_id": "event-riben-touxiang",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-hirohito",
+      "person_name_raw": "裕仁",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-chiang-kai-shek",
+      "person_name_raw": "蒋介石",
+      "role": "ruler",
+      "resolution": "exact"
+    }
+  ]
+}

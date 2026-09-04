@@ -27,6 +27,12 @@
       "person_name_raw": "宋徽宗",
       "resolution": "not_found",
       "reason": "KB 无 赵佶/宋徽宗（仅其女/妃等亲属记录）"
+    },
+    {
+      "person_id": "curated-person-songhuizong",
+      "person_name_raw": "宋徽宗",
+      "role": "ruler",
+      "resolution": "exact"
     }
   ]
 }

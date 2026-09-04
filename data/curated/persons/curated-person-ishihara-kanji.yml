@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1949
+birth_year: 1889
+aliases:
+- 石原莞爾
+- 石原莞儿
+period_ids:
+- period-republic
+intro_zh_cn: 日本陆军军官，九一八事变的主要策划者之一。
+id: curated-person-ishihara-kanji
+birth_precision: year
+source_reference: 《石原莞尔与九一八事变》；步步为营丛书·满洲事变史料
+traditional_name: 石原莞爾
+death_precision: year
+gender: male
+name_raw: 石原莞尔
+canonical_name_zh_cn: 石原莞尔
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

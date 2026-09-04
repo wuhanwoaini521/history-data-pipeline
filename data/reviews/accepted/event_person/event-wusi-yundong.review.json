@@ -21,6 +21,12 @@
       "person_name_raw": "陈独秀",
       "resolution": "not_found",
       "reason": "KB 无 陈独秀"
+    },
+    {
+      "person_id": "curated-person-chen-duxiu",
+      "person_name_raw": "陈独秀",
+      "role": "political_leader",
+      "resolution": "exact"
     }
   ]
 }

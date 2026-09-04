@@ -1,0 +1,23 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1975
+birth_year: 1887
+aliases:
+- 蒋中正
+- 中正
+period_ids:
+- period-republic
+- period-modern
+intro_zh_cn: 民国时期军事政治人物，抗战期间任国防最高委员会主席、盟军中国战区最高统帅。
+id: curated-person-chiang-kai-shek
+birth_precision: year
+source_reference: 《蒋介石日记》；黄仁宇《从大历史的角度读蒋介石日记》
+traditional_name: 蔣介石
+death_precision: year
+gender: male
+name_raw: 蒋介石
+canonical_name_zh_cn: 蒋介石
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

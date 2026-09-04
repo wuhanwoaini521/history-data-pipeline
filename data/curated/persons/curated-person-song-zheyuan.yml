@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1940
+birth_year: 1885
+aliases:
+- 明轩
+period_ids:
+- period-republic
+intro_zh_cn: 民国第二十九军军长，七七事变时驻防华北的高级将领。
+id: curated-person-song-zheyuan
+birth_precision: year
+source_reference: 《二十九军史》；《中国抗日战争全史》
+traditional_name: 宋哲元
+death_precision: year
+gender: male
+name_raw: 宋哲元
+canonical_name_zh_cn: 宋哲元
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

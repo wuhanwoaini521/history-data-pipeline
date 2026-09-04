@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "event_id": "event-xinzhongguo-chengli",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-mao-zedong",
+      "person_name_raw": "毛泽东",
+      "role": "political_leader",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-zhou-enlai",
+      "person_name_raw": "周恩来",
+      "role": "political_leader",
+      "resolution": "exact"
+    },
+    {
+      "person_id": null,
+      "person_name_raw": "朱德",
+      "role": null,
+      "resolution": "ambiguous",
+      "reason": "V2.1.1 确认同名冲突/无法唯一 → 不建 Person，保留 gap"
+    }
+  ]
+}

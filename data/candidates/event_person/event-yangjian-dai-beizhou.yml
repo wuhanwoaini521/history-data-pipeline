@@ -14,7 +14,21 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（楊堅）；事件时段 event-yangjian-dai-beizhou 内人物活跃；lifespan 540-605
     event_evidence: 杨坚（代周建隋）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: ctext-person-293600
+    person_name_raw: 周静帝
+    canonical_name: 北周靜帝
+    role: victim
+    role_zh_cn: 北周·受害者
+    side: 北周
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: V2.1.1 再核实 hit 既有 KB（person_id=ctext-person-293600）：周静帝=北周静帝=宇文阐；ctext-person-293600 实测命中。
+    event_evidence: 周静帝（北周·受害者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 周静帝
-  resolution: not_found
-  reason: KB 无 宇文阐
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=ctext-person-293600

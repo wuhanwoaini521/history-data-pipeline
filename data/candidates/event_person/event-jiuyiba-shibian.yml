@@ -1,16 +1,71 @@
 event_id: event-jiuyiba-shibian
 accepted:
-- []
+- - person_id: curated-person-ishihara-kanji
+    person_name_raw: 石原莞尔
+    canonical_name: 石原莞尔
+    role: initiator
+    role_zh_cn: 日本·发起者
+    side: 日本
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-ishihara-kanji），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 石原莞尔（日本·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-itagaki-seishiro
+    person_name_raw: 板垣征四郎
+    canonical_name: 板垣征四郎
+    role: initiator
+    role_zh_cn: 日本·发起者
+    side: 日本
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-itagaki-seishiro），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 板垣征四郎（日本·发起者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-zhang-xueliang
+    person_name_raw: 张学良
+    canonical_name: 张学良
+    role: official
+    role_zh_cn: 中华民国·官员
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-zhang-xueliang），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 张学良（中华民国·官员）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-chiang-kai-shek
+    person_name_raw: 蒋介石
+    canonical_name: 蒋介石
+    role: ruler
+    role_zh_cn: 中华民国·统治者
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-chiang-kai-shek），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 蒋介石（中华民国·统治者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 石原莞尔
-  resolution: not_found
-  reason: KB 无（日本近代人物）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-ishihara-kanji
 - person_name_raw: 板垣征四郎
-  resolution: not_found
-  reason: 同上
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-itagaki-seishiro
 - person_name_raw: 张学良
-  resolution: not_found
-  reason: KB 无（民国人物）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-zhang-xueliang
 - person_name_raw: 蒋介石
-  resolution: not_found
-  reason: KB 无
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-chiang-kai-shek

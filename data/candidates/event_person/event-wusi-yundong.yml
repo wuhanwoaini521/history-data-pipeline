@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（李大釗）；事件时段 event-wusi-yundong 内人物活跃；无冲突
     event_evidence: 李大钊（北大教授（运动推动者））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-90980
+- - person_id: cbdb-person-90980
     person_name_raw: 蔡元培
     canonical_name: 蔡元培
     role: official
@@ -28,7 +28,21 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（蔡元培）；事件时段 event-wusi-yundong 内人物活跃；lifespan 1867-1940 dynasty-21
     event_evidence: 蔡元培（北大校长（支持学生运动））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: curated-person-chen-duxiu
+    person_name_raw: 陈独秀
+    canonical_name: 陈独秀
+    role: political_leader
+    role_zh_cn: 中华民国·政治领导人
+    side: 中华民国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-chen-duxiu），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 陈独秀（中华民国·政治领导人）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 陈独秀
-  resolution: not_found
-  reason: KB 无 陈独秀
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-chen-duxiu

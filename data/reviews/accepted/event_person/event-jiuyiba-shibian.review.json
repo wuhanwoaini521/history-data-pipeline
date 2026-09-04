@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "event_id": "event-jiuyiba-shibian",
+  "review_status": "accepted",
+  "reviewed_by": "china-history-backbone-v2.1.1-curator",
+  "accepted_links": [
+    {
+      "person_id": "curated-person-ishihara-kanji",
+      "person_name_raw": "石原莞尔",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-itagaki-seishiro",
+      "person_name_raw": "板垣征四郎",
+      "role": "initiator",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-zhang-xueliang",
+      "person_name_raw": "张学良",
+      "role": "official",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-chiang-kai-shek",
+      "person_name_raw": "蒋介石",
+      "role": "ruler",
+      "resolution": "exact"
+    }
+  ]
+}

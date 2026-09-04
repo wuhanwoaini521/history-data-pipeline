@@ -15,6 +15,12 @@
       "person_name_raw": "李斯",
       "resolution": "not_found",
       "reason": "KB 仅 李斯佺/全/讓/援/義 等后缀异名，无 李斯 本体"
+    },
+    {
+      "person_id": "ctext-person-751995",
+      "person_name_raw": "李斯",
+      "role": "official",
+      "resolution": "exact"
     }
   ]
 }

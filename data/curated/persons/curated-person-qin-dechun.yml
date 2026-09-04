@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1963
+birth_year: 1893
+aliases:
+- 绍文
+period_ids:
+- period-republic
+intro_zh_cn: 民国时期第二十九军高级将领、北平市长，七七事变时期的华北军政主持人。
+id: curated-person-qin-dechun
+birth_precision: year
+source_reference: 《秦德纯回忆录》；《中国抗日战争全史》
+traditional_name: 秦德純
+death_precision: year
+gender: male
+name_raw: 秦德纯
+canonical_name_zh_cn: 秦德纯
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

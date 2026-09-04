@@ -27,6 +27,18 @@
       "person_name_raw": "孙中山",
       "resolution": "not_found",
       "reason": "KB 无 孫文/孫中山"
+    },
+    {
+      "person_id": "curated-person-longyu",
+      "person_name_raw": "隆裕太后",
+      "role": "ruler",
+      "resolution": "exact"
+    },
+    {
+      "person_id": "curated-person-sun-yat-sen",
+      "person_name_raw": "孙中山",
+      "role": "political_leader",
+      "resolution": "exact"
     }
   ]
 }

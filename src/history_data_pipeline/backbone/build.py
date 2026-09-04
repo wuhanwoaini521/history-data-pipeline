@@ -19,11 +19,17 @@ from pathlib import Path
 from typing import Any
 
 from .loader import Backbone, load_backbone
-from .reference import ResolutionResult, knowledge_seed_rows, resolve_references
+from .reference import (
+    ResolutionResult,
+    knowledge_seed_rows,
+    resolve_references,
+    supplemental_person_rows,
+)
 from .validate import check_strict_gate, validate_backbone
 
 CURATED_SOURCE_ID = "source-curated-backbone-v1"
 LEGACY_SEMANTIC_SOURCE_ID = "source-curated-semantic-v1"
+SUPPLEMENT_SOURCE_ID = "source-curated-person-knowledge-gap"
 DEFAULT_VERSION = "2026.09.0"
 
 # 知识库（Layer 2）表在导出清单中的分组
@@ -124,6 +130,14 @@ def _ensure_sources(connection, root: Path, curated_dir: Path) -> None:
         "license": "项目人工整理；保留依据与来源链", "raw_path": str((root / "data" / "curated").relative_to(root)),
         "quality_status": "legacy",
         "notes": "旧 Semantic Layer V1（legacy/deprecated），仅审计用；新数据以 curated-backbone 为准。",
+    })
+    rows.append({
+        "id": SUPPLEMENT_SOURCE_ID, "dataset": "curated-person-knowledge-gap", "snapshot_version": "v2.1.1",
+        "dataset_version": "v2.1.1", "source_type": "curated_reference",
+        "license": "项目人工整理；每条均含 source_reference 证据链与 agent 复核",
+        "raw_path": str((root / "data" / "curated" / "persons").relative_to(root)),
+        "quality_status": "reviewed",
+        "notes": "V2.1.1 关键知识缺口恢复：仅 genuinely-missing 的补充 Person；不冒充 CBDB/CText。",
     })
     for row in rows:
         connection.execute("""
@@ -337,6 +351,34 @@ def _materialize_legacy_event_text(connection) -> None:
     """)
 
 
+def _insert_supplemental_persons(connection, root: Path) -> None:
+    """V2.1.1 · 写入补充 Person（people + person_aliases + entity_source_mapping）。"""
+    people, aliases = supplemental_person_rows(root)
+    for row in people:
+        connection.execute("""
+            INSERT OR REPLACE INTO people
+              (id,canonical_name_zh_cn,name_raw,traditional_name,birth_year,death_year,
+               birth_precision,death_precision,gender,period_ids,intro_zh_cn,quality_status,
+               created_from_source,search_name,search_aliases,search_text)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+        """, [
+            row["id"], row["canonical_name_zh_cn"], row["name_raw"], row["traditional_name"],
+            row["birth_year"], row["death_year"], row["birth_precision"], row["death_precision"],
+            row["gender"], row["period_ids"], row["intro_zh_cn"], row["quality_status"],
+            row["created_from_source"], row["search_name"], row["search_aliases"], row["search_text"],
+        ])
+        sid = row["source_id"]
+        connection.execute("""
+            INSERT OR REPLACE INTO entity_source_mapping (entity_type,entity_id,source_id,external_id,match_type,confidence)
+            VALUES ('person',?,?,?,?,?)
+        """, [row["id"], sid, row["id"], "curated", 1.0])
+    for a in aliases:
+        connection.execute("""
+            INSERT OR REPLACE INTO person_aliases (person_id,alias,alias_zh_cn,alias_type,source,source_id,external_id)
+            VALUES (?,?,?,?,?,?,?)
+        """, [a["person_id"], a["alias"], a["alias_zh_cn"], a["alias_type"], a["source"], a["source_id"], a["external_id"]])
+
+
 def _build_duckdb(paths, backbone: Backbone, result: ResolutionResult, real_knowledge_db: Path | None) -> Path:
     import duckdb
 
@@ -370,6 +412,7 @@ def _build_duckdb(paths, backbone: Backbone, result: ResolutionResult, real_know
         _ensure_sources(connection, paths.root, paths.curated_backbone)
         _insert_taxonomy(connection, backbone)
         _insert_knowledge(connection, result, real_knowledge_db)
+        _insert_supplemental_persons(connection, paths.root)
         _insert_backbone(connection, backbone)
         _materialize_legacy_event_text(connection)
         connection.execute("CHECKPOINT")

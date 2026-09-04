@@ -39,7 +39,7 @@ def test_backbone_build():
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
     assert counts["event_relations"] == 1062
-    assert counts["event_person"] == 168  # +110 V2.1 Critical Person Links
+    assert counts["event_person"] == 200  # 58 legacy + 110 V2.1 + 32 V2.1.1 Critical gap recovery
     assert counts["event_place"] == 26
     assert counts["event_evidence"] == 26
     assert counts["periods"] == 31

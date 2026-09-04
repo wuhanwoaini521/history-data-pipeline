@@ -1,0 +1,26 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: null
+birth_year: null
+aliases:
+- 商湯
+- 成汤
+- 成湯
+- 汤
+- 湯
+- 太乙
+period_ids:
+- period-shang
+intro_zh_cn: 商朝建立者，灭夏建商。生卒年月无可靠史料记载。
+id: curated-person-shang-tang
+birth_precision: unknown
+source_reference: 《史记·殷本纪》；《尚书·汤誓》；张岂之主编《中国历史·先秦卷》
+traditional_name: 商湯
+death_precision: unknown
+gender: male
+name_raw: 商汤
+canonical_name_zh_cn: 商汤
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

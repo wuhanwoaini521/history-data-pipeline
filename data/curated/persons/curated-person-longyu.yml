@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1913
+birth_year: 1868
+aliases:
+- 隆裕皇后
+- 光绪皇后
+period_ids:
+- period-late-qing
+intro_zh_cn: 清光绪帝皇后，宣统继位后为隆裕太后，下诏退位。
+id: curated-person-longyu
+birth_precision: year
+source_reference: 《清史稿·后妃传》；《宣统政草本纪》
+traditional_name: 隆裕太后
+death_precision: year
+gender: female
+name_raw: 隆裕太后
+canonical_name_zh_cn: 隆裕太后
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

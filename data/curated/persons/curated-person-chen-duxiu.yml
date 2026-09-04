@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1942
+birth_year: 1879
+aliases:
+- 仲甫
+- 实庵
+period_ids:
+- period-republic
+intro_zh_cn: 新文化运动主要人物，创办《青年杂志》（《新青年》）。
+id: curated-person-chen-duxiu
+birth_precision: year
+source_reference: 《陈独秀文集》人民出版社；《新青年》
+traditional_name: 陳獨秀
+death_precision: year
+gender: male
+name_raw: 陈独秀
+canonical_name_zh_cn: 陈独秀
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

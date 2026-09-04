@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1976
+birth_year: 1893
+aliases:
+- 润之
+period_ids:
+- period-republic
+- period-modern
+intro_zh_cn: 现代中国政治人物，中华人民共和国开国领导人。
+id: curated-person-mao-zedong
+birth_precision: year
+source_reference: 《毛泽东年谱》中央文献出版社
+traditional_name: 毛澤東
+death_precision: year
+gender: male
+name_raw: 毛泽东
+canonical_name_zh_cn: 毛泽东
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 2001
+birth_year: 1901
+aliases:
+- 汉卿
+period_ids:
+- period-republic
+- period-modern
+intro_zh_cn: 民国东北军将领，西安事变发动者（与杨虎城共同）。
+id: curated-person-zhang-xueliang
+birth_precision: year
+source_reference: 《张学良口述历史》；西安事变专题史料集
+traditional_name: 張學良
+death_precision: year
+gender: male
+name_raw: 张学良
+canonical_name_zh_cn: 张学良
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

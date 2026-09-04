@@ -1,0 +1,22 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1989
+birth_year: 1901
+aliases:
+- 昭和天皇
+period_ids:
+- period-republic
+- period-modern
+intro_zh_cn: 日本第124代天皇（昭和天皇），在位期间经历第二次世界大战。
+id: curated-person-hirohito
+birth_precision: year
+source_reference: 《昭和天皇实录》（宫内厅）；NHK资料
+traditional_name: 裕仁
+death_precision: year
+gender: male
+name_raw: 裕仁
+canonical_name_zh_cn: 裕仁
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

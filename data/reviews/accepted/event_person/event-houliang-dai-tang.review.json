@@ -15,6 +15,12 @@
       "person_name_raw": "朱温",
       "resolution": "not_found",
       "reason": "同上"
+    },
+    {
+      "person_id": "cbdb-person-377600",
+      "person_name_raw": "朱温",
+      "role": "initiator",
+      "resolution": "exact"
     }
   ]
 }

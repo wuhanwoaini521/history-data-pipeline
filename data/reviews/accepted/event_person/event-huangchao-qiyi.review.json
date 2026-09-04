@@ -27,6 +27,12 @@
       "person_name_raw": "朱温",
       "resolution": "not_found",
       "reason": "KB 无 朱温/朱全忠（仅 朱溫舒/其 后缀异名）"
+    },
+    {
+      "person_id": "cbdb-person-377600",
+      "person_name_raw": "朱温",
+      "role": "participant",
+      "resolution": "exact"
     }
   ]
 }

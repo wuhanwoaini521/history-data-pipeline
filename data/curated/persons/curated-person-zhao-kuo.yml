@@ -1,0 +1,23 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: -260
+birth_year: null
+aliases:
+- 赵括
+- 趙括
+- 马服子
+period_ids:
+- period-warring-states
+intro_zh_cn: 战国时赵国将领，赵奢之子；长平之战后期赵军主将，战败被杀。
+id: curated-person-zhao-kuo
+birth_precision: unknown
+source_reference: 《史记·白起王翦列传》《史记·廉颇蔺相如列传》；杨宽《战国史》
+traditional_name: 趙括
+death_precision: year
+gender: male
+name_raw: 赵括
+canonical_name_zh_cn: 赵括
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -140,7 +140,7 @@ def test_existing_event_person_preserved(backbone):
     links = [(e["id"], p["person_id"]) for e in backbone.events for p in (e.get("people") or [])
              if p.get("link_status") == "linked"]
     ids = [pid for _, pid in links]
-    assert len(links) == 168  # 58 legacy + 110 V2.1
+    assert len(links) == 200  # 58 legacy + 110 V2.1 + 32 V2.1.1 (critical gap recovery)
     assert "cbdb-person-16622" in ids  # 刘邦（楚汉 Story legacy）
     assert len(ids) == len(set(ids)) or True  # 跨事件允许同人
 
@@ -160,7 +160,7 @@ def test_critical_person_link_build(backbone):
     """build 集成：resolve_references（seed 模式）下 linked=168 且 broken=0。"""
     result = resolve_references(backbone, knowledge_db=None)
     assert result.broken == []
-    assert result.persons["linked"] == 168
+    assert result.persons["linked"] == 200  # 58 + 110 V2.1 + 32 V2.1.1
 
 
 def test_v21_event_count_unchanged(backbone):

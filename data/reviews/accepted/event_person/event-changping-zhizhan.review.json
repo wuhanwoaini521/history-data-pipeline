@@ -15,6 +15,12 @@
       "person_name_raw": "赵括",
       "resolution": "not_found",
       "reason": "KB 仅 趙括大/趙括夫 后缀异名，无 赵括 本体"
+    },
+    {
+      "person_id": "curated-person-zhao-kuo",
+      "person_name_raw": "赵括",
+      "role": "commander",
+      "resolution": "exact"
     }
   ]
 }

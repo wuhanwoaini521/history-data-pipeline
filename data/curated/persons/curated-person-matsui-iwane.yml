@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1948
+birth_year: 1878
+aliases:
+- 松井石根
+period_ids:
+- period-republic
+intro_zh_cn: 日本陆军大将，上海派遣军指挥官之一。
+id: curated-person-matsui-iwane
+birth_precision: year
+source_reference: 《远东国际军事法庭判决书》；南京事件史料集
+traditional_name: 松井石根
+death_precision: year
+gender: male
+name_raw: 松井石根
+canonical_name_zh_cn: 松井石根
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

@@ -14,7 +14,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（黃巢）；事件时段 event-huangchao-qiyi 内人物活跃；姓名唯一匹配；KB 无生卒
     event_evidence: 黄巢（起义首领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-189295
+- - person_id: cbdb-person-189295
     person_name_raw: 唐僖宗
     canonical_name: 李儇(唐僖宗)
     role: victim
@@ -28,7 +28,7 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（李儇(唐僖宗)）；事件时段 event-huangchao-qiyi 内人物活跃；lifespan 862-888
     event_evidence: 唐僖宗（在位皇帝）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
-  - person_id: cbdb-person-18316
+- - person_id: cbdb-person-18316
     person_name_raw: 李克用
     canonical_name: 李克用
     role: commander
@@ -42,7 +42,21 @@ accepted:
     identity_evidence: Knowledge Store canonical/alias 匹配（李克用）；事件时段 event-huangchao-qiyi 内人物活跃；CBDB 三同人取 18316
     event_evidence: 李克用（镇压起义的沙陀将领）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
     review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+- - person_id: cbdb-person-377600
+    person_name_raw: 朱温
+    canonical_name: 朱晃
+    role: participant
+    role_zh_cn: 大齐·参与者
+    side: 大齐
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 1.0
+    resolution: exact
+    identity_evidence: V2.1.1 再核实 hit 既有 KB（person_id=cbdb-person-377600）：同 houliang-dai-tang：alias 朱温→cbdb-person-377600。
+    event_evidence: 朱温（大齐·参与者）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 朱温
-  resolution: not_found
-  reason: KB 无 朱温/朱全忠（仅 朱溫舒/其 后缀异名）
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=cbdb-person-377600

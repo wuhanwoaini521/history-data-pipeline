@@ -1,13 +1,40 @@
 event_id: event-xinzhongguo-chengli
 accepted:
-- []
+- - person_id: curated-person-mao-zedong
+    person_name_raw: 毛泽东
+    canonical_name: 毛泽东
+    role: political_leader
+    role_zh_cn: 中华人民共和国·政治领导人
+    side: 中华人民共和国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-mao-zedong），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 毛泽东（中华人民共和国·政治领导人）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+- - person_id: curated-person-zhou-enlai
+    person_name_raw: 周恩来
+    canonical_name: 周恩来
+    role: political_leader
+    role_zh_cn: 中华人民共和国·政治领导人
+    side: 中华人民共和国
+    importance: major
+    link_status: linked
+    link_quality_status: reviewed
+    link_confidence: 0.9
+    resolution: exact
+    identity_evidence: V2.1.1 补充 Person（curated-person-zhou-enlai），curated layer，来源=source-curated-person-knowledge-gap
+    event_evidence: 周恩来（中华人民共和国·政治领导人）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+    review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
 unlinked:
 - person_name_raw: 毛泽东
-  resolution: not_found
-  reason: KB 无 毛澤東
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-mao-zedong
 - person_name_raw: 周恩来
-  resolution: not_found
-  reason: KB 无
+  resolution: linked_in_v211
+  reason: V2.1.1 已转链：person_id=curated-person-zhou-enlai
 - person_name_raw: 朱德
-  resolution: not_found
-  reason: KB 无（仅 朱德華/輝/文 后缀异名）
+  resolution: ambiguous
+  reason: 'V2.1.1 : 同名多项，无法唯一确认，保留 gap（不建 Person）'

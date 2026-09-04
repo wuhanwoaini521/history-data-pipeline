@@ -1,0 +1,21 @@
+# China History Backbone V2.1.1 · curated Person (critical knowledge-gap recovery; agent-reviewed)
+death_year: 1947
+birth_year: 1882
+aliases:
+- 谷寿夫
+period_ids:
+- period-republic
+intro_zh_cn: 日本陆军第二军第六师团长。南京战事相关审判中被判处死刑。
+id: curated-person-tani-hisao
+birth_precision: year
+source_reference: 南京军事法庭判决书（1947）；南京事件史料
+traditional_name: 谷壽夫
+death_precision: year
+gender: male
+name_raw: 谷寿夫
+canonical_name_zh_cn: 谷寿夫
+source_type: curated_reference
+source_id: source-curated-person-knowledge-gap
+quality_status: reviewed
+created_by: agent
+snapshot_version: v2.1.1

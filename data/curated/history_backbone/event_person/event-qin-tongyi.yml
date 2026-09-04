@@ -1,4 +1,4 @@
-# China History Backbone V2.1 · Accepted EventPerson（V1 events/ 冻结，本层为独立 V2 层）
+# China History Backbone V2.1.1 · Accepted EventPerson (append layer; V1 events/ frozen)
 event_id: event-qin-tongyi
 people:
 - person_id: cbdb-person-562723
@@ -15,3 +15,18 @@ people:
   identity_evidence: Knowledge Store canonical/alias 匹配（嬴政）；事件时段 event-qin-tongyi 内人物活跃；无冲突
   event_evidence: 嬴政（完成统一（秦始皇））为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
   review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator
+- person_id: ctext-person-751995
+  person_name_raw: 李斯
+  canonical_name: 李斯
+  role: official
+  role_zh_cn: 秦·官员
+  side: 秦
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  resolution: exact
+  identity_evidence: V2.1.1 再核实 hit 既有 KB（person_id=ctext-person-751995）：ctext Layer：people.canonical='李斯' 实测命中；V2.1 suffix
+    过滤误判 not_found。
+  event_evidence: 李斯（秦·官员）为该事件核心参与者（依据事件 summary/source_reference 及标准史实）
+  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
