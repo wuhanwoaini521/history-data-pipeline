@@ -211,19 +211,33 @@ function placeHTML(e) {
     ${p.status === "linked" ? `<span class="badge b-ok">linked 已确认</span>` : `<span class="badge b-warn">needs_linking 待关联</span>`}</div>
     ${p.note ? `<div class="meta">备注：${es(p.note)}</div>` : ""}</div>`).join("");
 }
-function evidenceHTML(evs) {
-  if (!evs || !evs.length) return `<div class="missing">无 EventEvidence 记录。</div>`;
+function evidenceHTML(evs, srcRef) {
+  // 区分「数据来源 / Provenance」(source_*) 与「史料线索 / Historical Evidence」
+  if (!evs || !evs.length) {
+    // legacy source_reference 里若已含史料暗示，则非“完全无证据”
+    const hint = (srcRef && /史料|原文|证据|historical|evidence/i.test(srcRef)) ?
+      ` <div class="meta">史料线索见 source_reference：${es(srcRef)}</div>` : "";
+    return `<div class="missing">正式原文证据 EventEvidence 尚未建立</div>${hint}`;
+  }
   return `<table><tr><th>文献</th><th>篇/卷</th><th>章节</th><th>关键词</th><th>角色</th></tr>` +
     evs.map(v => `<tr><td>${es(v.work)}</td><td>${es(v.term)}</td><td>${es(v.chapter)}</td><td>${es(v.keywords)}</td><td>${es(v.role)}</td></tr>`).join("") + `</table>`;
 }
 function relationHTML(e) {
+  // Relations reference stable canonical event IDs (never array indices),
+  // so resolve them through DATA.eventsById, not DATA.events[<row/index>].
+  const relChip = (rel, otherId, arrow) => {
+    const ev = DATA.eventsById[otherId];
+    if (!ev) return `<span class="chip">${es(rel)} ${arrow} ${es(otherId)} <span class="kbd">未解析</span></span>`;
+    return `<span class="chip">${es(rel)} ${arrow} <a href="#/event/${encodeURIComponent(ev.id)}">${es(ev.name)}</a>` +
+      `<span class="kbd">${es(ev.id)}${ev.start != null ? " · " + fmtYear(ev.start) : ""}</span></span>`;
+  };
   const part = [];
   if (e.relations_in && e.relations_in.length)
     part.push(`<div class="person-item"><div class="meta"><b>前序来源 (rel-in)</b></div><div class="top">` +
-      e.relations_in.map(r => { const ev = DATA.events[r.source]; return `<span class="chip">${es(r.rel)} ← <a href="#/event/${encodeURIComponent(r.source)}">${es(ev ? ev.name : r.source)}</a></span>`; }).join(" ") + `</div></div>`);
+      e.relations_in.map(r => relChip(r.rel, r.source, "←")).join(" ") + `</div></div>`);
   if (e.relations_out && e.relations_out.length)
     part.push(`<div class="person-item"><div class="meta"><b>后继去向 (rel-out)</b></div><div class="top">` +
-      e.relations_out.map(r => { const ev = DATA.events[r.target]; return `<span class="chip">${es(r.rel)} → <a href="#/event/${encodeURIComponent(r.target)}">${es(ev ? ev.name : r.target)}</a></span>`; }).join(" ") + `</div></div>`);
+      e.relations_out.map(r => relChip(r.rel, r.target, "→")).join(" ") + `</div></div>`);
   if (!part.length) part.push(`<div class="missing">无关联事件（EventRelation 缺失）。</div>`);
   return part.join("");
 }
@@ -257,7 +271,8 @@ function detailHTML(e) {
     <h4>结果 result</h4><div>${e.result ? es(e.result) : `<i class="none">（库内 result 为空）</i>`}</div>
     <h4>人物与会者（${fmtN(e.persons ? e.persons.length : 0)}）</h4>${peopleBlock}
     <h4>地点 places（${fmtN(e.places ? e.places.length : 0)}）</h4>${placeHTML(e)}
-    <h4>证据/引用 Source</h4>${srcHTML(e)}${evidenceHTML(e)}
+    <h4>数据来源 / Provenance</h4>${srcHTML(e)}
+    <h4>史料线索 / Historical Evidence</h4>${evidenceHTML(e.evidences, e.source_reference)}
     <h4>事件关联 EventRelation</h4>${relationHTML(e)}
     <h4>原始记录 Raw JSON</h4><pre class="json" id="raw-json"></pre>`;
 }
@@ -275,7 +290,7 @@ function renderSamples(app) {
     右侧逐项验收并给出「可用 / 数据不足 / 待验收」，只存于浏览器 localStorage，不写入数据。</div>
     <div class="samples-wrap"><div class="sample-list">`;
   DATA.samples.forEach((s, i) => {
-    const ev = DATA.events[s.index];
+    const ev = DATA.eventsById[s.id] || DATA.events[s.index];
     if (!ev) return;
     const v = V[s.id] || "pending";
     const cls = v === "ok" ? "b-ok" : v === "bad" ? "b-crit" : "b-warn";
@@ -298,7 +313,7 @@ function renderSampleDetail(i) {
   const s = DATA.samples[i];
   const el = document.getElementById("sample-detail");
   if (!s || !el) return;
-  const ev = DATA.events[s.index];
+  const ev = DATA.eventsById[s.id] || DATA.events[s.index];
   if (!ev) { el.innerHTML = `<div class="none">未找到该样本事件。</div>`; return; }
   const v = getVerdicts()[s.id] || "pending";
   el.innerHTML = `<div class="card">

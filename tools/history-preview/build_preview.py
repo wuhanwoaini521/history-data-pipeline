@@ -241,14 +241,17 @@ def main():
     ).fetchall():
         relations.append({"src": src_id, "tgt": tgt_id, "rel": rt})
 
-    idx_of = {e["id"]: i for i, e in enumerate(events)}
     for r in relations:
         s, t = r["src"], r["tgt"]
-        if s in idx_of and t in idx_of:
-            events[idx_of[s]]["relations_out"].append({"target": idx_of[t], "rel": r["rel"]})
-            events[idx_of[t]]["relations_in"].append({"source": idx_of[s], "rel": r["rel"]})
+        if s in events_by_id and t in events_by_id:
+            # stable canonical event IDs — NEVER array index / row number.
+            # events[] may be re-sorted later (by start), so index-based
+            # references would silently point at the wrong row; IDs survive
+            # any reordering in this file and in the Viewer (app.js).
+            events_by_id[s]["relations_out"].append({"target": t, "rel": r["rel"]})
+            events_by_id[t]["relations_in"].append({"source": s, "rel": r["rel"]})
         else:
-            print(f"[warn] relation skipped (dangling) {s!r} -> {t!r} {rt}", file=sys.stderr)
+            print(f"[warn] relation skipped (dangling) {s!r} -> {t!r} {r['rel']}", file=sys.stderr)
     for e in events:
         e["has_relation"] = len(e["relations_in"]) + len(e["relations_out"]) > 0
         e["has_source"] = bool(e["source_reference"] or e["source_ids"])
