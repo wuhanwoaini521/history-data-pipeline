@@ -1,0 +1,449 @@
+[
+ {
+  "period_id": "period-qin",
+  "name": "秦",
+  "regimes": [
+   {
+    "id": "regime-qin",
+    "name": "秦",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-western-han",
+  "name": "西汉",
+  "regimes": [
+   {
+    "id": "regime-western-han",
+    "name": "西汉",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-xin",
+  "name": "新",
+  "regimes": [
+   {
+    "id": "regime-xin",
+    "name": "新",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-eastern-han",
+  "name": "东汉",
+  "regimes": [
+   {
+    "id": "regime-eastern-han",
+    "name": "东汉",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-three-kingdoms",
+  "name": "三国",
+  "regimes": [
+   {
+    "id": "regime-cao-wei",
+    "name": "曹魏",
+    "sub": []
+   },
+   {
+    "id": "regime-shu-han",
+    "name": "蜀汉",
+    "sub": []
+   },
+   {
+    "id": "regime-eastern-wu",
+    "name": "东吴",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-western-jin",
+  "name": "西晋",
+  "regimes": [
+   {
+    "id": "regime-western-jin",
+    "name": "西晋",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-sixteen-kingdoms",
+  "name": "十六国",
+  "regimes": [
+   {
+    "id": "regime-han-zhao",
+    "name": "前赵（汉赵）",
+    "sub": []
+   },
+   {
+    "id": "regime-later-zhao",
+    "name": "后赵",
+    "sub": []
+   },
+   {
+    "id": "regime-former-yan",
+    "name": "前燕",
+    "sub": []
+   },
+   {
+    "id": "regime-former-qin",
+    "name": "前秦",
+    "sub": []
+   },
+   {
+    "id": "regime-later-yan",
+    "name": "后燕",
+    "sub": []
+   },
+   {
+    "id": "regime-later-qin",
+    "name": "后秦",
+    "sub": []
+   },
+   {
+    "id": "regime-northern-liang",
+    "name": "北凉",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-eastern-jin",
+  "name": "东晋",
+  "regimes": [
+   {
+    "id": "regime-eastern-jin",
+    "name": "东晋",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-northern-southern",
+  "name": "南北朝",
+  "regimes": [
+   {
+    "id": "regime-northern-wei",
+    "name": "北魏",
+    "sub": [
+     {
+      "id": "regime-eastern-wei",
+      "name": "东魏"
+     },
+     {
+      "id": "regime-western-wei",
+      "name": "西魏"
+     }
+    ]
+   },
+   {
+    "id": "regime-liu-song",
+    "name": "刘宋",
+    "sub": []
+   },
+   {
+    "id": "regime-southern-qi",
+    "name": "南齐",
+    "sub": []
+   },
+   {
+    "id": "regime-liang",
+    "name": "梁",
+    "sub": []
+   },
+   {
+    "id": "regime-chen",
+    "name": "陈",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-sui",
+  "name": "隋",
+  "regimes": [
+   {
+    "id": "regime-sui",
+    "name": "隋",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-tang",
+  "name": "唐",
+  "regimes": [
+   {
+    "id": "regime-tang",
+    "name": "唐",
+    "sub": []
+   },
+   {
+    "id": "regime-wu-zhou",
+    "name": "武周",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "name": "五代十国",
+  "regimes": [
+   {
+    "id": "regime-wu",
+    "name": "吴",
+    "sub": []
+   },
+   {
+    "id": "regime-five-dynasties",
+    "name": "五代",
+    "sub": []
+   },
+   {
+    "id": "regime-later-liang",
+    "name": "后梁",
+    "sub": []
+   },
+   {
+    "id": "regime-wuyue",
+    "name": "吴越",
+    "sub": []
+   },
+   {
+    "id": "regime-chu",
+    "name": "楚",
+    "sub": []
+   },
+   {
+    "id": "regime-former-shu",
+    "name": "前蜀",
+    "sub": []
+   },
+   {
+    "id": "regime-min",
+    "name": "闽",
+    "sub": []
+   },
+   {
+    "id": "regime-southern-han",
+    "name": "南汉",
+    "sub": []
+   },
+   {
+    "id": "regime-later-tang",
+    "name": "后唐",
+    "sub": []
+   },
+   {
+    "id": "regime-jingnan",
+    "name": "荆南（南平）",
+    "sub": []
+   },
+   {
+    "id": "regime-later-shu",
+    "name": "后蜀",
+    "sub": []
+   },
+   {
+    "id": "regime-later-jin",
+    "name": "后晋",
+    "sub": []
+   },
+   {
+    "id": "regime-southern-tang",
+    "name": "南唐",
+    "sub": []
+   },
+   {
+    "id": "regime-later-han",
+    "name": "后汉",
+    "sub": []
+   },
+   {
+    "id": "regime-later-zhou",
+    "name": "后周",
+    "sub": []
+   },
+   {
+    "id": "regime-northern-han",
+    "name": "北汉",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-song-liao-jin",
+  "name": "宋辽金时期",
+  "regimes": [
+   {
+    "id": "regime-mongol-empire",
+    "name": "大蒙古国",
+    "sub": [
+     {
+      "id": "regime-yuan",
+      "name": "元"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "period_id": "period-liao",
+  "name": "辽",
+  "regimes": [
+   {
+    "id": "regime-liao",
+    "name": "辽",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-northern-song",
+  "name": "北宋",
+  "regimes": [
+   {
+    "id": "regime-northern-song",
+    "name": "北宋",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-western-xia",
+  "name": "西夏",
+  "regimes": [
+   {
+    "id": "regime-western-xia",
+    "name": "西夏",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-jin",
+  "name": "金",
+  "regimes": [
+   {
+    "id": "regime-jin",
+    "name": "金",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-southern-song",
+  "name": "南宋",
+  "regimes": [
+   {
+    "id": "regime-southern-song",
+    "name": "南宋",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-yuan",
+  "name": "元",
+  "regimes": [
+   {
+    "id": "regime-zhuzhang",
+    "name": "朱元璋势力（吴国公/吴王）",
+    "sub": []
+   },
+   {
+    "id": "regime-dazhou",
+    "name": "大周（张士诚）",
+    "sub": []
+   },
+   {
+    "id": "regime-dasong",
+    "name": "大宋（韩林儿/小明王）",
+    "sub": []
+   },
+   {
+    "id": "regime-dahan",
+    "name": "大汉（陈友谅）",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-ming",
+  "name": "明",
+  "regimes": [
+   {
+    "id": "regime-ming",
+    "name": "明",
+    "sub": []
+   },
+   {
+    "id": "regime-houjin",
+    "name": "后金",
+    "sub": [
+     {
+      "id": "regime-qing",
+      "name": "清"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "period_id": "period-qing",
+  "name": "清",
+  "regimes": [
+   {
+    "id": "regime-nanming",
+    "name": "南明（弘光/隆武/永历）",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-late-qing",
+  "name": "晚清",
+  "regimes": [
+   {
+    "id": "regime-taiping",
+    "name": "太平天国",
+    "sub": []
+   },
+   {
+    "id": "regime-agubo",
+    "name": "阿古柏政权",
+    "sub": []
+   }
+  ]
+ },
+ {
+  "period_id": "period-republic",
+  "name": "中华民国",
+  "regimes": [
+   {
+    "id": "regime-republic",
+    "name": "中华民国",
+    "sub": []
+   },
+   {
+    "id": "regime-chinese-soviet-republic",
+    "name": "中华苏维埃共和国",
+    "sub": []
+   },
+   {
+    "id": "regime-manchukuo",
+    "name": "满洲国",
+    "sub": []
+   }
+  ]
+ }
+]

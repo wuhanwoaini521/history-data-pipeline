@@ -1,0 +1,44 @@
+{
+ "mode": "DATA VALIDATION MODE · READ ONLY",
+ "gates": {
+  "CHINA_HISTORY_BACKBONE_V1_FROZEN": true,
+  "PERSON_LINKING_V1_READY": true,
+  "HISTORY_DATA_PRODUCT_VALIDATION_READY": true
+ },
+ "generated_at": "2026-09-04T07:03:12+00:00",
+ "backbone": {
+  "events": 618,
+  "critical": 62,
+  "major": 555,
+  "normal": 1,
+  "periods": 31,
+  "regimes": 64,
+  "event_person": 398,
+  "event_place_row": 26,
+  "event_evidence": 26,
+  "event_relations": 1062,
+  "events_with_person": 261,
+  "unique_persons": 234,
+  "works": 36,
+  "timeline_start": -2070,
+  "timeline_end": 1949
+ },
+ "capability": {
+  "history_coverage": true,
+  "person_linking": true,
+  "place_linking": false,
+  "evidence_linking": false,
+  "story": false,
+  "graph": false,
+  "vector": false
+ },
+ "knowledge_store": {
+  "people": 676427,
+  "person_aliases": 208624,
+  "places": 31978,
+  "historical_texts": 972467,
+  "works": 27394,
+  "person_relations": 561461,
+  "sources": 6
+ }
+}

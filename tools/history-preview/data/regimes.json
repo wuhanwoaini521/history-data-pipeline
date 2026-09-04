@@ -1,0 +1,514 @@
+[
+ {
+  "id": "regime-qin",
+  "name": "秦",
+  "parent": "",
+  "period_id": "period-qin",
+  "start": -221,
+  "end": -207
+ },
+ {
+  "id": "regime-western-han",
+  "name": "西汉",
+  "parent": "",
+  "period_id": "period-western-han",
+  "start": -206,
+  "end": 8
+ },
+ {
+  "id": "regime-xin",
+  "name": "新",
+  "parent": "",
+  "period_id": "period-xin",
+  "start": 9,
+  "end": 23
+ },
+ {
+  "id": "regime-eastern-han",
+  "name": "东汉",
+  "parent": "",
+  "period_id": "period-eastern-han",
+  "start": 25,
+  "end": 220
+ },
+ {
+  "id": "regime-cao-wei",
+  "name": "曹魏",
+  "parent": "",
+  "period_id": "period-three-kingdoms",
+  "start": 220,
+  "end": 265
+ },
+ {
+  "id": "regime-shu-han",
+  "name": "蜀汉",
+  "parent": "",
+  "period_id": "period-three-kingdoms",
+  "start": 221,
+  "end": 263
+ },
+ {
+  "id": "regime-eastern-wu",
+  "name": "东吴",
+  "parent": "",
+  "period_id": "period-three-kingdoms",
+  "start": 222,
+  "end": 280
+ },
+ {
+  "id": "regime-western-jin",
+  "name": "西晋",
+  "parent": "",
+  "period_id": "period-western-jin",
+  "start": 265,
+  "end": 316
+ },
+ {
+  "id": "regime-eastern-jin",
+  "name": "东晋",
+  "parent": "",
+  "period_id": "period-eastern-jin",
+  "start": 317,
+  "end": 420
+ },
+ {
+  "id": "regime-northern-wei",
+  "name": "北魏",
+  "parent": "",
+  "period_id": "period-northern-southern",
+  "start": 386,
+  "end": 534
+ },
+ {
+  "id": "regime-eastern-wei",
+  "name": "东魏",
+  "parent": "regime-northern-wei",
+  "period_id": "period-northern-southern",
+  "start": 534,
+  "end": 550
+ },
+ {
+  "id": "regime-western-wei",
+  "name": "西魏",
+  "parent": "regime-northern-wei",
+  "period_id": "period-northern-southern",
+  "start": 535,
+  "end": 557
+ },
+ {
+  "id": "regime-northern-qi",
+  "name": "北齐",
+  "parent": "regime-eastern-wei",
+  "period_id": "period-northern-southern",
+  "start": 550,
+  "end": 577
+ },
+ {
+  "id": "regime-northern-zhou",
+  "name": "北周",
+  "parent": "regime-western-wei",
+  "period_id": "period-northern-southern",
+  "start": 557,
+  "end": 581
+ },
+ {
+  "id": "regime-sui",
+  "name": "隋",
+  "parent": "",
+  "period_id": "period-sui",
+  "start": 581,
+  "end": 618
+ },
+ {
+  "id": "regime-tang",
+  "name": "唐",
+  "parent": "",
+  "period_id": "period-tang",
+  "start": 618,
+  "end": 907
+ },
+ {
+  "id": "regime-five-dynasties",
+  "name": "五代",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 907,
+  "end": 960
+ },
+ {
+  "id": "regime-later-liang",
+  "name": "后梁",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 907,
+  "end": 923
+ },
+ {
+  "id": "regime-later-tang",
+  "name": "后唐",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 923,
+  "end": 936
+ },
+ {
+  "id": "regime-later-jin",
+  "name": "后晋",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 936,
+  "end": 947
+ },
+ {
+  "id": "regime-later-han",
+  "name": "后汉",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 947,
+  "end": 951
+ },
+ {
+  "id": "regime-later-zhou",
+  "name": "后周",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 951,
+  "end": 960
+ },
+ {
+  "id": "regime-northern-song",
+  "name": "北宋",
+  "parent": "",
+  "period_id": "period-northern-song",
+  "start": 960,
+  "end": 1127
+ },
+ {
+  "id": "regime-southern-song",
+  "name": "南宋",
+  "parent": "",
+  "period_id": "period-southern-song",
+  "start": 1127,
+  "end": 1279
+ },
+ {
+  "id": "regime-liao",
+  "name": "辽",
+  "parent": "",
+  "period_id": "period-liao",
+  "start": 916,
+  "end": 1125
+ },
+ {
+  "id": "regime-western-xia",
+  "name": "西夏",
+  "parent": "",
+  "period_id": "period-western-xia",
+  "start": 1038,
+  "end": 1227
+ },
+ {
+  "id": "regime-jin",
+  "name": "金",
+  "parent": "",
+  "period_id": "period-jin",
+  "start": 1115,
+  "end": 1234
+ },
+ {
+  "id": "regime-mongol-empire",
+  "name": "大蒙古国",
+  "parent": "",
+  "period_id": "period-song-liao-jin",
+  "start": 1206,
+  "end": 1271
+ },
+ {
+  "id": "regime-yuan",
+  "name": "元",
+  "parent": "regime-mongol-empire",
+  "period_id": "period-yuan",
+  "start": 1271,
+  "end": 1368
+ },
+ {
+  "id": "regime-ming",
+  "name": "明",
+  "parent": "",
+  "period_id": "period-ming",
+  "start": 1368,
+  "end": 1644
+ },
+ {
+  "id": "regime-qing",
+  "name": "清",
+  "parent": "regime-houjin",
+  "period_id": "period-qing",
+  "start": 1636,
+  "end": 1912
+ },
+ {
+  "id": "regime-republic",
+  "name": "中华民国",
+  "parent": "",
+  "period_id": "period-republic",
+  "start": 1912,
+  "end": 1949
+ },
+ {
+  "id": "regime-han-zhao",
+  "name": "前赵（汉赵）",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 304,
+  "end": 329
+ },
+ {
+  "id": "regime-later-zhao",
+  "name": "后赵",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 319,
+  "end": 351
+ },
+ {
+  "id": "regime-former-yan",
+  "name": "前燕",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 337,
+  "end": 370
+ },
+ {
+  "id": "regime-former-qin",
+  "name": "前秦",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 351,
+  "end": 394
+ },
+ {
+  "id": "regime-later-yan",
+  "name": "后燕",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 384,
+  "end": 409
+ },
+ {
+  "id": "regime-later-qin",
+  "name": "后秦",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 384,
+  "end": 417
+ },
+ {
+  "id": "regime-northern-liang",
+  "name": "北凉",
+  "parent": "",
+  "period_id": "period-sixteen-kingdoms",
+  "start": 397,
+  "end": 439
+ },
+ {
+  "id": "regime-liu-song",
+  "name": "刘宋",
+  "parent": "",
+  "period_id": "period-northern-southern",
+  "start": 420,
+  "end": 479
+ },
+ {
+  "id": "regime-southern-qi",
+  "name": "南齐",
+  "parent": "",
+  "period_id": "period-northern-southern",
+  "start": 479,
+  "end": 502
+ },
+ {
+  "id": "regime-liang",
+  "name": "梁",
+  "parent": "",
+  "period_id": "period-northern-southern",
+  "start": 502,
+  "end": 557
+ },
+ {
+  "id": "regime-chen",
+  "name": "陈",
+  "parent": "",
+  "period_id": "period-northern-southern",
+  "start": 557,
+  "end": 589
+ },
+ {
+  "id": "regime-wu-zhou",
+  "name": "武周",
+  "parent": "",
+  "period_id": "period-tang",
+  "start": 690,
+  "end": 705
+ },
+ {
+  "id": "regime-wu",
+  "name": "吴",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 902,
+  "end": 937
+ },
+ {
+  "id": "regime-southern-tang",
+  "name": "南唐",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 937,
+  "end": 975
+ },
+ {
+  "id": "regime-wuyue",
+  "name": "吴越",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 907,
+  "end": 978
+ },
+ {
+  "id": "regime-chu",
+  "name": "楚",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 907,
+  "end": 951
+ },
+ {
+  "id": "regime-min",
+  "name": "闽",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 909,
+  "end": 945
+ },
+ {
+  "id": "regime-former-shu",
+  "name": "前蜀",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 907,
+  "end": 925
+ },
+ {
+  "id": "regime-later-shu",
+  "name": "后蜀",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 934,
+  "end": 965
+ },
+ {
+  "id": "regime-southern-han",
+  "name": "南汉",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 917,
+  "end": 971
+ },
+ {
+  "id": "regime-jingnan",
+  "name": "荆南（南平）",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 924,
+  "end": 963
+ },
+ {
+  "id": "regime-northern-han",
+  "name": "北汉",
+  "parent": "",
+  "period_id": "period-five-dynasties-ten-kingdoms",
+  "start": 951,
+  "end": 979
+ },
+ {
+  "id": "regime-zhuzhang",
+  "name": "朱元璋势力（吴国公/吴王）",
+  "parent": "",
+  "period_id": "period-yuan",
+  "start": 1352,
+  "end": 1368
+ },
+ {
+  "id": "regime-dahan",
+  "name": "大汉（陈友谅）",
+  "parent": "",
+  "period_id": "period-yuan",
+  "start": 1360,
+  "end": 1364
+ },
+ {
+  "id": "regime-dazhou",
+  "name": "大周（张士诚）",
+  "parent": "",
+  "period_id": "period-yuan",
+  "start": 1353,
+  "end": 1367
+ },
+ {
+  "id": "regime-dasong",
+  "name": "大宋（韩林儿/小明王）",
+  "parent": "",
+  "period_id": "period-yuan",
+  "start": 1355,
+  "end": 1366
+ },
+ {
+  "id": "regime-houjin",
+  "name": "后金",
+  "parent": "",
+  "period_id": "period-ming",
+  "start": 1616,
+  "end": 1636
+ },
+ {
+  "id": "regime-nanming",
+  "name": "南明（弘光/隆武/永历）",
+  "parent": "",
+  "period_id": "period-qing",
+  "start": 1644,
+  "end": 1662
+ },
+ {
+  "id": "regime-taiping",
+  "name": "太平天国",
+  "parent": "",
+  "period_id": "period-late-qing",
+  "start": 1851,
+  "end": 1864
+ },
+ {
+  "id": "regime-agubo",
+  "name": "阿古柏政权",
+  "parent": "",
+  "period_id": "period-late-qing",
+  "start": 1865,
+  "end": 1877
+ },
+ {
+  "id": "regime-manchukuo",
+  "name": "满洲国",
+  "parent": "",
+  "period_id": "period-republic",
+  "start": 1932,
+  "end": 1945
+ },
+ {
+  "id": "regime-chinese-soviet-republic",
+  "name": "中华苏维埃共和国",
+  "parent": "",
+  "period_id": "period-republic",
+  "start": 1931,
+  "end": 1937
+ }
+]

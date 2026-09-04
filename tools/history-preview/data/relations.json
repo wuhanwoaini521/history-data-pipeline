@@ -1,0 +1,5312 @@
+[
+ {
+  "src": "event-bi-zhizhan",
+  "tgt": "event-jinwen-gong-ba",
+  "rel": "follows"
+ },
+ {
+  "src": "event-bi-zhizhan",
+  "tgt": "event-yanling-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-bi-zhizhan",
+  "tgt": "event-chuzhuang-wang-ba",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-boju-zhizhan",
+  "tgt": "event-wu-guo-jueqi",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-boju-zhizhan",
+  "tgt": "event-fujiao-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-changping-zhizhan",
+  "tgt": "event-yuanmen-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-changping-zhizhan",
+  "tgt": "event-handan-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-changping-zhizhan",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chengpu-zhizhan",
+  "tgt": "event-jinwen-gong-ba",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chengpu-zhizhan",
+  "tgt": "event-xiao-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chu-mie-yue",
+  "tgt": "event-zhangyi-po-chu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chu-mie-yue",
+  "tgt": "event-yique-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chuwuwang-chengwang",
+  "tgt": "event-wending-zhongyuan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chuwuwang-chengwang",
+  "tgt": "event-chuzhuang-wang-ba",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dujiangyan-xiuzhu",
+  "tgt": "event-qin-bing-bashu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dujiangyan-xiuzhu",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "contributes_to"
+ },
+ {
+  "src": "event-fujiao-zhizhan",
+  "tgt": "event-boju-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-fujiao-zhizhan",
+  "tgt": "event-huangchi-zhi-hui",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guanzhong-gaige",
+  "tgt": "event-xuge-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guanzhong-gaige",
+  "tgt": "event-qihuan-gong-ba",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guiling-zhizhan",
+  "tgt": "event-likui-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guiling-zhizhan",
+  "tgt": "event-maling-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-handan-zhizhan",
+  "tgt": "event-changping-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-handan-zhizhan",
+  "tgt": "event-xinlingjun-hezong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hong-zhizhan",
+  "tgt": "event-kuiqiu-zhi-hui",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hong-zhizhan",
+  "tgt": "event-chengpu-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-huangchi-zhi-hui",
+  "tgt": "event-fujiao-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangchi-zhi-hui",
+  "tgt": "event-yue-mie-wu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hufu-qishe",
+  "tgt": "event-jixia-xuegong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hufu-qishe",
+  "tgt": "event-shaqiu-gongbian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hufu-qishe",
+  "tgt": "event-yuanmen-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jin-mie-zhi",
+  "tgt": "event-yue-mie-wu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jindaogong-fuba",
+  "tgt": "event-yanling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jindaogong-fuba",
+  "tgt": "event-xiangxu-mibing",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jingke-ci-qin",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-jixia-xuegong",
+  "tgt": "event-tianshi-dai-qi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jixia-xuegong",
+  "tgt": "event-hufu-qishe",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-kuiqiu-zhi-hui",
+  "tgt": "event-zhaoling-zhi-meng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kuiqiu-zhi-hui",
+  "tgt": "event-hong-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-kuiqiu-zhi-hui",
+  "tgt": "event-qihuan-gong-ba",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-likui-bianfa",
+  "tgt": "event-wuqi-bianfa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-likui-bianfa",
+  "tgt": "event-guiling-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-maling-zhizhan",
+  "tgt": "event-guiling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-maling-zhizhan",
+  "tgt": "event-shangyang-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-pingwang-dongqian",
+  "tgt": "event-quanrong-mie-xizhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-pingwang-dongqian",
+  "tgt": "event-zheng-zhuanggong-xiaoba",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qi-mie-song",
+  "tgt": "event-zizhi-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qi-mie-song",
+  "tgt": "event-wuguo-fa-qi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qihuan-gong-ba",
+  "tgt": "event-guanzhong-gaige",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qihuan-gong-ba",
+  "tgt": "event-hong-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qin-bing-bashu",
+  "tgt": "event-shangyang-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-bing-bashu",
+  "tgt": "event-zhangyi-po-chu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qin-bing-bashu",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "contributes_to"
+ },
+ {
+  "src": "event-qin-mie-chu",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-mie-dongzhou",
+  "tgt": "event-handan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-mie-dongzhou",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qin-mie-han",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-mie-liuguo",
+  "tgt": "event-changping-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-mie-liuguo",
+  "tgt": "event-qin-tongyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qin-mie-qi",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-mie-wei",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-mie-yan",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-mie-zhao",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qin-tongyi",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qinmu-gong-ba-xirong",
+  "tgt": "event-xiao-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qinmu-gong-ba-xirong",
+  "tgt": "event-yue-mie-wu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sanjia-fenjin",
+  "tgt": "event-jin-mie-zhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sanjia-fenjin",
+  "tgt": "event-tianshi-dai-qi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sanjia-fenjin",
+  "tgt": "event-likui-bianfa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shangyang-bianfa",
+  "tgt": "event-maling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shangyang-bianfa",
+  "tgt": "event-yique-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shangyang-bianfa",
+  "tgt": "event-zizhi-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-shaqiu-gongbian",
+  "tgt": "event-hufu-qishe",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaqiu-gongbian",
+  "tgt": "event-yuanmen-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tiandan-fu-qi",
+  "tgt": "event-wuguo-fa-qi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tiandan-fu-qi",
+  "tgt": "event-yuanmen-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tianshi-dai-qi",
+  "tgt": "event-sanjia-fenjin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tianshi-dai-qi",
+  "tgt": "event-jixia-xuegong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wending-zhongyuan",
+  "tgt": "event-chuzhuang-wang-ba",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-wending-zhongyuan",
+  "tgt": "event-zichan-xingshu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wu-guo-jueqi",
+  "tgt": "event-xiangxu-mibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wu-guo-jueqi",
+  "tgt": "event-fujiao-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wuguo-fa-qi",
+  "tgt": "event-qi-mie-song",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuguo-fa-qi",
+  "tgt": "event-tiandan-fu-qi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wuqi-bianfa",
+  "tgt": "event-likui-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuqi-bianfa",
+  "tgt": "event-guiling-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xiangxu-mibing",
+  "tgt": "event-jindaogong-fuba",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiangxu-mibing",
+  "tgt": "event-wu-guo-jueqi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xiao-zhizhan",
+  "tgt": "event-chengpu-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiao-zhizhan",
+  "tgt": "event-qinmu-gong-ba-xirong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xinlingjun-hezong",
+  "tgt": "event-handan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xinlingjun-hezong",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xinlingjun-hezong",
+  "tgt": "event-hezong-lianheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-xuge-zhizhan",
+  "tgt": "event-zheng-zhuanggong-xiaoba",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-xuge-zhizhan",
+  "tgt": "event-guanzhong-gaige",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yanling-zhizhan",
+  "tgt": "event-bi-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yanling-zhizhan",
+  "tgt": "event-xiangxu-mibing",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yique-zhizhan",
+  "tgt": "event-shangyang-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yique-zhizhan",
+  "tgt": "event-qi-mie-song",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yique-zhizhan",
+  "tgt": "event-changping-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanmen-zhizhan",
+  "tgt": "event-tiandan-fu-qi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanmen-zhizhan",
+  "tgt": "event-changping-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yue-mie-wu",
+  "tgt": "event-huangchi-zhi-hui",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yue-mie-wu",
+  "tgt": "event-jin-mie-zhi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhangyi-po-chu",
+  "tgt": "event-qin-bing-bashu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangyi-po-chu",
+  "tgt": "event-hezong-lianheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhaoling-zhi-meng",
+  "tgt": "event-qihuan-gong-ba",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhaoling-zhi-meng",
+  "tgt": "event-kuiqiu-zhi-hui",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zheng-guoqu-xiuzhu",
+  "tgt": "event-qin-mie-dongzhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zheng-guoqu-xiuzhu",
+  "tgt": "event-qin-mie-liuguo",
+  "rel": "contributes_to"
+ },
+ {
+  "src": "event-zheng-zhuanggong-xiaoba",
+  "tgt": "event-pingwang-dongqian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zichan-xingshu",
+  "tgt": "event-wending-zhongyuan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zichan-xingshu",
+  "tgt": "event-wu-guo-jueqi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zizhi-zhi-luan",
+  "tgt": "event-shangyang-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zizhi-zhi-luan",
+  "tgt": "event-qi-mie-song",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-beihan-jianli",
+  "tgt": "event-guo-wei-dai-han",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chai-rong-gaige",
+  "tgt": "event-chai-rong-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chai-rong-gaige",
+  "tgt": "event-gaoping-zhizhan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chai-rong-gaige",
+  "tgt": "event-houzhou-nanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chai-rong-jiwei",
+  "tgt": "event-guo-wei-dai-han",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chai-rong-jiwei",
+  "tgt": "event-chai-rong-gaige",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-gaoping-zhizhan",
+  "tgt": "event-chai-rong-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-guo-wei-dai-han",
+  "tgt": "event-liuzhiyuan-jianhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guo-wei-dai-han",
+  "tgt": "event-chai-rong-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hou-shu-jianli",
+  "tgt": "event-qian-shu-jianli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hou-tang-jianguo",
+  "tgt": "event-houliang-dai-tang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hou-tang-jianguo",
+  "tgt": "event-shi-jingtang-dai-tang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-houliang-dai-tang",
+  "tgt": "event-zhuwen-qian-du",
+  "rel": "follows"
+ },
+ {
+  "src": "event-houliang-dai-tang",
+  "tgt": "event-hou-tang-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-houzhou-nanzheng",
+  "tgt": "event-chai-rong-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-liuzhiyuan-jianhan",
+  "tgt": "event-qidan-mie-houjin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liuzhiyuan-jianhan",
+  "tgt": "event-guo-wei-dai-han",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-nan-tang-jianli",
+  "tgt": "event-shi-jingtang-dai-tang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-nan-tang-jianli",
+  "tgt": "event-houzhou-nanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-shu-jianli",
+  "tgt": "event-houliang-dai-tang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qidan-jianguo",
+  "tgt": "event-houliang-dai-tang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qidan-jianguo",
+  "tgt": "event-yan-yun-shiliuzhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qidan-mie-houjin",
+  "tgt": "event-yan-yun-shiliuzhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qidan-mie-houjin",
+  "tgt": "event-liuzhiyuan-jianhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shi-jingtang-dai-tang",
+  "tgt": "event-hou-tang-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shi-jingtang-dai-tang",
+  "tgt": "event-yan-yun-shiliuzhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yan-yun-shiliuzhou",
+  "tgt": "event-shi-jingtang-dai-tang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yan-yun-shiliuzhou",
+  "tgt": "event-qidan-mie-houjin",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-bawang-zhi-luan",
+  "tgt": "event-jin-wudi-beng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-bawang-zhi-luan",
+  "tgt": "event-yongjia-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beiwei-fenlie",
+  "tgt": "event-gaohuan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beiwei-fenlie",
+  "tgt": "event-gaoyang-dai-dongwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beiwei-fenlie",
+  "tgt": "event-yuwenjue-dai-xiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beiwei-jianguo",
+  "tgt": "event-qian-qin-wajie",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-beiwei-jianguo",
+  "tgt": "event-beiwei-mie-hou-yan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beiwei-mie-hou-yan",
+  "tgt": "event-beiwei-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beiwei-mie-hou-yan",
+  "tgt": "event-beiwei-tongyi-beifang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beiwei-tongyi-beifang",
+  "tgt": "event-beiwei-mie-hou-yan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beiwei-tongyi-beifang",
+  "tgt": "event-xiaowendi-gaige",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beizhou-mie-beiqi",
+  "tgt": "event-zhouwudi-qinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beizhou-mie-beiqi",
+  "tgt": "event-yangjian-dai-beizhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chenbaxian-jianzhen",
+  "tgt": "event-xiwei-po-jiangling",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chenbaxian-jianzhen",
+  "tgt": "event-sui-mie-chen",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dongjin-jianguo",
+  "tgt": "event-xijin-mie-wang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dongjin-jianguo",
+  "tgt": "event-zuti-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-feishui-zhizhan",
+  "tgt": "event-qian-qin-tongyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-feishui-zhizhan",
+  "tgt": "event-qian-qin-wajie",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fu-jian-wangmeng",
+  "tgt": "event-qian-yan-qiang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-fu-jian-wangmeng",
+  "tgt": "event-wangmeng-gaige",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fubing-zhi",
+  "tgt": "event-yuwenjue-dai-xiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-gaohuan-qibing",
+  "tgt": "event-heyin-zhi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gaohuan-qibing",
+  "tgt": "event-beiwei-fenlie",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-gaoyang-dai-dongwei",
+  "tgt": "event-beiwei-fenlie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gaoyang-dai-dongwei",
+  "tgt": "event-beizhou-mie-beiqi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-heyin-zhi-bian",
+  "tgt": "event-luzhen-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-heyin-zhi-bian",
+  "tgt": "event-gaohuan-qibing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hou-qin-jianli",
+  "tgt": "event-qian-qin-wajie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hou-qin-jianli",
+  "tgt": "event-liuyu-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hou-yan-jianli",
+  "tgt": "event-qian-qin-wajie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hou-yan-jianli",
+  "tgt": "event-beiwei-mie-hou-yan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hou-zhao-bingqian-zhao",
+  "tgt": "event-shi-le-hou-zhao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hou-zhao-bingqian-zhao",
+  "tgt": "event-ran-wei",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-houjing-po-taicheng",
+  "tgt": "event-houjing-zhi-luan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-houjing-zhi-luan",
+  "tgt": "event-xiaoyan-dai-qi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-houjing-zhi-luan",
+  "tgt": "event-houjing-po-taicheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-houjing-zhi-luan",
+  "tgt": "event-xiwei-po-jiangling",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huan-wen-beifa",
+  "tgt": "event-sujun-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huan-wen-beifa",
+  "tgt": "event-sunen-luxun",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jia-hou-gan-zheng",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-jin-mie-wu",
+  "tgt": "event-sima-yan-dai-wei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-mie-wu",
+  "tgt": "event-jin-wudi-beng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jin-wudi-beng",
+  "tgt": "event-jin-mie-wu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-wudi-beng",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-li-te-qiyi",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-te-qiyi",
+  "tgt": "event-liu-yuan-qibing",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-liu-yuan-qibing",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liu-yuan-qibing",
+  "tgt": "event-yongjia-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liuyu-beifa",
+  "tgt": "event-sunen-luxun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liuyu-beifa",
+  "tgt": "event-liuyu-dai-jin",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liuyu-dai-jin",
+  "tgt": "event-liuyu-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liuyu-dai-jin",
+  "tgt": "event-beiwei-tongyi-beifang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-luoyang-xianshi",
+  "tgt": "event-yongjia-zhi-luan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-luoyang-xianshi",
+  "tgt": "event-xijin-mie-wang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-luzhen-qiyi",
+  "tgt": "event-taihe-hanhua",
+  "rel": "follows"
+ },
+ {
+  "src": "event-luzhen-qiyi",
+  "tgt": "event-heyin-zhi-bian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-du-luoyang",
+  "tgt": "event-xiaowendi-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-qian-qin-mie-qian-yan",
+  "tgt": "event-wangmeng-gaige",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qian-qin-mie-qian-yan",
+  "tgt": "event-qian-qin-tongyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-qin-tongyi",
+  "tgt": "event-qian-qin-mie-qian-yan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qian-qin-tongyi",
+  "tgt": "event-feishui-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-qin-wajie",
+  "tgt": "event-feishui-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qian-qin-wajie",
+  "tgt": "event-hou-yan-jianli",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-yan-qiang",
+  "tgt": "event-ran-wei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qian-yan-qiang",
+  "tgt": "event-qian-qin-mie-qian-yan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-ran-wei",
+  "tgt": "event-hou-zhao-bingqian-zhao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ran-wei",
+  "tgt": "event-qian-yan-qiang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-shi-le-hou-zhao",
+  "tgt": "event-liu-yuan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shi-le-hou-zhao",
+  "tgt": "event-hou-zhao-bingqian-zhao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sima-yan-dai-wei",
+  "tgt": "event-wei-mie-shu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sima-yan-dai-wei",
+  "tgt": "event-jin-mie-wu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sima-yue-pingluan",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sima-yue-pingluan",
+  "tgt": "event-zhaowang-lun-chengdi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sui-mie-chen",
+  "tgt": "event-sui-mie-xiliang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sui-mie-chen",
+  "tgt": "event-chenbaxian-jianzhen",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sui-mie-xiliang",
+  "tgt": "event-yangjian-dai-beizhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sui-mie-xiliang",
+  "tgt": "event-sui-mie-chen",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sujun-zhi-luan",
+  "tgt": "event-wangdun-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sujun-zhi-luan",
+  "tgt": "event-shi-le-hou-zhao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sunen-luxun",
+  "tgt": "event-huan-wen-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sunen-luxun",
+  "tgt": "event-liuyu-beifa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-taihe-hanhua",
+  "tgt": "event-qian-du-luoyang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-taihe-hanhua",
+  "tgt": "event-xiaowendi-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-wangdun-zhi-luan",
+  "tgt": "event-zuti-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangdun-zhi-luan",
+  "tgt": "event-sujun-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wangmeng-gaige",
+  "tgt": "event-fu-jian-wangmeng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangmeng-gaige",
+  "tgt": "event-qian-qin-tongyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xiaodaocheng-dai-song",
+  "tgt": "event-yuanjia-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiaodaocheng-dai-song",
+  "tgt": "event-xiaoyan-dai-qi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xiaowendi-gaige",
+  "tgt": "event-beiwei-tongyi-beifang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiaowendi-gaige",
+  "tgt": "event-luzhen-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xiaoyan-dai-qi",
+  "tgt": "event-xiaodaocheng-dai-song",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiaoyan-dai-qi",
+  "tgt": "event-houjing-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xijin-mie-wang",
+  "tgt": "event-luoyang-xianshi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xijin-mie-wang",
+  "tgt": "event-dongjin-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xiwei-po-jiangling",
+  "tgt": "event-houjing-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiwei-po-jiangling",
+  "tgt": "event-chenbaxian-jianzhen",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yangjian-dai-beizhou",
+  "tgt": "event-yangjian-zhuanquan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yangjian-dai-beizhou",
+  "tgt": "event-sui-mie-xiliang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yangjian-zhuanquan",
+  "tgt": "event-beizhou-mie-beiqi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yangjian-zhuanquan",
+  "tgt": "event-yangjian-dai-beizhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yongjia-zhi-luan",
+  "tgt": "event-liu-yuan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yongjia-zhi-luan",
+  "tgt": "event-luoyang-xianshi",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-yongjia-zhi-luan",
+  "tgt": "event-xijin-mie-wang",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-yuanjia-beifa",
+  "tgt": "event-yuanjia-zhizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanjia-beifa",
+  "tgt": "event-xiaodaocheng-dai-song",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanjia-zhizhi",
+  "tgt": "event-liuyu-dai-jin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanjia-zhizhi",
+  "tgt": "event-yuanjia-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yubi-zhizhan",
+  "tgt": "event-beiwei-fenlie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yubi-zhizhan",
+  "tgt": "event-fubing-zhi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuwenjue-dai-xiwei",
+  "tgt": "event-beiwei-fenlie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuwenjue-dai-xiwei",
+  "tgt": "event-zhouwudi-qinzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhaowang-lun-chengdi",
+  "tgt": "event-bawang-zhi-luan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhaowang-lun-chengdi",
+  "tgt": "event-jia-hou-gan-zheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhongli-zhizhan",
+  "tgt": "event-xiaoyan-dai-qi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhouwudi-qinzheng",
+  "tgt": "event-yuwenjue-dai-xiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhouwudi-qinzheng",
+  "tgt": "event-beizhou-mie-beiqi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zuti-beifa",
+  "tgt": "event-dongjin-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zuti-beifa",
+  "tgt": "event-wangdun-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-beijing-baoweizhan",
+  "tgt": "event-jingtai-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beijing-baoweizhan",
+  "tgt": "event-duomen-zhibian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chongzhen-jiwei",
+  "tgt": "event-weizhongxian-zhuanquan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chongzhen-jiwei",
+  "tgt": "event-shanxi-minbian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-daliyi",
+  "tgt": "event-duomen-zhibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dingyou-zailuan",
+  "tgt": "event-wanli-chaoxian",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-donglin-dangzheng",
+  "tgt": "event-zhangjuzheng-shoucuo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-donglin-dangzheng",
+  "tgt": "event-weizhongxian-zhuanquan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dongnan-wokou",
+  "tgt": "event-ningwang-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-duomen-zhibian",
+  "tgt": "event-beijing-baoweizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-houjin-jianguo",
+  "tgt": "event-nuerhachi-tongyi-nvzhen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-houjin-jianguo",
+  "tgt": "event-qidahen",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hu-weiyong-an",
+  "tgt": "event-zhuyuanzhang-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hu-weiyong-an",
+  "tgt": "event-lanyu-an",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jianwen-jiwei",
+  "tgt": "event-lanyu-an",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jianwen-jiwei",
+  "tgt": "event-jianwen-xuefan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jianwen-xuefan",
+  "tgt": "event-jianwen-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jianwen-xuefan",
+  "tgt": "event-jingnan-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jingnan-qibing",
+  "tgt": "event-jingnan-zhizhan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-jingnan-zhizhan",
+  "tgt": "event-jianwen-xuefan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jingtai-jiwei",
+  "tgt": "event-tumu-bao-zhibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jingtai-jiwei",
+  "tgt": "event-beijing-baoweizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-kaocheng-fa",
+  "tgt": "event-zhangjuzheng-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-lanyu-an",
+  "tgt": "event-hu-weiyong-an",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-zicheng-fazhan",
+  "tgt": "event-shanxi-minbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-zicheng-fazhan",
+  "tgt": "event-li-zicheng-jian-dashun",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-li-zicheng-jian-dashun",
+  "tgt": "event-li-zicheng-fazhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-zicheng-jian-dashun",
+  "tgt": "event-lizicheng-gong-beijing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liaoshen-shixian",
+  "tgt": "event-saerhu-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-lizicheng-gong-beijing",
+  "tgt": "event-li-zicheng-jian-dashun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-chu-beizheng",
+  "tgt": "event-xuda-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-feng-zhuzhuwang",
+  "tgt": "event-jianwen-jiwei",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-ming-li-jia",
+  "tgt": "event-zhuyuanzhang-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-ping-yunnan",
+  "tgt": "event-zhuyuanzhang-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-qi-jiaozhi",
+  "tgt": "event-ming-zheng-annan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-wei-suo",
+  "tgt": "event-zhuyuanzhang-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-zheng-annan",
+  "tgt": "event-yanjun-ru-jing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ming-zheng-annan",
+  "tgt": "event-ming-qi-jiaozhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-ningwang-zhi-luan",
+  "tgt": "event-daliyi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-nuerhachi-tongyi-nvzhen",
+  "tgt": "event-houjin-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qian-du-beijing",
+  "tgt": "event-yanjun-ru-jing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qian-du-beijing",
+  "tgt": "event-tumu-bao-zhibian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qidahen",
+  "tgt": "event-houjin-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qidahen",
+  "tgt": "event-saerhu-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-renchen-yizhan",
+  "tgt": "event-wanli-chaoxian",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-saerhu-zhizhan",
+  "tgt": "event-qidahen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-saerhu-zhizhan",
+  "tgt": "event-liaoshen-shixian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shanxi-minbian",
+  "tgt": "event-chongzhen-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shanxi-minbian",
+  "tgt": "event-li-zicheng-fazhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-taizhou-dajie",
+  "tgt": "event-dongnan-wokou",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-tumu-bao-zhibian",
+  "tgt": "event-qian-du-beijing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tumu-bao-zhibian",
+  "tgt": "event-jingtai-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tumu-bao-zhibian",
+  "tgt": "event-beijing-baoweizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wangzhi-yousha",
+  "tgt": "event-dongnan-wokou",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-wanli-chaoxian",
+  "tgt": "event-kaocheng-fa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-weizhongxian-zhuanquan",
+  "tgt": "event-donglin-dangzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-weizhongxian-zhuanquan",
+  "tgt": "event-chongzhen-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xuda-beifa",
+  "tgt": "event-zhuyuanzhang-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xuda-beifa",
+  "tgt": "event-ming-chu-beizheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yanjun-ru-jing",
+  "tgt": "event-jingnan-zhizhan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-yanjun-ru-jing",
+  "tgt": "event-jingnan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yitiao-bianfa",
+  "tgt": "event-zhangjuzheng-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-yongle-beizheng",
+  "tgt": "event-ming-chu-beizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yongle-beizheng",
+  "tgt": "event-yanjun-ru-jing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhang-xianzhong-fazhan",
+  "tgt": "event-shanxi-minbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangjuzheng-gaige",
+  "tgt": "event-taizhou-dajie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangjuzheng-gaige",
+  "tgt": "event-wanli-chaoxian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhangjuzheng-shoucuo",
+  "tgt": "event-zhangjuzheng-gaige",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhangjuzheng-shoucuo",
+  "tgt": "event-wanli-chaoxian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhengde-zhengzhi",
+  "tgt": "event-ningwang-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhengde-zhengzhi",
+  "tgt": "event-daliyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhenghe-di-yici",
+  "tgt": "event-zhenghe-xiaxiyang",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhenghe-xiaxiyang",
+  "tgt": "event-yanjun-ru-jing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhenghe-zui-hou",
+  "tgt": "event-zhenghe-xiaxiyang",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhuyuanzhang-chendi",
+  "tgt": "event-zhuyuanzhang-mie-zhang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuyuanzhang-chendi",
+  "tgt": "event-xuda-beifa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-baidatuan",
+  "tgt": "event-changsha-huizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-bali-hehui",
+  "tgt": "event-hufa-yundong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-bali-hehui",
+  "tgt": "event-wusi-yundong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-changsha-huizhan",
+  "tgt": "event-wuhan-huizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-changzheng",
+  "tgt": "event-zhonghua-suweiai",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chongqing-tanpan",
+  "tgt": "event-riben-touxiang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chongqing-tanpan",
+  "tgt": "event-zhengzhi-xieshang-huiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dierci-zhifeng-zhanzheng",
+  "tgt": "event-diyici-zhifeng-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-diyici-zhifeng-zhanzheng",
+  "tgt": "event-zhiwan-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-diyici-zhifeng-zhanzheng",
+  "tgt": "event-dierci-zhifeng-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dongbei-yizhi",
+  "tgt": "event-guomin-gemingjun-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dujiang-nanjing",
+  "tgt": "event-pingjin-zhanyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dujiang-nanjing",
+  "tgt": "event-xinzhongguo-chengli",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-erci-geming",
+  "tgt": "event-songjiaoren-yuci",
+  "rel": "follows"
+ },
+ {
+  "src": "event-erci-geming",
+  "tgt": "event-yuanshikai-chendi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fuyuan-zhi-zheng",
+  "tgt": "event-yuanshikai-qushi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-fuyuan-zhi-zheng",
+  "tgt": "event-zhangxun-fubi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guogong-fenlie-1927",
+  "tgt": "event-guomin-gemingjun-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guomin-gemingjun-beifa",
+  "tgt": "event-huangpu-junxiao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guomin-gemingjun-beifa",
+  "tgt": "event-nanjing-guominzhengfu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guomin-gemingjun-beifa",
+  "tgt": "event-dongbei-yizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guomindang-gaizu",
+  "tgt": "event-wusi-yundong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guomindang-gaizu",
+  "tgt": "event-huangpu-junxiao",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huabei-shibian",
+  "tgt": "event-manzhouguo-jianli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huabei-shibian",
+  "tgt": "event-xian-shibian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huaihai-zhanyi",
+  "tgt": "event-liaoshen-zhanyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangpu-junxiao",
+  "tgt": "event-guomindang-gaizu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangpu-junxiao",
+  "tgt": "event-guomin-gemingjun-beifa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hufa-yundong",
+  "tgt": "event-zhangxun-fubi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hufa-yundong",
+  "tgt": "event-zhiwan-zhanzheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-huguo-zhanzheng",
+  "tgt": "event-yuanshikai-chendi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huguo-zhanzheng",
+  "tgt": "event-yuanshikai-qushi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jinggangshan-jidi",
+  "tgt": "event-qiushou-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jinggangshan-jidi",
+  "tgt": "event-zhonghua-suweiai",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jiuyiba-shibian",
+  "tgt": "event-dongbei-yizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jiuyiba-shibian",
+  "tgt": "event-manzhouguo-jianli",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liaoshen-zhanyi",
+  "tgt": "event-quanmian-neizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liaoshen-zhanyi",
+  "tgt": "event-huaihai-zhanyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liaoshen-zhanyi",
+  "tgt": "event-pingjin-zhanyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-linshi-yuefa",
+  "tgt": "event-yuanshikai-jiuwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-manzhouguo-jianli",
+  "tgt": "event-jiuyiba-shibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanchang-qiyi",
+  "tgt": "event-guogong-fenlie-1927",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanchang-qiyi",
+  "tgt": "event-qiushou-qiyi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-nanjing-baoweizhan",
+  "tgt": "event-songhu-huizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanjing-baoweizhan",
+  "tgt": "event-nanjing-datusha",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-nanjing-datusha",
+  "tgt": "event-nanjing-baoweizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanjing-guominzhengfu",
+  "tgt": "event-guomin-gemingjun-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-pingjin-zhanyi",
+  "tgt": "event-liaoshen-zhanyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qiqishi-bian",
+  "tgt": "event-xian-shibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qiqishi-bian",
+  "tgt": "event-songhu-huizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qiushou-qiyi",
+  "tgt": "event-nanchang-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qiushou-qiyi",
+  "tgt": "event-jinggangshan-jidi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-quanmian-neizhan",
+  "tgt": "event-zhengzhi-xieshang-huiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-quanmian-neizhan",
+  "tgt": "event-liaoshen-zhanyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-riben-touxiang",
+  "tgt": "event-yuxianggui",
+  "rel": "follows"
+ },
+ {
+  "src": "event-riben-touxiang",
+  "tgt": "event-taiwan-guangfu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-riben-touxiang",
+  "tgt": "event-chongqing-tanpan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-songhu-huizhan",
+  "tgt": "event-qiqishi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-songhu-huizhan",
+  "tgt": "event-nanjing-baoweizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-songjiaoren-yuci",
+  "tgt": "event-linshi-yuefa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-songjiaoren-yuci",
+  "tgt": "event-erci-geming",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-taiwan-guangfu",
+  "tgt": "event-riben-touxiang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuhan-huizhan",
+  "tgt": "event-nanjing-datusha",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wusi-yundong",
+  "tgt": "event-bali-hehui",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xian-shibian",
+  "tgt": "event-huabei-shibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xian-shibian",
+  "tgt": "event-changzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xinzhongguo-chengli",
+  "tgt": "event-dujiang-nanjing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yi-er-ba-shibian",
+  "tgt": "event-jiuyiba-shibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanshikai-chendi",
+  "tgt": "event-erci-geming",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanshikai-chendi",
+  "tgt": "event-huguo-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuanshikai-jiuwei",
+  "tgt": "event-nanjing-linshi-zhengfu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanshikai-jiuwei",
+  "tgt": "event-linshi-yuefa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanshikai-qushi",
+  "tgt": "event-huguo-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanzhengjun",
+  "tgt": "event-wuhan-huizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanzhengjun",
+  "tgt": "event-yuxianggui",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuxianggui",
+  "tgt": "event-changsha-huizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zggcd-chengli",
+  "tgt": "event-wusi-yundong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zggcd-chengli",
+  "tgt": "event-guomindang-gaizu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhangxun-fubi",
+  "tgt": "event-fuyuan-zhi-zheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangxun-fubi",
+  "tgt": "event-hufa-yundong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhengzhi-xieshang-huiyi",
+  "tgt": "event-chongqing-tanpan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhengzhi-xieshang-huiyi",
+  "tgt": "event-quanmian-neizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhiwan-zhanzheng",
+  "tgt": "event-hufa-yundong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhiwan-zhanzheng",
+  "tgt": "event-diyici-zhifeng-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhonghua-suweiai",
+  "tgt": "event-jinggangshan-jidi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhonghua-suweiai",
+  "tgt": "event-changzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zunyi-huiyi",
+  "tgt": "event-changzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chengkang-zhizhi",
+  "tgt": "event-zhougong-shezheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chengkang-zhizhi",
+  "tgt": "event-zhaowang-nanzheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-gonghe-xingzheng",
+  "tgt": "event-guoren-baodong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gonghe-xingzheng",
+  "tgt": "event-xuanwang-zhongxing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guoren-baodong",
+  "tgt": "event-muwang-xizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guoren-baodong",
+  "tgt": "event-gonghe-xingzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-muwang-xizheng",
+  "tgt": "event-zhaowang-nanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-muwang-xizheng",
+  "tgt": "event-guoren-baodong",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-pangeng-qianyin",
+  "tgt": "event-shang-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-pangeng-qianyin",
+  "tgt": "event-wuding-zhongxing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-quanrong-mie-xizhou",
+  "tgt": "event-youwang-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sanjian-zhiluan",
+  "tgt": "event-xizhou-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sanjian-zhiluan",
+  "tgt": "event-zhougong-dongzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shang-jianguo",
+  "tgt": "event-shangtang-miexia",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shang-jianguo",
+  "tgt": "event-pangeng-qianyin",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-shangtang-miexia",
+  "tgt": "event-shang-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wuding-zhongxing",
+  "tgt": "event-pangeng-qianyin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuding-zhongxing",
+  "tgt": "event-wuwang-fazhou",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wuwang-fazhou",
+  "tgt": "event-xizhou-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xia-jianguo",
+  "tgt": "event-shangtang-miexia",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xia-shaokang-zhongxing",
+  "tgt": "event-xia-taikang-shiguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xia-shaokang-zhongxing",
+  "tgt": "event-shangtang-miexia",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xia-taikang-shiguo",
+  "tgt": "event-xia-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xia-taikang-shiguo",
+  "tgt": "event-xia-shaokang-zhongxing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xizhou-jianguo",
+  "tgt": "event-wuwang-fazhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xizhou-jianguo",
+  "tgt": "event-sanjian-zhiluan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xuanwang-zhongxing",
+  "tgt": "event-gonghe-xingzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xuanwang-zhongxing",
+  "tgt": "event-youwang-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-youwang-zhi-luan",
+  "tgt": "event-xuanwang-zhongxing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-youwang-zhi-luan",
+  "tgt": "event-quanrong-mie-xizhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhaowang-nanzheng",
+  "tgt": "event-chengkang-zhizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhaowang-nanzheng",
+  "tgt": "event-muwang-xizheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhougong-dongzheng",
+  "tgt": "event-sanjian-zhiluan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhougong-dongzheng",
+  "tgt": "event-zhougong-shezheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhougong-jianluoyi",
+  "tgt": "event-zhougong-shezheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhougong-jianluoyi",
+  "tgt": "event-chengkang-zhizhi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhougong-shezheng",
+  "tgt": "event-chengkang-zhizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-baideng-zhiwei",
+  "tgt": "event-han-dingdu-changan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-baideng-zhiwei",
+  "tgt": "event-hanhan-heqin",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-baima-zhi-meng",
+  "tgt": "event-hanchu-yixingwang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-baima-zhi-meng",
+  "tgt": "event-luhou-linchao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-banchao-jingying-xiyu",
+  "tgt": "event-hanmingdi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-banchao-jingying-xiyu",
+  "tgt": "event-dougu-beixiong",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-changyi-wang-feili",
+  "tgt": "event-wudi-si-huoguang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-changyi-wang-feili",
+  "tgt": "event-huo-shi-fumie",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chaocuo-xuefan",
+  "tgt": "event-wenjing-zhizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chaocuo-xuefan",
+  "tgt": "event-qiguo-zhi-luan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chensheng-wuguang-qiyi",
+  "tgt": "event-shaqiu-zhengbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chensheng-wuguang-qiyi",
+  "tgt": "event-chuhan-qin-revolt",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chimei-qiyi",
+  "tgt": "event-lvlin-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chimei-qiyi",
+  "tgt": "event-xin-mie",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chuhan-gaixia",
+  "tgt": "event-chuhan-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chuhan-gaixia",
+  "tgt": "event-chuhan-han-foundation",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chuhan-han-foundation",
+  "tgt": "event-chuhan-later",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chuhan-julu",
+  "tgt": "event-chuhan-qin-fall",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chuhan-pengcheng",
+  "tgt": "event-chuhan-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chuhan-pengcheng",
+  "tgt": "event-chuhan-xingyang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chuhan-qin-fall",
+  "tgt": "event-hongmen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chuhan-qin-revolt",
+  "tgt": "event-chuhan-julu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chuhan-war",
+  "tgt": "event-chuhan-qin-fall",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chuhan-war",
+  "tgt": "event-chuhan-han-foundation",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chuhan-xingyang",
+  "tgt": "event-chuhan-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-chuhan-xingyang",
+  "tgt": "event-chuhan-gaixia",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-cishi-jiancha",
+  "tgt": "event-hanwudi-caizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-danggu-1",
+  "tgt": "event-liangji-zhuanquan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-danggu-1",
+  "tgt": "event-danggu-2",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-danggu-2",
+  "tgt": "event-danggu-1",
+  "rel": "follows"
+ },
+ {
+  "src": "event-danggu-2",
+  "tgt": "event-three-yellow-turbans",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-deng-taihou",
+  "tgt": "event-he-di-zhu-dou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-deng-taihou",
+  "tgt": "event-huangguan-li-shundi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dongzhongshu-cedui",
+  "tgt": "event-wujing-boshi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dongzhongshu-cedui",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dougu-beixiong",
+  "tgt": "event-banchao-jingying-xiyu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dougu-beixiong",
+  "tgt": "event-he-di-zhu-dou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fojiao-chuanru",
+  "tgt": "event-hanmingdi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guangwu-chengdi",
+  "tgt": "event-xin-mie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guangwu-chengdi",
+  "tgt": "event-kunyang-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guangwu-dutian",
+  "tgt": "event-guangwu-tongyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guangwu-dutian",
+  "tgt": "event-hanmingdi-jiwei",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-guangwu-tongyi",
+  "tgt": "event-guangwu-chengdi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guangwu-tongyi",
+  "tgt": "event-guangwu-dutian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-han-dingdu-changan",
+  "tgt": "event-chuhan-han-foundation",
+  "rel": "follows"
+ },
+ {
+  "src": "event-han-xiongnu-war",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-han-xiongnu-war",
+  "tgt": "event-luntai-zhao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-han-yuandi-jiwei",
+  "tgt": "event-xiyu-duhu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanchu-yixingwang",
+  "tgt": "event-chuhan-han-foundation",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanchu-yixingwang",
+  "tgt": "event-baima-zhi-meng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hanhan-heqin",
+  "tgt": "event-baideng-zhiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanhan-heqin",
+  "tgt": "event-mayi-zhi-mou",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hanmingdi-jiwei",
+  "tgt": "event-guangwu-dutian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanmingdi-jiwei",
+  "tgt": "event-banchao-jingying-xiyu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hanqiang-zhanzheng",
+  "tgt": "event-deng-taihou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanqiang-zhanzheng",
+  "tgt": "event-danggu-2",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hanwendi-jiwei",
+  "tgt": "event-zhulv",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanwendi-jiwei",
+  "tgt": "event-wenjing-zhizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hanwudi-caizheng",
+  "tgt": "event-mobei-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hanwudi-caizheng",
+  "tgt": "event-cishi-jiancha",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hanwudi-jiwei",
+  "tgt": "event-qiguo-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-he-di-zhu-dou",
+  "tgt": "event-dougu-beixiong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-he-di-zhu-dou",
+  "tgt": "event-deng-taihou",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-henan-zhizhan",
+  "tgt": "event-han-xiongnu-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-henan-zhizhan",
+  "tgt": "event-weiqing-ji-longcheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hexi-zhizhan",
+  "tgt": "event-han-xiongnu-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-hexi-zhizhan",
+  "tgt": "event-henan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hongmen",
+  "tgt": "event-chuhan-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-hongmen",
+  "tgt": "event-chuhan-pengcheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huangguan-li-shundi",
+  "tgt": "event-deng-taihou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangguan-li-shundi",
+  "tgt": "event-liangji-zhuanquan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huo-shi-fumie",
+  "tgt": "event-changyi-wang-feili",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kunyang-zhizhan",
+  "tgt": "event-lvlin-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kunyang-zhizhan",
+  "tgt": "event-xin-mie",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-kunyang-zhizhan",
+  "tgt": "event-guangwu-chengdi",
+  "rel": "contributes_to"
+ },
+ {
+  "src": "event-liangji-zhuanquan",
+  "tgt": "event-huangguan-li-shundi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liangji-zhuanquan",
+  "tgt": "event-danggu-1",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liubang-ru-guan",
+  "tgt": "event-chuhan-qin-revolt",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-liubang-ru-guan",
+  "tgt": "event-chuhan-qin-fall",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liubang-si",
+  "tgt": "event-baima-zhi-meng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liubang-si",
+  "tgt": "event-luhou-linchao",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-luhou-linchao",
+  "tgt": "event-liubang-si",
+  "rel": "follows"
+ },
+ {
+  "src": "event-luhou-linchao",
+  "tgt": "event-zhulv",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-luntai-zhao",
+  "tgt": "event-wugu-zhi-huo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-luntai-zhao",
+  "tgt": "event-wudi-si-huoguang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-lvlin-qiyi",
+  "tgt": "event-xin-gaizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-lvlin-qiyi",
+  "tgt": "event-kunyang-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-mayi-zhi-mou",
+  "tgt": "event-han-xiongnu-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-mayi-zhi-mou",
+  "tgt": "event-hanhan-heqin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-mobei-zhizhan",
+  "tgt": "event-han-xiongnu-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-mobei-zhizhan",
+  "tgt": "event-hexi-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qiguo-zhi-luan",
+  "tgt": "event-chaocuo-xuefan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qiguo-zhi-luan",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qin-beiji-xiongnu",
+  "tgt": "event-qin-chidao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-chidao",
+  "tgt": "event-qin-tongyi-bihuo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-junxian",
+  "tgt": "event-qin-tongyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-nanzheng-baiyue",
+  "tgt": "event-qin-chidao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-shihuang-beng",
+  "tgt": "event-shaqiu-zhengbian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qin-shutongwen",
+  "tgt": "event-qin-junxian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-tongyi-bihuo",
+  "tgt": "event-qin-tongyi-duliangheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-tongyi-duliangheng",
+  "tgt": "event-qin-shutongwen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qin-xiu-changcheng",
+  "tgt": "event-qin-beiji-xiongnu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaqiu-zhengbian",
+  "tgt": "event-qin-shihuang-beng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaqiu-zhengbian",
+  "tgt": "event-chensheng-wuguang-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-taichu-gaili",
+  "tgt": "event-cishi-jiancha",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tui-en-ling",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangfeng-waigi",
+  "tgt": "event-han-yuandi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangmang-chengdi",
+  "tgt": "event-wangmang-jushe",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangmang-chengdi",
+  "tgt": "event-xin-gaizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wangmang-fuchu",
+  "tgt": "event-wangfeng-waigi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangmang-jushe",
+  "tgt": "event-wangmang-fuchu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangmang-jushe",
+  "tgt": "event-wangmang-chengdi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-weiqing-ji-longcheng",
+  "tgt": "event-han-xiongnu-war",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-weiqing-ji-longcheng",
+  "tgt": "event-mayi-zhi-mou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wenjing-zhizhi",
+  "tgt": "event-hanwendi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wenjing-zhizhi",
+  "tgt": "event-chaocuo-xuefan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wudi-si-huoguang",
+  "tgt": "event-luntai-zhao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wudi-si-huoguang",
+  "tgt": "event-changyi-wang-feili",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wugu-zhi-huo",
+  "tgt": "event-taichu-gaili",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wugu-zhi-huo",
+  "tgt": "event-luntai-zhao",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wujing-boshi",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xin-gaizhi",
+  "tgt": "event-wangmang-chengdi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xin-gaizhi",
+  "tgt": "event-lvlin-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xin-mie",
+  "tgt": "event-kunyang-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xin-mie",
+  "tgt": "event-guangwu-chengdi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xiyu-duhu",
+  "tgt": "event-huo-shi-fumie",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangqian-chuxi-1",
+  "tgt": "event-hanwudi-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangqian-chuxi-2",
+  "tgt": "event-zhangqian-chuxi-1",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhulv",
+  "tgt": "event-luhou-linchao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhulv",
+  "tgt": "event-hanwendi-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-agubo-geju",
+  "tgt": "event-zuozongtang-xizheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-baguo-lianjun-ru-jing",
+  "tgt": "event-yihetuan-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-baguo-lianjun-ru-jing",
+  "tgt": "event-xinchou-tiaoyue",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-bailianjiao-qiyi",
+  "tgt": "event-macartney-shi-tuan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-baolu-yundong",
+  "tgt": "event-yubei-lixian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-baolu-yundong",
+  "tgt": "event-wuchang-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-beijing-tiaoyue",
+  "tgt": "event-dierci-yapian-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-beijing-tiaoyue",
+  "tgt": "event-tianjin-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-beiyang-haijun",
+  "tgt": "event-yangwu-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-dierci-yapian-zhanzheng",
+  "tgt": "event-nanjing-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dingdu-tianjing",
+  "tgt": "event-taiping-tianguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-dingdu-tianjing",
+  "tgt": "event-jintian-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-diyici-yapian-zhanzheng",
+  "tgt": "event-linzexu-jinyan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-diyici-yapian-zhanzheng",
+  "tgt": "event-nanjing-tiaoyue",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dongnan-hubao",
+  "tgt": "event-baguo-lianjun-ru-jing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-feichu-keju",
+  "tgt": "event-qingmo-xinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-fuzhou-chuanzheng",
+  "tgt": "event-yangwu-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-gaiguohao-qing",
+  "tgt": "event-huangtaiji-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gaiguohao-qing",
+  "tgt": "event-songjin-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-gaituguiliu",
+  "tgt": "event-yongzheng-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gongche-shangshu",
+  "tgt": "event-maguan-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gongche-shangshu",
+  "tgt": "event-wuxu-bianfa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huanghai-haizhan",
+  "tgt": "event-jiawu-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huangtaiji-jiwei",
+  "tgt": "event-houjin-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangtaiji-jiwei",
+  "tgt": "event-gaiguohao-qing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jiangnan-zaochu",
+  "tgt": "event-yangwu-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-jiawu-zhanzheng",
+  "tgt": "event-zhongfa-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jiawu-zhanzheng",
+  "tgt": "event-beiyang-haijun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jintian-qiyi",
+  "tgt": "event-taiping-tianguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-jintian-qiyi",
+  "tgt": "event-dingdu-tianjing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-junjichu",
+  "tgt": "event-yongzheng-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kangxi-zheng-galdan",
+  "tgt": "event-nibuchu-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kangxi-zheng-galdan",
+  "tgt": "event-qianlong-ping-jun",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-lieqiang-guafen",
+  "tgt": "event-maguan-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-linzexu-jinyan",
+  "tgt": "event-bailianjiao-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-linzexu-jinyan",
+  "tgt": "event-diyici-yapian-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-lunchuan-zhaoshangju",
+  "tgt": "event-yangwu-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-macartney-shi-tuan",
+  "tgt": "event-siku-quanshu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-macartney-shi-tuan",
+  "tgt": "event-bailianjiao-qiyi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-maguan-tiaoyue",
+  "tgt": "event-jiawu-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-maguan-tiaoyue",
+  "tgt": "event-gongche-shangshu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-mawei-haizhan",
+  "tgt": "event-zhongfa-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-nanjing-linshi-zhengfu",
+  "tgt": "event-wuchang-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanjing-linshi-zhengfu",
+  "tgt": "event-qingdi-tuiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-nanjing-tiaoyue",
+  "tgt": "event-diyici-yapian-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanming-hongguang",
+  "tgt": "event-qingjun-ru-guan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanming-hongguang",
+  "tgt": "event-qing-nanxia-jiangnan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-nanming-longwu-yongli",
+  "tgt": "event-qing-nanxia-jiangnan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanming-longwu-yongli",
+  "tgt": "event-zhengchenggong-qu-taiwan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-nibuchu-tiaoyue",
+  "tgt": "event-yaquesha-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qianlong-ping-jun",
+  "tgt": "event-kangxi-zheng-galdan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qing-nanxia-jiangnan",
+  "tgt": "event-nanming-hongguang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qing-nanxia-jiangnan",
+  "tgt": "event-nanming-longwu-yongli",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qing-tongyi-taiwan",
+  "tgt": "event-zhengchenggong-qu-taiwan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qing-tongyi-taiwan",
+  "tgt": "event-yaquesha-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-qingdi-tuiwei",
+  "tgt": "event-nanjing-linshi-zhengfu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingdi-tuiwei",
+  "tgt": "event-wuchang-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingjun-ru-guan",
+  "tgt": "event-lizicheng-gong-beijing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingjun-ru-guan",
+  "tgt": "event-songjin-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingjun-ru-guan",
+  "tgt": "event-nanming-hongguang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qingmo-xinzheng",
+  "tgt": "event-xinchou-tiaoyue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingmo-xinzheng",
+  "tgt": "event-feichu-keju",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sanfan-xingcheng",
+  "tgt": "event-qingjun-ru-guan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sanfan-zhi-luan",
+  "tgt": "event-sanfan-xingcheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-siku-quanshu",
+  "tgt": "event-qianlong-ping-jun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-songjin-zhizhan",
+  "tgt": "event-gaiguohao-qing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-songjin-zhizhan",
+  "tgt": "event-qingjun-ru-guan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-taiping-tianguo",
+  "tgt": "event-diyici-yapian-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-taiping-tianguo",
+  "tgt": "event-jintian-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tanding-rumu",
+  "tgt": "event-yongzheng-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tanding-rumu",
+  "tgt": "event-gaituguiliu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tianjin-tiaoyue",
+  "tgt": "event-dierci-yapian-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-tianjing-shibian",
+  "tgt": "event-taiping-tianguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-tianjing-shibian",
+  "tgt": "event-dingdu-tianjing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tianjing-shibian",
+  "tgt": "event-tianjing-xianluo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tianjing-xianluo",
+  "tgt": "event-taiping-tianguo",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-tianjing-xianluo",
+  "tgt": "event-tianjing-shibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tifa-yifu",
+  "tgt": "event-qingjun-ru-guan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tongmenghui-chengli",
+  "tgt": "event-qingmo-xinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tongmenghui-chengli",
+  "tgt": "event-wuchang-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tuerhute-donggui",
+  "tgt": "event-qianlong-ping-jun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-weihaiwei-zhizhan",
+  "tgt": "event-jiawu-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-wuchang-qiyi",
+  "tgt": "event-baolu-yundong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuchang-qiyi",
+  "tgt": "event-tongmenghui-chengli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuchang-qiyi",
+  "tgt": "event-nanjing-linshi-zhengfu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wuxu-bianfa",
+  "tgt": "event-gongche-shangshu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xinchou-tiaoyue",
+  "tgt": "event-yihetuan-yundong",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-xinjiang-jiansheng",
+  "tgt": "event-zuozongtang-xizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yangwu-yundong",
+  "tgt": "event-dierci-yapian-zhanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yaquesha-zhizhan",
+  "tgt": "event-qing-tongyi-taiwan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yaquesha-zhizhan",
+  "tgt": "event-nibuchu-tiaoyue",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yihetuan-yundong",
+  "tgt": "event-lieqiang-guafen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yongzheng-jiwei",
+  "tgt": "event-kangxi-zheng-galdan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yubei-lixian",
+  "tgt": "event-qingmo-xinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yubei-lixian",
+  "tgt": "event-baolu-yundong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhengchenggong-qu-taiwan",
+  "tgt": "event-nanming-longwu-yongli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhengchenggong-qu-taiwan",
+  "tgt": "event-qing-tongyi-taiwan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhennanguan-dajie",
+  "tgt": "event-zhongfa-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhennanguan-dajie",
+  "tgt": "event-zhongfa-xinyue",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhongfa-xinyue",
+  "tgt": "event-zhongfa-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhongfa-zhanzheng",
+  "tgt": "event-xinjiang-jiansheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zuozongtang-xizheng",
+  "tgt": "event-agubo-geju",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zuozongtang-xizheng",
+  "tgt": "event-xinjiang-jiansheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-caishi-zhizhan",
+  "tgt": "event-hailing-nanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-caishi-zhizhan",
+  "tgt": "event-jin-shizong-jiwei",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-chanyuan-zhi-meng",
+  "tgt": "event-yongxi-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chanyuan-zhi-meng",
+  "tgt": "event-chongxi-zengbi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chenqiao-bingbian",
+  "tgt": "event-guo-wei-dai-han",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chenqiao-bingbian",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chongxi-zengbi",
+  "tgt": "event-chanyuan-zhi-meng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-diaoyucheng-zhizhan",
+  "tgt": "event-song-meng-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-diaoyucheng-zhizhan",
+  "tgt": "event-hubilie-chenghan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dingchuanzhai-zhizhan",
+  "tgt": "event-haoshuichuan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dingchuanzhai-zhizhan",
+  "tgt": "event-qingli-heyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-duanping-ru-luo",
+  "tgt": "event-mongol-mie-jin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-duanping-ru-luo",
+  "tgt": "event-song-meng-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fangla-qiyi",
+  "tgt": "event-hai-shang-zhi-meng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-gaolianghe-zhizhan",
+  "tgt": "event-song-mie-beihan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gaolianghe-zhizhan",
+  "tgt": "event-yongxi-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hai-shang-zhi-meng",
+  "tgt": "event-jin-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hai-shang-zhi-meng",
+  "tgt": "event-liao-miewang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hailing-nanzheng",
+  "tgt": "event-shaoxing-heyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hailing-nanzheng",
+  "tgt": "event-caishi-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-haoshuichuan-zhizhan",
+  "tgt": "event-sanchuankou-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-haoshuichuan-zhizhan",
+  "tgt": "event-dingchuanzhai-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-huangtiandang-zhizhan",
+  "tgt": "event-jianyan-nandu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangtiandang-zhizhan",
+  "tgt": "event-shunchang-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hubilie-chenghan",
+  "tgt": "event-diaoyucheng-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hubilie-chenghan",
+  "tgt": "event-yuan-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jiading-heyi",
+  "tgt": "event-kaixi-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jianyan-nandu",
+  "tgt": "event-zhao-gou-nansong-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jianyan-nandu",
+  "tgt": "event-huangtiandang-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jin-di-erci-weikaifeng",
+  "tgt": "event-jin-di-yici-weikaifeng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-di-erci-weikaifeng",
+  "tgt": "event-jingkang-zhi-bian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jin-di-yici-weikaifeng",
+  "tgt": "event-liao-miewang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-di-yici-weikaifeng",
+  "tgt": "event-jin-di-erci-weikaifeng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jin-jianguo",
+  "tgt": "event-wanyan-aguda-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-jianguo",
+  "tgt": "event-hai-shang-zhi-meng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jin-qian-du-bian",
+  "tgt": "event-yefengling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-qian-du-bian",
+  "tgt": "event-mongol-mie-xia",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jin-shizong-jiwei",
+  "tgt": "event-caishi-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jin-shizong-jiwei",
+  "tgt": "event-longxing-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-jingkang-zhi-bian",
+  "tgt": "event-jin-di-erci-weikaifeng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jingkang-zhi-bian",
+  "tgt": "event-zhao-gou-nansong-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-kaixi-beifa",
+  "tgt": "event-longxing-heyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kaixi-beifa",
+  "tgt": "event-jiading-heyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-li-jiqian-juxia",
+  "tgt": "event-western-xia-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liao-miewang",
+  "tgt": "event-hai-shang-zhi-meng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liao-miewang",
+  "tgt": "event-jin-di-yici-weikaifeng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-linan-touxiang",
+  "tgt": "event-xiangfan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-linan-touxiang",
+  "tgt": "event-wentianxiang-kangyuan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-linan-touxiang",
+  "tgt": "event-yanya-haizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-longxing-beifa",
+  "tgt": "event-jin-shizong-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-longxing-beifa",
+  "tgt": "event-longxing-heyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-longxing-heyi",
+  "tgt": "event-longxing-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-longxing-heyi",
+  "tgt": "event-kaixi-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-mongol-jianguo",
+  "tgt": "event-yefengling-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-mongol-jianguo",
+  "tgt": "event-yuan-jianguo",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-mongol-mie-dali",
+  "tgt": "event-song-meng-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-mongol-mie-jin",
+  "tgt": "event-mongol-mie-xia",
+  "rel": "follows"
+ },
+ {
+  "src": "event-mongol-mie-jin",
+  "tgt": "event-duanping-ru-luo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-mongol-mie-xia",
+  "tgt": "event-yefengling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-mongol-mie-xia",
+  "tgt": "event-mongol-mie-jin",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-qingli-heyi",
+  "tgt": "event-dingchuanzhai-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-qingli-xinzheng",
+  "tgt": "event-wanganshi-bianfa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-sanchuankou-zhizhan",
+  "tgt": "event-western-xia-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-sanchuankou-zhizhan",
+  "tgt": "event-haoshuichuan-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaosheng-shaoshu",
+  "tgt": "event-yuanyou-genghua",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaoxing-heyi",
+  "tgt": "event-yuefei-banshi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shaoxing-heyi",
+  "tgt": "event-yuefei-beisha",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-shunchang-zhizhan",
+  "tgt": "event-huangtiandang-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shunchang-zhizhan",
+  "tgt": "event-yancheng-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-meng-zhanzheng",
+  "tgt": "event-duanping-ru-luo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-meng-zhanzheng",
+  "tgt": "event-yanya-haizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-song-mie-beihan",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-song-mie-beihan",
+  "tgt": "event-wuyue-natu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-mie-beihan",
+  "tgt": "event-gaolianghe-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-mie-houshu",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-song-mie-houshu",
+  "tgt": "event-song-mie-jingnan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-mie-houshu",
+  "tgt": "event-song-mie-nanhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-mie-jingnan",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-song-mie-jingnan",
+  "tgt": "event-song-mie-houshu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-mie-nanhan",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-song-mie-nanhan",
+  "tgt": "event-song-mie-houshu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-mie-nanhan",
+  "tgt": "event-song-mie-nantang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-mie-nantang",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-song-mie-nantang",
+  "tgt": "event-song-mie-nanhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-mie-nantang",
+  "tgt": "event-wuyue-natu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-shou-bingquan",
+  "tgt": "event-chenqiao-bingbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-song-shou-bingquan",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-song-tongyi-zhanzheng",
+  "tgt": "event-chenqiao-bingbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wanganshi-bianfa",
+  "tgt": "event-qingli-xinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wanganshi-bianfa",
+  "tgt": "event-yuanfeng-gaizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wanganshi-bianfa",
+  "tgt": "event-yuanyou-genghua",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wangxiaobo-li-shun-qiyi",
+  "tgt": "event-yongxi-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wanyan-aguda-qibing",
+  "tgt": "event-jin-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wanyan-aguda-qibing",
+  "tgt": "event-liao-miewang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wentianxiang-kangyuan",
+  "tgt": "event-linan-touxiang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wentianxiang-kangyuan",
+  "tgt": "event-yanya-haizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-western-xia-jianguo",
+  "tgt": "event-li-jiqian-juxia",
+  "rel": "follows"
+ },
+ {
+  "src": "event-western-xia-jianguo",
+  "tgt": "event-sanchuankou-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wuyue-natu",
+  "tgt": "event-song-tongyi-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-wuyue-natu",
+  "tgt": "event-song-mie-nantang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wuyue-natu",
+  "tgt": "event-song-mie-beihan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xiangfan-zhizhan",
+  "tgt": "event-song-meng-zhanzheng",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-xiangfan-zhizhan",
+  "tgt": "event-linan-touxiang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yancheng-zhizhan",
+  "tgt": "event-shunchang-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yancheng-zhizhan",
+  "tgt": "event-yuefei-banshi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yanya-haizhan",
+  "tgt": "event-linan-touxiang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yanya-haizhan",
+  "tgt": "event-wentianxiang-kangyuan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yanya-haizhan",
+  "tgt": "event-song-meng-zhanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yefengling-zhizhan",
+  "tgt": "event-mongol-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yefengling-zhizhan",
+  "tgt": "event-jin-qian-du-bian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yongxi-beifa",
+  "tgt": "event-gaolianghe-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yongxi-beifa",
+  "tgt": "event-chanyuan-zhi-meng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanfeng-gaizhi",
+  "tgt": "event-wanganshi-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanfeng-gaizhi",
+  "tgt": "event-yuanyou-genghua",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanyou-genghua",
+  "tgt": "event-wanganshi-bianfa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanyou-genghua",
+  "tgt": "event-shaosheng-shaoshu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuefei-banshi",
+  "tgt": "event-yancheng-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuefei-banshi",
+  "tgt": "event-shaoxing-heyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuefei-beisha",
+  "tgt": "event-shaoxing-heyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhao-gou-nansong-jianguo",
+  "tgt": "event-jingkang-zhi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhao-gou-nansong-jianguo",
+  "tgt": "event-jianyan-nandu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-changan-recapture",
+  "tgt": "event-anlu-shi-siming",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-changan",
+  "tgt": "event-anlu-xuanzong-shu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-anlu-luoyang",
+  "tgt": "event-anlu-tongguan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-anlu-shi-siming",
+  "tgt": "event-anlu-pacification",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-three-frontiers",
+  "tgt": "event-anlu-uprising",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-tongguan",
+  "tgt": "event-anlu-changan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-uprising",
+  "tgt": "event-anlu-luoyang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-anlu-xuanzong-shu",
+  "tgt": "event-anlu-changan-recapture",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-baijiangkou-zhizhan",
+  "tgt": "event-tang-mie-gaogouli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-baijiangkou-zhizhan",
+  "tgt": "event-dafeichuan-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dafeichuan-zhizhan",
+  "tgt": "event-tang-mie-gaogouli",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dafeichuan-zhizhan",
+  "tgt": "event-wu-zhao-linchao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dayunhe-kaiwa",
+  "tgt": "event-yingjian-dongdu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dazhong-zhizhi",
+  "tgt": "event-huichang-miefo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dazhong-zhizhi",
+  "tgt": "event-pangxun-qiyi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-doujiande-shili",
+  "tgt": "event-wagang-jun-jueqi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-doujiande-shili",
+  "tgt": "event-hulao-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-dufuwei-shili",
+  "tgt": "event-jiangdu-bingbian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-ganlu-zhi-bian",
+  "tgt": "event-huanguan-shence-jun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-ganlu-zhi-bian",
+  "tgt": "event-niu-li-dangzheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-gaozong-feiwang-liwu",
+  "tgt": "event-tang-gaozong-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-gaozong-feiwang-liwu",
+  "tgt": "event-tang-mie-xi-tujue",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-he-shuo-sanzhen",
+  "tgt": "event-anlu-pacification",
+  "rel": "follows"
+ },
+ {
+  "src": "event-he-shuo-sanzhen",
+  "tgt": "event-liangshui-fa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-huai-xi-zhi-zhan",
+  "tgt": "event-yuanhe-xuefan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huangchao-baiwang",
+  "tgt": "event-huangchao-qiyi",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huangchao-baiwang",
+  "tgt": "event-zhuwen-jueshi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huangchao-qiyi",
+  "tgt": "event-wangxianzhi-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huangchao-qiyi",
+  "tgt": "event-huangchao-ru-changan",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huangchao-qiyi",
+  "tgt": "event-huangchao-baiwang",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huangchao-ru-changan",
+  "tgt": "event-huangchao-qiyi",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-huanguan-shence-jun",
+  "tgt": "event-jianzhong-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huanguan-shence-jun",
+  "tgt": "event-ganlu-zhi-bian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huichang-miefo",
+  "tgt": "event-niu-li-dangzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huichang-miefo",
+  "tgt": "event-dazhong-zhizhi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-hulao-zhizhan",
+  "tgt": "event-tang-mie-xueju",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hulao-zhizhan",
+  "tgt": "event-tang-tongyi-quanguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jiangdu-bingbian",
+  "tgt": "event-wagang-jun-jueqi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jiangdu-bingbian",
+  "tgt": "event-tang-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jianzhong-zhi-luan",
+  "tgt": "event-liangshui-fa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jianzhong-zhi-luan",
+  "tgt": "event-yongzhen-gexin",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-kaihuang-zhizhi",
+  "tgt": "event-yangjian-dai-beizhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kaihuang-zhizhi",
+  "tgt": "event-sui-fei-tai-zi-yong",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-kaiyuan-shengshi",
+  "tgt": "event-kaiyuan-zhizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kaiyuan-shengshi",
+  "tgt": "event-tianbao-li-linfu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-kaiyuan-zhizheng",
+  "tgt": "event-xiantian-zhengbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-kaiyuan-zhizheng",
+  "tgt": "event-kaiyuan-shengshi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-li-shimin-jiwei",
+  "tgt": "event-xuanwumen-zhibian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-shimin-jiwei",
+  "tgt": "event-zhenguan-zhizhi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liangshui-fa",
+  "tgt": "event-he-shuo-sanzhen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liangshui-fa",
+  "tgt": "event-jianzhong-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-liyuan-qibing",
+  "tgt": "event-wagang-jun-jueqi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-liyuan-qibing",
+  "tgt": "event-liyuan-ru-guan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liyuan-ru-guan",
+  "tgt": "event-liyuan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liyuan-ru-guan",
+  "tgt": "event-tang-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-niu-li-dangzheng",
+  "tgt": "event-ganlu-zhi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-niu-li-dangzheng",
+  "tgt": "event-huichang-miefo",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-pangxun-qiyi",
+  "tgt": "event-dazhong-zhizhi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-pangxun-qiyi",
+  "tgt": "event-wangxianzhi-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-shenlong-zhengbian",
+  "tgt": "event-wu-zhou-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-shenlong-zhengbian",
+  "tgt": "event-tang-long-zhengbian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sui-fei-tai-zi-yong",
+  "tgt": "event-yangguang-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sui-zheng-g1",
+  "tgt": "event-sui-zheng-gaogouli",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-g2",
+  "tgt": "event-sui-zheng-gaogouli",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-g3",
+  "tgt": "event-sui-zheng-gaogouli",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-gaogouli",
+  "tgt": "event-sui-zheng-g1",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-gaogouli",
+  "tgt": "event-sui-zheng-g2",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-gaogouli",
+  "tgt": "event-sui-zheng-g3",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-sui-zheng-tuyuhun",
+  "tgt": "event-dayunhe-kaiwa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-suzong-jiwei",
+  "tgt": "event-anlu-xuanzong-shu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-suzong-jiwei",
+  "tgt": "event-anlu-changan-recapture",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-gaozong-jiwei",
+  "tgt": "event-tang-zheng-gaogouli",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-gaozong-jiwei",
+  "tgt": "event-gaozong-feiwang-liwu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-jianguo",
+  "tgt": "event-jiangdu-bingbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-jianguo",
+  "tgt": "event-liyuan-ru-guan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-long-zhengbian",
+  "tgt": "event-shenlong-zhengbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-long-zhengbian",
+  "tgt": "event-xuanzong-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-mie-dong-tujue",
+  "tgt": "event-weishui-zhi-meng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-mie-dong-tujue",
+  "tgt": "event-tang-ping-gaochang-ansixi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-mie-gaogouli",
+  "tgt": "event-tang-zheng-gaogouli",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-mie-gaogouli",
+  "tgt": "event-baijiangkou-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-mie-xi-tujue",
+  "tgt": "event-tang-ping-qiuzi-sizhen",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-mie-xi-tujue",
+  "tgt": "event-tang-mie-gaogouli",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-mie-xueju",
+  "tgt": "event-tang-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-mie-xueju",
+  "tgt": "event-hulao-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-mubing-zhuanxing",
+  "tgt": "event-kaiyuan-zhizheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-mubing-zhuanxing",
+  "tgt": "event-anlu-three-frontiers",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-ping-gaochang-ansixi",
+  "tgt": "event-tang-mie-dong-tujue",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-ping-gaochang-ansixi",
+  "tgt": "event-tang-ping-qiuzi-sizhen",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tang-ping-qiuzi-sizhen",
+  "tgt": "event-tang-ping-gaochang-ansixi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-ping-qiuzi-sizhen",
+  "tgt": "event-tang-zheng-gaogouli",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-tongyi-quanguo",
+  "tgt": "event-hulao-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tang-tongyi-quanguo",
+  "tgt": "event-xuanwumen-zhibian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-zheng-gaogouli",
+  "tgt": "event-tang-ping-qiuzi-sizhen",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-tang-zheng-gaogouli",
+  "tgt": "event-tang-mie-gaogouli",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tianbao-li-linfu",
+  "tgt": "event-kaiyuan-shengshi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tianbao-li-linfu",
+  "tgt": "event-tianbao-yangguozhong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tianbao-yangguozhong",
+  "tgt": "event-tianbao-li-linfu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tianbao-yangguozhong",
+  "tgt": "event-anlu-uprising",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tubo-ru-changan",
+  "tgt": "event-anlu-pacification",
+  "rel": "follows"
+ },
+ {
+  "src": "event-tubo-ru-changan",
+  "tgt": "event-dafeichuan-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wagang-jun-jueqi",
+  "tgt": "event-yangxuanggan-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wagang-jun-jueqi",
+  "tgt": "event-jiangdu-bingbian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wangxianzhi-qiyi",
+  "tgt": "event-pangxun-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wangxianzhi-qiyi",
+  "tgt": "event-huangchao-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-weishui-zhi-meng",
+  "tgt": "event-li-shimin-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-weishui-zhi-meng",
+  "tgt": "event-tang-mie-dong-tujue",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wu-zhao-linchao",
+  "tgt": "event-dafeichuan-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-wu-zhao-linchao",
+  "tgt": "event-wu-zhou-jianguo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wu-zhou-jianguo",
+  "tgt": "event-wu-zhao-linchao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wu-zhou-jianguo",
+  "tgt": "event-shenlong-zhengbian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wu-zhou-zhidu",
+  "tgt": "event-wu-zhou-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wu-zhou-zhidu",
+  "tgt": "event-shenlong-zhengbian",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-xiantian-zhengbian",
+  "tgt": "event-xuanzong-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xiantian-zhengbian",
+  "tgt": "event-kaiyuan-zhizheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xuanwumen-zhibian",
+  "tgt": "event-li-shimin-jiwei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xuanzong-jiwei",
+  "tgt": "event-tang-long-zhengbian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xuanzong-jiwei",
+  "tgt": "event-xiantian-zhengbian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yangguang-jiwei",
+  "tgt": "event-sui-fei-tai-zi-yong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yangguang-jiwei",
+  "tgt": "event-yingjian-dongdu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yangxuanggan-qibing",
+  "tgt": "event-sui-zheng-g2",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yangxuanggan-qibing",
+  "tgt": "event-wagang-jun-jueqi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yingjian-dongdu",
+  "tgt": "event-yangguang-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yingjian-dongdu",
+  "tgt": "event-dayunhe-kaiwa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yongzhen-gexin",
+  "tgt": "event-jianzhong-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yongzhen-gexin",
+  "tgt": "event-yuanhe-xuefan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuanhe-xuefan",
+  "tgt": "event-yongzhen-gexin",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanhe-xuefan",
+  "tgt": "event-yuanhe-zhongxing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuanhe-zhongxing",
+  "tgt": "event-yuanhe-xuefan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanhe-zhongxing",
+  "tgt": "event-huanguan-shence-jun",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhenguan-zhizhi",
+  "tgt": "event-li-shimin-jiwei",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhenguan-zhizhi",
+  "tgt": "event-tang-mie-dong-tujue",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhuwen-jueshi",
+  "tgt": "event-huangchao-baiwang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuwen-jueshi",
+  "tgt": "event-zhuwen-qian-du",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhuwen-qian-du",
+  "tgt": "event-zhuwen-jueshi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuwen-qian-du",
+  "tgt": "event-houliang-dai-tang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-cao-mao-zhisha",
+  "tgt": "event-gaopingling-zhi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-cao-mao-zhisha",
+  "tgt": "event-wei-mie-shu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-caocao-ying-xian-di",
+  "tgt": "event-xian-di-dong-gui",
+  "rel": "follows"
+ },
+ {
+  "src": "event-caocao-ying-xian-di",
+  "tgt": "event-lvbu-baiwang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-caopi-dai-han",
+  "tgt": "event-lv-meng-xi-jingzhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-caopi-dai-han",
+  "tgt": "event-liubei-chengdi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dong-zhuo-fei-di",
+  "tgt": "event-three-dong-zhuo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dong-zhuo-fei-di",
+  "tgt": "event-guan-dong-tao-dong",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dong-zhuo-qian-du",
+  "tgt": "event-guan-dong-tao-dong",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dong-zhuo-qian-du",
+  "tgt": "event-dong-zhuo-zhisha",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-dong-zhuo-zhisha",
+  "tgt": "event-dong-zhuo-qian-du",
+  "rel": "follows"
+ },
+ {
+  "src": "event-dong-zhuo-zhisha",
+  "tgt": "event-li-jue-guo-si",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-gaopingling-zhi-bian",
+  "tgt": "event-jiangwei-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-gaopingling-zhi-bian",
+  "tgt": "event-cao-mao-zhisha",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guan-dong-tao-dong",
+  "tgt": "event-dong-zhuo-fei-di",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guan-dong-tao-dong",
+  "tgt": "event-dong-zhuo-qian-du",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-guan-yu-bei-fa",
+  "tgt": "event-lv-meng-xi-jingzhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jiangwei-beifa",
+  "tgt": "event-zhuge-liang-zhishi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jiangwei-beifa",
+  "tgt": "event-wei-mie-shu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-li-jue-guo-si",
+  "tgt": "event-dong-zhuo-zhisha",
+  "rel": "follows"
+ },
+ {
+  "src": "event-li-jue-guo-si",
+  "tgt": "event-xian-di-dong-gui",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liubei-beng-zhugeliang",
+  "tgt": "event-yiling-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liubei-beng-zhugeliang",
+  "tgt": "event-zhuge-liang-nanzheng",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-liubei-chengdi",
+  "tgt": "event-caopi-dai-han",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liubei-chengdi",
+  "tgt": "event-yiling-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-lv-meng-xi-jingzhou",
+  "tgt": "event-guan-yu-bei-fa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-lv-meng-xi-jingzhou",
+  "tgt": "event-yiling-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-lvbu-baiwang",
+  "tgt": "event-caocao-ying-xian-di",
+  "rel": "follows"
+ },
+ {
+  "src": "event-lvbu-baiwang",
+  "tgt": "event-three-guandu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-shichangshi-zhi-luan",
+  "tgt": "event-three-dong-zhuo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-sunquan-chengdi",
+  "tgt": "event-zhuge-liang-beifa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-three-chibi",
+  "tgt": "event-three-regime-formation",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-three-dong-zhuo",
+  "tgt": "event-three-guandu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-three-guandu",
+  "tgt": "event-three-north-consolidation",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-three-jingzhou-change",
+  "tgt": "event-three-sun-liu-alliance",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-three-north-consolidation",
+  "tgt": "event-three-jingzhou-change",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-three-sun-liu-alliance",
+  "tgt": "event-three-chibi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-three-yellow-turbans",
+  "tgt": "event-three-dong-zhuo",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-wei-mie-shu",
+  "tgt": "event-jiangwei-beifa",
+  "rel": "follows"
+ },
+ {
+  "src": "event-wei-mie-shu",
+  "tgt": "event-sima-yan-dai-wei",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-xian-di-dong-gui",
+  "tgt": "event-li-jue-guo-si",
+  "rel": "follows"
+ },
+ {
+  "src": "event-xian-di-dong-gui",
+  "tgt": "event-caocao-ying-xian-di",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yiling-zhizhan",
+  "tgt": "event-lv-meng-xi-jingzhou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yiling-zhizhan",
+  "tgt": "event-liubei-beng-zhugeliang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuanshi-wajie",
+  "tgt": "event-three-guandu",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuanshi-wajie",
+  "tgt": "event-three-north-consolidation",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-yuanshu-chengdi",
+  "tgt": "event-lvbu-baiwang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhang-song-yin-shu",
+  "tgt": "event-liubei-qu-yizhou",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhuge-liang-beifa",
+  "tgt": "event-zhuge-liang-nanzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuge-liang-beifa",
+  "tgt": "event-zhuge-liang-zhishi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhuge-liang-nanzheng",
+  "tgt": "event-liubei-beng-zhugeliang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuge-liang-nanzheng",
+  "tgt": "event-zhuge-liang-beifa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhuge-liang-shoubei",
+  "tgt": "event-zhuge-liang-beifa",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhuge-liang-shoubei",
+  "tgt": "event-zhuge-liang-zhishi",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhuge-liang-zhishi",
+  "tgt": "event-zhuge-liang-beifa",
+  "rel": "part_of"
+ },
+ {
+  "src": "event-zhuge-liang-zhishi",
+  "tgt": "event-jiangwei-beifa",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-boyan-ba-keju",
+  "tgt": "event-yanyou-kaike",
+  "rel": "follows"
+ },
+ {
+  "src": "event-boyan-ba-keju",
+  "tgt": "event-tuotuo-genghua",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-chenyouliang-dai-han",
+  "tgt": "event-zhuyuanzhang-qu-jqing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-chenyouliang-dai-han",
+  "tgt": "event-poyanghu-zhizhan",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-fangguozhen-jiang",
+  "tgt": "event-zhuyuanzhang-mie-zhang",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guo-zixing-qibing",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-guo-zixing-qibing",
+  "tgt": "event-zhuyuanzhang-toujun",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-han-liner-chengdi",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hongjin-jun-qiyi",
+  "tgt": "event-jialu-zhihe",
+  "rel": "follows"
+ },
+ {
+  "src": "event-hongjin-jun-qiyi",
+  "tgt": "event-guo-zixing-qibing",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-hongjin-jun-qiyi",
+  "tgt": "event-han-liner-chengdi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huanghe-juekou",
+  "tgt": "event-tuotuo-genghua",
+  "rel": "follows"
+ },
+ {
+  "src": "event-huanghe-juekou",
+  "tgt": "event-jialu-zhihe",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-huanghe-juekou",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-jialu-zhihe",
+  "tgt": "event-huanghe-juekou",
+  "rel": "follows"
+ },
+ {
+  "src": "event-jialu-zhihe",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liangdu-zhizhan",
+  "tgt": "event-nanpo-zhi-bian",
+  "rel": "follows"
+ },
+ {
+  "src": "event-liangdu-zhizhan",
+  "tgt": "event-boyan-ba-keju",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-nanpo-zhi-bian",
+  "tgt": "event-zhizhi-xinzheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-nanpo-zhi-bian",
+  "tgt": "event-liangdu-zhizhan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-poyanghu-zhizhan",
+  "tgt": "event-chenyouliang-dai-han",
+  "rel": "follows"
+ },
+ {
+  "src": "event-poyanghu-zhizhan",
+  "tgt": "event-zhuyuanzhang-mie-zhang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-tuotuo-genghua",
+  "tgt": "event-boyan-ba-keju",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yanyou-jingli",
+  "tgt": "event-yanyou-kaike",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yanyou-jingli",
+  "tgt": "event-zhizhi-xinzheng",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yanyou-kaike",
+  "tgt": "event-boyan-ba-keju",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuan-aluohe-licai",
+  "tgt": "event-yuan-xingsheng-zhidu",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuan-dingdu-dadu",
+  "tgt": "event-hubilie-chenghan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-dingdu-dadu",
+  "tgt": "event-yuan-zhongshusheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-haidu-zhi-luan",
+  "tgt": "event-yuan-naiyan-zhi-luan",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuan-jianguo",
+  "tgt": "event-hubilie-chenghan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-jianguo",
+  "tgt": "event-linan-touxiang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuan-naiyan-zhi-luan",
+  "tgt": "event-yuan-haidu-zhi-luan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-xingsheng-zhidu",
+  "tgt": "event-yuan-zhongshusheng",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-xingsheng-zhidu",
+  "tgt": "event-yuan-jianguo",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-zheng-ri-er",
+  "tgt": "event-yuan-zheng-ri-yi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-zheng-ri-er",
+  "tgt": "event-yuan-zheng-zhuawa",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-yuan-zheng-ri-yi",
+  "tgt": "event-yuan-zheng-ri-er",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuan-zheng-zhuawa",
+  "tgt": "event-yuan-zheng-ri-er",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-zhiyuan-chao",
+  "tgt": "event-yuan-zhongtong-chao",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-zhizheng-chao",
+  "tgt": "event-tuotuo-genghua",
+  "rel": "follows"
+ },
+ {
+  "src": "event-yuan-zhizheng-chao",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuan-zhongshusheng",
+  "tgt": "event-yuan-xingsheng-zhidu",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-yuan-zhongtong-chao",
+  "tgt": "event-yuan-zhiyuan-chao",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhangshichen-ju-gaoyou",
+  "tgt": "event-hongjin-jun-qiyi",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhangshichen-ju-gaoyou",
+  "tgt": "event-zhuyuanzhang-mie-zhang",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhizhi-xinzheng",
+  "tgt": "event-nanpo-zhi-bian",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhuyuanzhang-mie-zhang",
+  "tgt": "event-poyanghu-zhizhan",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuyuanzhang-mie-zhang",
+  "tgt": "event-fangguozhen-jiang",
+  "rel": "leads_to"
+ },
+ {
+  "src": "event-zhuyuanzhang-qu-jqing",
+  "tgt": "event-zhuyuanzhang-toujun",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuyuanzhang-qu-jqing",
+  "tgt": "event-chenyouliang-dai-han",
+  "rel": "precedes"
+ },
+ {
+  "src": "event-zhuyuanzhang-toujun",
+  "tgt": "event-guo-zixing-qibing",
+  "rel": "follows"
+ },
+ {
+  "src": "event-zhuyuanzhang-toujun",
+  "tgt": "event-zhuyuanzhang-qu-jqing",
+  "rel": "leads_to"
+ }
+]

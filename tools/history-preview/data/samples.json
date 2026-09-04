@@ -1,0 +1,107 @@
+[
+ {
+  "id": "event-wuwang-fazhou",
+  "index": 7,
+  "label": "武王伐纣",
+  "name": "武王伐纣",
+  "importance": "critical"
+ },
+ {
+  "id": "event-changping-zhizhan",
+  "index": 67,
+  "label": "长平之战",
+  "name": "长平之战",
+  "importance": "critical"
+ },
+ {
+  "id": "event-qin-tongyi",
+  "index": 81,
+  "label": "秦统一六国",
+  "name": "秦统一六国（秦帝国建立）",
+  "importance": "critical"
+ },
+ {
+  "id": "event-three-chibi",
+  "index": 176,
+  "label": "赤壁之战",
+  "name": "赤壁之战",
+  "importance": "major"
+ },
+ {
+  "id": "event-feishui-zhizhan",
+  "index": 222,
+  "label": "淝水之战",
+  "name": "淝水之战",
+  "importance": "critical"
+ },
+ {
+  "id": "event-xuanwumen-zhibian",
+  "index": 285,
+  "label": "玄武门之变",
+  "name": "玄武门之变",
+  "importance": "critical"
+ },
+ {
+  "id": "event-anlu-uprising",
+  "index": 310,
+  "label": "安史之乱（数据集内 major）",
+  "name": "安禄山起兵",
+  "importance": "major"
+ },
+ {
+  "id": "event-jingkang-zhi-bian",
+  "index": 388,
+  "label": "靖康之变",
+  "name": "靖康之变、北宋灭亡",
+  "importance": "critical"
+ },
+ {
+  "id": "event-yanya-haizhan",
+  "index": 424,
+  "label": "崖山海战",
+  "name": "崖山海战、南宋灭亡",
+  "importance": "critical"
+ },
+ {
+  "id": "event-poyanghu-zhizhan",
+  "index": 446,
+  "label": "鄱阳湖之战",
+  "name": "鄱阳湖之战、陈友谅覆灭",
+  "importance": "critical"
+ },
+ {
+  "id": "event-tumu-bao-zhibian",
+  "index": 472,
+  "label": "土木堡之变",
+  "name": "土木堡之变",
+  "importance": "critical"
+ },
+ {
+  "id": "event-diyici-yapian-zhanzheng",
+  "index": 525,
+  "label": "第一次鸦片战争",
+  "name": "第一次鸦片战争",
+  "importance": "critical"
+ },
+ {
+  "id": "event-jiawu-zhanzheng",
+  "index": 548,
+  "label": "甲午战争",
+  "name": "甲午战争（中日战争）",
+  "importance": "critical"
+ },
+ {
+  "id": "event-wuchang-qiyi",
+  "index": 563,
+  "label": "武昌起义",
+  "name": "武昌起义",
+  "importance": "critical"
+ },
+ {
+  "id": "event-xinzhongguo-chengli",
+  "index": 617,
+  "label": "中华人民共和国成立",
+  "name": "中华人民共和国成立",
+  "importance": "critical"
+ }
+]

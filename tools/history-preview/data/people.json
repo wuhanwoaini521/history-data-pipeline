@@ -1,0 +1,2108 @@
+[
+ {
+  "person_id": "cbdb-person-16622",
+  "name": "刘邦",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 15,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30257",
+  "name": "曹操",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 13,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30148",
+  "name": "朱元璋",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 12,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-803544",
+  "name": "隋文帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 8,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-19244",
+  "name": "李隆基（唐玄宗）",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 7,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339519",
+  "name": "王莽",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 7,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-25403",
+  "name": "诸葛亮",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 7,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-sun-yat-sen",
+  "name": "孙中山",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 6,
+  "birth": 1866,
+  "death": 1925
+ },
+ {
+  "person_id": "cbdb-person-20609",
+  "name": "孙权",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 6,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-379873",
+  "name": "安禄山",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 6,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-135353",
+  "name": "刘备",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 5,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-mao-zedong",
+  "name": "毛泽东",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 5,
+  "birth": 1893,
+  "death": 1976
+ },
+ {
+  "person_id": "curated-person-chiang-kai-shek",
+  "name": "蒋介石",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 5,
+  "birth": 1887,
+  "death": 1975
+ },
+ {
+  "person_id": "cbdb-person-339768",
+  "name": "努尔哈赤",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-zhou-enlai",
+  "name": "周恩来",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 4,
+  "birth": 1898,
+  "death": 1976
+ },
+ {
+  "person_id": "cbdb-person-65627",
+  "name": "李自成",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-63908",
+  "name": "段祺瑞",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-65447",
+  "name": "洪秀全",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31360",
+  "name": "石勒",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-94373",
+  "name": "郭子仪",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-22437",
+  "name": "韩信",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 4,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-58649",
+  "name": "丁汝昌",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-263104",
+  "name": "周公旦",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-62031",
+  "name": "唐肃宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-840838",
+  "name": "太平公主",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-54964",
+  "name": "左宗棠",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-zhang-xueliang",
+  "name": "张学良",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 3,
+  "birth": 1901,
+  "death": 2001
+ },
+ {
+  "person_id": "curated-person-cixi-taihou",
+  "name": "慈禧太后",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 3,
+  "birth": 1835,
+  "death": 1908
+ },
+ {
+  "person_id": "cbdb-person-13060",
+  "name": "李世民",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339687",
+  "name": "李元昊",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-134932",
+  "name": "王世充",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 3,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-6646198",
+  "name": "伍子胥",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-100386",
+  "name": "元英宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-24661",
+  "name": "刘秀",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-32814",
+  "name": "史思明",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-58844",
+  "name": "吴三桂",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-382372",
+  "name": "周幽王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-13059",
+  "name": "唐高祖",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-562723",
+  "name": "嬴政",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-66291",
+  "name": "常遇春",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-664414",
+  "name": "彭越",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-95217",
+  "name": "慕容垂",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31005",
+  "name": "拓跋珪",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30150",
+  "name": "朱允炆",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30151",
+  "name": "朱棣",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-377600",
+  "name": "朱温",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-146097",
+  "name": "李光弼",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31221",
+  "name": "杨国忠",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30956",
+  "name": "杨坚",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-93663",
+  "name": "武则天",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-135028",
+  "name": "王政君",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339769",
+  "name": "皇太极",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339657",
+  "name": "石敬瑭",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-457718",
+  "name": "秦昭襄王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-629332",
+  "name": "秦穆公",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-43077",
+  "name": "耶律德光",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-65757",
+  "name": "耿精忠",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-135152",
+  "name": "袁绍",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-jia-nanfeng",
+  "name": "贾南风",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": 300
+ },
+ {
+  "person_id": "curated-person-songhuizong",
+  "name": "赵佶(宋徽宗)",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 2,
+  "birth": 1082,
+  "death": 1135
+ },
+ {
+  "person_id": "ctext-person-692385",
+  "name": "魏文侯",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-91349",
+  "name": "黎元洪",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 2,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-216197",
+  "name": "上官桀",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-701539",
+  "name": "也先",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-194562",
+  "name": "侯景",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-54297",
+  "name": "光绪帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-668302",
+  "name": "共叔段",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-19677",
+  "name": "刘承祐",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-liu-bi",
+  "name": "刘濞",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": -154
+ },
+ {
+  "person_id": "cbdb-person-28934",
+  "name": "刘秉忠",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-132952",
+  "name": "刘聪",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-66013",
+  "name": "努尔哈赤",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-522578",
+  "name": "北周宣帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31773",
+  "name": "北周武帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-762138",
+  "name": "北魏孝文帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-502566",
+  "name": "卫青",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-34792",
+  "name": "史可法",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-392865",
+  "name": "司马伦",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-467964",
+  "name": "司马越",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-865369",
+  "name": "周亚夫",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-532638",
+  "name": "周威烈王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-257248",
+  "name": "周宣王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-275144",
+  "name": "周平王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-74633",
+  "name": "周昭王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-65549",
+  "name": "周桓王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-34131",
+  "name": "周武王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-817615",
+  "name": "周瑜",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-533410",
+  "name": "周穆王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-41649",
+  "name": "周行逢",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-703206",
+  "name": "周赧王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-293600",
+  "name": "周静帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-19242",
+  "name": "唐中宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-189295",
+  "name": "唐僖宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-249317",
+  "name": "唐僖宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339634",
+  "name": "唐哀帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-tang-shengzhi",
+  "name": "唐生智",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1889,
+  "death": 1970
+ },
+ {
+  "person_id": "cbdb-person-19243",
+  "name": "唐睿宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-shang-tang",
+  "name": "商汤",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-65991",
+  "name": "多尔衮",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339770",
+  "name": "多尔衮",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-20612",
+  "name": "孙皓",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-18317",
+  "name": "孟知祥",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-397611",
+  "name": "孺子婴",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-173126",
+  "name": "宇文化及",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31770",
+  "name": "宇文泰",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-song-zheyuan",
+  "name": "宋哲元",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1885,
+  "death": 1940
+ },
+ {
+  "person_id": "ctext-person-46529",
+  "name": "宋孝宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-79898",
+  "name": "宋教仁",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31275",
+  "name": "宋璟",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-983419",
+  "name": "宋真宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-9009",
+  "name": "宋钦宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-9010",
+  "name": "宋高宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-556531",
+  "name": "完颜宗望",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-39892",
+  "name": "完颜宗翰",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339707",
+  "name": "完颜阿骨打",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-628",
+  "name": "富弼",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-59135",
+  "name": "尚可喜",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30165",
+  "name": "崇祯帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-65884",
+  "name": "康熙帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-15200",
+  "name": "张世杰",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-12419",
+  "name": "张柬之",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-29244",
+  "name": "忽必烈",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-402973",
+  "name": "慕容儁",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-17122",
+  "name": "慕容德",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31260",
+  "name": "慕容暐",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-17120",
+  "name": "慕容皝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-29239",
+  "name": "成吉思汗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31007",
+  "name": "拓跋焘",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-19123",
+  "name": "文天祥",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-28093",
+  "name": "方孝孺",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-56824",
+  "name": "施琅",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-414147",
+  "name": "明世宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-947007",
+  "name": "明武宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30154",
+  "name": "明英宗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-219287",
+  "name": "春申君",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-462464",
+  "name": "晁错",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30902",
+  "name": "晋元帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30899",
+  "name": "晋怀帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30898",
+  "name": "晋惠帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-21207",
+  "name": "晋武帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30261",
+  "name": "曹丕",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30273",
+  "name": "曹髦",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-654665",
+  "name": "本雅失里",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-67356",
+  "name": "朱宸濠",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-194619",
+  "name": "朱泚",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31176",
+  "name": "李元吉",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-18316",
+  "name": "李克用",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-619097",
+  "name": "李大钊",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-187923",
+  "name": "李建成",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-15161",
+  "name": "李德裕",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-751995",
+  "name": "李斯",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-32534",
+  "name": "李林甫",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31312",
+  "name": "李靖",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-58961",
+  "name": "李鸿章",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30864",
+  "name": "杜如晦",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30957",
+  "name": "杨广",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-yang-hucheng",
+  "name": "杨虎城",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1893,
+  "death": 1949
+ },
+ {
+  "person_id": "cbdb-person-65968",
+  "name": "杨镐",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-matsui-iwane",
+  "name": "松井石根",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1878,
+  "death": 1948
+ },
+ {
+  "person_id": "curated-person-itagaki-seishiro",
+  "name": "板垣征四郎",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1885,
+  "death": 1948
+ },
+ {
+  "person_id": "cbdb-person-54819",
+  "name": "林则徐",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-3605",
+  "name": "柳宗元",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-576557",
+  "name": "柴宗训",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-482249",
+  "name": "桑弘羊",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-427839",
+  "name": "梁敬帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-443095",
+  "name": "楚共王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-441859",
+  "name": "楚威王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-746424",
+  "name": "楚悼王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-928177",
+  "name": "楚成王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-514671",
+  "name": "楚武王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-647582",
+  "name": "汉景帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-16626",
+  "name": "汉武帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30267",
+  "name": "汉献帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-66288",
+  "name": "沐英",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-juqu-mujian",
+  "name": "沮渠牧犍",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": 447
+ },
+ {
+  "person_id": "cbdb-person-439438",
+  "name": "溥仪",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-657661",
+  "name": "燕昭王",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-289019",
+  "name": "燕王喜",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-32054",
+  "name": "牛僧孺",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-mutaguchi-renya",
+  "name": "牟田口廉也",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1888,
+  "death": 1966
+ },
+ {
+  "person_id": "ctext-person-590256",
+  "name": "王仙芝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-189642",
+  "name": "王伾",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-33597",
+  "name": "王叔文",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-30374",
+  "name": "王守仁",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-1762",
+  "name": "王安石",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-25788",
+  "name": "王导",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-768940",
+  "name": "王小波",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-126644",
+  "name": "王振",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-191752",
+  "name": "王武俊",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-415288",
+  "name": "王翦",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-146183",
+  "name": "田承嗣",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-416324",
+  "name": "白起",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-134960",
+  "name": "百里奚",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-ishihara-kanji",
+  "name": "石原莞尔",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1889,
+  "death": 1949
+ },
+ {
+  "person_id": "cbdb-person-31362",
+  "name": "石虎",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-179465",
+  "name": "秦孝公",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-qin-dechun",
+  "name": "秦德纯",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1893,
+  "death": 1963
+ },
+ {
+  "person_id": "cbdb-person-125388",
+  "name": "胡惟庸",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-933340",
+  "name": "英布",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31645",
+  "name": "苻坚",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31644",
+  "name": "苻生",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-8043",
+  "name": "范仲淹",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-fan-zeng",
+  "name": "范增",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-89699",
+  "name": "蒋翊武",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-90980",
+  "name": "蔡元培",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-8170",
+  "name": "虞允文",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-63546",
+  "name": "袁世凯",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-hirohito",
+  "name": "裕仁",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1901,
+  "death": 1989
+ },
+ {
+  "person_id": "cbdb-person-467950",
+  "name": "谢安",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-136120",
+  "name": "谢玄",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-tani-hisao",
+  "name": "谷寿夫",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1882,
+  "death": 1947
+ },
+ {
+  "person_id": "cbdb-person-9001",
+  "name": "赵匡胤",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-zhao-kuo",
+  "name": "赵括",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": -260
+ },
+ {
+  "person_id": "cbdb-person-9018",
+  "name": "赵昺",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-64991",
+  "name": "道光帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-22530",
+  "name": "郭威",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-117475",
+  "name": "金哀宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-364088",
+  "name": "金宣宗",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-152034",
+  "name": "金日磾",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-17112",
+  "name": "陆秀夫",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-66246",
+  "name": "陈友谅",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-21303",
+  "name": "陈后主",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "curated-person-chen-duxiu",
+  "name": "陈独秀",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1879,
+  "death": 1942
+ },
+ {
+  "person_id": "curated-person-longyu",
+  "name": "隆裕太后",
+  "kind": "curated",
+  "category": "Curated Supplemental",
+  "aggregate_events": 1,
+  "birth": 1868,
+  "death": 1913
+ },
+ {
+  "person_id": "cbdb-person-432543",
+  "name": "霍去病",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-444917",
+  "name": "颉利可汗",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339598",
+  "name": "高欢",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-339604",
+  "name": "高纬",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-438099",
+  "name": "高迎祥",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-138323",
+  "name": "魏元帝",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-31012",
+  "name": "魏孝武帝",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-15610",
+  "name": "魏徵",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "ctext-person-187500",
+  "name": "魏王假",
+  "kind": "ctext",
+  "category": "CText",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ },
+ {
+  "person_id": "cbdb-person-3409",
+  "name": "黄巢",
+  "kind": "cbdb",
+  "category": "CBDB",
+  "aggregate_events": 1,
+  "birth": null,
+  "death": null
+ }
+]

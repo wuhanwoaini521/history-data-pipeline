@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国断代史 Backbone 数据产品 · 只读校验查看器</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>中国断代史 Backbone · 数据产品校验</h1>
+    <div class="subline">只读查看器 — 仅读取 <code>dist/history.duckdb</code> 构建产物，绝不改写数据</div>
+  </div>
+  <div class="gates" id="gates"></div>
+</header>
+
+<nav id="tabs">
+  <button data-tab="overview" class="tab on">总览</button>
+  <button data-tab="events" class="tab">事件时间线</button>
+  <button data-tab="samples" class="tab">15 验收样本</button>
+  <button data-tab="people" class="tab">人物关联</button>
+  <button data-tab="regimes" class="tab">政权视图</button>
+  <button data-tab="completeness" class="tab">完整性</button>
+  <button data-tab="reports" class="tab">自动报告</button>
+</nav>
+
+<main id="app"></main>
+
+<aside id="detail-drawer" class="hidden"></aside>
+<div id="modal-root"></div>
+<script src="app.js"></script>
+</body>
+</html>

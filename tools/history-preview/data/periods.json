@@ -1,0 +1,219 @@
+[
+ {
+  "id": "period-xia",
+  "name": "夏",
+  "start": -2070,
+  "end": -1600,
+  "description": "早期传统年代框架，边界采用约略年代，不作精确断代。"
+ },
+ {
+  "id": "period-shang",
+  "name": "商",
+  "start": -1600,
+  "end": -1046,
+  "description": "商代历史时期，早期边界采用约略年代。"
+ },
+ {
+  "id": "period-western-zhou",
+  "name": "西周",
+  "start": -1046,
+  "end": -771,
+  "description": "西周时期。"
+ },
+ {
+  "id": "period-spring-autumn",
+  "name": "春秋",
+  "start": -770,
+  "end": -476,
+  "description": "东周前期（春秋）的学习浏览时期。"
+ },
+ {
+  "id": "period-warring-states",
+  "name": "战国",
+  "start": -475,
+  "end": -221,
+  "description": "战国时期。"
+ },
+ {
+  "id": "period-qin",
+  "name": "秦",
+  "start": -221,
+  "end": -207,
+  "description": "秦统一至秦亡。"
+ },
+ {
+  "id": "period-western-han",
+  "name": "西汉",
+  "start": -206,
+  "end": 8,
+  "description": "西汉时期。"
+ },
+ {
+  "id": "period-xin",
+  "name": "新",
+  "start": 9,
+  "end": 23,
+  "description": "王莽新朝。"
+ },
+ {
+  "id": "period-eastern-han",
+  "name": "东汉",
+  "start": 25,
+  "end": 220,
+  "description": "东汉时期。"
+ },
+ {
+  "id": "period-late-eastern-han",
+  "name": "东汉末",
+  "start": 184,
+  "end": 220,
+  "description": "东汉未年的浏览时期，与东汉主体时期重叠。"
+ },
+ {
+  "id": "period-three-kingdoms",
+  "name": "三国",
+  "start": 220,
+  "end": 280,
+  "description": "曹魏、蜀汉、东吴并立时期。"
+ },
+ {
+  "id": "period-western-jin",
+  "name": "西晋",
+  "start": 265,
+  "end": 316,
+  "description": "西晋时期。"
+ },
+ {
+  "id": "period-sixteen-kingdoms",
+  "name": "十六国",
+  "start": 304,
+  "end": 439,
+  "description": "十六国历史时期。"
+ },
+ {
+  "id": "period-eastern-jin",
+  "name": "东晋",
+  "start": 317,
+  "end": 420,
+  "description": "东晋时期。"
+ },
+ {
+  "id": "period-northern-southern",
+  "name": "南北朝",
+  "start": 420,
+  "end": 589,
+  "description": "南北朝时期。"
+ },
+ {
+  "id": "period-sui",
+  "name": "隋",
+  "start": 581,
+  "end": 618,
+  "description": "隋代。"
+ },
+ {
+  "id": "period-tang",
+  "name": "唐",
+  "start": 618,
+  "end": 907,
+  "description": "唐代。"
+ },
+ {
+  "id": "period-five-dynasties-ten-kingdoms",
+  "name": "五代十国",
+  "start": 907,
+  "end": 979,
+  "description": "五代十国时期。"
+ },
+ {
+  "id": "period-song-liao-jin",
+  "name": "宋辽金时期",
+  "start": 907,
+  "end": 1279,
+  "description": "多政权并存的学习浏览时期，与北宋/辽/西夏/金/南宋各 Period 重叠。"
+ },
+ {
+  "id": "period-liao",
+  "name": "辽",
+  "start": 916,
+  "end": 1125,
+  "description": "辽（契丹）时期，与北宋并存。"
+ },
+ {
+  "id": "period-northern-song",
+  "name": "北宋",
+  "start": 960,
+  "end": 1127,
+  "description": "北宋时期。"
+ },
+ {
+  "id": "period-western-xia",
+  "name": "西夏",
+  "start": 1038,
+  "end": 1227,
+  "description": "西夏时期。"
+ },
+ {
+  "id": "period-jin",
+  "name": "金",
+  "start": 1115,
+  "end": 1234,
+  "description": "金时期。"
+ },
+ {
+  "id": "period-southern-song",
+  "name": "南宋",
+  "start": 1127,
+  "end": 1279,
+  "description": "南宋时期。"
+ },
+ {
+  "id": "period-yuan",
+  "name": "元",
+  "start": 1271,
+  "end": 1368,
+  "description": "元代。"
+ },
+ {
+  "id": "period-ming",
+  "name": "明",
+  "start": 1368,
+  "end": 1644,
+  "description": "明代。"
+ },
+ {
+  "id": "period-qing",
+  "name": "清",
+  "start": 1644,
+  "end": 1911,
+  "description": "清代。"
+ },
+ {
+  "id": "period-modern",
+  "name": "近现代",
+  "start": 1840,
+  "end": 2000,
+  "description": "面向浏览的近现代宽口径时期，与晚清/中华民国重叠。"
+ },
+ {
+  "id": "period-late-qing",
+  "name": "晚清",
+  "start": 1840,
+  "end": 1911,
+  "description": "清代后期的浏览时期，与清代主体时期重叠。"
+ },
+ {
+  "id": "period-republic",
+  "name": "中华民国",
+  "start": 1912,
+  "end": 1949,
+  "description": "中华民国时期。"
+ },
+ {
+  "id": "period-antiquity",
+  "name": "上古",
+  "start": null,
+  "end": -2070,
+  "description": "夏以前的上古时期，无可靠纪年，仅作浏览组织单位。"
+ }
+]
