@@ -18,8 +18,6 @@ source_reference: 古代史料：《晋书·苻坚载记》《王猛传》；现
 source_ids:
 - work-curated-jinshu
 relations:
-- target_event_id: event-qian-yan-qiang
-  relation_type: precedes
 - target_event_id: event-wangmeng-gaige
   relation_type: leads_to
   confidence: 0.9

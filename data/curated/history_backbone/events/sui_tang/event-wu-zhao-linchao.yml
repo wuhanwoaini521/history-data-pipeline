@@ -19,8 +19,6 @@ source_ids:
 - work-curated-jiutangshu
 - work-curated-zizhitongjian
 relations:
-- target_event_id: event-dafeichuan-zhizhan
-  relation_type: precedes
 - target_event_id: event-wu-zhou-jianguo
   relation_type: leads_to
   confidence: 0.9

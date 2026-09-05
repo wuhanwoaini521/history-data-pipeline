@@ -28,7 +28,3 @@ relations:
   relation_type: follows
   confidence: 0.6
   description_zh_cn: 崖山覆亡后文天祥仍系大都狱中。
-- target_event_id: event-song-meng-zhanzheng
-  relation_type: leads_to
-  confidence: 0.95
-  description_zh_cn: 宋蒙战争以南宋灭亡告终（aggregate 结束）。

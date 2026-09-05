@@ -25,3 +25,7 @@ relations:
   relation_type: precedes
   confidence: 0.7
   description_zh_cn: 前燕全盛后为前秦所灭
+- target_event_id: event-fu-jian-wangmeng
+  relation_type: precedes
+  confidence: 0.6
+  description_zh_cn: 秦燕先后崛起，北方两强对峙

@@ -21,6 +21,3 @@ source_ids:
 relations:
 - target_event_id: event-anlu-pacification
   relation_type: follows
-- target_event_id: event-dafeichuan-zhizhan
-  relation_type: precedes
-  description_zh_cn: 吐蕃自大非川之胜后持续东进

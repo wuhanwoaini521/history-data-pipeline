@@ -25,3 +25,7 @@ relations:
 - target_event_id: event-wu-zhao-linchao
   relation_type: precedes
   description_zh_cn: 唐蕃冲突贯穿高宗后期与武周
+- target_event_id: event-tubo-ru-changan
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 吐蕃自大非川之胜后持续东进，终至763攻入长安

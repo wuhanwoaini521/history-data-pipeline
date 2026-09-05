@@ -22,6 +22,3 @@ relations:
 - target_event_id: event-tang-zheng-gaogouli
   relation_type: follows
   description_zh_cn: 继太宗亲征之后高宗朝灭高句丽
-- target_event_id: event-baijiangkou-zhizhan
-  relation_type: precedes
-  description_zh_cn: 白江口之战（663）先行斩断日本援军

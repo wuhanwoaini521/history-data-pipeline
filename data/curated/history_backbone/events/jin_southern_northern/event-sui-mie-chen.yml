@@ -21,6 +21,3 @@ relations:
 - target_event_id: event-sui-mie-xiliang
   relation_type: follows
   description_zh_cn: 灭陈前已完成对江南侧翼之肃清
-- target_event_id: event-chenbaxian-jianzhen
-  relation_type: precedes
-  description_zh_cn: 陈朝自557年建立，589年亡

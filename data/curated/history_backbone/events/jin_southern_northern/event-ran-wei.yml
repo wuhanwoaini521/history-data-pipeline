@@ -21,7 +21,3 @@ relations:
 - target_event_id: event-hou-zhao-bingqian-zhao
   relation_type: follows
   description_zh_cn: 后赵内乱孕育冉闵崛起
-- target_event_id: event-qian-yan-qiang
-  relation_type: precedes
-  confidence: 0.7
-  description_zh_cn: 冉魏亡于前燕扩张

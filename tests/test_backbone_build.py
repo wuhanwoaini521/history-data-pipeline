@@ -38,7 +38,7 @@ def test_backbone_build():
     assert counts["events"] == 618  # Batch8 完成（52 new）
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 1062
+    assert counts["event_relations"] == 1057  # 1062 - Phase2 反向修复（-7 +2）
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
     assert counts["event_place"] == 26
     assert counts["event_evidence"] == 26
