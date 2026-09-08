@@ -1,0 +1,67 @@
+id: event-pingwang-dongqian
+name_zh_cn: 平王东迁
+event_type: migration
+start_year: -770
+end_year: -770
+date_precision: year
+period_id: period-spring-autumn
+importance: critical
+summary_zh_cn: 前770年，周平王在申侯等拥立下东迁都于洛邑（成周），史称"平王东迁"，东周自此开始，春秋时代开启。迁都后王室权威跌落，诸侯坐大，中国历史进入列国争霸格局。《左传》所记"王入于成周"经天文历法考证兑为前770年1月11日。
+background_zh_cn: 前770年，周平王在申侯等拥立下东迁都于洛邑（成周），史称"平王东迁"，东周自此开始，春秋时代开启。迁都后王室权威跌落，诸侯坐大，中国历史进入列国争霸格局。
+result_zh_cn: 《左传》所记"王入于成周"经天文历法考证兑为前770年1月11日。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》《左传》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+- work-curated-zuozhuan
+people:
+- person_id: ctext-person-275144
+  person_name_raw: 周平王
+  role: ruler
+  role_zh_cn: 东迁之主
+  side: 周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-pingwang-dongqian.yml]
+relations:
+- target_event_id: event-quanrong-mie-xizhou
+  relation_type: follows
+- target_event_id: event-zheng-zhuanggong-xiaoba
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 王室权威进一步衰落，郑等国率先坐大
+places:
+- place_id: cbdb-place-14693
+  place_name_raw: 洛阳
+  role: capital
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: 雒邑/成周 h 洛阳；knowledge.places 收录的真实对应条目。
+evidence:
+- work: 史记
+  term: 周本纪
+  chapter_hint: 周本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·周本纪》
+- work: 左传
+  term: 左传
+  chapter_hint: null
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《左传》
+# event-pingwang-dongqian — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

@@ -1,0 +1,57 @@
+id: event-wuwang-fazhou
+name_zh_cn: 武王伐纣
+event_type: war
+start_year: -1046
+end_year: -1046
+date_precision: approximate
+period_id: period-shang
+importance: critical
+summary_zh_cn: 周武王姬发率诸侯联军伐商，与商军战于牧野（今河南淇县南），商纣王自焚，商朝灭亡，史称"武王伐纣"或"牧野之战"。这是商周分界的标志性节点。断代工程经多方推定为前1046年，另有前1027年（《竹书纪年》系统）等四十余种异说。
+background_zh_cn: 周武王姬发率诸侯联军伐商，与商军战于牧野（今河南淇县南），商纣王自焚，商朝灭亡，史称"武王伐纣"或"牧野之战"。这是商周分界的标志性节点。
+result_zh_cn: 断代工程经多方推定为前1046年，另有前1027年（《竹书纪年》系统）等四十余种异说。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·周本纪》《尚书·牧誓》、青铜利簋铭文；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+people:
+- person_id: ctext-person-34131
+  person_name_raw: 周武王
+  role: initiator
+  role_zh_cn: 伐纣联军统帅
+  side: 周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wuwang-fazhou.yml]
+relations:
+- target_event_id: event-xizhou-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 克商后周人建立西周政权
+evidence:
+- work: 史记
+  term: 周本纪
+  chapter_hint: 周本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·周本纪》
+- work: 尚书
+  term: 牧誓
+  chapter_hint: 牧誓
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《尚书·牧誓》
+# event-wuwang-fazhou — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

@@ -1,0 +1,71 @@
+id: event-sanjia-fenjin
+name_zh_cn: 三家分晋
+event_type: dynastic-transition
+start_year: -403
+end_year: -403
+date_precision: year
+period_id: period-warring-states
+importance: critical
+summary_zh_cn: 前403年，周威烈王正式册命韩、赵、魏三家为诸侯，晋国分裂为三国，史称"三家分晋"。《资治通鉴》以此为战国时代的开端。此事件标志世卿执政卿大夫夺权的制度性完成，列国兼并战争的新格局自此全面展开。
+background_zh_cn: 前403年，周威烈王正式册命韩、赵、魏三家为诸侯，晋国分裂为三国，史称"三家分晋"。《资治通鉴》以此为战国时代的开端。
+result_zh_cn: 此事件标志世卿执政卿大夫夺权的制度性完成，列国兼并战争的新格局自此全面展开。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·晋世家》《资治通鉴·周纪一》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
+source_ids:
+- work-curated-shiji
+people:
+- person_id: ctext-person-532638
+  person_name_raw: 周威烈王
+  role: ruler
+  role_zh_cn: 册命三家为诸侯
+  side: 周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-sanjia-fenjin.yml]
+- person_id: ctext-person-692385
+  person_name_raw: 魏文侯
+  role: participant
+  role_zh_cn: 三家分晋受命诸侯
+  side: 魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-sanjia-fenjin.yml]
+relations:
+- target_event_id: event-jin-mie-zhi
+  relation_type: follows
+- target_event_id: event-tianshi-dai-qi
+  relation_type: precedes
+- target_event_id: event-likui-bianfa
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 三家分晋标志世卿执政的完成，列国变法图强浪潮随之展开，魏国李悝变法为其中最早者
+evidence:
+- work: 史记
+  term: 晋世家
+  chapter_hint: 晋世家
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·晋世家》
+- work: 资治通鉴
+  term: 周纪一
+  chapter_hint: 周纪一
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·周纪一》
+# event-sanjia-fenjin — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

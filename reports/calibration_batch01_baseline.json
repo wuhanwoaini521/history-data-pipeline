@@ -1,0 +1,714 @@
+{
+  "batch": "calibration_batch01",
+  "baseline": true,
+  "n": 10,
+  "events": [
+    {
+      "event_id": "event-shangtang-miexia",
+      "name_zh_cn": "商汤灭夏",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·殷本纪》《尚书·汤誓》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》",
+        "source_count": 2,
+        "source_ids": [
+          "work-curated-shiji",
+          "work-curated-shangshu"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 1,
+        "person_total": 1,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 1,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 123,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记",
+          "尚书"
+        ]
+      }
+    },
+    {
+      "event_id": "event-wuwang-fazhou",
+      "name_zh_cn": "武王伐纣",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·周本纪》《尚书·牧誓》、青铜利簋铭文；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》",
+        "source_count": 2,
+        "source_ids": [
+          "work-curated-shiji",
+          "work-curated-shangshu"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 1,
+        "person_total": 1,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 1,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 112,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记",
+          "尚书"
+        ]
+      }
+    },
+    {
+      "event_id": "event-pingwang-dongqian",
+      "name_zh_cn": "平王东迁",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·周本纪》《左传》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》",
+        "source_count": 2,
+        "source_ids": [
+          "work-curated-shiji",
+          "work-curated-zuozhuan"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 1,
+        "person_total": 1,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 2,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 111,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记",
+          "左传"
+        ]
+      }
+    },
+    {
+      "event_id": "event-sanjia-fenjin",
+      "name_zh_cn": "三家分晋",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·晋世家》《资治通鉴·周纪一》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-shiji"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 2,
+        "person_total": 2,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 3,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 97,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记",
+          "资治通鉴"
+        ]
+      }
+    },
+    {
+      "event_id": "event-changping-zhizhan",
+      "name_zh_cn": "长平之战",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·白起王翦列传》《廉颇蔺相如列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-shiji"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 2,
+        "person_total": 2,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 3,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 94,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记"
+        ]
+      }
+    },
+    {
+      "event_id": "event-qin-mie-liuguo",
+      "name_zh_cn": "秦灭六国",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-shiji"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 2,
+        "person_total": 2,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 2,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 112,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记"
+        ]
+      }
+    },
+    {
+      "event_id": "event-qin-tongyi",
+      "name_zh_cn": "秦统一六国（秦帝国建立）",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-shiji"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 2,
+        "person_total": 2,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 1,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 98,
+        "importance": "critical",
+        "independent_secondary_count": 3,
+        "classical_refs": [
+          "史记"
+        ]
+      }
+    },
+    {
+      "event_id": "event-qiguo-zhi-luan",
+      "name_zh_cn": "七国之乱",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《汉书·景帝纪》《吴王濞传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-hanshu"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 4,
+        "person_total": 4,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 2,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 119,
+        "importance": "critical",
+        "independent_secondary_count": 4,
+        "classical_refs": [
+          "汉书"
+        ]
+      }
+    },
+    {
+      "event_id": "event-mobei-zhizhan",
+      "name_zh_cn": "漠北之战",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《史记·卫将军骠骑列传》《匈奴列传》、《汉书·武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》",
+        "source_count": 2,
+        "source_ids": [
+          "work-curated-shiji",
+          "work-curated-hanshu"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 3,
+        "person_total": 3,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 2,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 118,
+        "importance": "critical",
+        "independent_secondary_count": 4,
+        "classical_refs": [
+          "史记",
+          "汉书"
+        ]
+      }
+    },
+    {
+      "event_id": "event-wangmang-chengdi",
+      "name_zh_cn": "王莽称帝、新朝建立",
+      "quality_score": 78.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "dims": {
+        "schema_fk_uniqueness": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "temporal_consistency": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "person_resolution": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "place_resolution": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "source_quality": {
+          "score": 15.0,
+          "weight": 15
+        },
+        "evidence_precision": {
+          "score": 0.0,
+          "weight": 15
+        },
+        "independent_source_verification": {
+          "score": 10.0,
+          "weight": 10
+        },
+        "content_completeness": {
+          "score": 7.0,
+          "weight": 10
+        },
+        "independent_verifier": {
+          "score": 9.0,
+          "weight": 10
+        }
+      },
+      "hard_failures": [],
+      "raw": {
+        "quality_status": "reviewed",
+        "source_type": "curated_reference",
+        "source_reference": "古代史料：《汉书·王莽传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》",
+        "source_count": 1,
+        "source_ids": [
+          "work-curated-hanshu"
+        ],
+        "evidence_count": 0,
+        "evidence_locator_coverage": 0.0,
+        "person_linked": 2,
+        "person_total": 2,
+        "place_linked": 0,
+        "place_total": 0,
+        "relation_count": 2,
+        "has_background": false,
+        "has_result": false,
+        "summary_len": 95,
+        "importance": "critical",
+        "independent_secondary_count": 2,
+        "classical_refs": [
+          "汉书"
+        ]
+      }
+    }
+  ],
+  "agg": {
+    "mean_score": 78.0,
+    "min_score": 78.0,
+    "max_score": 78.0,
+    "any_auto_accept": false,
+    "evidence_count_total": 0,
+    "place_total_events_with_places": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "eid": "event-wangmang-chengdi",
+  "verdict": "WARN",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "CONFIRMED",
+    "grounding": "PASS",
+    "links": "PASS",
+    "temporal": "WARN"
+  },
+  "source_urls_fetched": [
+    "https://ctext.org/han-shu/wang-mang-zhuan/zhs (HTTP 403 - not fetchable directly; glyphs confirmed via alternate authoritative pages)",
+    "https://ctext.org/wiki.pl?if=gb&chapter=152179&remap=gb (Zizhi Tongjian 汉纪二十八 ~ 王莽初始元年)",
+    "https://ctext.org/wiki.pl?if=gb&chapter=952055&remap=gb (Zizhi Tongjian 汉纪二十八 初始元年)",
+    "https://www.gushiwen.cn/guwen/bookv.aspx?id=46653FD803893E4FDC34AAFE271317A6 (汉书·王莽传)",
+    "https://baike.baidu.com/item/%E6%B1%89%E4%B9%A6%C2%B7%E7%8E%8B%E8%8E%BD%E4%BC%A0/12507923 (汉书·王莽传)",
+    "https://search.worldcat.org/title/953323100 (翦伯赞《秦汉史》北京大学出版社 1999)",
+    "https://book.douban.com/subject/1040213/, /2983481/ (秦汉史)"
+  ],
+  "reasons": [
+    "VERBATIM PASS: every field copied from canonical (name_zh_cn, event_type, start_year, end_year, summary_zh_cn, source_reference, source_ids) matches the canonical file character-for-character; background_zh_cn = canonical summary sentence 1 and result_zh_cn = canonical summary sentence 2, both exact. people person_name_raw (王莽, 孺子婴) and evidence work/term/chapter_hint match their own source titles.",
+    "GLYPHS CONFIRMED: 《汉书·王莽传》 (work=汉书, term=王莽传, chapter_hint=王莽传) is a genuine Han Shu 列传 and is the canonical primary record of the 新 dynasty, era-name 始建国; confirmed against Han Shu Wang Mang Zhuan primary-source text. 《资治通鉴·汉纪》 confirmed as a genuine Zizhi Tongjian section covering 王莽 初始元年.",
+    "GROUNDING PASS: no fabricated coordinates, no fabricated text id, no fabricated place id, no invented chapter. source_reference 古代史料《汉书·王莽传》 is genuine; 翦伯赞《秦汉史》(北京大学出版社) confirmed as a real 1999 book; 张岂之主编《中国历史·秦汉魏晋南北朝卷》 is a real multi-volume series (volume-specific pagination not machine-verified - indirect).",
+    "LINKS PASS: both evidence entries have link_status=needs_linking (correct per spec); no historical_text_id present (null/absent - correct); no fabricated locators; person entries use linked status with cited review provenance (acceptable for people section).",
+    "TEMPORAL: start_year=9 <= end_year=9, no date-range violation. However the accession year 8-vs-9 is genuinely DISPUTED (初始元年 spans 8-9 AD; formal 新 founding / 始建国元年 = 9 AD per canonical). The candidate records 9 without capturing the dispute, matching the repository canonical value but omitting the unresolved 8-vs-9 view the Researcher flagged.",
+    "INDEPENDENT SOURCE COUNT: evidence chain comprises 汉书·王莽传 (primary) + 资治通鉴·汉纪 (supporting) + modern 翦伯赞·秦汉史 / 张岂之·中国历史. The two classical anchors are independent (汉书 primary; Zizhi Tongjian compiled by Sima Guang, an independent classical record), not a single source transcribed twice - GOOD.",
+    "WARN basis (non-hard): (1) accession-year 8-vs-9 dispute not recorded as DISPUTED in candidate; (2) person_ids cbdb-person-339519 (王莽) and ctext-person-3017 (孺子婴) could not be independently verified against live registries during this run - possible but unproven provenance, not a fabrication finding; (3) ctext direct fetch blocked (403), glyph/text confirmed via alternate authoritative mirrors instead."
+  ],
+  "notes": "No hard failures (no corruption, no fabricated locators, no fabricated quotes, evidence correctly needs_linking, temporal range valid). WARN items are advisory only and do not materially change historical correctness. If repository requires DISPUTED date capture, consider adding the 8-vs-9 accession ambiguity before final promotion."
+}

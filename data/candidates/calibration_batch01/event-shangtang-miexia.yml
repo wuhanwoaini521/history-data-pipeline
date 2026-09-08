@@ -1,0 +1,57 @@
+id: event-shangtang-miexia
+name_zh_cn: 商汤灭夏
+event_type: dynastic-transition
+start_year: -1600
+end_year: -1600
+date_precision: approximate
+period_id: period-xia
+importance: critical
+summary_zh_cn: 夏朝末年商汤起兵伐夏，在鸣条（今河南一带，具体地望有争议）击败夏桀，夏朝灭亡，史称"商汤革命"。这是中国历史上有明确文献记载的第一次王朝更替，标志夏商年代分界。年代采用《夏商周断代工程》约前1600年框架，另有学者主张前1556年前后，存在分歧。
+background_zh_cn: 夏朝末年商汤起兵伐夏，在鸣条（今河南一带，具体地望有争议）击败夏桀，夏朝灭亡，史称"商汤革命"。这是中国历史上有明确文献记载的第一次王朝更替，标志夏商年代分界。
+result_zh_cn: 年代采用《夏商周断代工程》约前1600年框架，另有学者主张前1556年前后，存在分歧。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《史记·殷本纪》《尚书·汤誓》；现代参考：夏商周断代工程专家组《夏商周断代工程1996—2000年阶段成果报告·简本》；许倬云《西周史（增订本）》（三联书店）；张岂之主编《中国历史·先秦卷》
+source_ids:
+- work-curated-shiji
+- work-curated-shangshu
+people:
+- person_id: curated-person-shang-tang
+  person_name_raw: 商汤
+  role: initiator
+  role_zh_cn: 商·发起者
+  side: 商
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-shangtang-miexia.yml]
+relations:
+- target_event_id: event-shang-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭夏后商政权建立
+evidence:
+- work: 史记
+  term: 殷本纪
+  chapter_hint: 殷本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·殷本纪》
+- work: 尚书
+  term: 汤誓
+  chapter_hint: 汤誓
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《尚书·汤誓》
+# event-shangtang-miexia — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

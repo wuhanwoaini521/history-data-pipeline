@@ -1,0 +1,32 @@
+{
+  "eid": "event-qiguo-zhi-luan",
+  "verdict": "WARN",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "WARN",
+    "grounding": "PASS",
+    "links": "PASS",
+    "temporal": "PASS"
+  },
+  "source_urls_fetched": [
+    "https://ctext.org/han-shu/jing-yan-wu-zhuan/zhs (HTTP 403 via fetch tool)",
+    "https://ctext.org/wiki.pl?chapter=610451&if=gb (via web_search: 汉书 卷三十五 荆燕吴传)",
+    "https://ctext.org/wiki.pl?chapter=778109&if=gb (via web_search: 汉书 卷五 景帝纪第五)"
+  ],
+  "reasons": [
+    "VERBATIM PASS: all canonical-copied fields (name_zh_cn 七国之乱, event_type war, start_year -154, end_year -154, summary_zh_cn, source_reference, source_ids=[work-curated-hanshu], relations) match the canonical file character-for-character. background_zh_cn and result_zh_cn are verbatim sub-slices of the canonical summary. No corruption or differing Han character found.",
+    "GLYPH WARN: candidate labels the Han book evidence chapter 吴王濞传, but the actual Han book chapter holding this biography is 荆燕吴传 (volume 35). 吴王濞传 is not the real chapter header. Correct the locator to 荆燕吴传 before promotion (a locator/title error, not fabricated content).",
+    "GLYPH CONFIRMED: evidence #1 汉书 景帝纪 confirmed (汉书 卷五 景帝纪第五). Glyphs match the fetched source.",
+    "GROUNDING PASS: no invented coordinates, no fabricated chapter, no fabricated text id (historical_text_id null, correct), no fabricated source_id.",
+    "LINKS PASS: evidence link_status all needs_linking; no fabricated links; person ids UNVERIFIED.",
+    "TEMPORAL PASS: start -154 <= end -154; no contradiction and no recorded date dispute.",
+    "SOURCE COUNT: two chapters of one work (汉书); a single source quoted twice, not two independent classical sources."
+  ],
+  "notes": {
+    "verbatim_diff": "none",
+    "hard_fail": false,
+    "glyph_mismatch": "吴王濞传 should be 荆燕吴传 (汉书 volume 35) per text; the same locator error is carried in the canonical source_reference - correct before promotion.",
+    "person_id_verification": "UNVERIFIED - person ids not independently confirmed",
+    "ctext_fetch_limit": "ctext returned HTTP 403 to the fetch tool; chapter glyphs confirmed via web_search result snippets."
+  }
+}

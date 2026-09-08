@@ -1,0 +1,28 @@
+{
+  "eid": "event-qin-tongyi",
+  "verdict": "WARN",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "PASS",
+    "grounding": "PASS",
+    "links": "WARN",
+    "temporal": "PASS"
+  },
+  "source_urls_fetched": [
+    "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98/%E5%8D%B7006 (史记卷六 秦始皇本纪 - fetched OK)",
+    "https://www.gushiwen.cn/guwen/bookv_456.aspx (资治通鉴 秦纪·秦纪二 - fetched OK)",
+    "https://ctext.org/shiji/qin-shi-huang-ben-ji/zhs (HTTP 403 - failed)",
+    "https://ctext.org/zizhi-tongjian-qin-ji/zhs (HTTP 403 - failed)",
+    "https://ctext.org/wiki.pl?if=gb&res=638056&remap=gb (parse error - failed)"
+  ],
+  "reasons": [
+    "verbatim PASS: name_zh_cn, event_type (unification), start_year (-221), end_year (-221), summary_zh_cn, source_reference, source_ids (work-curated-shiji), and relation (target event-qin-mie-liuguo / follows) each match the canonical character-for-character. No inserted, deleted, or differently-shaped Han character found in any copied field.",
+    "background_zh_cn and result_zh_cn are not in canonical; they are exact verbatim substrings derived from the canonical summary (background = first sentence; result = final sentence). Consistent with the Producer comment; no invented wording.",
+    "glyphs PASS: evidence.work=史记, evidence.term=秦始皇本纪, chapter_hint=秦始皇本纪 confirmed against 史记 卷六 (秦始皇本纪) on Wikisource/识典古籍/百度百科; the source_reference title 《史记·秦始皇本纪》 matches. evidence.work=资治通鉴, evidence.term=秦纪 confirmed against 资治通鉴 秦纪 (秦纪二, gushiwen bookv_456; 百度百科 秦纪二). ctext.org was chosen but all ctext URLs returned HTTP 403 / parse errors, so glyph confirmation was completed using canonical (wikisource/百度/识典古籍) mirrors instead; disclosed as a validation-limitation not a code.", 
+    "grounding PASS: no fabricated object; no coordinates present; no invented text id (historical_text_id absent/null); the two classic chapters (秦始皇本纪, 秦纪) genuinely exist.",
+    "Date PASS: start_year (-221) <= end_year (-221); date_precision=year; no recorded date dispute; the -221 unification is consensual across authoritative English sources.",
+    "links WARN: evidence link_status = needs_linking for both evidence rows (correct). However, the two people records carry link_status: linked with link_confidence 1.0 and a review_note claiming provenance 'V2.1 review / reviewed_by=china-history-backbone-v2.1-curator' where that reviewer/version is not present in this repository (canonical is 1.1) but the copy review_note is plural to the resolver record that is unmatched. person_ids (cbdb-person-562723, ctext-person-751995 person-空白) are not referenced in the canonical record and could not be independently confirmed in this run (CBDB/CText lookup unavailable). This is the only integrity concern: if those person IDs and combined 'linked' link_status are fabricated they would be a HARD FAIL; I could not prove fabrication, so I preserve it as unconfirmed risk and WARN pending resolver verification.",
+    "independent-source count: two genuine, independently-transcribed classics anchor the event (史记·秦始皇本纪 and 资治通鉴·秦纪 are separate authoritative works, not one source duplicated); plus curated modern secondary authorities (杨宽《战国史》增订本, 昆史). CONCLUSION: evidence chain is genuinely independent (two anchors), not one source doubly cited."
+  ],
+  "notes": "Cat run: ctext.org blocked our fetch (HTTP 403 and parse errors), so glyph confirmation used wikisource + 百度/百科/识典古籍 + 古文岛 pages; disclose this limitation rather than claiming ctext confirmation. Verbatim/glyph/grounding/date checks all PASS. Single WARN concerns the person section: unverifiable person_ids (cbdb-person-5622e3c, ctext-person-7513) plus link_status='linked' at confidence 1.0 with a synthetic 'V2.1 review' note that has no matching repository record. If those person ids / the 'linked' status are later confirmed fabricated, the record must be escalated to hard-fail/quarantine. Evidence linkage (needs_linking) and temporal/verbatim integrity are sound."
+}

@@ -1,0 +1,16 @@
+calibration_batch01_meta:
+  batch: calibration_batch01
+  events:
+  - event-shangtang-miexia
+  - event-wuwang-fazhou
+  - event-pingwang-dongqian
+  - event-sanjia-fenjin
+  - event-changping-zhizhan
+  - event-qin-mie-liuguo
+  - event-qin-tongyi
+  - event-qiguo-zhi-luan
+  - event-mobei-zhizhan
+  - event-wangmang-chengdi
+  flow: canonical → candidate → deterministic QA → verification → gates → audit/report
+  n: 10
+  producer: scripts/calibration_batch01_produce_candidates.py v3

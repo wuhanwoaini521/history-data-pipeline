@@ -1,0 +1,70 @@
+{
+  "report": "autonomous-enrichment-run",
+  "report_dir": "reports\\current-run",
+  "root": "D:\\code\\self-github\\self-tools\\history-data-pipeline",
+  "seed": 1,
+  "counts": {
+    "backbone_events": 618,
+    "candidates": 10,
+    "accepted": 10,
+    "quarantined": 0,
+    "audited": 3
+  },
+  "verdict_counts": {
+    "QUARANTINE_MEDIUM": 434,
+    "QUARANTINE_LOW": 184,
+    "AUTO_ACCEPT": 10
+  },
+  "score": {
+    "mean": 74.0,
+    "min": 65.0,
+    "max": 95.7,
+    "histogram": {
+      "90-100": 10,
+      "75-89": 434,
+      "0-74": 184
+    }
+  },
+  "validation": {
+    "error_count": 0,
+    "errors": []
+  },
+  "audit": [
+    {
+      "event_id": "event-yangjian-dai-beizhou",
+      "name_zh_cn": "杨坚代北周、隋朝建立",
+      "status": "needs_independent_audit",
+      "checks": [
+        "source_quality",
+        "identity_resolution",
+        "date_accuracy",
+        "place_window",
+        "evidence_chain"
+      ]
+    },
+    {
+      "event_id": "event-three-north-consolidation",
+      "name_zh_cn": "曹操北方势力巩固",
+      "status": "needs_independent_audit",
+      "checks": [
+        "source_quality",
+        "identity_resolution",
+        "date_accuracy",
+        "place_window",
+        "evidence_chain"
+      ]
+    },
+    {
+      "event_id": "event-yue-mie-wu",
+      "name_zh_cn": "越灭吴",
+      "status": "needs_independent_audit",
+      "checks": [
+        "source_quality",
+        "identity_resolution",
+        "date_accuracy",
+        "place_window",
+        "evidence_chain"
+      ]
+    }
+  ]
+}

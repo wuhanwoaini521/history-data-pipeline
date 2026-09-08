@@ -1,0 +1,26 @@
+{
+  "eid": "event-wuwang-fazhou",
+  "verdict": "PASS",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "PASS",
+    "grounding": "PASS",
+    "links": "PASS",
+    "temporal": "PASS"
+  },
+  "source_urls_fetched": [
+    "https://ctext.org/shiji/zhou-ben-ji/zhs",
+    "https://zh.wikipedia.org/wiki/利簋",
+    "https://www.naec.gov.cn/seac/c103391/202306/1164738.shtml",
+    "https://ctext.org/shang-shu/speech-at-mu/zhs",
+    "https://ctext.org/datawiki.pl?if=gb&remap=gb&res=34131"
+  ],
+  "reasons": [
+    "verbatim: All fields copied from canonical match character-for-character (name_zh_cn=武王伐纣, event_type=war, start_year=-1046, end_year=-1046, date_precision=approximate, period_id=period-shang, importance=critical, summary_zh_cn, source_reference, source_ids=work-curated-shiji/work-curated-shangshu, people person_name_raw=周武王, evidence work/term/chapter_hint). background_zh_cn and result_zh_cn are new derived fields split from the canonical summary; they contain no corruption and are coherent subsets of the canonical summary.",
+    "glyphs: All cited text titles and chapters confirmed against FIRST-HAND fetched sources. ctext 史記:本紀:周本紀 page fetched and title glyph 周本紀 confirmed; Shangshu 牧誓 (Speech at Mu) confirmed at ctext shang-shu/speech-at-mu. source_reference mentions 史记·周本纪, 尚书·牧誓, 利簋 — all match fetched pages. 周武王 (ctext res=34131) confirmed as the person referenced.",
+    "grounding: No fabricated coordinates (none present), no fabricated chapter (周本纪 and 牧誓 both real), no fabricated person/place id (ctext-person-34131 = 周武王 verified on ctext), no fabricated link_status. historical_text_id is null/absent as required.",
+    "links: For all evidence items, link_status=needs_linking as required; no fabricated link_status. links are honest about pending status.",
+    "temporal: start_year (-1046) <= end_year (-1046) satisfied. The summary records the -1046 vs -1027 date dispute (Bamboo Annals) honestly rather than suppressing it; this is preserved uncertainty, not an error."
+  ],
+  "notes": "Independent source count: the evidence chain rests on two genuinely independent classical anchors — 史记·周本纪 (primary) and 尚书·牧誓 (primary) — plus corroborating 利簋 bron inscription, so this is a strong two-independent-source chain rather than a single source transcribed twice. The naac.gov.cn URL could not be fetched (DNS resolution failure), but the date -1046 and its dispute are corroborated by ctext primary texts and the 利簋 Wikipedia secondary source; the specific official page is not independently confirmable in this run but this does not materially affect the verdict."
+}

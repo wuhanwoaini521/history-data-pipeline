@@ -25,11 +25,11 @@ Backbone 边界；后续如需逻辑命名，用 `VIEW` 建立 `knowledge.*` / `
 ## 实体
 
 | 表 | 核心字段 | 层 |
-|---|---|---|
+| --- | --- | --- |
 | `periods` | `id, name_zh_cn, start_year, end_year, date_precision, description_zh_cn` | 3 taxonomy |
 | `regimes` | `id, name_zh_cn, 年代, period_id, date_precision` | 3 taxonomy |
 | `events` | `id, name_zh_cn, event_type, 起止年, date_precision, period_id, regime_ids, importance, quality_status` | 3 |
-| `stories` | `id, title_zh_cn, 年代, story_type, importance, period_id` | 3（阅读组织层）|
+| `stories` | `id, title_zh_cn, 年代, story_type, importance, period_id` | 3（阅读组织层） |
 | `story_events` | `story_id, event_id, sequence` | 3 |
 | `event_relations` | `source_event_id, target_event_id, relation_type, confidence` | 3 |
 | `event_person` | `event_id, person_id, role, side, link_*` | 3 桥接 |
@@ -74,3 +74,14 @@ Backbone 边界；后续如需逻辑命名，用 `VIEW` 建立 `knowledge.*` / `
 - `original_text` 永远保留 Raw 原文；OpenCC 只写 `original_simplified`。
 - DuckDB 是 Build Artifact：手动 UPDATE 被禁止；修改必须回到
   Raw/Staging/Curated/Review 后重新 `history-data backbone build`。
+
+## Schema 等价映射（不建平行 schema）
+
+框架不再引入 `event_content.schema.json` / `claim.schema.json`，等价物已存在：
+
+- `event_content` ↔ `schemas/event.schema.json`（事件完整属性模型）。
+- `claim` ↔ `schemas/event_evidence.schema.json` + `taxonomy/quality_status.yml`
+  （证据/主张桥接 + 状态词表）。
+
+新增属性或证据类型一律落进现有 schema，禁止建平行文件。详见
+`docs/DATA_ENRICHMENT_POLICY.md` §8 与 `docs/QUALITY_GATES.md`。

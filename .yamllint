@@ -1,0 +1,61 @@
+---
+# Repo-wide yamllint configuration.
+#
+# This pipeline stores structured history data as YAML. The data files (both
+# canonical curated files under data/curated and candidate files under
+# data/candidates) intentionally use conventions that differ from yamllint's
+# strict defaults:
+#
+#   1. Long lines are expected. Chinese-language content fields
+#      (`summary_zh_cn`, `source_reference`, `source_header_comment`) are
+#      unbreakable prose; wrapping them to 80 columns would either mangle
+#      character sequences or force artificial line breaks that do not belong
+#      to the data. We therefore raise the maximum allowed line length instead
+#      of silently truncating or reflowing content.
+#   2. Sequences may appear at the same indentation level as their parent key
+#      (0-indent style): `source_ids:` followed by `- work-curated-shiji` on a
+#      fresh line. This is the established record style in the curated store.
+#
+# Keep this file in sync with docs/DATA_MODEL.md. Do not tighten these rules
+# without migrating every existing curated and candidate file first.
+
+extends: default
+
+rules:
+  # Allow the repo's established explicit-list style (item on its own line,
+  # at parent-key indentation).
+  indentation:
+    spaces: 2
+    indent-sequences: false
+    check-multi-line-strings: false
+
+  # Data content fields are unbreakable CJK prose.
+  line-length:
+    max: 400
+    allow-non-breakable-words: true
+    allow-non-breakable-inline-mappings: true
+
+  # Repo files are edited and committed from multiple platforms; Windows
+  # working trees legitimately contain CRLF, and the committed index stores LF
+  # (core.autocrlf=true). Neither newline convention should block a file.
+  new-lines:
+    type: platform
+
+  # Standard list-item dashes: `- item`. Keep the yamllint default of one space
+  # after the hyphen (explicit so readers don't mistake it for a stylistic
+  # flourish in the data).
+  hyphens:
+    max-spaces-after: 1
+
+  # CJK text has no concept of trailing-space-on-empty-lines worth enforcing.
+  trailing-spaces:
+    level: warning
+
+  # Comments are rare and may be formatted freely.
+  comments:
+    min-spaces-from-content: 1
+
+  # Curated/candidate records do not use a leading "---" document marker
+  # (established repo style; see any existing file under data/curated).
+  document-start:
+    present: false

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "event-shangtang-miexia",
+    "name": "商汤灭夏",
+    "period": "period-xia",
+    "start": -1600,
+    "end": -1600,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-wuwang-fazhou",
+    "name": "武王伐纣",
+    "period": "period-shang",
+    "start": -1046,
+    "end": -1046,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-pingwang-dongqian",
+    "name": "平王东迁",
+    "period": "period-spring-autumn",
+    "start": -770,
+    "end": -770,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-sanjia-fenjin",
+    "name": "三家分晋",
+    "period": "period-warring-states",
+    "start": -403,
+    "end": -403,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-changping-zhizhan",
+    "name": "长平之战",
+    "period": "period-warring-states",
+    "start": -260,
+    "end": -260,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-qin-mie-liuguo",
+    "name": "秦灭六国",
+    "period": "period-warring-states",
+    "start": -230,
+    "end": -221,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-qin-tongyi",
+    "name": "秦统一六国（秦帝国建立）",
+    "period": "period-warring-states",
+    "start": -221,
+    "end": -221,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-qiguo-zhi-luan",
+    "name": "七国之乱",
+    "period": "period-western-han",
+    "start": -154,
+    "end": -154,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-mobei-zhizhan",
+    "name": "漠北之战",
+    "period": "period-western-han",
+    "start": -119,
+    "end": -119,
+    "quality_status": "reviewed"
+  },
+  {
+    "id": "event-wangmang-chengdi",
+    "name": "王莽称帝、新朝建立",
+    "period": "period-xin",
+    "start": 9,
+    "end": 9,
+    "quality_status": "reviewed"
+  }
+]
