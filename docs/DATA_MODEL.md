@@ -1,6 +1,6 @@
 # DATA_MODEL
 
-> 本文描述 V2 数据模型。旧 V1 模型见 `docs/DATA_MODEL.legacy.md`（legacy）。
+> 本文描述 V2 数据模型（V1 模型已随仓库重构淘汰）。
 
 ## 逻辑 Schema（四层）
 
