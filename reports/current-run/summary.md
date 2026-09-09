@@ -6,20 +6,20 @@
 
 | verdict | count |
 | --- | --- |
-| AUTO_ACCEPT | 10 |
-| QUARANTINE_MEDIUM | 434 |
+| AUTO_ACCEPT | 9 |
+| QUARANTINE_MEDIUM | 435 |
 | QUARANTINE_LOW | 184 |
 | QUARANTINE_HARD | 0 |
 
 ## 分数分布
-- `90-100`: 10
-- `75-89`: 434
+- `90-100`: 9
+- `75-89`: 435
 - `0-74`: 184
-- mean: 74.0
+- mean: 73.9
 
 ## 校验错误（0）
 
-## 隔离：0 → `quarantine.jsonl`
+## 隔离：1 → `quarantine.jsonl`
 ## 审计采样：3 → `audit-report.md`
 
 > 由 `history-data backbone qa-run` 生成（确定性 seed，可复现）。

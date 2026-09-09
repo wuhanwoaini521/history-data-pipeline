@@ -13,4 +13,4 @@ calibration_batch01_meta:
   - event-wangmang-chengdi
   flow: canonical → candidate → deterministic QA → verification → gates → audit/report
   n: 10
-  producer: scripts/calibration_batch01_produce_candidates.py v3
+  producer: scripts/calibration_batch01_produce_candidates.py v4 (fix-list B5-B8)

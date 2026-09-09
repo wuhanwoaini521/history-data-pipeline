@@ -6,26 +6,27 @@
     "glyphs": "PASS",
     "grounding": "PASS",
     "links": "PASS",
-    "temporal": "PASS"
+    "temporal": "PASS",
+    "fix_b5_evidence": "PASS",
+    "fix_b7_source_ids": "PASS"
   },
-  "source_urls_fetched": [
-    "https://ctext.org/wiki.pl?if=gb&chapter=417246&remap=gb",
-    "https://zh.wikipedia.org/wiki/漠北之战",
-    "https://ctext.org/shiji/wei-jing-jun-piao-qi-lie-zhuan/zhs",
-    "https://ctext.org/han-shu/wu-di-ji/zhs"
-  ],
   "reasons": [
-    "VERBATIM PASS: all reported fields copied from canonical match character-for-character — name_zh_cn 漠北之战, event_type war, start_year -199, end_year -199, summary_zh_cn identical, source_reference and source_ids (work-curated-shiji, work-curated-hanshu) identical. background_zh_cn and result_zh_cn are verbatim deterministic (first/last sentence) splits of the canonical summary; no corruption.",
-    "GLYPHS PASS: 史记·卫将军骟骓氏族第五十一 confirmed at ctext (卷一百一十一·衞將軍驃騎列傳第五十一, the joint biography of Wei Qing & Huo Qubing); 汉书·武帝纪 confirmed (汉书·卷六·武帝纪第六). Both evidence term/chapter_hint and source_reference match fetched exact Han sequences.",
-    "GROUNDING PASS: no fabricated coordinates, no fabricated place id, no fabricated chapter, no fabricated link_status. historical_text_id is null. No unsupported inventions found.",
-    "LINKS PASS: all evidence link_status=needs_linking (valid, not fabricated). People (汉武帝/卫青/霍去病) are carried unchanged from the accepted EventPerson layer (per producer script) with V2.1 review provenance; person names are historically correct.",
-    "TEMPORAL PASS: start_year(-119) <= end_year(-119); date_precision=year; no date dispute recorded.",
-    "INDEPENDENCE: evidence chain uses two genuinely independent primary works — 史记 (Sima Qian) and 汉书 (Ban Gu) — NOT one source transcribed twice. Two distinct classical anchors; strong."
+    "VERBATIM PASS: every canonical-copied field matches character-for-character (id, name_zh_cn 漠北之战, event_type war, start_year -119, end_year -119, date_precision year, period_id period-western-han, importance critical, summary_zh_cn, source_type, source_reference incl.\u300a史记·卫将军骠骑列传\u300b\u300a匈奴列传\u300b and \u300a汉书·武帝纪\u300b, source_ids=[work-curated-shiji, work-curated-hanshu], regime_ids=[] and both relations); machine YAML diff clean.",
+    "GLYPH PASS: locators 史记·卫将军骠骑列传 and 汉书·武帝纪 are genuine (confirmed previously against ctext 卷111 and 汉书 卷六); the candidate mirrors the canonical glyphs.",
+    "GROUNDING PASS: no invented coordinates, dates, text ids (both historical_text_id null), or place ids; the casualty figure 八九万 is presented as an approximate range carried verbatim from canonical, not fabricated.",
+    "LINKS PASS: both evidence entries link_status=needs_linking (not fabricated), link_confidence 0.9; no fake locators; person ids (汉武帝, 卫青, 霍去病) inherited from the accepted EventPerson layer.",
+    "TEMPORAL PASS: start_year -119 <= end_year -119; no date-range violation.",
+    "fix_b5_evidence PASS: both evidence rows carry historical_text_id: null explicitly; regime_ids preserved [] as canonical (B5).",
+    "fix_b7_source_ids PASS: evidence works 史记 and 汉书 both have work ids work-curated-shiji and work-curated-hanshu in source_ids — both present in the curated works registry (dist/json/works.json).",
+    "WARN (carried over from prior verification, unchanged in this control event): the precise casualty claim 共斩俘匈奴八九万 is most directly evidenced by 史记·匈奴列传 and 汉书·匈奴传, which appear in the canonical source_reference but are NOT among the two evidence rows (史记·卫将军列传 and 汉书·武帝纪). This weakens claim-to-evidence precision (§6/§14) at the needs_linking stage. Non-corruption, non-hard-fail, WARN-level; unchanged from pre-fix."
   ],
-  "notes": [
-    "WARN basis (evidence precision, not corruption): the summary's specific claim '共斩虏匈奴八九万' / 漠南区域 tally traces to 史记·匈奴列传 and 汉书·匈奴传 (per the fetched zh.wikipedia Mobei source, note 16/17), which appear in canonical source_reference but are NOT among the two evidence entries (史记·卫将军列传 and 汉书·武帝纪). The two cited chapters do cover the campaign (Jingwei 卫青/霍去病) and Empire Gust (元狩四年北征), but for the precise casualty figure one should also / instead cite 匈奴 Favorites). Recommend wiring 史记·匈奴列传 & 汉书·匈奴传 when linking evidence at needs_linking stage.",
-    "CBDB person IDs (cbdb-person-16626 汉武帝, -502566 卫青, -432543 霍去病) are carried unchanged from the accepted EventPerson layer with V2.1 review provenance; I did not independently cross-check them against the offline CBDB registry in this run, but found no indication of fabrication. They are name-correct vs the event.",
-    "ctext.org/zhs returned HTTP 403 to direct fetch; glyph confirmation performed via ctext/search snippet + zh.wikipedia.org/wiki/漠北之战 full-page citation block and the Researcher brief (which had confirmed these locators). The Han glyph of 卫将军骡骑列传 (simplified 骎 = traditional 驃) is correct.",
-    "source urls fetched: ctext result page (accessed via search index), zh.wikipedia Mobei full text; ctext direct /zhs page blocked (403) — validation via authoritative snippets + white is acceptable for this calibration; full per-chapter byte-fetch not completed offline."
-  ]
+  "notes": {
+    "control_event": "mobei is the control record — unchanged between rounds; all five fix-list items verified as applied; the WARN is the pre-existing evidence-coverage note and is not a new regression.",
+    "casualty_source_not_an_evidence_row": "八九万 casualty figure best traced to 史记·匈奴列传 / 汉书·匈奴传 (named in source_reference but not in evidence rows) — recommend adding them at linking stage.",
+    "person_id_verification": "UNVERIFIED in this run - person ids carried from the EventPerson layer; no fabrication suspected.",
+    "ctext_blocked": "ctext.org HTTP 403 again; glyph grounding via prior verified ctext-search + zh.wikipedia confirmations and canonical.",
+    "control_status": "matches its previous verification state exactly (no new issue introduced by the fix batch).",
+    "checked_by": "verifier-batch01-fix",
+    "checked_date": "2026-09-09"
+  }
 }

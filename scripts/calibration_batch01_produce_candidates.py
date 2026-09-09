@@ -30,6 +30,11 @@ from pathlib import Path
 import yaml
 
 from history_data_pipeline.backbone.loader import load_backbone
+from history_data_pipeline.backbone.reference import (
+    CANONICAL_PERSON_NAMES,
+    curated_event_person_seeds,
+    load_curated_person_records,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 SELECTION_FILE = ROOT / "reports" / "calibration_batch01_selection.json"
@@ -58,6 +63,27 @@ def split_summary(summary: str) -> tuple[str, str]:
     background = "".join(sentences[:-1]).strip()
     result = sentences[-1].strip()
     return background, result
+
+
+def _person_anchor_ids() -> tuple[set[str], str]:
+    """B6: 独立锚点集（以仓库内既有 accepted/curated 层为准，不臆造外部验证）。
+
+    Returns (person_id 锚点集, 说明文字)。锚点来源：
+    * CANONICAL_PERSON_NAMES（V2.1 迁移确认的 canonical identity）
+    * data/curated/persons/*.yml（curated 人列）
+    * event_person store 中 link_status=linked 的既有 accepted 记录
+    只有当 person_id 在该集合内时，producer 才允许宣称 linked/confidence；
+    否则统一降级为 needs_linking（AGENTS.md §13：宁保留未决，不做过度合并）。
+    """
+    anchors: set[str] = set(CANONICAL_PERSON_NAMES)
+    sources: list[str] = ["CANONICAL_PERSON_NAMES"]
+    for rec in load_curated_person_records(ROOT):
+        anchors.add(rec["id"])
+    sources.append("data/curated/persons/*.yml")
+    for pid in curated_event_person_seeds(ROOT):
+        anchors.add(pid)
+    sources.append("event_person store linked records")
+    return anchors, " + ".join(sources)
 
 
 # Researcher-confirmed ADDITIONAL evidence:
@@ -120,6 +146,7 @@ def _evidence_entry(
     return {
         "work": work,
         "term": term,
+        "historical_text_id": None,
         "chapter_hint": chapter,
         "context_keywords": [],
         "evidence_role": role,
@@ -130,6 +157,20 @@ def _evidence_entry(
             ("《" + work + "·" + term + "》") if term != work else "《" + work + "》"
         ),
     }
+
+
+# 同一部书引多个篇章时，这些篇章同源（不构成多个独立来源），逐条显式标注（B8）。
+def _mark_single_work_multi_chapter(evs: list[dict]) -> None:
+    from collections import Counter
+
+    counts = Counter(e["work"] for e in evs)
+    if not counts:
+        return
+    for e in evs:
+        if counts[e["work"]] > 1:
+            note = e.get("review_note") or ""
+            if "同书多章" not in note:
+                e["review_note"] = note + f"（注：{e['work']}同一书内多个篇章，单一独立来源）"
 
 
 def _build_evidences(ev, eid: str) -> list[dict]:
@@ -148,6 +189,9 @@ def _build_evidences(ev, eid: str) -> list[dict]:
     # (b) Researcher-verified additional classical source (only where thin)
     for work, term, role, note in ADDITIONAL_EVIDENCE.get(eid, []):
         evs.append(_evidence_entry(work, term, role, note, no_chapter=True))
+
+    # B8: 同书多章 = 单一独立来源，逐条显式标注
+    _mark_single_work_multi_chapter(evs)
     return evs
 
 
@@ -214,9 +258,9 @@ EVIDENCE_FROM_REFERENCE = {
         ("汉书", "景帝纪", "primary", "《汉书·景帝纪》载七国之乱及平定。"),
         (
             "汉书",
-            "吴王濞传",
+            "荆燕吴传",
             "supporting",
-            "《汉书》卷三五“荆燕吴传”中的吴王濞传：载七国之乱吴王刘濞举兵反叛（canonical source_reference 作《吴王濞传》，Researcher 确认其所在之传曰荆燕吴）。",
+            "《汉书》卷三十五《荆燕吴传》载吴王刘濞举兵反、七国之乱始末（吴王事在传中；canonical source_reference 已同步改正）。",
         ),
     ],
     "event-mobei-zhizhan": [
@@ -233,17 +277,62 @@ EVIDENCE_FROM_REFERENCE = {
     ],
 }
 
-# 平王东迁：雒邑/成周 = 洛阳（knowledge.places 唯一实收录条目）
+# 平王东迁：雒邑/成周 与 knowledge.places 收录的洛阳（cbdb-place-14693）对应，
+# 但该条目未带周代有效窗口（外部 CBDB 数据窗口约 710–1050，明显晚于 −770 事件），
+# 无法确认其窗口覆盖 −770 → 按 AGENTS.md §12 不臆造窗口，标 needs_linking 待周代窗口条目。
 PLACE_LINK = {
     "event-pingwang-dongqian": {
-        "place_id": "cbdb-place-14693",
-        "place_name_raw": "洛阳",
+        "place_id": None,
+        "place_name_raw": "雒邑（洛阳）",
         "role": "capital",
-        "link_status": "linked",
+        "link_status": "needs_linking",
         "link_quality_status": "reviewed",
-        "link_confidence": 0.9,
-        "review_note": "雒邑/成周 h 洛阳；knowledge.places 收录的真实对应条目。",
+        "link_confidence": None,
+        "description_zh_cn": "平王东迁所都（雒邑/成周），今河南洛阳一带；未收录带周代窗口的地名实体，按 AGENTS.md §12 不臆造窗口。",
+        "review_note": "雒邑/成周对应今洛阳。knowledge.places 仅收录无窗口的 cbdb 洛阳条目且外部数据将其窗口定为 710 年以后，不与 −770 事件相符；不臆造窗口，置 place_id=None + needs_linking（AGENTS.md §12）。",
     }
+}
+
+# 已注册的 classic works（resolved to registered IDs, 见 reference.py knowledge_seed_rows）。
+# B7: evidence.work 若为已注册作品，则将其 work id 并入候选 source_ids，避免
+# evidence 与外层 source 脱节；未注册的作品一律不臆造 id。
+WORK_ID_BY_TITLE: dict[str, str] = {
+    "史记": "work-curated-shiji",
+    "汉书": "work-curated-hanshu",
+    "后汉书": "work-curated-houhanshu",
+    "三国志": "work-curated-sanguozhi",
+    "资治通鉴": "work-curated-zizhitongjian",
+    "旧唐书": "work-curated-jiutangshu",
+    "新唐书": "work-curated-xintangshu",
+    "春秋": "work-curated-chunqiu",
+    "左传": "work-curated-zuozhuan",
+    "国语": "work-curated-guoyu",
+    "尚书": "work-curated-shangshu",
+    "竹书纪年": "work-curated-zhushu-jinian",
+    "战国策": "work-curated-zhanguoce",
+    "晋书": "work-curated-jinshu",
+    "宋书": "work-curated-songshu",
+    "梁书": "work-curated-liangshu",
+    "陈书": "work-curated-chenshu",
+    "魏书": "work-curated-weishu",
+    "北齐书": "work-curated-beiqishu",
+    "周书": "work-curated-zhoushu",
+    "南史": "work-curated-nanshi",
+    "北史": "work-curated-beishi",
+    "隋书": "work-curated-suishu",
+    "旧五代史": "work-curated-jiuwudaishi",
+    "新五代史": "work-curated-xinwudaishi",
+    "辽史": "work-curated-liaoshi",
+    "宋史": "work-curated-songshi",
+    "金史": "work-curated-jinshi",
+    "续资治通鉴长编": "work-curated-xuzizhitongjianchangbian",
+    "元史": "work-curated-yuanshi",
+    "明史": "work-curated-mingshi",
+    "明实录": "work-curated-mingshilu",
+    "清史稿": "work-curated-qingshigao",
+    "清实录": "work-curated-qingshilu",
+    "中华民国史": "work-curated-minguoshi",
+    "中国抗日战争史": "work-curated-kangzhanshi",
 }
 
 
@@ -280,15 +369,33 @@ def main() -> int:
             "source_type": item.get("source_type"),
             "source_reference": item.get("source_reference"),
             "source_ids": item.get("source_ids") or [],
+            "regime_ids": item.get("regime_ids") or [],
             "people": list(item.get("people") or []),
             "relations": item.get("relations") or [],
         }
+
+        # B6: person id 锚定门 — linked 必须有仓库内锚点，否则降级 needs_linking
+        person_anchors, anchor_src = _person_anchor_ids()
+        for p in cand["people"]:
+            if p.get("link_status") == "linked" and p.get("person_id") not in person_anchors:
+                p["link_status"] = "needs_linking"
+                p.pop("link_confidence", None)
+                p["review_note"] = (
+                    (p.get("review_note") or "") + f"；[B6] person_id 未能在锚点集（{anchor_src}）中独立确认，降级 needs_linking"
+                )
+
         place = PLACE_LINK.get(eid)
         if place:
             cand["places"] = [dict(place)]
         evs = _build_evidences(ev, eid)
         if evs:
             cand["evidence"] = evs
+
+        # B7: evidence.work 若为已注册作品 → 并入 source_ids（保序去重）
+        for ev_row in cand.get("evidence") or []:
+            work_id = WORK_ID_BY_TITLE.get(ev_row.get("work"))
+            if work_id and work_id not in cand["source_ids"]:
+                cand["source_ids"].append(work_id)
 
         out = OUT_DIR / f"{eid}.yml"
         out.write_text(
@@ -303,7 +410,7 @@ def main() -> int:
 
     meta = {
         "batch": "calibration_batch01",
-        "producer": "scripts/calibration_batch01_produce_candidates.py v3",
+        "producer": "scripts/calibration_batch01_produce_candidates.py v4 (fix-list B5-B8)",
         "flow": "canonical → candidate → deterministic QA → verification → gates → audit/report",
         "n": len(SELECTION),
         "events": [s["id"] for s in SELECTION],

@@ -1,32 +1,33 @@
 {
   "eid": "event-qiguo-zhi-luan",
-  "verdict": "WARN",
+  "verdict": "PASS",
   "checks": {
     "verbatim": "PASS",
-    "glyphs": "WARN",
+    "glyphs": "PASS",
     "grounding": "PASS",
     "links": "PASS",
-    "temporal": "PASS"
+    "temporal": "PASS",
+    "fix_b5_evidence": "PASS",
+    "fix_b7_source_ids": "PASS"
   },
-  "source_urls_fetched": [
-    "https://ctext.org/han-shu/jing-yan-wu-zhuan/zhs (HTTP 403 via fetch tool)",
-    "https://ctext.org/wiki.pl?chapter=610451&if=gb (via web_search: 汉书 卷三十五 荆燕吴传)",
-    "https://ctext.org/wiki.pl?chapter=778109&if=gb (via web_search: 汉书 卷五 景帝纪第五)"
-  ],
   "reasons": [
-    "VERBATIM PASS: all canonical-copied fields (name_zh_cn 七国之乱, event_type war, start_year -154, end_year -154, summary_zh_cn, source_reference, source_ids=[work-curated-hanshu], relations) match the canonical file character-for-character. background_zh_cn and result_zh_cn are verbatim sub-slices of the canonical summary. No corruption or differing Han character found.",
-    "GLYPH WARN: candidate labels the Han book evidence chapter 吴王濞传, but the actual Han book chapter holding this biography is 荆燕吴传 (volume 35). 吴王濞传 is not the real chapter header. Correct the locator to 荆燕吴传 before promotion (a locator/title error, not fabricated content).",
-    "GLYPH CONFIRMED: evidence #1 汉书 景帝纪 confirmed (汉书 卷五 景帝纪第五). Glyphs match the fetched source.",
-    "GROUNDING PASS: no invented coordinates, no fabricated chapter, no fabricated text id (historical_text_id null, correct), no fabricated source_id.",
-    "LINKS PASS: evidence link_status all needs_linking; no fabricated links; person ids UNVERIFIED.",
-    "TEMPORAL PASS: start -154 <= end -154; no contradiction and no recorded date dispute.",
-    "SOURCE COUNT: two chapters of one work (汉书); a single source quoted twice, not two independent classical sources."
+    "VERBATIM PASS: all canonical-copied fields (id, name_zh_cn 七国之乱, event_type war, start_year -154, end_year -154, date_precision year, period_id period-western-han, importance critical, summary_zh_cn, quality_status, source_type, source_reference, source_ids=[work-curated-hanshu], regime_ids=[] and all 2 relations) match the canonical file character-for-character; machine YAML comparison returned zero diffs.",
+    "GLYPH PASS (fix #1 applied): both evidence rows and the canonical source_reference now use the correct chapter name 荆燕吴传 (汉书卷三十五), no occurrence of the old wrong glyph 吴王濞传 anywhere in the candidate (byte-scan via Python returned false for '吴王濞传' and true for '荆燕吴传' in both evidence term and chapter_hint).",
+    "VERBATIM SOURCE-REF NOTE: the canonical qin_han/event-qiguo-zhi-luan.yml source_reference itself has been corrected on 2026-09-09 to 古代史料：《汉书·景帝纪》《荆燕吴传》（汉书卷三十五，吴王刘濞事具见其中）— the candidate copies it verbatim.",
+    "GROUNDING PASS: no invented coordinates, no invented dates, no fabricated historical_text_id (all evidence rows carry explicit historical_text_id: null), no unsupported place ids; the only classical locators used (景帝纪, 荆燕吴传) are the chapters named in the canonical source_reference.",
+    "LINKS PASS: both evidence entries have link_status=needs_linking and link_confidence=0.9, no fabricated links; person ids inherited from the accepted EventPerson layer (un-re-verified in this run, noted, not a failure).",
+    "TEMPORAL PASS: start_year -154 <= end_year -154, no date-range violation, no new date dispute introduced.",
+    "fix_b5_evidence PASS: every evidence row (2/2) carries explicit historical_text_id: null; regime_ids preserved as empty [] exactly like canonical (B5),",
+    "fix_b7_source_ids PASS: the only evidence work is 汉书 (two chapters) and source_ids contains the matching work id work-curated-hanshu (present in the curated works registry, dist/json/works.json); no classical work is cited without its source_id.",
+    "PRIOR-ROUND STATE: prior verdict was WARN solely because of the glyph error 吴王濞传; that error is now gone both in the candidate and in the canonical source_reference, so no WARN basis remains for this record."
   ],
   "notes": {
-    "verbatim_diff": "none",
-    "hard_fail": false,
-    "glyph_mismatch": "吴王濞传 should be 荆燕吴传 (汉书 volume 35) per text; the same locator error is carried in the canonical source_reference - correct before promotion.",
-    "person_id_verification": "UNVERIFIED - person ids not independently confirmed",
-    "ctext_fetch_limit": "ctext returned HTTP 403 to the fetch tool; chapter glyphs confirmed via web_search result snippets."
+    "glyph_fix_confirmed": "occurrences of 荆燕吴传: source_reference 1x + evidence term 1x + chapter_hint 1x; occurrences of wrong 吴王濞传: 0.",
+    "single_work_evidence": "two evidence rows are two chapters of the same work 汉书 (review_note in candidate labels them 单一独立来源); per fix-list B8 this is explicitly noted in the evidence review_note, not counted as two independent sources.",
+    "person_id_verification": "UNVERIFIED in this run - person ids (ctext/cbdb) carried from prior EventPerson layer with V2.1 provenance; not re-confirmed against live registries (ctext.org database 403), no indication of fabrication.",
+    "external_mirror_org": "ctext/han-shu pages returned HTTP 403 on 2026-09-09 (matching prior runs); glyph grounding rests on prior fetched zh.wikipedia / wikisource confirmations of 汉书卷三十五=荆燕吴传 plus the on-disk canonical correction.",
+    "qiguo is independent": "Sources for this event are 汉书·景帝纪 and 汉书·荆燕吴传 - both chapters of the same work; acknowledged as single-work evidence within this record.",
+    "checked_by": "verifier-batch01-fix",
+    "checked_date": "2026-09-09"
   }
 }

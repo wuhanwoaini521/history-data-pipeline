@@ -1,29 +1,32 @@
 {
   "eid": "event-pingwang-dongqian",
+  "verdict": "PASS",
   "checks": {
     "verbatim": "PASS",
     "glyphs": "PASS",
-    "grounding": "WARN",
+    "grounding": "PASS",
     "links": "PASS",
-    "temporal": "PASS"
+    "temporal": "PASS",
+    "fix_b5_evidence": "PASS",
+    "fix_b7_source_ids": "PASS"
   },
-  "verdict": "WARN",
-  "source_urls_fetched": [
-    "https://zh.wikipedia.org/wiki/%E5%B9%B3%E7%8E%8B%E4%B8%9C%E8%BF%81",
-    "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%AE%B0",
-    "https://zh.wikipedia.org/wiki/%E5%B7%A6%E4%BC%A0",
-    "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%B9%B3%E7%8E%8B",
-    "https://zh.wikipedia.org/wiki/%E9%9B%80%E9%82%91",
-    "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%AE%B0",
-    "https://ctext.org/shiji/zhou-ben-ji/zhs",
-    "https://baike.baidu.com/item/%E5%91%A8%E6%9C%AC%E7%BA%AA"
-  ],
   "reasons": [
-    "verbatim PASS: every field the candidate copies from the canonical file is character-for-character identical: id, name_zh_cn (平王东迁), event_type (migration), start_year (-770), end_year (-770), date_precision (year), period_id (period-spring-autumn), importance (critical), summary_zh_cn, source_reference, source_ids (work-curated-shiji, work-curated-zuozhuan), and the relations block. Programmatic YAML equality (candidate vs canonical) returned True for every compared field; no differing Chinese character was found.",
-    "glyphs PASS (with one constraint); the exact title characters the candidate cites were confirmed via freshly fetched zh.wikipedia pages: the event article titled 平王东迁 (dated 公元前770年1月11日), the Shiji article whose chapter 4 is 周本纪, the person article 周平王, the place article 雒邑 (=洛邑=成周, located 今洛阳), and the 左传 chronicle article (attributed to 左丘明; described as independent of 史记). ctext.org/shiji/zhou-ben-ji/zhs did return HTTP 403 in this run, so the ctext page itself was NOT fetched; glyph confirmation therefore rests on the zh.wikipedia / zh.wikisource mirrors listed above, and no ctext-level confirmation is claimed.",
-    "grounding WARN: the person id ctext-person-275144 is real and present in the repository's curated event_person artifacts under the name 周平王 (including accepted/reviewed event_person data with canonical_name 周平王), the place id cbdb-place-14693 exists in data/staging/cbdb/places.jsonl with canonical_name 洛陽. The candidate evidence locators (史记 as primary, 左传 as supporting) match the canonical source_reference 古代史料：《史记·周本纪》《左传》. WARN: the CBDB place record carries a Tang-era validity window (valid_from 710, valid_to 959), and the same place id was assigned to the Tang-era 洛阳 event in this repo, but the candidate's event is dated -770, so the record's valid_from/valid_to does not span the event date. Since 雒邑/成周 → modern 洛阳 is geographically correct, this is a temporal layer mismatching WARN (re-pin the place's validity window to the Zhou-era value or leave the place block unlinked until resolved), NOT a fabrication.",
-    "links PASS: link_status = needs_linking on both evidence entries (史记/周本纪 as primary; 左传 as supporting) matches the required needs_linking value, and historical_text_id is null in the candidate, as required; no fake locators, chapters, link_status, coordinates, or fabricated ids were found.",
-    "temporal PASS: start_year (-770) <= end_year (-770) satisfied; the summary's astronomically-backed date is presented as 公元前770年1月11日 on the fetched page 平王东迁, which matches the canonical summary's implication, so the date is plausible and consistent."
+    "VERBATIM PASS: every canonical-copied field matches character-for-character (id, name_zh_cn 平王东迁, event_type migration, start_year -770, end_year -770, date_precision year, period_id period-spring-autumn, importance critical, summary_zh_cn (incl. the precise 前770年1月11日 astronomically-derived date), source_type, source_reference, source_ids=[work-curated-shiji, work-curated-zuozhuan], regime_ids=[] and both relations); machine YAML diff is empty.",
+    "GLYPH PASS: locators 史记·周本纪 and 左传 are genuine classical anchors, previously confirmed via zh.wikipedia/wikisource (and indirectly by the fact the same byte-exact 王入于成周 clause appears in the canonical summary) — as the prior verifier also confirmed.",
+    "PLACE FIX PASS (fix #4 applied): the places entry no longer binds the -770 event to the Tang-era 710-959 洛阳 window. place_id=null, link_status=needs_linking, link_confidence=null, and both description_zh_cn and review_note state explicitly that no window is fabricated（不臆造窗口，置 place_id=None + needs_linking 按AG 12）. No latitude/longitude, no valid_from/valid_to fields appear anywhere.",
+    "GROUNDING PASS: byte-scan confirms NO coordinate keys (latitude/longitude), NO valid_from/valid_to keys, and NO place_id value (only the literal placeholder null); the string 710/959 appears only inside the review_note prose as the reason the fabricated window is rejected, not as an active window binding.",
+    "LINKS PASS: evidence rows (史记·周本纪 primary, 左传 supporting) both link_status=needs_linking and historical_text_id null; no invented links.",
+    "TEMPORAL PASS: start_year -770 <= end_year -770; the summary's astronomically-derived date 前770年1月11日 matches the canonical text byte-for-byte (the 左传 王入于成周 clause is the same bytes as in canonical).",
+    "fix_b5_evidence PASS: both evidence rows carry historical_text_id: null explicitly; regime_ids preserved [] as in canonical (B5).",
+    "fix_b7_source_ids PASS: evidence works 史记 and 左传 both have corresponding work ids work-curated-shiji and work-curated-zuozhuan in source_ids — both in the curated works registry (dist/json/works.json); no classical work is cited without its work id.",
+    "PRIOR-ROUND WARN RESOLVED: the previous WARN (Tang-era window place id cbdb-place-14693 with 710-959 applied to a -770 event) is fully removed — the record now honestly parks the place as unresolved instead of attaching an inconsistent window."
   ],
-  "notes": "Source independence: 史记·周本纪 (Sima Qian, Han) and 左传 (Zuo Zhuan, attributed to Zuo Qiuming) are two distinct classical works — different authors, eras, and textual traditions — so the candidate cites two genuinely independent anchors, NOT one source transcribed twice. The webpage 平王东迁 explicitly quotes the Zuozhuan clause 王入于成周 (and the same clause appears byte-identical in this canonical summary), so the candidate's summary phrase is grounded in the primary text. ctext.org and baike.baidu.com returned 403 on this run; all glyph confirmations were on zh.wikipedia and zh.wikisource (see source_urls_fetched). The only WARN issue: the CBDB place temporal window (710–959) bound to a -770 event; recommend re-pinning it (Zhou-era window) before accepting promotion. All other gates passed."
+  "notes": {
+    "place_window_removed": "The fabricated 710-959 window is no longer attached to any place_id: the place entity is null + needs_linking with rationale documented in review_note (AGENTS.md §12).",
+    "place_name_still_reliable": "雒邑/成周 → 今洛阳 mapping is geographically correct and explicitly stated; only the machine window-pinning is deferred to the resolver/linking stage.",
+    "person_id_verification": "UNVERIFIED in this run - ctext-person-275144 (周平王) carried from prior EventPerson layer.",
+    "external_access": "ctext.org http 403 as before; glyph/state grounding for this record used prior verified zh.wikipedia/wikisource confirmations and on-disk canonical.",
+    "checked_by": "verifier-batch01-fix",
+    "checked_date": "2026-09-09"
+  }
 }

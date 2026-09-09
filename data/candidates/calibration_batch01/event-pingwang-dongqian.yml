@@ -15,6 +15,7 @@ source_reference: 古代史料：《史记·周本纪》《左传》；现代参
 source_ids:
 - work-curated-shiji
 - work-curated-zuozhuan
+regime_ids: []
 people:
 - person_id: ctext-person-275144
   person_name_raw: 周平王
@@ -35,16 +36,19 @@ relations:
   confidence: 0.7
   description_zh_cn: 王室权威进一步衰落，郑等国率先坐大
 places:
-- place_id: cbdb-place-14693
-  place_name_raw: 洛阳
+- place_id: null
+  place_name_raw: 雒邑（洛阳）
   role: capital
-  link_status: linked
+  link_status: needs_linking
   link_quality_status: reviewed
-  link_confidence: 0.9
-  review_note: 雒邑/成周 h 洛阳；knowledge.places 收录的真实对应条目。
+  link_confidence: null
+  description_zh_cn: 平王东迁所都（雒邑/成周），今河南洛阳一带；未收录带周代窗口的地名实体，按 AGENTS.md §12 不臆造窗口。
+  review_note: 雒邑/成周对应今洛阳。knowledge.places 仅收录无窗口的 cbdb 洛阳条目且外部数据将其窗口定为 710 年以后，不与
+    −770 事件相符；不臆造窗口，置 place_id=None + needs_linking（AGENTS.md §12）。
 evidence:
 - work: 史记
   term: 周本纪
+  historical_text_id: null
   chapter_hint: 周本纪
   context_keywords: []
   evidence_role: primary
@@ -54,6 +58,7 @@ evidence:
   review_note: 《史记·周本纪》
 - work: 左传
   term: 左传
+  historical_text_id: null
   chapter_hint: null
   context_keywords: []
   evidence_role: supporting

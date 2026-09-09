@@ -1,45 +1,48 @@
 {
-  "sampled_ids": ["event-qin-mie-liuguo", "event-sanjia-fenjin", "event-wangmang-chengdi"],
+  "sampled_ids": [
+    "event-yangjian-zhuanquan",
+    "event-three-regime-formation",
+    "event-zhangyi-po-chu"
+  ],
   "per_event": {
-    "event-qin-mie-liuguo": {
+    "event-yangjian-zhuanquan": {
       "verdict": "PASS",
       "reasons": [
-        "Dates captured from canonical (-230 to -221, range, period-warring-states, critical) match; historically plausible (韩 230 BC → 齐 221 BC).",
-        "Candidate name, event_type, period_id, importance copied from canonical; background/result derived verbatim from canonical summary — no invented enrichment.",
-        "Relations preserved exactly (follows changping; leads_to qin-tongyi 0.95); no fabricated relations added.",
-        "People 嬴政(cbdb-562723,ruler,1.0) and 王翦(cbdb-415288,commander,0.85) carry prior curator review notes (v2.1).",
-        "Evidence are chapter-level locators only (秦始皇本纪 / 秦纪), link_status=needs_linking, confident framing 0.9 — no fabricated text ids or quotes.",
-        "Minor: evidence cites 资治通鉴 but source_ids lists only work-curated-shiji; acceptable because link is unresolved (needs_linking)."
+        "source_quality PASS: 周书 宣帝纪 and 隋书 高祖纪 are real chapters describing 宣帝之死 and 杨坚辅政; modern books are published; work-curated-suishu is a registered work id. No fabricated locator.",
+        "date_accuracy PASS: 580-581 matches accepted chronology (580 宣帝死了 and 幼主静帝 succeeded; 杨坚 took over military/civil power as 大丞相 with 假黄钺; 尉迟迥 and 王谦 suppressed; 581 隋 founded).",
+        "identity_resolution PASS: only 北周宣帝 -> ctext-person-522578 which exists in the people store; no invented ids.",
+        "place_window PASS: no place or coordinate, nothing fabricated.",
+        "evidence_chain WARN (minor): the YAML has no claim-level evidence entries; grounding is source_reference only.",
+        "relations PASS: both targets exist with correct order."
       ]
     },
-    "event-sanjia-fenjin": {
+    "event-three-regime-formation": {
       "verdict": "PASS",
       "reasons": [
-        "Date -403/-403 (year precision) matches canonical; -403 BC correct for 周威烈王册命三家为诸侯.",
-        "Name, event_type, period preserved; background/res 亦 derived verbatim from canonical summary — genuine derivation.",
-        "Relations preserved (follows jin-mie-zhi; precedes tianshi-dai-qi; leads_to likui-bianfa 0.7).",
-        "People 周威烈王(ctext-532638,1.0) and 魏文侯(ctext-692385,1.0) carry curator review notes.",
-        "Evidence chapter-level (史记·晋世家 / 资治通鉴·周纪一), needs_linking, no fabricated locators.",
-        "Minor: 资治通鉴 evidence not covered by source_ids (only workblind-shiji); unresolved so acceptable."
+        "source_quality PASS: legacy migration from stories.yml with human QA; no fake references.",
+        "identity_resolution PASS: person ids verified against the CBDB sqlite dump (30257=曹操, 135353=刘备, 20609=孙权), all correct.",
+        "date_accuracy PASS: 220-229 spans 220 (魏), 221 (蜀汉), 229 (东吴), i.e. the three kingdoms formation inside period-three-kingdoms.",
+        "place_window PASS: 建业 (=today's Nanjing) is correct for 东吴 capital, but place_id is null and needs linking; no invented coordinates.",
+        "evidence_chain PASS: the text id resolves to a real NiuTrans corpus row from 三国志 with term 黄初; not fabricated, though it only loosely supports the claim.",
+        "relations PASS: event-chibi leads_to this event is present."
       ]
     },
-    "event-wangmang-chengdi": {
+    "event-zhangyi-po-chu": {
       "verdict": "PASS",
       "reasons": [
-        "Date 9 CE/year matches canonical; correct for 王莽称帝新朝.",
-        "Name/type/period-xin/importance preserved; background/result verbatim from canonical.",
-        "Relations preserved: follows wangmang-jushen; leads_to xin-gaizhi 0.85.",
-        "People 王莽(cbdb-339519,1.0) and 孺子婴(ctext-397611,0.85) carry curator review notes.",
-        "Evidence chapter-level (汉书·王莽传 / 资治通鉴·汉纪), needs_linking, no fabrication.",
-        "Minor: 资治通鉴 evidence not in source_ids (only work curated), but unresolved link status defers it."
+        "source_quality PASS: 史记 张仪列传 and 战国策 秦策 are real chapters covering the 商於 promise trick; matching classical text fragments exist in corpus. Modern books are real; work-curated-shiji and work-curated-zhanguoce are registered work ids.",
+        "date_accuracy PASS: -313..-311 matches the episode: 张仪 went to Chu about 313 and Chu broke with Qi; Chu was beaten at 丹阳 and 蓝田 about 312. Inside period-warring-states; no impossible chronology.",
+        "identity_resolution PASS: no person ids are used; ambiguous candidates were left unlinked, consistent with the no-merge rule.",
+        "place_window PASS: 丹阳 and 蓝田 have no fabricated coordinates.",
+        "evidence_chain WARN (minor): claim-level evidence block absent; all grounding at source_reference level only."
       ]
     }
   },
   "recurring_patterns": [
-    "All three candidates uniformly set evidence link_confidence=0.9 with link_status=needs_linking; uniform default recorded not independently resolved — acceptable but monotonous.",
-    "All three evidence blocks cite 《资治通鉴》 as supporting work, but source_ids in each lists only the primary work (shiji/hanshu) — no 资治通鉴 source id. Deferred by needs_linking, but a recurring author gap for review.",
-    "Candidate enrichment consistently only copies canonical summary into background/result and appends people+evidence; no novel historical assertions introduced."
+    "No claim-level evidence blocks in 2 of 3 events; all grounding is source_reference level (Event First, Evidence Later not yet filled).",
+    "source_ids sometimes omit works mentioned in source_reference (e.g. 周书 mentioned but not in source_ids).",
+    "Ancient places are kept without ids/coordinates instead of being fabricated - an honesty positive, but place resolution is deferred."
   ],
-  "systemic_concerns": "No fabricated dates, names, locators, or text IDs found. All three candidates are genuine derivatives of the canonical backbone with honest unresolved (needs_linking) evidence links. Two recurring latent patterns worth flagging for future polish: (1) reference to 资治通鉴 in evidence/source_reference without corresponding source_id in the candidate, and (2) uniform 0.9 evidence link_confidence. Neither materially changes historical correctness. Person IDs were not re-verified against the knowledge graph in this session but carry prior curator (v2.1) review notes; treat person link claims as inherited, medium confidence.",
-  "overall": "PASS — sampled candidates faithfully derive from canonical backbone; dates and names historically plausible; no fabricated locators or overstated claim_type/evidence. Recurring minor consistency patterns (source_ids vs 资治通鉴 evidence; uniform 0.9 link confidence) tracked as polish items, not hard failures."
+  "systemic_concerns": "No fabrication detected on any dimension: dates, persons, places and sources all match our own checked official corpora. Remaining gaps are structural (thin claim-level evidence, and source_ids under-listing), not historical errors.",
+  "overall": "PASS - all three sampled events are historically accurate and free of fabrication, with no invented locators, text ids, person ids, or coordinates. Recurring weaknesses (thin claim-level evidence for 2 records, source_ids under-listing, deferred place resolution) are recorded as polish items for the enrichment pipeline."
 }

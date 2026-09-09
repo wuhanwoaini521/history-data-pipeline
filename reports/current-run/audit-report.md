@@ -5,8 +5,8 @@
 
 | event_id | name_zh_cn | status | checks |
 | --- | --- | --- | --- |
-| event-yangjian-dai-beizhou | 杨坚代北周、隋朝建立 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
-| event-three-north-consolidation | 曹操北方势力巩固 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
-| event-yue-mie-wu | 越灭吴 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
+| event-yangjian-zhuanquan | 杨坚辅政掌权 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
+| event-three-regime-formation | 三国鼎立格局逐渐形成 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
+| event-zhangyi-po-chu | 张仪欺楚 | needs_independent_audit | source_quality, identity_resolution, date_accuracy, place_window, evidence_chain |
 
 > This file fixes the audit queue; an independent Verifier/Auditor fills in findings.

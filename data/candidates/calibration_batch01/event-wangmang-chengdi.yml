@@ -6,14 +6,16 @@ end_year: 9
 date_precision: year
 period_id: period-xin
 importance: critical
-summary_zh_cn: 公元9年（初始元年十二月/始建国元年），王莽接受刘氏禅让称帝，改国号曰"新"，废汉朝年号，西汉刘氏统治终结。王莽代汉是中国历史上第一次以外戚身份通过禅让程序改朝换代，也是西汉外戚政治的终局。
-background_zh_cn: 公元9年（初始元年十二月/始建国元年），王莽接受刘氏禅让称帝，改国号曰"新"，废汉朝年号，西汉刘氏统治终结。
-result_zh_cn: 王莽代汉是中国历史上第一次以外戚身份通过禅让程序改朝换代，也是西汉外戚政治的终局。
+summary_zh_cn: 公元9年（初始元年十二月/始建国元年），王莽接受刘氏禅让称帝，改国号曰"新"，废汉朝年号，西汉刘氏统治终结。王莽代汉是中国历史上第一次以外戚身份通过禅让程序改朝换代，也是西汉外戚政治的终局。关于称帝年份存在两说：一按初始元年（公元8年）计、一按始建国元年（公元9年）计，属争议年代（DISPUTED）；本条系年取公元9年，与《汉书·王莽传》纪年一致。
+background_zh_cn: 公元9年（初始元年十二月/始建国元年），王莽接受刘氏禅让称帝，改国号曰"新"，废汉朝年号，西汉刘氏统治终结。王莽代汉是中国历史上第一次以外戚身份通过禅让程序改朝换代，也是西汉外戚政治的终局。
+result_zh_cn: 关于称帝年份存在两说：一按初始元年（公元8年）计、一按始建国元年（公元9年）计，属争议年代（DISPUTED）；本条系年取公元9年，与《汉书·王莽传》纪年一致。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《汉书·王莽传》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
 source_ids:
 - work-curated-hanshu
+- work-curated-zizhitongjian
+regime_ids: []
 people:
 - person_id: cbdb-person-339519
   person_name_raw: 王莽
@@ -48,6 +50,7 @@ relations:
 evidence:
 - work: 汉书
   term: 王莽传
+  historical_text_id: null
   chapter_hint: 王莽传
   context_keywords: []
   evidence_role: primary
@@ -57,6 +60,7 @@ evidence:
   review_note: 《汉书·王莽传》
 - work: 资治通鉴
   term: 汉纪
+  historical_text_id: null
   chapter_hint: null
   context_keywords: []
   evidence_role: supporting

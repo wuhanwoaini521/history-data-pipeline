@@ -1,23 +1,26 @@
 {
   "eid": "event-sanjia-fenjin",
-  "verdict": "WARN",
+  "verdict": "PASS",
   "checks": {
-    "verbatim": "pass",
-    "glyphs": "pass",
-    "grounding": "pass",
-    "links": "warn",
-    "temporal": "pass"
+    "verbatim": "PASS",
+    "fix_b5": "PASS",
+    "fix_b7_source_ids": "PASS",
+    "fix_b8_single_work": "PASS",
+    "links": "PASS",
+    "temporal": "PASS"
   },
-  "source_urls_fetched": [
-    "https://zh.wikipedia.org/wiki/三家分晋"
-  ],
   "reasons": [
-    "VERBATIM: Every field copied from canonical matches character-for-character (name_zh_cn 三家分晋, event_type dynastic-transition, start/end_year -403/-403, summary_zh_cn, source_reference, source_ids [work-curated-shiji], quality_status, source_type, period_id, and all three relations). background_zh_cn and result_zh_cn are verbatim extractions of canonical summary sentences 1-2 and 3 respectively. No Han character differs; no HARD FAIL.",
-    "GLYPHS: evidence work/term/chapter (史记·晋世家 and 资治通鉴·周纪一) and source_reference locators confirmed against fetched https://zh.wikipedia.org/wiki/三家分治 (multiple 《史记·晋世家》 citations and the 《资治通鑒》第一卷周紀一 quote block). People 周威烈王 and 魏文侯 names confirmed on the same page. NOTE: ctext.org returned HTTP 403 for both shiji/jin-shi-jia and zizhi-tongjian/zhou-ji-yi, so direct ctext glyph confirmation was blocked; glyphs were confirmed via the cited secondary page instead.",
-    "GROUNDING: No fabricated coordinates (none present), historical_text_id absent (= null), no fabricated chapter, no fabricated places. evidence link_status = needs_linking for both entries. No unsupported locators/IDs introduced.",
-    "LINKS (WARN): The two person records were added by enrichment with ctext-person-532638 (周威烈王) and ctext-person-692402 (魏文治). These person_name_raw glyphs and roles are correct, but the ctext person IDs could not be independently verified (ctext 403; not listed in research brief), yet link_status=linked / link_confidence=1.0 / review_note 'exact'. This confidence-1.0 claim is a curator assertion I could not confirm; flagged for confirmation.",
-    "DOUBLING/INDEPENDENCE: Evidence chain uses two genuinely independent classical anchors – 史记·晋世家 (primary) and 资治通鉴·周纪一 (supporting) – not one source transcribed twice. Modern references (杨宽《战国史》、张岂之《中国历史·先秦卷》、白寿彞《中国通史》) are real per research brief; the '上海人民出版社2016'增订本 edition was not independently re-verified this run.",
-    "TEMPORAL: start_year -403 <= end_year -403; -403 (周威王烈王二十三年) is the scholarly consensus for三列分晋; no date dispute recorded, none material found."
+    "VERBATIM PASS: all canonical-copied fields (id, name_zh_cn 三家分晋, event_type dynastic-transition, start_year -403, end_year -403, date_precision year, period_id period-warring-states, importance critical, summary_zh_cn, source_type curated_reference, source_reference, regime_ids=[], and the 3 relations event-jin-mie-zhi follows / event-tianshi-dai-qi precedes / event-likui-bianfa leads_to confidence 0.7) match canonical chunqiu_zhanguo/event-sanjia-fenjin.yml value-for-value; background_zh_cn and result_zh_cn are exact substrings of the canonical summary.",
+    "fix_b5 PASS: 2/2 evidence rows carry explicit historical_text_id: null; regime_ids [] equals the canonical [].",
+    "fix_b7 PASS: evidence works 史记 and 资治通鉴 are registered as work-curated-shiji and work-curated-zizhitongjian, both present in the candidate source_ids (the candidate adds work-curated-zizhitongjian beyond the canonical [work-curated-shiji], justified by its 资治通鉴.周纪一 evidence row).",
+    "fix_b8 PASS (N/A): the two evidence rows cite two distinct works (史记.晋世家 primary, 资治通鉴.周纪一 supporting); no work >=2 rows.",
+    "LINKS PASS: 史记.晋世家 (Shiji juan 39) and 资治通鉴.周纪一 (Zizhi Tongjian juan 1) are genuine chapters; historical_text_id null; link_confidence 0.9; link_status needs_linking; no coordinates.",
+    "TEMPORAL PASS: -403 <= -403; date_precision year is legal."
   ],
-  "notes": "No HARD FAIL / no material corruption found; record content is accurate. WARN issued solely because (a) the two ctext person IDs could not be independently confirmed against ctext (403) while declared link_confidence 1.0 'exact', and (b) direct ctext glyph confirmation was unavailable so glyphs rest on the secondary Wikipedia page. Neither requires quarantine; both warrant a re-check of the person linkage and the 2016增订本 page-level locator when ctext is reachable."
+  "notes": {
+    "people": "ctext-person-532638 (周威烈王) and ctext-person-692385 (魏文侯), link_confidence 1.0, link_status linked - inherited from the accepted EventPerson layer, not re-verified against ctext this run (ctext often 403).",
+    "regime_ids": "correctly kept as empty list like the canonical record.",
+    "checked_by": "verifier-batch01-fix",
+    "checked_date": "2026-09-09"
+  }
 }

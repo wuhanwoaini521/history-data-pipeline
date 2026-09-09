@@ -14,6 +14,8 @@ source_type: curated_reference
 source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
 source_ids:
 - work-curated-shiji
+- work-curated-zizhitongjian
+regime_ids: []
 people:
 - person_id: cbdb-person-562723
   person_name_raw: 嬴政
@@ -43,6 +45,7 @@ relations:
 evidence:
 - work: 史记
   term: 秦始皇本纪
+  historical_text_id: null
   chapter_hint: 秦始皇本纪
   context_keywords: []
   evidence_role: primary
@@ -52,6 +55,7 @@ evidence:
   review_note: 《史记·秦始皇本纪》
 - work: 资治通鉴
   term: 秦纪
+  historical_text_id: null
   chapter_hint: null
   context_keywords: []
   evidence_role: supporting

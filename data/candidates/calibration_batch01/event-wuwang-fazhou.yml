@@ -15,6 +15,7 @@ source_reference: 古代史料：《史记·周本纪》《尚书·牧誓》、�
 source_ids:
 - work-curated-shiji
 - work-curated-shangshu
+regime_ids: []
 people:
 - person_id: ctext-person-34131
   person_name_raw: 周武王
@@ -35,6 +36,7 @@ relations:
 evidence:
 - work: 史记
   term: 周本纪
+  historical_text_id: null
   chapter_hint: 周本纪
   context_keywords: []
   evidence_role: primary
@@ -44,6 +46,7 @@ evidence:
   review_note: 《史记·周本纪》
 - work: 尚书
   term: 牧誓
+  historical_text_id: null
   chapter_hint: 牧誓
   context_keywords: []
   evidence_role: primary

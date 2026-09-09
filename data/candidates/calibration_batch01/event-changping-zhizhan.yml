@@ -6,14 +6,15 @@ end_year: -260
 date_precision: year
 period_id: period-warring-states
 importance: critical
-summary_zh_cn: 前260年，秦将白起与赵括在长平（今山西高平一带）决战，赵军四十五万主力被围歼，赵国从此一蹶不振。此役是战国战争烈度巅峰，消灭了关东唯一可与秦抗衡的军事力量，秦统一六国的格局由此基本锁定。
-background_zh_cn: 前260年，秦将白起与赵括在长平（今山西高平一带）决战，赵军四十五万主力被围歼，赵国从此一蹶不振。
-result_zh_cn: 此役是战国战争烈度巅峰，消灭了关东唯一可与秦抗衡的军事力量，秦统一六国的格局由此基本锁定。
+summary_zh_cn: 前260年，秦将白起与赵括在长平（今山西高平一带）决战，赵军主力被围歼，赵国从此一蹶不振。此役是战国战争烈度巅峰，消灭了关东唯一可与秦抗衡的军事力量，秦统一六国的格局由此基本锁定。关于赵军伤亡数目，史书记载并不一致：《史记》各篇传"四十五万"与"四十万"等异说并存，诸史家论述亦有差异，属争议数字（DISPUTED），如实保留，不取单一之说。
+background_zh_cn: 前260年，秦将白起与赵括在长平（今山西高平一带）决战，赵军主力被围歼，赵国从此一蹶不振。此役是战国战争烈度巅峰，消灭了关东唯一可与秦抗衡的军事力量，秦统一六国的格局由此基本锁定。
+result_zh_cn: 关于赵军伤亡数目，史书记载并不一致：《史记》各篇传"四十五万"与"四十万"等异说并存，诸史家论述亦有差异，属争议数字（DISPUTED），如实保留，不取单一之说。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·白起王翦列传》《廉颇蔺相如列传》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
 source_ids:
 - work-curated-shiji
+regime_ids: []
 people:
 - person_id: cbdb-person-416324
   person_name_raw: 白起
@@ -51,22 +52,24 @@ relations:
 evidence:
 - work: 史记
   term: 白起王翦列传
+  historical_text_id: null
   chapter_hint: 白起王翦列传
   context_keywords: []
   evidence_role: primary
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《史记·白起王翦列传》
+  review_note: 《史记·白起王翦列传》（注：史记同一书内多个篇章，单一独立来源）
 - work: 史记
   term: 廉颇蔺相如列传
+  historical_text_id: null
   chapter_hint: 廉颇蔺相如列传
   context_keywords: []
   evidence_role: primary
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《史记·廉颇蔺相如列传》
+  review_note: 《史记·廉颇蔺相如列传》（注：史记同一书内多个篇章，单一独立来源）
 # event-changping-zhizhan — calibration_batch01 enriched candidate (Producer)
 # background/result derived verbatim from canonical summary
 # evidence appointed to canonical source_reference or Researcher-verified classics

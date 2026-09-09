@@ -15,6 +15,7 @@ source_reference: 古代史料：《史记·卫将军骠骑列传》《匈奴列
 source_ids:
 - work-curated-shiji
 - work-curated-hanshu
+regime_ids: []
 people:
 - person_id: cbdb-person-16626
   person_name_raw: 汉武帝
@@ -59,6 +60,7 @@ relations:
 evidence:
 - work: 史记
   term: 卫将军骠骑列传
+  historical_text_id: null
   chapter_hint: 卫将军骠骑列传
   context_keywords: []
   evidence_role: primary
@@ -68,6 +70,7 @@ evidence:
   review_note: 《史记·卫将军骠骑列传》
 - work: 汉书
   term: 武帝纪
+  historical_text_id: null
   chapter_hint: 武帝纪
   context_keywords: []
   evidence_role: primary

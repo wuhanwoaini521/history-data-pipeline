@@ -6,22 +6,22 @@
   "counts": {
     "backbone_events": 618,
     "candidates": 10,
-    "accepted": 10,
-    "quarantined": 0,
+    "accepted": 9,
+    "quarantined": 1,
     "audited": 3
   },
   "verdict_counts": {
-    "QUARANTINE_MEDIUM": 434,
+    "QUARANTINE_MEDIUM": 435,
     "QUARANTINE_LOW": 184,
-    "AUTO_ACCEPT": 10
+    "AUTO_ACCEPT": 9
   },
   "score": {
-    "mean": 74.0,
+    "mean": 73.9,
     "min": 65.0,
-    "max": 95.7,
+    "max": 94.4,
     "histogram": {
-      "90-100": 10,
-      "75-89": 434,
+      "90-100": 9,
+      "75-89": 435,
       "0-74": 184
     }
   },
@@ -31,8 +31,8 @@
   },
   "audit": [
     {
-      "event_id": "event-yangjian-dai-beizhou",
-      "name_zh_cn": "杨坚代北周、隋朝建立",
+      "event_id": "event-yangjian-zhuanquan",
+      "name_zh_cn": "杨坚辅政掌权",
       "status": "needs_independent_audit",
       "checks": [
         "source_quality",
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "event_id": "event-three-north-consolidation",
-      "name_zh_cn": "曹操北方势力巩固",
+      "event_id": "event-three-regime-formation",
+      "name_zh_cn": "三国鼎立格局逐渐形成",
       "status": "needs_independent_audit",
       "checks": [
         "source_quality",
@@ -55,8 +55,8 @@
       ]
     },
     {
-      "event_id": "event-yue-mie-wu",
-      "name_zh_cn": "越灭吴",
+      "event_id": "event-zhangyi-po-chu",
+      "name_zh_cn": "张仪欺楚",
       "status": "needs_independent_audit",
       "checks": [
         "source_quality",
