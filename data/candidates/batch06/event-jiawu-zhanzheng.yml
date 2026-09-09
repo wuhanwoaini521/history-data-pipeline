@@ -1,0 +1,91 @@
+id: event-jiawu-zhanzheng
+name_zh_cn: 甲午战争
+event_type: war
+start_year: 1894
+end_year: 1895
+date_precision: range
+period_id: period-late-qing
+importance: critical
+summary_zh_cn: 光绪二十至二十一年（1894—1895 年），日本以朝鲜东学党起义为契机出兵朝鲜，清军与日军在朝鲜、黄海、辽东、山东交战，北洋海军在黄海海战与威海卫之战中覆没，清军全面失败；1895
+  年签订《马关条约》。本事件为 aggregate，子事件（黄海海战、威海卫之战、马关条约）经 part_of 关联。
+background_zh_cn: 光绪二十至二十一年（1894—1895 年），日本以朝鲜东学党起义为契机出兵朝鲜，清军与日军在朝鲜、黄海、辽东、山东交战，北洋海军在黄海海战与威海卫之战中覆没，清军全面失败；1895
+  年签订《马关条约》。
+result_zh_cn: 本事件为 aggregate，子事件（黄海海战、威海卫之战、马关条约）经 part_of 关联。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·德宗实录》；《中日战争》资料丛刊；现代参考：戚其章《甲午战争史》（人民出版社）；李剑农《中国近百年政治史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+regime_ids:
+- regime-qing
+people:
+- person_id: cbdb-person-54297
+  person_name_raw: 光绪帝
+  role: ruler
+  role_zh_cn: 在位皇帝
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jiawu-zhanzheng.yml]
+- person_id: cbdb-person-58961
+  person_name_raw: 李鸿章
+  role: official
+  role_zh_cn: 主和与议和代表
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jiawu-zhanzheng.yml]
+- person_id: cbdb-person-58649
+  person_name_raw: 丁汝昌
+  role: commander
+  role_zh_cn: 北洋海军提督（殉国）
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jiawu-zhanzheng.yml]
+- person_id: curated-person-cixi-taihou
+  person_name_raw: 慈禧太后
+  role: ruler
+  role_zh_cn: 清·统治者
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jiawu-zhanzheng.yml]
+relations:
+- target_event_id: event-zhongfa-zhanzheng
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 中法战争后十年的对外战争。
+- target_event_id: event-beiyang-haijun
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 北洋海军参战并覆没。
+evidence:
+- work: 清实录
+  term: 德宗实录
+  historical_text_id: null
+  chapter_hint: 德宗实录
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《清实录·德宗实录》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-jiawu-zhanzheng — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

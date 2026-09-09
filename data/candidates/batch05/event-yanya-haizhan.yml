@@ -1,0 +1,90 @@
+id: event-yanya-haizhan
+name_zh_cn: 崖山海战、南宋灭亡
+event_type: war
+start_year: 1279
+end_year: 1279
+date_precision: year
+period_id: period-southern-song
+importance: critical
+summary_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
+background_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
+result_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·瀛国公纪》；《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-songshi
+- work-curated-yuanshi
+regime_ids:
+- regime-yuan
+- regime-southern-song
+people:
+- person_id: cbdb-person-9018
+  person_name_raw: 赵昺
+  role: victim
+  role_zh_cn: 宋末帝（蹈海）
+  side: 南宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-yanya-haizhan.yml]
+- person_id: cbdb-person-17112
+  person_name_raw: 陆秀夫
+  role: participant
+  role_zh_cn: 负帝蹈海（丞相）
+  side: 南宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-yanya-haizhan.yml]
+- person_id: cbdb-person-15200
+  person_name_raw: 张世杰
+  role: commander
+  role_zh_cn: 崖山宋军统帅
+  side: 南宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-yanya-haizhan.yml]
+relations:
+- target_event_id: event-linan-touxiang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 临安降后南宋流亡朝廷的最后一战。
+- target_event_id: event-wentianxiang-kangyuan
+  relation_type: follows
+  confidence: 0.6
+  description_zh_cn: 崖山覆亡后文天祥仍系大都狱中。
+evidence:
+- work: 宋史
+  term: 瀛国公纪
+  historical_text_id: null
+  chapter_hint: 瀛国公纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《宋史·瀛国公纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 元史
+  term: 世祖纪
+  historical_text_id: null
+  chapter_hint: 世祖纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《元史·世祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-yanya-haizhan — batch05 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

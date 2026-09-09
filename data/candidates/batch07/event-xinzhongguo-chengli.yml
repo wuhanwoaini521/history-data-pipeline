@@ -1,0 +1,53 @@
+id: event-xinzhongguo-chengli
+name_zh_cn: 中华人民共和国成立
+event_type: foundation
+start_year: 1949
+end_year: 1949
+date_precision: year
+period_id: period-modern
+importance: critical
+summary_zh_cn: 1949 年 10 月 1 日，毛泽东在北京天安门宣布中华人民共和国中央人民政府成立；本事件为现代 China 史主干之边界点，1950
+  年代以后的历史留待 Modern China Backbone V2 另行建设。
+background_zh_cn: 1949 年 10 月 1 日，毛泽东在北京天安门宣布中华人民共和国中央人民政府成立；本事件为现代 China 史主干之边界点，1950
+  年代以后的历史留待 Modern China Backbone V2 另行建设。
+result_zh_cn: 1949 年 10 月 1 日，毛泽东在北京天安门宣布中华人民共和国中央人民政府成立；本事件为现代 China 史主干之边界点，1950
+  年代以后的历史留待 Modern China Backbone V2 另行建设。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：开国大典档案与《人民日报》首刊；现代研究：《中国共产党历史》第一卷、中共中央党史研究室《中国共产党历史》第一卷；张宪文主编《中华民国史》；金冲及《二十世纪中国史纲》
+source_ids:
+- work-curated-minguoshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-mao-zedong
+  person_name_raw: 毛泽东
+  role: political_leader
+  role_zh_cn: 中华人民共和国·政治领导人
+  side: 中华人民共和国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xinzhongguo-chengli.yml]
+- person_id: curated-person-zhou-enlai
+  person_name_raw: 周恩来
+  role: political_leader
+  role_zh_cn: 中华人民共和国·政治领导人
+  side: 中华人民共和国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xinzhongguo-chengli.yml]
+relations:
+- target_event_id: event-dujiang-nanjing
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 大陆战事结束后建政。
+# event-xinzhongguo-chengli — batch07 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

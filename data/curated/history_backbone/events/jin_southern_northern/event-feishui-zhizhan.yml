@@ -27,3 +27,40 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 淝水败绩直接引发前秦瓦解
+evidence:
+- work: 晋书
+  term: 苻坚载记
+  historical_text_id: null
+  chapter_hint: 苻坚载记
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·苻坚载记》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 晋书
+  term: 谢玄传
+  historical_text_id: null
+  chapter_hint: 谢玄传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·谢玄传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 资治通鉴
+  term: 晋纪
+  historical_text_id: null
+  chapter_hint: 晋纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+background_zh_cn: 太元八年（383年）前秦苻坚大举南征东晋，东晋谢安、谢玄以八万北府兵在淝水（今安徽寿县一带）大败前秦军，前秦号称百万之众土崩瓦解。
+result_zh_cn: 淝水之战保住东晋半壁江山，并直接导致前秦崩裂、北方再度分裂，南北对峙格局由此长期延续。
+# promoted from data/candidates/batch02/event-feishui-zhizhan.yml (AUTO_ACCEPT gate)

@@ -1,0 +1,181 @@
+{
+  "report": "calibration-batches-02-07",
+  "generated": "2026-09-09",
+  "scope": {
+    "batches": [
+      "batch02",
+      "batch03",
+      "batch04",
+      "batch05",
+      "batch06",
+      "batch07"
+    ],
+    "events": 52,
+    "per_batch": {
+      "batch02": {
+        "scope": 10,
+        "auto": 8,
+        "quarantine": 2,
+        "min": 87.7,
+        "max": 96.0,
+        "mean": 92.8,
+        "auto_ids": [
+          "event-xin-mie",
+          "event-caopi-dai-han",
+          "event-jin-mie-wu",
+          "event-bawang-zhi-luan",
+          "event-yongjia-zhi-luan",
+          "event-xijin-mie-wang",
+          "event-feishui-zhizhan",
+          "event-beiwei-tongyi-beifang"
+        ],
+        "quarantine_ids": [
+          "event-guangwu-chengdi",
+          "event-dongjin-jianguo"
+        ]
+      },
+      "batch03": {
+        "scope": 10,
+        "auto": 7,
+        "quarantine": 3,
+        "min": 87.7,
+        "max": 93.9,
+        "mean": 92.0,
+        "auto_ids": [
+          "event-beiwei-fenlie",
+          "event-houjing-zhi-luan",
+          "event-beizhou-mie-beiqi",
+          "event-yangjian-dai-beizhou",
+          "event-sui-mie-chen",
+          "event-xuanwumen-zhibian",
+          "event-tang-mie-dong-tujue"
+        ],
+        "quarantine_ids": [
+          "event-tang-jianguo",
+          "event-wu-zhou-jianguo",
+          "event-shenlong-zhengbian"
+        ]
+      },
+      "batch04": {
+        "scope": 10,
+        "auto": 3,
+        "quarantine": 7,
+        "min": 87.7,
+        "max": 93.9,
+        "mean": 89.6,
+        "auto_ids": [
+          "event-huangchao-qiyi",
+          "event-jingkang-zhi-bian",
+          "event-zhao-gou-nansong-jianguo"
+        ],
+        "quarantine_ids": [
+          "event-houliang-dai-tang",
+          "event-guo-wei-dai-han",
+          "event-chenqiao-bingbian",
+          "event-western-xia-jianguo",
+          "event-jin-jianguo",
+          "event-mongol-jianguo",
+          "event-yuan-jianguo"
+        ]
+      },
+      "batch05": {
+        "scope": 10,
+        "auto": 7,
+        "quarantine": 3,
+        "min": 87.7,
+        "max": 93.9,
+        "mean": 92.0,
+        "auto_ids": [
+          "event-yanya-haizhan",
+          "event-poyanghu-zhizhan",
+          "event-hu-weiyong-an",
+          "event-jingnan-zhizhan",
+          "event-qian-du-beijing",
+          "event-saerhu-zhizhan",
+          "event-qingjun-ru-guan"
+        ],
+        "quarantine_ids": [
+          "event-zhuyuanzhang-chendi",
+          "event-tumu-bao-zhibian",
+          "event-lizicheng-gong-beijing"
+        ]
+      },
+      "batch06": {
+        "scope": 10,
+        "auto": 1,
+        "quarantine": 9,
+        "min": 81.0,
+        "max": 93.9,
+        "mean": 85.0,
+        "auto_ids": [
+          "event-sanfan-zhi-luan"
+        ],
+        "quarantine_ids": [
+          "event-diyici-yapian-zhanzheng",
+          "event-jiawu-zhanzheng",
+          "event-wuchang-qiyi",
+          "event-qingdi-tuiwei",
+          "event-wusi-yundong",
+          "event-jiuyiba-shibian",
+          "event-xian-shibian",
+          "event-nanjing-datusha",
+          "event-qiqishi-bian"
+        ]
+      },
+      "batch07": {
+        "scope": 2,
+        "auto": 0,
+        "quarantine": 2,
+        "min": 81.0,
+        "max": 81.0,
+        "mean": 81.0,
+        "auto_ids": [],
+        "quarantine_ids": [
+          "event-riben-touxiang",
+          "event-xinzhongguo-chengli"
+        ]
+      }
+    }
+  },
+  "counts": {
+    "total": 52,
+    "auto_accept": 26,
+    "quarantine": 26,
+    "rejected": 0,
+    "promoted_to_canonical": 26,
+    "evidence_rows_promoted": 54,
+    "evidence_rows_all_candidates": 73,
+    "event_evidence_total_after_build": 98,
+    "works_registered": 48
+  },
+  "score": {
+    "all": {
+      "min": 81.0,
+      "max": 96.0,
+      "mean": 89.9
+    },
+    "auto_accept": {
+      "min": 90.9,
+      "max": 96.0,
+      "mean": 93.9
+    },
+    "quarantine": {
+      "min": 81.0,
+      "max": 87.7,
+      "mean": 85.9
+    },
+    "histogram": {
+      "90-100": 26,
+      "75-89": 26,
+      "0-74": 0
+    }
+  },
+  "evidence_by_batch": {
+    "batch02": 18,
+    "batch03": 14,
+    "batch04": 6,
+    "batch05": 14,
+    "batch06": 2,
+    "batch07": 0
+  }
+}

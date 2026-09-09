@@ -1,0 +1,896 @@
+{
+  "generated": "2026-09-09",
+  "total": 52,
+  "auto_accept": 26,
+  "quarantine": 26,
+  "verdicts": {
+    "event-xin-mie": {
+      "batch": "batch02",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-guangwu-chengdi": {
+      "batch": "batch02",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-caopi-dai-han": {
+      "batch": "batch02",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jin-mie-wu": {
+      "batch": "batch02",
+      "score": 96.0,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=15.0/15 (3 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-bawang-zhi-luan": {
+      "batch": "batch02",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-yongjia-zhi-luan": {
+      "batch": "batch02",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-xijin-mie-wang": {
+      "batch": "batch02",
+      "score": 90.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=7.0/10 (事件未声明 人物 桥接（缺失为完整性问题，不判分辨率）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-dongjin-jianguo": {
+      "batch": "batch02",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-feishui-zhizhan": {
+      "batch": "batch02",
+      "score": 96.0,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=15.0/15 (3 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-beiwei-tongyi-beifang": {
+      "batch": "batch02",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-beiwei-fenlie": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-houjing-zhi-luan": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-beizhou-mie-beiqi": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=4）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-yangjian-dai-beizhou": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-sui-mie-chen": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-tang-jianguo": {
+      "batch": "batch03",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-xuanwumen-zhibian": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-tang-mie-dong-tujue": {
+      "batch": "batch03",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-wu-zhou-jianguo": {
+      "batch": "batch03",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-shenlong-zhengbian": {
+      "batch": "batch03",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-huangchao-qiyi": {
+      "batch": "batch04",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-houliang-dai-tang": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-guo-wei-dai-han": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-chenqiao-bingbian": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-western-xia-jianguo": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jin-jianguo": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jingkang-zhi-bian": {
+      "batch": "batch04",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-zhao-gou-nansong-jianguo": {
+      "batch": "batch04",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-mongol-jianguo": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-yuan-jianguo": {
+      "batch": "batch04",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-yanya-haizhan": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-poyanghu-zhizhan": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-zhuyuanzhang-chendi": {
+      "batch": "batch05",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-hu-weiyong-an": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jingnan-zhizhan": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-qian-du-beijing": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-tumu-bao-zhibian": {
+      "batch": "batch05",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-saerhu-zhizhan": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-lizicheng-gong-beijing": {
+      "batch": "batch05",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-qingjun-ru-guan": {
+      "batch": "batch05",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=3）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-sanfan-zhi-luan": {
+      "batch": "batch06",
+      "score": 93.9,
+      "verdict": "AUTO_ACCEPT",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=12.9/15 (2 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-diyici-yapian-zhanzheng": {
+      "batch": "batch06",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jiawu-zhanzheng": {
+      "batch": "batch06",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-wuchang-qiyi": {
+      "batch": "batch06",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-qingdi-tuiwei": {
+      "batch": "batch06",
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-wusi-yundong": {
+      "batch": "batch06",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-jiuyiba-shibian": {
+      "batch": "batch06",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-xian-shibian": {
+      "batch": "batch06",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-nanjing-datusha": {
+      "batch": "batch06",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-qiqishi-bian": {
+      "batch": "batch06",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-riben-touxiang": {
+      "batch": "batch07",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    },
+    "event-xinzhongguo-chengli": {
+      "batch": "batch07",
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM",
+      "reasons": [
+        "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+        "temporal_consistency=10.0/10 (无冲突)",
+        "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+        "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+        "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+        "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+        "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+        "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+        "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+      ]
+    }
+  },
+  "auto_ids": [
+    "event-bawang-zhi-luan",
+    "event-beiwei-fenlie",
+    "event-beiwei-tongyi-beifang",
+    "event-beizhou-mie-beiqi",
+    "event-caopi-dai-han",
+    "event-feishui-zhizhan",
+    "event-houjing-zhi-luan",
+    "event-hu-weiyong-an",
+    "event-huangchao-qiyi",
+    "event-jin-mie-wu",
+    "event-jingkang-zhi-bian",
+    "event-jingnan-zhizhan",
+    "event-poyanghu-zhizhan",
+    "event-qian-du-beijing",
+    "event-qingjun-ru-guan",
+    "event-saerhu-zhizhan",
+    "event-sanfan-zhi-luan",
+    "event-sui-mie-chen",
+    "event-tang-mie-dong-tujue",
+    "event-xijin-mie-wang",
+    "event-xin-mie",
+    "event-xuanwumen-zhibian",
+    "event-yangjian-dai-beizhou",
+    "event-yanya-haizhan",
+    "event-yongjia-zhi-luan",
+    "event-zhao-gou-nansong-jianguo"
+  ],
+  "quarantine_ids": [
+    "event-chenqiao-bingbian",
+    "event-diyici-yapian-zhanzheng",
+    "event-dongjin-jianguo",
+    "event-guangwu-chengdi",
+    "event-guo-wei-dai-han",
+    "event-houliang-dai-tang",
+    "event-jiawu-zhanzheng",
+    "event-jin-jianguo",
+    "event-jiuyiba-shibian",
+    "event-lizicheng-gong-beijing",
+    "event-mongol-jianguo",
+    "event-nanjing-datusha",
+    "event-qingdi-tuiwei",
+    "event-qiqishi-bian",
+    "event-riben-touxiang",
+    "event-shenlong-zhengbian",
+    "event-tang-jianguo",
+    "event-tumu-bao-zhibian",
+    "event-western-xia-jianguo",
+    "event-wu-zhou-jianguo",
+    "event-wuchang-qiyi",
+    "event-wusi-yundong",
+    "event-xian-shibian",
+    "event-xinzhongguo-chengli",
+    "event-yuan-jianguo",
+    "event-zhuyuanzhang-chendi"
+  ]
+}

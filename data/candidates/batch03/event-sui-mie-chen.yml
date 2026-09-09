@@ -1,0 +1,84 @@
+id: event-sui-mie-chen
+name_zh_cn: 隋灭陈、隋统一
+event_type: war
+start_year: 589
+end_year: 589
+date_precision: year
+period_id: period-sui
+importance: critical
+summary_zh_cn: 开皇九年（589年）隋文帝发五十一万大军南下，韩擒虎、贺若弼渡江克建康，陈后主被俘，陈朝灭亡。隋灭陈结束自西晋以来近三百年（280—589）的分裂局面，中国重新实现大一统。
+background_zh_cn: 开皇九年（589年）隋文帝发五十一万大军南下，韩擒虎、贺若弼渡江克建康，陈后主被俘，陈朝灭亡。
+result_zh_cn: 隋灭陈结束自西晋以来近三百年（280—589）的分裂局面，中国重新实现大一统。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·高祖纪》《陈书·后主纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《两晋南北朝史》；陈寅恪《隋唐制度渊源略论稿》；白寿彝《中国通史》
+source_ids:
+- work-curated-suishu
+- work-curated-chenshu
+regime_ids:
+- regime-sui
+people:
+- person_id: cbdb-person-30956
+  person_name_raw: 杨坚
+  role: ruler
+  role_zh_cn: 灭陈决策者
+  side: 隋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-sui-mie-chen.yml]
+- person_id: cbdb-person-30957
+  person_name_raw: 杨广
+  role: commander
+  role_zh_cn: 灭陈军事统帅（晋王）
+  side: 隋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-sui-mie-chen.yml]
+- person_id: cbdb-person-21303
+  person_name_raw: 陈后主
+  role: victim
+  role_zh_cn: 陈末帝被俘
+  side: 南陈
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-sui-mie-chen.yml]
+relations:
+- target_event_id: event-sui-mie-xiliang
+  relation_type: follows
+  description_zh_cn: 灭陈前已完成对江南侧翼之肃清
+evidence:
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: null
+  chapter_hint: 高祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 陈书
+  term: 后主纪
+  historical_text_id: null
+  chapter_hint: 后主纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《陈书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-sui-mie-chen — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

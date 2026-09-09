@@ -1,0 +1,65 @@
+id: event-dongjin-jianguo
+name_zh_cn: 东晋建立
+event_type: dynastic-transition
+start_year: 317
+end_year: 317
+date_precision: year
+period_id: period-eastern-jin
+importance: critical
+summary_zh_cn: 建武元年（317年）司马睿在建康（今南京）即晋王位，次年称帝，史称东晋。东晋建立承接"衣冠南渡"，以建康为政治中心，形成与北方十六国并行的"南北分治"格局，中国历史进入东晋十六国阶段。
+background_zh_cn: 建武元年（317年）司马睿在建康（今南京）即晋王位，次年称帝，史称东晋。
+result_zh_cn: 东晋建立承接"衣冠南渡"，以建康为政治中心，形成与北方十六国并行的"南北分治"格局，中国历史进入东晋十六国阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·元帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+regime_ids:
+- regime-eastern-jin
+people:
+- person_id: cbdb-person-30902
+  person_name_raw: 晋元帝
+  role: initiator
+  role_zh_cn: 建康即位
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-dongjin-jianguo.yml]
+- person_id: cbdb-person-25788
+  person_name_raw: 王导
+  role: official
+  role_zh_cn: 辅立元帝
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-dongjin-jianguo.yml]
+relations:
+- target_event_id: event-xijin-mie-wang
+  relation_type: follows
+  description_zh_cn: 西晋亡后司马睿重建晋朝于江南
+- target_event_id: event-zuti-beifa
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 东晋初年祖逖等北伐恢复中原政策
+evidence:
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: null
+  chapter_hint: 元帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·元帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-dongjin-jianguo — batch02 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

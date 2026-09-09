@@ -1,0 +1,76 @@
+id: event-yangjian-dai-beizhou
+name_zh_cn: 杨坚代北周、隋朝建立
+event_type: dynastic-transition
+start_year: 581
+end_year: 581
+date_precision: year
+period_id: period-sui
+importance: critical
+summary_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。杨坚代周与隋建立为同一节点。
+background_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。
+result_zh_cn: 杨坚代周与隋建立为同一节点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《隋书·高祖纪》《周书·静帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《两晋南北朝史》；陈寅恪《隋唐制度渊源略论稿》；白寿彝《中国通史》
+source_ids:
+- work-curated-suishu
+- work-curated-zhoushu
+regime_ids:
+- regime-sui
+people:
+- person_id: cbdb-person-30956
+  person_name_raw: 杨坚
+  role: initiator
+  role_zh_cn: 代周建隋
+  side: 隋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-yangjian-dai-beizhou.yml]
+- person_id: ctext-person-293600
+  person_name_raw: 周静帝
+  role: victim
+  role_zh_cn: 北周·受害者
+  side: 北周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-yangjian-dai-beizhou.yml]
+relations:
+- target_event_id: event-yangjian-zhuanquan
+  relation_type: follows
+- target_event_id: event-sui-mie-xiliang
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 隋建立后先平西梁再图江南
+evidence:
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: null
+  chapter_hint: 高祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 周书
+  term: 静帝纪
+  historical_text_id: null
+  chapter_hint: 静帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《周书·静帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-yangjian-dai-beizhou — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

@@ -26,3 +26,29 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 灭东突厥后唐向西经营西域（安西都护府）
+evidence:
+- work: 旧唐书
+  term: 李靖传
+  historical_text_id: null
+  chapter_hint: 李靖传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·李靖传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: null
+  chapter_hint: 突厥传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·突厥传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 贞观四年（630年）唐将李靖率军长途奔袭，在阴山击破东突厥主力，颉利可汗被俘，东突厥汗国灭亡。
+result_zh_cn: 唐灭东突厥解除北方最大边患，太宗被尊"天可汗"，西域诸国与回纥等皆奉大唐为盟主，是唐初对外战略的决定性胜利。
+# promoted from data/candidates/batch03/event-tang-mie-dong-tujue.yml (AUTO_ACCEPT gate)

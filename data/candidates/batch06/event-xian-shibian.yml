@@ -1,0 +1,77 @@
+id: event-xian-shibian
+name_zh_cn: 西安事变
+event_type: political
+start_year: 1936
+end_year: 1936
+date_precision: year
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1936 年 12 月 12 日，张学良、杨虎城在西安扣留蒋介石，通电要求停止内战、一致抗日（西安事变，"兵谏"）；经各方调停，事变以蒋介石获释、主张停止内战转向抗日收束，成为时局转折点（史学通说）。
+background_zh_cn: 1936 年 12 月 12 日，张学良、杨虎城在西安扣留蒋介石，通电要求停止内战、一致抗日（西安事变，"兵谏"）；经各方调停，事变以蒋介石获释、主张停止内战转向抗日收束，成为时局转折点（史学通说）。
+result_zh_cn: 1936 年 12 月 12 日，张学良、杨虎城在西安扣留蒋介石，通电要求停止内战、一致抗日（西安事变，"兵谏"）；经各方调停，事变以蒋介石获释、主张停止内战转向抗日收束，成为时局转折点（史学通说）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：西安事变谈判纪录与当事方文电；现代研究：军事科学院《中国抗日战争史》（军事科学出版社）；中央档案馆与江苏省档案馆等合编《南京大屠杀史料集》（江苏人民出版社）；张宪文主编《中华民国史》
+source_ids:
+- work-curated-minguoshi
+- work-curated-kangzhanshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-zhang-xueliang
+  person_name_raw: 张学良
+  role: initiator
+  role_zh_cn: 中华民国·发起者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xian-shibian.yml]
+- person_id: curated-person-yang-hucheng
+  person_name_raw: 杨虎城
+  role: initiator
+  role_zh_cn: 中华民国·发起者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xian-shibian.yml]
+- person_id: curated-person-chiang-kai-shek
+  person_name_raw: 蒋介石
+  role: victim
+  role_zh_cn: 中华民国·受害者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xian-shibian.yml]
+- person_id: curated-person-zhou-enlai
+  person_name_raw: 周恩来
+  role: participant
+  role_zh_cn: 中华民国·参与者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-xian-shibian.yml]
+relations:
+- target_event_id: event-huabei-shibian
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 华北危机与剿共并存的局面。
+- target_event_id: event-changzheng
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 红军到达陕北后张杨与中共接触。
+# event-xian-shibian — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

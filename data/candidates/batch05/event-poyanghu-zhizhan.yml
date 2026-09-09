@@ -1,0 +1,78 @@
+id: event-poyanghu-zhizhan
+name_zh_cn: 鄱阳湖之战、陈友谅覆灭
+event_type: war
+start_year: 1363
+end_year: 1363
+date_precision: year
+period_id: period-yuan
+importance: critical
+summary_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+background_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+result_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》《陈友谅传》；现代参考：陈高华《元末明初的江南社会》与张海瀛等元末农民战争研究；韩儒林《元朝史》；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+regime_ids:
+- regime-zhuzhang
+- regime-dahan
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  role: commander
+  role_zh_cn: 决战指挥者
+  side: 朱元璋势力
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-poyanghu-zhizhan.yml]
+- person_id: cbdb-person-66246
+  person_name_raw: 陈友谅
+  role: commander
+  role_zh_cn: 汉政权主
+  side: 大汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-poyanghu-zhizhan.yml]
+relations:
+- target_event_id: event-chenyouliang-dai-han
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 陈友谅倾国来攻，朱元璋决战。
+- target_event_id: event-zhuyuanzhang-mie-zhang
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 灭陈后转向攻张士诚。
+evidence:
+- work: 明史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 陈友谅传
+  historical_text_id: null
+  chapter_hint: 陈友谅传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·陈友谅传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+# event-poyanghu-zhizhan — batch05 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

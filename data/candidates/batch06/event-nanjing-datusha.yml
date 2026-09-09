@@ -1,0 +1,64 @@
+id: event-nanjing-datusha
+name_zh_cn: 南京大屠杀
+event_type: war
+start_year: 1937
+end_year: 1938
+date_precision: range
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1937 年 12 月 13 日南京陷落后，侵华日军在南京城区及周边持续数周大规模屠杀中国平民与战俘、强暴妇女并抢劫纵火（南京大屠杀）；关于遇难人数，中日与国际学界及战后审判档案存在不同统计口径（通行约
+  30 万，具体数字仍是研究课题）；1946—1948 年南京审判/东京审判对此罪行予以认定。
+background_zh_cn: 1937 年 12 月 13 日南京陷落后，侵华日军在南京城区及周边持续数周大规模屠杀中国平民与战俘、强暴妇女并抢劫纵火（南京大屠杀）；关于遇难人数，中日与国际学界及战后审判档案存在不同统计口径（通行约
+  30 万，具体数字仍是研究课题）；1946—1948 年南京审判/东京审判对此罪行予以认定。
+result_zh_cn: 1937 年 12 月 13 日南京陷落后，侵华日军在南京城区及周边持续数周大规模屠杀中国平民与战俘、强暴妇女并抢劫纵火（南京大屠杀）；关于遇难人数，中日与国际学界及战后审判档案存在不同统计口径（通行约
+  30 万，具体数字仍是研究课题）；1946—1948 年南京审判/东京审判对此罪行予以认定。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：战后南京军事法庭审判档案、《南京大屠杀史料集》（张宪文主编，江苏人民出版社）；现代研究：军事科学院《中国抗日战争史》（军事科学出版社）；中央档案馆与江苏省档案馆等合编《南京大屠杀史料集》（江苏人民出版社）；张宪文主编《中华民国史》
+source_ids:
+- work-curated-kangzhanshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-matsui-iwane
+  person_name_raw: 松井石根
+  role: initiator
+  role_zh_cn: 日本·发起者
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-nanjing-datusha.yml]
+- person_id: curated-person-tani-hisao
+  person_name_raw: 谷寿夫
+  role: commander
+  role_zh_cn: 日本·军事指挥
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-nanjing-datusha.yml]
+- person_id: curated-person-tang-shengzhi
+  person_name_raw: 唐生智
+  role: commander
+  role_zh_cn: 中华民国·军事指挥
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-nanjing-datusha.yml]
+relations:
+- target_event_id: event-nanjing-baoweizhan
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 南京陷落后的暴行。
+# event-nanjing-datusha — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

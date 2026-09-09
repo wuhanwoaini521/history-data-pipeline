@@ -11,12 +11,13 @@ period_id: period-sui
 regime_ids:
 - regime-sui
 importance: critical
-summary_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。杨坚代周与隋建立为同一节点（§48 粒度判断）。
+summary_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。杨坚代周与隋建立为同一节点。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《隋书·高祖纪》《周书·静帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《两晋南北朝史》；陈寅恪《隋唐制度渊源略论稿》；白寿彝《中国通史》
 source_ids:
 - work-curated-suishu
+- work-curated-zhoushu
 relations:
 - target_event_id: event-yangjian-zhuanquan
   relation_type: follows
@@ -24,3 +25,29 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 隋建立后先平西梁再图江南
+evidence:
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: null
+  chapter_hint: 高祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 周书
+  term: 静帝纪
+  historical_text_id: null
+  chapter_hint: 静帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《周书·静帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+background_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。
+result_zh_cn: 杨坚代周与隋建立为同一节点。
+# promoted from data/candidates/batch03/event-yangjian-dai-beizhou.yml (AUTO_ACCEPT gate)

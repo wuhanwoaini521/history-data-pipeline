@@ -1,0 +1,61 @@
+id: event-riben-touxiang
+name_zh_cn: 日本宣布投降
+event_type: treaty
+start_year: 1945
+end_year: 1945
+date_precision: year
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1945 年 8 月 15 日，日本天皇广播《终战诏书》宣布接受《波茨坦公告》并无条件投降；9 月 2 日日本签署投降书，9 月 9
+  日中国战区受降（南京）；中国抗日战争取得胜利，是世界反法西斯战争胜利的组成部分。
+background_zh_cn: 1945 年 8 月 15 日，日本天皇广播《终战诏书》宣布接受《波茨坦公告》并无条件投降；9 月 2 日日本签署投降书，9 月
+  9 日中国战区受降（南京）；中国抗日战争取得胜利，是世界反法西斯战争胜利的组成部分。
+result_zh_cn: 1945 年 8 月 15 日，日本天皇广播《终战诏书》宣布接受《波茨坦公告》并无条件投降；9 月 2 日日本签署投降书，9 月 9 日中国战区受降（南京）；中国抗日战争取得胜利，是世界反法西斯战争胜利的组成部分。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：终战诏书文本、中国战区受降档案；现代研究：军事科学院《中国抗日战争史》（军事科学出版社）；中央档案馆与江苏省档案馆等合编《南京大屠杀史料集》（江苏人民出版社）；张宪文主编《中华民国史》
+source_ids:
+- work-curated-minguoshi
+- work-curated-kangzhanshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-hirohito
+  person_name_raw: 裕仁
+  role: ruler
+  role_zh_cn: 日本·统治者
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-riben-touxiang.yml]
+- person_id: curated-person-chiang-kai-shek
+  person_name_raw: 蒋介石
+  role: ruler
+  role_zh_cn: 中华民国·统治者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-riben-touxiang.yml]
+relations:
+- target_event_id: event-yuxianggui
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 1945 年日军崩溃投降。
+- target_event_id: event-taiwan-guangfu
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 台湾于同年光复。
+- target_event_id: event-chongqing-tanpan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 胜利后国共重庆谈判。
+# event-riben-touxiang — batch07 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

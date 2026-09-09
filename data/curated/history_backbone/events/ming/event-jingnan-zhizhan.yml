@@ -11,8 +11,8 @@ period_id: period-ming
 regime_ids:
 - regime-ming
 importance: critical
-summary_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of
-  关联。
+summary_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。本事件为
+  aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《明史·成祖纪》《恭闵帝纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
@@ -23,3 +23,29 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 削藩引发靖难。
+evidence:
+- work: 明史
+  term: 成祖纪
+  historical_text_id: null
+  chapter_hint: 成祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 恭闵帝纪
+  historical_text_id: null
+  chapter_hint: 恭闵帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·恭闵帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。
+result_zh_cn: 本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
+# promoted from data/candidates/batch05/event-jingnan-zhizhan.yml (AUTO_ACCEPT gate)

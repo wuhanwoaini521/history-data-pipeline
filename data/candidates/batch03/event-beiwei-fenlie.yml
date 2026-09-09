@@ -1,0 +1,95 @@
+id: event-beiwei-fenlie
+name_zh_cn: 北魏分裂为东魏西魏
+event_type: political
+start_year: 534
+end_year: 535
+date_precision: range
+period_id: period-northern-southern
+importance: critical
+summary_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
+background_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。
+result_zh_cn: 北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《魏书·孝静纪》《周书·文帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-weishu
+- work-curated-zizhitongjian
+- work-curated-zhoushu
+regime_ids:
+- regime-northern-wei
+- regime-eastern-wei
+- regime-western-wei
+people:
+- person_id: cbdb-person-339598
+  person_name_raw: 高欢
+  role: initiator
+  role_zh_cn: 拥立东魏实权者
+  side: 东魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-beiwei-fenlie.yml]
+- person_id: cbdb-person-31770
+  person_name_raw: 宇文泰
+  role: initiator
+  role_zh_cn: 拥立西魏实权者
+  side: 西魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-beiwei-fenlie.yml]
+- person_id: cbdb-person-31012
+  person_name_raw: 魏孝武帝
+  role: victim
+  role_zh_cn: 出奔西魏的皇帝
+  side: 北魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-beiwei-fenlie.yml]
+relations:
+- target_event_id: event-gaohuan-qibing
+  relation_type: follows
+  description_zh_cn: 高欢、宇文泰分割北魏
+- target_event_id: event-gaoyang-dai-dongwei
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 东魏过渡到北齐
+- target_event_id: event-yuwenjue-dai-xiwei
+  relation_type: leads_to
+  confidence: 0.7
+  description_zh_cn: 西魏过渡到北周
+evidence:
+- work: 魏书
+  term: 孝静纪
+  historical_text_id: null
+  chapter_hint: 孝静纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《魏书·孝静纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 周书
+  term: 文帝纪
+  historical_text_id: null
+  chapter_hint: 文帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《周书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-beiwei-fenlie — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

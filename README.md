@@ -75,10 +75,16 @@ history-data query event "赤壁之战" --people --json
 
 ## 当前状态
 
-- Period Taxonomy：**31** 个浏览 Period（上古→近现代，含辽/西夏/金），
-  Regime：**31** 个政权。
-- History Backbone：**26** 个 Event、**3** 个 Story（楚汉争霸 / 三国格局形成 /
-  安史之乱），全部通过 `backbone validate` 并重新 QA。
+- Period Taxonomy：**31** 个浏览 Period，Regime：**64** 个政权
+  （含辽/西夏/金；V2.3 补充满洲国/中华苏维埃）。
+- History Backbone：**618** 个 Event（62 Critical / 555 Major）、**3** 个 Story
+  （楚汉争霸 / 三国格局形成 / 安史之乱），全部通过 `backbone validate` 并重新 QA。
+- **Calibration 提升（2026-09-09）**：Batch 01（10 Critical）+ Batch 02–07
+  （52 Critical）——35 个候选经确定性验证 + 严格门后提升为 AUTO_ACCEPT 并并入
+  canonical；`event_evidence` 26 → 98 条（term-level 出处行）；26 个候选按证据
+  面保留为 QUARANTINE_MEDIUM（候选与来源留存）。详见
+  `docs/PROGRESS_CALIBRATION_BATCHES_02_07.md` 与
+  `reports/current-run/calibration-batches-02-07-final-review.md`。
 - `dist/` Build 可重复生成，Manifest 带真实统计（见 `dist/manifest.json`）。
 - 旧 Semantic Layer（V1）标记 **legacy/deprecated** 保留审计，未删除。
 

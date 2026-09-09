@@ -30,3 +30,29 @@ relations:
   relation_type: part_of
   confidence: 0.9
   description_zh_cn: 黄巢败亡为起义终结
+evidence:
+- work: 旧唐书
+  term: 黄巢传
+  historical_text_id: null
+  chapter_hint: 黄巢传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·黄巢传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 旧唐书
+  term: 僖宗纪
+  historical_text_id: null
+  chapter_hint: 僖宗纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·僖宗纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 乾符二年至中和四年（875—884年）黄巢领导唐末最大的农民起义：转战大半个中国，880年攻入长安、建大齐政权，884年兵败死于泰山。
+result_zh_cn: 黄巢起义重创唐朝统治根基，使藩镇割据彻底军阀化，直接导向唐亡（aggregate，子事件见 part_of）。
+# promoted from data/candidates/batch04/event-huangchao-qiyi.yml (AUTO_ACCEPT gate)

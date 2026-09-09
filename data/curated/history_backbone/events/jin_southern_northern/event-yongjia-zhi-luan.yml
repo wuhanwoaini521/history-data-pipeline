@@ -11,7 +11,8 @@ period_id: period-western-jin
 regime_ids:
 - regime-han-zhao
 importance: critical
-summary_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。永嘉之乱（本事件为过程 aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
+summary_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。永嘉之乱（本事件为过程
+  aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《晋书·孝怀帝纪》《愍帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
@@ -28,3 +29,29 @@ relations:
   relation_type: part_of
   confidence: 0.85
   description_zh_cn: 长安陷落西晋灭亡为永嘉之乱终点
+evidence:
+- work: 晋书
+  term: 孝怀帝纪
+  historical_text_id: null
+  chapter_hint: 孝怀帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·孝怀帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: null
+  chapter_hint: 愍帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·愍帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。
+result_zh_cn: 永嘉之乱（本事件为过程 aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
+# promoted from data/candidates/batch02/event-yongjia-zhi-luan.yml (AUTO_ACCEPT gate)

@@ -41,7 +41,7 @@ def test_backbone_build():
     assert counts["event_relations"] == 1057  # 1062 - Phase2 反向修复（-7 +2）
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
     assert counts["event_place"] == 26
-    assert counts["event_evidence"] == 44  # 26 既有 + Calibration Batch 01 提升 9 事件 × 2 条
+    assert counts["event_evidence"] == 98  # 26 既有 + Calibration Batch 01 提升 9 事件×2 + Batch 02–07 提升 26 事件×2
     assert counts["periods"] == 31
     assert counts["regimes"] == 64  # +Batch8 满洲国/中华苏维埃
     assert manifest["counts"]["events"] == counts["events"]

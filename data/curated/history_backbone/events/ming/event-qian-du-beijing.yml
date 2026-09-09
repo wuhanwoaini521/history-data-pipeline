@@ -26,3 +26,29 @@ relations:
   relation_type: precedes
   confidence: 0.7
   description_zh_cn: 北京为都后二十余年发生土木堡之变。
+evidence:
+- work: 明史
+  term: 成祖纪
+  historical_text_id: null
+  chapter_hint: 成祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 地理志
+  historical_text_id: null
+  chapter_hint: 地理志
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·地理志》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 永乐十九年（1421 年），明成祖正式迁都北京（永乐元年升北平为北京、四年起营建宫殿城池），南京为留都；北京自此成为明清两代都城，影响国家政治版图数百年。
+result_zh_cn: 永乐十九年（1421 年），明成祖正式迁都北京（永乐元年升北平为北京、四年起营建宫殿城池），南京为留都；北京自此成为明清两代都城，影响国家政治版图数百年。
+# promoted from data/candidates/batch05/event-qian-du-beijing.yml (AUTO_ACCEPT gate)

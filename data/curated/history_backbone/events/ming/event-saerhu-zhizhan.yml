@@ -27,3 +27,29 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 萨尔浒后后金转守为攻，占领辽沈。
+evidence:
+- work: 明史
+  term: 杨镐传
+  historical_text_id: null
+  chapter_hint: 杨镐传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·杨镐传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 列传
+  historical_text_id: null
+  chapter_hint: 列传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·列传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 天命四年（1619 年），明辽东经略杨镐督四路大军征伐后金，努尔哈赤采取"凭尔几路来，我只一路去"之策，在萨尔浒（今辽宁抚顺东）先后各个击破明军，明军主力受创，辽东攻守之势倒转，明朝自此转入辽事防御。
+result_zh_cn: 天命四年（1619 年），明辽东经略杨镐督四路大军征伐后金，努尔哈赤采取"凭尔几路来，我只一路去"之策，在萨尔浒（今辽宁抚顺东）先后各个击破明军，明军主力受创，辽东攻守之势倒转，明朝自此转入辽事防御。
+# promoted from data/candidates/batch05/event-saerhu-zhizhan.yml (AUTO_ACCEPT gate)

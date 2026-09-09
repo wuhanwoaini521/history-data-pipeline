@@ -1,0 +1,66 @@
+id: event-qiqishi-bian
+name_zh_cn: 七七事变
+event_type: war
+start_year: 1937
+end_year: 1937
+date_precision: year
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1937 年 7 月 7 日夜，日军在北平西南卢沟桥演习时借口士兵失踪要求入城搜查，遭拒后进攻宛平城（七七事变），日军旋即丰台、北平、天津相继失守；七七事变标志着日本全面侵华战争开始，中国全国性抗战由此展开。
+background_zh_cn: 1937 年 7 月 7 日夜，日军在北平西南卢沟桥演习时借口士兵失踪要求入城搜查，遭拒后进攻宛平城（七七事变），日军旋即丰台、北平、天津相继失守；七七事变标志着日本全面侵华战争开始，中国全国性抗战由此展开。
+result_zh_cn: 1937 年 7 月 7 日夜，日军在北平西南卢沟桥演习时借口士兵失踪要求入城搜查，遭拒后进攻宛平城（七七事变），日军旋即丰台、北平、天津相继失守；七七事变标志着日本全面侵华战争开始，中国全国性抗战由此展开。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：事变双方军事纪录、日内瓦中国代表团陈报；现代研究：军事科学院《中国抗日战争史》（军事科学出版社）；中央档案馆与江苏省档案馆等合编《南京大屠杀史料集》（江苏人民出版社）；张宪文主编《中华民国史》
+source_ids:
+- work-curated-minguoshi
+- work-curated-kangzhanshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-song-zheyuan
+  person_name_raw: 宋哲元
+  role: official
+  role_zh_cn: 中华民国·官员
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-qiqishi-bian.yml]
+- person_id: curated-person-qin-dechun
+  person_name_raw: 秦德纯
+  role: official
+  role_zh_cn: 中华民国·官员
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-qiqishi-bian.yml]
+- person_id: curated-person-mutaguchi-renya
+  person_name_raw: 牟田口廉也
+  role: commander
+  role_zh_cn: 日本·军事指挥
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-qiqishi-bian.yml]
+relations:
+- target_event_id: event-xian-shibian
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 西安事变后七个月全面抗战爆发。
+- target_event_id: event-songhu-huizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 随后淞沪会战打响。
+# event-qiqishi-bian — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

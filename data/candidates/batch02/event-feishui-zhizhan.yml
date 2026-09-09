@@ -1,0 +1,100 @@
+id: event-feishui-zhizhan
+name_zh_cn: 淝水之战
+event_type: war
+start_year: 383
+end_year: 383
+date_precision: year
+period_id: period-eastern-jin
+importance: critical
+summary_zh_cn: 太元八年（383年）前秦苻坚大举南征东晋，东晋谢安、谢玄以八万北府兵在淝水（今安徽寿县一带）大败前秦军，前秦号称百万之众土崩瓦解。淝水之战保住东晋半壁江山，并直接导致前秦崩裂、北方再度分裂，南北对峙格局由此长期延续。
+background_zh_cn: 太元八年（383年）前秦苻坚大举南征东晋，东晋谢安、谢玄以八万北府兵在淝水（今安徽寿县一带）大败前秦军，前秦号称百万之众土崩瓦解。
+result_zh_cn: 淝水之战保住东晋半壁江山，并直接导致前秦崩裂、北方再度分裂，南北对峙格局由此长期延续。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《晋书·苻坚载记》《谢玄传》《资治通鉴·晋纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-jinshu
+- work-curated-zizhitongjian
+regime_ids:
+- regime-eastern-jin
+- regime-former-qin
+people:
+- person_id: cbdb-person-31645
+  person_name_raw: 苻坚
+  role: commander
+  role_zh_cn: 前秦主（败军统帅）
+  side: 前秦
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-feishui-zhizhan.yml]
+- person_id: cbdb-person-467950
+  person_name_raw: 谢安
+  role: official
+  role_zh_cn: 东晋决策者
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-feishui-zhizhan.yml]
+- person_id: cbdb-person-136120
+  person_name_raw: 谢玄
+  role: commander
+  role_zh_cn: 北府军统帅
+  side: 东晋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-feishui-zhizhan.yml]
+relations:
+- target_event_id: event-qian-qin-tongyi
+  relation_type: follows
+  description_zh_cn: 前秦统一后南征东晋
+- target_event_id: event-qian-qin-wajie
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 淝水败绩直接引发前秦瓦解
+evidence:
+- work: 晋书
+  term: 苻坚载记
+  historical_text_id: null
+  chapter_hint: 苻坚载记
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·苻坚载记》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 晋书
+  term: 谢玄传
+  historical_text_id: null
+  chapter_hint: 谢玄传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·谢玄传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 资治通鉴
+  term: 晋纪
+  historical_text_id: null
+  chapter_hint: 晋纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-feishui-zhizhan — batch02 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

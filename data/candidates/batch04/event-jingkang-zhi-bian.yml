@@ -1,0 +1,101 @@
+id: event-jingkang-zhi-bian
+name_zh_cn: 靖康之变、北宋灭亡
+event_type: dynastic-transition
+start_year: 1127
+end_year: 1127
+date_precision: year
+period_id: period-northern-song
+importance: critical
+summary_zh_cn: 靖康二年（1127 年），金军掳宋徽宗、钦宗二帝及后妃宗室大臣北去，北宋灭亡；史称靖康之变（靖康之难）。此前金已在开封册立伪楚（张邦昌），中原政权易主，宋朝宗室南迁。
+background_zh_cn: 靖康二年（1127 年），金军掳宋徽宗、钦宗二帝及后妃宗室大臣北去，北宋灭亡；史称靖康之变（靖康之难）。
+result_zh_cn: 此前金已在开封册立伪楚（张邦昌），中原政权易主，宋朝宗室南迁。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·钦宗纪》；《三朝北盟会编》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
+source_ids:
+- work-curated-songshi
+- work-curated-sanchaohui-meng
+regime_ids:
+- regime-jin
+- regime-northern-song
+people:
+- person_id: cbdb-person-9009
+  person_name_raw: 宋钦宗
+  role: victim
+  role_zh_cn: 被俘皇帝
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jingkang-zhi-bian.yml]
+- person_id: cbdb-person-39892
+  person_name_raw: 完颜宗翰
+  role: commander
+  role_zh_cn: 围汴金军主帅
+  side: 金
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-jingkang-zhi-bian.yml]
+- person_id: cbdb-person-556531
+  person_name_raw: 完颜宗望
+  role: commander
+  role_zh_cn: 围汴金军主帅
+  side: 金
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-jingkang-zhi-bian.yml]
+- person_id: curated-person-songhuizong
+  person_name_raw: 宋徽宗
+  role: ruler
+  role_zh_cn: 北宋·统治者
+  side: 北宋
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jingkang-zhi-bian.yml]
+relations:
+- target_event_id: event-jin-di-erci-weikaifeng
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 开封城陷后二帝被俘。
+- target_event_id: event-zhao-gou-nansong-jianguo
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 康王赵构南渡即位，建立南宋。
+evidence:
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: null
+  chapter_hint: 钦宗纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《宋史·钦宗纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 三朝北盟会编
+  term: 岳飞新传
+  historical_text_id: null
+  chapter_hint: 岳飞新传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-jingkang-zhi-bian — batch04 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

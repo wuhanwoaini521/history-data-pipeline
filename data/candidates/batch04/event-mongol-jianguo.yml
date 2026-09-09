@@ -1,0 +1,58 @@
+id: event-mongol-jianguo
+name_zh_cn: 铁木真统一蒙古、建立大蒙古国
+event_type: foundation
+start_year: 1206
+end_year: 1206
+date_precision: year
+period_id: period-song-liao-jin
+importance: critical
+summary_zh_cn: 开禧二年（1206 年），铁木真统一蒙古诸部，在斡难河源即大汗位，称成吉思汗，建立大蒙古国（Yeke Mongghol Ulus）；此为蒙古帝国的开端，与
+  1271 年改国号"大元"（regime-yuan）为两个不同政权阶段。
+background_zh_cn: 开禧二年（1206 年），铁木真统一蒙古诸部，在斡难河源即大汗位，称成吉思汗，建立大蒙古国（Yeke Mongghol Ulus）；此为蒙古帝国的开端，与
+  1271 年改国号"大元"（regime-yuan）为两个不同政权阶段。
+result_zh_cn: 开禧二年（1206 年），铁木真统一蒙古诸部，在斡难河源即大汗位，称成吉思汗，建立大蒙古国（Yeke Mongghol Ulus）；此为蒙古帝国的开端，与
+  1271 年改国号"大元"（regime-yuan）为两个不同政权阶段。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《元史·太祖纪》；《蒙古秘史》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
+source_ids:
+- work-curated-yuanshi
+regime_ids:
+- regime-mongol-empire
+people:
+- person_id: cbdb-person-29239
+  person_name_raw: 成吉思汗
+  role: initiator
+  role_zh_cn: 建立大蒙古国
+  side: 大蒙古国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-mongol-jianguo.yml]
+relations:
+- target_event_id: event-yefengling-zhizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 蒙古建国五年后发动对金战争。
+- target_event_id: event-yuan-jianguo
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 1206 年大蒙古国 1271 年改国号大元。
+evidence:
+- work: 元史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《元史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-mongol-jianguo — batch04 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

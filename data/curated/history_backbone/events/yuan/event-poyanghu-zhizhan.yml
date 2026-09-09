@@ -27,3 +27,29 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 灭陈后转向攻张士诚。
+evidence:
+- work: 明史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 陈友谅传
+  historical_text_id: null
+  chapter_hint: 陈友谅传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·陈友谅传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+result_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
+# promoted from data/candidates/batch05/event-poyanghu-zhizhan.yml (AUTO_ACCEPT gate)

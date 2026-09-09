@@ -1,0 +1,61 @@
+id: event-wusi-yundong
+name_zh_cn: 五四运动
+event_type: political
+start_year: 1919
+end_year: 1919
+date_precision: year
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1919 年 5 月 4 日，北京学生因巴黎和会山东问题举行游行示威，抗议北洋政府外交失败（"外争主权、内除国贼"口号），运动随后扩展到全国工商各界（三罢），北洋政府被迫拒签对德和约并罢免曹汝霖等；五四运动成为新文化运动与民族觉醒的标志性事件（史学通说）。
+background_zh_cn: 1919 年 5 月 4 日，北京学生因巴黎和会山东问题举行游行示威，抗议北洋政府外交失败（"外争主权、内除国贼"口号），运动随后扩展到全国工商各界（三罢），北洋政府被迫拒签对德和约并罢免曹汝霖等；五四运动成为新文化运动与民族觉醒的标志性事件（史学通说）。
+result_zh_cn: 1919 年 5 月 4 日，北京学生因巴黎和会山东问题举行游行示威，抗议北洋政府外交失败（"外争主权、内除国贼"口号），运动随后扩展到全国工商各界（三罢），北洋政府被迫拒签对德和约并罢免曹汝霖等；五四运动成为新文化运动与民族觉醒的标志性事件（史学通说）。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：北京政府档案、各地报刊报道；现代研究：张宪文主编《中华民国史》；金冲及《二十世纪中国史纲》；王桧林主编《中国现代史》（北京师范大学出版社）
+source_ids:
+- work-curated-minguoshi
+regime_ids:
+- regime-republic
+people:
+- person_id: cbdb-person-619097
+  person_name_raw: 李大钊
+  role: political_leader
+  role_zh_cn: 北大教授（运动推动者）
+  side: 民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-wusi-yundong.yml]
+- person_id: cbdb-person-90980
+  person_name_raw: 蔡元培
+  role: official
+  role_zh_cn: 北大校长（支持学生运动）
+  side: 民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wusi-yundong.yml]
+- person_id: curated-person-chen-duxiu
+  person_name_raw: 陈独秀
+  role: political_leader
+  role_zh_cn: 中华民国·政治领导人
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-wusi-yundong.yml]
+relations:
+- target_event_id: event-bali-hehui
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 巴黎和会外交失败引发。
+# event-wusi-yundong — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

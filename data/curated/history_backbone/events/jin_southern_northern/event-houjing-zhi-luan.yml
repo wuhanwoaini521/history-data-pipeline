@@ -31,3 +31,29 @@ relations:
   relation_type: part_of
   confidence: 0.7
   description_zh_cn: 侯景之乱后西魏破江陵梁亡为余波
+evidence:
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: null
+  chapter_hint: 武帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《梁书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 梁书
+  term: 侯景传
+  historical_text_id: null
+  chapter_hint: 侯景传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《梁书·侯景传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 太清二年至承圣元年（548—552年），北魏降将侯景反梁，围建康、破台城，梁武帝饿死（549年），江南文物尽焚、人口锐减。
+result_zh_cn: 侯景之乱是南朝由盛转衰的总爆发：梁朝统治瓦解、南朝再也无力抗衡北朝，并催生陈朝与北周、北齐南北格局的新一轮洗牌。
+# promoted from data/candidates/batch03/event-houjing-zhi-luan.yml (AUTO_ACCEPT gate)

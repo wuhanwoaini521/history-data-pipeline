@@ -1,0 +1,77 @@
+id: event-jiuyiba-shibian
+name_zh_cn: 九一八事变
+event_type: war
+start_year: 1931
+end_year: 1931
+date_precision: year
+period_id: period-republic
+importance: critical
+summary_zh_cn: 1931 年 9 月 18 日夜，日本关东军自行炸毁沈阳柳条湖附近南满铁路并嫁祸中国军队，随即进攻沈阳北大营，占领沈阳及东北三省大部（九一八事变）；国民政府实行"不抵抗"方针（具体指令及责任为史学争论点），东北全境沦陷。
+background_zh_cn: 1931 年 9 月 18 日夜，日本关东军自行炸毁沈阳柳条湖附近南满铁路并嫁祸中国军队，随即进攻沈阳北大营，占领沈阳及东北三省大部（九一八事变）；国民政府实行"不抵抗"方针（具体指令及责任为史学争论点），东北全境沦陷。
+result_zh_cn: 1931 年 9 月 18 日夜，日本关东军自行炸毁沈阳柳条湖附近南满铁路并嫁祸中国军队，随即进攻沈阳北大营，占领沈阳及东北三省大部（九一八事变）；国民政府实行"不抵抗"方针（具体指令及责任为史学争论点），东北全境沦陷。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 档案史料：中日双方军事档案（关东军参谋部纪录）；现代研究：军事科学院《中国抗日战争史》（军事科学出版社）；中央档案馆与江苏省档案馆等合编《南京大屠杀史料集》（江苏人民出版社）；张宪文主编《中华民国史》
+source_ids:
+- work-curated-minguoshi
+- work-curated-kangzhanshi
+regime_ids:
+- regime-republic
+people:
+- person_id: curated-person-ishihara-kanji
+  person_name_raw: 石原莞尔
+  role: initiator
+  role_zh_cn: 日本·发起者
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jiuyiba-shibian.yml]
+- person_id: curated-person-itagaki-seishiro
+  person_name_raw: 板垣征四郎
+  role: initiator
+  role_zh_cn: 日本·发起者
+  side: 日本
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jiuyiba-shibian.yml]
+- person_id: curated-person-zhang-xueliang
+  person_name_raw: 张学良
+  role: official
+  role_zh_cn: 中华民国·官员
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jiuyiba-shibian.yml]
+- person_id: curated-person-chiang-kai-shek
+  person_name_raw: 蒋介石
+  role: ruler
+  role_zh_cn: 中华民国·统治者
+  side: 中华民国
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-jiuyiba-shibian.yml]
+relations:
+- target_event_id: event-dongbei-yizhi
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 东北易帜后三年东北沦陷。
+- target_event_id: event-manzhouguo-jianli
+  relation_type: leads_to
+  confidence: 0.95
+  description_zh_cn: 次年建立满洲国。
+# event-jiuyiba-shibian — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

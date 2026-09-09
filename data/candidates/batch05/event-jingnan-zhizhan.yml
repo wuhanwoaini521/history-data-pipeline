@@ -1,0 +1,74 @@
+id: event-jingnan-zhizhan
+name_zh_cn: 靖难之役
+event_type: war
+start_year: 1399
+end_year: 1402
+date_precision: range
+period_id: period-ming
+importance: critical
+summary_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。本事件为
+  aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
+background_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。
+result_zh_cn: 本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·成祖纪》《恭闵帝纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+regime_ids:
+- regime-ming
+people:
+- person_id: cbdb-person-30151
+  person_name_raw: 朱棣
+  role: initiator
+  role_zh_cn: 靖难起兵者
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jingnan-zhizhan.yml]
+- person_id: cbdb-person-30150
+  person_name_raw: 建文帝
+  role: opponent
+  role_zh_cn: 被推翻皇帝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-jingnan-zhizhan.yml]
+relations:
+- target_event_id: event-jianwen-xuefan
+  relation_type: follows
+  confidence: 0.95
+  description_zh_cn: 削藩引发靖难。
+evidence:
+- work: 明史
+  term: 成祖纪
+  historical_text_id: null
+  chapter_hint: 成祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 恭闵帝纪
+  historical_text_id: null
+  chapter_hint: 恭闵帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·恭闵帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+# event-jingnan-zhizhan — batch05 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

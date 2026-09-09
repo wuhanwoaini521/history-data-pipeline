@@ -1,0 +1,55 @@
+id: event-zhuyuanzhang-chendi
+name_zh_cn: 朱元璋称帝、明朝建立
+event_type: foundation
+start_year: 1368
+end_year: 1368
+date_precision: year
+period_id: period-ming
+importance: critical
+summary_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+background_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+result_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《明史·太祖纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_ids:
+- work-curated-mingshi
+regime_ids:
+- regime-ming
+people:
+- person_id: cbdb-person-30148
+  person_name_raw: 朱元璋
+  role: initiator
+  role_zh_cn: 称帝建立明朝
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-zhuyuanzhang-chendi.yml]
+relations:
+- target_event_id: event-zhuyuanzhang-mie-zhang
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 灭张士诚、平江南后称帝建明。
+- target_event_id: event-xuda-beifa
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 建明后即命徐达北伐。
+evidence:
+- work: 明史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-zhuyuanzhang-chendi — batch05 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

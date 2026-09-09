@@ -1,0 +1,84 @@
+id: event-qingjun-ru-guan
+name_zh_cn: 清军入关、定鼎北京
+event_type: dynastic-transition
+start_year: 1644
+end_year: 1644
+date_precision: year
+period_id: period-qing
+importance: critical
+summary_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
+background_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
+result_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《清实录·世祖实录》；《明史·庄烈帝纪》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
+source_ids:
+- work-curated-qingshigao
+- work-curated-qingshilu
+- work-curated-mingshi
+regime_ids:
+- regime-qing
+- regime-ming
+people:
+- person_id: cbdb-person-65991
+  person_name_raw: 多尔衮
+  role: commander
+  role_zh_cn: 清军入关最高指挥
+  side: 清
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-qingjun-ru-guan.yml]
+- person_id: cbdb-person-58844
+  person_name_raw: 吴三桂
+  role: initiator
+  role_zh_cn: 引清军入关者
+  side: 明
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-qingjun-ru-guan.yml]
+relations:
+- target_event_id: event-lizicheng-gong-beijing
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 李自成入京后吴三桂引清军入关。
+- target_event_id: event-songjin-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 松锦决战扫清入关障碍。
+- target_event_id: event-nanming-hongguang
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 明宗室在南京建立南明。
+evidence:
+- work: 清实录
+  term: 世祖实录
+  historical_text_id: null
+  chapter_hint: 世祖实录
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《清实录·世祖实录》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: null
+  chapter_hint: 庄烈帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-qingjun-ru-guan — batch05 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

@@ -24,3 +24,29 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 八王之乱耗尽西晋力量，直接导向永嘉之祸
+evidence:
+- work: 晋书
+  term: 孝惠帝纪
+  historical_text_id: null
+  chapter_hint: 孝惠帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·孝惠帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 晋书
+  term: 八王列传
+  historical_text_id: null
+  chapter_hint: 八王列传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《晋书·八王列传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 元康元年至光熙元年（291—306年），西晋宗室诸王（汝南王亮、楚王玮、赵王伦、齐王冏、长沙王乂、成都王颖、河间王颙、东海王越）围绕皇权反复混战，史称"八王之乱"。
+result_zh_cn: 战乱使西晋国力耗竭、社会秩序崩坏，并直接诱发五部匈奴等北方民族力量起兵，最终导致西晋灭亡。
+# promoted from data/candidates/batch02/event-bawang-zhi-luan.yml (AUTO_ACCEPT gate)

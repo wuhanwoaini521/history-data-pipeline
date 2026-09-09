@@ -1,0 +1,66 @@
+id: event-houliang-dai-tang
+name_zh_cn: 朱温废哀帝、后梁建立、唐朝灭亡
+event_type: dynastic-transition
+start_year: 907
+end_year: 907
+date_precision: year
+period_id: period-five-dynasties-ten-kingdoms
+importance: critical
+summary_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁（后梁），都汴州（开封），唐朝正式灭亡，中国历史进入五代十国时代。后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点。
+background_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁（后梁），都汴州（开封），唐朝正式灭亡，中国历史进入五代十国时代。
+result_zh_cn: 后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧五代史·梁太祖纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiuwudaishi
+- work-curated-xinwudaishi
+- work-curated-zizhitongjian
+regime_ids:
+- regime-later-liang
+people:
+- person_id: cbdb-person-339634
+  person_name_raw: 唐哀帝
+  role: victim
+  role_zh_cn: 被废末帝
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-houliang-dai-tang.yml]
+- person_id: cbdb-person-377600
+  person_name_raw: 朱温
+  role: initiator
+  role_zh_cn: 后梁·发起者
+  side: 后梁
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-houliang-dai-tang.yml]
+relations:
+- target_event_id: event-zhuwen-qian-du
+  relation_type: follows
+- target_event_id: event-hou-tang-jianguo
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 后梁立足中原十七年，为后唐所灭
+evidence:
+- work: 旧五代史
+  term: 梁太祖纪
+  historical_text_id: null
+  chapter_hint: 梁太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧五代史·梁太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-houliang-dai-tang — batch04 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

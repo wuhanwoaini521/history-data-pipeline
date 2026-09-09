@@ -1,0 +1,66 @@
+id: event-wu-zhou-jianguo
+name_zh_cn: 武则天称帝、武周建立
+event_type: dynastic-transition
+start_year: 690
+end_year: 690
+date_precision: year
+period_id: period-tang
+importance: critical
+summary_zh_cn: 天授元年（690年）武则天废睿宗、自称皇帝，改国号为周（武周），迁都洛阳为神都。武则天是中国历史上唯一正式称帝的女皇帝；武周政权的建立使唐代政治出现二十余年的女性执政的特殊时期。
+background_zh_cn: 天授元年（690年）武则天废睿宗、自称皇帝，改国号为周（武周），迁都洛阳为神都。
+result_zh_cn: 武则天是中国历史上唯一正式称帝的女皇帝；武周政权的建立使唐代政治出现二十余年的女性执政的特殊时期。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·则天皇后纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+regime_ids:
+- regime-wu-zhou
+people:
+- person_id: cbdb-person-93663
+  person_name_raw: 武则天
+  role: initiator
+  role_zh_cn: 称帝建立武周
+  side: 武周
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wu-zhou-jianguo.yml]
+- person_id: cbdb-person-19243
+  person_name_raw: 唐睿宗
+  role: victim
+  role_zh_cn: 被废皇帝
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wu-zhou-jianguo.yml]
+relations:
+- target_event_id: event-wu-zhao-linchao
+  relation_type: follows
+  description_zh_cn: 临朝称制后称帝建周
+- target_event_id: event-shenlong-zhengbian
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 武周统治十五年后被神龙政变终结
+evidence:
+- work: 旧唐书
+  term: 则天皇后纪
+  historical_text_id: null
+  chapter_hint: 则天皇后纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-wu-zhou-jianguo — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

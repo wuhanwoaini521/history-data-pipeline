@@ -1,0 +1,71 @@
+id: event-houjing-zhi-luan
+name_zh_cn: 侯景之乱
+event_type: war
+start_year: 548
+end_year: 552
+date_precision: range
+period_id: period-northern-southern
+importance: critical
+summary_zh_cn: 太清二年至承圣元年（548—552年），北魏降将侯景反梁，围建康、破台城，梁武帝饿死（549年），江南文物尽焚、人口锐减。侯景之乱是南朝由盛转衰的总爆发：梁朝统治瓦解、南朝再也无力抗衡北朝，并催生陈朝与北周、北齐南北格局的新一轮洗牌。
+background_zh_cn: 太清二年至承圣元年（548—552年），北魏降将侯景反梁，围建康、破台城，梁武帝饿死（549年），江南文物尽焚、人口锐减。
+result_zh_cn: 侯景之乱是南朝由盛转衰的总爆发：梁朝统治瓦解、南朝再也无力抗衡北朝，并催生陈朝与北周、北齐南北格局的新一轮洗牌。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《梁书·武帝纪》《侯景传》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
+source_ids:
+- work-curated-liangshu
+- work-curated-chenshu
+- work-curated-nanshi
+regime_ids:
+- regime-liang
+people:
+- person_id: cbdb-person-194562
+  person_name_raw: 侯景
+  role: initiator
+  role_zh_cn: 叛乱首领
+  side: 侯景政权
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-houjing-zhi-luan.yml]
+relations:
+- target_event_id: event-xiaoyan-dai-qi
+  relation_type: follows
+  description_zh_cn: 萧衍晚年失政、纳降侯景
+- target_event_id: event-houjing-po-taicheng
+  relation_type: part_of
+  confidence: 0.95
+  description_zh_cn: 台城陷落梁武帝去世为侯景之乱核心阶段
+- target_event_id: event-xiwei-po-jiangling
+  relation_type: part_of
+  confidence: 0.7
+  description_zh_cn: 侯景之乱后西魏破江陵梁亡为余波
+evidence:
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: null
+  chapter_hint: 武帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《梁书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 梁书
+  term: 侯景传
+  historical_text_id: null
+  chapter_hint: 侯景传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《梁书·侯景传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+# event-houjing-zhi-luan — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

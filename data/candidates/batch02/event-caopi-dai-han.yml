@@ -1,0 +1,76 @@
+id: event-caopi-dai-han
+name_zh_cn: 曹丕代汉、曹魏建立
+event_type: dynastic-transition
+start_year: 220
+end_year: 220
+date_precision: year
+period_id: period-three-kingdoms
+importance: critical
+summary_zh_cn: 建安二十五年（220年）正月曹操去世，十月曹丕接受汉献帝禅让称帝，改元黄初，国号魏，东汉正式灭亡。曹丕代汉是三国鼎立格局在名分上的确立，也是"禅让"改朝模式的重要案例。
+background_zh_cn: 建安二十五年（220年）正月曹操去世，十月曹丕接受汉献帝禅让称帝，改元黄初，国号魏，东汉正式灭亡。
+result_zh_cn: 曹丕代汉是三国鼎立格局在名分上的确立，也是"禅让"改朝模式的重要案例。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《三国志·魏书·文帝纪》《后汉书·献帝纪》；现代参考：王仲荦《魏晋南北朝史》；吕思勉《三国史话》及《两晋南北朝史》；翦伯赞《中国史纲要》；白寿彝《中国通史》
+source_ids:
+- work-curated-sanguozhi
+- work-curated-houhanshu
+regime_ids:
+- regime-cao-wei
+people:
+- person_id: cbdb-person-30261
+  person_name_raw: 曹丕
+  role: initiator
+  role_zh_cn: 代汉称帝
+  side: 曹魏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-caopi-dai-han.yml]
+- person_id: cbdb-person-30267
+  person_name_raw: 汉献帝
+  role: victim
+  role_zh_cn: 禅让退位
+  side: 东汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-caopi-dai-han.yml]
+relations:
+- target_event_id: event-lv-meng-xi-jingzhou
+  relation_type: follows
+- target_event_id: event-liubei-chengdi
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 曹魏代汉后刘备亦践祚称帝以继汉统
+evidence:
+- work: 三国志
+  term: 魏书·文帝纪
+  historical_text_id: null
+  chapter_hint: 魏书·文帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《三国志·魏书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 后汉书
+  term: 献帝纪
+  historical_text_id: null
+  chapter_hint: 献帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《后汉书·献帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-caopi-dai-han — batch02 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

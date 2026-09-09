@@ -311,5 +311,18 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         # ---- China History Backbone V1 · Batch 8：民国/近现代 works seeds ----
         {"id": "work-curated-minguoshi", "title": "中华民国史", "title_raw": "中华民国史", "title_zh_cn": "中华民国史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-kangzhanshi", "title": "中国抗日战争史", "title_raw": "中国抗日战争史", "title_zh_cn": "中国抗日战争史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        # ---- Calibration Batch 02..06 · 已在 canonical source_reference 中被引用的补登 works ----
+        {"id": "work-curated-sanchaohui-meng", "title": "三朝北盟会编", "title_raw": "三朝北盟会编", "title_zh_cn": "三朝北盟会编", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-menggu-mishi", "title": "蒙古秘史", "title_raw": "蒙古秘史", "title_zh_cn": "蒙古秘史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-yuan-chao-shi", "title": "元朝史", "title_raw": "元朝史", "title_zh_cn": "元朝史（韩儒林主编）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-dongjin-menfa", "title": "东晋门阀政治", "title_raw": "东晋门阀政治", "title_zh_cn": "东晋门阀政治", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-yuanmo-jiangnan", "title": "元末明初的江南社会", "title_raw": "元末明初的江南社会", "title_zh_cn": "元末明初的江南社会", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-xinhai-huiyilu", "title": "辛亥革命回忆录", "title_raw": "辛亥革命回忆录", "title_zh_cn": "辛亥革命回忆录", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+    {"id": "work-curated-nanjing-datusha-shiliaoji", "title": "南京大屠杀史料集", "title_raw": "南京大屠杀史料集", "title_zh_cn": "南京大屠杀史料集", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zhongguo-gcd-lishi", "title": "中国共产党历史", "title_raw": "中国共产党历史", "title_zh_cn": "中国共产党历史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-ershishiji-zhongguoshigang", "title": "二十世纪中国史纲", "title_raw": "二十世纪中国史纲", "title_zh_cn": "二十世纪中国史纲", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-zhongguo-xiandaishi", "title": "中国现代史", "title_raw": "中国现代史", "title_zh_cn": "中国现代史", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-qinhan-shi", "title": "秦汉史", "title_raw": "秦汉史", "title_zh_cn": "秦汉史（翦伯赞）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
+        {"id": "work-curated-qinhan-shilue", "title": "秦汉史略", "title_raw": "秦汉史略", "title_zh_cn": "秦汉史略（何兹全）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
     return people, places, works

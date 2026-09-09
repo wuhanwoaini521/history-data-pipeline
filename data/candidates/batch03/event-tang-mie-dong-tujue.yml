@@ -1,0 +1,88 @@
+id: event-tang-mie-dong-tujue
+name_zh_cn: 唐灭东突厥
+event_type: war
+start_year: 630
+end_year: 630
+date_precision: year
+period_id: period-tang
+importance: critical
+summary_zh_cn: 贞观四年（630年）唐将李靖率军长途奔袭，在阴山击破东突厥主力，颉利可汗被俘，东突厥汗国灭亡。唐灭东突厥解除北方最大边患，太宗被尊"天可汗"，西域诸国与回纥等皆奉大唐为盟主，是唐初对外战略的决定性胜利。
+background_zh_cn: 贞观四年（630年）唐将李靖率军长途奔袭，在阴山击破东突厥主力，颉利可汗被俘，东突厥汗国灭亡。
+result_zh_cn: 唐灭东突厥解除北方最大边患，太宗被尊"天可汗"，西域诸国与回纥等皆奉大唐为盟主，是唐初对外战略的决定性胜利。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《旧唐书·李靖传》《突厥传》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_ids:
+- work-curated-jiutangshu
+- work-curated-zizhitongjian
+regime_ids:
+- regime-tang
+people:
+- person_id: cbdb-person-31312
+  person_name_raw: 李靖
+  role: commander
+  role_zh_cn: 灭东突厥主帅
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-tang-mie-dong-tujue.yml]
+- person_id: cbdb-person-13060
+  person_name_raw: 唐太宗
+  role: ruler
+  role_zh_cn: 用兵决策者
+  side: 唐
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-tang-mie-dong-tujue.yml]
+- person_id: cbdb-person-444917
+  person_name_raw: 颉利可汗
+  role: victim
+  role_zh_cn: 东突厥可汗（被俘）
+  side: 东突厥
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-tang-mie-dong-tujue.yml]
+relations:
+- target_event_id: event-weishui-zhi-meng
+  relation_type: follows
+  description_zh_cn: 渭水之盟后励精图治、四年灭东突厥
+- target_event_id: event-tang-ping-gaochang-ansixi
+  relation_type: leads_to
+  confidence: 0.8
+  description_zh_cn: 灭东突厥后唐向西经营西域（安西都护府）
+evidence:
+- work: 旧唐书
+  term: 李靖传
+  historical_text_id: null
+  chapter_hint: 李靖传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·李靖传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: null
+  chapter_hint: 突厥传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·突厥传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+# event-tang-mie-dong-tujue — batch03 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

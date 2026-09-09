@@ -26,3 +26,29 @@ relations:
   relation_type: precedes
   confidence: 0.8
   description_zh_cn: 十三年后的又一次大规模清洗（蓝玉案）。
+evidence:
+- work: 明史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 明史
+  term: 胡惟庸传
+  historical_text_id: null
+  chapter_hint: 胡惟庸传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·胡惟庸传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 洪武十三年（1380 年），朱元璋以谋反罪族诛左丞相胡惟庸，随即罢中书省、废丞相制度，六部尚书直接对皇帝负责；此后内阁制逐步形成，皇权空前集中，是中国古代中枢制度的结构性变革。
+result_zh_cn: 洪武十三年（1380 年），朱元璋以谋反罪族诛左丞相胡惟庸，随即罢中书省、废丞相制度，六部尚书直接对皇帝负责；此后内阁制逐步形成，皇权空前集中，是中国古代中枢制度的结构性变革。
+# promoted from data/candidates/batch05/event-hu-weiyong-an.yml (AUTO_ACCEPT gate)

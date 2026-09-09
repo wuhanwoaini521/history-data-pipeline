@@ -1,0 +1,70 @@
+id: event-wuchang-qiyi
+name_zh_cn: 武昌起义
+event_type: rebellion
+start_year: 1911
+end_year: 1911
+date_precision: year
+period_id: period-late-qing
+importance: critical
+summary_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+background_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+result_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《辛亥革命回忆录》等当事人记载；《清史稿·宣统本纪》；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
+source_ids:
+- work-curated-qingshigao
+regime_ids:
+- regime-qing
+people:
+- person_id: cbdb-person-89699
+  person_name_raw: 蒋翊武
+  role: commander
+  role_zh_cn: 起义总指挥
+  side: 革命党
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wuchang-qiyi.yml]
+- person_id: cbdb-person-91349
+  person_name_raw: 黎元洪
+  role: political_leader
+  role_zh_cn: 被推举都督
+  side: 革命党
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-wuchang-qiyi.yml]
+relations:
+- target_event_id: event-baolu-yundong
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 保路运动牵制清军。
+- target_event_id: event-tongmenghui-chengli
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 同盟会多年起义组织的结果。
+- target_event_id: event-nanjing-linshi-zhengfu
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 各省响应后在南京建立临时政府。
+evidence:
+- work: 清史稿
+  term: 宣统本纪
+  historical_text_id: null
+  chapter_hint: 宣统本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《清史稿·宣统本纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-wuchang-qiyi — batch06 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

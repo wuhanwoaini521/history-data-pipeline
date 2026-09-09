@@ -1,0 +1,56 @@
+id: event-western-xia-jianguo
+name_zh_cn: 李元昊称帝、西夏建立
+event_type: foundation
+start_year: 1038
+end_year: 1038
+date_precision: year
+period_id: period-western-xia
+importance: critical
+summary_zh_cn: 宝元元年（1038 年）十月，夏国王李元昊称帝建国，国号大夏（史称西夏），定都兴庆府（今宁夏银川），与北宋、辽成鼎足之势；此前元昊父祖（李继迁、李德明）已割据夏州、灵州一带。
+background_zh_cn: 宝元元年（1038 年）十月，夏国王李元昊称帝建国，国号大夏（史称西夏），定都兴庆府（今宁夏银川），与北宋、辽成鼎足之势；此前元昊父祖（李继迁、李德明）已割据夏州、灵州一带。
+result_zh_cn: 宝元元年（1038 年）十月，夏国王李元昊称帝建国，国号大夏（史称西夏），定都兴庆府（今宁夏银川），与北宋、辽成鼎足之势；此前元昊父祖（李继迁、李德明）已割据夏州、灵州一带。
+quality_status: reviewed
+source_type: curated_reference
+source_reference: 古代史料：《宋史·夏国传》；《续资治通鉴长编》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
+source_ids:
+- work-curated-songshi
+- work-curated-xuzizhitongjianchangbian
+regime_ids:
+- regime-western-xia
+people:
+- person_id: cbdb-person-339687
+  person_name_raw: 李元昊
+  role: initiator
+  role_zh_cn: 称帝建国
+  side: 西夏
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-western-xia-jianguo.yml]
+relations:
+- target_event_id: event-li-jiqian-juxia
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 李继迁以来的党项割据势力发展为独立政权。
+- target_event_id: event-sanchuankou-zhizhan
+  relation_type: leads_to
+  confidence: 0.9
+  description_zh_cn: 称帝建国后宋夏战争爆发。
+evidence:
+- work: 宋史
+  term: 夏国传
+  historical_text_id: null
+  chapter_hint: 夏国传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《宋史·夏国传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+# event-western-xia-jianguo — batch04 enriched candidate (Producer, generic)
+# background/result derived verbatim from canonical summary
+# evidence transcribed from canonical source_reference + source_ids (registered works only)
+# no fabricated locators, coordinates, text ids, or links

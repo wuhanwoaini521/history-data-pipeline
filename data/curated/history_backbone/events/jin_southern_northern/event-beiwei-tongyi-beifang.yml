@@ -25,3 +25,29 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 北魏统一北方后向中原制度转型（孝文帝改革）
+evidence:
+- work: 魏书
+  term: 世祖纪
+  historical_text_id: null
+  chapter_hint: 世祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《魏书·世祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 魏书
+  term: 沮渠蒙逊载记
+  historical_text_id: null
+  chapter_hint: 沮渠蒙逊载记
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《魏书·沮渠蒙逊载记》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+background_zh_cn: 太延五年（439年）北魏太武帝拓跋焘西征，克姑臧，北凉沮渠牧犍出降，十六国中最后一个政权被灭，北魏统一北方（此前已灭胡夏431、北燕436）。
+result_zh_cn: 自此中国北方重归一统，与南方刘宋并峙，南北朝对峙格局正式确立。
+# promoted from data/candidates/batch02/event-beiwei-tongyi-beifang.yml (AUTO_ACCEPT gate)

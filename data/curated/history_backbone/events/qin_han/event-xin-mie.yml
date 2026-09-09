@@ -16,6 +16,7 @@ source_type: curated_reference
 source_reference: 古代史料：《汉书·王莽传》《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
 source_ids:
 - work-curated-houhanshu
+- work-curated-hanshu
 relations:
 - target_event_id: event-kunyang-zhizhan
   relation_type: follows
@@ -24,3 +25,29 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 新亡后群雄并起，刘秀于公元25年称帝建立东汉
+evidence:
+- work: 汉书
+  term: 王莽传
+  historical_text_id: null
+  chapter_hint: 王莽传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《汉书·王莽传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: null
+  chapter_hint: 光武帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+background_zh_cn: 公元23年十月，更始军攻入长安，王莽被杀于渐台，新朝灭亡。
+result_zh_cn: 新朝的失败结束了王莽改制试验，中国历史进入更始与群雄争夺、刘秀重建汉室的东汉建立阶段。
+# promoted from data/candidates/batch02/event-xin-mie.yml (AUTO_ACCEPT gate)

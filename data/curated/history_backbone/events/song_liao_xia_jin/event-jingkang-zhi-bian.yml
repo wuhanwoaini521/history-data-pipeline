@@ -18,6 +18,7 @@ source_type: curated_reference
 source_reference: 古代史料：《宋史·钦宗纪》；《三朝北盟会编》；现代参考：徐梦莘《三朝北盟会编》所存宋金交涉史料；王曾瑜《岳飞新传》；白寿彝总主编《中国通史·宋辽金元卷》；邓广铭《岳飞传》（三联书店）
 source_ids:
 - work-curated-songshi
+- work-curated-sanchaohui-meng
 relations:
 - target_event_id: event-jin-di-erci-weikaifeng
   relation_type: follows
@@ -27,3 +28,29 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 康王赵构南渡即位，建立南宋。
+evidence:
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: null
+  chapter_hint: 钦宗纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《宋史·钦宗纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+- work: 三朝北盟会编
+  term: 岳飞新传
+  historical_text_id: null
+  chapter_hint: 岳飞新传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
+background_zh_cn: 靖康二年（1127 年），金军掳宋徽宗、钦宗二帝及后妃宗室大臣北去，北宋灭亡；史称靖康之变（靖康之难）。
+result_zh_cn: 此前金已在开封册立伪楚（张邦昌），中原政权易主，宋朝宗室南迁。
+# promoted from data/candidates/batch04/event-jingkang-zhi-bian.yml (AUTO_ACCEPT gate)

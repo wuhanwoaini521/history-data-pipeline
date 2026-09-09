@@ -68,10 +68,25 @@ CANDIDATE_STATUSES = {"candidate", "needs_review", None, ""}
 
 # 古代史料标题（primary anchor）用于 source-quality 判定
 CLASSICAL_TITLE_HINTS = (
+    "尚书",
+    "春秋",
     "左传",
+    "国语",
+    "战国策",
     "史记",
     "汉书",
     "后汉书",
+    "三国志",
+    "晋书",
+    "宋书",
+    "梁书",
+    "陈书",
+    "魏书",
+    "北齐书",
+    "周书",
+    "隋书",
+    "南史",
+    "北史",
     "旧唐书",
     "新唐书",
     "旧五代史",
@@ -79,18 +94,30 @@ CLASSICAL_TITLE_HINTS = (
     "宋史",
     "辽史",
     "金史",
+    "续资治通鉴长编",
     "元史",
     "明史",
+    "明实录",
     "清史稿",
+    "清实录",
     "资治通鉴",
     "通鉴",
-    "国语",
-    "战国策",
     "竹书纪年",
     "唐六典",
     "宋会要",
-    "明实录",
-    "清实录",
+)
+
+# AGENTS.md §10：official archives 与 primary historical texts 同为 Tier-A。
+# 近现代事件的 primary anchor 常为官方档案/机构汇编，需与古代史料标题同级加分。
+TIER_A_ARCHIVE_HINTS = (
+    "档案史料",
+    "官方档案",
+    "审判档案",
+    "受降档案",
+    "军事科学院",
+    "中央档案馆",
+    "档案馆",
+    "馆藏档案",
 )
 
 
@@ -146,10 +173,11 @@ def _score_source_quality(event: dict[str, Any]) -> tuple[float, str]:
         return 0.0, "无 source_reference/source_ids（qaq 现值 0）"
     base += 8.0
     reasons.append("已有 source_reference/source_ids")
-    has_classical = any(hint in src_ref for hint in CLASSICAL_TITLE_HINTS)
-    if has_classical:
+    has_primary_anchor = any(hint in src_ref for hint in CLASSICAL_TITLE_HINTS)
+    has_archive_anchor = any(hint in src_ref for hint in TIER_A_ARCHIVE_HINTS)
+    if has_primary_anchor or has_archive_anchor:
         base += 4.0
-        reasons.append("source_reference 含古代史料标题（Tier-A 锚点）")
+        reasons.append("source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）")
     if event.get("source_type") == "curated_reference" or len(src_ids) >= 1:
         base += 3.0
         reasons.append("source_type=curated_reference 或 source_ids 非空")
@@ -187,12 +215,14 @@ def _score_independent_verification(event: dict[str, Any]) -> tuple[float, str]:
     src_ids = [s for s in (event.get("source_ids") or []) if s]
     src_ref = (event.get("source_reference") or "").strip()
     distinct = len(set(src_ids))
-    has_classical = any(hint in src_ref for hint in CLASSICAL_TITLE_HINTS)
+    has_primary_anchor = any(hint in src_ref for hint in CLASSICAL_TITLE_HINTS)
+    has_archive_anchor = any(hint in src_ref for hint in TIER_A_ARCHIVE_HINTS)
+    has_anchor = has_primary_anchor or has_archive_anchor
     # 古代史料 + modern 参考两级
-    if distinct >= 2 or (distinct >= 1 and src_ref and has_classical):
+    if distinct >= 2 or (distinct >= 1 and src_ref and has_anchor):
         return 10.0, f"≥2 独立来源锚点（source_ids={distinct}）"
-    if distinct == 1 and src_ref and has_classical:
-        return 7.5, "1 个独立 source_id + 经典 title（中等）"
+    if distinct == 1 and src_ref and has_anchor:
+        return 7.5, "1 个独立 source_id + Tier-A 锚点（中等）"
     if src_ref:
         return 4.0, "仅 source_reference 文本（单锚点）"
     if distinct == 1:
