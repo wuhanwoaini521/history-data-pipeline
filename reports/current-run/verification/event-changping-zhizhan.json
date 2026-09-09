@@ -1,0 +1,32 @@
+{
+  "eid": "event-changping-zhizhan",
+  "verdict": "WARN",
+  "checks": {
+    "verbatim": "pass",
+    "glyph": "pass",
+    "reality": "warn",
+    "links": "pass",
+    "temporal": "pass"
+  },
+  "source_urls_fetched": [
+    "https://zh.wikipedia.org/wiki/长平之战",
+    "https://zh.wikisource.org/wiki/史記",
+    "https://zh.wikisource.org/wiki/史記/卷073",
+    "https://zh.wikisource.org/wiki/史記/卷081"
+  ],
+  "source_urls_attempted_http403": [
+    "https://ctext.org/shiji/bai-qi-wang-jian-lie-zhuan/zhs",
+    "https://ctext.org/shiji/lian-po-lin-xiang-ru-lie-zhuan/zhs"
+  ],
+  "reasons": [
+    "VERBATIM PASS: every field copied from canonical matches character-for-character (name_zh_cn=长平之战, event_type=war, start_year=-260, end_year=-260, summary_zh_cn, source_reference, source_ids=[work-curated-shiji], date_precision, period_id, importance, quality_status, source_type, all 3 relations with targets/types/confidence/description identical, person_name_raw=白起 and 赵括). background_zh_cn and result_zh_cn are exact verbatim slices of the canonical summary_zh_cn. Zero differing Han characters.",
+    "GLYPH PASS: confirmed the exact chapter titles against zh.wikisource 史記/卷073 (heading '史記 卷七十三 白起王翦列傳 第十三') and 史記/卷081 (heading '史記 卷八十一 廉頗藺相如列傳 第二十一'), and zh.wikipedia 长平之战 cites 《史记·白起王翦列传》 for the battle/casualty account. The candidate evidence entries (work=史记, term/chapter_hint=白起王翦列传 and 廉颇蔺相如列传) and the classical locators in source_reference match the fetched page sequence. ctext.org returned HTTP 403 for both chapters as anticipated, so the check was performed against zh.wikipedia and wikisource mirrors.",
+    "REALITY WARN: the casualty figure 45万 (四十五万) is carried as asserted fact in summary_zh_cn with no uncertainty marker. The Researcher brief (section 5) explicitly classified the '45万 vs 40万' number as DISPUTED. Independent check supports this: wikisource 卷081 records '赵前后所亡凡四十五万', zh.wikipedia notes the 四十余万 reading and quotes Zhu Xi, Hu Sansheng, Qian Mu doubting the figure (some scholars call it 严重夸大). The candidate does not surface the dispute in the record; per AGENTS.md section 6 DISPUTED claims must preserve competing views. While the wording is a verbatim copy of the curated canonical summary (so the producer did not invent it), the record would be more correct carrying a DISPUTED flag/control on the casualty figure.",
+    "LINKS PASS: no fabricated coordinates (no latitude/longitude in candidate), no invented chapter ids, historical_text_id is NULL (field absent), and both evidence items have link_status=needs_linking (verified via field regex). Evidence chain thus unsold, requiring the linkage step before promotion. NOTE: person_id cbdb-person-416324 (for 白起) could not be independently confirmed this session (search engine/CBDB yielded no direct match for that numeric id); the name 白起 itself is certain and appears in canonical summary and wikisource 卷081. Since it does not affect the evidence linkage, it is a note, not a failure.",
+    "TEMPORAL PASS: start_year -260 <= end_year -260.",
+    "INDEPENDENCE NOTE: 史记·白起王翦列传 (卷73) and 史记·廉颇蔺相如列传 (卷81) are two chapters of the same primary work 史记, so the evidence chain as recorded is effectively one independent source with two chapters. Genuine independence for the battle comes from the modern references named in source_reference (杨宽《战国史》, 张岂之《中国历史·先秦卷》, 白寿彝《中国通史》), which are listed but not yet rendered as separate evidence items. Recommendation: add at least one Tier A/B modern reference as an independent evidence record (or explicitly label the two 史记 chapters as 'same primary text, two juan')."
+  ],
+  "notes": "ctext.org returned HTTP 403 for both chapter pages as anticipated; glyph confirmation used zh.wikipedia 长平之战 (which cites 史记·白起王翦列传) and zh.wikisource 卷073/卷081 (traditional forms 白起王翦列傳/廉颇蔺相如传'; simplified forms used in the candidate match the traditional glyphs). Location 長平 = now 山西高平市西北 is consistent with summary '长平(今山西高平一带)'. No coordinates, text ids, or locators invented; historical_text_id null; evidence links correctly still needs_linking; no fabricated readings. WARN due to (a) casualty figure 45万 not surfaced as DISPUTED (Researcher flagged 40万 vs 45万), and (b) single-work evidence chain (two facets of one source).",
+  "checked_by": "verifier-item-5",
+  "checked_date": "2026-09-09"
+}

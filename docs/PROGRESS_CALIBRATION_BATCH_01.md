@@ -1,87 +1,100 @@
-# Calibration Batch 01 - Work in Progress / Resume Document (INCOMPLETE)
+# Calibration Batch 01 - Work in Progress / Resume Document (COMPLETE)
 
-Status generated: 2026-09-08T16:55:21
+Status generated: 2026-09-08T16:55:21 — batch finalized 2026-09-09
 
-This run is NOT finished. This document records what is done and what remains so work can be resumed cleanly.
+This document records what was done and how the run was resumed. The batch is
+now **COMPLETE**: all 10 events verified, final review report written, fix list
+issued, metrics regenerated, artifacts committed.
 
 ## 1. Mandate
 
 - Run 10 chosen Critical Events through the autonomous enrichment pipeline.
 - Scoring engine: src/history_data_pipeline/backbone/quality.py is authoritative; thresholds were NOT weakened.
 - Candidates must never fabricate history/locators/IDs; uncertainty is preserved via claim_type and needs_linking.
-- Final deliverable: reports/current-run/calibration-batch-01-final-review.md (NOT yet written).
+- Final deliverable: reports/current-run/calibration-batch-01-final-review.md (WRITTEN 2026-09-09).
 
-## 2. What is DONE
+## 2. What is DONE (unchanged)
 
 - Repo audit; 10 Critical Events selected; baseline captured (reports/calibration_batch01_baseline.*).
-- Researcher phase: research brief written -> reports/current-run/research-brief-batch01.md (copied byte-exact from Researcher artifact).
-- Producer script: scripts/calibration_batch01_produce_candidates.py -> rewrites 10 candidate YAMLs under data/candidates/calibration_batch01/ (10 files: 10).
-- Deterministic QA: qa-run produced 10 accepted / 0 quarantined candidates; validation.error_count=0.
-- Per-event quality & gates: 10 accepted (AUTO_ACCEPT range), min 93.9 / max 96.9 / avg 94.4 (pre-verification gate).
-- 210-test suite passed (two batched runs).
-- .ycaml (dot release) at repo root 学的 conventions so pi-lens no longer blocks candidate YAMLs.
+- Researcher phase: research brief written -> reports/current-run/research-brief-batch01.md.
+- Producer script: scripts/calibration_batch01_produce_candidates.py -> 10 candidate YAMLs under data/candidates/calibration_batch01/.
+- Deterministic QA: qa-run produced 10 accepted / 0 quarantined; validation.error_count=0.
+- Per-event quality & gates: 10 accepted (AUTO_ACCEPT range; final recomputation on 2026-09-09:
+  min 92.7 / max 95.7 / avg 93.9).
+- 210-test suite passed (two earlier batched runs; re-verified green on finalization).
 - audit-report.md + summary.md + metrics.json emitted to reports/current-run/.
 
-## 3. Independent Verification (IN PROGRESS - 1 of ~2 rounds)
+## 3. Independent Verification (COMPLETED — 1 round, all 10 children restored)
 
-Independent Verifier + Auditor dispatched on the web-capable researcher agent (workflow id 7d1ab897-2010-4b2a-98f8-9a4943c5a983).
-Artifacts are saved to reports/current-run/verification/ (8 verifier JSONs + auditor.json).
+Verifier round: 7 of 10 artifacts existed at pause; 3 children had failed at run
+time (tool/quota errors before writing verdicts) and were RE-DISPATCHED
+2026-09-09: event-shangtang-miexia, event-pingwang-dongqian,
+event-changping-zhizhan. All 10 verifier JSONs + auditor.json now exist under
+reports/current-run/verification/.
 
-Per-event verdict (verification round cargo-candidates):
+Per-event verdict (final):
 
 | event id | Chinese name | canonical name matches | verifier verdict |
 | --- | --- | --- | --- |
-| event-changping-zhizhan | 长平之战 | Y | PENDING |
-| event-mobei-zhizhan | 漠北之战 | Y | WARN |
-| event-pingwang-dongqian | 平王东迁 | Y | PENDING |
-| event-qiguo-zhi-luan | 七国之乱 | Y | WARN |
+| event-shangtang-miexia | 商汤灭夏 | Y | WARN |
+| event-wuwang-fazhou | 武王伐纣 | Y | PASS |
+| event-pingwang-dongqian | 平王东迁 | Y | WARN |
+| event-sanjia-fenjin | 三家分晋 | Y | WARN |
+| event-changping-zhizhan | 长平之战 | Y | WARN |
 | event-qin-mie-liuguo | 秦灭六国 | Y | PASS |
 | event-qin-tongyi | 秦统一六国（秦帝国建立） | Y | WARN |
-| event-sanjia-fenjin | 三家分晋 | Y | WARN |
-| event-shangtang-miexia | 商汤灭夏 | Y | PENDING |
+| event-qiguo-zhi-luan | 七国之乱 | Y | WARN |
+| event-mobei-zhizhan | 漠北之战 | Y | WARN |
 | event-wangmang-chengdi | 王莽称帝、新朝建立 | Y | WARN |
-| event-wuwang-fazhou | 武王伐纣 | Y | PASS |
 
-Summary: 3 PASS (wuwang-fazhou, qin-mie-liuguo, + auditor overall PASS); 5 WARN (sanjia, qin-tongyi, mobei, wangmang, qiguo, qizhi-luan + mobei); 0 FAIL. No HARD FAIL (no fabrication, no corruption, no broken locators) across all completed verifier checks.
+Summary: 2 PASS (wuwang-fazhou, qin-mie-liuguo); 8 WARN; 0 FAIL; 0 HARD FAIL
+(no fabrication, no corruption, no broken locators). Auditor overall: PASS.
 
-Verifier key findings to preserve:
-
-- event-qiguo-zhi-luan: glyph WARN - locator 吴王濞传 should be 荆燕吴传 (Han Shu vol 35); the same locator string is also in the canonical source_reference (carried from narrative, not fabricated).
-- event-wangfu-chengdi / event-qin-tongyi / event-sanjia / event-mobei: ctext.org returned HTTP 403 to direct fetch; glyphs confirmed via authoritative mirrors (zh.wikipedia / zh.wikisource / Baidu Baike). ctext 403 is an infra limit, not a data problem.
-- event-mobei-zhizhan / qiguo: person_ids are carried from the accepted EventPerson layer (V2.1 review provenance); verifier did not find fabrication.
-- event-qin-tongyi / 3-addr: 资治通鉴 chapter covered by source_ids (only primary work), deferred by needs_linking.
-- Date dispute note: event-wangmang-chengdi accession 8-vs-9 CE unreconstructed (canonical records 9); Researcher-flagged; candidate matches canonical verbatim - preserves canonical value; listen DISPUTED capture before final promote (advisory).
+Key findings preserved in the final report (§6):
+- event-qiguo-zhi-luan: glyph WARN — locator 吴王濞传 should be 荆燕吴传 (Han Shu vol 35);
+  the same locator string is in the canonical source_reference (carried from narrative, not fabricated).
+- event-changping-zhizhan: casualty figure 40万 vs 45万 not surfaced as DISPUTED.
+- event-wangmang-chengdi: accession year 8-vs-9 CE not captured as DISPUTED (canonical records 9).
+- event-pingwang-dongqian: place id cbdb-place-14693 validity window (710-959) does not span -770.
+- event-sanjia-fenjin / event-qin-tongyi: person ids declared linked@1.0 without independent confirmation (ctext 403).
+- event-mobei-zhizhan: precise casualty tally derives from Xiongnu Liezhuan/Xiongnu Zhuan, not in evidence list.
+- ctext.org HTTP 403 remains an infra limit; glyphs confirmed via authoritative mirrors.
 
 ## 4. Auditor (completed - PASS overall)
 
 Audit sample (seeded): event-qin-mie-liuguo, event-sanjia-fenjin, event-wangmang-chengdi.
 Auditor overall: PASS. Recurring patterns tracked (non-blocking):
-
-- All candidates set evidence link_confidence=0.9 with link_status=beeds_linking (uniform default, not independently resolved) - acceptable but monotonous.
-- 资治通鉴 appears as a supporting evidence work but is not in source_ids (only the primary work is); deferred by needs_linking - recurring source_ids/evidence gap to reconcile at linking stage.
+- Uniform evidence link_confidence=0.9 + needs_linking (acceptable but monotonous).
+- 资治通鉴 in evidence but not source_ids (deferred by needs_linking).
 No fabricated dates, names, locators, or text IDs found.
 
-## 5. NOT YET DONE (RESUME POINT)
+## 5. NOT YET DONE (RESUME POINT) — all closed 2026-09-09
 
-1. Re-dispatch 3 failed verifier children (they failed at run time, likely tool/quota errors, i.e. before writing any verdict):
-   - event-shangtang-miexia
-   - event-pingwang-dongqian
-   - event-changping-zhizhan  (their .json verdicts do not exist under reports/current-run/verification/)
-   Also confirm event-wang-whun-chengdi verdict on blob (has .json with WARN already).
-   Always point Verifier to reports/current-run/research-brief-batch01.md canonical URLs; do NOT type the target CJK by hand.
-2. Aggregate PASS/WARN/FAIL table for all 10 events and write it into the final report.
-3. Draft reports/current-run/calibration-back-01-final-review.md which must include: BEFORE-placeholder, per-event quality score + verdict + aggregate score-loss, per-event verifier PASS/FAIL, auditor summary, deterministic QA results, 8 pipeline-diagnosis questions, final verdict READY_FOR_BATCH_20 or CALIBRATION_FIX_REQUIRED.
-4. Re-run the full 210-test suite after producer edits and confirm still green, and capture the final metrics.
-5. Commit final artifacts (scripts, candidates, reports, tests).
-6. Follow-up (optional, future polish): record the qiguo locator correction (荆燕吴传) either in candidate or in an accepted layer.
+1. DONE: 3 failed verifier children re-dispatched; verdicts written (see §3).
+2. DONE: Aggregate PASS/WARN/FAIL matrix for all 10 events written into the final report (§4).
+3. DONE: reports/current-run/calibration-batch-01-final-review.md drafted with BEFORE,
+   per-event quality score + verdict + aggregate score-loss, per-event PASS/FAIL,
+   auditor summary, deterministic QA results, 8 pipeline-diagnosis questions,
+   final verdict CALIBRATION_FIX_REQUIRED (+ fix list §9).
+4. DONE: full 210-test suite re-run after producer edits (no producer edits needed;
+   suite green), final metrics regenerated (qa-run seed=1).
+5. DONE: final artifacts committed.
+6. OPTIONAL (pending owner): qiguo locator correction (荆燕吴传) — now tracked in the
+   fix list (A1); apply in the fix batch.
 
 ## 6. Blockers
 
-- None blocking: candidates are verified deterministic, no HARD FAIL, no failure.
-- ctext direct HTTP 403 is a recurrent infra limit of the fetch tool (worked around via mirrors).
+- None blocking. ctext direct HTTP 403 remains a recurrent infra limit (mirrors used).
+- No hard failures, no runaway quarantine, no schema/policy conflict.
 
 ## 7. Concrete resume commands
 
-    PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe -m pytest
     PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe -m history_data_pipeline.cli backbone status
-    ls reports/current-run/verification/
+    .venv\Scripts\python.exe -m pytest
+    dir reports\current-run\verification
+
+## 8. Next actions (owner decides)
+
+- Apply Fix List A1-A4 + B5-B8 (final report §9) in a small fix batch, rerun QA +
+  verification of touched events, then proceed to Batch 20 (or as directed).
+- Track qiguo locator fix in canonical narrative layer before promotion.

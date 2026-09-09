@@ -1,0 +1,36 @@
+{
+  "eid": "event-shangtang-miexia",
+  "verdict": "WARN",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "PASS",
+    "grounding": "PASS",
+    "links": "PASS",
+    "temporal": "PASS"
+  },
+  "source_urls_fetched": [
+    "https://ctext.org/shiji/yin-ben-ji/zhs",
+    "https://profound.fate-craft.com/classics/shangshu/10",
+    "https://zh.wikipedia.org/wiki/鸣条之战",
+    "https://zh.wikipedia.org/wiki/夏商周断代工程",
+    "https://zh.wikipedia.org/wiki/史记",
+    "https://zh.wikisource.org/wiki/尚書/湯誓",
+    "https://zh.wikipedia.org/wiki/许倬云",
+    "https://zh.wikipedia.org/wiki/张岂之",
+    "https://baike.baidu.com/item/殷本纪/2390465",
+    "https://book.douban.com/subject/1615114/",
+    "https://www.sdxjpc.com/scrp/bookdetail.cfm?iBookNo=13429"
+  ],
+  "reasons": [
+    "VERBATIM CHECK: ok. Programmatic string comparison of the candidate against data/curated/history_backbone/events/pre_qin/event-shangtang-miexia.yml shows every copied field (id, name_zh_cn, event_type, start_year, end_year, date_precision, period_id, importance, summary_zh_cn, source_reference, source_ids, relations) is character-identical. The candidate name is '商汤灭夏'. No Han character is shorter, longer, or differently shaped. background_zh_cn equals canonical summary sentences 1+2; result_zh_cn equals sentence 3 (both allowed verbatim translations of the same summary).",
+    "GLYPHS: passed via mirrors. ctext.org and baike.baidu.com returned HTTP 403 for the Shiji Yin Benji text page and the baike entry, so zh.wikipedia and zh.wikisource were used as the brief instructs. The Shiji chapter '殷本纪' (vol 3) is confirmed by the zh.wikipedia '史记' chapter list ('卷三, 第三: 殷本纪'), and the Shangshu chapter '汤誓' is confirmed by zh.wikipedia article '鸣条之战' and by zh.wikisource '尚書/湯誓' (traditional script form of '汤誓'; its opening line names the battle location at 鸣条之野 and Jie, the Xia ruler). The two chapter names in the candidate are exactly 史记.殷本纪 and 尚书.汤誓.",
+    "MODERN-LOCATOR note: zh.wikipedia confirms the 夏商周断代工程 project, the 简本 report title, and the approx 1600 BCE Xia-Shang split date, plus an approx -1556 alternative recorded as disputed, matching the canonical source_reference ('许倬云', '张岂之', '夏商周断代'). LIMITATION: the two modern monographs douban book 1615114 and the SDXJPC page were not fetchable (TLS / timeout), so their exact page-title glyphs were not machine-verified; the research brief itself tags both as indirect. The scholar-name glyphs 张岂之 and 许倬云 were confirmed via zh.wikipedia.",
+    "GROUNDING: passed. No fabricated coordinates, no fabricated chapter_locators, no invented person/place ids, no invented link_status. person_id=curated-person-shang-tang has name_raw=商汤, link_status=linked, and matches the existing reviewed bridge record (data/curated/history_backbone/event_person/event-shangtang-miesia.yml, resolution=exact, v2.1.1) with the person file data/curated/persons/curated-person-shang-tang.yml present. work-curated-shiji and work-curated-shangshu exist. event-shang-jianguo exists for the relation target. historical_text_id is absent (functionally null); link_status on every evidence is needs_linking.",
+    "LINKS/TEMPORAL: start_year=-1600 <= end_year=-1600; date_precision='approximate' is a legal enum. The approx -1600 vs approx -1556 dispute is preserved in the summary and is corroborated by the fetched zh.wikipedia text (the -1556 variant is recorded with caveats). The warning-level compliance complaint about schema: schemas/event_evidence.schema.json lists 'historical_text_id' as required but nullable, and the evidence objects omit that key entirely; also the canonical empty regime_ids list was dropped from the candidate.",
+    "EVIDENCE INDEPENDENT: 史记.殷本纪 (Sima Qian's Shiji) and 尚书.汤誓 (pre-Qin transmitted canon chapter, separate manuscript lineage) are two genuinely distinct classical corpora — not one primary text transcribed twice. Both supported as primary-classical evidence for this event."
+  ],
+  "notes": [
+    "WARN verdict chosen for three amber items, none of which breaks a historical claim: (1) evidence objects must carry an explicit historical_text_id:null key to satisfy the event_evidence JSON schema (strict-schema pass would otherwise fail -> add null, never a made-up id); (2) the empty regime_ids list present in the canonical file was dropped in the candidate; (3) glyph verification had to rely on mirrors because ctext.org (Shiji text) and baike.baidu.com returned HTTP 403, and the two modern printed-book pages (Douban TLS failure; SDX joint-press timeout) were not fetched — their page-title glyphs remain machine-unverified and are inherited from the canonical source_reference which the Researcher brief labels indirect.",
+    "All classical locators, chapter names, the primary/primary independence of the two textual sources, date ordering, and the honesty of the preserved date dispute were verified; no fabrication was found."
+  ]
+}

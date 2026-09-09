@@ -1,0 +1,29 @@
+{
+  "eid": "event-pingwang-dongqian",
+  "checks": {
+    "verbatim": "PASS",
+    "glyphs": "PASS",
+    "grounding": "WARN",
+    "links": "PASS",
+    "temporal": "PASS"
+  },
+  "verdict": "WARN",
+  "source_urls_fetched": [
+    "https://zh.wikipedia.org/wiki/%E5%B9%B3%E7%8E%8B%E4%B8%9C%E8%BF%81",
+    "https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%AE%B0",
+    "https://zh.wikipedia.org/wiki/%E5%B7%A6%E4%BC%A0",
+    "https://zh.wikipedia.org/wiki/%E5%91%A8%E5%B9%B3%E7%8E%8B",
+    "https://zh.wikipedia.org/wiki/%E9%9B%80%E9%82%91",
+    "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%AE%B0",
+    "https://ctext.org/shiji/zhou-ben-ji/zhs",
+    "https://baike.baidu.com/item/%E5%91%A8%E6%9C%AC%E7%BA%AA"
+  ],
+  "reasons": [
+    "verbatim PASS: every field the candidate copies from the canonical file is character-for-character identical: id, name_zh_cn (平王东迁), event_type (migration), start_year (-770), end_year (-770), date_precision (year), period_id (period-spring-autumn), importance (critical), summary_zh_cn, source_reference, source_ids (work-curated-shiji, work-curated-zuozhuan), and the relations block. Programmatic YAML equality (candidate vs canonical) returned True for every compared field; no differing Chinese character was found.",
+    "glyphs PASS (with one constraint); the exact title characters the candidate cites were confirmed via freshly fetched zh.wikipedia pages: the event article titled 平王东迁 (dated 公元前770年1月11日), the Shiji article whose chapter 4 is 周本纪, the person article 周平王, the place article 雒邑 (=洛邑=成周, located 今洛阳), and the 左传 chronicle article (attributed to 左丘明; described as independent of 史记). ctext.org/shiji/zhou-ben-ji/zhs did return HTTP 403 in this run, so the ctext page itself was NOT fetched; glyph confirmation therefore rests on the zh.wikipedia / zh.wikisource mirrors listed above, and no ctext-level confirmation is claimed.",
+    "grounding WARN: the person id ctext-person-275144 is real and present in the repository's curated event_person artifacts under the name 周平王 (including accepted/reviewed event_person data with canonical_name 周平王), the place id cbdb-place-14693 exists in data/staging/cbdb/places.jsonl with canonical_name 洛陽. The candidate evidence locators (史记 as primary, 左传 as supporting) match the canonical source_reference 古代史料：《史记·周本纪》《左传》. WARN: the CBDB place record carries a Tang-era validity window (valid_from 710, valid_to 959), and the same place id was assigned to the Tang-era 洛阳 event in this repo, but the candidate's event is dated -770, so the record's valid_from/valid_to does not span the event date. Since 雒邑/成周 → modern 洛阳 is geographically correct, this is a temporal layer mismatching WARN (re-pin the place's validity window to the Zhou-era value or leave the place block unlinked until resolved), NOT a fabrication.",
+    "links PASS: link_status = needs_linking on both evidence entries (史记/周本纪 as primary; 左传 as supporting) matches the required needs_linking value, and historical_text_id is null in the candidate, as required; no fake locators, chapters, link_status, coordinates, or fabricated ids were found.",
+    "temporal PASS: start_year (-770) <= end_year (-770) satisfied; the summary's astronomically-backed date is presented as 公元前770年1月11日 on the fetched page 平王东迁, which matches the canonical summary's implication, so the date is plausible and consistent."
+  ],
+  "notes": "Source independence: 史记·周本纪 (Sima Qian, Han) and 左传 (Zuo Zhuan, attributed to Zuo Qiuming) are two distinct classical works — different authors, eras, and textual traditions — so the candidate cites two genuinely independent anchors, NOT one source transcribed twice. The webpage 平王东迁 explicitly quotes the Zuozhuan clause 王入于成周 (and the same clause appears byte-identical in this canonical summary), so the candidate's summary phrase is grounded in the primary text. ctext.org and baike.baidu.com returned 403 on this run; all glyph confirmations were on zh.wikipedia and zh.wikisource (see source_urls_fetched). The only WARN issue: the CBDB place temporal window (710–959) bound to a -770 event; recommend re-pinning it (Zhou-era window) before accepting promotion. All other gates passed."
+}
