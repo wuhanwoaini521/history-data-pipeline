@@ -119,13 +119,24 @@ No fabricated dates, names, locators, person ids, or coordinates found.
     .venv\Scripts\python.exe -m pytest
     dir reports\current-run\verification
 
-## 8. Next actions (owner decides)
+## 8. Next actions (owner decides) — PROMOTION EXECUTED 2026-09-09
 
 - Fix List A1-A4 + B5-B8 executed and verified (final report §9 all ✔); batch
   verdict now **CALIBRATION_PASS**.
-- Before Batch 2: optionally add chapter_hint: 秦纪 to the 资治通鉴 rows of
-  qin-mie-liuguo / qin-tongyi (template polish; schema-legal as-is) and add the
-  匈奴列传/匈奴传 evidence row to event-mobei-zhizhan.
-- Promotion decision (owner)：9 AUTO_ACCEPT candidates may be promoted to
-  canonical; event-pingwang-dongqian awaits a properly-windowed Zhou-era place
-  entity before re-scoring.
+- **PROMOTED 2026-09-09**: all 9 AUTO_ACCEPT candidates merged into canonical
+  (`data/curated/history_backbone/events/…`, header-preserving merge), then
+  `backbone build` rebuilt dist with them as curated events:
+  - verification after merge: validate 0 errors, strict gate PASS, broken refs = 0;
+  - post-promotion scoring: 9x AUTO_ACCEPT @ 92.7–94.4 (the 9 promoted
+    events moved from QUARANTINE_MEDIUM → AUTO_ACCEPT; overall mean 73.9);
+  - counts: events 618 (62 critical / 555 major), event_evidence 26 → 44
+    (18 rows from 9 promoted events, all historical_text_id=null per B5);
+  - `event_text` legacy mirror now materializes only text-anchored evidence:
+    26 anchored rows mirrored, 18 null-id rows remain in event_evidence only —
+    build fixed in `_materialize_legacy_event_text` (WHERE historical_text
+    IS NOT NULL) + test contract updated;
+  - dist export validated: duckdb + parquet + 12 json groups + manifest
+    (events=618) consumable via HistoryQueryService.
+- event-pingwang-dongqian RE-QUARANTINED (A4): awaits a properly-windowed
+  Zhou-era place entity before re-scoring; optionally add chapter_hint: 秦纪
+  to the 资治通鉴 rows of qin-mie-liuguo / qin-tongyi (template polish).

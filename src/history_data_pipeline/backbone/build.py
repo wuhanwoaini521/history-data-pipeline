@@ -340,7 +340,12 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
 
 
 def _materialize_legacy_event_text(connection) -> None:
-    """Legacy 兼容：event_evidence → event_text（旧表名）。dist 主数据源是 event_evidence。"""
+    """Legacy 兼容：event_evidence → event_text（旧表名）。dist 主数据源是 event_evidence。
+
+    仅镜像已锚定历史文本的证据（historical_text_id 非空）：event_text 以
+    (event_id, historical_text_id) 为主键，无法表达尚未关联具体文本的证据；
+    此类（含 pending_knowledge / needs_linking 状态的）证据完整保留于 event_evidence。
+    """
     connection.execute("""
         INSERT OR REPLACE INTO event_text
           (event_id,historical_text_id,role,sequence,description_zh_cn,source_type,source_id,quality_status,
@@ -348,6 +353,7 @@ def _materialize_legacy_event_text(connection) -> None:
         SELECT event_id,historical_text_id,evidence_role,1,coalesce(review_note,''),source_type,source_id,
                quality_status,'source_backed' AS source_quality_status,link_quality_status,link_confidence,review_note
         FROM event_evidence
+        WHERE historical_text_id IS NOT NULL
     """)
 
 

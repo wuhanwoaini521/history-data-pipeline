@@ -8,15 +8,51 @@ start_year: -119
 end_year: -119
 date_precision: year
 period_id: period-western-han
-regime_ids: []
 importance: critical
 summary_zh_cn: 前119年（元狩四年），汉军分两路深入漠北：卫青败单于主力，霍去病封狼居胥山，共斩俘匈奴八九万，匈奴主力远遁，"漠南无王庭"。漠北之战是汉匈战争决定性一役，标志汉对匈奴由防御转入全面反攻并取得战略优势，是汉武帝对匈奴战争的重要转折节点。
+background_zh_cn: 前119年（元狩四年），汉军分两路深入漠北：卫青败单于主力，霍去病封狼居胥山，共斩俘匈奴八九万，匈奴主力远遁，"漠南无王庭"。
+result_zh_cn: 漠北之战是汉匈战争决定性一役，标志汉对匈奴由防御转入全面反攻并取得战略优势，是汉武帝对匈奴战争的重要转折节点。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·卫将军骠骑列传》《匈奴列传》、《汉书·武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
 source_ids:
 - work-curated-shiji
 - work-curated-hanshu
+regime_ids: []
+people:
+- person_id: cbdb-person-16626
+  person_name_raw: 汉武帝
+  role: ruler
+  role_zh_cn: 北击匈奴决策者
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-mobei-zhizhan.yml]
+- person_id: cbdb-person-502566
+  person_name_raw: 卫青
+  role: commander
+  role_zh_cn: 漠北之战西路主帅
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-mobei-zhizhan.yml]
+- person_id: cbdb-person-432543
+  person_name_raw: 霍去病
+  role: commander
+  role_zh_cn: 漠北之战东路主帅
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-mobei-zhizhan.yml]
 relations:
 - target_event_id: event-han-xiongnu-war
   relation_type: part_of
@@ -24,3 +60,28 @@ relations:
   description_zh_cn: 汉匈战争的决定性战役
 - target_event_id: event-hexi-zhizhan
   relation_type: follows
+evidence:
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: null
+  chapter_hint: 卫将军骠骑列传
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·卫将军骠骑列传》
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: null
+  chapter_hint: 武帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《汉书·武帝纪》
+# event-mobei-zhizhan — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

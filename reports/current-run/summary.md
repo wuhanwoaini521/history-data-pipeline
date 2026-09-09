@@ -6,16 +6,16 @@
 
 | verdict | count |
 | --- | --- |
-| AUTO_ACCEPT | 9 |
-| QUARANTINE_MEDIUM | 435 |
+| AUTO_ACCEPT | 18 |
+| QUARANTINE_MEDIUM | 426 |
 | QUARANTINE_LOW | 184 |
 | QUARANTINE_HARD | 0 |
 
 ## 分数分布
-- `90-100`: 9
-- `75-89`: 435
+- `90-100`: 18
+- `75-89`: 426
 - `0-74`: 184
-- mean: 73.9
+- mean: 74.2
 
 ## 校验错误（0）
 

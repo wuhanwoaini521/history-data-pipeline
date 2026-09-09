@@ -8,17 +8,89 @@ start_year: -154
 end_year: -154
 date_precision: year
 period_id: period-western-han
-regime_ids: []
 importance: critical
 summary_zh_cn: 前154年正月，吴王刘濞联合楚、赵、胶西、胶东、菑川、济南六国起兵叛乱，以"诛晁错、清君侧"为名；景帝杀晁错而乱不止，遣周亚夫平定，三月乱平。七国之乱是郡国并行体制下中央与诸侯王国矛盾的总爆发，战后诸侯王权力被大幅削弱，中央集权显著加强。
+background_zh_cn: 前154年正月，吴王刘濞联合楚、赵、胶西、胶东、菑川、济南六国起兵叛乱，以"诛晁错、清君侧"为名；景帝杀晁错而乱不止，遣周亚夫平定，三月乱平。
+result_zh_cn: 七国之乱是郡国并行体制下中央与诸侯王国矛盾的总爆发，战后诸侯王权力被大幅削弱，中央集权显著加强。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《汉书·景帝纪》《荆燕吴传》（汉书卷三十五，吴王刘濞事具见其中）；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
 source_ids:
 - work-curated-hanshu
+regime_ids: []
+people:
+- person_id: ctext-person-647582
+  person_name_raw: 汉景帝
+  role: ruler
+  role_zh_cn: 平叛决策者
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-qiguo-zhi-luan.yml]
+- person_id: cbdb-person-462464
+  person_name_raw: 晁错
+  role: official
+  role_zh_cn: 削藩主张者
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-qiguo-zhi-luan.yml]
+- person_id: ctext-person-865369
+  person_name_raw: 周亚夫
+  role: commander
+  role_zh_cn: 平叛主帅
+  side: 西汉
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.85
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
+    [V2 source=event-qiguo-zhi-luan.yml]
+- person_id: curated-person-liu-bi
+  person_name_raw: 吴王刘濞
+  role: initiator
+  role_zh_cn: 吴·发起者
+  side: 吴
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 0.9
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-qiguo-zhi-luan.yml]
 relations:
 - target_event_id: event-chaocuo-xuefan
   relation_type: follows
 - target_event_id: event-hanwudi-jiwei
   relation_type: precedes
   description_zh_cn: 平乱后中央集权加强，为武帝时期集权奠定基础
+evidence:
+- work: 汉书
+  term: 景帝纪
+  historical_text_id: null
+  chapter_hint: 景帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《汉书·景帝纪》（注：汉书同一书内多个篇章，单一独立来源）
+- work: 汉书
+  term: 荆燕吴传
+  historical_text_id: null
+  chapter_hint: 荆燕吴传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《汉书·荆燕吴传》（注：汉书同一书内多个篇章，单一独立来源）
+# event-qiguo-zhi-luan — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

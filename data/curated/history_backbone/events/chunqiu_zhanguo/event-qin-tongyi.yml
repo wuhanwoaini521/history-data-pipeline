@@ -8,14 +8,65 @@ start_year: -221
 end_year: -221
 date_precision: year
 period_id: period-warring-states
-regime_ids: []
 importance: critical
 summary_zh_cn: 前221年，秦王政兼并六国后自称"始皇帝"，建立中国历史上第一个中央集权的统一帝国，行郡县、书同文、车同轨、统一度量衡（制度层面细节另见秦汉批）。秦统一是先秦历史的终结，也是中国大一统格局的开端。
+background_zh_cn: 前221年，秦王政兼并六国后自称"始皇帝"，建立中国历史上第一个中央集权的统一帝国，行郡县、书同文、车同轨、统一度量衡（制度层面细节另见秦汉批）。
+result_zh_cn: 秦统一是先秦历史的终结，也是中国大一统格局的开端。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
 source_ids:
 - work-curated-shiji
+- work-curated-zizhitongjian
+regime_ids: []
+people:
+- person_id: cbdb-person-562723
+  person_name_raw: 嬴政
+  role: initiator
+  role_zh_cn: 完成统一（秦始皇）
+  side: 秦
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
+    source=event-qin-tongyi.yml]
+- person_id: ctext-person-751995
+  person_name_raw: 李斯
+  role: official
+  role_zh_cn: 秦·官员
+  side: 秦
+  importance: major
+  link_status: linked
+  link_quality_status: reviewed
+  link_confidence: 1.0
+  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
+    [V2 source=event-qin-tongyi.yml]
 relations:
 - target_event_id: event-qin-mie-liuguo
   relation_type: follows
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: null
+  chapter_hint: 秦始皇本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《史记·秦始皇本纪》
+- work: 资治通鉴
+  term: 秦纪
+  historical_text_id: null
+  chapter_hint: null
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·秦纪》
+# event-qin-tongyi — calibration_batch01 enriched candidate (Producer)
+# background/result derived verbatim from canonical summary
+# evidence appointed to canonical source_reference or Researcher-verified classics
+# no fabricated locators, coordinates, text ids, or links

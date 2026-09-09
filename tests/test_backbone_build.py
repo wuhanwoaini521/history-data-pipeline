@@ -41,7 +41,7 @@ def test_backbone_build():
     assert counts["event_relations"] == 1057  # 1062 - Phase2 反向修复（-7 +2）
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
     assert counts["event_place"] == 26
-    assert counts["event_evidence"] == 26
+    assert counts["event_evidence"] == 44  # 26 既有 + Calibration Batch 01 提升 9 事件 × 2 条
     assert counts["periods"] == 31
     assert counts["regimes"] == 64  # +Batch8 满洲国/中华苏维埃
     assert manifest["counts"]["events"] == counts["events"]
@@ -154,6 +154,10 @@ def test_dist_evidence_rows_are_reviewed():
             "SELECT COUNT(*) FROM event_evidence WHERE quality_status IN ('reviewed','verified') OR link_status='pending_knowledge'"
         ).fetchone()[0]
         assert reviewed == total
-        # legacy 兼容表 event_text 与 event_evidence 一致
+        # legacy 兼容表 event_text 仅镜像已锚定文本的证据（historical_text_id 非空），
+        # 与 event_evidence 中可锚定的行数一致；未锚定（pending_knowledge / needs_linking）行保留于 event_evidence。
+        anchored = connection.execute(
+            "SELECT COUNT(*) FROM event_evidence WHERE historical_text_id IS NOT NULL"
+        ).fetchone()[0]
         legacy = connection.execute("SELECT COUNT(*) FROM event_text").fetchone()[0]
-        assert legacy == total
+        assert legacy == anchored
