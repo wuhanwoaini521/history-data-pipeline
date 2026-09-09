@@ -21,3 +21,6 @@ dist/
 # 生成型零散产物
 *.part
 reports/*.tmp
+
+# 发现阶段候选评分产物（一次性中间态；源 YAML 在 data/candidates/backbone_events，可确定性重建）
+reports/current-run-candidates/
