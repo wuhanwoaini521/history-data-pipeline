@@ -14,9 +14,10 @@ importance: critical
 summary_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《明史·太祖纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_reference: 古代史料：《明史·太祖纪》；《明太祖实录》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
 source_ids:
 - work-curated-mingshi
+- work-curated-mingshilu
 relations:
 - target_event_id: event-zhuyuanzhang-mie-zhang
   relation_type: follows
@@ -26,3 +27,28 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 建明后即命徐达北伐。
+
+evidence:
+- work: 明史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 明实录
+  term: 太祖实录
+  historical_text_id: null
+  chapter_hint: 太祖实录
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明实录·太祖实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+result_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
+# promoted from data/candidates/batch05/event-zhuyuanzhang-chendi.yml (AUTO_ACCEPT gate)

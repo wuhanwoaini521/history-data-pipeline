@@ -11,7 +11,7 @@ background_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁�
 result_zh_cn: 后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《旧五代史·梁太祖纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_reference: 古代史料：《旧五代史·梁太祖纪》；《资治通鉴·后梁纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
 source_ids:
 - work-curated-jiuwudaishi
 - work-curated-xinwudaishi
@@ -60,6 +60,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《旧五代史·梁太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 资治通鉴
+  term: 后梁纪
+  historical_text_id: null
+  chapter_hint: 后梁纪·开平元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·后梁纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-houliang-dai-tang — batch04 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

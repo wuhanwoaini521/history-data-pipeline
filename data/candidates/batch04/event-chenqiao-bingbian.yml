@@ -61,6 +61,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《宋史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 续资治通鉴长编
+  term: 建隆元年
+  historical_text_id: null
+  chapter_hint: 建隆元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《续资治通鉴长编·建隆元年》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-chenqiao-bingbian — batch04 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

@@ -1,6 +1,6 @@
 {
   "report": "calibration-batches-02-07",
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "scope": {
     "batches": [
       "batch02",
@@ -14,121 +14,160 @@
     "per_batch": {
       "batch02": {
         "scope": 10,
-        "auto": 8,
-        "quarantine": 2,
-        "min": 87.7,
+        "auto": 10,
+        "quarantine": 0,
+        "evidence_rows_candidate": 22,
+        "min": 90.9,
         "max": 96.0,
-        "mean": 92.8,
+        "mean": 94.0,
+        "auto_min": 90.9,
+        "auto_max": 96.0,
+        "auto_mean": 94.0,
+        "quarantine_min": null,
+        "quarantine_max": null,
+        "quarantine_mean": null,
         "auto_ids": [
-          "event-xin-mie",
-          "event-caopi-dai-han",
-          "event-jin-mie-wu",
           "event-bawang-zhi-luan",
-          "event-yongjia-zhi-luan",
-          "event-xijin-mie-wang",
+          "event-beiwei-tongyi-beifang",
+          "event-caopi-dai-han",
+          "event-dongjin-jianguo",
           "event-feishui-zhizhan",
-          "event-beiwei-tongyi-beifang"
-        ],
-        "quarantine_ids": [
           "event-guangwu-chengdi",
-          "event-dongjin-jianguo"
-        ]
+          "event-jin-mie-wu",
+          "event-xijin-mie-wang",
+          "event-xin-mie",
+          "event-yongjia-zhi-luan"
+        ],
+        "quarantine_ids": []
       },
       "batch03": {
         "scope": 10,
-        "auto": 7,
-        "quarantine": 3,
-        "min": 87.7,
+        "auto": 10,
+        "quarantine": 0,
+        "evidence_rows_candidate": 20,
+        "min": 93.9,
         "max": 93.9,
-        "mean": 92.0,
+        "mean": 93.9,
+        "auto_min": 93.9,
+        "auto_max": 93.9,
+        "auto_mean": 93.9,
+        "quarantine_min": null,
+        "quarantine_max": null,
+        "quarantine_mean": null,
         "auto_ids": [
           "event-beiwei-fenlie",
-          "event-houjing-zhi-luan",
           "event-beizhou-mie-beiqi",
-          "event-yangjian-dai-beizhou",
+          "event-houjing-zhi-luan",
+          "event-shenlong-zhengbian",
           "event-sui-mie-chen",
-          "event-xuanwumen-zhibian",
-          "event-tang-mie-dong-tujue"
-        ],
-        "quarantine_ids": [
           "event-tang-jianguo",
+          "event-tang-mie-dong-tujue",
           "event-wu-zhou-jianguo",
-          "event-shenlong-zhengbian"
-        ]
+          "event-xuanwumen-zhibian",
+          "event-yangjian-dai-beizhou"
+        ],
+        "quarantine_ids": []
       },
       "batch04": {
         "scope": 10,
-        "auto": 3,
-        "quarantine": 7,
+        "auto": 7,
+        "quarantine": 3,
+        "evidence_rows_candidate": 17,
         "min": 87.7,
         "max": 93.9,
-        "mean": 89.6,
+        "mean": 92.0,
+        "auto_min": 93.9,
+        "auto_max": 93.9,
+        "auto_mean": 93.9,
+        "quarantine_min": 87.7,
+        "quarantine_max": 87.7,
+        "quarantine_mean": 87.7,
         "auto_ids": [
+          "event-chenqiao-bingbian",
+          "event-guo-wei-dai-han",
+          "event-houliang-dai-tang",
           "event-huangchao-qiyi",
+          "event-jin-jianguo",
           "event-jingkang-zhi-bian",
           "event-zhao-gou-nansong-jianguo"
         ],
         "quarantine_ids": [
-          "event-houliang-dai-tang",
-          "event-guo-wei-dai-han",
-          "event-chenqiao-bingbian",
-          "event-western-xia-jianguo",
-          "event-jin-jianguo",
           "event-mongol-jianguo",
+          "event-western-xia-jianguo",
           "event-yuan-jianguo"
         ]
       },
       "batch05": {
         "scope": 10,
-        "auto": 7,
-        "quarantine": 3,
-        "min": 87.7,
+        "auto": 10,
+        "quarantine": 0,
+        "evidence_rows_candidate": 20,
+        "min": 93.9,
         "max": 93.9,
-        "mean": 92.0,
+        "mean": 93.9,
+        "auto_min": 93.9,
+        "auto_max": 93.9,
+        "auto_mean": 93.9,
+        "quarantine_min": null,
+        "quarantine_max": null,
+        "quarantine_mean": null,
         "auto_ids": [
-          "event-yanya-haizhan",
-          "event-poyanghu-zhizhan",
           "event-hu-weiyong-an",
           "event-jingnan-zhizhan",
+          "event-lizicheng-gong-beijing",
+          "event-poyanghu-zhizhan",
           "event-qian-du-beijing",
+          "event-qingjun-ru-guan",
           "event-saerhu-zhizhan",
-          "event-qingjun-ru-guan"
-        ],
-        "quarantine_ids": [
-          "event-zhuyuanzhang-chendi",
           "event-tumu-bao-zhibian",
-          "event-lizicheng-gong-beijing"
-        ]
+          "event-yanya-haizhan",
+          "event-zhuyuanzhang-chendi"
+        ],
+        "quarantine_ids": []
       },
       "batch06": {
         "scope": 10,
-        "auto": 1,
-        "quarantine": 9,
+        "auto": 5,
+        "quarantine": 5,
+        "evidence_rows_candidate": 10,
         "min": 81.0,
         "max": 93.9,
-        "mean": 85.0,
+        "mean": 87.5,
+        "auto_min": 93.9,
+        "auto_max": 93.9,
+        "auto_mean": 93.9,
+        "quarantine_min": 81.0,
+        "quarantine_max": 81.0,
+        "quarantine_mean": 81.0,
         "auto_ids": [
-          "event-sanfan-zhi-luan"
-        ],
-        "quarantine_ids": [
           "event-diyici-yapian-zhanzheng",
           "event-jiawu-zhanzheng",
-          "event-wuchang-qiyi",
           "event-qingdi-tuiwei",
-          "event-wusi-yundong",
+          "event-sanfan-zhi-luan",
+          "event-wuchang-qiyi"
+        ],
+        "quarantine_ids": [
           "event-jiuyiba-shibian",
-          "event-xian-shibian",
           "event-nanjing-datusha",
-          "event-qiqishi-bian"
+          "event-qiqishi-bian",
+          "event-wusi-yundong",
+          "event-xian-shibian"
         ]
       },
       "batch07": {
         "scope": 2,
         "auto": 0,
         "quarantine": 2,
+        "evidence_rows_candidate": 0,
         "min": 81.0,
         "max": 81.0,
         "mean": 81.0,
+        "auto_min": null,
+        "auto_max": null,
+        "auto_mean": null,
+        "quarantine_min": 81.0,
+        "quarantine_max": 81.0,
+        "quarantine_mean": 81.0,
         "auto_ids": [],
         "quarantine_ids": [
           "event-riben-touxiang",
@@ -139,20 +178,20 @@
   },
   "counts": {
     "total": 52,
-    "auto_accept": 26,
-    "quarantine": 26,
+    "auto_accept": 42,
+    "quarantine": 10,
     "rejected": 0,
-    "promoted_to_canonical": 26,
-    "evidence_rows_promoted": 54,
-    "evidence_rows_all_candidates": 73,
-    "event_evidence_total_after_build": 98,
-    "works_registered": 48
+    "promoted_to_canonical": 42,
+    "evidence_rows_promoted": 86,
+    "evidence_rows_all_candidates": 89,
+    "event_evidence_total_after_build": 130,
+    "works_registered": 49
   },
   "score": {
     "all": {
       "min": 81.0,
       "max": 96.0,
-      "mean": 89.9
+      "mean": 91.8
     },
     "auto_accept": {
       "min": 90.9,
@@ -162,20 +201,20 @@
     "quarantine": {
       "min": 81.0,
       "max": 87.7,
-      "mean": 85.9
+      "mean": 83.0
     },
     "histogram": {
-      "90-100": 26,
-      "75-89": 26,
+      "90-100": 42,
+      "75-89": 10,
       "0-74": 0
     }
   },
   "evidence_by_batch": {
-    "batch02": 18,
-    "batch03": 14,
-    "batch04": 6,
-    "batch05": 14,
-    "batch06": 2,
+    "batch02": 22,
+    "batch03": 20,
+    "batch04": 17,
+    "batch05": 20,
+    "batch06": 10,
     "batch07": 0
   }
 }

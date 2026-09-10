@@ -11,7 +11,7 @@ background_zh_cn: 广顺元年（951年）后汉枢密使郭威于澶州兵变�
 result_zh_cn: 后周建立五代最后一个中原王朝，其后的柴荣改革为北宋统一奠定基础。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《旧五代史·周太祖纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
+source_reference: 古代史料：《旧五代史·周太祖纪》；《资治通鉴·后周纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
 source_ids:
 - work-curated-jiuwudaishi
 - work-curated-xinwudaishi
@@ -61,6 +61,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《旧五代史·周太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 资治通鉴
+  term: 后周纪
+  historical_text_id: null
+  chapter_hint: 后周纪·广顺元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·后周纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-guo-wei-dai-han — batch04 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

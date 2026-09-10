@@ -14,6 +14,7 @@ source_type: curated_reference
 source_reference: 古代史料：《辛亥革命回忆录》等当事人记载；《清史稿·宣统本纪》；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
 source_ids:
 - work-curated-qingshigao
+- work-curated-xinhai-huiyilu
 regime_ids:
 - regime-qing
 people:
@@ -64,6 +65,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《清史稿·宣统本纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 辛亥革命回忆录
+  term: 武昌起义
+  historical_text_id: null
+  chapter_hint: 武昌起义
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《辛亥革命回忆录·武昌起义》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-wuchang-qiyi — batch06 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

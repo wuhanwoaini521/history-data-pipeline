@@ -14,7 +14,7 @@ importance: critical
 summary_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《明史·英宗纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
+source_reference: 古代史料：《明史·英宗纪》；《明英宗实录》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
 source_ids:
 - work-curated-mingshi
 - work-curated-mingshilu
@@ -31,3 +31,28 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 瓦剌随即兵临北京。
+
+evidence:
+- work: 明史
+  term: 英宗纪
+  historical_text_id: null
+  chapter_hint: 英宗纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·英宗纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 明实录
+  term: 英宗实录
+  historical_text_id: null
+  chapter_hint: 英宗实录
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明实录·英宗实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
+result_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
+# promoted from data/candidates/batch05/event-tumu-bao-zhibian.yml (AUTO_ACCEPT gate)

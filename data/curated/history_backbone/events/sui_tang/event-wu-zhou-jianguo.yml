@@ -15,7 +15,7 @@ summary_zh_cn: 天授元年（690年）武则天废睿宗、自称皇帝，改�
   仍属唐）。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《旧唐书·则天皇后纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_reference: 古代史料：《旧唐书·则天皇后纪》；《资治通鉴·唐纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
 source_ids:
 - work-curated-jiutangshu
 - work-curated-zizhitongjian
@@ -27,3 +27,28 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 武周统治十五年后被神龙政变终结
+
+evidence:
+- work: 旧唐书
+  term: 则天皇后纪
+  historical_text_id: null
+  chapter_hint: 则天皇后纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 资治通鉴
+  term: 唐纪
+  historical_text_id: null
+  chapter_hint: 唐纪·天授元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 天授元年（690年）武则天废睿宗、自称皇帝，改国号为周（武周），迁都洛阳为神都。
+result_zh_cn: 武则天是中国历史上唯一正式称帝的女皇帝；武周政权的建立使唐代政治出现二十余年的女性执政的特殊时期。
+# promoted from data/candidates/batch03/event-wu-zhou-jianguo.yml (AUTO_ACCEPT gate)

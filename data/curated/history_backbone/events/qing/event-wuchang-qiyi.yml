@@ -17,6 +17,7 @@ source_type: curated_reference
 source_reference: 古代史料：《辛亥革命回忆录》等当事人记载；《清史稿·宣统本纪》；现代参考：金冲及、胡绳武《辛亥革命史稿》（上海人民出版社）；章开沅《辛亥革命史》；郭廷以《近代中国史纲》
 source_ids:
 - work-curated-qingshigao
+- work-curated-xinhai-huiyilu
 relations:
 - target_event_id: event-baolu-yundong
   relation_type: follows
@@ -30,3 +31,28 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 各省响应后在南京建立临时政府。
+
+evidence:
+- work: 清史稿
+  term: 宣统本纪
+  historical_text_id: null
+  chapter_hint: 宣统本纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《清史稿·宣统本纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 辛亥革命回忆录
+  term: 武昌起义
+  historical_text_id: null
+  chapter_hint: 武昌起义
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《辛亥革命回忆录·武昌起义》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+result_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
+# promoted from data/candidates/batch06/event-wuchang-qiyi.yml (AUTO_ACCEPT gate)

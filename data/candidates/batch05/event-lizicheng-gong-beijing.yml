@@ -11,7 +11,7 @@ background_zh_cn: 崇祯十七年（1644 年）三月十九日，大顺军攻入
 result_zh_cn: 崇祯十七年（1644 年）三月十九日，大顺军攻入北京，崇祯帝在煤山自缢，明朝中央政权覆亡；此后明朝宗室在南方建立南明诸政权（另有专记），清朝于同年入关。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《明史·庄烈帝纪》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
+source_reference: 古代史料：《明史·庄烈帝纪》；《明史·李自成传》；现代参考：樊树志《晚明史》（复旦大学出版社）；顾诚《明末农民战争史》（中国社会科学出版社）；南炳文、汤纲《明史》；孟森《明史讲义》
 source_ids:
 - work-curated-mingshi
 regime_ids:
@@ -56,6 +56,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 明史
+  term: 李自成传
+  historical_text_id: null
+  chapter_hint: 李自成传
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《明史·李自成传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-lizicheng-gong-beijing — batch05 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

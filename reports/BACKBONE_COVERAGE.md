@@ -83,10 +83,10 @@
   "event_relations": 1057,
   "event_people": 398,
   "event_places": 26,
-  "event_evidence": 98,
+  "event_evidence": 130,
   "people": 234,
   "places": 3,
-  "works": 48,
+  "works": 49,
   "historical_texts": 0,
   "sources": 8,
   "entity_source_mapping": 261

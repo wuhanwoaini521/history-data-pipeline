@@ -13,9 +13,10 @@ importance: critical
 summary_zh_cn: 公元25年（更始三年/建武元年）六月，刘秀在鄗县（今河北柏乡一带）称帝，仍用"汉"国号，史称后汉或东汉；随后定都洛阳。东汉的建立结束了新莽以来的政治混乱，中国历史进入东汉时代。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《后汉书·光武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
+source_reference: 古代史料：《后汉书·光武帝纪》；《资治通鉴·汉纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；何兹全《秦汉史略》及近人秦汉史专著；张岂之主编《中国历史·秦汉魏晋南北朝卷》
 source_ids:
 - work-curated-houhanshu
+- work-curated-zizhitongjian
 relations:
 - target_event_id: event-xin-mie
   relation_type: follows
@@ -23,3 +24,28 @@ relations:
 - target_event_id: event-kunyang-zhizhan
   relation_type: follows
   description_zh_cn: 昆阳之战的威望助刘秀在河北立足称帝
+
+evidence:
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: null
+  chapter_hint: 光武帝纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 资治通鉴
+  term: 汉纪
+  historical_text_id: null
+  chapter_hint: 汉纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·汉纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 公元25年（更始三年/建武元年）六月，刘秀在鄗县（今河北柏乡一带）称帝，仍用"汉"国号，史称后汉或东汉；随后定都洛阳。
+result_zh_cn: 东汉的建立结束了新莽以来的政治混乱，中国历史进入东汉时代。
+# promoted from data/candidates/batch02/event-guangwu-chengdi.yml (AUTO_ACCEPT gate)

@@ -11,7 +11,7 @@ background_zh_cn: 武德元年（618年）五月，李渊在长安称帝，国�
 result_zh_cn: 唐朝建立继隋之后开启中国历史上又一个强盛王朝，并迅速展开统一全国的战争。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《旧唐书·高祖纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
+source_reference: 古代史料：《旧唐书·高祖纪》；《资治通鉴·唐纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
 source_ids:
 - work-curated-jiutangshu
 - work-curated-zizhitongjian
@@ -58,6 +58,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 资治通鉴
+  term: 唐纪
+  historical_text_id: null
+  chapter_hint: 唐纪·武德元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-tang-jianguo — batch03 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

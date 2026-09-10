@@ -11,9 +11,10 @@ background_zh_cn: 收国元年（1115 年）正月，完颜阿骨打称帝建国
 result_zh_cn: 收国元年（1115 年）正月，完颜阿骨打称帝建国，国号大金，都上京会宁府（今黑龙江阿城），金成为辽后期与北宋北方并存的强大势力，随即发动灭辽战争。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 古代史料：《金史·太祖纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
+source_reference: 古代史料：《金史·太祖纪》；《辽史·天祚帝纪》；现代参考：白寿彝总主编《中国通史·宋辽金元卷》；刘浦江《辽金史论》（辽宁大学出版社）；吴天墀《西夏史稿》（四川人民出版社）；李焘《续资治通鉴长编》点校本校点本身为现代整理
 source_ids:
 - work-curated-jinshi
+- work-curated-liaoshi
 regime_ids:
 - regime-jin
 people:
@@ -49,6 +50,16 @@ evidence:
   link_quality_status: reviewed
   review_note: 《金史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
     未锚定，保持 needs_linking（B5）
+- work: 辽史
+  term: 天祚帝纪
+  historical_text_id: null
+  chapter_hint: 天祚帝纪
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《辽史·天祚帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 # event-jin-jianguo — batch04 enriched candidate (Producer, generic)
 # background/result derived verbatim from canonical summary
 # evidence transcribed from canonical source_reference + source_ids (registered works only)

@@ -27,3 +27,28 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 北宋建国后随即开始统一战争。
+
+evidence:
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: null
+  chapter_hint: 太祖纪
+  context_keywords: []
+  evidence_role: primary
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《宋史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 续资治通鉴长编
+  term: 建隆元年
+  historical_text_id: null
+  chapter_hint: 建隆元年
+  context_keywords: []
+  evidence_role: supporting
+  link_status: needs_linking
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  review_note: 《续资治通鉴长编·建隆元年》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+background_zh_cn: 建隆元年正月（960 年），后周殿前都点检赵匡胤在陈桥驿发动兵变，回京代周称帝，改国号为宋，定都开封（东京），史称北宋。
+result_zh_cn: 五代十国局面结束，后周诸州军政多不战而降，北宋开启统一战争。
+# promoted from data/candidates/batch04/event-chenqiao-bingbian.yml (AUTO_ACCEPT gate)
