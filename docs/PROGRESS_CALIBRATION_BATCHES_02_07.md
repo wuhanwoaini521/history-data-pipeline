@@ -32,7 +32,9 @@ rebuilt → test suite green → committed and pushed.
 - **QUARANTINED (10, QUARANTINE_MEDIUM)**: candidates preserved under
   `data/candidates/batch02..07/`; no second chapter-level term in
   `source_reference` yet (evidence_precision 6.7 or 0); follow-ups in final
-  review §7.
+  review §7. Per-event deterministic audit (reasons, real chapter rows,
+  registered cited books, blocking step):
+  `reports/current-run/calibration-10-residual-quarantine-audit.md`.
 
 ## 3. Resume commands
 

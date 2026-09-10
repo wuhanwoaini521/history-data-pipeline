@@ -135,6 +135,10 @@ are preserved under `data/candidates/…`.
 
 ## 7. Residual-quarantine follow-ups
 
+Every residual event was re-audited line by line (deterministic, per-event
+reasons, registered-cited-book list, and the exact blocking step) in
+[`calibration-10-residual-quarantine-audit.md`](calibration-10-residual-quarantine-audit.md).
+
 - 3 dynasty-founding events (batch04: 西夏/蒙古/元): add a real chapter term
   after a curated text check / knowledge-layer chapter-map (87.7 → 93.9).
 - 7 × 20th-century archival-collection citations (五四 / 九一八 / 西安 /
@@ -151,6 +155,8 @@ are preserved under `data/candidates/…`.
 - candidates: `data/candidates/batch02..07/` (16 edited: 1 → 2 evidence rows)
 - metrics: `reports/calibration_batches_02_07_metrics.json`,
   `reports/_promotion_set.json`, `reports/_calibration_batch_plan.json`
+- residual quarantine audit (per-event, deterministic):
+  `reports/current-run/calibration-10-residual-quarantine-audit.md`
 - canonical diffs: 42 event YAMLs (evidence/background/result/source_ids;
   clean summary), incl. 16 rescue edits
 - rescue/re-score tooling: `scripts/_tmp_rescue16.py` +
