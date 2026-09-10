@@ -141,7 +141,18 @@ def parser() -> argparse.ArgumentParser:
     backbone_build.add_argument(
         "--skip-exports", action="store_true", help="跳过 parquet/json 导出"
     )
-    backbone_actions.add_parser("coverage", help="生成 reports/BACKBONE_COVERAGE.md")
+    backbone_actions.add_parser(
+        "coverage",
+        help="生成 reports/BACKBONE_COVERAGE.md + PRODUCT_COVERAGE.md + ENRICHMENT_QUEUE.json",
+    )
+    backbone_actions.add_parser(
+        "product-coverage",
+        help="生成 reports/PRODUCT_COVERAGE.md + product_coverage.json（产品完整度）",
+    )
+    backbone_actions.add_parser(
+        "enrichment-queue",
+        help="生成 reports/ENRICHMENT_QUEUE.json（补全优先级队列）",
+    )
     backbone_timeline = backbone_actions.add_parser(
         "timeline", help="Critical/Major 主时间线查询"
     )
@@ -392,13 +403,39 @@ def main(argv: list[str] | None = None) -> int:
             # 仅显式 --knowledge 指定正式知识库时才并入真实实体。
             manifest = build_backbone(paths, knowledge_db=args.knowledge)
             write_backbone_coverage(paths.root, manifest=manifest)
+            from .backbone.product_coverage import write_product_coverage
+
+            write_product_coverage(paths.root)
+            from .backbone.enrichment_queue import write_enrichment_queue
+
+            write_enrichment_queue(paths.root)
             print(json.dumps(manifest, ensure_ascii=False, indent=2, default=str))
             print(f"dist: {paths.dist_database}")
             return 0
         if args.backbone_action == "coverage":
             backbone = load_backbone(paths.root)
             report = write_backbone_coverage(paths.root, backbone)
+            from .backbone.product_coverage import write_product_coverage
+            from .backbone.enrichment_queue import write_enrichment_queue
+
+            product_report = write_product_coverage(paths.root, backbone)
+            queue_path = write_enrichment_queue(paths.root, backbone)
             print(report)
+            print(product_report[0])
+            print(queue_path)
+            return 0
+        if args.backbone_action == "product-coverage":
+            from .backbone.product_coverage import write_product_coverage
+
+            report = write_product_coverage(paths.root)
+            print(report[0])
+            print(report[1])
+            return 0
+        if args.backbone_action == "enrichment-queue":
+            from .backbone.enrichment_queue import write_enrichment_queue
+
+            path = write_enrichment_queue(paths.root)
+            print(path)
             return 0
         if args.backbone_action == "qa":
             backbone = load_backbone(paths.root)

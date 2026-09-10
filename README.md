@@ -64,7 +64,7 @@ history-data build --from-staging      # 构建 data/normalized（legacy）
 history-data backbone validate         # 校验（--json 输出结构）
 history-data backbone migrate          # 迁移 legacy stories.yml（--dry-run）
 history-data backbone build            # dist/history.duckdb + manifest + 导出
-history-data backbone coverage         # reports/BACKBONE_COVERAGE.md
+history-data backbone coverage         # 产品报告：reports/PRODUCT_COVERAGE.md + product_coverage.json + ENRICHMENT_QUEUE.json
 history-data backbone qa               # 引用解析 QA（person/place/evidence）
 
 # 只读查询（优先 dist/history.duckdb）
@@ -87,6 +87,10 @@ history-data query event "赤壁之战" --people --json
   详见 `docs/PROGRESS_CALIBRATION_BATCHES_02_07.md` 与
   `reports/current-run/calibration-batches-02-07-final-review.md`。
 - `dist/` Build 可重复生成，Manifest 带真实统计（见 `dist/manifest.json`）。
+- **产品化报告（History V2 Product Gates）**：`reports/PRODUCT_COVERAGE.md`（9 维产品完整度，可读性优先）、
+  `reports/ENRICHMENT_QUEUE.json`（补全队列，Critical ≥ 70 > Major ≥ 50 > Normal）全部由
+  `backbone coverage` 根据真实数据生成；重新生成确定性、孤儿引用/来源可追溯/License 非空等
+  不变式由 `tests/test_product_reporting.py` 固化。
 - 旧 Semantic Layer（V1）标记 **legacy/deprecated** 保留审计，未删除。
 
 ## 文档

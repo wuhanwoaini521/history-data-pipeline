@@ -22,6 +22,8 @@
     "summary_zh_cn": { "type": "string" },
     "background_zh_cn": { "type": ["string", "null"] },
     "result_zh_cn": { "type": ["string", "null"] },
+    "process_zh_cn": { "type": ["string", "null"] },
+    "impact_zh_cn": { "type": ["string", "null"] },
     "importance": { "enum": ["critical", "major", "normal", "minor"] },
     "quality_status": { "type": "string", "default": "reviewed" },
     "source_type": { "type": "string", "default": "curated_reference" },

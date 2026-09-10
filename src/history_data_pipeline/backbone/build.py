@@ -255,8 +255,8 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
             INSERT OR REPLACE INTO events
               (id,name_zh_cn,name_raw,event_type,start_year,start_month,start_day,end_year,end_month,end_day,
                date_precision,period_id,period_ids,regime_id,regime_ids,summary_zh_cn,background_zh_cn,
-               result_zh_cn,importance,quality_status,source_type,source_reference,source_ids,search_name,search_text)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+               process_zh_cn,result_zh_cn,impact_zh_cn,importance,quality_status,source_type,source_reference,source_ids,search_name,search_text)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         """, [
             event["id"], event["name_zh_cn"], event.get("name_raw") or event["name_zh_cn"],
             event.get("event_type"), event.get("start_year"), event.get("start_month"), event.get("start_day"),
@@ -264,7 +264,8 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
             event.get("date_precision"), event.get("period_id"),
             _json(event.get("period_ids") or [event.get("period_id")]), None,
             _json(event.get("regime_ids")), event.get("summary_zh_cn"), event.get("background_zh_cn"),
-            event.get("result_zh_cn"), event.get("importance", "major"), event.get("quality_status", "reviewed"),
+            event.get("process_zh_cn"), event.get("result_zh_cn"), event.get("impact_zh_cn"),
+            event.get("importance", "major"), event.get("quality_status", "reviewed"),
             event.get("source_type", "curated_reference"), event.get("source_reference"),
             _json(event.get("source_ids") or [CURATED_SOURCE_ID]), event["name_zh_cn"],
             " ".join(filter(None, [event["name_zh_cn"], event.get("summary_zh_cn"), event.get("result_zh_cn")])),
