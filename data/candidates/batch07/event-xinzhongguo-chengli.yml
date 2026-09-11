@@ -47,7 +47,3 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 大陆战事结束后建政。
-# event-xinzhongguo-chengli — batch07 enriched candidate (Producer, generic)
-# background/result derived verbatim from canonical summary
-# evidence transcribed from canonical source_reference + source_ids (registered works only)
-# no fabricated locators, coordinates, text ids, or links

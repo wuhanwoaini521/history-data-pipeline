@@ -27,18 +27,20 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 建明后即命徐达北伐。
-
 evidence:
 - work: 明史
   term: 太祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-b70c6b52120d0f45de3b
   chapter_hint: 太祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.85
   link_quality_status: reviewed
-  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷一
+  link_method: alias
 - work: 明实录
   term: 太祖实录
   historical_text_id: null
@@ -48,7 +50,8 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《明实录·太祖实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《明实录·太祖实录》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
 background_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
 result_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
 # promoted from data/candidates/batch05/event-zhuyuanzhang-chendi.yml (AUTO_ACCEPT gate)

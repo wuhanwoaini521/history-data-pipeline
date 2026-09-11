@@ -28,15 +28,17 @@ relations:
 evidence:
 - work: 三国志
   term: 魏书·文帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-17f155cfb349f60762f9
   chapter_hint: 魏书·文帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
   review_note: 《三国志·魏书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 魏书/文帝纪
+  link_method: exact
 - work: 后汉书
   term: 献帝纪
   historical_text_id: null

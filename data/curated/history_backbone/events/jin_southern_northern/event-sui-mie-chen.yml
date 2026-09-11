@@ -25,26 +25,30 @@ relations:
 evidence:
 - work: 隋书
   term: 高祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-2df1804ddb329864cd9a
   chapter_hint: 高祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 帝纪/卷一
+  link_method: content
 - work: 陈书
   term: 后主纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-583f7c2e0b4f2bace817
   chapter_hint: 后主纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《陈书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷六
+  link_method: content
 background_zh_cn: 开皇九年（589年）隋文帝发五十一万大军南下，韩擒虎、贺若弼渡江克建康，陈后主被俘，陈朝灭亡。
 result_zh_cn: 隋灭陈结束自西晋以来近三百年（280—589）的分裂局面，中国重新实现大一统。
 # promoted from data/candidates/batch03/event-sui-mie-chen.yml (AUTO_ACCEPT gate)

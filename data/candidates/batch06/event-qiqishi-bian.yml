@@ -60,7 +60,3 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 随后淞沪会战打响。
-# event-qiqishi-bian — batch06 enriched candidate (Producer, generic)
-# background/result derived verbatim from canonical summary
-# evidence transcribed from canonical source_reference + source_ids (registered works only)
-# no fabricated locators, coordinates, text ids, or links

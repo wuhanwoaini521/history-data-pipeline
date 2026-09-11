@@ -58,7 +58,3 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 南京陷落后的暴行。
-# event-nanjing-datusha — batch06 enriched candidate (Producer, generic)
-# background/result derived verbatim from canonical summary
-# evidence transcribed from canonical source_reference + source_ids (registered works only)
-# no fabricated locators, coordinates, text ids, or links

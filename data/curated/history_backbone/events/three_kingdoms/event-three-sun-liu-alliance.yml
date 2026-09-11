@@ -13,8 +13,8 @@ summary_zh_cn: 孙权与刘备集团在曹操南下压力下形成军事合作�
 result_zh_cn: 联军共同应对曹操集团南下。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
+  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-135353
   person_name_raw: 刘备
@@ -57,17 +57,20 @@ places:
   link_confidence: null
   review_note: 暂未可靠匹配 Place。
 evidence:
-- historical_text_id: text-niutrans-006092418dd88e019fbd
+- historical_text_id: text-niutrans-d00d9ae6e547a92b4429
   work: 三国志
   term: 孙权
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.95
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本
+    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
+  chapter_anchor: 吴书/吴主传
+  link_method: content
 relations:
 - target_event_id: event-three-chibi
   relation_type: leads_to

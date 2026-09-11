@@ -4,47 +4,229 @@
   "title": "Event",
   "description": "中国历史主干节点：相对明确发生过的历史事实节点。Event 只引用 knowledge store 的 person/place/text 规范 ID；不确定时保留 name_raw 且 person_id=null。",
   "type": "object",
-  "required": ["id", "name_zh_cn", "event_type", "start_year", "end_year", "date_precision", "importance", "quality_status"],
+  "required": [
+    "id",
+    "name_zh_cn",
+    "event_type",
+    "start_year",
+    "end_year",
+    "date_precision",
+    "importance",
+    "quality_status"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
-    "name_zh_cn": { "type": "string", "minLength": 1 },
-    "name_raw": { "type": ["string", "null"] },
-    "event_type": { "type": "string", "minLength": 1 },
-    "start_year": { "type": ["integer", "null"] },
-    "start_month": { "type": ["integer", "null"], "minimum": 1, "maximum": 12 },
-    "start_day": { "type": ["integer", "null"], "minimum": 1, "maximum": 31 },
-    "end_year": { "type": ["integer", "null"] },
-    "end_month": { "type": ["integer", "null"], "minimum": 1, "maximum": 12 },
-    "end_day": { "type": ["integer", "null"], "minimum": 1, "maximum": 31 },
-    "date_precision": { "enum": ["exact", "year", "range", "approximate", "before", "after", "unknown"] },
-    "period_id": { "type": "string", "pattern": "^period-[a-z0-9-]+$" },
-    "regime_ids": { "type": "array", "items": { "type": "string", "pattern": "^regime-[a-z0-9-]+$" } },
-    "summary_zh_cn": { "type": "string" },
-    "background_zh_cn": { "type": ["string", "null"] },
-    "result_zh_cn": { "type": ["string", "null"] },
-    "process_zh_cn": { "type": ["string", "null"] },
-    "impact_zh_cn": { "type": ["string", "null"] },
-    "importance": { "enum": ["critical", "major", "normal", "minor"] },
-    "quality_status": { "type": "string", "default": "reviewed" },
-    "source_type": { "type": "string", "default": "curated_reference" },
-    "source_reference": { "type": ["string", "null"] },
-    "source_ids": { "type": ["array", "null"], "items": { "type": "string" } },
+    "id": {
+      "type": "string",
+      "pattern": "^event-[a-z0-9-]+$"
+    },
+    "name_zh_cn": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "event_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "start_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "start_month": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 12
+    },
+    "start_day": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 31
+    },
+    "end_year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "end_month": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 12
+    },
+    "end_day": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 31
+    },
+    "date_precision": {
+      "enum": [
+        "exact",
+        "year",
+        "range",
+        "approximate",
+        "before",
+        "after",
+        "unknown"
+      ]
+    },
+    "period_id": {
+      "type": "string",
+      "pattern": "^period-[a-z0-9-]+$"
+    },
+    "regime_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^regime-[a-z0-9-]+$"
+      }
+    },
+    "summary_zh_cn": {
+      "type": "string"
+    },
+    "background_zh_cn": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "result_zh_cn": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "process_zh_cn": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "impact_zh_cn": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "importance": {
+      "enum": [
+        "critical",
+        "major",
+        "normal",
+        "minor"
+      ]
+    },
+    "quality_status": {
+      "type": "string",
+      "default": "reviewed"
+    },
+    "source_type": {
+      "type": "string",
+      "default": "curated_reference"
+    },
+    "source_reference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_ids": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
     "people": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["role", "person_name_raw"],
+        "required": [
+          "role",
+          "person_name_raw"
+        ],
         "properties": {
-          "person_id": { "type": ["string", "null"] },
-          "person_name_raw": { "type": "string", "minLength": 1 },
-          "role": { "type": "string" },
-          "role_zh_cn": { "type": ["string", "null"] },
-          "side": { "type": ["string", "null"] },
-          "importance": { "enum": ["critical", "major", "normal", "minor"] },
-          "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
-          "link_quality_status": { "type": ["string", "null"] },
-          "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
-          "review_note": { "type": ["string", "null"] }
+          "person_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "person_name_raw": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string"
+          },
+          "role_zh_cn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "side": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "importance": {
+            "enum": [
+              "critical",
+              "major",
+              "normal",
+              "minor"
+            ]
+          },
+          "link_status": {
+            "enum": [
+              "linked",
+              "needs_linking",
+              "pending_knowledge",
+              "rejected"
+            ]
+          },
+          "link_quality_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "link_confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "review_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         },
         "additionalProperties": false
       }
@@ -53,17 +235,62 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["role", "place_name_raw"],
+        "required": [
+          "role",
+          "place_name_raw"
+        ],
         "properties": {
-          "place_id": { "type": ["string", "null"] },
-          "place_name_raw": { "type": "string", "minLength": 1 },
-          "role": { "type": "string" },
-          "sequence": { "type": "integer", "minimum": 1 },
-          "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
-          "link_quality_status": { "type": ["string", "null"] },
-          "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
-          "description_zh_cn": { "type": ["string", "null"] },
-          "review_note": { "type": ["string", "null"] }
+          "place_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "place_name_raw": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string"
+          },
+          "sequence": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "link_status": {
+            "enum": [
+              "linked",
+              "needs_linking",
+              "pending_knowledge",
+              "rejected"
+            ]
+          },
+          "link_quality_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "link_confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "description_zh_cn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         },
         "additionalProperties": false
       }
@@ -72,19 +299,122 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["evidence_role", "work", "term"],
+        "required": [
+          "evidence_role",
+          "work",
+          "term"
+        ],
         "properties": {
-          "historical_text_id": { "type": ["string", "null"] },
-          "work": { "type": "string" },
-          "term": { "type": "string" },
-          "chapter_hint": { "type": ["string", "null"] },
-          "context_keywords": { "type": ["array", "null"], "items": { "type": "string" } },
-          "evidence_role": { "enum": ["primary", "supporting", "related"] },
-          "link_status": { "enum": ["linked", "needs_linking", "pending_knowledge", "rejected"] },
-          "link_quality_status": { "type": ["string", "null"] },
-          "link_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
-          "review_note": { "type": ["string", "null"] },
-          "rejected_text_ids": { "type": ["array", "null"], "items": { "type": "string" } }
+          "historical_text_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "work": {
+            "type": "string"
+          },
+          "term": {
+            "type": "string"
+          },
+          "chapter_hint": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "context_keywords": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_role": {
+            "enum": [
+              "primary",
+              "supporting",
+              "related"
+            ]
+          },
+          "link_status": {
+            "enum": [
+              "linked",
+              "needs_linking",
+              "pending_knowledge",
+              "rejected"
+            ]
+          },
+          "link_quality_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "link_confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "review_note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rejected_text_ids": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "chapter_anchor": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "知识层章级定位：'卷类/篇卷'；null 表示未在语料中核实"
+          },
+          "claim_field": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              null,
+              "background",
+              "process",
+              "result",
+              "impact",
+              "people",
+              "places"
+            ],
+            "description": "该证据支持的事件字段；null 表示事件级证据"
+          },
+          "link_method": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              null,
+              "exact",
+              "normalized_exact",
+              "alias",
+              "content",
+              "fuzzy",
+              "manual"
+            ],
+            "description": "章节匹配方式；fuzzy 不允许自动写回"
+          }
         },
         "additionalProperties": false
       }
@@ -93,12 +423,41 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["target_event_id", "relation_type"],
+        "required": [
+          "target_event_id",
+          "relation_type"
+        ],
         "properties": {
-          "target_event_id": { "type": "string", "pattern": "^event-[a-z0-9-]+$" },
-          "relation_type": { "enum": ["precedes", "follows", "causes", "caused_by", "leads_to", "contributes_to", "part_of", "related_to"] },
-          "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
-          "description_zh_cn": { "type": ["string", "null"] }
+          "target_event_id": {
+            "type": "string",
+            "pattern": "^event-[a-z0-9-]+$"
+          },
+          "relation_type": {
+            "enum": [
+              "precedes",
+              "follows",
+              "causes",
+              "caused_by",
+              "leads_to",
+              "contributes_to",
+              "part_of",
+              "related_to"
+            ]
+          },
+          "confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "description_zh_cn": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
         },
         "additionalProperties": false
       }

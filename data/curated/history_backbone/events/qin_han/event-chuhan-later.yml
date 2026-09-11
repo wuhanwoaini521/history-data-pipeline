@@ -13,8 +13,8 @@ summary_zh_cn: 汉政权建立后的整合与秩序重建。
 result_zh_cn: 汉政权逐步巩固。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
+  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -47,15 +47,18 @@ places:
   link_confidence: null
   review_note: 保留为 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-017fe9f3cbd5d21e19ac
+- historical_text_id: text-niutrans-02d4637bfce0784565b8
   work: 汉书
   term: 高祖
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.95
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本
+    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
+  chapter_anchor: 纪/高帝纪上
+  link_method: content
 relations: []

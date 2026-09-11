@@ -71,7 +71,3 @@ relations:
   relation_type: leads_to
   confidence: 0.95
   description_zh_cn: 次年建立满洲国。
-# event-jiuyiba-shibian — batch06 enriched candidate (Producer, generic)
-# background/result derived verbatim from canonical summary
-# evidence transcribed from canonical source_reference + source_ids (registered works only)
-# no fabricated locators, coordinates, text ids, or links

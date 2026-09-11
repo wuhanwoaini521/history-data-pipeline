@@ -47,15 +47,17 @@ evidence:
     未锚定，保持 needs_linking（B5）
 - work: 明史
   term: 庄烈帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-d971953ed53da5e30fce
   chapter_hint: 庄烈帝纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷二十三
+  link_method: content
 background_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
 result_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
 # promoted from data/candidates/batch05/event-qingjun-ru-guan.yml (AUTO_ACCEPT gate)

@@ -39,24 +39,28 @@ relations:
 evidence:
 - work: 史记
   term: 殷本纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-1b0df0566699424a41f3
   chapter_hint: 殷本纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《史记·殷本纪》
+  review_note: 《史记·殷本纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 十二本纪/殷本纪
+  link_method: exact
 - work: 尚书
   term: 汤誓
-  historical_text_id: null
+  historical_text_id: text-niutrans-c7cea9d9c100baa496c0
   chapter_hint: 汤誓
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《尚书·汤誓》
+  review_note: 《尚书·汤誓》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 商书/汤誓
+  link_method: exact
 # event-shangtang-miexia — calibration_batch01 enriched candidate (Producer)
 # background/result derived verbatim from canonical summary
 # evidence appointed to canonical source_reference or Researcher-verified classics

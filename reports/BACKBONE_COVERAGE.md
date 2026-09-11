@@ -71,3 +71,25 @@
 - 本报告由 `history-data backbone coverage` 或 `history-data backbone build` 生成。
 - Event 归属按 events/ 目录约定（PERIOD_DIR_HINTS），可在 taxonomy 调整。
 
+## 最新 Manifest
+
+```json
+{
+  "periods": 31,
+  "regimes": 64,
+  "events": 618,
+  "stories": 3,
+  "story_events": 26,
+  "event_relations": 1057,
+  "event_people": 398,
+  "event_places": 26,
+  "event_evidence": 130,
+  "people": 234,
+  "places": 3,
+  "works": 49,
+  "historical_texts": 730128,
+  "sources": 4,
+  "entity_source_mapping": 261
+}
+```
+

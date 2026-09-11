@@ -34,6 +34,8 @@ import duckdb  # noqa: E402
 from history_data_pipeline.backbone.loader import load_backbone  # noqa: E402
 
 KB = ROOT / "data" / "normalized" / "history.duckdb"
+# 知识层 V2 重建后 data/normalized 可能只有文本层（people=0）；dist 含 curated people 种子
+DIST = ROOT / "dist" / "history.duckdb"
 PERSONS_DIR = ROOT / "data" / "curated" / "persons"
 # V2.2 专用层（不并入正式 loader 扫描目录）
 CAND_DIR = ROOT / "data" / "candidates" / "event_person_v2_2"
@@ -99,7 +101,17 @@ class NameIndex:
             self.name2rec.setdefault(nm, []).append(rec)
 
     def build(self) -> None:
-        con = duckdb.connect(str(KB), read_only=True)
+        # data/normalized 可能只有文本层（people=0）；选 people>0 的库（dist 有 curated 种子）
+        kb = KB
+        try:
+            probe = duckdb.connect(str(KB), read_only=True)
+            has_people = probe.execute("SELECT COUNT(*) FROM people").fetchone()[0] > 0
+            probe.close()
+        except Exception:
+            has_people = False
+        if not has_people:
+            kb = DIST
+        con = duckdb.connect(str(kb), read_only=True)
         rows = con.execute(
             "SELECT id, canonical_name_zh_cn, name_raw, birth_year, death_year FROM people"
         ).fetchall()

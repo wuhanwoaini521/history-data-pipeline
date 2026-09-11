@@ -36,26 +36,30 @@ relations:
 evidence:
 - work: 魏书
   term: 孝静纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-da9fb710f7e31ee26601
   chapter_hint: 孝静纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《魏书·孝静纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 帝纪/卷十二
+  link_method: content
 - work: 周书
   term: 文帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-57b43065c9d31905f4dd
   chapter_hint: 文帝纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《周书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷一
+  link_method: content
 background_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。
 result_zh_cn: 北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
 # promoted from data/candidates/batch03/event-beiwei-fenlie.yml (AUTO_ACCEPT gate)

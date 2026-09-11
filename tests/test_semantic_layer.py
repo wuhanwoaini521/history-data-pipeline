@@ -12,6 +12,12 @@ DATABASE = Path(__file__).parents[1] / "data" / "normalized" / "history.duckdb"
 def service():
     if not DATABASE.exists():
         pytest.skip("正式 history.duckdb 不存在")
+    # 知识层 V2 重建后，data/normalized 可能只含文本层；本模块验证 legacy 全量 Layer-2。
+    import duckdb
+    with duckdb.connect(str(DATABASE), read_only=True) as connection:
+        people = connection.execute("SELECT COUNT(*) FROM people").fetchone()[0]
+    if people == 0:
+        pytest.skip("history.duckdb 为文本层知识库（legacy 全量层未构建）")
     return HistoryQueryService(DATABASE)
 
 

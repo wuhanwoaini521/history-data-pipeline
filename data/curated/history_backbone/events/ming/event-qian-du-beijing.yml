@@ -29,15 +29,17 @@ relations:
 evidence:
 - work: 明史
   term: 成祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-0b70f589ce8b5ecd32c0
   chapter_hint: 成祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷五
+  link_method: content
 - work: 明史
   term: 地理志
   historical_text_id: null

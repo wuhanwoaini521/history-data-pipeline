@@ -218,7 +218,9 @@ def test_resolution_linked_places(resolution):
 def test_resolution_no_broken(resolution):
     assert resolution.broken == []
     assert resolution.persons["linked"] == 398  # 200 既有 + 198 V2.3 净新增
-    assert resolution.evidences["pending_knowledge"] == 26
+    # 知识层 V2 重建后：74 条 evidence 已带 historical_text_id（knowledge_db=None 时
+    # 无法核实，降级 pending）+ 22 条原 pending = 96。
+    assert resolution.evidences["pending_knowledge"] == 96
 
 
 def test_unique_person_ids(resolution):

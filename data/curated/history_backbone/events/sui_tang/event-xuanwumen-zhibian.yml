@@ -26,26 +26,30 @@ relations:
 evidence:
 - work: 旧唐书
   term: 太宗纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-6f649b99cc41b3b75821
   chapter_hint: 太宗纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《旧唐书·太宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷二
+  link_method: content
 - work: 旧唐书
   term: 高祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-1f257b091fdcbe474d32
   chapter_hint: 高祖纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷一
+  link_method: content
 background_zh_cn: 武德九年（626年）六月初四，秦王李世民在长安宫城北门玄武门伏兵，杀太子李建成、齐王李元吉，遂被立为太子，两月后受禅即位。
 result_zh_cn: 玄武门之变是唐初皇位继承冲突的总爆发，改变了唐朝政治走向，也是中国历史上最著名的宫廷政变之一。
 # promoted from data/candidates/batch03/event-xuanwumen-zhibian.yml (AUTO_ACCEPT gate)

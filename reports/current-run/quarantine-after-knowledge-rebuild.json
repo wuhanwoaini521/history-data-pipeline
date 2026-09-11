@@ -1,0 +1,326 @@
+[
+  {
+    "event_id": "event-mongol-jianguo",
+    "batch": "batch04",
+    "before": {
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 88.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [
+      {
+        "work": "元史",
+        "term": "太祖纪",
+        "status": "linked",
+        "method": "alias",
+        "anchor": "本纪/卷一",
+        "text_id": "text-niutrans-ac7d2777eb8bd1839a67"
+      }
+    ],
+    "missing_after": [
+      "地点",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=7.7/15 (1 条 evidence（work/term/role 加权）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-western-xia-jianguo",
+    "batch": "batch04",
+    "before": {
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [
+      {
+        "work": "宋史",
+        "term": "夏国传",
+        "status": "unmatched",
+        "method": null,
+        "anchor": null,
+        "text_id": null
+      }
+    ],
+    "missing_after": [
+      "地点",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (1/1 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=6.7/15 (1 条 evidence（work/term/role 加权）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-yuan-jianguo",
+    "batch": "batch04",
+    "before": {
+      "score": 87.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 88.7,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [
+      {
+        "work": "元史",
+        "term": "世祖纪",
+        "status": "linked",
+        "method": "alias",
+        "anchor": "本纪/卷四",
+        "text_id": "text-niutrans-fe819fc1bf7aa23893b7"
+      }
+    ],
+    "missing_after": [
+      "地点",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=7.7/15 (1 条 evidence（work/term/role 加权）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-jiuyiba-shibian",
+    "batch": "batch06",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-nanjing-datusha",
+    "batch": "batch06",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-qiqishi-bian",
+    "batch": "batch06",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-wusi-yundong",
+    "batch": "batch06",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (3/3 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-xian-shibian",
+    "batch": "batch06",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (4/4 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-riben-touxiang",
+    "batch": "batch07",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=2）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  },
+  {
+    "event_id": "event-xinzhongguo-chengli",
+    "batch": "batch07",
+    "before": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "after": {
+      "score": 81.0,
+      "verdict": "QUARANTINE_MEDIUM"
+    },
+    "evidence_links": [],
+    "missing_after": [
+      "地点",
+      "证据",
+      "过程",
+      "影响"
+    ],
+    "gaps": [
+      "schema_fk_uniqueness=10.0/10 (唯一性/FK 由确定性校验门负责；框架不重复计数)",
+      "temporal_consistency=10.0/10 (无冲突)",
+      "person_resolution=10.0/10 (2/2 已规范解析（link_status=linked + 规范 ID）)",
+      "place_resolution=7.0/10 (事件未声明 地点 桥接（缺失为完整性问题，不判分辨率）)",
+      "source_quality=15.0/15 (已有 source_reference/source_ids; source_reference 含 Tier-A 锚点（古代史料标题或官方档案/机构汇编）; source_type=curated_reference 或 source_ids 非空)",
+      "evidence_precision=0.0/15 (无 evidence 条目（evidence_precision 0）)",
+      "independent_source_verification=10.0/10 (≥2 独立来源锚点（source_ids=1）)",
+      "content_completeness=10.0/10 (name/summary/background/result/importance 共 10.0 分)",
+      "independent_verifier=9.0/10 (已人工 review (quality_status=reviewed))"
+    ]
+  }
+]

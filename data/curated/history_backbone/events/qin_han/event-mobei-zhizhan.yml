@@ -63,24 +63,28 @@ relations:
 evidence:
 - work: 史记
   term: 卫将军骠骑列传
-  historical_text_id: null
+  historical_text_id: text-niutrans-2f57b99e1cc19d944599
   chapter_hint: 卫将军骠骑列传
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《史记·卫将军骠骑列传》
+  review_note: 《史记·卫将军骠骑列传》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 七十列传/卫将军骠骑列传
+  link_method: exact
 - work: 汉书
   term: 武帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-d953da42f544decf185f
   chapter_hint: 武帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《汉书·武帝纪》
+  review_note: 《汉书·武帝纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 纪/武帝纪
+  link_method: exact
 # event-mobei-zhizhan — calibration_batch01 enriched candidate (Producer)
 # background/result derived verbatim from canonical summary
 # evidence appointed to canonical source_reference or Researcher-verified classics

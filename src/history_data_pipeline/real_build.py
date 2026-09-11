@@ -63,7 +63,7 @@ def _iter_texts(path: Path):
             title = _work_title(source_path)
             work_id = "work-niutrans-" + hashlib.sha1(title.encode("utf-8")).hexdigest()[:16]
             text_id = "text-niutrans-" + hashlib.sha1(f"{source_path}:{line_number}".encode("utf-8")).hexdigest()[:20]
-            yield {"id": text_id, "title_zh_cn": title, "book_id": work_id, "chapter": Path(source_path).parent.name, "section": None, "original_text": original, "original_simplified": simplify_text(original), "translation_zh_cn": translation, "translation_type": "dataset", "translation_source": "NiuTrans Classical-Modern", "quality_status": "unverified", "source_id": "source-classical-modern", "alignment_quality": row.get("alignment_quality") or "heuristic_unverified"}
+            yield {"id": text_id, "title_zh_cn": title, "book_id": work_id, "chapter": Path(source_path).parent.name, "section": None, "original_text": original, "original_simplified": simplify_text(original), "translation_zh_cn": translation, "translation_type": "dataset", "translation_source": "NiuTrans Classical-Modern", "quality_status": "unverified", "source_id": "source-classical-modern", "alignment_quality": row.get("alignment_quality") or "heuristic_unverified", "paragraph_index": line_number, "source_path": source_path}
 
 
 def _write_normalized_texts(source: Path, target: Path) -> int:
@@ -109,7 +109,7 @@ def build_from_staging(paths) -> Path:
         normalized_texts = paths.staging / "normalized.building" / "historical_texts.jsonl"
         text_count = _write_normalized_texts(niutrans, normalized_texts) if niutrans else 0
         if niutrans:
-            _insert_json(connection, "historical_texts", normalized_texts, ["id", "title_zh_cn", "book_id", "chapter", "section", "original_text", "original_simplified", "translation_zh_cn", "translation_type", "translation_source", "quality_status", "source_id", "alignment_quality"], ["id", "title_zh_cn", "book_id", "chapter", "section", "original_text", "original_simplified", "translation_zh_cn", "translation_type", "translation_source", "quality_status", "source_id", "alignment_quality"])
+            _insert_json(connection, "historical_texts", normalized_texts, ["id", "title_zh_cn", "book_id", "chapter", "section", "original_text", "original_simplified", "translation_zh_cn", "translation_type", "translation_source", "quality_status", "source_id", "alignment_quality", "paragraph_index", "source_path"], ["id", "title_zh_cn", "book_id", "chapter", "section", "original_text", "original_simplified", "translation_zh_cn", "translation_type", "translation_source", "quality_status", "source_id", "alignment_quality", "paragraph_index", "source_path"])
             _insert_json(connection, "works", normalized_texts, ["id", "title", "title_raw", "title_zh_cn", "source_ids", "source_id", "quality_status"], ["book_id", "title_zh_cn", "title_zh_cn", "title_zh_cn", "'[\\\"source-classical-modern\\\"]'", "'source-classical-modern'", "'source_backed'"], "QUALIFY row_number() OVER (PARTITION BY book_id ORDER BY id) = 1")
         connection.execute("CHECKPOINT")
     finally:

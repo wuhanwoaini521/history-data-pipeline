@@ -39,24 +39,28 @@ relations:
 evidence:
 - work: 史记
   term: 周本纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-069b6ecafb78c28c4a01
   chapter_hint: 周本纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《史记·周本纪》
+  review_note: 《史记·周本纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 十二本纪/周本纪
+  link_method: exact
 - work: 尚书
   term: 牧誓
-  historical_text_id: null
+  historical_text_id: text-niutrans-523e45ce0b7dab4635d1
   chapter_hint: 牧誓
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《尚书·牧誓》
+  review_note: 《尚书·牧誓》；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 周书/牧誓
+  link_method: exact
 # event-wuwang-fazhou — calibration_batch01 enriched candidate (Producer)
 # background/result derived verbatim from canonical summary
 # evidence appointed to canonical source_reference or Researcher-verified classics

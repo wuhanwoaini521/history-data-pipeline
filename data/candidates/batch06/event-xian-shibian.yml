@@ -71,7 +71,3 @@ relations:
   relation_type: follows
   confidence: 0.8
   description_zh_cn: 红军到达陕北后张杨与中共接触。
-# event-xian-shibian — batch06 enriched candidate (Producer, generic)
-# background/result derived verbatim from canonical summary
-# evidence transcribed from canonical source_reference + source_ids (registered works only)
-# no fabricated locators, coordinates, text ids, or links

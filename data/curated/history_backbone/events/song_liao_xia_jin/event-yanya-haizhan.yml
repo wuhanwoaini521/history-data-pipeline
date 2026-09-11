@@ -31,26 +31,30 @@ relations:
 evidence:
 - work: 宋史
   term: 瀛国公纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-71b8107a9e06436d85f9
   chapter_hint: 瀛国公纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《宋史·瀛国公纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷四十七
+  link_method: content
 - work: 元史
   term: 世祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-fe819fc1bf7aa23893b7
   chapter_hint: 世祖纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.85
   link_quality_status: reviewed
   review_note: 《元史·世祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷四
+  link_method: alias
 background_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
 result_zh_cn: 祥兴二年（1279 年）二月，宋元在崖山（今广东新会南海中）展开海战，宋军大败，陆秀夫负帝昺蹈海，南宋灭亡；元朝至此统一中国，中国历史上最后一次大规模海战歼亡的汉族王朝政权结束。
 # promoted from data/candidates/batch05/event-yanya-haizhan.yml (AUTO_ACCEPT gate)

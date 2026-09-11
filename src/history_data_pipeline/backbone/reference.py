@@ -235,6 +235,11 @@ def resolve_references(backbone: Backbone, knowledge_db: Path | None = None) -> 
             if status == "linked":
                 if identifier and identifier in resolver.text_ids:
                     evidences["linked"] += 1
+                elif not resolver.available:
+                    # knowledge store 不可用（seed-only 构建）：无法核实链接真实性，
+                    # 降级 pending 而非 broken；--knowledge 构建会如实核验。
+                    evidences["pending_knowledge"] += 1
+                    result.pending.append(f"events/{event['id']}: linked evidence 暂无法核实（knowledge 不可用）")
                 else:
                     result.broken.append(f"events/{event['id']}: linked evidence 文本缺失 {identifier}")
             elif status in evidences:
@@ -251,23 +256,8 @@ def resolve_references(backbone: Backbone, knowledge_db: Path | None = None) -> 
     return result
 
 
-def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
-    """从解析结果生成知识库种子行（people / places / works）。"""
-    people: list[dict[str, Any]] = []
-    for person_id, name in sorted(result.seed_persons.items()):
-        people.append({
-            "id": person_id, "canonical_name_zh_cn": name, "name_raw": name,
-            "quality_status": "reviewed", "created_from_source": "source-curated-backbone-v1",
-            "search_name": name, "search_aliases": "", "search_text": name,
-        })
-    places: list[dict[str, Any]] = []
-    for place_id, name in sorted(result.seed_places.items()):
-        places.append({
-            "id": place_id, "canonical_name_zh_cn": name, "historical_name": name,
-            "place_type": "historical_place", "source_id": "source-curated-backbone-v1",
-            "external_id": place_id, "quality_status": "reviewed",
-        })
-    works: list[dict[str, Any]] = [
+# curated works seeds（V1 全量注册表；knowledge_build 用 title→work-curated-id 复用，避免 dist 出现同名重复 work 行）
+CURATED_WORK_SEEDS: list[dict[str, Any]] = [
         {"id": "work-curated-shiji", "title": "史记", "title_raw": "史记", "title_zh_cn": "史记", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-hanshu", "title": "汉书", "title_raw": "汉书", "title_zh_cn": "汉书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-houhanshu", "title": "后汉书", "title_raw": "后汉书", "title_zh_cn": "后汉书", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
@@ -326,4 +316,24 @@ def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]],
         {"id": "work-curated-qinhan-shi", "title": "秦汉史", "title_raw": "秦汉史", "title_zh_cn": "秦汉史（翦伯赞）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
         {"id": "work-curated-qinhan-shilue", "title": "秦汉史略", "title_raw": "秦汉史略", "title_zh_cn": "秦汉史略（何兹全）", "source_id": "source-curated-backbone-v1", "quality_status": "reviewed"},
     ]
+
+
+def knowledge_seed_rows(result: ResolutionResult) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    """从解析结果生成知识库种子行（people / places / works）。"""
+    people: list[dict[str, Any]] = []
+    for person_id, name in sorted(result.seed_persons.items()):
+        people.append({
+            "id": person_id, "canonical_name_zh_cn": name, "name_raw": name,
+            "quality_status": "reviewed", "created_from_source": "source-curated-backbone-v1",
+            "search_name": name, "search_aliases": "", "search_text": name,
+        })
+    places: list[dict[str, Any]] = []
+    for place_id, name in sorted(result.seed_places.items()):
+        places.append({
+            "id": place_id, "canonical_name_zh_cn": name, "historical_name": name,
+            "place_type": "historical_place", "source_id": "source-curated-backbone-v1",
+            "external_id": place_id, "quality_status": "reviewed",
+        })
+    works: list[dict[str, Any]] = [dict(row) for row in CURATED_WORK_SEEDS]
+
     return people, places, works

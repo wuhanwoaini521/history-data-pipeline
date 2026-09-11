@@ -26,26 +26,30 @@ relations:
 evidence:
 - work: 明史
   term: 成祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-0b70f589ce8b5ecd32c0
   chapter_hint: 成祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷五
+  link_method: content
 - work: 明史
   term: 恭闵帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-eace3b93e5182ef8a1c1
   chapter_hint: 恭闵帝纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
   review_note: 《明史·恭闵帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷四
+  link_method: content
 background_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。
 result_zh_cn: 本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
 # promoted from data/candidates/batch05/event-jingnan-zhizhan.yml (AUTO_ACCEPT gate)

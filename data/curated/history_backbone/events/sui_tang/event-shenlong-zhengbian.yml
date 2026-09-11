@@ -26,28 +26,33 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 中宗复位后韦后乱政，旋有唐隆政变
-
 evidence:
 - work: 旧唐书
   term: 则天皇后纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-9deda7330de0b64e1d86
   chapter_hint: 则天皇后纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷六
+  link_method: content
 - work: 资治通鉴
   term: 唐纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-7e27df09cd5671f2edbe
   chapter_hint: 唐纪·神龙元年
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 唐纪/唐纪一
+  link_method: exact
 background_zh_cn: 神龙元年（705年）正月张柬之、崔玄暐等发动政变，迫武则天退位，中宗李显复位，复国号唐。武周政权终结，武则天不久病逝。
 result_zh_cn: 神龙政变是唐朝恢复的关键政治事件，武周时期由此落幕。
 # promoted from data/candidates/batch03/event-shenlong-zhengbian.yml (AUTO_ACCEPT gate)

@@ -72,24 +72,28 @@ relations:
 evidence:
 - work: 汉书
   term: 景帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-6ab0e05c73f5349cc128
   chapter_hint: 景帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《汉书·景帝纪》（注：汉书同一书内多个篇章，单一独立来源）
+  review_note: 《汉书·景帝纪》（注：汉书同一书内多个篇章，单一独立来源）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 纪/景帝纪
+  link_method: exact
 - work: 汉书
   term: 荆燕吴传
-  historical_text_id: null
+  historical_text_id: text-niutrans-6cd00cb0cb94db6359e2
   chapter_hint: 荆燕吴传
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《汉书·荆燕吴传》（注：汉书同一书内多个篇章，单一独立来源）
+  review_note: 《汉书·荆燕吴传》（注：汉书同一书内多个篇章，单一独立来源）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 传/荆燕吴传
+  link_method: exact
 # event-qiguo-zhi-luan — calibration_batch01 enriched candidate (Producer)
 # background/result derived verbatim from canonical summary
 # evidence appointed to canonical source_reference or Researcher-verified classics

@@ -303,8 +303,9 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
             connection.execute("""
                 INSERT OR REPLACE INTO event_evidence
                   (id,event_id,historical_text_id,work,term,chapter_hint,context_keywords,evidence_role,link_status,
-                   link_quality_status,link_confidence,review_note,source_type,source_id,quality_status,rejected_text_ids)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                   link_quality_status,link_confidence,review_note,source_type,source_id,quality_status,rejected_text_ids,
+                   chapter_anchor,claim_field,link_method)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
             """, [
                 f"event-evidence-{identity}", event["id"], evidence.get("historical_text_id"),
                 evidence.get("work"), evidence.get("term"), evidence.get("chapter_hint"),
@@ -313,6 +314,7 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
                 evidence.get("link_confidence"), evidence.get("review_note"),
                 "curated_reference", evidence.get("source_id") or CURATED_SOURCE_ID,
                 evidence.get("quality_status", "reviewed"), _json(evidence.get("rejected_text_ids")),
+                evidence.get("chapter_anchor"), evidence.get("claim_field"), evidence.get("link_method"),
             ])
         # outgoing relations 以本 event 为 source
         for relation in event.get("relations", []):
@@ -405,7 +407,8 @@ def _build_duckdb(paths, backbone: Backbone, result: ResolutionResult, real_know
               work VARCHAR, term VARCHAR, chapter_hint VARCHAR, context_keywords VARCHAR,
               evidence_role VARCHAR NOT NULL, link_status VARCHAR, link_quality_status VARCHAR,
               link_confidence DOUBLE, review_note VARCHAR, source_type VARCHAR, source_id VARCHAR,
-              quality_status VARCHAR, rejected_text_ids VARCHAR
+              quality_status VARCHAR, rejected_text_ids VARCHAR,
+              chapter_anchor VARCHAR, claim_field VARCHAR, link_method VARCHAR
             )
         """)
         connection.execute("""

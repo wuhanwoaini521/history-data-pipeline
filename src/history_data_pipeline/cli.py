@@ -67,6 +67,16 @@ def parser() -> argparse.ArgumentParser:
                 help="使用真实 staging 构建正式数据库",
             )
     query = commands.add_parser("query", help="只读查询正式 History DuckDB")
+    knowledge = commands.add_parser(
+        "knowledge", help="Knowledge Store（Layer 2）命令：build（NiuTrans → historical_texts）"
+    )
+    knowledge.add_argument(
+        "--version", default=None, help="raw 快照版本（data/raw/classical-modern/<version>；默认最新）"
+    )
+    knowledge_actions = knowledge.add_subparsers(dest="knowledge_action", required=True)
+    knowledge_actions.add_parser(
+        "build", help="NiuTrans Classical-Modern → data/normalized/history.duckdb"
+    )
     query.add_argument(
         "kind",
         choices=(
@@ -173,7 +183,14 @@ def parser() -> argparse.ArgumentParser:
         "--regime",
         type=str,
         default=None,
-        help="按 Regime id（前缀/子串）或名称过滤，如 --regime former-qin",
+        help="按 Regime id（前缀/子串）或名称过滤",
+    )
+    backbone_link = backbone_actions.add_parser(
+        "link-evidence",
+        help="evidence → historical_texts 章级锚定（默认 dry-run；--apply 才写回 YAML）",
+    )
+    backbone_link.add_argument(
+        "--apply", action="store_true", help="把 exact/normalized_exact/alias 命中写回事件 YAML"
     )
     backbone_timeline.add_argument(
         "--json", action="store_true", dest="as_json", help="输出 JSON"
@@ -347,6 +364,12 @@ def main(argv: list[str] | None = None) -> int:
         write_reports(records, paths.reports)
         print(paths.database)
         return 0
+    if args.command == "knowledge":
+        from .knowledge_build import build_knowledge_store
+
+        manifest = build_knowledge_store(paths, snapshot_version=args.version)
+        print(json.dumps(manifest, ensure_ascii=False, indent=2, default=str))
+        return 0
     if args.command == "backbone":
         from .backbone.build import build_backbone
         from .backbone.coverage import write_backbone_coverage
@@ -436,6 +459,33 @@ def main(argv: list[str] | None = None) -> int:
 
             path = write_enrichment_queue(paths.root)
             print(path)
+            return 0
+        if args.backbone_action == "link-evidence":
+            from collections import Counter
+
+            from .backbone.evidence_link import (
+                KnowledgeIndex,
+                alias_map,
+                apply_links,
+                link_event_evidence,
+            )
+            from .backbone.loader import load_backbone
+
+            backbone = load_backbone(paths.root)
+            index = KnowledgeIndex.load(knowledge_db)
+            results = list(link_event_evidence(backbone.events, index, alias_map(paths.root),
+                                               knowledge_db=knowledge_db))
+            stats = apply_links(
+                paths.root / "data" / "curated" / "history_backbone" / "events",
+                results,
+                apply=args.apply,
+            )
+            counts = Counter(result.status for result in results)
+            print(json.dumps({"counts": dict(counts), **stats}, ensure_ascii=False, indent=2))
+            for result in results:
+                if result.status != "linked":
+                    print(f"  [{result.status}] {result.event_id} {result.work}·{result.term} "
+                          f"method={result.match_method} conf={result.confidence} note={result.note}")
             return 0
         if args.backbone_action == "qa":
             backbone = load_backbone(paths.root)
@@ -611,3 +661,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     print(f"{args.command}: 已预留接口；V1 构建使用 sample records", file=sys.stderr)
     return 0
+
+
+if __name__ == "__main__":  # pragma: no cover
+    raise SystemExit(main())

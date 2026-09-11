@@ -27,7 +27,6 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 郭威之后柴荣（世宗）即位改革
-
 evidence:
 - work: 旧五代史
   term: 周太祖纪
@@ -38,17 +37,21 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《旧五代史·周太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《旧五代史·周太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）
 - work: 资治通鉴
   term: 后周纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-c2dcd326294100ff5425
   chapter_hint: 后周纪·广顺元年
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·后周纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《资治通鉴·后周纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 后周纪/后周纪一
+  link_method: exact
 background_zh_cn: 广顺元年（951年）后汉枢密使郭威于澶州兵变后受禅称帝，国号周（后周），都开封。
 result_zh_cn: 后周建立五代最后一个中原王朝，其后的柴荣改革为北宋统一奠定基础。
 # promoted from data/candidates/batch04/event-guo-wei-dai-han.yml (AUTO_ACCEPT gate)

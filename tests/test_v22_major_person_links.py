@@ -54,6 +54,11 @@ def test_review_excluded_never_accepted(v22):
     """审阅排除表（地方/年号/助词等）强制不产链接。"""
     assert v22.EXCLUDED_BY_REVIEW
     for eid, (name, reason) in v22.EXCLUDED_BY_REVIEW.items():
+        # 排除表语义：即使名字在候选宇宙中真的命中，也必须记录为 excluded_by_review。
+        # 注入 stub 人名（不依赖 legacy KB 是否存在同名噪声候选）。
+        stub = {"id": f"stub-{name}", "canonical": name, "birth": None, "death": None, "has_years": False}
+        v22.index.persons.setdefault(stub["id"], stub)
+        v22.index._put(name, stub)
         e = _ev({"id": eid, "name_zh_cn": "事件",
                  "summary_zh_cn": f"……{name}……", "start_year": 1000, "end_year": 1100})
         res = v22.classify(v22.index, e)

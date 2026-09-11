@@ -24,28 +24,33 @@ relations:
   description_zh_cn: 隋炀帝死后李渊称帝建唐
 - target_event_id: event-liyuan-ru-guan
   relation_type: follows
-
 evidence:
 - work: 旧唐书
   term: 高祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-1f257b091fdcbe474d32
   chapter_hint: 高祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 本纪/卷一
+  link_method: content
 - work: 资治通鉴
   term: 唐纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-7e27df09cd5671f2edbe
   chapter_hint: 唐纪·武德元年
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
-  link_confidence: 0.9
+  link_status: linked
+  link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text
+    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  chapter_anchor: 唐纪/唐纪一
+  link_method: exact
 background_zh_cn: 武德元年（618年）五月，李渊在长安称帝，国号唐，隋恭帝禅让，隋朝正式灭亡。
 result_zh_cn: 唐朝建立继隋之后开启中国历史上又一个强盛王朝，并迅速展开统一全国的战争。
 # promoted from data/candidates/batch03/event-tang-jianguo.yml (AUTO_ACCEPT gate)

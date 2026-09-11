@@ -13,8 +13,8 @@ summary_zh_cn: 安禄山发动叛乱，安史之乱爆发。
 result_zh_cn: 叛军迅速向中原推进。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
+  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-379873
   person_name_raw: 安禄山
@@ -47,17 +47,20 @@ places:
   link_confidence: null
   review_note: 具体地点暂未可靠匹配。
 evidence:
-- historical_text_id: text-niutrans-01256ac6603fa0d89381
+- historical_text_id: text-niutrans-241791fe082b502ba782
   work: 旧唐书
   term: 安禄山
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.95
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本
+    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
+  chapter_anchor: 列传/卷一百五十
+  link_method: content
 relations:
 - target_event_id: event-anlu-luoyang
   relation_type: leads_to
