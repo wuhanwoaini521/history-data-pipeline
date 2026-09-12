@@ -2285,19 +2285,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "WEAK",
-   "process": "ADEQUATE",
-   "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 12,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
   "relation_count": 3,
-  "evidence_count": 6,
+  "evidence_count": 13,
   "missing": []
  },
  {
@@ -2329,19 +2329,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "ADEQUATE",
-   "result": "WEAK",
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 11,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
   "relation_count": 2,
-  "evidence_count": 7,
+  "evidence_count": 12,
   "missing": []
  },
  {
@@ -2395,19 +2395,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "ADEQUATE",
-   "result": "WEAK",
-   "impact": "ADEQUATE"
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 12,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 3,
-  "evidence_count": 7,
+  "relation_count": 4,
+  "evidence_count": 13,
   "missing": []
  },
  {
@@ -2439,19 +2439,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "ADEQUATE",
+   "background": "STRONG",
+   "process": "STRONG",
    "result": "ADEQUATE",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "ADEQUATE",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
   "relation_count": 1,
-  "evidence_count": 7,
+  "evidence_count": 12,
   "missing": []
  },
  {

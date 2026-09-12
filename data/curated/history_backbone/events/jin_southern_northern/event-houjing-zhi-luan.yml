@@ -31,6 +31,9 @@ relations:
   relation_type: part_of
   confidence: 0.7
   description_zh_cn: 侯景之乱后西魏破江陵梁亡为余波
+- target_event_id: event-sui-mie-chen
+  relation_type: precedes
+  description_zh_cn: 侯景之乱耗竭南朝国力，为隋灭陈之远因
 evidence:
 - work: 梁书
   term: 武帝纪
@@ -116,10 +119,82 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c4：梁书源引文：「五月丙辰，高祖崩于净居殿，时年八十六。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 魏司徒侯景求以豫、广、颍、洛等十三州内属，梁纳之——侯景东奔降梁，梁廷处置失当，祸根埋下。
-result_zh_cn: 台城既没，侯景自为都督中外诸军事、大丞相、录尚书，逼太宗幸西州——权移于叛将。
-process_zh_cn: 三年三月，侯景寇没京师；其党引玄武湖水灌台城，城外水起数尺、阙前御街并为洪波，悉逼百姓及军士家累入台城。
-impact_zh_cn: 五月丙辰，高祖崩于净居殿，时年八十六——梁武帝饿死台城，江南残破、梁室名存实亡，南朝士族元气大伤。
+- work: 梁书
+  term: 列传
+  historical_text_id: text-niutrans-62481e4456c5818b100c
+  chapter_anchor: 列传/卷三十二#p102
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「大同二年，魏遣将侯景率众七万寇楚州，刺史桓和陷没，景仍进军淮上。」；claim_field=background；anchor=段落精确锚。
+- work: 梁书
+  term: 列传
+  historical_text_id: text-niutrans-c903107ae4fec26de4b1
+  chapter_anchor: 列传/卷三十二#p125
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「太清二年，侯景围历阳，敕召昕还，昕启云：采石急须重镇，王质水军轻弱，恐虑不济。」；claim_field=background；anchor=段落精确锚。
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: text-niutrans-fecbb1e5fdd39f4912e2
+  chapter_anchor: 本纪/卷三#p594
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「戊戌，侯景举兵反，擅攻马头、木栅、荆山等戍。」；claim_field=process；anchor=段落精确锚。
+- work: 梁书
+  term: 列传
+  historical_text_id: text-niutrans-b7bc5468cde6d94afa75
+  chapter_anchor: 列传/卷三十#p155
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「太清三年，侯景攻陷台城，时太宗居永福省，贼众奔入，举兵上殿，侍卫奔散，莫有存者。」；claim_field=result；anchor=段落精确锚。
+- work: 梁书
+  term: 列传
+  historical_text_id: text-niutrans-c70ee64c159e17611567
+  chapter_anchor: 列传/卷三十九#p128
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「侯景反，攻陷历阳，高祖问侃讨景之策。」；claim_field=process；anchor=段落精确锚。
+- work: 梁书
+  term: 列传
+  historical_text_id: text-niutrans-cfe75a4050821d380a43
+  chapter_anchor: 列传/卷三十七#p43
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：梁书源引文：「是岁，侯景寇京师，举卒于围内。」；claim_field=result；anchor=段落精确锚。
+background_zh_cn: 侯景本东魏将，大同二年「魏遣将侯景率众七万寇楚州」，既败而降梁，梁武帝纳之，景遂据寿阳。太清二年，侯景围历阳，梁将启云「采石急须重镇，王质水军轻弱，恐虑不济」——江防之疏、藩镇之骄，祸机已伏。
+result_zh_cn: 台城陷后，侯景纵兵大掠，建康残破、士民死亡相继，梁臣有卒于围内者；梁室诸王拥兵相攻而不赴国难，其后景篡立为汉帝，为王僧辩、陈霸先所讨平，而梁祚亦尽——江陵再陷于西魏，陈霸先遂代梁而立。
+process_zh_cn: 太清二年（548年）八月戊戌，侯景举兵反，擅攻马头、木栅、荆山等戍；是岁侯景寇京师，梁将率所部入援，有卒于围内者。太清三年，侯景攻陷台城：「时太宗居永福省，贼众奔入，举兵上殿，侍卫奔散，莫有存者」——台城既陷，梁武帝、简文帝相继受制于景。
+impact_zh_cn: 侯景之乱为南朝由盛转衰之枢：建康宫阙焚毁，门阀士族凋零殆尽，江南文物之盛一落千丈；梁亡而陈立，南朝仅余一国之力，终不能敌北；隋之平陈实肇于此役之耗，论者谓南朝之亡自侯景始，其后陈虽偏安，江南终不复梁世之盛。
 people:
 - person_name_raw: 侯景
   role: opponent

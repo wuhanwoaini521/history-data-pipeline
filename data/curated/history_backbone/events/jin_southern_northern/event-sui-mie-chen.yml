@@ -107,10 +107,70 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c4：陈书源引文：「及夜，为隋军所执。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 开皇八年正月，陈遣使来聘；乙亥，行幸定城，陈师誓众——隋以晋王广、贺若弼、韩擒虎等诸道并进伐陈。
-result_zh_cn: 丙子，贺若弼败陈师于蒋山、获其将萧摩诃；陈国平，合州三十、郡一百、县四百——南北分裂三百年的局面终结。
-process_zh_cn: 辛未，贺若弼拔陈京口，韩擒虎拔陈南豫州；陈军南北道并进之际，韩擒虎率众自新林至石子冈，任忠出降、引之经朱雀航趣宫城，自南掖门而入。
-impact_zh_cn: 及夜，陈后主为隋军所执，陈亡——隋完成统一，中国结束魏晋南北朝长期分裂，重归一统。
+- work: 陈书
+  term: 列传
+  historical_text_id: text-niutrans-aa55f042d79e9866de71
+  chapter_anchor: 列传/卷一#p87
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：陈书源引文：「当是之时，新失淮南之地，隋师临江，又国遭大丧，后主病疮，不能听政……实皆决之于后。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 列传
+  historical_text_id: text-niutrans-86a34844970926297497
+  chapter_anchor: 列传/卷六#p72
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：隋书源引文：「上尝从容命颎与贺若弼言及平陈事，颎曰：贺若弼先献十策，后于蒋山苦战破贼。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-0b5cdcf5aa0de806ff40
+  chapter_anchor: 帝纪/卷二#p26
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：隋书源引文：「丙子，贺若弼败陈师于蒋山，获其将萧摩诃。」；claim_field=process；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-b183fb733c790940ed64
+  chapter_anchor: 帝纪/卷二#p27
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：隋书源引文：「韩擒虎进师入建鄴，获其将任蛮奴，获陈主叔宝。」；claim_field=result；anchor=段落精确锚。
+- work: 陈书
+  term: 列传
+  historical_text_id: text-niutrans-9ad3da5d99101be4a29f
+  chapter_anchor: 列传/卷一#p130
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：陈书源引文：「及隋军陷台城，妃与后主俱入于井，隋军出之，晋王广命斩贵妃，榜于青溪中桥。」；claim_field=result；anchor=段落精确锚。
+background_zh_cn: 陈后主之世，「新失淮南之地，隋师临江，又国遭大丧，后主病疮，不能听政」，诛叔陵、供丧事、边境防守及百司众务皆决于皇太后——主幼国疑，江防日弛；隋将贺若弼先献取陈十策，文帝纳之，伐陈之谋遂决。
+result_zh_cn: 陈亡：「及隋军陷台城，妃与后主俱入于井，隋军出之，晋王广命斩贵妃，榜于青溪中桥」；隋尽有陈地，自永嘉之乱以来近三百年之南北分裂至此终结，天下复归一统，江表士人皆入于隋，六朝旧都遂为隋之州县。
+process_zh_cn: 开皇九年（589年）正月辛未，贺若弼拔陈京口，韩擒虎拔陈南豫州；丙子，贺若弼败陈师于蒋山，获其将萧摩诃；韩擒虎进师入建邺，获其将任蛮奴，获陈主叔宝——从韩擒虎、贺若弼两路并进，陈之江防一战而溃。
+impact_zh_cn: 隋灭陈为魏晋南北朝之终、隋唐统一之始：南北制度、学术、文学由是合流，南朝文物入于关中，此后唐宋之盛皆以大一统为前提，三百年分裂之局既合，中国历史遂入新期，其影响且及于东亚。
 people:
 - person_name_raw: 陈后主
   role: deposed_monarch

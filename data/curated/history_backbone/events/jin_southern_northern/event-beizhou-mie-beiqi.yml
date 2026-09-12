@@ -114,10 +114,70 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c4：北齐书源引文：「为周将尉迟纲所获。送邺，周武帝与抗宾主礼，并太后、幼主、诸王俱送长安，封帝温国公。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 六年春正月乙亥，齐主传位于其太子恒、改年承光，自号为太上皇——北齐临战易主，军心已摇。
-result_zh_cn: 丁未，齐主至，周武帝降自阼阶、以宾主之礼相见；齐诸行台州镇悉降，关东平。
-process_zh_cn: 周师渐逼，幼主自邺东走；己丑，周师至紫陌桥——齐主先送母妻于青州，及城陷乃率数十骑走青州。
-impact_zh_cn: 太上窘急将逊于陈，为周将尉迟纲所获，送邺——周武帝与抗宾主礼，并太后、幼主、诸王俱送长安，封帝温国公：北齐灭亡，北周统一北方。
+- work: 周书
+  term: 列传
+  historical_text_id: text-niutrans-25188e1dfab3ce31b7fd
+  chapter_anchor: 列传/卷三十一#p76
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「执其手曰：朕有晋州，为平齐之基，宜善守之。及齐平，封郕国公，位上柱国、雍州总管。」；claim_field=background；anchor=段落精确锚。
+- work: 北齐书
+  term: 后主纪
+  historical_text_id: text-niutrans-22539a7916da605e7e93
+  chapter_anchor: 本纪/卷七#p59
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：北齐书源引文：「己未，周军逼并州，又遣大将军达奚武帅众数万至东雍及晋州，与突厥相应。」；claim_field=background；anchor=段落精确锚。
+- work: 周书
+  term: 列传
+  historical_text_id: text-niutrans-d5b21b4677cee2415fb2
+  chapter_anchor: 列传/卷三十一#p70
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「后以熊州刺史从武帝拔晋州，进位大将军，除晋州刺史。」；claim_field=process；anchor=段落精确锚。
+- work: 周书
+  term: 列传
+  historical_text_id: text-niutrans-a9a484ff0fc2a61b8b5c
+  chapter_anchor: 列传/卷三十#p95
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「从高祖平齐，封赞国公，除西兖州总管。」；claim_field=result；anchor=段落精确锚。
+- work: 周书
+  term: 列传
+  historical_text_id: text-niutrans-68229e1036e0e1a43a78
+  chapter_anchor: 列传/卷三十六#p356
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「后更论晋州及平齐勋，加骠骑大将军、开府仪同三司。迁兖州刺史。」；claim_field=process；anchor=段落精确锚。
+background_zh_cn: 周武帝以晋州为平齐之基：既拔晋州，执守臣之手曰「朕有晋州，为平齐之基，宜善守之」——伐齐之策已定于晋州一城。时北齐政乱，周军逼并州，又遣大将军达奚武帅众数万至东雍及晋州，与突厥相应，南北夹击之势既成。
+result_zh_cn: 丁未，齐主至，周武帝「降自阼阶，以宾主之礼相见」——北齐后主为周所获，齐亡；周尽有齐地，北方复归一统，自东西魏分裂以来四十余年之局至此终结，诸将从平齐者皆进位受封，齐之州郡尽入于周。
+process_zh_cn: 建德六年（577年），周武帝亲总大军东讨：先拔晋州、再克并州，长驱而东，直指邺城；北齐之众望风而溃，诸将从军攻晋州者以功授使持节、车骑将军，更论晋州及平齐之勋加骠骑大将军、开府仪同三司——战功之赏皆以平齐为最。
+impact_zh_cn: 北周灭北齐使北方重归统一，为隋代周后平陈混一奠定基础；关陇之政既兼山东，府兵、均田诸制遂行于河北，隋之府兵制实由此大成，而周宣帝之后杨坚受禅建隋，齐之亡实启隋之兴，北方之统一乃南方统一之先声。
 people:
 - person_name_raw: 周武帝
   role: monarch

@@ -106,10 +106,94 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c4：周书源引文：「闰十二月，魏孝武帝崩。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 永熙三年，孝武帝为高欢所逼，车驾北迁于邺——高欢挟帝迁都，北魏中枢东移。
-result_zh_cn: 东魏部署次第完成：改相州刺史为司州牧、魏郡太守为魏尹，徙邺旧人西径百里以居新迁之人，分邺置临漳县，以魏郡等郡为皇畿。
-process_zh_cn: 魏帝在洛阳许以冯翊长公主配宇文泰，未及结纳而帝西迁——孝武帝西奔长安依宇文泰，东西对立之势成形。
-impact_zh_cn: 闰十二月，魏孝武帝崩（西魏立文帝）——北魏正式分裂为东魏（高欢）、西魏（宇文泰），此后各演为北齐、北周。
+- work: 北齐书
+  term: 神武纪
+  historical_text_id: text-niutrans-0ba046206ba530369bf3
+  chapter_anchor: 本纪/卷一#p227
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：北齐书源引文：「斛斯椿由是内不自安，乃与南阳王宝炬及武卫将军元毗、魏光、王思政构神武于魏帝。」；claim_field=background；anchor=段落精确锚。
+- work: 北齐书
+  term: 神武纪
+  historical_text_id: text-niutrans-c2cd883649588a39fc27
+  chapter_anchor: 本纪/卷一#p242
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：北齐书源引文：「于是魏帝与神武隙矣。」；claim_field=background；anchor=段落精确锚。
+- work: 北齐书
+  term: 神武纪
+  historical_text_id: text-niutrans-3f8a7a62d914f2bd8ded
+  chapter_anchor: 本纪/卷一#p212
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：北齐书源引文：「壬辰，还邺，魏帝饯于乾脯山，执手而别。」；claim_field=background；anchor=段落精确锚。
+- work: 周书
+  term: 文帝纪
+  historical_text_id: text-niutrans-8eacfbd5a431229f733e
+  chapter_anchor: 本纪/卷一#p259
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「七月丁未，帝遂从洛阳率轻骑入关，太祖备仪卫奉迎，谒见东阳驿。」；claim_field=process；anchor=段落精确锚。
+- work: 周书
+  term: 文帝纪
+  historical_text_id: text-niutrans-3d668c0dd86d8239bb59
+  chapter_anchor: 本纪/卷一#p278
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「闰十二月，魏孝武帝崩。」；claim_field=result；anchor=段落精确锚。
+- work: 魏书
+  term: 列传
+  historical_text_id: text-niutrans-6c5a398f9d6c7b62f55d
+  chapter_anchor: 列传/卷一#p432
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：魏书源引文：「孝静皇后高氏，齐献武王之第二女也。」；claim_field=result；anchor=段落精确锚。东魏之政出高氏之证
+- work: 周书
+  term: 列传
+  historical_text_id: text-niutrans-6bfd3ab32d41467cc3ed
+  chapter_anchor: 列传/卷三十#p27
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D3：周书源引文：「时帝与齐神武构隙，以炽有威重，堪处爪牙之任……遂从帝西迁。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 魏末君臣相疑：斛斯椿等与南阳王宝炬、武卫将军元毗、王思政「构神武于魏帝」，魏帝由是心贰于贺拔岳；高乾密启神武言魏帝之贰而神武封呈于帝，魏帝遂杀乾，又遣使密敕长乐太守庞苍鹰令杀其弟昂——「于是魏帝与神武隙矣」。永熙三年，魏帝还邺，神武饯于乾脯山，执手而别，实已决裂。
+result_zh_cn: 是岁闰十二月，魏孝武帝崩于长安；魏室于是西东并立，宇文泰、高欢各挟一帝，北魏之名虽存而实亡。此后西魏文帝、东魏孝静帝并立于长安、邺城，孝静皇后高氏为齐献武王第二女，东魏之政尽出高氏，东西相攻无岁不有，至周、齐受禅而终成两国。
+process_zh_cn: 永熙三年七月丁未，魏孝武帝「遂从洛阳率轻骑入关」，宇文泰（太祖）备仪卫奉迎，谒见东阳驿——帝西迁长安、依关陇以自固；初，魏帝在洛阳许以冯翊长公主配太祖，未及结纳而帝西迁。高氏则以婚姻缔结魏室：孝静皇后高氏为齐献武王第二女，孝静帝妹又适高氏——东魏之政实出高欢。
+impact_zh_cn: 北魏分裂为北齐、北周之所自出：宇文泰所统之关陇集团与高欢所统之山东豪族自此分途，府兵制、六官制皆立于西魏北周，隋唐皇室与制度皆出关陇一系——北魏分裂实为北朝后期政治之枢纽，亦隋唐统一之远源。
 people:
 - person_name_raw: 高欢
   role: opponent
