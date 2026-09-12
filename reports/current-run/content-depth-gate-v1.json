@@ -2504,52 +2504,67 @@
   "event_id": "event-beijing-baoweizhan",
   "name": "北京保卫战",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 12,
+  "missing": []
  },
  {
   "event_id": "event-chongzhen-jiwei",
   "name": "崇祯帝即位、清除魏忠贤集团",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "ADEQUATE",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 8,
+  "missing": []
  },
  {
   "event_id": "event-daliyi",
   "name": "大礼议（嘉靖即位与礼制之争）",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 1,
+  "evidence_count": 10,
+  "missing": []
  },
  {
   "event_id": "event-dingyou-zailuan",
@@ -2572,69 +2587,89 @@
   "event_id": "event-donglin-dangzheng",
   "name": "东林党争",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 10,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 8,
+  "missing": []
  },
  {
   "event_id": "event-dongnan-wokou",
   "name": "东南沿海倭患",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 1,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-duomen-zhibian",
   "name": "夺门之变、英宗复位",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 1,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-houjin-jianguo",
   "name": "后金建立（努尔哈赤称汗）",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 10,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 3,
+  "evidence_count": 8,
+  "missing": []
  },
  {
   "event_id": "event-jianwen-jiwei",
@@ -2662,18 +2697,23 @@
   "event_id": "event-jianwen-xuefan",
   "name": "建文帝削藩",
   "period": "period-ming",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "ADEQUATE",
+   "process": "STRONG",
+   "result": "ADEQUATE",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 3,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-jingnan-qibing",
