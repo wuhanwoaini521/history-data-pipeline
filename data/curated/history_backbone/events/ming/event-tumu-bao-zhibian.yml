@@ -31,6 +31,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 瓦剌随即兵临北京。
+- target_event_id: event-duomen-zhibian
+  relation_type: causes
+  description_zh_cn: 英宗北狩还而幽居南宫，遂启夺门之变
 evidence:
 - work: 明史
   term: 英宗纪
@@ -114,10 +117,94 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c5：明史源引文：「九月癸未，王即皇帝位，遥尊皇帝为太上皇帝，以明年为景泰元年。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 甲戌，敕边将备瓦剌也先；秋七月己丑，也先寇大同、参将吴浩战死，英宗下诏亲征。
-result_zh_cn: 张辅、陈瀛、邝野、曹鼐等从征文武皆死，帝北狩——明军精锐尽丧于土木堡。
-process_zh_cn: 辛酉，次土木，被围。
-impact_zh_cn: 皇太后命郕王监国；九月癸未，郕王即位、遥尊帝为太上皇帝，以明年为景泰元年——土木之变使明廷中枢更替、国防转入守势。
+- work: 明史
+  term: 宦官传
+  historical_text_id: text-niutrans-b67babba504f6b0d13b4
+  chapter_anchor: 列传/卷一百九十二#p112
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「十四年，其太师也先贡马，振减其直，使者恚而去。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 宦官传
+  historical_text_id: text-niutrans-5e396c8b69cc5d382d0e
+  chapter_anchor: 列传/卷一百九十二#p123
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「军士纡回奔走，壬戌始次土木。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 宦官传
+  historical_text_id: text-niutrans-e5dfcd629ee435a7dcff
+  chapter_anchor: 列传/卷一百九十二#p125
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「帝蒙尘，振乃为乱兵所杀。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 宦官传
+  historical_text_id: text-niutrans-8066d3b60bd2e2fbcc7d
+  chapter_anchor: 列传/卷一百九十二#p126
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「败报闻，百官恸哭，都御史陈镒等廷奏振罪，给事中王竑等立击杀马顺及毛、王二中官。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 宦官传
+  historical_text_id: text-niutrans-a6d67526bafe93264bef
+  chapter_anchor: 列传/卷一百九十二#p128
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「振擅权七年，籍其家，得金银六十余库，玉盘百，珊瑚高六七尺者二十余株，他珍玩无算。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 于谦传
+  historical_text_id: text-niutrans-985211e7456ae544a5a7
+  chapter_anchor: 列传/卷五十八#p47
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「及驾陷土木，京师大震，众莫知所为。」；claim_field=impact；anchor=段落精确锚。
+- work: 明史
+  term: 于谦传
+  historical_text_id: text-niutrans-5b6401cef831f1bc05ff
+  chapter_anchor: 列传/卷五十八#p50
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：明史源引文：「谦厉声曰：言南迁者，可斩也。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 正统十四年，瓦剌也先贡马，王振减其直，使者恚而去；秋七月，也先大举入寇，王振挟帝亲征。成国公朱勇等白事咸膝行进，尚书邝埜、王佐忤振意罚跪草中，其党钦天监正彭德清以天象谏，振终弗从——军政尽出于宦寺，败征已见。
+result_zh_cn: 败报闻，百官恸哭，都御史陈镒等廷奏振罪，给事中王竑等立击杀马顺及毛、王二中官；郕王命脔王山于市，并振党诛之，振族无少长皆斩；籍振家，得金银六十余库、玉盘百、珊瑚高六七尺者二十余株——土木之败使明廷精锐尽丧、英宗北狩。
+process_zh_cn: 八月己酉，帝驻大同，振益欲北；镇守太监郭敬以敌势告，振始惧，乃班师。振初议道紫荆关、由蔚州邀帝幸其第，既恐蹂乡稼，复改道宣府——「军士纡回奔走，壬戌始次土木」；瓦剌兵追至，师大溃，帝蒙尘，振乃为乱兵所杀。
+impact_zh_cn: 土木之变后明廷战守之局转为京师防御，于谦等立郕王而固守，明祚获安；然英宗北狩一年而还、南宫幽居，遂启八年后夺门之变，明廷自此由开国进取转为内敛守成，宦官之祸亦由此为朝野所切齿，边患与内争相寻。
 people:
 - person_name_raw: 明英宗
   role: monarch

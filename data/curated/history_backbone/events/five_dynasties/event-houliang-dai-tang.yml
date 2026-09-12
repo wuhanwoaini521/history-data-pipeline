@@ -26,6 +26,9 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 后梁立足中原十七年，为后唐所灭
+- target_event_id: event-huangchao-qiyi
+  relation_type: follows
+  description_zh_cn: 黄巢之乱后藩镇坐大，朱全忠遂移唐祚
 evidence:
 - work: 旧五代史
   term: 梁太祖纪
@@ -99,10 +102,106 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c4：旧五代史源引文：「帝置传国宝于卧内，俄失其所在，已为左右所窃迎唐帝矣。」；claim_field=impact；anchor=段落精确锚。后梁旋为后唐所代，五代易代循环之证
-background_zh_cn: 太祖将期受禅，以赵匡凝兄弟并据藩镇，乃遣使先谕旨焉——朱温先收藩镇异己，为受禅铺路。
-result_zh_cn: 后梁既立，礼制次第兴举：开平四年正月，帝御朝元殿受百官称贺，始用礼乐——新朝规模粗定。
-process_zh_cn: 天祐四年，天子以土运将革、天命有归，四月命张文蔚与杨涉等总率百僚，奉禅位诏至大梁。
-impact_zh_cn: 唐祚既终，五代易代循环由此开启（末帝之世传国宝已为左右所窃以迎唐帝）——中原政权更迭加速，武人政治主导北方。
+- work: 旧唐书
+  term: 哀帝纪
+  historical_text_id: text-niutrans-715c152a2c2a0db0c010
+  chapter_anchor: 本纪/卷二十#p45
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：旧唐书源引文：「宗权既平，而硃全忠连兵十万，吞噬河南，兗、郓、青、徐之间，血战不解，唐祚以至于亡。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 哀帝纪
+  historical_text_id: text-niutrans-bf4a50f24feb72d86f0f
+  chapter_anchor: 本纪/卷二十#p48
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：旧唐书源引文：「四月壬戌朔，以宣武淮南等节度副大使……硃全忠为检校太尉、中书令，进封东平王，仍赐赏军钱十万贯。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 后梁纪一
+  historical_text_id: text-niutrans-328644bb1f979b0cd818
+  chapter_anchor: 后梁纪/后梁纪一#p27
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：资治通鉴源引文：「恐中外因此离心，欲速受禅以镇之。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 后梁纪一
+  historical_text_id: text-niutrans-c75e7ea41e029e21dbc5
+  chapter_anchor: 后梁纪/后梁纪一#p35
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：资治通鉴源引文：「帝乃下诏，以二月禅位于梁，又遣宰相以书谕王；王辞。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 后梁纪一
+  historical_text_id: text-niutrans-3a64d3cfcbd8e96ae248
+  chapter_anchor: 后梁纪/后梁纪一#p44
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：资治通鉴源引文：「甲辰，唐昭宣帝降御札禅位于梁。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 后梁纪一
+  historical_text_id: text-niutrans-1a388d5c1628bca6be81
+  chapter_anchor: 后梁纪/后梁纪一#p68
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：资治通鉴源引文：「庚戌，梁王始御金祥殿，受百官称臣，下书称教令，自称曰寡人。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 后梁纪一
+  historical_text_id: text-niutrans-99c6c2319135edc7deb8
+  chapter_anchor: 后梁纪/后梁纪一#p76
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：资治通鉴源引文：「壬戌，梁王更名晃。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 哀帝纪
+  historical_text_id: text-niutrans-07869a47436206f209bb
+  chapter_anchor: 本纪/卷二十#p82
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：旧唐书源引文：「三月丁亥朔，硃全忠上表：关东籓镇，请除用朝廷名德为节度观察使。」；claim_field=background；anchor=段落精确锚。
+background_zh_cn: 黄巢乱后，朱全忠以宣武节度使起于汴：既平秦宗权，而「朱全忠连兵十万，吞噬河南，兖、郓、青、徐之间，血战不解」——唐祚之危已系于汴帅。全忠进位守中书令、进封东平王，又上表请以关东藩镇除用朝廷名德为节度观察使，朝政之权浸移于外。
+result_zh_cn: 甲辰，唐昭宣帝降御札禅位于梁；庚戌，梁王始御金祥殿，受百官称臣，下书称教令，自称曰寡人；壬戌，梁王更名晃——唐祚三百年前后而终，后梁受禅而立，中国进入五代之世，中原五朝迭兴之局自此始。
+process_zh_cn: 天祐四年正月，梁王休兵于贝州，以潞州内叛、威望大沮，「恐中外因此离心，欲速受禅以镇之」；宰相薛贻矩还言于帝曰「元帅有受禅之意矣」。唐大臣共奏请昭宣帝逊位，帝乃下诏以二月禅位于梁，又诏礼部尚书苏循赍百官诣大梁。
+impact_zh_cn: 唐之亡使中原五朝迭兴、十国割据，直至宋初方复一统；朱全忠以藩镇之兵移唐祚，旧唐书史臣论曰「朱全忠连兵十万，吞噬河南……唐祚以至于亡」，为兵权下移则国祚随之之实例，五代武人政治之弊亦自此始。
 people:
 - person_name_raw: 朱温
   role: monarch

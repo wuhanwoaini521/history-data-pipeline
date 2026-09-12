@@ -28,6 +28,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 康王赵构南渡即位，建立南宋。
+- target_event_id: event-jianyan-nandu
+  relation_type: leads_to
+  description_zh_cn: 二帝北狩后康王南渡，南宋立于江左
 evidence:
 - work: 宋史
   term: 钦宗纪
@@ -111,10 +114,94 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c3：宋史源引文：「三月辛卯朔，帝在青城。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 乙未，金人入青城、攻朝阳门；括借金银、籍倡优家财以充犒军——汴京在围城与索金中耗尽。
-result_zh_cn: 丁卯，金人要上皇如青城；次年三月，帝在青城——徽钦二帝相继被胁入金营。
-process_zh_cn: 秦元领保甲斩关遁，京城陷；金人以括金未足，杀户部尚书梅执礼、侍郎陈知质等。
-impact_zh_cn: 二帝北狩、京城倾覆——北宋灭亡；五月庚寅朔，康王赵构登坛受命、即位于应天府，宋室南渡（改元建炎）。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-072844fac74246283a35
+  chapter_anchor: 列传/卷一百一十七#p176
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「谓中国之御四裔，能守而后可战，能战而后和，而靖康之末皆失之。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-9fbb8a153d1a1213db36
+  chapter_anchor: 本纪/卷二十三#p346
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「乙未，金人入青城，攻朝阳门。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-e1ba20d1c11c20c4a36a
+  chapter_anchor: 本纪/卷二十三#p388
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「辛酉，帝如青城。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-3a9a3bf347011d21a3b9
+  chapter_anchor: 本纪/卷二十三#p422
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「辛未，金人逼上皇召皇后、皇太子入青城。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-e705940f4ef7339233a9
+  chapter_anchor: 列传/卷一百八十七#p41
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「昨者城下之战，诡诈百出，二帝北狩，皇族播迁，宗社之危，已绝而续。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-b9e3fa2d7cd4085b997e
+  chapter_anchor: 列传/卷一百九十五#p14
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「国家二百年太平之基，三代之所无也；二圣北狩之痛，汉、唐之所未有也。」；claim_field=impact；anchor=段落精确锚。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-0d676959fc7abb16d02f
+  chapter_anchor: 列传/卷一百九十五#p128
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「其一曰：二圣北狩之痛，盖国家之大耻，而天下之公愤也。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 宋廷和战不决：金人两至都城，「中国之御四裔，能守而后可战，能战而后可和，而靖康之末皆失之」；靖康元年，金人入青城、攻朝阳门，京城危急，钦宗下诏亲征，而大臣议论纷然，战守之策莫衷一是。
+result_zh_cn: 二帝北狩、皇族播迁：宋臣追论之曰「昨者城下之战，诡诈百出，二帝北狩，皇族播迁，宗社之危，已绝而续」；北宋百七十年而亡，康王构即位于南京，是为南宋，中兴之局始于危亡之际，中原遗民之望遂系江左。
+process_zh_cn: 靖康元年闰十一月，「秦元领保甲斩关遁，京城陷」；金人邀上皇出郊，戊午钦宗如青城，帝在青城。二年二月丁卯，金人要上皇如青城；辛未，金人逼上皇召皇后、皇太子入青城——二帝及后妃皇族尽为金人所执。
+impact_zh_cn: 靖康之变为中国历史之巨创：「国家二百年太平之基……二圣北狩之痛，汉、唐之所未有也」，中原沦于金，宋室南渡，南北对峙历百五十年；士人复仇之论与理学之兴起皆与此痛相关，南宋一朝之政治与文教皆以此为底色。
 people:
 - person_name_raw: 宋钦宗
   role: deposed_monarch

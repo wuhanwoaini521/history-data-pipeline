@@ -1408,19 +1408,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "WEAK",
-   "result": "ADEQUATE",
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 11,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 2,
-  "evidence_count": 6,
+  "relation_count": 3,
+  "evidence_count": 14,
   "missing": []
  },
  {
@@ -3428,19 +3428,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "WEAK",
-   "process": "WEAK",
+   "background": "ADEQUATE",
+   "process": "STRONG",
    "result": "ADEQUATE",
-   "impact": "WEAK"
+   "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 5,
-  "depth_status": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 2,
-  "evidence_count": 8,
+  "relation_count": 4,
+  "evidence_count": 13,
   "missing": []
  },
  {
@@ -3450,19 +3450,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "WEAK",
-   "process": "WEAK",
-   "result": "WEAK",
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 5,
-  "depth_status": "ADEQUATE",
+  "points": 11,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 3,
-  "evidence_count": 7,
+  "relation_count": 4,
+  "evidence_count": 14,
   "missing": []
  },
  {
@@ -8554,19 +8554,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
+   "background": "STRONG",
    "process": "ADEQUATE",
-   "result": "WEAK",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 7,
-  "depth_status": "ADEQUATE",
+  "points": 10,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 2,
-  "evidence_count": 7,
+  "relation_count": 3,
+  "evidence_count": 11,
   "missing": []
  },
  {
@@ -8598,19 +8598,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "WEAK",
-   "result": "WEAK",
-   "impact": "ADEQUATE"
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 6,
-  "depth_status": "ADEQUATE",
+  "points": 12,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
-  "relation_count": 2,
-  "evidence_count": 7,
+  "relation_count": 3,
+  "evidence_count": 14,
   "missing": []
  },
  {
@@ -8620,19 +8620,19 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
-   "process": "WEAK",
-   "result": "WEAK",
-   "impact": "ADEQUATE"
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 6,
-  "depth_status": "ADEQUATE",
+  "points": 12,
+  "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
   "relation_count": 2,
-  "evidence_count": 7,
+  "evidence_count": 13,
   "missing": []
  },
  {

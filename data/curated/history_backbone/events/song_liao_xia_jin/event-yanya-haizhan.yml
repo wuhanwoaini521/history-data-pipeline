@@ -113,10 +113,82 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c3：宋史源引文：「己未，昺徙居崖山，升广州为翔龙府。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 庚午，众又立卫王昺为主，以陆秀夫为左丞相；五月改元祥兴，帝昺徙居崖山——宋室最后据点定于海岛。
-result_zh_cn: 广王昺偕其官属俱赴海死，元军获其金宝以献——南宋行朝覆灭。
-process_zh_cn: 十六年正月壬戌，张弘范兵至崖山；张世杰来拒战，败之，世杰遁去。
-impact_zh_cn: 崖山既没，陆秀夫负帝蹈海、张世杰舟覆而亡——南宋彻底灭亡，元朝完成全国统一，中国首次全境为北方民族王朝所统。
+- work: 宋史
+  term: 本纪
+  historical_text_id: text-niutrans-ece427e67b5cba9de965
+  chapter_anchor: 本纪/卷四十七#p612
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「己未，昺徙居崖山，升广州为翔龙府。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 忠义传
+  historical_text_id: text-niutrans-5459278a948791b57ad3
+  chapter_anchor: 列传/卷二百一十#p66
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「世杰以碙洲不可居，徙王新会之崖山。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 忠义传
+  historical_text_id: text-niutrans-03b009e77e502b03954e
+  chapter_anchor: 列传/卷二百一十#p70
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「明年，元帅张弘范等兵至崖山，或谓世杰曰：北兵以舟师塞海口，则我不能进退，盍先据海口。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 忠义传
+  historical_text_id: text-niutrans-afe482e8b7bc526548ff
+  chapter_anchor: 列传/卷二百一十#p75
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「弘范得世杰甥韩，命以官，使三至招之，世杰历数古忠臣曰：吾知降，生且富贵，但为主死不移耳。二月癸未，弘范等攻崖山，世杰败，走卫王舟。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 忠义传
+  historical_text_id: text-niutrans-4d030cf8c8015e2f6da1
+  chapter_anchor: 列传/卷二百一十#p102
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「至元十六年二月，崖山破，秀夫走卫王舟，而世杰、刘义各断维去，秀夫度不可脱，乃杖剑驱妻子入海，即负王赴海死，年四十四。」；claim_field=result；anchor=段落精确锚。
+- work: 元史
+  term: 列传
+  historical_text_id: text-niutrans-cd6217ec170b856c9e8d
+  chapter_anchor: 列传/卷三十九#p91
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：元史源引文：「十六年，从攻崖山，弘范命渊领后翼军，水战有功。」；claim_field=result；anchor=段落精确锚。
+background_zh_cn: 宋主纳土降元之后，宋臣拥二王南走：至元十五年四月，「昺徙居崖山，升广州为翔龙府」；世杰以碙洲不可居，徙王新会之崖山，结大舶千余艘作水寨据险以守——张弘范、李恒奉命征崖山，南北最后之战遂起于海。
+result_zh_cn: 崖山破，陆秀夫走卫王舟，「度不可脱，乃杖剑驱妻子入海，即负王赴海死，年四十四」；世杰、刘义各断维去，宋之宗社遂绝——元一统南北，宋三百二十年而亡，中国历史上第一次由北方民族完成南北一统。
+process_zh_cn: 十六年正月壬戌，张弘范兵至崖山；或谓世杰曰「北兵以舟师塞海口，则我不能进退，盍先据海口」，世杰不听。二月癸未，弘范等攻崖山，世杰败，走卫王舟；弘范得世杰之甥韩，命以官，使三至招之，世杰历数古忠臣曰「吾知降，生且富贵，但为主死不移耳」。
+impact_zh_cn: 崖山海战为宋亡之终局，亦为元大一统之标志：海上之役见宋末舟师之盛与水战规模之空前，此后明之复国与士人「崖山之后」之痛皆系于此；有元一代之南北一统与中外交通之盛均以此为始，东亚之政治格局为之一变。
 people:
 - person_name_raw: 陆秀夫
   role: supporter

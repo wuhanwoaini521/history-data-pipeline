@@ -27,6 +27,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 北宋建国后随即开始统一战争。
+- target_event_id: event-houliang-dai-tang
+  relation_type: follows
+  description_zh_cn: 五代武人拥立之局，至陈桥而终，宋室代周
 evidence:
 - work: 宋史
   term: 太祖纪
@@ -110,10 +113,58 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c3：宋史源引文：「建隆元年春正月乙巳，大赦，改元，定有天下之号曰宋。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 大军次陈桥驿，军中知星者苗训引门吏视「日下复有一日，黑光摩荡者久之」——兵变前夜的天象造势。
-result_zh_cn: 翰林承旨陶谷出周恭帝禅位制书于袖中，宣徽使引太祖就庭北面拜受，乃掖太祖升崇元殿、服衮冕，即皇帝位。
-process_zh_cn: 诸校露刃列于庭，曰「诸军无主，愿策太尉为天子」；未及对，有以黄衣加太祖身，众皆罗拜、呼万岁，即掖太祖乘马。
-impact_zh_cn: 建隆元年春正月乙巳，大赦、改元，「定有天下之号曰宋」——兵不血刃而周宋易代，五代武人拥立之局以宋朝建立收束。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-9757352faa000078d4b1
+  chapter_anchor: 列传/卷八#p31
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「及太祖北征，为六师推戴，自陈桥还府署。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-d77239ac01d51edaffc5
+  chapter_anchor: 本纪/卷一#p58
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「次陈桥驿，军中知星者苗训引门吏楚昭辅视日下复有一日，黑光摩荡者久之。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 后妃传
+  historical_text_id: text-niutrans-af4359b47829b0798d2b
+  chapter_anchor: 列传/卷一#p8
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「及太祖自陈桥还京师，人走报太后曰：点检已作天子。太后曰：吾儿素有大志，今果然。太祖即位，尊为皇太后。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 列传
+  historical_text_id: text-niutrans-c8512bdf82586f326f99
+  chapter_anchor: 列传/卷九#p27
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D4：宋史源引文：「世宗召禁军诸校宴射苑中，审琦连中的，世宗嘉之，赏赍有加。」；claim_field=background；anchor=段落精确锚。
+background_zh_cn: 后周世宗崩，恭帝幼冲，禁军诸校为朝局轻重：世宗尝召禁军诸校宴射苑中，赏赍有加，禁军之柄已为改朝换代之枢。太祖赵匡胤以北征为名率师出京师——「及太祖北征，为六师推戴，自陈桥还府署」，兵变之机已伏。
+result_zh_cn: 太祖即位，尊符太后为皇太后：「及太祖自陈桥还京师，人走报太后曰：点检已作天子。太后曰：吾儿素有大志，今果然」；后周恭帝逊位，宋受禅而立，改元建隆，五代之局自此收束，宋室三百年基业肇焉。
+process_zh_cn: 大军次陈桥驿，「军中知星者苗训引门吏楚昭辅视日下复有一日，黑光摩荡者久之」——天象之说以动众心；诸校露刃列于庭曰「诸军无主，愿策太尉为天子」，将士拥立，太祖乃还师入京，秋毫无犯。
+impact_zh_cn: 陈桥兵变以兵不血刃而成禅代，宋室惩五代武人拥立之弊，遂收兵权、重文治，强干弱枝之策行于一代；宋代文官政治与「与士大夫共治」之局皆肇于此，而其重文抑武之偏亦伏后来边患之因。
 people:
 - person_name_raw: 赵匡胤
   role: monarch
