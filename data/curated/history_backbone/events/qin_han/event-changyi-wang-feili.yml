@@ -23,3 +23,94 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 霍氏权势顶峰后于宣帝时期被诛灭
+background_zh_cn: 昭帝崩，亡子，「昌邑王贺嗣立，官属皆征入」。
+process_zh_cn: 昌邑王即位后狂乱失道：「后昭帝崩，无子，征昌邑王贺嗣位，狂乱失道，光废之，更立昭帝兄卫太子之孙，是为宣帝」。
+result_zh_cn: 光卒与安世白太后，废昌邑王、尊立宣帝——二十余日而废立皆决于辅臣。
+impact_zh_cn: 废立之举开霍光专擅之极：「帝崩，昌邑王即位，废，大将军光、车骑将军张安世与大臣议所立」——汉家皇统由辅臣议定，宣帝一朝隐忍而后清算霍氏。
+people:
+- person_name_raw: 霍光
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 大将军：废昌邑王、立宣帝
+  review_note: major01-E：汉书「光废之，更立……是为宣帝」
+  person_id: null
+- person_name_raw: 昌邑王
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 刘贺：即位旋废
+  review_note: major01-E：汉书·杜周传「昌邑王即位，废」
+  person_id: null
+- person_name_raw: 汉宣帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 卫太子之孙：霍光等所立
+  review_note: major01-E：汉书「更立昭帝兄卫太子之孙，是为宣帝」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 废立之议与行事所在（汉廷）
+  review_note: major01-E：汉书·霍光传（白太后废昌邑王、议所立）
+evidence:
+- work: 汉书
+  term: 循吏传
+  historical_text_id: text-niutrans-fa714921f81541634e76
+  chapter_anchor: 传/循吏传#p159
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「会昭帝崩，亡子，昌邑王贺嗣立，官属皆征入。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 五行志中之下
+  historical_text_id: text-niutrans-ab9536c14f6a579b0f8b
+  chapter_anchor: 志/五行志中之下#p96
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「后昭帝崩，无子，征昌邑王贺嗣位，狂乱失道，光废之，更立昭帝兄卫太子之孙，是为宣帝。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 眭两夏侯京翼李传
+  historical_text_id: text-niutrans-ff86ea494916ee8c3e4f
+  chapter_anchor: 传/眭两夏侯京翼李传#p38
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「后十余日，光卒与安世白太后，废昌邑王，尊立宣帝。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 杜周传
+  historical_text_id: text-niutrans-df9bc6a6fea16bb898c6
+  chapter_anchor: 传/杜周传#p53
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「帝崩，昌邑王即位，废，大将军光、车骑将军张安世与大臣议所立。」；claim_field=impact；anchor=段落精确锚。
+- work: 汉书
+  term: 眭两夏侯京翼李传
+  historical_text_id: text-niutrans-ff86ea494916ee8c3e4f
+  chapter_anchor: 传/眭两夏侯京翼李传#p38
+  claim_field: places
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：废立于汉廷（长安）；anchor=段落精确锚。

@@ -19,3 +19,77 @@ source_ids:
 relations:
 - target_event_id: event-changyi-wang-feili
   relation_type: follows
+
+background_zh_cn: 霍光既薨，宣帝「更以禹为大司马，冠小冠，亡印绶，罢其右将军屯兵官属」——渐收霍氏兵权。
+process_zh_cn: 霍氏不自安而谋变：「谋令太后为博平君置酒，召丞相、平恩侯以下，使范明友、邓广汉承太后制引斩之，因废天子而立禹」。
+result_zh_cn: 谋泄事败：「霍氏伏诛」，杨恽等五人皆封——霍氏集团覆灭。
+impact_zh_cn: 「上始亲政事……令群臣得奏封事，以知下情」——宣帝亲政、广开言路，昭宣中兴之政自此真正展开。
+people:
+- person_name_raw: 霍禹
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 霍光之子：谋废天子而立己，败诛
+  review_note: major01-E：汉书·霍光传「因废天子而立禹」
+  person_id: null
+- person_name_raw: 汉宣帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 收霍氏权、始亲政事
+  review_note: major01-E：汉书·宣帝纪「上始亲政事」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 霍氏谋变与伏诛之地
+  review_note: major01-E：汉书·霍光传（谋废天子而立禹）
+evidence:
+- work: 汉书
+  term: 霍光金日磾传
+  historical_text_id: text-niutrans-1cd36fc9dc786ec78f08
+  chapter_anchor: 传/霍光金日磾传#p227
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「更以禹为大司马，冠小冠，亡印绶，罢其右将军屯兵官属。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 霍光金日磾传
+  historical_text_id: text-niutrans-27c80d20d877197937db
+  chapter_anchor: 传/霍光金日磾传#p275
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「谋令太后为博平君置酒……因废天子而立禹。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 公孙刘田王杨蔡陈郑传
+  historical_text_id: text-niutrans-827961ef0378507ae613
+  chapter_anchor: 传/公孙刘田王杨蔡陈郑传#p153
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「霍氏伏诛，惲等五人皆封。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 宣帝纪
+  historical_text_id: text-niutrans-916321204ec47df8cfbd
+  chapter_anchor: 纪/宣帝纪#p98
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「上始亲政事，又思报大将军功德……令群臣得奏封事，以知下情。」；claim_field=impact；anchor=段落精确锚。

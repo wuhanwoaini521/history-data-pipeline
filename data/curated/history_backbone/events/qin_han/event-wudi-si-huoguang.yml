@@ -23,3 +23,77 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 霍光辅政延续至昭帝崩后的废立
+
+background_zh_cn: 后岁余，武帝疾，立皇子钩弋夫人男为太子——储位既定，托孤之臣待命。
+process_zh_cn: 上以光为大司马大将军，日磾为车骑将军，及太仆上官桀为左将军，搜粟都尉桑弘羊为御史大夫，皆拜卧内床下，受遗诏辅少主。
+result_zh_cn: 遗诏既定：拜大将军霍光、车骑将军金日磾、御史大夫桑弘羊及丞相千秋，「并受遗诏，辅道少主」。
+impact_zh_cn: 霍光以大司马大将军辅政，昭宣之世由此开启——「党亲连体，根据于朝廷」，霍氏专权之局也随之而生。
+people:
+- person_name_raw: 霍光
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 大司马大将军：受遗诏辅少主
+  review_note: major01-E：汉书·霍光金日磾传「上以光为大司马大将军」
+  person_id: null
+- person_name_raw: 金日磾
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 车骑将军：同受遗诏
+  review_note: major01-E：汉书·霍光金日磾传「日磾为车骑将军」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 卧内受遗诏之地
+  review_note: major01-E：汉书·霍光金日磾传「皆拜卧内床下」
+evidence:
+- work: 汉书
+  term: 公孙刘田王杨蔡陈郑传
+  historical_text_id: text-niutrans-b5a93a9dd8dfe392acda
+  chapter_anchor: 传/公孙刘田王杨蔡陈郑传#p104
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「后岁余，武帝疾，立皇子钩弋夫人男为太子，拜大将军霍光……并受遗诏，辅道少主。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 霍光金日磾传
+  historical_text_id: text-niutrans-ad7ff49eca691db2c547
+  chapter_anchor: 传/霍光金日磾传#p21
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「上以光为大司马大将军，日磾为车骑将军……皆拜卧内床下，受遗诏辅少主。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 霍光金日磾传
+  historical_text_id: text-niutrans-f7b2b48afef75b693441
+  chapter_anchor: 传/霍光金日磾传#p188
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「光薨，上及皇太后亲临光丧。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 霍光金日磾传
+  historical_text_id: text-niutrans-a1683f737551bd925a79
+  chapter_anchor: 传/霍光金日磾传#p202
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「禹既嗣为博陆侯，太夫人显改光时所自造茔制而侈大之。」；claim_field=impact；anchor=段落精确锚。

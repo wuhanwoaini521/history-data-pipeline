@@ -20,3 +20,77 @@ relations:
 - target_event_id: event-huo-shi-fumie
   relation_type: follows
   description_zh_cn: 昭宣时期西域经营成果
+
+background_zh_cn: 自敦煌西至盐泽往往起亭，「而轮台、渠犁皆有田卒数百人，置使者校尉领护，以给使外国者」——西域经营既有基础。
+process_zh_cn: 郑吉「既破车师，降日逐，威震西域，遂并护车师以西北道，故号都护」——都护之号自此始。
+result_zh_cn: 都护治所立，西域诸国皆属汉护——「都护郑吉使冯夫人说乌就屠」，汉使号令行于西域。
+impact_zh_cn: 西域都护之置为汉经营西域的制度化标志：护南北两道、统诸国，丝绸之路的政治保障自此确立。
+people:
+- person_name_raw: 郑吉
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 首任西域都护：破车师、降日逐
+  review_note: major01-E：汉书·傅常郑甘陈段传「故号都护」
+  person_id: null
+places:
+- place_name_raw: 西域
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 都护所护之地
+  review_note: major01-E：汉书·傅常郑甘陈段传「威震西域」
+- place_name_raw: 车师
+  role: region
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 郑吉所破之国（并护其以西北道）
+  review_note: major01-E：汉书·傅常郑甘陈段传「并护车师以西北道」
+evidence:
+- work: 汉书
+  term: 西域传上
+  historical_text_id: text-niutrans-77c4b89f9cc7489edfff
+  chapter_anchor: 传/西域传上#p18
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「而轮台、渠犁皆有田卒数百人，置使者校尉领护，以给使外国者。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 傅常郑甘陈段传
+  historical_text_id: text-niutrans-ffffec645e1ce94fdb80
+  chapter_anchor: 传/傅常郑甘陈段传#p62
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「吉既破车师，降日逐，威震西域，遂并护车师以西北道，故号都护。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-eba12b0abc4eaeb2b698
+  chapter_anchor: 传/西域传下#p94
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「都护郑吉使冯夫人说乌就屠，以汉兵方出，必见灭，不如降。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-326d720ef66a1334483d
+  chapter_anchor: 传/西域传下#p110
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「后段会宗为都护，招还亡畔，安定之。」；claim_field=impact；anchor=段落精确锚。

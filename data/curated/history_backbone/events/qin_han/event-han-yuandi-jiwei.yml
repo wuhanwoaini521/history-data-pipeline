@@ -20,3 +20,71 @@ relations:
 - target_event_id: event-xiyu-duhu
   relation_type: follows
   description_zh_cn: 西汉转入中后期
+
+background_zh_cn: 「孝元皇帝，宣帝太子也」；宣帝尝「有意欲用淮阳王代太子，然以少依许氏，俱从微起，故终不背焉」——储位几易而终定。
+process_zh_cn: 黄龙元年十二月，宣帝崩；癸巳，太子即皇帝位，谒高庙。
+result_zh_cn: 元帝即位，尊皇太后、立皇后——昭宣之政向元成之世过渡。
+impact_zh_cn: 元帝之立为许氏外戚与儒臣政治之渐：柔仁好儒之君临朝，汉政自此转向儒术与权臣交争之局。
+people:
+- person_name_raw: 汉元帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 宣帝太子：即皇帝位
+  review_note: major01-E：汉书·元帝纪「太子即皇帝位，谒高庙」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 即位与谒高庙所在
+  review_note: major01-E：汉书·元帝纪（即位谒高庙）
+evidence:
+- work: 汉书
+  term: 元帝纪
+  historical_text_id: text-niutrans-245cc337d17b7731edbc
+  chapter_anchor: 纪/元帝纪#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「孝元皇帝，宣帝太子也。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 元帝纪
+  historical_text_id: text-niutrans-1542e9604643599d7e25
+  chapter_anchor: 纪/元帝纪#p12
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「上有意欲用淮阳王代太子，然以少依许氏，俱从微起，故终不背焉。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 元帝纪
+  historical_text_id: text-niutrans-83cd9fc5cb5bf2755bdf
+  chapter_anchor: 纪/元帝纪#p14
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「癸巳，太子即皇帝位，谒高庙。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 元帝纪
+  historical_text_id: text-niutrans-8a2971d838916f564bcd
+  chapter_anchor: 纪/元帝纪#p53
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「夏四月丁巳，立皇太子。」；claim_field=impact；anchor=段落精确锚。

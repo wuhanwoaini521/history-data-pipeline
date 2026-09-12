@@ -23,3 +23,77 @@ relations:
 - target_event_id: event-wudi-si-huoguang
   relation_type: precedes
   description_zh_cn: 轮台诏后两年武帝去世，霍光辅政
+
+background_zh_cn: 上既悔远征伐，而搜粟都尉桑弘羊与丞相御史奏言：故轮台东捷枝、渠犁皆故国，「可益通沟渠，种五谷」——请复屯田轮台。
+process_zh_cn: 诏书论之：「今请远田轮台，欲起亭隧，是扰劳天下，非所以优民也」——深陈既往之悔，罢轮台屯田之议。
+result_zh_cn: 轮台诏定「禁苛暴、止擅赋、力本农」之政——武帝晚年国策由征伐转向休息。
+impact_zh_cn: 「深陈既往之悔」的轮台诏为昭宣中兴之转关——昭帝用桑弘羊前议仅作屯田调整，而汉政自此以务农安民为本。
+people:
+- person_name_raw: 汉武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 下轮台诏、悔远征
+  review_note: major01-E：汉书·西域传下「上既悔远征伐」
+  person_id: null
+- person_name_raw: 桑弘羊
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 搜粟都尉：奏请屯田轮台
+  review_note: major01-E：汉书·西域传下「搜粟都尉桑弘羊与丞相御史奏言」
+  person_id: null
+places:
+- place_name_raw: 轮台
+  role: frontier
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 诏书所罢屯田之地
+  review_note: major01-E：汉书·西域传下「今请远田轮台」
+evidence:
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-05b9e01acc787daa1708
+  chapter_anchor: 传/西域传下#p163
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「上既悔远征伐，而搜粟都尉桑弘羊与丞相御史奏言。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-84943e56bbaf18e21247
+  chapter_anchor: 传/西域传下#p190
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「今请远田轮台，欲起亭隧，是扰劳天下，非所以优民也。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-84943e56bbaf18e21247
+  chapter_anchor: 传/西域传下#p190
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「是扰劳天下，非所以优民也。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 西域传下
+  historical_text_id: text-niutrans-4e77f249edd25fba7668
+  chapter_anchor: 传/西域传下#p202
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「昭帝乃用桑弘羊前议，以杅弥太子赖丹为校尉，将军田轮台。」；claim_field=impact；anchor=段落精确锚。

@@ -24,3 +24,77 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 巫蛊之祸后汉武帝反思，晚年政策转向（轮台诏）
+
+background_zh_cn: 武帝晚年「巫蛊起」——方士巫祝之术盛行于宫禁，江充等因之构陷。
+process_zh_cn: 征和二年，巫蛊事起，太子据被诬；「庚寅，太子亡，皇后自杀」——兵变与追捕相继。
+result_zh_cn: 八月辛亥，太子自杀于湖——巫蛊之祸以太子死、皇后崩告终，死者数万。
+impact_zh_cn: 太子既没，储位空虚，武帝晚年立幼子、托孤霍光——巫蛊之祸直接改写了汉室的继承格局。
+people:
+- person_name_raw: 汉武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 晚年惑于巫蛊、太子死而悔之
+  review_note: major01-E：汉书·武帝纪「巫蛊起」
+  person_id: null
+- person_name_raw: 戾太子
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 太子据：被诬亡走、自杀于湖
+  review_note: major01-E：汉书·武帝纪「太子自杀于湖」
+  person_id: null
+places:
+- place_name_raw: 湖
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 太子自杀之地（湖县）
+  review_note: major01-E：汉书·武帝纪「太子自杀于湖」
+evidence:
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-256f26a428f12e53a1cb
+  chapter_anchor: 纪/武帝纪#p446
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「巫蛊起。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-9c65df00a51df8e5d057
+  chapter_anchor: 纪/武帝纪#p452
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「庚寅，太子亡，皇后自杀。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-af71d834064f6d5118e0
+  chapter_anchor: 纪/武帝纪#p455
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「八月辛亥，太子自杀于湖。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-d48eddd6bf1041bbc180
+  chapter_anchor: 纪/武帝纪#p76
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-E：汉书源引文：「捕为巫蛊者，皆枭首。」；claim_field=impact；anchor=段落精确锚。
