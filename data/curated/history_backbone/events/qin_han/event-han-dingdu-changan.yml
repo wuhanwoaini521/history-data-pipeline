@@ -20,11 +20,13 @@ relations:
 - target_event_id: event-chuhan-han-foundation
   relation_type: follows
   description_zh_cn: 汉朝建立后定都关中
-
-background_zh_cn: 高祖欲长都雒阳，齐人刘敬说，乃留侯劝上入都关中，高祖是日驾，入都关中。
-process_zh_cn: 长乐宫成，丞相已下徙治长安——宫室官署次第就绪。
-result_zh_cn: 高祖自布军至长安——都城长安的统治秩序既定。
-impact_zh_cn: 「关中阻山河四塞，地肥饶，可都以霸」——定都关中据形胜之地，长安自此为西汉二百年国都，亦为中国千年古都之首。
+- target_event_id: event-chuhan-gaixia
+  relation_type: follows
+  description_zh_cn: 垓下既定而天下归汉，乃有定都之议
+background_zh_cn: 高祖欲长都雒阳；齐人刘敬说以关中形胜，留侯亦劝上入都关中——「关中阻山河四塞，地肥饶，可都以霸」，东都雒阳与西都关中之议遂决。
+process_zh_cn: 高祖从刘敬、张良之言，是日驾而西，入都关中；其后长乐宫成，丞相已下徙治长安——宫室官署次第就绪，都邑之制以立。
+result_zh_cn: 高祖自布军至长安，都城秩序既定；关中遂为汉家根本之地，与雒阳隔河相望而为东西两京之始基。
+impact_zh_cn: 定都关中据山河四塞之形胜，长安自此为西汉二百年之国都；此后新莽、隋唐皆都关中，其基实肇于汉初之议，长安遂为中国千年古都之首。
 people:
 - person_name_raw: 刘邦
   role: monarch

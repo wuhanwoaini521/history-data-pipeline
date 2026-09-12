@@ -21,11 +21,13 @@ relations:
   relation_type: follows
 - target_event_id: event-guiling-zhizhan
   relation_type: precedes
-
-background_zh_cn: 吴起相楚：楚悼王用吴起，明法审令、捐不急之官、废公族疏远者，以抚养战斗之士。
-process_zh_cn: 变法行之，楚国扩张：「于是南平百越；北并陈蔡，却三晋；西伐秦」。
-result_zh_cn: 及悼王死，宗室大臣作乱而攻吴起，吴起走之王尸而伏之；击起之徒因射刺吴起，并中悼王——变法中辍。
-impact_zh_cn: 吴起变法虽以殉难告终，其「明法审令、废公族」路径为战国楚制改革所本，楚国一度兵威南暨百越、北抗三晋。
+- target_event_id: event-shangyang-bianfa
+  relation_type: related_to
+  description_zh_cn: 吴起变法与商鞅变法同为战国法家改革之先例
+background_zh_cn: 吴起去魏之楚，楚悼王闻其贤而相之；吴起乃以魏之治术施于楚——「明法审令，捐不急之官，废公族疏远者，以抚养战斗之士」。
+process_zh_cn: 变法既行：削公族疏远者之禄，罢不急之官，厚战斗之士；于是楚人争奋，兵势骤张，南平百越、北并陈蔡、却三晋、西伐秦——楚之疆域与兵威一时大振。
+result_zh_cn: 楚以吴起之谋扩地千里，兵威南暨百越、北抗三晋；然新法削贵戚之权，宗室大臣怨望日深，变局已伏杀机。
+impact_zh_cn: 及悼王死，宗室大臣作乱而攻吴起，「击起之徒因射刺吴起，并中悼王」——变法中辍、吴起殉难；然其明法审令、废公族之路径为后世楚制改革所本。
 people:
 - person_name_raw: 吴起
   role: official

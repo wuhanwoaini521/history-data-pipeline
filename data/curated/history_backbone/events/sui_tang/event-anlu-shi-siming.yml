@@ -10,7 +10,7 @@ period_id: period-tang
 regime_ids: []
 importance: major
 summary_zh_cn: 安禄山死后，史思明重新发动叛乱，战争延续。
-result_zh_cn: 叛乱从安禄山集团转入史思明主导的阶段。
+result_zh_cn: 思明与庆绪决裂而并其众：乃手疏唁庆绪而不称臣，且曰「愿为兄弟之国，更作藩篱之援」——使者往复之间，思明已成河北最强之势力，唐军所面对着由安庆绪易为史思明。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
@@ -118,6 +118,10 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 史思明阶段结束后安史之乱最终平定。
-background_zh_cn: 及安庆绪败，承恩说思明降唐——史思明一度降唐，旋复叛自立。
-process_zh_cn: 春正月己巳朔，史思明筑坛于魏州城北，自称大圣燕王，以周挚为行军司马。
-impact_zh_cn: 史思明手疏唁庆绪而不称臣，曰「愿为兄弟之国，更作籓篱之援」——安庆绪收粮拒守、思明与庆绪决裂，叛乱由安禄山集团转入史思明主导阶段。
+- target_event_id: event-anlu-uprising
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 史思明再叛为安史之乱之后期阶段
+background_zh_cn: 安庆绪既败，史思明一度降唐而旋复自立：承恩说思明降唐，然唐廷处置失当，思明遂拥众自固于范阳——安史之乱由安禄山集团转入史思明主导之阶段。
+process_zh_cn: 乾元二年春正月己巳朔，史思明筑坛于魏州城北，自称大圣燕王，以周挚为行军司马——僭号建制，与安庆绪分道；安庆绪收子仪等营中粮得六七万石，闭门拒思明。
+impact_zh_cn: 史思明之再叛使安史之乱延长数年：唐军洛阳之捷得而复失，河北藩镇之降将皆观思明之向背；乱平之后河朔三镇之割据，实由此阶段之势力格局所奠定。

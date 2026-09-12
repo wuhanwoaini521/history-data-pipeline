@@ -20,11 +20,13 @@ relations:
 - target_event_id: event-qin-chidao
   relation_type: follows
   description_zh_cn: 北防匈奴的军事行动
-
-background_zh_cn: 秦已并天下，北边匈奴为患，乃以蒙恬统大军北征。
-process_zh_cn: 乃使蒙恬将三十万众北逐戎狄，收河南——河套之地尽入秦疆。
-result_zh_cn: 是时蒙恬威振匈奴——匈奴远遁，北边暂安。
-impact_zh_cn: 蒙恬暴师于外十余年、居上郡，秦以重兵长戍北边；筑长城、通直道皆自此役始。
+- target_event_id: event-qin-xiu-changcheng
+  relation_type: precedes
+  description_zh_cn: 北逐匈奴收河南后，乃筑长城以固新边
+background_zh_cn: 秦已并天下，北边匈奴为患；始皇乃以蒙恬统三十万众北逐戎狄——用兵之众、专任之重，见秦以全力经营北疆之志。
+process_zh_cn: 蒙恬将三十万众北逐戎狄，收河南——河套之地尽入秦疆；秦以重兵长戍北边，蒙恬暴师于外十余年、居上郡，威名之盛为匈奴所惮。
+result_zh_cn: 是时蒙恬威振匈奴，匈奴远遁而北边暂安——河南既收，秦之北疆推至阴山一线，戍守与屯备之制随之而立。
+impact_zh_cn: 北击匈奴既收河南，秦遂筑长城、通直道以固边，戍边之役与长城之筑皆自此役始；然暴师十余年、民力大耗，亦为秦政苛暴之一端。
 people:
 - person_name_raw: 蒙恬
   role: official

@@ -20,10 +20,13 @@ relations:
 - target_event_id: event-qin-shutongwen
   relation_type: follows
   description_zh_cn: 与书同文同为秦大统一措施
-background_zh_cn: 秦并天下、置郡县，六国度量衡各异，赋税、工程与贸易皆需一制。
-process_zh_cn: 一法度衡石丈尺——以秦制为准统一度、量、衡。
-result_zh_cn: 刻石曰「器械一量」——器物规格与度量随之划一，制度统一见诸铭文。
-impact_zh_cn: 车同轨与度量衡统一并行——全国经济与行政运行有了统一尺度，秦制为后世所承。
+- target_event_id: event-qin-tongyi
+  relation_type: part_of
+  description_zh_cn: 统一度量衡为秦统一制度之一端
+background_zh_cn: 秦并天下、置郡县，而六国度量衡各异；赋税征收、工程营造与市易通商皆无所准，混一之制不可复缓。
+process_zh_cn: 一法度衡石丈尺——以秦制为准统一度、量、衡，颁之天下；又与书同文字、车同轨并行，皆所以画一制度。
+result_zh_cn: 刻石曰「器械一量」——器物规格随度量衡而划一，制度之统一见诸金石铭文，秦制之信验昭于后世。
+impact_zh_cn: 度量衡统一使全国赋税征收、工程营造与市易通商有了共同尺度，秦制为汉所承，此制直行二千余年，为中国经济与行政统一之基；秦虽二世而亡，其度量之制则历代相沿。
 places:
 - place_name_raw: 咸阳
   role: capital

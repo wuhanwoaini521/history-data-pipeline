@@ -23,11 +23,13 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 桂陵之战后魏国国力受损，齐魏再战于马陵
-
-background_zh_cn: 魏围赵邯郸，赵请救于齐——齐使田忌、孙膑救赵。
-process_zh_cn: 田忌从孙膑「批亢捣虚」之计，直趋大梁；魏果去邯郸，与齐战于桂陵。
-result_zh_cn: 齐大破梁军于桂陵（十月，邯郸拔，齐因起兵击魏，大败之桂陵）。
-impact_zh_cn: 「围魏救赵」之策由是成为兵家范式，魏国东线受挫、齐国声势大振。
+- target_event_id: event-maling-zhizhan
+  relation_type: precedes
+  description_zh_cn: 桂陵之捷为齐魏争衡之首役，马陵之战继之而定局
+background_zh_cn: 魏围赵邯郸，赵请救于齐——齐使田忌、孙膑救赵；孙膑以「批亢捣虚」为策，不趋邯郸而与魏争其必救，救赵之谋实为制魏之谋。
+process_zh_cn: 田忌从孙膑之计，直趋大梁；魏果去邯郸而还师自救，与齐战于桂陵——齐以逸待劳，一战而大破梁军。
+result_zh_cn: 十月，邯郸拔而齐因起兵击魏，大败之桂陵——魏军弃邯郸而还自救，终为齐所破，魏之东线由是受挫，齐之军威大振于诸侯。
+impact_zh_cn: 「围魏救赵」之策由是成为兵家范式，孙膑兵法传于后世；魏、齐之强弱易势自此始，十三年后马陵之战遂定魏之衰局。
 people:
 - person_name_raw: 孙膑
   role: supporter

@@ -23,11 +23,14 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 胡亥赵高暴政激化社会矛盾，直接导向大泽乡起义
-
-background_zh_cn: 七月丙寅，始皇崩于沙丘平台——主上崩于巡狩途中，遗诏未定。
-process_zh_cn: 赵高故尝教胡亥书及狱律令法事、胡亥私幸之——赵高居中用事，与李斯合谋。
-result_zh_cn: 「更为书赐公子扶苏、蒙恬，数以罪，赐死」——矫诏立胡亥、诛杀长兄与边将。
-impact_zh_cn: 太子胡亥袭位为二世皇帝——沙丘之变以阴谋易嗣，秦政自此崩坏，天下随之瓦解。
+- target_event_id: event-chuhan-qin-revolt
+  relation_type: leads_to
+  confidence: 0.85
+  description_zh_cn: 二世以阴谋立而政乱，次年戍卒起义，秦末大乱由此起
+background_zh_cn: 七月丙寅，始皇崩于沙丘平台——主上崩于巡狩途中，遗诏未定；赵高故尝教胡亥书及狱律令法事、胡亥私幸之，故得居中用事，矫诏之谋由是而起。
+process_zh_cn: 赵高说胡亥，复与丞相李斯合谋：诈以始皇之命立胡亥为太子，又「更为书赐公子扶苏、蒙恬，数以罪，赐死」——外诛长子与边将，内定嗣君。
+result_zh_cn: 矫诏既行，扶苏赐死于上郡、蒙恬夺兵被囚，秦之良将贤嗣一时俱尽；胡亥袭位为二世皇帝，沙丘之谋遂成事实。
+impact_zh_cn: 沙丘之变以阴谋易嗣，秦政自此崩坏：二世继位而严刑督责、赋役益重，戍卒陈胜、吴广遂起，秦之覆亡实肇于此。
 people:
 - person_name_raw: 赵高
   role: opponent

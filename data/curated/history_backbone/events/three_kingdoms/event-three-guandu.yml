@@ -10,7 +10,7 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 曹操与袁绍争夺北方主导权的关键战役。
-result_zh_cn: 士卒皆殊死战，遂大破之，斩琼等、尽燔其粮谷；于是绍军惊扰大溃，绍及谭等幅巾乘马、与八百骑渡河。
+result_zh_cn: 士卒皆殊死战，遂大破之，斩淳于琼等、尽燔其粮谷；于是绍军惊扰大溃，绍及谭等幅巾乘马、与八百骑渡河——河北之众一夜而溃。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
@@ -118,6 +118,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 官渡后曹操集团继续巩固北方。
-background_zh_cn: 曹操还军官渡，绍乃议攻许，田丰谏之以持久——袁绍倾河北之众南下，两雄决战在即。
-process_zh_cn: 袁氏辎重万余乘在故市、乌巢，屯军无严备，曹操以轻兵袭之，不意而至、燔其积聚。
-impact_zh_cn: 官渡之败使袁绍元气大伤，河北由盛转衰——曹操由此奠定统一北方之势。
+- target_event_id: event-three-north-consolidation
+  relation_type: precedes
+  description_zh_cn: 官渡既胜，曹操乘势进军河北、平袁氏
+background_zh_cn: 曹操还军官渡，袁绍乃议攻许，田丰谏之以持久而不从——袁绍倾河北之众南下，两雄决战之势已成；曹军兵少粮绌而据守要津，胜负之数系于粮道与人心。
+process_zh_cn: 袁氏辎重万余乘在故市、乌巢，屯军无严备；曹操纳降将之计，以轻兵袭之，「不意而至，燔其积聚，不过三日，袁氏自败也」——乌巢火起，绍军粮谷尽焚。
+impact_zh_cn: 官渡之败使袁绍元气大伤，河北由盛转衰；曹操由此奠定统一北方之势，此后攻邺、平河北皆循此局，三国鼎立之北方一极实肇于此役。

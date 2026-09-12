@@ -21,11 +21,13 @@ relations:
   relation_type: precedes
 - target_event_id: event-guiling-zhizhan
   relation_type: precedes
-
-background_zh_cn: 当魏文侯时，李克务尽地力——魏国率先以「尽地力之教」富国。
-process_zh_cn: 魏有李悝，「尽地力之教」：教民勤于农事、地尽其利，以农富国。
-result_zh_cn: 魏用李克、尽地力，为强君——魏国由是富强，为战国初期首强。
-impact_zh_cn: 李悝尽地力之教开列国变法之先声（其后商鞅变法即承此路径），魏之富强为战国变法时代揭幕。
+- target_event_id: event-shangyang-bianfa
+  relation_type: related_to
+  description_zh_cn: 李悝尽地力之教为商鞅变法之先声
+background_zh_cn: 当魏文侯时，李克务尽地力，而白圭乐观时变——战国初期魏国率先以农事与治术求富强，李悝变法之机已具。
+process_zh_cn: 魏有李悝，「尽地力之教」：教民勤于农事、地尽其利，以农富国——教令行于田野，耕稼之利尽出。
+result_zh_cn: 魏用李克、尽地力，「为强君」——魏国由是富强，为战国初期之首次强国，诸侯莫敢与之争。
+impact_zh_cn: 尽地力之教开列国变法之先声，其后商鞅变法即承此路径；魏之富强为战国变法时代揭幕，李悝之教遂为法家农战之祖。
 people:
 - person_name_raw: 李悝
   role: official

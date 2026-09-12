@@ -19,11 +19,13 @@ source_ids:
 relations:
 - target_event_id: event-qiguo-zhi-luan
   relation_type: follows
-
-background_zh_cn: 景帝崩，太子彻即位；建元元年冬十月即诏丞相、御史、列侯等「举贤良方正直言极谏之士」——新政自求贤始。
-process_zh_cn: 甲子，太子即皇帝位，尊皇太后窦氏曰太皇太后、皇后曰皇太后。
-result_zh_cn: 建元元年诏举贤良方正直言极谏之士——武帝初政即开求言之路。
-impact_zh_cn: 「及今上即位，赵绾、王臧之属明儒学，而上亦乡之，于是招方正贤良文学之士」——儒术之士由此进入汉廷，一个新时代开启。
+- target_event_id: event-mobei-zhizhan
+  relation_type: precedes
+  description_zh_cn: 即位举贤、儒术进用，数十年后乃有汉匈决战与汉武之世
+background_zh_cn: 景帝崩，太子彻即位，年方十六而嗣大位；黄老之治行于汉家已数十年，而儒术之士渐起，政风之变已伏于即位之际。
+process_zh_cn: 甲子，太子即皇帝位，尊皇太后窦氏曰太皇太后、皇后曰皇太后；即位之初即诏丞相、御史、列侯等「举贤良方正直言极谏之士」，求言之路大开。
+result_zh_cn: 贤良之诏既下，赵绾、王臧之属以儒学进用；汉廷用人自黄老而转向儒术，一代政治与学术之新局自此启于即位之初。
+impact_zh_cn: 「及今上即位，赵绾、王臧之属明儒学，而上亦乡之，于是招方正贤良文学之士」——儒术之士由是入朝，汉武一朝之制度、学术与用兵皆自此发端。
 people:
 - person_name_raw: 汉武帝
   role: monarch

@@ -22,6 +22,9 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 大顺军攻灭明中央政权。
+- target_event_id: event-nanming-hongguang
+  relation_type: leads_to
+  description_zh_cn: 北京既陷，明臣拥立福王于南京，南明之局始
 evidence:
 - work: 明史
   term: 庄烈帝纪
@@ -107,10 +110,10 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c5：明史源引文：「是年夏四月，我大清兵破贼于山海关，五月，入京师，以帝体改葬，令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 辛丑，京师戒严；辛卯，李自成陷陕州——流贼自秦入豫、渐逼畿甸。
-result_zh_cn: 帝崩于万岁山，王承恩从死——崇祯殉国，明朝作为全国政权的统治终结。
-process_zh_cn: 丁未，昧爽，内城陷。
-impact_zh_cn: 是年夏四月，大清兵破贼于山海关，五月入京师，以帝体改葬、令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵——李自成败亡而清朝入主，易代之局完成。
+background_zh_cn: 崇祯十七年，流贼自秦入豫、渐逼畿甸：辛丑，京师戒严；辛卯，李自成陷陕州——明廷外有清兵之压、内有流寇之逼，辽饷加派而民困，畿辅之防已不能支。
+result_zh_cn: 帝崩于万岁山，王承恩从死——崇祯殉国，明朝作为全国政权的统治终结；李自成入居大内，大顺政权代明而有京师。
+process_zh_cn: 三月丁未，昧爽，内城陷——李自成军自居庸关、昌平而下，太监开门内应，京师外城、内城次第不守；帝登万岁山自缢，王承恩从死，明之京畿中枢一夜崩解。
+impact_zh_cn: 是年夏四月，大清兵破贼于山海关，五月入京师，以帝体改葬、令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵——李自成败亡而清朝入主，易代之局完成，明祚乃移于南明。
 people:
 - person_name_raw: 李自成
   role: opponent

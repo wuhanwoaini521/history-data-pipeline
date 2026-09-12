@@ -10,7 +10,7 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 官渡之后曹操集团继续巩固北方控制力。
-result_zh_cn: 九月，公引兵自柳城还，康即斩尚、熙及速仆丸等，传其首——袁氏覆灭，河北悉平。
+result_zh_cn: 袁氏覆灭而河北悉平，幽、冀、并、青四州尽入于曹操；北方群雄略定，许都之政令得行于大河以北。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
@@ -112,6 +112,9 @@ relations:
   relation_type: leads_to
   confidence: 0.75
   description_zh_cn: 北方力量南下使荆州成为争夺焦点。
-background_zh_cn: 夏四月，曹操进军邺——袁氏根本之地，河北决战之地。
-process_zh_cn: 公之去邺而南也，谭、尚争冀州，谭为尚所败、走保平原——袁氏兄弟阋墙，曹操乘之。
-impact_zh_cn: 汉罢三公官、置丞相、御史大夫——北方既固，曹操中枢集权，为南征与魏室肇基铺路。
+- target_event_id: event-three-guandu
+  relation_type: follows
+  description_zh_cn: 官渡之胜为其后平定河北、巩固北方之本
+background_zh_cn: 官渡战后，曹操进军邺——袁氏根本之地；袁绍既死，谭、尚争冀州，河北之势自内而裂，曹操乘其兄弟阋墙而次第收之。
+process_zh_cn: 公之去邺而南也，谭、尚争冀州，谭为尚所败、走保平原；曹操因其内溃而北伐乌桓，九月引兵自柳城还，康即斩尚、熙及速仆丸等，传其首——袁氏余烬尽灭。
+impact_zh_cn: 河北既平，汉罢三公官、置丞相、御史大夫——曹操中枢集权，为南征荆州与魏室肇基铺路，北方一统遂成三国之局的基础。

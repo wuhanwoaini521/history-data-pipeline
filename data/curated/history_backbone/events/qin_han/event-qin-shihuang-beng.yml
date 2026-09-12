@@ -21,11 +21,13 @@ relations:
   relation_type: leads_to
   confidence: 0.95
   description_zh_cn: 始皇帝猝死直接引发沙丘矫诏之变
-
-background_zh_cn: 始皇东巡，至平原津而病。
-process_zh_cn: 七月丙寅，始皇崩于沙丘平台。
-result_zh_cn: 丞相李斯「为上崩在外，恐诸公子及天下有变，乃秘之，不发丧」——沙丘秘丧。
-impact_zh_cn: 太子胡亥袭位为二世皇帝——始皇之死与继统之变，为秦末乱局之始。
+- target_event_id: event-chuhan-qin-revolt
+  relation_type: precedes
+  description_zh_cn: 始皇既崩、二世继立而政乱，遂有秦末戍卒之变
+background_zh_cn: 始皇三十七年东巡，西还至平原津而病；帝素恶言死，群臣莫敢言死事，法令严苛而讳言凶——主上之崩实伏于巡狩道中，遗诏亦未及定。
+process_zh_cn: 七月丙寅，始皇崩于沙丘平台；丞相李斯「为上崩在外，恐诸公子及天下有变，乃秘之，不发丧」——置辒凉车中，百官奏事如故，中官进食如常。
+result_zh_cn: 丧既秘而不发，胡亥、赵高与李斯遂得从容行其谋；太子胡亥袭位为二世皇帝——始皇之死未经公议而嗣位已定，秦廷之变自此始。
+impact_zh_cn: 始皇之死为其身后大变的起点：秘丧、矫诏、易嗣皆自此出，秦以骤兴之势二世即亡，论者谓沙丘之事实为秦亡之枢；此后历代论秦亡者必先及此。
 people:
 - person_name_raw: 秦始皇
   role: monarch

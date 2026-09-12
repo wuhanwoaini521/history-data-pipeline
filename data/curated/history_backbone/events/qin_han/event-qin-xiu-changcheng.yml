@@ -20,11 +20,13 @@ relations:
 - target_event_id: event-qin-beiji-xiongnu
   relation_type: follows
   description_zh_cn: 全面筑塞的国防工程
-
-background_zh_cn: 秦已并天下，乃使蒙恬将三十万众北逐戎狄、收河南——北疆既拓，修筑长城以固之。
-process_zh_cn: 筑长城，因地形、用制险塞，起临洮、至辽东，延袤万余里。
-result_zh_cn: 长城「起临洮属之辽东，城巉万馀里」，北边亭障相连。
-impact_zh_cn: 太史公亲行其地而论之：「行观蒙恬所为秦筑长城亭障，堑山堙谷，通直道，固轻百姓力矣」——长城之役功过并见史评。
+- target_event_id: event-qin-chidao
+  relation_type: related_to
+  description_zh_cn: 长城与直道同为秦北边防御与交通体系
+background_zh_cn: 秦已并天下，乃使蒙恬将三十万众北逐戎狄、收河南——北疆既拓而新边绵长，乃议筑长城以固之，就山川险要联络燕、赵旧城为一。
+process_zh_cn: 筑长城「因地形，用制险塞，起临洮，至辽东，延袤万余里」；役连万里而北边亭障相连，又通直道自九原抵云阳，堑山堙谷以利转输。
+result_zh_cn: 长城「起临洮属之辽东，城堑万余里」，北边亭障相连，匈奴不易南下——秦之北疆以长城为界，戍守之制亦缘之而立。
+impact_zh_cn: 太史公亲行其地而论曰「行观蒙恬所为秦筑长城亭障，堑山堙谷，通直道，固轻百姓力矣」——长城之役固边之功与劳民之过并见史评；后世长城遂为农耕与游牧之分界、秦汉北边秩序之象征。
 people:
 - person_name_raw: 蒙恬
   role: official

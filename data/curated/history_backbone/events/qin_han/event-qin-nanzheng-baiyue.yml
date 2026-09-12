@@ -20,11 +20,13 @@ relations:
 - target_event_id: event-qin-chidao
   relation_type: follows
   description_zh_cn: 南服百越的军事行动
-
-background_zh_cn: 又使尉屠睢将楼船之士南攻百越，使监禄凿渠运粮——秦以楼船水师与粮道工程南征。
-process_zh_cn: 深入越，越人遁逃——秦军深入岭南。
-result_zh_cn: 三十三年，发诸尝逋亡人、赘婿、贾人略取陆梁地，为桂林、象郡、南海，以适遣戍——岭南置三郡。
-impact_zh_cn: 秦置三郡、以谪戍实边，岭南自此入于中国版图；其后赵佗据之，南越国由是而立。
+- target_event_id: event-qin-shihuang-beng
+  relation_type: precedes
+  description_zh_cn: 南征百越与北逐匈奴并为始皇末年之大役，四年而帝崩
+background_zh_cn: 秦既并天下，又使尉屠睢将楼船之士南攻百越，使监禄凿渠运粮——以楼船水师与粮道工程并进，南征非徒恃兵力，而兼资水利之便。
+process_zh_cn: 秦军深入越地，越人遁逃；然瘴疠阻隔、戍守艰难，乃发诸尝逋亡人、赘婿、贾人略取陆梁地，为桂林、象郡、南海三郡，以适遣戍——以谪戍实岭南，军事征服与移民实边并行。
+result_zh_cn: 岭南置三郡、谪戍实边，中原政制自此行于岭南；其后赵佗据其地，「以兵威边，财物赂遗闽越、西瓯、骆，役属焉，东西万余里」——南越之局由此胎息。
+impact_zh_cn: 南征百越使岭南首次入于中国版图，桂林、象郡、南海三郡之设为后世两广政区之始；赵佗南越国立于是，秦汉之际南方政治格局由此奠定。
 people:
 - person_name_raw: 屠睢
   role: official

@@ -80,7 +80,7 @@
   "events": 618,
   "stories": 3,
   "story_events": 26,
-  "event_relations": 1094,
+  "event_relations": 1112,
   "event_people": 398,
   "event_places": 308,
   "event_evidence": 1177,

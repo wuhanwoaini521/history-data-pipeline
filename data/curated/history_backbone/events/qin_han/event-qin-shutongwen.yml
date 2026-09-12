@@ -20,10 +20,13 @@ relations:
 - target_event_id: event-qin-junxian
   relation_type: follows
   description_zh_cn: 与郡县制同期推行的统一措施
-background_zh_cn: 秦并天下、分三十六郡，六国异文异制并存的局面亟待统一。
-process_zh_cn: 书同文字——以秦文为准统一天下文字。
-result_zh_cn: 刻石纪功之语曰「器械一量，同书文字」——文字统一列为秦制成就昭示天下。
-impact_zh_cn: 车同轨、书同文并举，文字与交通规制统一——中华文化共同体之基自此奠定。
+- target_event_id: event-qin-tongyi
+  relation_type: part_of
+  description_zh_cn: 书同文为秦统一制度之一端
+background_zh_cn: 秦并天下、分天下以为三十六郡，郡置守、尉、监；六国异文异制并存，文书政令难以通行，统一文字之势遂急。
+process_zh_cn: 书同文字——以秦文为准统一天下文字，罢其不与秦文合者；又与一法度衡石丈尺、车同轨并行，制度次第画一。
+result_zh_cn: 刻石纪功曰「器械一量，同书文字」——文字之统一与度量、车轨同列为秦制成就而昭示天下。
+impact_zh_cn: 书同文使六国文字归于一律，政令文书得以通行郡县；文字之统一与交通规制并行，为此后中华文化共同体之基。
 people:
 - person_name_raw: 李斯
   role: official

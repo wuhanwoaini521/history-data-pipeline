@@ -10,7 +10,7 @@ period_id: period-tang
 regime_ids: []
 importance: major
 summary_zh_cn: 长安失守后唐玄宗向蜀地转移。
-result_zh_cn: 唐廷政治中心转移，肃宗集团组织反攻。
+result_zh_cn: 庚辰，上皇至成都，从官及六军至者千三百人而已——玄宗随行力量大为缩减，唐廷中枢实际转入肃宗灵武集团，皇帝与上皇分处两地。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
@@ -122,6 +122,10 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 唐廷在西行与重组后组织反攻。
-background_zh_cn: 杨国忠自以身领剑南，闻安禄山反，即令副使崔圆阴具储偫，以备有急投之，至是首唱幸蜀之策。
-process_zh_cn: 丙申，至马嵬驿，将士饥疲、皆愤怒——马嵬驿之变后玄宗一行继续西行。
-impact_zh_cn: 庚辰，上皇至成都，从官及六军至者千三百人而已——玄宗入蜀后其随行力量大为缩减，唐廷中枢实际转入肃宗灵武集团。
+- target_event_id: event-anlu-uprising
+  relation_type: part_of
+  confidence: 0.9
+  description_zh_cn: 玄宗幸蜀为安史之乱中唐廷播迁之阶段
+background_zh_cn: 杨国忠自以身领剑南，闻安禄山反，即令副使崔圆阴具储偫，以备有急投之，至是首唱幸蜀之策——入蜀之议实先有所备，非仓卒之谋。
+process_zh_cn: 丙申，玄宗一行至马嵬驿，将士饥疲、皆愤怒——马嵬之变既起，杨国忠、杨贵妃相继而殒；玄宗乃命将士陈之庭前，亲谕曰「朕比来衰耄，托任失人，致逆胡乱常，须远避其锋」，遂继续西行入蜀。
+impact_zh_cn: 玄宗入蜀使唐廷政治中心暂时转移，肃宗灵武即位而组织反攻；此后上皇还京而不复预政，唐代皇权更迭与宦官、藩镇之局自安史之乱起皆由此转折。

@@ -27,6 +27,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 建明后即命徐达北伐。
+- target_event_id: event-chenyouliang-dai-han
+  relation_type: follows
+  description_zh_cn: 陈友谅败亡为明室削平群雄、建立帝业之先
 evidence:
 - work: 明史
   term: 太祖纪
@@ -98,10 +101,10 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c5：明史源引文：「以李善长、徐达为左、右丞相，诸功臣进爵有差。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 陈友谅既亡，太祖曰「友谅亡，天下不难定也」——南方群雄次第削平，帝业之势已成。
-result_zh_cn: 追尊四代考妣为帝后、立妃马氏为皇后、世子标为皇太子——国本与宗庙制度初定。
-process_zh_cn: 洪武元年春正月乙亥，祀天地于南郊，即皇帝位。
-impact_zh_cn: 以李善长、徐达为左、右丞相，诸功臣进爵有差——明初中枢架构与功臣体制自此建立。
+background_zh_cn: 陈友谅既亡，太祖曰「友谅亡，天下不难定也」——南方群雄次第削平，张士诚、方国珍相继而灭，帝业之势已成；徐达、常遇春北伐中原，元室北遁。
+result_zh_cn: 追尊四代考妣为帝后、立妃马氏为皇后、世子标为皇太子——宗庙与国本一时并定，开国之后继有人焉。
+process_zh_cn: 洪武元年春正月乙亥，祀天地于南郊，即皇帝位，定国号曰明，建元洪武——郊祀告天，正位号以承天命，明之开国大典具焉。
+impact_zh_cn: 以李善长、徐达为左、右丞相，诸功臣进爵有差——明初之中枢架构与功臣体制自此建立，洪武之政由是推行三十余年。
 people:
 - person_name_raw: 朱元璋
   role: monarch
