@@ -10812,18 +10812,23 @@
   "event_id": "event-chenyouliang-dai-han",
   "name": "陈友谅代汉称帝",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 11,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-fangguozhen-jiang",
@@ -10846,52 +10851,67 @@
   "event_id": "event-guo-zixing-qibing",
   "name": "郭子兴起兵濠州",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-han-liner-chengdi",
   "name": "韩林儿称帝（小明王、龙凤政权）",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "ADEQUATE",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "ADEQUATE",
+  "points": 9,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 1,
+  "evidence_count": 7,
+  "missing": []
  },
  {
   "event_id": "event-hongjin-jun-qiyi",
   "name": "红巾军起义（刘福通等起兵反元）",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "ADEQUATE"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 11,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 3,
+  "evidence_count": 9,
+  "missing": []
  },
  {
   "event_id": "event-huanghe-juekou",
@@ -10914,18 +10934,23 @@
   "event_id": "event-jialu-zhihe",
   "name": "贾鲁治河",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 8,
+  "missing": []
  },
  {
   "event_id": "event-liangdu-zhizhan",
@@ -10948,18 +10973,23 @@
   "event_id": "event-nanpo-zhi-bian",
   "name": "南坡之变（英宗遇弑）",
   "period": "period-yuan",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 8,
+  "missing": []
  },
  {
   "event_id": "event-tuotuo-genghua",
