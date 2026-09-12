@@ -20,3 +20,83 @@ relations:
 - target_event_id: event-qin-chidao
   relation_type: follows
   description_zh_cn: 南服百越的军事行动
+
+background_zh_cn: 又使尉屠睢将楼船之士南攻百越，使监禄凿渠运粮——秦以楼船水师与粮道工程南征。
+process_zh_cn: 深入越，越人遁逃——秦军深入岭南。
+result_zh_cn: 三十三年，发诸尝逋亡人、赘婿、贾人略取陆梁地，为桂林、象郡、南海，以适遣戍——岭南置三郡。
+impact_zh_cn: 秦置三郡、以谪戍实边，岭南自此入于中国版图；其后赵佗据之，南越国由是而立。
+people:
+- person_name_raw: 屠睢
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 秦尉：将楼船之士南攻百越
+  review_note: major01-B：史记·平津侯主父列传「使尉屠睢将楼船之士南攻百越」
+  person_id: null
+places:
+- place_name_raw: 桂林
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 秦置三郡之一
+  review_note: major01-B：史记·秦始皇本纪「为桂林、象郡、南海」
+- place_name_raw: 象郡
+  role: region
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 秦置三郡之一
+  review_note: major01-B：史记·秦始皇本纪「为桂林、象郡、南海」
+- place_name_raw: 南海
+  role: region
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 秦置三郡之一
+  review_note: major01-B：史记·秦始皇本纪「为桂林、象郡、南海」
+evidence:
+- work: 史记
+  term: 平津侯主父列传
+  historical_text_id: text-niutrans-2c804bef535057c54ce4
+  chapter_anchor: 七十列传/平津侯主父列传#p161
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「又使尉屠睢将楼船之士南攻百越，使监禄凿渠运粮。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 平津侯主父列传
+  historical_text_id: text-niutrans-2c804bef535057c54ce4
+  chapter_anchor: 七十列传/平津侯主父列传#p161
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「深入越，越人遁逃。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-f5e2cd1a3b2c6435f85d
+  chapter_anchor: 十二本纪/秦始皇本纪#p316
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「略取陆梁地，为桂林、象郡、南海，以适遣戍。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 南越列传
+  historical_text_id: text-niutrans-a9f319637ba4486db87c
+  chapter_anchor: 七十列传/南越列传#p20
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「佗因此以兵威边，财物赂遗闽越、西瓯、骆，役属焉，东西万馀里。」；claim_field=impact；anchor=段落精确锚。

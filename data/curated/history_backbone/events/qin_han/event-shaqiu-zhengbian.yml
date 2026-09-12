@@ -23,3 +23,83 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 胡亥赵高暴政激化社会矛盾，直接导向大泽乡起义
+
+background_zh_cn: 七月丙寅，始皇崩于沙丘平台——主上崩于巡狩途中，遗诏未定。
+process_zh_cn: 赵高故尝教胡亥书及狱律令法事、胡亥私幸之——赵高居中用事，与李斯合谋。
+result_zh_cn: 「更为书赐公子扶苏、蒙恬，数以罪，赐死」——矫诏立胡亥、诛杀长兄与边将。
+impact_zh_cn: 太子胡亥袭位为二世皇帝——沙丘之变以阴谋易嗣，秦政自此崩坏，天下随之瓦解。
+people:
+- person_name_raw: 赵高
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 中车府令：沙丘政变主谋
+  review_note: major01-B：史记·秦始皇本纪「赵高故尝教胡亥书及狱律令法事」
+  person_id: null
+- person_name_raw: 秦二世
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 胡亥：矫诏袭位为二世皇帝
+  review_note: major01-B：史记·秦始皇本纪「太子胡亥袭位，为二世皇帝」
+  person_id: null
+- person_name_raw: 扶苏
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 公子：矫诏赐死
+  review_note: major01-B：史记·秦始皇本纪「赐公子扶苏、蒙恬……赐死」
+  person_id: null
+places:
+- place_name_raw: 沙丘平台
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 政变发生之地
+  review_note: major01-B：史记·秦始皇本纪（崩于沙丘、秘不发丧）
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-5e8b822db4b8dc3c0ccf
+  chapter_anchor: 十二本纪/秦始皇本纪#p463
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「七月丙寅，始皇崩於沙丘平台。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-31322c1592c434ee87c4
+  chapter_anchor: 十二本纪/秦始皇本纪#p468
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「赵高故尝教胡亥书及狱律令法事，胡亥私幸之。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-c5f0aa03198abc5aec0b
+  chapter_anchor: 十二本纪/秦始皇本纪#p470
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「更为书赐公子扶苏、蒙恬，数以罪，赐死。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-7b066c589c365477a8a5
+  chapter_anchor: 十二本纪/秦始皇本纪#p475
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「太子胡亥袭位，为二世皇帝。」；claim_field=impact；anchor=段落精确锚。

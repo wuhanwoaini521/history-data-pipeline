@@ -20,3 +20,77 @@ relations:
 - target_event_id: event-qin-chidao
   relation_type: follows
   description_zh_cn: 北防匈奴的军事行动
+
+background_zh_cn: 秦已并天下，北边匈奴为患，乃以蒙恬统大军北征。
+process_zh_cn: 乃使蒙恬将三十万众北逐戎狄，收河南——河套之地尽入秦疆。
+result_zh_cn: 是时蒙恬威振匈奴——匈奴远遁，北边暂安。
+impact_zh_cn: 蒙恬暴师于外十余年、居上郡，秦以重兵长戍北边；筑长城、通直道皆自此役始。
+people:
+- person_name_raw: 蒙恬
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 秦将：将三十万众北逐匈奴
+  review_note: major01-B：史记·蒙恬列传「将三十万众北逐戎狄，收河南」
+  person_id: null
+places:
+- place_name_raw: 河南
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 河套以南地：蒙恬收复
+  review_note: major01-B：史记·蒙恬列传「收河南」
+- place_name_raw: 上郡
+  role: frontier
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 蒙恬长驻之所
+  review_note: major01-B：史记·蒙恬列传「暴师於外十馀年，居上郡」
+evidence:
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-e8a1983f2b271f8b70cc
+  chapter_anchor: 七十列传/蒙恬列传#p14
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「秦已并天下，乃使蒙恬将三十万众北逐戎狄，收河南。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-e8a1983f2b271f8b70cc
+  chapter_anchor: 七十列传/蒙恬列传#p14
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「将三十万众北逐戎狄，收河南。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-ca1e960f83127bedda9b
+  chapter_anchor: 七十列传/蒙恬列传#p18
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「是时蒙恬威振匈奴。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-de6d8edfd06856749ebb
+  chapter_anchor: 七十列传/蒙恬列传#p17
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「暴师於外十馀年，居上郡。」；claim_field=impact；anchor=段落精确锚。

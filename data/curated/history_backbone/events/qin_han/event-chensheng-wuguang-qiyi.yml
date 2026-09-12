@@ -23,3 +23,95 @@ relations:
   relation_type: part_of
   confidence: 0.9
   description_zh_cn: 陈胜吴广起义为秦末起义（前209—前206）的开端
+
+background_zh_cn: 二世元年七月，发闾左適戍渔阳，九百人屯大泽乡——戍卒失期当斩，死地求生。
+process_zh_cn: 陈胜、吴广乃谋曰「今亡亦死，举大计亦死，等死，死国可乎」——斩木揭竿而起。
+result_zh_cn: 陈胜自立为将军、吴广为都尉；攻大泽乡，收而攻蕲——义军旬月间攻城略地。
+impact_zh_cn: 贾谊论之曰「斩木为兵，揭竿为旗，天下云集响应……山东豪俊遂并起而亡秦族矣」——大泽乡首义成为亡秦战争的起点。
+people:
+- person_name_raw: 陈胜
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 起义领袖：自立为将军
+  review_note: major01-B：史记·陈涉世家「陈胜自立为将军」
+  person_id: null
+- person_name_raw: 吴广
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 起义共同发动者：为都尉
+  review_note: major01-B：史记·陈涉世家「吴广为都尉」
+  person_id: null
+places:
+- place_name_raw: 大泽乡
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 起义爆发地
+  review_note: major01-B：史记·陈涉世家「九百人屯大泽乡」「攻大泽乡」
+- place_name_raw: 蕲
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 义军首攻之地
+  review_note: major01-B：史记·陈涉世家「收而攻蕲」
+evidence:
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-5aa9250c0b49bcca7916
+  chapter_anchor: 三十世家/陈涉世家#p6
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「二世元年七月，发闾左適戍渔阳，九百人屯大泽乡。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-20d32ac4b5357eb94f28
+  chapter_anchor: 三十世家/陈涉世家#p10
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「陈胜、吴广乃谋曰： 今亡亦死，举大计亦死，等死，死国可乎？」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-e6d0ae7c0a84cdbb15ad
+  chapter_anchor: 三十世家/陈涉世家#p37
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「陈胜自立为将军，吴广为都尉。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-2db8a87f67f569eb2f72
+  chapter_anchor: 三十世家/陈涉世家#p38
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「攻大泽乡，收而攻蕲。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-e9d0a16e1ab4a73f2a08
+  chapter_anchor: 三十世家/陈涉世家#p173
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「斩木为兵，揭竿为旗，天下云集响应，赢粮而景从，山东豪俊遂并起而亡秦族矣。」；claim_field=impact；anchor=段落精确锚。

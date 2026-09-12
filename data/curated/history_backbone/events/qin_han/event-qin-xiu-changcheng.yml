@@ -20,3 +20,77 @@ relations:
 - target_event_id: event-qin-beiji-xiongnu
   relation_type: follows
   description_zh_cn: 全面筑塞的国防工程
+
+background_zh_cn: 秦已并天下，乃使蒙恬将三十万众北逐戎狄、收河南——北疆既拓，修筑长城以固之。
+process_zh_cn: 筑长城，因地形、用制险塞，起临洮、至辽东，延袤万余里。
+result_zh_cn: 长城「起临洮属之辽东，城巉万馀里」，北边亭障相连。
+impact_zh_cn: 太史公亲行其地而论之：「行观蒙恬所为秦筑长城亭障，堑山堙谷，通直道，固轻百姓力矣」——长城之役功过并见史评。
+people:
+- person_name_raw: 蒙恬
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 秦将：主持筑长城、通直道
+  review_note: major01-B：史记·蒙恬列传「筑长城，因地形，用制险塞」
+  person_id: null
+places:
+- place_name_raw: 临洮
+  role: frontier
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 长城西端起点
+  review_note: major01-B：史记·蒙恬列传「起临洮，至辽东」
+- place_name_raw: 辽东
+  role: frontier
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 长城东端终点
+  review_note: major01-B：史记·蒙恬列传「起临洮，至辽东」
+evidence:
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-e8a1983f2b271f8b70cc
+  chapter_anchor: 七十列传/蒙恬列传#p14
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「秦已并天下，乃使蒙恬将三十万众北逐戎狄，收河南。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-3071c5b3370dc9e33b2c
+  chapter_anchor: 七十列传/蒙恬列传#p15
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「筑长城，因地形，用制险塞，起临洮，至辽东，延袤万馀里。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-1660dc27d6d4da05e136
+  chapter_anchor: 七十列传/蒙恬列传#p85
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「起临洮属之辽东，城巉万馀里。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 蒙恬列传
+  historical_text_id: text-niutrans-b5986dff7eb531a6b9a8
+  chapter_anchor: 七十列传/蒙恬列传#p88
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「行观蒙恬所为秦筑长城亭障，堑山堙谷，通直道，固轻百姓力矣。」；claim_field=impact；anchor=段落精确锚。

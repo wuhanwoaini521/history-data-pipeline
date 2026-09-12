@@ -20,3 +20,77 @@ relations:
 - target_event_id: event-qin-tongyi
   relation_type: follows
   description_zh_cn: 统一后随即推行郡县制
+
+background_zh_cn: 秦初并天下，丞相绾等言「诸侯初破，燕、齐、荆地远，不为置王，毋以填之。请立诸子」——封建与郡县之议起于朝堂。
+process_zh_cn: 廷尉李斯议曰：「周文武所封子弟同姓甚众，然后属疏远，相攻击如仇雠，诸侯更相诛伐，周天子弗能禁止」——力主罢封建、置郡县。
+result_zh_cn: 李斯之议获纳：「今海内赖陛下神灵一统，皆为郡县，诸子功臣以公赋税重赏赐之，甚足易制」——郡县制遂行于天下。
+impact_zh_cn: 分天下以为三十六郡，郡置守、尉、监——郡县官僚制取代世卿封建，为此后两千年中央集权体制之模板。
+people:
+- person_name_raw: 李斯
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 廷尉：议罢封建、行郡县
+  review_note: major01-B：史记·秦始皇本纪「廷尉李斯议曰」
+  person_id: null
+- person_name_raw: 秦始皇
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 纳李斯议、行郡县
+  review_note: major01-B：史记·秦始皇本纪（分天下三十六郡）
+  person_id: null
+places:
+- place_name_raw: 咸阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 议封建郡县、颁行郡县制之都
+  review_note: major01-B：史记·秦始皇本纪（始皇二十六年廷议）
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-bec95df3b66785519156
+  chapter_anchor: 十二本纪/秦始皇本纪#p164
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「请立诸子，唯上幸许。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-ee23ca1aa3256b82f60b
+  chapter_anchor: 十二本纪/秦始皇本纪#p166
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「廷尉李斯议曰： 周文武所封子弟同姓甚众，然后属疏远，相攻击如仇雠。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-f5cbece9845908d6d43b
+  chapter_anchor: 十二本纪/秦始皇本纪#p167
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「今海内赖陛下神灵一统，皆为郡县，诸子功臣以公赋税重赏赐之，甚足易制。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-fe665881879c068407e2
+  chapter_anchor: 十二本纪/秦始皇本纪#p172
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=impact；anchor=段落精确锚。

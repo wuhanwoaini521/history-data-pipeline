@@ -21,3 +21,77 @@ relations:
   relation_type: leads_to
   confidence: 0.95
   description_zh_cn: 始皇帝猝死直接引发沙丘矫诏之变
+
+background_zh_cn: 始皇东巡，至平原津而病。
+process_zh_cn: 七月丙寅，始皇崩于沙丘平台。
+result_zh_cn: 丞相李斯「为上崩在外，恐诸公子及天下有变，乃秘之，不发丧」——沙丘秘丧。
+impact_zh_cn: 太子胡亥袭位为二世皇帝——始皇之死与继统之变，为秦末乱局之始。
+people:
+- person_name_raw: 秦始皇
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 东巡途中崩于沙丘平台
+  review_note: major01-B：史记·秦始皇本纪「七月丙寅，始皇崩於沙丘平台」
+  person_id: null
+- person_name_raw: 李斯
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 丞相：主持秘不发丧
+  review_note: major01-B：史记·秦始皇本纪「乃祕之，不发丧」
+  person_id: null
+places:
+- place_name_raw: 沙丘平台
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 始皇崩逝之地
+  review_note: major01-B：史记·秦始皇本纪「崩於沙丘平台」
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-6c7e895d8c7d9907924e
+  chapter_anchor: 十二本纪/秦始皇本纪#p459
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「至平原津而病。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-5e8b822db4b8dc3c0ccf
+  chapter_anchor: 十二本纪/秦始皇本纪#p463
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「七月丙寅，始皇崩於沙丘平台。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-27cc2f54cb17e3830406
+  chapter_anchor: 十二本纪/秦始皇本纪#p464
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「丞相斯为上崩在外，恐诸公子及天下有变，乃祕之，不发丧。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-7b066c589c365477a8a5
+  chapter_anchor: 十二本纪/秦始皇本纪#p475
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「太子胡亥袭位，为二世皇帝。」；claim_field=impact；anchor=段落精确锚。

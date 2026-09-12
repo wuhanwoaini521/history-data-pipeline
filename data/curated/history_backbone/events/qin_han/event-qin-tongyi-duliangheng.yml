@@ -20,3 +20,82 @@ relations:
 - target_event_id: event-qin-shutongwen
   relation_type: follows
   description_zh_cn: 与书同文同为秦大统一措施
+background_zh_cn: 秦并天下、置郡县，六国度量衡各异，赋税、工程与贸易皆需一制。
+process_zh_cn: 一法度衡石丈尺——以秦制为准统一度、量、衡。
+result_zh_cn: 刻石曰「器械一量」——器物规格与度量随之划一，制度统一见诸铭文。
+impact_zh_cn: 车同轨与度量衡统一并行——全国经济与行政运行有了统一尺度，秦制为后世所承。
+places:
+- place_name_raw: 咸阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 秦都：统一度量衡政令所出
+  review_note: major01-B：史记·秦始皇本纪「一法度衡石丈尺」（自咸阳颁行）
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-fe665881879c068407e2
+  chapter_anchor: 十二本纪/秦始皇本纪#p172
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-215d0ddac58fddb0aad0
+  chapter_anchor: 十二本纪/秦始皇本纪#p176
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「一法度衡石丈尺。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-e6e89e509c0483388d37
+  chapter_anchor: 十二本纪/秦始皇本纪#p219
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「器械一量，同书文字。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-1f1a13608730ab20d41c
+  chapter_anchor: 十二本纪/秦始皇本纪#p177
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「车同轨。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-215d0ddac58fddb0aad0
+  chapter_anchor: 十二本纪/秦始皇本纪#p176
+  claim_field: places
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：统一度量衡为秦廷（咸阳）所颁制度；anchor=段落精确锚。
+people:
+- person_name_raw: 李斯
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 丞相：主持统一度量衡与文字
+  review_note: major01-B：史记·秦始皇本纪（李斯等奏定一法度衡石丈尺）
+  person_id: null

@@ -20,3 +20,82 @@ relations:
 - target_event_id: event-qin-junxian
   relation_type: follows
   description_zh_cn: 与郡县制同期推行的统一措施
+background_zh_cn: 秦并天下、分三十六郡，六国异文异制并存的局面亟待统一。
+process_zh_cn: 书同文字——以秦文为准统一天下文字。
+result_zh_cn: 刻石纪功之语曰「器械一量，同书文字」——文字统一列为秦制成就昭示天下。
+impact_zh_cn: 车同轨、书同文并举，文字与交通规制统一——中华文化共同体之基自此奠定。
+people:
+- person_name_raw: 李斯
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 丞相：主持同文字
+  review_note: major01-B：史记·秦始皇本纪「同书文字」（李斯等奏刻石）
+  person_id: null
+places:
+- place_name_raw: 咸阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 秦都：同文字政令所出
+  review_note: major01-B：史记·秦始皇本纪「分天下以为三十六郡」（统一政令自咸阳颁行）
+evidence:
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-fe665881879c068407e2
+  chapter_anchor: 十二本纪/秦始皇本纪#p172
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-b7610d62e29cf31d5654
+  chapter_anchor: 十二本纪/秦始皇本纪#p178
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「书同文字。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-e6e89e509c0483388d37
+  chapter_anchor: 十二本纪/秦始皇本纪#p219
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「器械一量，同书文字。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-1f1a13608730ab20d41c
+  chapter_anchor: 十二本纪/秦始皇本纪#p177
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：史记源引文：「车同轨。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-e6e89e509c0483388d37
+  chapter_anchor: 十二本纪/秦始皇本纪#p219
+  claim_field: places
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-B：统一文字为秦廷（咸阳）所颁制度（刻石「同书文字」）；anchor=段落精确锚。
