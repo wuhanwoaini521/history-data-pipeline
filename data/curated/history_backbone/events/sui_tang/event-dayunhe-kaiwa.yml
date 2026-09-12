@@ -10,8 +10,7 @@ date_precision: range
 period_id: period-sui
 regime_ids: []
 importance: major
-summary_zh_cn: 大业元年至四年（605—610年）隋炀帝先后修凿通济渠、邗沟，疏浚永济渠，又开江南河，连接涿郡（今北京）与余杭（今杭州），形成以洛阳为中心、贯通南北的运河体系。大运河是隋代最大的交通工程，为南北经济文化交流与中央政府控制江南提供动脉（本事件按工程阶段记
-  range，非单日建成）。
+summary_zh_cn: 大业元年至四年（605—610年）隋炀帝先后修凿通济渠、邗沟，疏浚永济渠，又开江南河，连接涿郡（今北京）与余杭（今杭州），形成以洛阳为中心、贯通南北的运河体系。大运河是隋代最大的交通工程，为南北经济文化交流与中央政府控制江南提供动脉（本事件按工程阶段记 range，非单日建成）。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《隋书·炀帝纪》《食货志》；现代参考：岑仲勉《隋唐史》（中华书局）；吴宗国《隋唐五代简史》（北京大学出版社）；王仲荦《隋唐五代史》；张岂之主编《中国历史·隋唐辽宋金元卷》；白寿彝总主编《中国通史》
@@ -21,3 +20,181 @@ relations:
 - target_event_id: event-yingjian-dongdu
   relation_type: follows
   description_zh_cn: 与营建东都同为炀帝前期大工程
+- target_event_id: event-kaihuang-zhizhi
+  relation_type: follows
+  description_zh_cn: 大运河承开皇漕渠（自渭达河）之需而大举开凿
+background_zh_cn: 隋之漕运自开皇始：开皇初开渠引杜阳水于三畴原，又「开渠，自渭达河，以通运漕」——广通渠之役已见转漕关中之需。炀帝即位，以天下承平日久、士马全盛，慨然慕秦皇汉武之事，乃盛治宫室、即事巡游，南北通漕之议遂大举。
+process_zh_cn: 大业元年（605年），发河南诸郡男女百余万开通济渠，自西苑引谷、洛水达于河，自板渚引河通于淮；通鉴记「命尚书右丞皇甫议发河南、淮北诸郡民，前后百余万，开通济渠」。大业四年春正月，诏发河北诸郡男女百余万开永济渠，引沁水南达于河、北通涿郡，通鉴记「诏发河北诸军五百余万众穿永济渠」。自是自江都至涿郡，龙舟可直达：帝自江都御龙舟入通济渠，遂幸于涿郡。
+result_zh_cn: 运河既通，帝自江都行幸涿郡，御龙舟，渡河入永济渠；选部、门下、内史、御史四司之官于前船选补，受选者三千余人或徒步随船三千余里，冻馁疲顿，因而致死者什一二——役重民困之弊与漕运之利并见。至隋末，永济渠、通济渠犹为诸雄用兵转粮之干道。
+impact_zh_cn: 大运河以洛阳为中心，北通涿郡、南达江都、余杭，沟通河、淮、江、海四大水系，为此后唐宋漕运与南北经济交流之第一命脉；然役夫数百万、民力凋敝，隋末群盗皆据渠为营（义臣据永济渠为营，化及粮尽渡永济渠），论者以开河与征辽并为隋亡之由。
+people:
+- person_name_raw: 隋炀帝
+  role: ruler
+  link_status: needs_linking
+  role_zh_cn: 隋炀帝：诏开通济渠、永济渠，御龙舟幸涿郡
+  review_note: major02-K：隋书·帝纪卷三「发河南诸郡男女百余万，开通济渠」
+  person_id: null
+- person_name_raw: 皇甫议
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 尚书右丞：奉命发民开通济渠
+  review_note: major02-K：通鉴·隋纪四「命尚书右丞皇甫议发河南、淮北诸郡民……开通济渠」
+  person_id: null
+- person_name_raw: 隋文帝
+  role: ruler
+  link_status: needs_linking
+  role_zh_cn: 隋高祖：开渠自渭达河以通运漕（运河之先声）
+  review_note: major02-K：隋书·帝纪卷一「壬子，开渠，自渭达河，以通运漕」
+  person_id: null
+- person_name_raw: 杨义臣
+  role: commander
+  link_status: needs_linking
+  role_zh_cn: 隋将：据永济渠为营讨张金称
+  review_note: major02-K：通鉴·隋纪七「义臣引兵直进抵临清之西，据永济渠为营」
+  person_id: null
+places:
+- place_name_raw: 通济渠
+  role: canal
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 引谷洛达河、引河通淮之渠：大业元年开
+  review_note: major02-K：隋书·帝纪卷三「开通济渠……自板渚引河通于淮」
+- place_name_raw: 永济渠
+  role: canal
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 引沁水南达于河、北通涿郡之渠：大业四年开
+  review_note: major02-K：隋书·帝纪卷三「诏发河北诸郡男女百余万开永济渠」
+- place_name_raw: 江都
+  role: terminus
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 南端重镇：炀帝御龙舟所自
+  review_note: major02-K：隋书·帝纪卷三「上自江都御龙舟入通济渠」
+- place_name_raw: 涿郡
+  role: terminus
+  link_status: needs_linking
+  sequence: 4
+  description_zh_cn: 北端重镇：永济渠所通
+  review_note: major02-K：隋书·帝纪卷三「北通涿郡」
+evidence:
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-561165efe73f816e0de3
+  chapter_anchor: 帝纪/卷一#p271
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「壬子，开渠，自渭达河，以通运漕。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-9d3b7c864f23971addde
+  chapter_anchor: 帝纪/卷一#p173
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「三月戊申，开渠，引杜阳水于三畴原。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-e7482cb54944c17d027f
+  chapter_anchor: 帝纪/卷三#p70
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「辛亥，发河南诸郡男女百余万，开通济渠，自西苑引谷、洛水达于河，自板渚引河通于淮。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 隋纪四
+  historical_text_id: text-niutrans-7219aa53bd7bd6c8e718
+  chapter_anchor: 隋纪/隋纪四#p186
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：资治通鉴源引文：「辛亥，命尚书右丞皇甫议发河南、淮北诸郡民，前后百馀万，开通济渠。」；claim_field=process；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-e3ce4c16a2d061488f2c
+  chapter_anchor: 帝纪/卷三#p217
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「四年春正月乙巳，诏发河北诸郡男女百余万开永济渠，引沁水，南达于河，北通涿郡。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 隋纪五
+  historical_text_id: text-niutrans-ccb2552a12e1f87c5556
+  chapter_anchor: 隋纪/隋纪五#p3
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：资治通鉴源引文：「春，正月，乙巳，诏发河北诸军五百馀万众穿永济渠，引沁水南达于河，北通涿郡。」；claim_field=process；anchor=段落精确锚。
+- work: 隋书
+  term: 帝纪
+  historical_text_id: text-niutrans-ee272dca3030f1b252cd
+  chapter_anchor: 帝纪/卷三#p331
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「乙亥，上自江都御龙舟入通济渠，遂幸于涿郡。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 隋纪五
+  historical_text_id: text-niutrans-c5e763a19d657de30fa9
+  chapter_anchor: 隋纪/隋纪五#p206
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：资治通鉴源引文：「乙亥，帝自江都行幸涿郡，御龙舟，渡河入永济渠……其受选者三千余人，或徒步随船三千馀里，不得处分，冻馁疲顿，因而致死者什一二。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 隋纪七
+  historical_text_id: text-niutrans-7f01038c6f9f379ad735
+  chapter_anchor: 隋纪/隋纪七#p124
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：资治通鉴源引文：「帝遣太仆卿杨义臣讨张金称。金称营于平恩东北，义臣引兵直进抵临清之西，据永济渠为营。」；claim_field=impact；anchor=段落精确锚。隋末用兵皆以运河为干道
+- work: 隋书
+  term: 列传
+  historical_text_id: text-niutrans-b0b476e93cbdb33222fd
+  chapter_anchor: 列传/卷五十#p81
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major02-K：隋书源引文：「化及粮尽，渡永济渠，与密决战于童山，遂入汲郡求军粮。」；claim_field=impact；anchor=段落精确锚。
