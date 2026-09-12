@@ -2531,12 +2531,12 @@
   "dims": {
    "background": "ADEQUATE",
    "process": "STRONG",
-   "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 9,
+  "points": 11,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2553,12 +2553,12 @@
   "dims": {
    "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "ADEQUATE",
-  "points": 9,
+  "points": 11,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2592,12 +2592,12 @@
   "dims": {
    "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 10,
+  "points": 11,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2614,12 +2614,12 @@
   "dims": {
    "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "ADEQUATE",
-  "points": 9,
+  "points": 10,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2636,12 +2636,12 @@
   "dims": {
    "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
+   "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "ADEQUATE",
-  "points": 9,
+  "points": 10,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2658,12 +2658,12 @@
   "dims": {
    "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 10,
+  "points": 12,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -2700,14 +2700,14 @@
   "coverage_score": 100.0,
   "importance": "major",
   "dims": {
-   "background": "ADEQUATE",
+   "background": "STRONG",
    "process": "STRONG",
-   "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "result": "STRONG",
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 9,
+  "points": 12,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
