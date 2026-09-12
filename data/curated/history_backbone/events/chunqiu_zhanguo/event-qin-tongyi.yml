@@ -43,7 +43,7 @@ people:
 relations:
 - target_event_id: event-qin-mie-liuguo
   relation_type: follows
-- target_event_id: event-xiu-changcheng
+- target_event_id: event-qin-xiu-changcheng
   relation_type: precedes
   description_zh_cn: 统一既成，乃有北筑长城、南征百越之役
 evidence:

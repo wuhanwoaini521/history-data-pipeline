@@ -31,6 +31,9 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 各省响应后在南京建立临时政府。
+- target_event_id: event-qingdi-tuiwei
+  relation_type: leads_to
+  description_zh_cn: 武昌首义引发各省独立，终至清帝退位
 evidence:
 - work: 清史稿
   term: 宣统本纪
@@ -102,10 +105,10 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「戊戌，伍廷芳、張謇、唐文治、溫宗堯勸告攝政王，請贊共和政体。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
-result_zh_cn: 宣统三年（1911 年）10 月 10 日，湖北新军中的革命党人在武昌发动起义，攻占湖广总督衙门，成立湖北军政府；随后各省相继宣告独立（响应），清朝统治迅速瓦解。
-process_zh_cn: 宣统三年八月甲寅，革命党谋乱于武昌事觉，捕三十二人；乙卯，武昌新军变附于革命党，总督瑞澂弃城走，遂陷武昌；丙辰，武昌军民拥陆军第二十一混成协统领官黎元洪称都督，置军政府。
-impact_zh_cn: 「嗣是行省各拥兵据地号独立，举为魁者皆称都督」——武昌首义后各省相继独立；清廷起用袁世凯为湖广总督、督办剿抚，并命陆军大臣荫昌督师往讨，然大势已去。
+background_zh_cn: 宣统三年八月甲寅，革命党谋乱于武昌事觉，捕三十二人——新军中的革命党人知其谋已泄，遂于次日仓促发难，首义之机实迫于危迫之际。
+result_zh_cn: 「嗣是行省各拥兵据地号独立，举为魁者皆称都督」——武昌首义之后各省相继独立；清廷起用袁世凯为湖广总督、督办剿抚，并命陆军大臣荫昌督师往讨，然大势已去。
+process_zh_cn: 乙卯，武昌新军变附于革命党，总督瑞澂弃城走，遂陷武昌；丙辰，武昌军民拥陆军第二十一混成协统领官黎元洪称都督，置军政府——湖广首义之局既定。
+impact_zh_cn: 武昌首义为辛亥革命之始：行省相继独立，清廷之统治迅速瓦解；「举为魁者皆称都督」之局促成南北议和与清帝退位，两千余年帝制遂终，民国由是而建。
 people:
 - person_name_raw: 黎元洪
   role: monarch

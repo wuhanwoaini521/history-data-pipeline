@@ -38,10 +38,10 @@ def test_backbone_build():
     assert counts["events"] == 618  # Batch8 完成（52 new）
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 1073  # +Queue 2 8 + 安史平定 2 + ready43（鼎立形成 2 + 楚汉余波 2）
+    assert counts["event_relations"] == 1094  # Major Batch 02：+cluster G/H/I/J/K 21 条 relation（含 causes/leads_to）
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
-    assert counts["event_place"] == 215  # 95 + ready43 location 登记 - 5 去重
-    assert counts["event_evidence"] == 790  # 373 + ready43 六个 cluster 196 条字段锚
+    assert counts["event_place"] == 308  # Major Batch 02：+30 新 Major 之 places（+93 净增）
+    assert counts["event_evidence"] == 1177  # Major Batch 02：+30 新 Major（387 条锚）与 Depth Sprint 批次锚
     assert counts["periods"] == 31
     assert counts["regimes"] == 64  # +Batch8 满洲国/中华苏维埃
     assert manifest["counts"]["events"] == counts["events"]

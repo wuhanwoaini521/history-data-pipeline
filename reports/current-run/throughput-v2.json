@@ -1,0 +1,58 @@
+{
+ "schema": "throughput-v2",
+ "scope": "Major Batch 02 (30 new majors) + Depth Sprint 01 (20 events)",
+ "full_events": {
+  "baseline": 151,
+  "now": 181,
+  "delta": 30
+ },
+ "strong_events": {
+  "baseline": 20,
+  "now": 70,
+  "delta": 50
+ },
+ "adequate_events": {
+  "baseline": 111,
+  "now": 92
+ },
+ "low_events": {
+  "baseline": 20,
+  "now": 19
+ },
+ "incomplete_events": {
+  "baseline": 467,
+  "now": 437
+ },
+ "clusters": {
+  "G_tang": 8,
+  "H_ming": 8,
+  "I_yuan": 6,
+  "J_chunqiu": 4,
+  "K_sui": 4,
+  "D1": 5,
+  "D2": 5,
+  "D3": 4,
+  "D4": 6
+ },
+ "events_touched": 50,
+ "events_per_cluster_avg": 5.6,
+ "evidence_records_added_this_run": 387,
+ "evidence_by_tag": {
+  "major02-J": 48,
+  "depth01-D1": 18,
+  "depth01-D4": 37,
+  "depth01-D2": 28,
+  "depth01-D3": 23,
+  "major02-H": 73,
+  "major02-G": 73,
+  "major02-K": 37,
+  "major02-I": 50
+ },
+ "new_anchor_tools": [
+  "scripts/anchor_lookup.py",
+  "scripts/para_dump.py",
+  "scripts/_depth_util.py"
+ ],
+ "gate_script": "scripts/content_depth_gate_v1.py",
+ "avg_evidence_per_touched_event": 7.7
+}
