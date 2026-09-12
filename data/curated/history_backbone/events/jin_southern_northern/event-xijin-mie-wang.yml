@@ -25,6 +25,9 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 西晋亡后司马睿在建康立东晋
+- target_event_id: event-dongjin-jianguo
+  relation_type: causes
+  description_zh_cn: 西晋既亡，元帝于江左即位，东晋由是而立
 evidence:
 - work: 晋书
   term: 愍帝纪
@@ -96,10 +99,82 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: source-batch02：晋书源引文：「帝乘羊車，肉袒銜壁，輿櫬出降……曜焚櫬受壁。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 建兴四年四月，刘曜寇上郡，太守籍韦率众奔南郑；凉州刺史张寔遣步骑五千来赴京都——长安政权仅赖凉州与关中残军支撑。
-result_zh_cn: 八月，刘曜逼京师，内外断绝；麴允与公卿守长安小城以自固——长安已成孤城。
-process_zh_cn: 秋七月，刘曜攻北地，麴允帅步骑三万救之，王师不战而溃；曜进至泾阳，渭北诸城悉溃，建威将军鲁充等皆死之。
-impact_zh_cn: 十一月，帝乘羊车、肉袒衔壁、舆榇出降；刘曜焚榇受壁——西晋灭亡，北方进入十六国时期。
+- work: 晋书
+  term: 帝纪
+  historical_text_id: text-niutrans-443a3f146c0f49f6c68f
+  chapter_anchor: 帝纪/第五章#p304
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「八月，刘曜逼京师，内外断绝，镇西将军焦嵩、平东将军宋哲、始平太守竺恢等同赴国难，麹允与公卿守长安小城以自固……并不敢进。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-c35f5e57c43b01a230e0
+  chapter_anchor: 志/第十六章#p81
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「怀帝为刘曜所围，王师累败，府帑既竭，百官饥甚，比屋不见火烟，饥人自相啖食。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-98248714ee0d27435bc9
+  chapter_anchor: 帝纪/愍帝纪#p104
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「十一月乙末，使侍中宋敞送箋于曜，帝乘羊車，肉袒銜壁，輿櫬出降。羣臣号泣攀車，執帝之手，帝亦悲不自勝。御史中丞吉朗自殺。曜焚櫬受壁，使宋敞奉帝還宮。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-5e02f28e26a60113c588
+  chapter_anchor: 志/第二章#p915
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「是时愍帝蒙尘于平阳，七月崩于寇庭。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-0e7d48000506720dae2f
+  chapter_anchor: 志/第九章#p103
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「愍帝都长安，未及立郊庙而败。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-8670216cb10ec2f2e5d9
+  chapter_anchor: 志/第九章#p418
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「自永嘉之乱，神州倾覆，兹事替矣。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 建兴四年（316年）八月，刘曜逼京师，「内外断绝」；镇西将军焦嵩、平东将军宋哲、始平太守竺恢等同赴国难，麹允与公卿守长安小城以自固，散骑常侍华辑、镇军将军胡崧各屯霸上、遮马桥，「并不敢进」——勤王之师观望，长安遂孤。
+result_zh_cn: 愍帝蒙尘于平阳，七月崩于寇庭；《晋书》记「愍帝都长安，未及立郊庙而败」——西晋自武帝受禅凡五十二年而亡，宗庙未及立于长安，愍帝之降为汉赵所执，中原之晋室遂绝。
+process_zh_cn: 城中困极：「怀帝为刘曜所围，王师累败，府帑既竭，百官饥甚，比屋不见火烟，饥人自相啖食」。十一月乙未，愍帝使侍中宋敞送笺于曜；帝乘羊车，肉袒衔壁，舆榇出降，群臣号泣攀车、执帝之手，帝亦悲不自胜，御史中丞吉朗自杀；曜焚榇受壁，使宋敞奉帝还宫。
+impact_zh_cn: 西晋之亡使中原沦于胡骑，十六国纷争自此起；「自永嘉之乱，神州倾覆」，晋室南渡而立东晋于建康，中国进入南北分立之世，门阀政治、民族迁徙与胡汉融合之大局皆肇于此，隋唐统一之基亦伏于其中。
 people:
 - person_name_raw: 刘曜
   role: opponent

@@ -10,8 +10,8 @@ date_precision: year
 period_id: period-western-han
 importance: critical
 summary_zh_cn: 前119年（元狩四年），汉军分两路深入漠北：卫青败单于主力，霍去病封狼居胥山，共斩俘匈奴八九万，匈奴主力远遁，"漠南无王庭"。漠北之战是汉匈战争决定性一役，标志汉对匈奴由防御转入全面反攻并取得战略优势，是汉武帝对匈奴战争的重要转折节点。
-background_zh_cn: 前119年（元狩四年），汉军分两路深入漠北：卫青败单于主力，霍去病封狼居胥山，共斩俘匈奴八九万，匈奴主力远遁，"漠南无王庭"。
-result_zh_cn: 漠北之战是汉匈战争决定性一役，标志汉对匈奴由防御转入全面反攻并取得战略优势，是汉武帝对匈奴战争的重要转折节点。
+background_zh_cn: 元狩三年，匈奴入右北平、定襄各数万骑，杀略千余人；先是匈奴「又入代郡、定襄、上郡，各三万骑，杀略数千人」，边患日亟。武帝乃令大将军青、票骑将军去病中分军，大将军出定襄，票骑将军出代，「咸约绝幕击匈奴」——绝漠决战之策既定。
+result_zh_cn: 去病封狼居胥山、禅于姑衍、登临翰海乃还；《汉书·匈奴传》记「追奔逐北，封狼居胥山，禅于姑衍，以临翰海，虏名王贵人以百数」——匈奴主力远遁，漠南无王庭；汉亦亡两将军、士卒数万，国力为之一耗。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·卫将军骠骑列传》《匈奴列传》、《汉书·武帝纪》；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
@@ -130,8 +130,56 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c1：汉书源引文：「追奔逐北，封狼居胥山，禅于姑衍，以临翰海，虏名王贵人以百数。」；claim_field=impact；anchor=段落精确锚。
-process_zh_cn: 大将军卫青将四将军出定襄，将军霍去病出代，各将五万骑；青出塞斩首万余，去病与左贤王战、斩获首虏七万余级。
-impact_zh_cn: 封狼居胥山、禅于姑衍、登临翰海——漠北决战重创匈奴主力，「漠南无王庭」，汉匈攻守之势自此逆转。
+- work: 汉书
+  term: 匈奴传上
+  historical_text_id: text-niutrans-8e69f6cc9f5d39997e25
+  chapter_anchor: 传/匈奴传上#p323
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「明年春，匈奴入右北平、定襄各数万骑，杀略千余人。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 匈奴传上
+  historical_text_id: text-niutrans-13b9c705adc05addf163
+  chapter_anchor: 传/匈奴传上#p326
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「令大将军青、票骑将军去病中分军，大将军出定襄，票骑将军出代，咸约绝幕击匈奴。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 匈奴传上
+  historical_text_id: text-niutrans-18ce96ba3f9a9dd68d7d
+  chapter_anchor: 传/匈奴传上#p328
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「与汉大将军接战一日，会暮，大风起，汉兵纵左右翼围单于。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 匈奴传上
+  historical_text_id: text-niutrans-4a3c4faa7575c98402ed
+  chapter_anchor: 传/匈奴传上#p306
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「其明年春，汉复遣大将军卫青将六将军，十余万骑，仍再出定襄数百里击匈奴，得首虏前后万九千余级。」；claim_field=background；anchor=段落精确锚。
+process_zh_cn: 大将军卫青将四将军出定襄，将军去病出代，各将五万骑；青出塞斩首万余，去病与左贤王战、斩获首虏七万余级。漠北接战：与汉大将军接战一日，会暮，大风起，汉兵纵左右翼围单于，单于遁走。
+impact_zh_cn: 漠北之战为汉匈战争之决战：汉由防御转入全面反攻并取得战略优势，匈奴远徙，汉之河西、西域经营遂次第展开；然终汉之世，匈奴未灭而边费浩大，论者以元狩之际为汉武用兵之极盛，亦为昭宣以降休养生息之由。
 places:
 - place_name_raw: 狼居胥山
   role: battlesite

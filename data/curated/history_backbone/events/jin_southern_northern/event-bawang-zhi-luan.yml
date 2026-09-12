@@ -24,6 +24,12 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 八王之乱耗尽西晋力量，直接导向永嘉之祸
+- target_event_id: event-yongjia-zhi-luan
+  relation_type: causes
+  description_zh_cn: 八王相攻耗竭国力，遂启永嘉之祸
+- target_event_id: event-xijin-mie-wang
+  relation_type: leads_to
+  description_zh_cn: 八王之乱为西晋覆亡之总因
 evidence:
 - work: 晋书
   term: 孝惠帝纪
@@ -97,10 +103,82 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: source-batch02：晋书源引文：「初，越以張方劫遷車駕，天下怨憤，唱義与山东諸侯克期奉迎。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 惠帝之世，齐王冏、河间王颙、成都王颖并拥强兵、各据一方；赵王伦党羽秀知诸王必有异图，乃选亲党为三王参佐郡守——宗室相图之势已成。
-result_zh_cn: 长沙王乂与齐王冏相攻：乂奉天子与冏战，连战三日，冏败被斩，并诛其党羽——八王相斫，洛阳屡经兵火。
-process_zh_cn: 及三王起兵讨赵王伦檄至，伦、秀始大惧，遣孙辅、张泓等率兵分出延寿、堮阪、成皋诸关以距义师。
-impact_zh_cn: 终局系于东海王越：越以张方劫迁车驾、天下怨愤，唱义与山东诸侯克期奉迎，先遣使说河间王颙送帝还都——八王之乱以越秉政、惠帝返洛收束，西晋元气已尽。
+- work: 晋书
+  term: 武帝纪
+  historical_text_id: text-wikisource-d614276b9892f320639c
+  chapter_anchor: 帝纪/武帝纪#p242
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「甲申，以汝南王亮爲大司馬、大都督、假黃鉞……並假節之国，各統方州軍事。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 八王列传
+  historical_text_id: text-wikisource-53cde43b8f446bef3bb4
+  chapter_anchor: 列传/八王列传#p8
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「及武帝寢疾，为楊駿所排，乃以亮为侍中、大司馬……未發，帝大漸，詔留亮委以后事……帝崩，亮懼駿疑己，辭疾不入。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 八王列传
+  historical_text_id: text-wikisource-6495778dce31f9d39686
+  chapter_anchor: 列传/八王列传#p21
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「楊駿之誅也，瑋屯司馬门……瓘等惡其为人，慮致禍亂……遂与宏謀，因積弩將軍李肇矯稱瑋命，譖亮、瓘于賈后。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-aca78509eda3371eb59f
+  chapter_anchor: 帝纪/愍帝纪#p45
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「石勒追东海王越喪……太尉王衍、吏部尚书刘望……等皆遇害，王公已下死者十餘萬人。东海世子毗及宗室四十八王尋又沒于石勒。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 八王列传
+  historical_text_id: text-wikisource-e739885456d69a609c45
+  chapter_anchor: 列传/八王列传#p87
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「汝南以純和之姿，失於無斷；楚隱習果銳之性，遂成凶很……倫實庸瑣，见欺孫秀，潛構異圖，煽成奸慝。」；claim_field=impact；anchor=段落精确锚。
+- work: 晋书
+  term: 八王列传
+  historical_text_id: text-wikisource-a74e1dbc01518a05ad10
+  chapter_anchor: 列传/八王列传#p4
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「夫为国之有籓屏，猶濟川之有舟楫……籓屏式固，禍亂何以成其階！」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 晋武帝惩魏氏孤立，大封宗室而假之兵权：以汝南王亮为大司马、大都督、假黄钺，诸王「并假节之国，各统方州军事」——藩屏之制既立，尾大之势亦成。武帝崩，杨骏排汝南王亮而独揽朝政，宗室与权臣之隙已开；遗诏留亮委以后事而骏从中书监索诏不还，亮惧骏疑己，辞疾不入。
+result_zh_cn: 乱久而国力尽耗：东海王越收兵下邳、专朝政而弃京师，石勒追越丧于道，太尉王衍、武陵王澹等皆遇害，「王公已下死者十余万人」，东海世子及宗室四十八王寻又没于石勒。光熙元年惠帝崩、怀帝即位，越犹专权；八王之中无一能安晋室，所谓「籓屏式固，祸乱何以成其阶」者，正谓此也。
+process_zh_cn: 杨骏之诛也，楚王玮屯司马门；玮少年果锐、多立威刑，汝南王亮与太保卫瓘以其性很戾不可大任，建议使与诸王之国，玮甚忿之。长史公孙宏、舍人岐盛遂因积弩将军李肇矫称玮命，谮亮、瓘于贾后；贾后使惠帝为诏废二公，亮、瓘皆被杀——八王相攻由是起。其后赵王伦、齐王冏、长沙王乂、成都王颖、河间王颙、东海王越相继执柄，十六年间兵连祸结。
+impact_zh_cn: 史臣论曰「汝南以纯和之姿，失于无断；楚隐习果锐之性，遂成凶很……伦实庸琐，见欺孙秀，潜构异图，煽成奸慝」——八王之乱耗竭中原兵力，胡骑遂长驱而入，永嘉之祸、西晋之亡皆基于此；后世论晋室之败，未有不以八王为首祸者。
 people:
 - person_name_raw: 司马乂
   role: opponent

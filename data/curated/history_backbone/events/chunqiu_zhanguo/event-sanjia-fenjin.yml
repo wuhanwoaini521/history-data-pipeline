@@ -10,8 +10,8 @@ date_precision: year
 period_id: period-warring-states
 importance: critical
 summary_zh_cn: 前403年，周威烈王正式册命韩、赵、魏三家为诸侯，晋国分裂为三国，史称"三家分晋"。《资治通鉴》以此为战国时代的开端。此事件标志世卿执政卿大夫夺权的制度性完成，列国兼并战争的新格局自此全面展开。
-background_zh_cn: 前403年，周威烈王正式册命韩、赵、魏三家为诸侯，晋国分裂为三国，史称"三家分晋"。《资治通鉴》以此为战国时代的开端。
-result_zh_cn: 此事件标志世卿执政卿大夫夺权的制度性完成，列国兼并战争的新格局自此全面展开。
+background_zh_cn: 晋自文公以后政权下移、卿族递兴：哀公四年，赵襄子、韩康子、魏桓子共杀知伯，尽并其地；三家分智氏之田，赵襄子漆智伯之头以为饮器——晋国名存而实亡。《史记》又追记曲沃武公赂周厘王而得「列为诸侯」之事，以见晋之兴替皆系于周室之名分。
+result_zh_cn: 三家既立，战国七雄之格局由此奠定；《通鉴》记「三家分智氏之田」与「初命晋大夫魏斯、赵籍、韩虔为诸侯」两事相承，赵、魏、韩皆以卿族升为诸侯，此后田氏代齐继之，战国兼并之局全面展开。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·晋世家》《资治通鉴·周纪一》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
@@ -122,8 +122,20 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c1：资治通鉴源引文：「君臣之礼既坏矣，则天下以智力相雄长，遂使圣贤之后为诸侯者，社稷无不泯绝。」；claim_field=impact；anchor=段落精确锚。
-process_zh_cn: 先是赵襄子、韩康子、魏桓子共杀知伯、尽并其地，三家分智氏之田（赵襄子漆智伯之头以为饮器）；至周威烈王二十三年，初命晋大夫魏斯、赵籍、韩虔为诸侯——三家由晋臣受命而立国。
-impact_zh_cn: 温公论之曰：「君臣之礼既坏矣，则天下以智力相雄长，遂使圣贤之后为诸侯者，社稷无不泯绝」——三家分晋被视为战国之始，礼崩乐坏、兼并大幕由此拉开。
+- work: 史记
+  term: 晋世家
+  historical_text_id: text-niutrans-0543ba23e481cfcf353e
+  chapter_anchor: 三十世家/晋世家#p72
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：史记源引文：「曲沃武公伐晋侯缗，灭之，尽以其宝器赂献于周厘王。厘王命曲沃武公为晋君，列为诸侯，于是尽并晋地而有之。」；claim_field=background；anchor=段落精确锚。周室册命之例，与三家受命相对照
+process_zh_cn: 至周威烈王二十三年，「初命晋大夫魏斯、赵籍、韩虔为诸侯」——三家由晋之世卿受天子册命而立国；名分既正，遂与齐、楚、燕、秦列于诸侯，晋君反朝于韩、赵、魏之君，晋地尽分而晋祀遂绝。
+impact_zh_cn: 司马光论之曰「君臣之礼既坏矣，则天下以智力相雄长，遂使圣贤之后为诸侯者，社稷无不泯绝」——三家分晋被视为战国之始：礼崩乐坏、兼并大幕由此拉开，世卿政治与名分秩序之崩解遂不可挽。
 places:
 - place_name_raw: 晋阳
   role: battlesite

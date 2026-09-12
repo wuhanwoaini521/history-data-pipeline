@@ -10,8 +10,8 @@ date_precision: year
 period_id: period-warring-states
 importance: critical
 summary_zh_cn: 前221年，秦王政兼并六国后自称"始皇帝"，建立中国历史上第一个中央集权的统一帝国，行郡县、书同文、车同轨、统一度量衡（制度层面细节另见秦汉批）。秦统一是先秦历史的终结，也是中国大一统格局的开端。
-background_zh_cn: 前221年，秦王政兼并六国后自称"始皇帝"，建立中国历史上第一个中央集权的统一帝国，行郡县、书同文、车同轨、统一度量衡（制度层面细节另见秦汉批）。
-result_zh_cn: 秦统一是先秦历史的终结，也是中国大一统格局的开端。
+background_zh_cn: 秦初并天下，令丞相、御史曰「异日韩王纳地效玺，请为藩臣，已而倍约，与赵、魏合从畔秦，故兴兵诛之，虏其王」——以武功告成而议正名；既而制曰「朕为始皇帝」，欲以二世三世传之无穷。名号之议既定，制度之更乃次第施行。
+result_zh_cn: 秦以郡县守尉监之制代封建诸侯，中央集权之官僚帝国形态自此立；「一法度衡石丈尺」「书同文字」「车同轨」并见《史记·秦始皇本纪》，六国异制归于一统，中国第一次以统一帝国的形态完成内部整合。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
@@ -43,6 +43,9 @@ people:
 relations:
 - target_event_id: event-qin-mie-liuguo
   relation_type: follows
+- target_event_id: event-xiu-changcheng
+  relation_type: precedes
+  description_zh_cn: 统一既成，乃有北筑长城、南征百越之役
 evidence:
 - work: 史记
   term: 秦始皇本纪
@@ -116,8 +119,44 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c1：史记源引文：「书同文字。」；claim_field=impact；anchor=段落精确锚。
-process_zh_cn: 秦初并天下，令丞相、御史曰「异日韩王纳地效玺……故兴兵诛之，虏其王」——以武功告成议帝号；分天下以为三十六郡，郡置守、尉、监。
-impact_zh_cn: 统一制度次第颁行：一法度衡石丈尺、书同文字、车同轨——「百代都行秦政法」，中国第一次以中央集权帝国形态完成整合。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-0049b66773f95f4a5c0c
+  chapter_anchor: 十二本纪/秦始皇本纪#p142
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：史记源引文：「其议帝号。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-6394afc7c383824ac7a7
+  chapter_anchor: 十二本纪/秦始皇本纪#p155
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：史记源引文：「朕为始皇帝。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-1f1a13608730ab20d41c
+  chapter_anchor: 十二本纪/秦始皇本纪#p177
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：史记源引文：「车同轨。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 统一之制次第颁行：分天下以为三十六郡，郡置守、尉、监，以郡县代封建；一法度衡石丈尺，以齐度量之器；书同文字，以秦篆画一六国之文；车同轨，以通天下之路——文字、度量衡、道路、政区皆归于一，中央之令直达郡县。
+impact_zh_cn: 统一制度之颁行为中国历史之枢纽：此后二千年虽朝代更迭，而郡县、文书、度量衡与文字之统一框架皆为常制，「百代都行秦政法」之谓由此而来；秦虽二世而亡，其制则历汉唐而不改。
 places:
 - place_name_raw: 咸阳
   role: capital

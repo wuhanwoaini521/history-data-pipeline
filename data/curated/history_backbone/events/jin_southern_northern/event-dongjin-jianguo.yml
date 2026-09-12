@@ -26,6 +26,9 @@ relations:
   relation_type: precedes
   confidence: 0.7
   description_zh_cn: 东晋初年祖逖等北伐恢复中原政策
+- target_event_id: event-yongjia-zhi-luan
+  relation_type: follows
+  description_zh_cn: 永嘉之乱迫使晋室南渡，江东立国
 evidence:
 - work: 晋书
   term: 元帝纪
@@ -99,10 +102,58 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: source-batch02：晋书源引文：「立世子紹爲晉王太子……王導都督中外諸軍事。」；claim_field=impact；anchor=段落精确锚。
-background_zh_cn: 永嘉初，司马睿用王导之计始镇建邺，以顾荣为军司马、贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤、存问风俗，江东归心。
-result_zh_cn: 六月，刘琨、段匹磾、慕容廆等一百八十人上书劝进——江东政权获得北方流亡势力与诸州牧守的承认。
-process_zh_cn: 愍帝诏使摄万机、时据旧都；三月，帝素服出次举哀三日，群臣以死固请上尊号，乃请依魏晋故事为晋王，许之，辛卯即王位。
-impact_zh_cn: 王位既立即建东晋体制：立世子绍为晋王太子，以王导都督中外诸军事、王敦为大将军——「王与马共天下」的江左门阀政治格局自此确立。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-334b1018ed4b63167f7e
+  chapter_anchor: 帝纪/元帝纪#p5
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「宣愍帝詔曰：遭運迍否，皇綱不振……朕今幽塞窮城，憂慮萬端……卿指詔丞相，具宣朕意，使攝萬機，时據舊都，修復陵廟，以雪大恥。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-e7341de4a5100554bb36
+  chapter_anchor: 帝纪/元帝纪#p21
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「三月癸丑，愍帝崩問至，帝斬縗居廬。丙辰，百僚上尊号……是日，卽皇帝位。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-c64df7fd68fe35293c64
+  chapter_anchor: 帝纪/元帝纪#p71
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「始秦时望氣者云「五百年后金陵有天子氣」……元帝之渡江也，乃五百二十六年，眞人之應在于此矣。」；claim_field=impact；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-1d8c84a29e53078dbec5
+  chapter_anchor: 帝纪/元帝纪#p9
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「自元康以来，艱難繁興，永嘉之際，氛厲……」；claim_field=impact；anchor=段落精确锚。劝进之文述乱世之势
+background_zh_cn: 永嘉初，琅邪王睿用王导之计始镇建邺，以顾荣为军司马、贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤、存问风俗，江东归心焉。及怀帝蒙尘于平阳，司空荀籓等移檄天下，推帝为盟主——晋室之望已系于江左。
+result_zh_cn: 东晋立于建康，中原因永嘉之乱而沦没，晋祚赖江左以存；《晋书》记「望气者云五百年后金陵有天子气……元帝之渡江也，乃五百二十六年」，南方立国之局自此奠定，侨姓与吴姓士族共戴晋室，江左百余年之基由是而立。
+process_zh_cn: 愍帝诏曰「朕今幽塞穷城，忧虑万端……卿指诏丞相，具宣朕意，使摄万机，时据旧都，修复陵庙，以雪大耻」——帝受诏而经营江左。建武元年三月癸丑，愍帝崩问至，帝斩缞居庐；丙辰，百僚上尊号，令曰「孤以不德，当厄运之极……咸勉之以大政，亦何敢辞」，是日即皇帝位。
+impact_zh_cn: 东晋以王导、王敦兄弟执柄，士族与皇权共治，「王与马共天下」之局成；此后宋、齐、梁、陈皆都建康，南北分立历二百年，中原士族南迁所携之文化、制度遂在江左延续，为隋唐制度之远源。
 people:
 - person_name_raw: 司马睿
   role: monarch

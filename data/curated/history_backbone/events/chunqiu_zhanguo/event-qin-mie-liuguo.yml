@@ -10,8 +10,8 @@ date_precision: range
 period_id: period-warring-states
 importance: critical
 summary_zh_cn: 秦王政自前230年灭韩起，历经十年，先后灭韩、赵、燕、魏、楚、齐，至前221年完成统一。秦灭六国结束战国数百年的兼并局面，是秦统一战争的总体进程（aggregate event，各阶段灭国节点见其 part_of 子事件）。
-background_zh_cn: 秦王政自前230年灭韩起，历经十年，先后灭韩、赵、燕、魏、楚、齐，至前221年完成统一。
-result_zh_cn: 秦灭六国结束战国数百年的兼并局面，是秦统一战争的总体进程（aggregate event，各阶段灭国节点见其 part_of 子事件）。
+background_zh_cn: 战国晚期，秦以远交近攻次第蚕食：兵未罢而将军王翦、桓齮、杨端和伐赵，攻邺取九城，王翦攻阏与、轑阳，桓齮取邺、安阳——赵之边城日削。秦王政既立，内史腾、王翦、蒙武并用，六国合从已不能成，灭国之机遂至。
+result_zh_cn: 六王毕而四海一：韩、赵、燕、魏、楚、齐次第而亡，其地皆为郡县。《史记》记韩王「纳地效玺，请为藩臣，已而倍约，与赵、魏合从畔秦，故兴兵诛之，虏其王」；又记「十九年，王翦、羌瘣尽定取赵地东阳，得赵王」「齐王用后胜计，绝秦使，欲为乱，兵吏诛，虏其王，平齐地」。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·秦始皇本纪》；现代参考：杨宽《战国史（增订本）》（上海人民出版社，2016）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
@@ -120,8 +120,56 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c1：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=impact；anchor=段落精确锚。
-process_zh_cn: 秦王政之世次第灭六国：十七年韩王纳地效玺请为藩臣，已而倍约，秦兴兵诛之、虏其王；十九年王翦、羌瘣尽定取赵地东阳，得赵王；其后灭魏、灭楚，二十五年虏燕王；二十六年齐王用后胜计绝秦使，兵吏诛之、虏其王，平齐地。
-impact_zh_cn: 六王毕而四海一：秦初并天下，令丞相、御史议帝号，分天下以为三十六郡，郡置守、尉、监——封建诸侯之局终结，郡县帝国自此建立。
+- work: 资治通鉴
+  term: 秦纪一
+  historical_text_id: text-niutrans-e27831d9f802efd61885
+  chapter_anchor: 秦纪/秦纪一#p390
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：资治通鉴源引文：「兵未罢，将军王翦、桓齮、杨端和伐赵，攻鄴，取九城。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 秦纪一
+  historical_text_id: text-niutrans-42f245a0b36270e9e035
+  chapter_anchor: 秦纪/秦纪一#p453
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：资治通鉴源引文：「内史胜灭韩，虏韩王安，以其地置颖川郡。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 秦纪一
+  historical_text_id: text-niutrans-5f03453500a996ed05f1
+  chapter_anchor: 秦纪/秦纪一#p464
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：资治通鉴源引文：「王翦击赵军，大破之，杀赵葱，颜聚亡，遂克邯郸，虏赵王迁。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 秦纪一
+  historical_text_id: text-niutrans-df8b1f45668a959e0d59
+  chapter_anchor: 秦纪/秦纪一#p468
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：资治通鉴源引文：「王翦屯中山以临燕。」；claim_field=process；anchor=段落精确锚。
+process_zh_cn: 秦王政之世次第灭六国：十七年，内史胜灭韩，虏韩王安，以其地置颍川郡；十九年，王翦将上地兵下井陉，端和将河内兵共伐赵，王翦击赵军大破之，杀赵葱、颜聚亡，遂克邯郸，虏赵王迁；王翦屯中山以临燕。其后灭魏、灭楚，二十五年虏燕王；二十六年，齐王用后胜计绝秦使，兵吏诛之、虏其王，平齐地。
+impact_zh_cn: 秦灭六国结束战国数百年兼并之局，封建诸侯之世自此终结；并为次年「分天下以为三十六郡，郡置守、尉、监」与文字、度量衡、车轨之画一奠定前提。此后二千年中国之统一王朝皆以郡县帝国为常轨，秦之灭六国实为其始。
 places:
 - place_name_raw: 邯郸
   role: battlesite

@@ -10,8 +10,8 @@ date_precision: year
 period_id: period-western-han
 importance: critical
 summary_zh_cn: 前154年正月，吴王刘濞联合楚、赵、胶西、胶东、菑川、济南六国起兵叛乱，以"诛晁错、清君侧"为名；景帝杀晁错而乱不止，遣周亚夫平定，三月乱平。七国之乱是郡国并行体制下中央与诸侯王国矛盾的总爆发，战后诸侯王权力被大幅削弱，中央集权显著加强。
-background_zh_cn: 前154年正月，吴王刘濞联合楚、赵、胶西、胶东、菑川、济南六国起兵叛乱，以"诛晁错、清君侧"为名；景帝杀晁错而乱不止，遣周亚夫平定，三月乱平。
-result_zh_cn: 七国之乱是郡国并行体制下中央与诸侯王国矛盾的总爆发，战后诸侯王权力被大幅削弱，中央集权显著加强。
+background_zh_cn: 景帝新立，信用晁错，将诛正诸侯王；晁错患诸侯强大不可制，「故请削之，以尊京师，万世之利也」。《汉书》记「景帝用晁错之计削吴、楚」，赵王遂亦以过削常山郡——诸侯怨望，吴、楚之反之机已伏。
+result_zh_cn: 景帝斩御史大夫晁错以谢七国而乱不止；邓公论之曰「夫晁错患诸侯强大不可制，故请削之，以尊京师，万世之利也」——诛错之失在于自折谋臣。诸将破七国，斩首十余万级，乱三月而平，吴王败走而死。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《汉书·景帝纪》《荆燕吴传》（汉书卷三十五，吴王刘濞事具见其中）；现代参考：翦伯赞《秦汉史》（北京大学出版社）；吕思勉《秦汉史》（上海古籍出版社）；田余庆《秦汉魏晋史探微》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》
@@ -138,8 +138,80 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: ready43-c1：汉书源引文：「诸将破七国，斩首十余万级。」；claim_field=impact；anchor=段落精确锚。
-process_zh_cn: 及削吴会稽、豫章郡书至，吴王先起兵，诛汉吏二千石以下；其将周丘一夜得三万人，遂将其兵北略城邑。
-impact_zh_cn: 景帝斩御史大夫晁错以谢七国而不止兵；诸将破七国、斩首十余万级——乱平，吴王败走、诸侯王坐大之患稍息，汉廷集权得以推进。
+- work: 汉书
+  term: 爰盎晁错传
+  historical_text_id: text-niutrans-3cf1ee2c0912b0f0ce19
+  chapter_anchor: 传/爰盎晁错传#p372
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「邓公曰：夫晁错患诸侯强大不可制，故请削之，以尊京师，万世之利也。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 诸侯王表
+  historical_text_id: text-niutrans-154bb704321a93fc216c
+  chapter_anchor: 表/诸侯王表#p30
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「故文帝采贾生之议分齐、赵，景帝用晁错之计削吴、楚。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 高五王传
+  historical_text_id: text-niutrans-9317bb08491b921fda10
+  chapter_anchor: 传/高五王传#p45
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「赵王遂立二十六年，孝景时晁错以过削赵常山郡，诸侯怨，吴、楚反，遂与合谋起兵。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 爰盎晁错传
+  historical_text_id: text-niutrans-2478465aacbe2dfc4fa0
+  chapter_anchor: 传/爰盎晁错传#p353
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「上卒问盎，对曰：吴、楚相遗书，言高皇帝王子弟各有分地，今贼臣晁错擅適诸侯，削夺之地，以故反名为西共诛错，复故地而罢。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 景十三王传
+  historical_text_id: text-niutrans-f26929f2926bb3c64be3
+  chapter_anchor: 传/景十三王传#p163
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「武帝初即位，大臣惩吴、楚七国行事，议者多冤晁错之策，皆以诸侯连城数十，泰强，欲稍侵削，数奏暴其过惩。」；claim_field=impact；anchor=段落精确锚。
+- work: 汉书
+  term: 五行志
+  historical_text_id: text-niutrans-703f04d53e288e0c9e79
+  chapter_anchor: 志/五行志下之下#p462
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D1：汉书源引文：「是时，景帝新立，信用晁错，将诛正诸侯王，其象先见。」；claim_field=background；anchor=段落精确锚。
+process_zh_cn: 及削吴会稽、豫章郡书至，吴王先起兵，诛汉吏二千石以下；其将周丘一夜得三万人，遂将其兵北略城邑。吴、楚相遗书曰「贼臣晁错擅適诸侯，削夺之地，以故反名为西共诛错，复故地而罢」——七国以「请诛晁错」为名而连兵西向。
+impact_zh_cn: 七国之乱为郡国并行体制下中央与诸侯矛盾的总爆发：乱平之后诸侯王权力大削，汉廷集权显著加强；武帝初即位，大臣惩吴、楚行事而「欲稍侵削」，推恩、左官诸法继之，诸侯连城数十之患遂除。
 places:
 - place_name_raw: 下邳
   role: battlesite

@@ -28,6 +28,9 @@ relations:
   relation_type: part_of
   confidence: 0.85
   description_zh_cn: 长安陷落西晋灭亡为永嘉之乱终点
+- target_event_id: event-xijin-mie-wang
+  relation_type: leads_to
+  description_zh_cn: 洛阳倾覆后长安孤悬，六年后愍帝出降而西晋亡
 evidence:
 - work: 晋书
   term: 孝怀帝纪
@@ -101,10 +104,82 @@ evidence:
   link_quality_status: reviewed
   context_keywords: []
   review_note: source-batch02：晋书源引文：「怀帝承乱得位，羁于强臣，愍帝奔播之后，徒厕其虚名，天下之政既去。」；claim_field=impact；anchor=段落精确锚。史论（本事件为 311–316 过程 aggregate）
-background_zh_cn: 怀帝永嘉元年三月，洛阳东北步广里地陷——史官载其异兆，天下已摇。
-result_zh_cn: 刘曜逼京师，内外断绝；公卿守长安小城自固——洛阳既陷（311），长安复成孤城（316），两京相继倾覆。
-process_zh_cn: 刘曜乘乱西进：攻北地、进至泾阳，渭北诸城悉溃；建威将军鲁充、散骑常侍梁纬等皆死之——永嘉乱后关中防线瓦解。
-impact_zh_cn: 史论晋室之亡：「怀帝承乱得位，羁于强臣，愍帝奔播之后，徒厕其虚名，天下之政既去」——衣冠南渡，北方沦入十六国。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-e70d989cc0dae12d4fee
+  chapter_anchor: 帝纪/愍帝纪#p48
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「六月癸未，刘曜、王彌、石勒同寇洛川，王師頻爲賊所敗，死者甚衆……丁酉、刘曜、王彌入京師。帝開華林園门，出河陰藕池，欲幸長安，爲曜等所追及。曜等遂焚燒宮廟，逼辱妃后。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-c35f5e57c43b01a230e0
+  chapter_anchor: 志/第十六章#p81
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「怀帝为刘曜所围，王师累败，府帑既竭，百官饥甚，比屋不见火烟，饥人自相啖食。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-0b643f82143521fa7eaa
+  chapter_anchor: 帝纪/元帝纪#p4
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「及懷帝蒙塵于平陽，司空荀籓等移檄天下，推帝为盟主。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 八王列传
+  historical_text_id: text-wikisource-dc877bcf6043d84fad72
+  chapter_anchor: 列传/八王列传#p50
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「及洛陽傾覆，超兄弟皆沒于刘聰，冏遂無后。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 志
+  historical_text_id: text-niutrans-8670216cb10ec2f2e5d9
+  chapter_anchor: 志/第九章#p418
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「自永嘉之乱，神州倾覆，兹事替矣。」；claim_field=impact；anchor=段落精确锚。
+- work: 晋书
+  term: 列传
+  historical_text_id: text-niutrans-df2a1203e0ed2e17dcca
+  chapter_anchor: 列传/第九章#p420
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: depth01-D2：晋书源引文：「怀帝蒙尘，司空王浚以组为司隶校尉。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 永嘉间，怀帝下诏重述齐王冏唱义元勋，而朝政实为东海王越所专；越收兵下邳、西迎大驾而弃京师，八王相攻既久，中原兵力空虚。惠帝之世，京师洛川之外郡县残破，胡骑已逼畿甸，祸变之机日迫，而朝廷犹内争不已。
+result_zh_cn: 怀帝蒙尘于平阳，司空荀籓等移檄天下、推琅邪王睿为盟主；志载「怀帝为刘曜所围，王师累败，府帑既竭，百官饥甚，比屋不见火烟，饥人自相啖食」——京师既陷，中原士民相率南渡，晋室之存亡系于江左。
+process_zh_cn: 永嘉五年（311年）六月，「刘曜、王弥、石勒同寇洛川，王师频为贼所败，死者甚众」；丁酉，刘曜、王弥入京师，帝开华林园门出河阴藕池、欲幸长安，为曜等所追及；曜等遂焚烧宫庙，逼辱妃后，吴王晏、竟陵王楙及尚书左仆射等皆遇害——洛阳倾覆。
+impact_zh_cn: 永嘉之乱为西晋覆亡之始，亦为中国政治中心首次大规模南移之枢：洛阳既陷，长安孤悬六载而亦亡；衣冠士族随之南迁，「自永嘉之乱，神州倾覆」遂成后世追述之痛，东晋南朝与十六国之局皆肇于此。
 people:
 - person_name_raw: 晋怀帝
   role: monarch
