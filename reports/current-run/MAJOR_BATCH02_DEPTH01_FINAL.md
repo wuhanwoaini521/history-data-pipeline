@@ -12,7 +12,7 @@
 | 30 新 Major ≥90 / 大多数 100 | 30/30 | **30/30 全部 100.0** | ✅ |
 | 20 深度事件 ≥15 升 STRONG | ≥15 | **20/20 升 STRONG**（四段均≥90 字） | ✅ |
 | 完整性 | validate OK，0 broken | Validation OK（618 事件，0 broken） | ✅ |
-| 测试 | Python/Rust 全绿 | Python 249 passed / 16 skipped；Rust 见 §7 | ✅ |
+| 测试 | Python/Rust 全绿 | Python 249 passed / 16 skipped；Rust 99 passed / 0 failed | ✅ |
 
 ## 1. 队列执行（0–17）
 
@@ -85,8 +85,8 @@ Depth Gate：STRONG 20→**70**；ADEQUATE 111→92；LOW 20→**19**；INCOMPLE
 
 - Python：`pytest tests/ -q` → **249 passed, 16 skipped, 0 failed**（4:54）。
 - 构建：`backbone validate` OK；`backbone --knowledge data/normalized/history.duckdb build` 重跑 dist 成功（测试后已重建，dist ≠ 仅种子）。
-- Rust：`cargo test -p devtoolbox-infrastructure --lib`（见执行记录；feishui evidence 期望 7 与 events≥618 均满足）。
-- tsc：父仓库未见 TS 工程变更（本轮只动子模块数据与报告）。
+- Rust：`cargo test -p devtoolbox-infrastructure --lib` → **99 passed, 0 failed**（feishui evidence 期望 7 与 events≥618 均满足）。
+- tsc：本轮未改 TS 代码；`apps/desktop` 无 node_modules（未安装依赖），按「未变更即跳过」处理并记录于此。
 
 ## 8. Git 提交清单（子模块 → gitlink）
 
