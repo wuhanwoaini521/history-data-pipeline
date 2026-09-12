@@ -24,3 +24,71 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 窦宪功高震主，和帝与宦官诛灭窦氏
+
+background_zh_cn: 五年冬，北匈奴六七千骑入于五原塞、遂寇云中，南单于击却之——北边未靖。
+process_zh_cn: 窦宪「惶恐，白太后求出击北匈奴以赎罪」——以赎罪之身统军北伐；九月，以车骑将军窦宪为大将军。
+result_zh_cn: 窦宪遂登燕然山，刻石勒功而还——燕然勒石，北匈奴远遁。
+impact_zh_cn: 诏曰「北狄破灭，名王仍降，西域诸国，纳质内附」——北匈奴破灭使东汉北疆与西域局面一新，然窦宪专权亦自此坐大（后果为「潜图弑逆」）。
+people:
+- person_name_raw: 窦宪
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 车骑将军→大将军：北伐北匈奴、燕然勒石
+  review_note: major01-F：后汉书·孝和孝殇帝纪「窦宪遂登燕然山，刻石勒功而还」
+  person_id: null
+places:
+- place_name_raw: 燕然山
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 窦宪刻石勒功之地
+  review_note: major01-F：后汉书·孝和孝殇帝纪「登燕然山，刻石勒功」
+evidence:
+- work: 后汉书
+  term: 南匈奴列传
+  historical_text_id: text-niutrans-177fcf45606531febf2d
+  chapter_anchor: 传/南匈奴列传#p123
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「五年冬，北匈奴六七千骑入于五原塞，遂寇云中，至原阳。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 袁张韩周列传
+  historical_text_id: text-niutrans-9f3b0b803856d92d95fc
+  chapter_anchor: 传/袁张韩周列传#p176
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「宪惶恐，白太后求出击北匈奴以赎罪。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 孝和孝殇帝纪
+  historical_text_id: text-niutrans-3f5fc1596a5fc1dd6dd5
+  chapter_anchor: 本纪/孝和孝殇帝纪#p36
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「窦宪遂登燕然山，刻石勒功而还。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 孝和孝殇帝纪
+  historical_text_id: text-niutrans-d3bad7c7fa329276c959
+  chapter_anchor: 本纪/孝和孝殇帝纪#p68
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「诏曰： 北狄破灭，名王仍降，西域诸国，纳质内附。」；claim_field=impact；anchor=段落精确锚。

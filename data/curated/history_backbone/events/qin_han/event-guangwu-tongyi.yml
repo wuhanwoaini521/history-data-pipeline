@@ -23,3 +23,89 @@ relations:
 - target_event_id: event-guangwu-dutian
   relation_type: precedes
   description_zh_cn: 统一后转入制度建设（度田等）
+
+background_zh_cn: 赤眉杀更始，而隗嚣据陇右、卢芳起安定——更始既亡，天下复归割据。
+process_zh_cn: 光武以推心置腹收降铜马之众：「降者犹不自安，光武知其意，敕令各归营勒兵，乃自乘轻骑按行部陈」——降者更相语曰「萧王推赤心置人腹中，安得不投死乎」，由是皆服。
+result_zh_cn: 王元降、陇右瓦解——光武次第削平群雄，至建武十二年巴蜀平定，天下复归一统。
+impact_zh_cn: 由是皆服：光武以恩信收众、以柔道治国，东汉立国之势自此定，洛阳中兴之局与西汉迥异。
+people:
+- person_name_raw: 刘秀
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 光武帝：统一战争主导者
+  review_note: major01-F：后汉书·光武帝纪「自乘轻骑按行部陈」
+  person_id: null
+- person_name_raw: 隗嚣
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 陇右割据者：据陇右抗汉
+  review_note: major01-F：后汉书·光武帝纪「隗嚣据陇右」
+  person_id: null
+places:
+- place_name_raw: 陇右
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 隗嚣割据之地，统一战争最后战场之一
+  review_note: major01-F：后汉书·光武帝纪「隗嚣据陇右」
+evidence:
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-360299c5b3e9837b713e
+  chapter_anchor: 本纪/光武帝纪上#p191
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「赤眉杀更始，而隗嚣据陇右，卢芳起安定。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-728aaa4573695eb4c88c
+  chapter_anchor: 本纪/光武帝纪上#p122
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「降者犹不自安，光武知其意，敕令各归营勒兵，乃自乘轻骑按行部陈。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-fe3d6cf8d8ca8d699741
+  chapter_anchor: 本纪/光武帝纪上#p123
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「萧王推赤心置人腹中，安得不投死乎！ 由是皆服。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-2cbea56a50585e75dbbb
+  chapter_anchor: 本纪/光武帝纪下#p107
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「王元降。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-fe3d6cf8d8ca8d699741
+  chapter_anchor: 本纪/光武帝纪上#p123
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「由是皆服。」；claim_field=impact；anchor=段落精确锚。恩信收众，东汉立国之基

@@ -23,3 +23,89 @@ relations:
 - target_event_id: event-dougu-beixiong
   relation_type: precedes
   description_zh_cn: 窦固北伐为同期对外经略
+
+background_zh_cn: 先是，公卿多以为宜闭玉门关、遂弃西域——西域去留之议起于朝堂。
+process_zh_cn: 班超定计袭鄯善：「不入虎穴，不得虎子」「灭此虏，则鄯善破胆，功成事立矣」——夜袭匈奴使，鄯善纳质归汉。
+result_zh_cn: 「于是西域五十余国悉皆纳质内属焉」——班超经营三十一年，西域复通。
+impact_zh_cn: 班超经营之策「兵可不费中国而粮食自足」——以西域之财养西域之兵，都护体制延续，丝路再通。
+people:
+- person_name_raw: 班超
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 西域都护：经营西域三十一年
+  review_note: major01-F：后汉书·班梁列传「不入虎穴，不得虎子」
+  person_id: null
+places:
+- place_name_raw: 鄯善
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 班超首功之地（夜袭匈奴使）
+  review_note: major01-F：后汉书·班梁列传「如令鄯善收吾属送匈奴」
+- place_name_raw: 西域
+  role: region
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 五十余国纳质内属之地
+  review_note: major01-F：后汉书·班梁列传「西域五十余国悉皆纳质内属焉」
+evidence:
+- work: 后汉书
+  term: 班梁列传
+  historical_text_id: text-niutrans-9339cc0fa5bae85ed692
+  chapter_anchor: 传/班梁列传#p241
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「先是，公卿多以为宜闭玉门关，遂弃西域。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 班梁列传
+  historical_text_id: text-niutrans-de48b88e1f2e4d76b99b
+  chapter_anchor: 传/班梁列传#p27
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「超曰： 不入虎穴，不得虎子。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 班梁列传
+  historical_text_id: text-niutrans-5ea85e8674f3493b399c
+  chapter_anchor: 传/班梁列传#p29
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「灭此虏，则鄯善破胆，功成事立矣。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 班梁列传
+  historical_text_id: text-niutrans-093f28eb6167c9a80a1b
+  chapter_anchor: 传/班梁列传#p171
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「于是西域五十余国悉皆纳质内属焉。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 班梁列传
+  historical_text_id: text-niutrans-7b1df539e4a35800fbb3
+  chapter_anchor: 传/班梁列传#p89
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「兵可不费中国而粮食自足。」；claim_field=impact；anchor=段落精确锚。

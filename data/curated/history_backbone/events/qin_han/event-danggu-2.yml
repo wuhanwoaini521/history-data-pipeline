@@ -23,3 +23,77 @@ relations:
 - target_event_id: event-three-yellow-turbans
   relation_type: precedes
   description_zh_cn: 黄巾起义（184）爆发后朝廷大赦党人，党锢终结
+
+background_zh_cn: 「张俭乡人朱并，承望中常侍侯览意旨，上书告俭与同乡二十四人别相署号，共为部党，图危社稷」——第二次党锢之导火索。
+process_zh_cn: 大长秋曹节讽有司奏捕前党：「故司空虞放、太仆杜密、长乐少府李膺……等百余人，皆死狱中」。
+result_zh_cn: 锢及五族：「而今党人锢及五族，既乖典训之文，有谬经常之法」——党锢之酷至此极。
+impact_zh_cn: 光和二年上禄长和海之言终获采纳，「党锢自从祖以下，皆得解释」——党锢虽解而汉室元气已伤，士人离心。
+people:
+- person_name_raw: 曹节
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 中常侍：讽有司奏捕前党
+  review_note: major01-F：后汉书·党锢列传「大长秋曹节因此讽有司奏捕前党」
+  person_id: null
+- person_name_raw: 侯览
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 中常侍：纵乡人告发张俭
+  review_note: major01-F：后汉书·党锢列传「承望中常侍侯览意旨」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 第二次党锢发端与行刑所在
+  review_note: major01-F：后汉书·党锢列传（皆死狱中）
+evidence:
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-858df02fe1de9d0a8796
+  chapter_anchor: 传/党锢列传#p47
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「张俭乡人朱，承望中常侍侯览意旨，上书告俭与同乡二十四人别相署号，共为部党，图危社稷。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-8cdb207c67ab9228c934
+  chapter_anchor: 传/党锢列传#p50
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「大长秋曹节因此讽有司奏捕前党……皆死狱中。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-4e526b66748c9b4a8d64
+  chapter_anchor: 传/党锢列传#p58
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「而今党人锢及五族，既乖典训之文，有谬经常之法。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-5d2468e23c10f1e395bd
+  chapter_anchor: 传/党锢列传#p59
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「帝览而悟之，党锢自从祖以下，皆得解释。」；claim_field=impact；anchor=段落精确锚。

@@ -23,3 +23,71 @@ relations:
 - target_event_id: event-hanmingdi-jiwei
   relation_type: precedes
   description_zh_cn: 度田及其余波后光武朝转入稳定
+
+background_zh_cn: 「是时，天下垦田多不以实，又户口年纪互有增减」——豪强隐匿田产人口，国家赋役失据。
+process_zh_cn: 诏下州郡检核垦田顷亩及户口年纪，又考实二千石长吏阿枉不平者——度田之政全国推行。
+result_zh_cn: 秋九月，河南尹张伋及诸郡守十余人，坐度田不实，皆下狱死——严法整肃。
+impact_zh_cn: 度田以严法核实编户：「在职五岁，户口增倍」——东汉国家户籍与赋役基础由此奠定，为明章之治的前提。
+people:
+- person_name_raw: 刘秀
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 光武帝：下度田之诏
+  review_note: major01-F：后汉书·光武帝纪「诏下州郡检核垦田顷亩及户口年纪」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 度田诏令所出
+  review_note: major01-F：后汉书·光武帝纪下（度田诏）
+evidence:
+- work: 后汉书
+  term: 朱景王杜马刘傅坚马列
+  historical_text_id: text-niutrans-9924dc3eb70317e3501b
+  chapter_anchor: 传/朱景王杜马刘傅坚马列#p154
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「是时，天下垦田多不以实，又户口年纪互有增减。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-d722e3d75d76a2cbb48f
+  chapter_anchor: 本纪/光武帝纪下#p186
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「诏下州郡检核垦田顷亩及户口年纪，又考实二千石长吏阿枉不平者。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-a4a7a7927c162648a59e
+  chapter_anchor: 本纪/光武帝纪下#p194
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「秋九月，河南尹张伋及诸郡守十余人，坐度田不实，皆下狱死。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 郭杜孔张廉王苏羊贾陆
+  historical_text_id: text-niutrans-65bba91ad005b03de6b1
+  chapter_anchor: 传/郭杜孔张廉王苏羊贾陆#p15
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「在职五岁，户口增倍。」；claim_field=impact；anchor=段落精确锚。

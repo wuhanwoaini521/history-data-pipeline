@@ -24,3 +24,71 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 明帝朝重开对西域的经略
+
+background_zh_cn: 中元二年二月戊戌，光武帝崩于南宫前殿，年六十二——东汉开国之君既没，储君继统。
+process_zh_cn: 中元二年二月戊戌，太子即皇帝位，年三十——是为汉明帝。
+result_zh_cn: 「是岁，天下安平，人无徭役，岁比登稔，百姓殷富，粟斛三十，牛羊被野」——明帝之世仓廪充实。
+impact_zh_cn: 史论明帝「善刑理，法令分明，日晏坐朝，幽枉必达」——明章之治以明帝严明之政开局，东汉进入全盛。
+people:
+- person_name_raw: 汉明帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 太子刘庄：即皇帝位
+  review_note: major01-F：后汉书·显宗孝明帝纪「即皇帝位，年三十」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 东汉国都：光武崩、明帝即位之地
+  review_note: major01-F：后汉书·光武帝纪「帝崩于南宫前殿」
+evidence:
+- work: 后汉书
+  term: 光武帝纪
+  historical_text_id: text-niutrans-74b632810d22aea22cac
+  chapter_anchor: 本纪/光武帝纪下#p401
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「二月戊戌，帝崩于南宫前殿，年六十二。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 显宗孝明帝纪
+  historical_text_id: text-niutrans-e132e34dc9aed4bcada9
+  chapter_anchor: 本纪/显宗孝明帝纪#p5
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「中元二年二月戊戌，即皇帝位，年三十。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 显宗孝明帝纪
+  historical_text_id: text-niutrans-923077aff079b6d6501a
+  chapter_anchor: 本纪/显宗孝明帝纪#p192
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「是岁，天下安平，人无徭役，岁比登稔，百姓殷富，粟斛三十，牛羊被野。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 显宗孝明帝纪
+  historical_text_id: text-niutrans-5cf5c2e2e0ff5dd38401
+  chapter_anchor: 本纪/显宗孝明帝纪#p284
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「明帝善刑理，法令分明。日晏坐朝，幽枉必达。」；claim_field=impact；anchor=段落精确锚。

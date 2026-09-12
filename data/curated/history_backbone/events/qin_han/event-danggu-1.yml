@@ -24,3 +24,77 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 第一次党锢未息士人斗志，十年后祸再起
+
+background_zh_cn: 「时，河内张成善说风角，推占当赦，遂教子杀人」——张成案牵出党人之狱。
+process_zh_cn: 「于是天子震怒，班下郡国，逮捕党人，布告天下，使同忿疾，遂收执膺等」——李膺等二百余人下狱。
+result_zh_cn: 明年，尚书霍谞、城门校尉窦武并表为请，帝意稍解，「乃皆赦归田里，禁锢终身」——第一次党锢。
+impact_zh_cn: 「党锢久积，人情多怨」——士大夫与宦官的对立自此不可解，党锢成为汉末政治崩坏与黄巾之乱的远因。
+people:
+- person_name_raw: 李膺
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 司隶校尉：党人领袖，下狱
+  review_note: major01-F：后汉书·党锢列传「遂收执膺等」
+  person_id: null
+- person_name_raw: 窦武
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 城门校尉：表请解党人之狱
+  review_note: major01-F：后汉书·党锢列传「城门校尉窦武并表为请」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 党人之狱所在（汉廷）
+  review_note: major01-F：后汉书·党锢列传（逮捕党人）
+evidence:
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-851f16c697fd26939ac5
+  chapter_anchor: 传/党锢列传#p28
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「时，河内张成善说风角，推占当赦，遂教子杀人。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-79c3e95f5702744c7352
+  chapter_anchor: 传/党锢列传#p32
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「于是天子震怒，班下郡国，逮捕党人……遂收执膺等。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-bb63f8c67b986c2f1cf8
+  chapter_anchor: 传/党锢列传#p35
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「乃皆赦归田里，禁锢终身。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 党锢列传
+  historical_text_id: text-niutrans-beb970a229906b163827
+  chapter_anchor: 传/党锢列传#p60
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-F：后汉书源引文：「中平元年，黄巾贼起，中常侍吕强言于帝曰： 党锢久积，人情多怨。」；claim_field=impact；anchor=段落精确锚。

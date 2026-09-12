@@ -15,14 +15,14 @@
     "complete": 90.0
   },
   "total_events": 618,
-  "complete_events": 144,
-  "complete_pct": 23.3,
-  "mean_score": 43.0,
+  "complete_events": 151,
+  "complete_pct": 24.4,
+  "mean_score": 43.9,
   "by_importance": {
     "major": {
       "count": 555,
-      "complete": 83,
-      "mean": 36.8
+      "complete": 90,
+      "mean": 37.8
     },
     "critical": {
       "count": 62,
@@ -38,13 +38,13 @@
   "by_dimension": {
     "people": {
       "label": "人物",
-      "count": 300,
-      "pct": 48.5
+      "count": 307,
+      "pct": 49.7
     },
     "place": {
       "label": "地点",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     },
     "source": {
       "label": "来源",
@@ -53,8 +53,8 @@
     },
     "evidence": {
       "label": "证据",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     },
     "related_event": {
       "label": "关联事件",
@@ -63,23 +63,23 @@
     },
     "background": {
       "label": "背景",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     },
     "process": {
       "label": "过程",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     },
     "result": {
       "label": "结果",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     },
     "impact": {
       "label": "影响",
-      "count": 144,
-      "pct": 23.3
+      "count": 151,
+      "pct": 24.4
     }
   },
   "by_period": [
@@ -215,13 +215,13 @@
       "start_year": 25,
       "end_year": 220,
       "events": 14,
-      "people_pct": 7.1,
-      "place_pct": 7.1,
-      "evidence_pct": 7.1,
+      "people_pct": 57.1,
+      "place_pct": 57.1,
+      "evidence_pct": 57.1,
       "relation_pct": 100.0,
       "source_pct": 100.0,
-      "complete_pct": 7.1,
-      "mean_score": 27.8
+      "complete_pct": 57.1,
+      "mean_score": 66.7
     },
     {
       "period_id": "period-late-eastern-han",
@@ -576,18 +576,18 @@
       "mean_score": 30.3
     },
     {
-      "period_id": "period-eastern-han",
-      "name_zh_cn": "东汉",
-      "start_year": 25,
-      "end_year": 220,
-      "events": 14,
-      "people_pct": 7.1,
-      "place_pct": 7.1,
-      "evidence_pct": 7.1,
-      "relation_pct": 100.0,
+      "period_id": "period-sui",
+      "name_zh_cn": "隋",
+      "start_year": 581,
+      "end_year": 618,
+      "events": 24,
+      "people_pct": 50.0,
+      "place_pct": 8.3,
+      "evidence_pct": 8.3,
+      "relation_pct": 83.3,
       "source_pct": 100.0,
-      "complete_pct": 7.1,
-      "mean_score": 27.8
+      "complete_pct": 8.3,
+      "mean_score": 31.5
     }
   ]
 }
