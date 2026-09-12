@@ -15,14 +15,14 @@
     "complete": 90.0
   },
   "total_events": 618,
-  "complete_events": 151,
-  "complete_pct": 24.4,
-  "mean_score": 43.9,
+  "complete_events": 159,
+  "complete_pct": 25.7,
+  "mean_score": 44.9,
   "by_importance": {
     "major": {
       "count": 555,
-      "complete": 90,
-      "mean": 37.8
+      "complete": 98,
+      "mean": 38.9
     },
     "critical": {
       "count": 62,
@@ -38,13 +38,13 @@
   "by_dimension": {
     "people": {
       "label": "人物",
-      "count": 307,
-      "pct": 49.7
+      "count": 313,
+      "pct": 50.6
     },
     "place": {
       "label": "地点",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     },
     "source": {
       "label": "来源",
@@ -53,8 +53,8 @@
     },
     "evidence": {
       "label": "证据",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     },
     "related_event": {
       "label": "关联事件",
@@ -63,23 +63,23 @@
     },
     "background": {
       "label": "背景",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     },
     "process": {
       "label": "过程",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     },
     "result": {
       "label": "结果",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     },
     "impact": {
       "label": "影响",
-      "count": 151,
-      "pct": 24.4
+      "count": 159,
+      "pct": 25.7
     }
   },
   "by_period": [
@@ -327,13 +327,13 @@
       "start_year": 618,
       "end_year": 907,
       "events": 60,
-      "people_pct": 53.3,
-      "place_pct": 25.0,
-      "evidence_pct": 25.0,
+      "people_pct": 63.3,
+      "place_pct": 38.3,
+      "evidence_pct": 38.3,
       "relation_pct": 100.0,
       "source_pct": 100.0,
-      "complete_pct": 25.0,
-      "mean_score": 44.8
+      "complete_pct": 38.3,
+      "mean_score": 54.8
     },
     {
       "period_id": "period-five-dynasties-ten-kingdoms",

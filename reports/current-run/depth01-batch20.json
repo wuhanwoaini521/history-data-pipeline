@@ -1,0 +1,30 @@
+{
+ "D1_先秦秦汉": [
+  "event-qin-mie-liuguo",
+  "event-qin-tongyi",
+  "event-sanjia-fenjin",
+  "event-qiguo-zhi-luan",
+  "event-mobei-zhizhan"
+ ],
+ "D2_晋群": [
+  "event-bawang-zhi-luan",
+  "event-dongjin-jianguo",
+  "event-jin-mie-wu",
+  "event-xijin-mie-wang",
+  "event-yongjia-zhi-luan"
+ ],
+ "D3_南北朝隋": [
+  "event-beiwei-fenlie",
+  "event-beizhou-mie-beiqi",
+  "event-houjing-zhi-luan",
+  "event-sui-mie-chen"
+ ],
+ "D4_唐宋明": [
+  "event-houliang-dai-tang",
+  "event-chenqiao-bingbian",
+  "event-jingkang-zhi-bian",
+  "event-yanya-haizhan",
+  "event-tumu-bao-zhibian",
+  "event-saerhu-zhizhan"
+ ]
+}

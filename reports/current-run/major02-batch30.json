@@ -1,0 +1,42 @@
+{
+ "G_唐": [
+  "event-baijiangkou-zhizhan",
+  "event-dafeichuan-zhizhan",
+  "event-ganlu-zhi-bian",
+  "event-huai-xi-zhi-zhan",
+  "event-huangchao-ru-changan",
+  "event-huichang-miefo",
+  "event-jianzhong-zhi-luan",
+  "event-kaiyuan-shengshi"
+ ],
+ "H_明": [
+  "event-beijing-baoweizhan",
+  "event-chongzhen-jiwei",
+  "event-jianwen-xuefan",
+  "event-donglin-dangzheng",
+  "event-duomen-zhibian",
+  "event-houjin-jianguo",
+  "event-dongnan-wokou",
+  "event-daliyi"
+ ],
+ "I_元": [
+  "event-hongjin-jun-qiyi",
+  "event-guo-zixing-qibing",
+  "event-chenyouliang-dai-han",
+  "event-han-liner-chengdi",
+  "event-jialu-zhihe",
+  "event-nanpo-zhi-bian"
+ ],
+ "J_春秋": [
+  "event-chengpu-zhizhan",
+  "event-bi-zhizhan",
+  "event-boju-zhizhan",
+  "event-guanzhong-gaige"
+ ],
+ "K_隋": [
+  "event-kaihuang-zhizhi",
+  "event-dayunhe-kaiwa",
+  "event-jiangdu-bingbian",
+  "event-liyuan-qibing"
+ ]
+}
