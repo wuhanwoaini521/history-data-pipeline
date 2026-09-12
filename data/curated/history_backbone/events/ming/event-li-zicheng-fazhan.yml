@@ -26,3 +26,83 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 称帝建大顺。
+
+background_zh_cn: 李自成自湖广走河南，饥民附之，连陷宜阳、永宁，杀万安王采崿，陷偃师，势大炽——中原饥荒成为其势力扩张的土壤。
+process_zh_cn: 李自成陷延安，寻屠凤翔，西北震动。
+result_zh_cn: 其势进退河南陕西之间：李自成走归德，与罗汝才复入陕西，诸部离合不定而实力日增。
+impact_zh_cn: 明廷议者已视之为心腹之患：「陕有李自成、惠登相等，大部未能剿绝」——围剿方略力主隔绝诸部使不得合，然终不能制。
+people:
+- person_name_raw: 李自成
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 闯王：饥民依附、转战河南陕西
+  review_note: source-batch02：明史·庄烈帝本纪「李自成自湖广走河南，饥民附之……势大炽」
+  person_id: null
+- person_name_raw: 罗汝才
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 流贼首领：与李自成合兵入陕西
+  review_note: source-batch02：明史·庄烈帝本纪「李自成走归德，与罗汝才复入陕西」
+  person_id: null
+places:
+- place_name_raw: 河南
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 饥民依附、连陷诸县之地
+  review_note: source-batch02：明史·庄烈帝本纪「自湖广走河南，饥民附之」
+- place_name_raw: 陕西
+  role: region
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 与罗汝才复入之地
+  review_note: source-batch02：明史·庄烈帝本纪「与罗汝才复入陕西」
+evidence:
+- work: 明史
+  term: 庄烈帝本纪二
+  historical_text_id: text-niutrans-8f2ab0d8906423af63c4
+  chapter_anchor: 本纪/卷二十四#p95
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「是月，李自成自湖广走河南，饥民附之，连陷宜阳、永宁，杀万安王采崿，陷偃师，势大炽。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝本纪二
+  historical_text_id: text-niutrans-6f6394fd7bcca127b189
+  chapter_anchor: 本纪/卷二十四#p237
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「十一月甲午，李自成陷延安，寻屠凤翔。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝本纪一
+  historical_text_id: text-niutrans-a016b1fc98a69fd359de
+  chapter_anchor: 本纪/卷二十三#p251
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「李自成走归德，与罗汝才复入陕西。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 列传
+  historical_text_id: text-niutrans-73a37f98e30529e61446
+  chapter_anchor: 列传/卷一百四十#p43
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「然陕有李自成、惠登相等，大部未能剿绝。」；claim_field=impact；anchor=段落精确锚。

@@ -34,8 +34,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: content
 - work: 资治通鉴
@@ -47,10 +46,90 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 唐纪/唐纪一
   link_method: exact
-background_zh_cn: 武德元年（618年）五月，李渊在长安称帝，国号唐，隋恭帝禅让，隋朝正式灭亡。
-result_zh_cn: 唐朝建立继隋之后开启中国历史上又一个强盛王朝，并迅速展开统一全国的战争。
-# promoted from data/candidates/batch03/event-tang-jianguo.yml (AUTO_ACCEPT gate)
+- work: 资治通鉴
+  term: 唐纪一
+  historical_text_id: text-niutrans-d9b0524ca2e68d55fd8b
+  chapter_anchor: 唐纪/唐纪一#p4
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「春，正月，丁未朔，隋恭帝诏唐王剑履上殿，赞拜不名。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪一
+  historical_text_id: text-niutrans-fe87494963d478f2e794
+  chapter_anchor: 唐纪/唐纪一#p148
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「戊辰，隋恭帝诏以十郡益唐国，仍以唐王为相国，总百揆……又加九锡。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪一
+  historical_text_id: text-niutrans-d996903b432b80669377
+  chapter_anchor: 唐纪/唐纪一#p240
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「戊午，隋恭帝禅位于唐，逊居代邸。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪一
+  historical_text_id: text-niutrans-179f6b1a52857dfa3227
+  chapter_anchor: 唐纪/唐纪一#p241
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「甲子，唐王即皇帝位于太极殿，遣刑部尚书萧造告天于南郊，大赦，改元。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪一
+  historical_text_id: text-niutrans-1f70b5ba029068ec4420
+  chapter_anchor: 唐纪/唐纪一#p244
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「隋炀帝凶问至东都，戊辰，留守官奉越王即皇帝位，大赦，改元皇泰。」；claim_field=impact；anchor=段落精确锚。隋室残余立越王，天下归唐之势已成
+background_zh_cn: 春正月丁未朔，隋恭帝诏唐王剑履上殿、赞拜不名；戊辰，诏以十郡益唐国，以唐王为相国、总百揆，唐国置丞相以下官，又加九锡——禅代之礼次第完备。
+result_zh_cn: 甲子，唐王即皇帝位于太极殿，遣刑部尚书萧造告天于南郊，大赦，改元——唐兴而隋统终结。
+process_zh_cn: 戊午，隋恭帝禅位于唐，逊居代邸。
+impact_zh_cn: 大赦改元、告天南郊，唐承隋制而立——隋唐易代以「禅让」形式完成，唐室自此开启三百年基业。
+people:
+- person_name_raw: 李渊
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 唐高祖：受禅即位、唐朝开国
+  review_note: ready43-c2：通鉴唐纪一「唐王即皇帝位于太极殿」
+  person_id: null
+- person_name_raw: 隋恭帝
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 隋末代皇帝：禅位逊居代邸
+  review_note: ready43-c2：通鉴唐纪一「隋恭帝禅位于唐，逊居代邸」
+  person_id: null
+places:
+- place_name_raw: 太极殿
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 唐王即位之地（长安宫城正殿）
+  review_note: ready43-c2：通鉴唐纪一「唐王即皇帝位于太极殿」

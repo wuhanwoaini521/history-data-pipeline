@@ -41,8 +41,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《梁书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《梁书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: content
 - work: 梁书
@@ -54,10 +53,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《梁书·侯景传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《梁书·侯景传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷五十六
   link_method: content
-background_zh_cn: 太清二年至承圣元年（548—552年），北魏降将侯景反梁，围建康、破台城，梁武帝饿死（549年），江南文物尽焚、人口锐减。
-result_zh_cn: 侯景之乱是南朝由盛转衰的总爆发：梁朝统治瓦解、南朝再也无力抗衡北朝，并催生陈朝与北周、北齐南北格局的新一轮洗牌。
-# promoted from data/candidates/batch03/event-houjing-zhi-luan.yml (AUTO_ACCEPT gate)
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: text-niutrans-8057fd2c54539d66f403
+  chapter_anchor: 本纪/卷三#p553
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：梁书源引文：「庚辰，魏司徒侯景求以豫、广、颍、洛、阳、西扬、东荆、北荆、襄、东豫、南兗、西兗、齐等十三州内属。」；claim_field=background；anchor=段落精确锚。
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: text-niutrans-eb4a7f98e12dd7fe251d
+  chapter_anchor: 本纪/卷五#p12
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：梁书源引文：「三年三月，侯景寇没京师。」；claim_field=process；anchor=段落精确锚。
+- work: 梁书
+  term: 侯景传
+  historical_text_id: text-niutrans-5a9f80dabc3298f0df44
+  chapter_anchor: 列传/卷五十六#p222
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：梁书源引文：「引玄武湖水灌台城，城外水起数尺，阙前御街并为洪波矣。」；claim_field=process；anchor=段落精确锚。
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: text-niutrans-a38d6bd22b60070a64a2
+  chapter_anchor: 本纪/卷三#p624
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：梁书源引文：「庚午，侯景自为都督中外诸军事、大丞相、录尚书。」；claim_field=result；anchor=段落精确锚。
+- work: 梁书
+  term: 武帝纪
+  historical_text_id: text-niutrans-efc09702712eb622fd98
+  chapter_anchor: 本纪/卷三#p632
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：梁书源引文：「五月丙辰，高祖崩于净居殿，时年八十六。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 魏司徒侯景求以豫、广、颍、洛等十三州内属，梁纳之——侯景东奔降梁，梁廷处置失当，祸根埋下。
+result_zh_cn: 台城既没，侯景自为都督中外诸军事、大丞相、录尚书，逼太宗幸西州——权移于叛将。
+process_zh_cn: 三年三月，侯景寇没京师；其党引玄武湖水灌台城，城外水起数尺、阙前御街并为洪波，悉逼百姓及军士家累入台城。
+impact_zh_cn: 五月丙辰，高祖崩于净居殿，时年八十六——梁武帝饿死台城，江南残破、梁室名存实亡，南朝士族元气大伤。
+people:
+- person_name_raw: 侯景
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 降将：举兵陷台城、专擅梁政
+  review_note: ready43-c4：梁书「侯景自为都督中外诸军事、大丞相」
+  person_id: null
+- person_name_raw: 梁武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 梁高祖：台城陷后崩于净居殿
+  review_note: ready43-c4：梁书·武帝纪「高祖崩于净居殿，时年八十六」
+  person_id: null
+places:
+- place_name_raw: 台城
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 梁宫城：被围灌水、终致陷落
+  review_note: ready43-c4：梁书·侯景传「引玄武湖水灌台城」

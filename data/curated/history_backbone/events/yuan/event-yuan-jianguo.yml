@@ -11,7 +11,8 @@ period_id: period-yuan
 regime_ids:
 - regime-yuan
 importance: critical
-summary_zh_cn: 至元八年（1271 年）十一月，忽必烈采纳刘秉忠等建议，取《易经》"大哉乾元"之义改国号为"大元"；大蒙古国（1206—1271，regime-mongol-empire）至此以"元"为国号，1279 年灭南宋后成为统治全中国的王朝。
+summary_zh_cn: 至元八年（1271 年）十一月，忽必烈采纳刘秉忠等建议，取《易经》"大哉乾元"之义改国号为"大元"；大蒙古国（1206—1271，regime-mongol-empire）至此以"元"为国号，1279
+  年灭南宋后成为统治全中国的王朝。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《元史·世祖纪》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
@@ -26,3 +27,80 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 元军攻灭南宋（1276 临安降、1279 崖山）。
+background_zh_cn: 中统元年（1260），忽必烈即皇帝位（元史·世祖纪：辛卯，帝即皇帝位），冬驻燕京近郊，设燕京路宣慰司抚治之，以开平府为草创期政治中心（诸路市马、运米皆输开平府）。
+process_zh_cn: 至元八年（1271）十一月，禁行金《泰和律》；刘秉忠、王磐、徒单公履等建言正元正朝会圣节诏赦百官宣敕之仪，诏从之；同月乙亥，诏告天下：建国号曰大元。
+result_zh_cn: 国号正式定为「大元」——诏书明言「可建国号曰大元，盖取《易经》乾元之义」，一改秦汉以「初起之地名」、隋唐以「所封之爵邑」命名的旧例；同期颁行新朝仪、废金律。
+impact_zh_cn: 诏书自陈立号之义：「诞膺景命，奄四海以宅尊；必有美名，绍百王而纪统」，以绍续百王之正统自命；「事从因革，道协天人」。国号的义理化命名与禁金律、定朝仪同批推行，标志蒙元政权从草原大汗体制向中原王朝体制的制度转向。
+people:
+- person_name_raw: 刘秉忠
+  role: minister
+  link_status: needs_linking
+  role_zh_cn: 建言朝仪、参预立制
+  review_note: overnight-08：元史·世祖纪 卷七 行274「乙亥，刘秉忠及王磐、徒单公履等言：元正、朝会、圣节、诏赦及百官宣敕，具公服迎拜行礼。从之。」
+  person_id: null
+places:
+- place_name_raw: 开平府
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 世祖即位前后草创期政治中心（诸路市马、运米输开平府）
+  review_note: overnight-08：元史·世祖纪 卷四 行82「征诸路兵三万驻燕京近地，命诸路市马万匹送开平府。」
+- place_name_raw: 燕京
+  role: location
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 世祖即位之冬驻跸近郊，置燕京路宣慰使
+  review_note: overnight-08：元史·世祖纪 卷四 行17「是冬，驻燕京近郊」、行21「以祃祃、赵璧、董文炳为燕京路宣慰使」
+evidence:
+- work: 元史
+  term: 世祖纪
+  historical_text_id: text-niutrans-1ca6de6b4fd9a58d67ae
+  chapter_anchor: 本纪/卷七#p288
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷七/source.txt:288）引文：「可建国号曰大元，盖取《易经》
+    乾元 之义。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference normalizer；anchor=章首段）
+- work: 元史
+  term: 世祖纪
+  historical_text_id: text-niutrans-8629cf0bfffeeb2445fe
+  chapter_anchor: 本纪/卷七#p277
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷七/source.txt:277）引文：「诞膺景命，奄四海以宅尊；必有美名，绍百王而纪统。」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 元史
+  term: 世祖纪
+  historical_text_id: text-niutrans-75fb9c2c6633dd14cc73
+  chapter_anchor: 本纪/卷七#p275
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷七/source.txt:275）引文：「禁行金《泰和律》。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 元史
+  term: 世祖纪
+  historical_text_id: text-niutrans-c672bc835a5883b20580
+  chapter_anchor: 本纪/卷四#p21
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷四/source.txt:21）引文：「辛卯，帝即皇帝位，以祃祃、赵璧、董文炳为燕京路宣慰使。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

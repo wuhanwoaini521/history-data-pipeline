@@ -34,8 +34,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/光武十王列传
   link_method: content
 - work: 资治通鉴
@@ -47,10 +46,84 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·汉纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·汉纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 汉纪/汉纪一
   link_method: exact
+- work: 后汉书
+  term: 光武帝纪上
+  historical_text_id: text-niutrans-68f1ea55cfa357183423
+  chapter_anchor: 本纪/光武帝纪上#p110
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：后汉书源引文：「更始遣侍御史持节立光武为萧王，悉令罢兵诣行在所。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪上
+  historical_text_id: text-niutrans-337d7f939456ec06867d
+  chapter_anchor: 本纪/光武帝纪上#p158
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：后汉书源引文：「行至鄗……奉《赤伏符》。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪上
+  historical_text_id: text-niutrans-7dae2d98aac3bd933078
+  chapter_anchor: 本纪/光武帝纪上#p161
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：后汉书源引文：「六月己未，即皇帝位。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 光武帝纪上
+  historical_text_id: text-niutrans-83272c2e2cfd2e33f697
+  chapter_anchor: 本纪/光武帝纪上#p186
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：后汉书源引文：「冬十月癸丑，车驾入洛阳，幸南宫却非殿，遂定都焉。」；claim_field=impact；anchor=段落精确锚。
 background_zh_cn: 公元25年（更始三年/建武元年）六月，刘秀在鄗县（今河北柏乡一带）称帝，仍用"汉"国号，史称后汉或东汉；随后定都洛阳。
 result_zh_cn: 东汉的建立结束了新莽以来的政治混乱，中国历史进入东汉时代。
-# promoted from data/candidates/batch02/event-guangwu-chengdi.yml (AUTO_ACCEPT gate)
+process_zh_cn: 更始遣侍御史持节立光武为萧王；行至鄗，同舍生彊华自关中奉《赤伏符》曰「刘秀发兵捕不道，四夷云集龙斗野，四七之际火为主」——六月己未，即皇帝位。
+impact_zh_cn: 冬十月癸丑，车驾入洛阳，幸南宫却非殿，遂定都焉——东汉肇建，汉祚中兴。
+people:
+- person_name_raw: 刘秀
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 汉光武帝：由萧王即帝位，东汉开国
+  review_note: ready43-c1：后汉书·光武帝纪「六月己未，即皇帝位」
+  person_id: null
+- person_name_raw: 彊华
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 奉《赤伏符》劝进者
+  review_note: ready43-c1：后汉书·光武帝纪「同舍生彊华自关中奉《赤伏符》」
+  person_id: null
+places:
+- place_name_raw: 鄗
+  role: city
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 光武即皇帝位之地
+  review_note: ready43-c1：后汉书·光武帝纪「行至鄗……即皇帝位」
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 东汉定都之地
+  review_note: ready43-c1：后汉书·光武帝纪「车驾入洛阳……遂定都焉」

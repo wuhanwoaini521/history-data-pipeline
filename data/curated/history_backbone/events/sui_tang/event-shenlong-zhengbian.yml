@@ -36,8 +36,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧唐书·则天皇后纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷六
   link_method: content
 - work: 资治通鉴
@@ -49,10 +48,84 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·唐纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 唐纪/唐纪一
   link_method: exact
-background_zh_cn: 神龙元年（705年）正月张柬之、崔玄暐等发动政变，迫武则天退位，中宗李显复位，复国号唐。武周政权终结，武则天不久病逝。
-result_zh_cn: 神龙政变是唐朝恢复的关键政治事件，武周时期由此落幕。
-# promoted from data/candidates/batch03/event-shenlong-zhengbian.yml (AUTO_ACCEPT gate)
+- work: 旧唐书
+  term: 则天皇后纪
+  historical_text_id: text-niutrans-792b15823cf418d7c398
+  chapter_anchor: 本纪/卷六#p214
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「初为宠臣张易之及其弟昌宗置控鹤府官员，寻改为奉宸府，班在御史大夫下。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 则天皇后纪
+  historical_text_id: text-niutrans-68fd7e2383299f0bbf53
+  chapter_anchor: 本纪/卷六#p278
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「癸亥，麟台监张易之与弟司仆卿昌宗反，皇太子率左右羽林军桓彦范、敬晖等，以羽林兵入禁中诛之。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪二十三
+  historical_text_id: text-niutrans-8aedc010f30b9223f043
+  chapter_anchor: 唐纪/唐纪二十三#p444
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「丙午，中宗即位。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 则天皇后纪
+  historical_text_id: text-niutrans-59b198ebbf9637e9d53b
+  chapter_anchor: 本纪/卷六#p282
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「则天将大渐，遗制祔庙、归陵，令去帝号，称则天大圣皇后。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 则天晚年宠臣张易之及其弟昌宗置控鹤府官员，寻改奉宸府，班在御史大夫下——二张用事，朝局不安。
+result_zh_cn: 丙午，中宗即位——李唐复辟。
+process_zh_cn: 癸亥，麟台监张易之与弟司仆卿昌宗反，皇太子率左右羽林军桓彦范、敬晖等，以羽林兵入禁中诛之。
+impact_zh_cn: 冬十一月壬寅，则天将大渐，遗制祔庙、归陵，令去帝号、称则天大圣皇后——武周政权终结，李唐皇统恢复，武氏以皇后身份祔葬乾陵。
+people:
+- person_name_raw: 张易之
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 则天宠臣：神龙政变中被诛
+  review_note: ready43-c2：旧唐书·则天皇后纪「张易之与弟司仆卿昌宗反……诛之」
+  person_id: null
+- person_name_raw: 唐中宗
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 皇太子：政变后即位复位
+  review_note: ready43-c2：通鉴唐纪二十三「丙午，中宗即位」
+  person_id: null
+- person_name_raw: 桓彦范
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 羽林军将领：率兵入禁中诛二张
+  review_note: ready43-c2：旧唐书「皇太子率左右羽林军桓彦范、敬晖等」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 政变发生地（神都禁中/上阳宫）
+  review_note: ready43-c2：旧唐书·则天皇后纪（禁中诛二张、崩于上阳宫）

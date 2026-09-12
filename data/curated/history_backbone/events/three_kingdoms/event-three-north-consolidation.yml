@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 官渡之后曹操集团继续巩固北方控制力。
-result_zh_cn: 北方形成相对集中的军事政治力量。
+result_zh_cn: 九月，公引兵自柳城还，康即斩尚、熙及速仆丸等，传其首——袁氏覆灭，河北悉平。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -47,19 +46,72 @@ places:
   link_confidence: null
   review_note: 现有同名记录与事件定位仍需复核。
 evidence:
-- historical_text_id: text-niutrans-0019afc7ba67932eee5b
+- historical_text_id: text-niutrans-2fe875d7c6a090272092
   work: 三国志
   term: 曹操
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.85
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：武帝纪河北平定终局（袁氏覆灭，曹操北方巩固）。引文：「九月，公引兵自柳城还，康即斩尚、熙及速仆丸等，传其首。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 魏书/武帝纪#p387
+  link_method: manual
+- work: 三国志
+  term: 武帝纪
+  historical_text_id: text-niutrans-e06fe7ca44eb46103b34
+  chapter_anchor: 魏书/武帝纪#p287
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「夏四月，进军邺。」；claim_field=background；anchor=段落精确锚。
+- work: 三国志
+  term: 武帝纪
+  historical_text_id: text-niutrans-cc764bc13a73b893b211
+  chapter_anchor: 魏书/武帝纪#p296
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「公之去邺而南也，谭、尚争冀州，谭为尚所败，走保平原。」；claim_field=process；anchor=段落精确锚。
+- work: 三国志
+  term: 武帝纪
+  historical_text_id: text-niutrans-2fe875d7c6a090272092
+  chapter_anchor: 魏书/武帝纪#p387
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「九月，公引兵自柳城还，康即斩尚、熙及速仆丸等，传其首。」；claim_field=result；anchor=段落精确锚。
+- work: 三国志
+  term: 武帝纪
+  historical_text_id: text-niutrans-9a55eec4ee1b24556fa9
+  chapter_anchor: 魏书/武帝纪#p392
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「汉罢三公官，置丞相、御史大夫。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-jingzhou-change
   relation_type: leads_to
   confidence: 0.75
   description_zh_cn: 北方力量南下使荆州成为争夺焦点。
+background_zh_cn: 夏四月，曹操进军邺——袁氏根本之地，河北决战之地。
+process_zh_cn: 公之去邺而南也，谭、尚争冀州，谭为尚所败、走保平原——袁氏兄弟阋墙，曹操乘之。
+impact_zh_cn: 汉罢三公官、置丞相、御史大夫——北方既固，曹操中枢集权，为南征与魏室肇基铺路。

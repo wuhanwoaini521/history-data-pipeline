@@ -43,8 +43,7 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《清实录·世祖实录》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+  review_note: 《清实录·世祖实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 - work: 明史
   term: 庄烈帝纪
   historical_text_id: text-niutrans-d971953ed53da5e30fce
@@ -54,10 +53,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二十三
   link_method: content
-background_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
-result_zh_cn: 顺治元年（1644 年）四月，吴三桂引清军入关，在山海关与大顺军李自成部交战，大顺军败退，清军随即进入北京；同年十月顺治帝迁都北京，清朝定鼎中原，明清易代完成。
-# promoted from data/candidates/batch05/event-qingjun-ru-guan.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-f104a688ea08d1dd9c70
+  chapter_anchor: 本纪/卷二十四#p275
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「癸巳，封总兵官吴三桂、左良玉、唐通、黄得功俱为伯。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-5274274044ec475d4645
+  chapter_anchor: 本纪/卷二十四#p183
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「庚辰，大清兵克蓟州。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-c468d084612c8b693c95
+  chapter_anchor: 本纪/卷二十四#p293
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「是年夏四月，我大清兵破贼于山海关。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-c468d084612c8b693c95
+  chapter_anchor: 本纪/卷二十四#p293
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「五月，入京师。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-c468d084612c8b693c95
+  chapter_anchor: 本纪/卷二十四#p293
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「以帝体改葬，令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 癸巳，明廷封总兵官吴三桂、左良玉、唐通、黄得功俱为伯——危急之秋倚重边将，山海关之得失系于三桂。
+result_zh_cn: 五月，大清兵入京师。
+process_zh_cn: 是年夏四月，我大清兵破贼于山海关。
+impact_zh_cn: 入京师后以帝体改葬、令臣民为服丧三日，谥曰庄烈愍皇帝、陵曰思陵——清朝以「为明复仇」的名义入主中原，中国历史进入清朝时期。
+people:
+- person_name_raw: 吴三桂
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 明总兵：封伯，后引清兵入关
+  review_note: ready43-c5：明史·庄烈帝纪「封总兵官吴三桂……俱为伯」
+  person_id: null
+- person_name_raw: 多尔衮
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 清摄政王：统兵入关
+  review_note: ready43-c5：明史·庄烈帝纪「我大清兵破贼于山海关」（清方主帅为多尔衮，见清史稿）
+  person_id: null
+places:
+- place_name_raw: 山海关
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 破贼入关之地
+  review_note: ready43-c5：明史·庄烈帝纪「我大清兵破贼于山海关」

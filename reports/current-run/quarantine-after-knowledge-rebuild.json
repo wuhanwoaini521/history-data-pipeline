@@ -3,7 +3,7 @@
     "event_id": "event-mongol-jianguo",
     "batch": "batch04",
     "before": {
-      "score": 87.7,
+      "score": 88.7,
       "verdict": "QUARANTINE_MEDIUM"
     },
     "after": {
@@ -79,7 +79,7 @@
     "event_id": "event-yuan-jianguo",
     "batch": "batch04",
     "before": {
-      "score": 87.7,
+      "score": 88.7,
       "verdict": "QUARANTINE_MEDIUM"
     },
     "after": {

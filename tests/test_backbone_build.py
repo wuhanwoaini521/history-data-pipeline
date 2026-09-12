@@ -38,10 +38,10 @@ def test_backbone_build():
     assert counts["events"] == 618  # Batch8 完成（52 new）
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 1057  # 1062 - Phase2 反向修复（-7 +2）
+    assert counts["event_relations"] == 1071  # +Queue 2 8 + 安史平定 2 + ready43（鼎立形成 2 + 楚汉余波 2）
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
-    assert counts["event_place"] == 26
-    assert counts["event_evidence"] == 130  # 26 既有 + Calibration Batch 01 ×2 + Calibration 02–07 提升 42 事件×2（救援 +16 事件二次证据 = +32）
+    assert counts["event_place"] == 145  # 95 + ready43 location 登记 - 5 去重
+    assert counts["event_evidence"] == 569  # 373 + ready43 六个 cluster 196 条字段锚
     assert counts["periods"] == 31
     assert counts["regimes"] == 64  # +Batch8 满洲国/中华苏维埃
     assert manifest["counts"]["events"] == counts["events"]
@@ -156,8 +156,11 @@ def test_dist_evidence_rows_are_reviewed():
         assert reviewed == total
         # legacy 兼容表 event_text 仅镜像已锚定文本的证据（historical_text_id 非空），
         # 与 event_evidence 中可锚定的行数一致；未锚定（pending_knowledge / needs_linking）行保留于 event_evidence。
+        # event_text 以 (event_id, historical_text_id) 为键：同一段落锚支撑多 claim_field 时
+        # （batch02 Queue 10 起）evidence 多行、镜像一行，故按 DISTINCT 对计数。
         anchored = connection.execute(
-            "SELECT COUNT(*) FROM event_evidence WHERE historical_text_id IS NOT NULL"
+            "SELECT COUNT(*) FROM (SELECT DISTINCT event_id, historical_text_id FROM event_evidence "
+            "WHERE historical_text_id IS NOT NULL)"
         ).fetchone()[0]
         legacy = connection.execute("SELECT COUNT(*) FROM event_text").fetchone()[0]
         assert legacy == anchored

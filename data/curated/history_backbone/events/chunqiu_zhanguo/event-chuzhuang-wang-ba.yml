@@ -17,4 +17,96 @@ source_reference: 古代史料：《史记·楚世家》《左传》；现代参
 source_ids:
 - work-curated-shiji
 - work-curated-zuozhuan
-relations: []
+relations:
+- target_event_id: event-jinwen-gong-ba
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 晋楚争霸进程的直接交接：城濮之战晋败楚而晋文公主盟中原（前632），楚庄王邲之战大败晋师（前597）代晋主盟——霸权在两国间易手。
+- target_event_id: event-chengpu-zhizhan
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 楚于城濮（前632）败于晋；楚庄王霸业以邲之战大败晋师翻转城濮之败，晋楚霸权易手，属同一晋楚争霸进程。
+background_zh_cn: 庄王即位三年不出号令、日夜为乐，伍举以「三年不蜚不鸣」之鸟讽谏，庄王答「三年不蜚，蜚将冲天；三年不鸣，鸣将惊人」，随即亲政振作，楚势日张。
+process_zh_cn: 八年（前606）伐陆浑戎，遂至洛，观兵于周郊，遣人问鼎之大小轻重，王孙满对以「在德不在鼎」，庄王乃归。十七年（前597）春围郑，三月克之，郑伯肉袒牵羊逆降，庄王引兵退三十里许其求平；夏六月，晋出兵救郑，楚与晋战于河上，大败晋师，遂至衡雍而归。
+result_zh_cn: 邲之战（河上之役）大败晋师，楚庄王代晋主盟中原；二十年（前594）围宋五月，宋城中食尽、易子而食，华元出告以情，庄王罢兵而去——郑、宋诸国皆服从于楚。
+impact_zh_cn: 庄王以「以义伐之而贪其县，亦何以复令于天下」复国陈后，立信义于诸侯，霸主政治以德义为号召。楚霸虽成，晋楚相争未绝：庄王卒后至共王十六年（前575），晋楚战于鄢陵，晋败楚、射中共王目，两国争霸长期拉锯。
+people:
+- person_name_raw: 楚庄王
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 问鼎中原、邲之战败晋、主盟中原
+  review_note: overnight-08：史记·楚世家 行139「楚王问鼎小大轻重」、行172「大败晋师河上」
+  person_id: null
+- person_name_raw: 王孙满
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 周定王使，劳楚王并以「在德不在鼎」答问鼎
+  review_note: overnight-08：史记·楚世家 行138-139「周定王使王孙满劳楚王。楚王问鼎小大轻重，对曰：在德不在鼎。」
+  person_id: null
+places:
+- place_name_raw: 洛
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 庄王伐陆浑戎后观兵周郊、问鼎之地
+  review_note: overnight-08：史记·楚世家 行138「伐陆浑戎，遂至洛，观兵于周郊」
+- place_name_raw: 郑
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 庄王十七年围郑三月克之
+  review_note: overnight-08：史记·楚世家 行162「十七年春，楚庄王围郑，三月克之」
+evidence:
+- work: 史记
+  term: 楚世家
+  historical_text_id: text-niutrans-2b189ea285b7ab2a0585
+  chapter_anchor: 三十世家/楚世家#p172
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/三十世家/楚世家/source.txt:172）引文：「夏六月，晋救郑，与楚战，大败晋师河上，遂至衡雍而归。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 楚世家
+  historical_text_id: text-niutrans-3963179b4ff8008c8dff
+  chapter_anchor: 三十世家/楚世家#p139
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/三十世家/楚世家/source.txt:139）引文：「楚王问鼎小大轻重，对曰：
+    在德不在鼎。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference normalizer；anchor=章首段）
+- work: 史记
+  term: 楚世家
+  historical_text_id: text-niutrans-2bcfe97762789b03e08c
+  chapter_anchor: 三十世家/楚世家#p160
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/三十世家/楚世家/source.txt:160）引文：「且王以陈之乱而率诸侯伐之，以义伐之而贪其县，亦何以复令于天下！」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 楚世家
+  historical_text_id: text-niutrans-72bbef4dd79f2668f8a5
+  chapter_anchor: 三十世家/楚世家#p128
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/三十世家/楚世家/source.txt:128）引文：「庄王曰：
+    三年不蜚，蜚将冲天；三年不鸣，鸣将惊人。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

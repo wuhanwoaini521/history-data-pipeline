@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.9
-  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
-    [V2 source=event-shangtang-miexia.yml]
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator [V2 source=event-shangtang-miexia.yml]
 relations:
 - target_event_id: event-shang-jianguo
   relation_type: leads_to
@@ -61,7 +60,60 @@ evidence:
   review_note: 《尚书·汤誓》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 商书/汤誓
   link_method: exact
-# event-shangtang-miexia — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 尚书
+  term: 汤誓
+  historical_text_id: text-niutrans-c7cea9d9c100baa496c0
+  chapter_anchor: 商书/汤誓#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：尚书源引文：「伊尹相汤伐桀，升自陑，遂与桀战于鸣条之野，作《汤誓》。」；claim_field=background；anchor=段落精确锚。
+- work: 尚书
+  term: 汤誓
+  historical_text_id: text-niutrans-4640fcfe53639be9354f
+  chapter_anchor: 商书/汤誓#p2
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：尚书源引文：「王曰： 格尔众庶，悉听朕言，非台小子，敢行称乱！」；claim_field=process；anchor=段落精确锚。
+- work: 尚书
+  term: 汤誓
+  historical_text_id: text-niutrans-a414343d516b2b416034
+  chapter_anchor: 商书/汤誓#p5
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：尚书源引文：「夏氏有罪，予畏上帝，不敢不正。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 殷本纪
+  historical_text_id: text-niutrans-cf2fabf7e73738b9e0f2
+  chapter_anchor: 十二本纪/殷本纪#p38
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「诸侯闻之，曰： 汤德至矣，及禽兽。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 伊尹相汤伐桀，升自陑，遂与桀战于鸣条之野；汤誓众曰「格尔众庶，悉听朕言，非台小子，敢行称乱」「夏氏有罪，予畏上帝，不敢不正」——以天命为号讨夏。
+impact_zh_cn: 汤既胜夏，诸侯闻之曰「汤德至矣，及禽兽」——商以德义之名声代夏而立，汤誓成为后世「吊民伐罪」的文告典范。
+places:
+- place_name_raw: 鸣条
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 汤桀决战之野
+  review_note: ready43-c1：尚书·汤誓「遂与桀战于鸣条之野」

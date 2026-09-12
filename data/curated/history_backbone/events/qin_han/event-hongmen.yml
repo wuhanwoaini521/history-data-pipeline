@@ -13,8 +13,7 @@ summary_zh_cn: 刘邦入关后与项羽集团之间的一次关键政治会面�
 result_zh_cn: 刘邦暂时脱身，楚汉之间的竞争继续发展。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -36,6 +35,18 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 范增
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 项羽谋臣（亚父）：劝击沛公未果，碎玉斗预言天下归属
+  review_note: major-batch01：项羽本纪「夺项王天下者，必沛公也」
+  person_id: null
+- person_name_raw: 樊哙
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 沛公参乘：侧盾撞卫士入帐护主
+  review_note: major-batch01：项羽本纪「樊哙侧其盾以撞，卫士仆地，哙遂入」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 鸿门
@@ -47,17 +58,79 @@ places:
   link_confidence: null
   review_note: 现有鴻門记录的有效年代与本事件不一致，保留 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-0f1cfcd46351a2e24217
+- historical_text_id: text-niutrans-4d1d69a992f26f8293a6
   work: 史记
   term: 鸿门
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：项羽本纪鸿门对峙核心段。引文：「当是时，项羽兵四十万，在新丰鸿门，沛公兵十万，在霸上。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 十二本纪/项羽本纪#p199
+  link_method: manual
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-08840e0e7fd241c46a9e
+  chapter_anchor: 十二本纪/项羽本纪#p197
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「沛公左司马曹无伤使人言於项羽曰： 沛公欲王关中，使子婴为相，珍宝尽有之。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-f4096b15253261c6f807
+  chapter_anchor: 十二本纪/项羽本纪#p252
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「樊哙侧其盾以撞，卫士仆地，哙遂入，披帷西乡立，瞋目视项王。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-d129d1dd7a4c39e98e05
+  chapter_anchor: 十二本纪/项羽本纪#p279
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「沛公则置车骑，脱身独骑，与樊哙、夏侯婴、靳彊、纪信等四人持剑盾步走，从郦山下，道芷阳间行。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-e8da0dee5412aa4d1e32
+  chapter_anchor: 十二本纪/项羽本纪#p284
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「亚父受玉斗，置之地，拔剑撞而破之，曰： 唉！」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-e9e8bef6c6561458eda6
+  chapter_anchor: 十二本纪/项羽本纪#p286
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「夺项王天下者，必沛公也，吾属今为之虏矣。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-war
   relation_type: part_of
@@ -67,3 +140,6 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 鸿门宴后的政治竞争继续发展为楚汉战争。
+background_zh_cn: 沛公军霸上，未得与项羽相见；左司马曹无伤使人言于项羽「沛公欲王关中，使子婴为相，珍宝尽有之」，项羽大怒，欲旦日飨士卒击破沛公军。时项羽兵四十万在新丰鸿门，沛公兵十万在霸上。
+process_zh_cn: 项伯夜驰告张良，沛公约为婚姻、请其转达「吾入关，秋豪不敢有所近……日夜望将军至，岂敢反乎」；项伯还报「不如因善遇之」，项王许诺。沛公旦日从百馀骑至鸿门谢项王；宴间樊哙侧盾撞卫士而入，披帷西乡立，瞋目视项王。
+impact_zh_cn: 亚父范增受玉斗置之地、拔剑撞而破之，曰「唉！竖子不足与谋。夺项王天下者，必沛公也，吾属今为之虏矣」；沛公至军，立诛杀曹无伤——鸿门一场，楚汉相争的格局由此注定。

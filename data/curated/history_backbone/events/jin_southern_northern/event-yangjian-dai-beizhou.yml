@@ -35,8 +35,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 帝纪/卷一
   link_method: content
 - work: 周书
@@ -48,8 +47,76 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《周书·静帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 开皇元年（581年）杨坚废周静帝自立，国号隋，都大兴（长安）。隋朝建立标志北朝政权更替完成，南北统一已进入最后阶段。
-result_zh_cn: 杨坚代周与隋建立为同一节点。
-# promoted from data/candidates/batch03/event-yangjian-dai-beizhou.yml (AUTO_ACCEPT gate)
+  review_note: 《周书·静帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-d0631b47eaceb727c5c5
+  chapter_anchor: 帝纪/卷一#p54
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「时静帝幼冲，未能亲理政事。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-a4b555c66f50214df73c
+  chapter_anchor: 帝纪/卷一#p99
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「开皇元年二月甲子，上自相府常服入宫，备礼即皇帝位于临光殿。」；claim_field=process；anchor=段落精确锚。
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-58fc51b8077b778ba792
+  chapter_anchor: 帝纪/卷一#p131
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「辛丑，陈散骑常侍韦鼎……来聘于周，至而上已受禅，致之介国。」；claim_field=result；anchor=段落精确锚。
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-a4b555c66f50214df73c
+  chapter_anchor: 帝纪/卷一#p99
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「开皇元年二月甲子，上自相府常服入宫，备礼即皇帝位于临光殿。」；claim_field=impact；anchor=段落精确锚。隋承周制而兴，开皇之治发端于此
+background_zh_cn: 时静帝幼冲，未能亲理政事——杨坚以隋国公、大丞相总揽周政，禅代之局渐成。
+result_zh_cn: 受禅已定：陈使韦鼎等来聘于周，「至而上已受禅，致之介国」——外邦来使亲历易代。
+process_zh_cn: 开皇元年二月甲子，上自相府常服入宫，备礼即皇帝位于临光殿。
+impact_zh_cn: 隋受周禅而承其制度基业，开皇之治由此发端，并为统一南北奠定国力——北周武帝奠定的强势，最终成全了隋室。
+people:
+- person_name_raw: 杨坚
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 隋国公→隋文帝：受周禅、建隋
+  review_note: ready43-c4：隋书·高祖纪「备礼即皇帝位于临光殿」
+  person_id: null
+- person_name_raw: 周静帝
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 北周末帝：幼冲在位，禅位于隋
+  review_note: ready43-c4：隋书·高祖纪「时静帝幼冲，未能亲理政事」
+  person_id: null
+places:
+- place_name_raw: 临光殿
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 杨坚即皇帝位之地
+  review_note: ready43-c4：隋书·高祖纪「即皇帝位于临光殿」

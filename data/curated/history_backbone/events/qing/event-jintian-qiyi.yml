@@ -27,3 +27,83 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 起义军两年后攻占南京定都。
+
+background_zh_cn: 粤西岁饥多盗，湖南雷再浩、新宁李沅发复窜入为乱；洪秀全乘之，与杨秀清创立保良攻匪会，练兵筹饷，归附者益众。
+process_zh_cn: 是月，广东花县人洪秀全在广西桂平县金田起事——拜上帝会众团营举兵，太平天国运动由此发端。
+result_zh_cn: 起义后清廷调兵进剿：钦差大臣李星沅奏「剿贼金田获胜」，然乱势已成、官军未能扑灭。
+impact_zh_cn: 金田举兵迅速扩展为席卷长江的战争：石达开攻武昌，众号五十万，资粮军械尽置舟中，分两岸步骑夹行，进向九江、黄州——太平军由一隅起事发展为南北交争之势力。
+people:
+- person_name_raw: 洪秀全
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 拜上帝会首领：金田起事、建号太平天国
+  review_note: source-batch02：清史稿·文宗本纪「廣东花縣人洪秀全在廣西桂平縣金田起事」
+  person_id: null
+- person_name_raw: 杨秀清
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 与洪秀全创立保良攻匪会、练兵筹饷
+  review_note: source-batch02：清史稿·洪秀全传「秀全乘之，与楊秀清創立保良攻匪会」
+  person_id: null
+places:
+- place_name_raw: 金田
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 起义爆发地（广西桂平县金田村）
+  review_note: source-batch02：清史稿·文宗本纪「在廣西桂平縣金田起事」
+- place_name_raw: 桂平
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 洪秀全、杨秀清传教团营之地
+  review_note: source-batch02：清史稿·洪秀全传「傳教至廣西，居桂平」
+evidence:
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-19a5bc69f4cbd0c4056c
+  chapter_anchor: 列传/洪秀全传#p2
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「秀全乘之，与楊秀清創立保良攻匪会，練兵籌餉，歸附者益眾。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 文宗本纪
+  historical_text_id: text-wikisource-9ffe35cb659b50dcb6ca
+  chapter_anchor: 本纪/文宗本纪#p7
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「是月，廣东花縣人洪秀全在廣西桂平縣金田起事。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 文宗本纪
+  historical_text_id: text-wikisource-def26983fd886ac81875
+  chapter_anchor: 本纪/文宗本纪#p16
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「庚午，李星沅奏剿賊金田獲勝。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-c6a5226f335215dd1d28
+  chapter_anchor: 列传/洪秀全传#p8
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「时石達開攻武昌……寇棄武昌駕船东下，眾号五十萬，資糧、軍械、子女、財帛盡置舟中，分兩岸步騎夾行。」；claim_field=impact；anchor=段落精确锚。

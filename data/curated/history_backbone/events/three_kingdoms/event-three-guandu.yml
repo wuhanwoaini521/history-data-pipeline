@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 曹操与袁绍争夺北方主导权的关键战役。
-result_zh_cn: 曹操取得优势，北方统一进程加速。
+result_zh_cn: 士卒皆殊死战，遂大破之，斩琼等、尽燔其粮谷；于是绍军惊扰大溃，绍及谭等幅巾乘马、与八百骑渡河。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -46,20 +45,79 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 现有同名 Place 的有效年代不匹配，保留 needs_linking。
+- place_name_raw: 乌巢
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 袁氏辎重屯所：曹操轻兵焚粮
+  review_note: ready43-c6：通鉴汉纪五十五「袁氏辎重万馀乘，在故市、乌巢」
 evidence:
-- historical_text_id: text-niutrans-2d9290ecab76e5fa9242
+- historical_text_id: text-niutrans-2b40fe3e825750663819
   work: 资治通鉴
   term: 官渡
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴汉纪五十五乌巢之计（官渡决战核心）。引文：「袁氏辎重万馀乘，在故市、乌巢，屯军无严备，若以轻兵袭之，不意而至，燔其积聚，不过三日，袁氏自败也。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 汉纪/汉纪五十五#p324
+  link_method: manual
+- work: 资治通鉴
+  term: 汉纪五十五
+  historical_text_id: text-niutrans-0f73f873c122629ca8f7
+  chapter_anchor: 汉纪/汉纪五十五#p195
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「曹操还军官渡，绍乃议攻许，田丰曰……」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十五
+  historical_text_id: text-niutrans-2b40fe3e825750663819
+  chapter_anchor: 汉纪/汉纪五十五#p324
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「袁氏辎重万馀乘，在故市、乌巢，屯军无严备，若以轻兵袭之……不过三日，袁氏自败也。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十五
+  historical_text_id: text-niutrans-a1207db255ef5abeb519
+  chapter_anchor: 汉纪/汉纪五十五#p338
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「士卒皆殊死战，遂大破之，斩琼等，尽燔其粮谷。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十五
+  historical_text_id: text-niutrans-6dbd12c6f310f01f4186
+  chapter_anchor: 汉纪/汉纪五十五#p343
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「于是绍军惊扰，大溃，绍及谭等幅巾乘马，与八百骑渡河。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-north-consolidation
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 官渡后曹操集团继续巩固北方。
+background_zh_cn: 曹操还军官渡，绍乃议攻许，田丰谏之以持久——袁绍倾河北之众南下，两雄决战在即。
+process_zh_cn: 袁氏辎重万余乘在故市、乌巢，屯军无严备，曹操以轻兵袭之，不意而至、燔其积聚。
+impact_zh_cn: 官渡之败使袁绍元气大伤，河北由盛转衰——曹操由此奠定统一北方之势。

@@ -13,8 +13,7 @@ summary_zh_cn: 楚汉战争中的重要反攻与会战节点。
 result_zh_cn: 楚军在彭城取得优势，刘邦集团重新调整战略。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -36,6 +35,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 项羽
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 楚军主帅：自齐回击、大破汉军于睢水
+  review_note: major-batch01：高祖本纪「项羽闻之，乃引兵去齐……大破汉军」
+  person_id: null
 places:
 - place_id: ctext-place-489739
   place_name_raw: 彭城
@@ -47,17 +52,67 @@ places:
   link_confidence: 0.9
   review_note: null
 evidence:
-- historical_text_id: text-niutrans-0164588692a8c5a97bdb
+- historical_text_id: text-niutrans-cf1616150fc6dc30426a
   work: 史记
   term: 彭城
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：高祖本纪彭城之战入城段。引文：「汉王以故得劫五诸侯兵，遂入彭城。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 十二本纪/高祖本纪#p291
+  link_method: manual
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-cf1616150fc6dc30426a
+  chapter_anchor: 十二本纪/高祖本纪#p291
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「汉王以故得劫五诸侯兵，遂入彭城。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-ecd7c67e64370ee4ff33
+  chapter_anchor: 十二本纪/高祖本纪#p292
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「项羽闻之，乃引兵去齐，从鲁出胡陵，至萧，与汉大战彭城灵壁东睢水上，大破汉军，多杀士卒，睢水为之不流。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-5293b4660e8059d2df7d
+  chapter_anchor: 十二本纪/高祖本纪#p293
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「乃取汉王父母妻子於沛，置之军中以为质。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-180b5d05300cfdaf4eff
+  chapter_anchor: 十二本纪/高祖本纪#p294
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「当是时，诸侯见楚彊汉败，还皆去汉复为楚。塞王欣亡入楚。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-war
   relation_type: part_of
@@ -67,3 +122,6 @@ relations:
   relation_type: follows
   confidence: 0.9
   description_zh_cn: 彭城战后楚汉双方在荥阳一线相持。
+background_zh_cn: 汉王以故得劫五诸侯兵，遂入彭城——项羽主力陷于齐地，刘邦乘虚东进占据楚都。
+process_zh_cn: 项羽闻之，乃引兵去齐，从鲁出胡陵至萧，与汉大战彭城灵壁东睢水上，大破汉军，多杀士卒，睢水为之不流。
+impact_zh_cn: 当是时，诸侯见楚彊汉败，还皆去汉复为楚，塞王欣亡入楚——刘邦集团惨败后收兵砀地，楚汉战争由局部冲突转为全面相持。

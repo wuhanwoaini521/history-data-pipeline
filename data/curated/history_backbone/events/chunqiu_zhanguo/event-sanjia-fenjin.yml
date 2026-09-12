@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-sanjia-fenjin.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-sanjia-fenjin.yml]
 - person_id: ctext-person-692385
   person_name_raw: 魏文侯
   role: participant
@@ -40,8 +39,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-sanjia-fenjin.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-sanjia-fenjin.yml]
 relations:
 - target_event_id: event-jin-mie-zhi
   relation_type: follows
@@ -76,7 +74,60 @@ evidence:
   review_note: 《资治通鉴·周纪一》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 周纪/周纪一
   link_method: exact
-# event-sanjia-fenjin — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 史记
+  term: 晋世家
+  historical_text_id: text-niutrans-5f6e29eacf97f5284c01
+  chapter_anchor: 三十世家/晋世家#p859
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「哀公四年，赵襄子、韩康子、魏桓子共杀知伯，尽并其地。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 周纪一
+  historical_text_id: text-niutrans-4a70b5677c80a0004093
+  chapter_anchor: 周纪/周纪一#p134
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「三家分智氏之田。赵襄子漆智伯之头，以为饮器。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 周纪一
+  historical_text_id: text-niutrans-384a8a08a35c8bae3966
+  chapter_anchor: 周纪/周纪一#p3
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「二十三年初命晋大夫魏斯、赵籍、韩虔为诸侯。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 周纪一
+  historical_text_id: text-niutrans-d4309c5ca0c788ed6787
+  chapter_anchor: 周纪/周纪一#p52
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「君臣之礼既坏矣，则天下以智力相雄长，遂使圣贤之后为诸侯者，社稷无不泯绝。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 先是赵襄子、韩康子、魏桓子共杀知伯、尽并其地，三家分智氏之田（赵襄子漆智伯之头以为饮器）；至周威烈王二十三年，初命晋大夫魏斯、赵籍、韩虔为诸侯——三家由晋臣受命而立国。
+impact_zh_cn: 温公论之曰：「君臣之礼既坏矣，则天下以智力相雄长，遂使圣贤之后为诸侯者，社稷无不泯绝」——三家分晋被视为战国之始，礼崩乐坏、兼并大幕由此拉开。
+places:
+- place_name_raw: 晋阳
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 三家围灌智伯之地（城不浸者三版）
+  review_note: ready43-c1：资治通鉴周纪一「三家以国人围而灌之，城不浸者三版」

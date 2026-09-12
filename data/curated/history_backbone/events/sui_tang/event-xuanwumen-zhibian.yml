@@ -33,8 +33,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·太宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧唐书·太宗纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二
   link_method: content
 - work: 旧唐书
@@ -46,10 +45,114 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧唐书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: content
-background_zh_cn: 武德九年（626年）六月初四，秦王李世民在长安宫城北门玄武门伏兵，杀太子李建成、齐王李元吉，遂被立为太子，两月后受禅即位。
-result_zh_cn: 玄武门之变是唐初皇位继承冲突的总爆发，改变了唐朝政治走向，也是中国历史上最著名的宫廷政变之一。
-# promoted from data/candidates/batch03/event-xuanwumen-zhibian.yml (AUTO_ACCEPT gate)
+- work: 旧唐书
+  term: 太宗纪
+  historical_text_id: text-niutrans-b5ad5ecf1a8f336d93c1
+  chapter_anchor: 本纪/卷二#p207
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「九年，皇太子建成、齐王元吉谋害太宗。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪七
+  historical_text_id: text-niutrans-616c9fc983daeb14e7c7
+  chapter_anchor: 唐纪/唐纪七#p13
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「建成与之亲厚，私使募壮士送长安。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 长孙无忌传
+  historical_text_id: text-niutrans-e25ed27e04e2e3d211e4
+  chapter_anchor: 列传/卷十五#p125
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「六月四日，无忌与尉迟敬德……等九人，入玄武门讨建成、元吉，平之。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪七
+  historical_text_id: text-niutrans-6a1bda7b86bfbc6e3b2c
+  chapter_anchor: 唐纪/唐纪七#p335
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：资治通鉴源引文：「世民从而呼之，元吉张弓射世民，再三不彀，世民射建成，杀之。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 太宗纪
+  historical_text_id: text-niutrans-06b1baeb390891783f48
+  chapter_anchor: 本纪/卷二#p220
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「八月癸亥，高祖传位于皇太子，太宗即位于东宫显德殿。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 太宗纪
+  historical_text_id: text-niutrans-7f62948a1cf63f7fb692
+  chapter_anchor: 本纪/卷二#p252
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c2：旧唐书源引文：「贞观元年春正月乙酉，改元。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 九年，皇太子建成、齐王元吉谋害太宗；建成尝私使募壮士送长安——秦王功高望重，与东宫、齐府的矛盾不可调和。
+result_zh_cn: 八月癸亥，高祖传位于皇太子，太宗即位于东宫显德殿——政权交接完成。
+process_zh_cn: 六月四日，长孙无忌与尉迟敬德、侯君集、张公谨等九人入玄武门讨建成、元吉，平之；当日世民射建成、杀之。
+impact_zh_cn: 贞观元年春正月乙酉改元——玄武门之变以李世民继位收场，中国进入「贞观之治」。
+people:
+- person_name_raw: 李世民
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 秦王→唐太宗：玄武门之变主谋、继位
+  review_note: ready43-c2：旧唐书·太宗纪「太宗即位于东宫显德殿」
+  person_id: null
+- person_name_raw: 李建成
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 皇太子：玄武门之变中被杀
+  review_note: ready43-c2：通鉴唐纪七「世民射建成，杀之」
+  person_id: null
+- person_name_raw: 李元吉
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 齐王：与建成同谋，变中被讨平
+  review_note: ready43-c2：旧唐书·长孙无忌传「入玄武门讨建成、元吉，平之」
+  person_id: null
+- person_name_raw: 尉迟敬德
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 秦府骁将：随入玄武门
+  review_note: ready43-c2：旧唐书「无忌与尉迟敬德……等九人」
+  person_id: null
+places:
+- place_name_raw: 玄武门
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 事变发生地（长安宫城北门）
+  review_note: ready43-c2：旧唐书·长孙无忌传「入玄武门讨建成、元吉」

@@ -32,8 +32,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·庄烈帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二十三
   link_method: content
 - work: 明史
@@ -45,10 +44,96 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·李自成传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·李自成传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷一百九十七
   link_method: content
-background_zh_cn: 崇祯十七年（1644 年）三月十九日，大顺军攻入北京，崇祯帝在煤山自缢，明朝中央政权覆亡；此后明朝宗室在南方建立南明诸政权（另有专记），清朝于同年入关。
-result_zh_cn: 崇祯十七年（1644 年）三月十九日，大顺军攻入北京，崇祯帝在煤山自缢，明朝中央政权覆亡；此后明朝宗室在南方建立南明诸政权（另有专记），清朝于同年入关。
-# promoted from data/candidates/batch05/event-lizicheng-gong-beijing.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-787fc0027bcb98f837f6
+  chapter_anchor: 本纪/卷二十三#p229
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「辛丑，京师戒严。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-f56b96cc9d490b29662b
+  chapter_anchor: 本纪/卷二十三#p276
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「辛卯，李自成陷陕州。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-0bc162436a79e9c96582
+  chapter_anchor: 本纪/卷二十四#p285
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「丁未，昧爽，内城陷。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-98a396d48fa8cc7de2b9
+  chapter_anchor: 本纪/卷二十四#p286
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「帝崩于万岁山，王承恩从死。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝纪
+  historical_text_id: text-niutrans-c468d084612c8b693c95
+  chapter_anchor: 本纪/卷二十四#p293
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「是年夏四月，我大清兵破贼于山海关，五月，入京师，以帝体改葬，令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 辛丑，京师戒严；辛卯，李自成陷陕州——流贼自秦入豫、渐逼畿甸。
+result_zh_cn: 帝崩于万岁山，王承恩从死——崇祯殉国，明朝作为全国政权的统治终结。
+process_zh_cn: 丁未，昧爽，内城陷。
+impact_zh_cn: 是年夏四月，大清兵破贼于山海关，五月入京师，以帝体改葬、令臣民为服丧三日，谥曰庄烈愍皇帝，陵曰思陵——李自成败亡而清朝入主，易代之局完成。
+people:
+- person_name_raw: 李自成
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 闯王：破京师、覆明
+  review_note: ready43-c5：明史·庄烈帝纪「李自成陷陕州」「内城陷」
+  person_id: null
+- person_name_raw: 崇祯帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 明思宗：京师陷后崩于万岁山
+  review_note: ready43-c5：明史·庄烈帝纪「帝崩于万岁山，王承恩从死」
+  person_id: null
+places:
+- place_name_raw: 北京
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 明京师：内城陷、帝殉国
+  review_note: ready43-c5：明史·庄烈帝纪「京师戒严」「内城陷」
+- place_name_raw: 万岁山
+  role: location
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 帝殉国处（煤山）
+  review_note: ready43-c5：明史·庄烈帝纪「帝崩于万岁山」

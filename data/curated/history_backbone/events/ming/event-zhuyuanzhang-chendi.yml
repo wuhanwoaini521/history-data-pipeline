@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.85
   link_quality_status: reviewed
-  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: alias
 - work: 明实录
@@ -50,8 +49,76 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《明实录·太祖实录》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
-result_zh_cn: 洪武元年正月初四（1368 年 1 月 23 日），朱元璋在应天（南京）即皇帝位，国号大明，年号洪武，明朝建立；朱元璋由元末农民战争中的一方群雄转变为全国性政权的缔造者。
-# promoted from data/candidates/batch05/event-zhuyuanzhang-chendi.yml (AUTO_ACCEPT gate)
+  review_note: 《明实录·太祖实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-2336f825af62077cf90b
+  chapter_anchor: 本纪/卷一#p237
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「友谅亡，天下不难定也。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-e145591d06aa37b748aa
+  chapter_anchor: 本纪/卷二#p1
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「洪武元年春正月乙亥，祀天地于南郊，即皇帝位。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-c79a3018b50bfa5d2734
+  chapter_anchor: 本纪/卷二#p3
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「立妃马氏为皇后，世子标为皇太子。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-d2ec9477fd0458e5054d
+  chapter_anchor: 本纪/卷二#p4
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「以李善长、徐达为左、右丞相，诸功臣进爵有差。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 陈友谅既亡，太祖曰「友谅亡，天下不难定也」——南方群雄次第削平，帝业之势已成。
+result_zh_cn: 追尊四代考妣为帝后、立妃马氏为皇后、世子标为皇太子——国本与宗庙制度初定。
+process_zh_cn: 洪武元年春正月乙亥，祀天地于南郊，即皇帝位。
+impact_zh_cn: 以李善长、徐达为左、右丞相，诸功臣进爵有差——明初中枢架构与功臣体制自此建立。
+people:
+- person_name_raw: 朱元璋
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 吴王→明太祖：即皇帝位、建号大明
+  review_note: ready43-c5：明史·太祖纪「祀天地于南郊，即皇帝位」
+  person_id: null
+- person_name_raw: 李善长
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 左丞相：开国文臣之首
+  review_note: ready43-c5：明史·太祖纪「以李善长、徐达为左、右丞相」
+  person_id: null
+places:
+- place_name_raw: 应天
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 明初都城（南京），即位与祀天之所
+  review_note: ready43-c5：明史·太祖纪「祀天地于南郊，即皇帝位」

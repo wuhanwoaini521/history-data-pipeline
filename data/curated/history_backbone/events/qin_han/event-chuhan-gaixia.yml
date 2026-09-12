@@ -13,8 +13,7 @@ summary_zh_cn: 楚汉战争的决定性战役。
 result_zh_cn: 楚军败退，楚汉争霸的军事结局确定。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -46,6 +45,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 韩信
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 汉军大将：自齐南下会师垓下
+  review_note: major-batch01：项羽本纪「韩信乃从齐往……至垓下」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 垓下
@@ -57,17 +62,67 @@ places:
   link_confidence: null
   review_note: 现有 Place 表未找到可安全复用的对应记录。
 evidence:
-- historical_text_id: text-niutrans-73a8fb83804e9664fd5e
+- historical_text_id: text-niutrans-fe7ac9824979810edc02
   work: 资治通鉴
   term: 垓下
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：资治通鉴汉纪三垓下之战核心叙事（围垓下段）。引文：「十二月，项王至垓下，兵少，食尽，与汉战不胜，入壁；汉军及诸侯兵围之数重。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 汉纪/汉纪三#p15
+  link_method: manual
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-acfeb6d6a6419b92ba38
+  chapter_anchor: 十二本纪/项羽本纪#p490
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「大司马周殷叛楚，以舒屠六，举九江兵，随刘贾、彭越皆会垓下，诣项王。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-e329d4521f30fda832ac
+  chapter_anchor: 十二本纪/项羽本纪#p491
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「项王军壁垓下，兵少食尽，汉军及诸侯兵围之数重。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-b437abd8dc8748eb1549
+  chapter_anchor: 汉纪/汉纪三#p16
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「项王夜闻汉军四面皆楚歌，乃大惊曰： 汉皆已得楚乎？」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-725b090e391bd8ff3144
+  chapter_anchor: 十二本纪/项羽本纪#p534
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「乃自刎而死。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-war
   relation_type: part_of
@@ -77,3 +132,6 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 垓下战败后汉政权建立。
+background_zh_cn: 韩信自齐、刘贾军自寿春并行，屠城父至垓下；大司马周殷叛楚，举九江兵随刘贾、彭越皆会垓下——诸侯合围之势已成。
+process_zh_cn: 项王军壁垓下，兵少食尽，汉军及诸侯兵围之数重；项王夜闻汉军四面皆楚歌，乃大惊曰「汉皆已得楚乎」。
+impact_zh_cn: 项羽兵败自刎而死，楚政权覆灭——垓下之战成为楚汉战争的军事终局。

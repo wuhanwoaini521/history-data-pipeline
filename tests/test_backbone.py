@@ -212,15 +212,16 @@ def resolution(backbone):
 
 def test_resolution_linked_places(resolution):
     assert resolution.places["linked"] == 3
-    assert resolution.places["needs_linking"] == 23
+    # ready43 批次后地点关联 145（3 linked + 142 needs_linking；去重 5 处）
+    assert resolution.places["needs_linking"] == 142
 
 
 def test_resolution_no_broken(resolution):
     assert resolution.broken == []
     assert resolution.persons["linked"] == 398  # 200 既有 + 198 V2.3 净新增
-    # 知识层 V2 重建后：74 条 evidence 已带 historical_text_id（knowledge_db=None 时
-    # 无法核实，降级 pending）+ 22 条原 pending = 96。
-    assert resolution.evidences["pending_knowledge"] == 96
+    # knowledge_db=None 时，全部带 historical_text_id 的 evidence 降级 pending：
+    # ready43 批次后 evidence 569 条中 14 条 needs_linking（语料缺著作）不带锚 → 555 条降级 pending。
+    assert resolution.evidences["pending_knowledge"] == 555
 
 
 def test_unique_person_ids(resolution):

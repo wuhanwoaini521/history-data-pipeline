@@ -11,8 +11,7 @@ period_id: period-five-dynasties-ten-kingdoms
 regime_ids:
 - regime-later-liang
 importance: critical
-summary_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁（后梁），都汴州（开封），唐朝正式灭亡，中国历史进入五代十国时代。后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点（§30：同时体现
-  Regime Transition）。
+summary_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁（后梁），都汴州（开封），唐朝正式灭亡，中国历史进入五代十国时代。后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点（§30：同时体现 Regime Transition）。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《旧五代史·梁太祖纪》；《资治通鉴·后梁纪》；现代参考：王仲荦《隋唐五代史》；欧阳修《新五代史》序论；陶懋炳《五代史略》；白寿彝《中国通史》
@@ -37,8 +36,7 @@ evidence:
   link_status: linked
   link_confidence: 0.85
   link_quality_status: reviewed
-  review_note: 《旧五代史·梁太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧五代史·梁太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 后梁/太祖纪一
   link_method: alias
 - work: 资治通鉴
@@ -50,10 +48,78 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·后梁纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·后梁纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 后梁纪/后梁纪一
   link_method: exact
-background_zh_cn: 开平元年（907年）朱温废唐哀帝自立，国号梁（后梁），都汴州（开封），唐朝正式灭亡，中国历史进入五代十国时代。
-result_zh_cn: 后梁代唐是唐末军阀政治的终点与五代中原政权更替的起点。
-# promoted from data/candidates/batch04/event-houliang-dai-tang.yml (AUTO_ACCEPT gate)
+- work: 旧五代史
+  term: 列传
+  historical_text_id: text-niutrans-848fb24b84eac3a23824
+  chapter_anchor: 后梁/列传七#p17
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：旧五代史源引文：「太祖将期受禅，以匡凝兄弟并据籓镇，乃遣使先谕旨焉。」；claim_field=background；anchor=段落精确锚。
+- work: 旧五代史
+  term: 列传
+  historical_text_id: text-niutrans-061182079555cd590202
+  chapter_anchor: 后梁/列传八#p16
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：旧五代史源引文：「天祐四年，天子以土运将革，天命有归，四月，命文蔚与杨涉等总率百僚，奉禅位诏至大梁。」；claim_field=process；anchor=段落精确锚。
+- work: 旧五代史
+  term: 太祖纪
+  historical_text_id: text-niutrans-e02941d5b75f8a2e6a41
+  chapter_anchor: 后梁/太祖纪五#p24
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：旧五代史源引文：「开平四年正月壬辰朔，帝御朝元殿，受百官称贺，始用礼乐也。」；claim_field=result；anchor=段落精确锚。
+- work: 旧五代史
+  term: 末帝纪
+  historical_text_id: text-niutrans-f93e46392e1f2b414aa6
+  chapter_anchor: 后梁/末帝纪下#p60
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：旧五代史源引文：「帝置传国宝于卧内，俄失其所在，已为左右所窃迎唐帝矣。」；claim_field=impact；anchor=段落精确锚。后梁旋为后唐所代，五代易代循环之证
+background_zh_cn: 太祖将期受禅，以赵匡凝兄弟并据藩镇，乃遣使先谕旨焉——朱温先收藩镇异己，为受禅铺路。
+result_zh_cn: 后梁既立，礼制次第兴举：开平四年正月，帝御朝元殿受百官称贺，始用礼乐——新朝规模粗定。
+process_zh_cn: 天祐四年，天子以土运将革、天命有归，四月命张文蔚与杨涉等总率百僚，奉禅位诏至大梁。
+impact_zh_cn: 唐祚既终，五代易代循环由此开启（末帝之世传国宝已为左右所窃以迎唐帝）——中原政权更迭加速，武人政治主导北方。
+people:
+- person_name_raw: 朱温
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 梁王→后梁太祖：受唐禅、建后梁
+  review_note: ready43-c4：旧五代史「太祖将期受禅」「太祖受禅」
+  person_id: null
+- person_name_raw: 唐哀帝
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 唐末帝：命百官奉禅位诏至大梁
+  review_note: ready43-c4：旧五代史「天子以土运将革，天命有归」
+  person_id: null
+places:
+- place_name_raw: 大梁
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 后梁都城（禅位诏奉至之地）
+  review_note: ready43-c4：旧五代史「奉禅位诏至大梁」

@@ -31,3 +31,113 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 胜利后国共重庆谈判。
+
+background_zh_cn: 日本天皇、日本政府及大本营之代表接受美、中、英三国政府首领一九四五年七月二十六日在波茨坦所发表、其后经苏联加入之公告条款；中英美苏四国在文件中被称为盟邦。
+process_zh_cn: 「余等兹宣布：日本大本营与所有日本军队及所有在日人管制下的军队，无论在任何地点，向盟邦无条件投降」；并命令各地日军立即停止敌对行动、保存船舶航空器及军民财产，令大本营立即对各地部队司令官发布无条件投降命令。
+result_zh_cn: 命令所有民政及陆海军官员遵照盟邦统帅的公告命令与指示、各留岗位继续执行非战斗职务；宣布「天皇与日本政府统治国家之权力，应听命于盟邦统帅」，日本政府及其继承者担任忠实执行波茨坦宣言各项条款。
+impact_zh_cn: 文书载明「签字于一九四五年九月二日九时四分在日本东京湾」；由日本代表重光葵、梅津美治郎与盟邦统帅麦克阿瑟及美、中、英、苏等各国代表签署——中国代表徐永昌列名，日本帝国大本营及所有军队向盟邦无条件投降。
+people:
+- person_name_raw: 徐永昌
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 中华民国代表：在投降书上列名签署
+  review_note: batch02-10：降伏文書签署栏「徐永昌／中華民國代表」
+  person_id: null
+- person_name_raw: 重光葵
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 日本代表：奉日本天皇与政府之命签署
+  review_note: batch02-10：降伏文書「重光葵／奉日本天皇與日本政府之命及代表天皇與日本政府」
+  person_id: null
+- person_name_raw: 梅津美治郎
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 日本大本营代表：奉大本营之命签署
+  review_note: batch02-10：降伏文書「梅津美治郎／奉日本帝國大本營之命及代表日本帝國大本營」
+  person_id: null
+- person_name_raw: 麦克阿瑟
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 盟邦统帅：代表对日作战联合国家接受投降
+  review_note: batch02-10：降伏文書「道格拉斯·麥克阿瑟／盟邦統帥」
+  person_id: null
+places:
+- place_name_raw: 东京湾
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 投降书签署地（一九四五年九月二日九时四分）
+  review_note: batch02-10：降伏文書「簽字於一九四五年九月二日九時四分在日本東京灣」
+evidence:
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-2ce5a293173a14e2ae5b
+  chapter_anchor: 降伏文書#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「茲接受美、中、英三國政府首領於一九四五年七月二十六日在波茨坦所發表，其後又經蘇維埃社會主義共和國聯邦所加入之公告所列舉之條款。」；claim_field=background；anchor=段落精确锚。
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-095b793c99a08b5fa677
+  chapter_anchor: 降伏文書#p2
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「日本大本營與所有日本軍隊及所有在日人管制下的軍隊，無論在任何地點，向盟邦無條件投降。」；claim_field=process；anchor=段落精确锚。
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-31401a96815b1e61e9a1
+  chapter_anchor: 降伏文書#p8
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「天皇與日本政府統治國家之權力，應聽命於盟邦統帥。盟邦統帥可採取其所認為適當之各項步驟，以實施此等投降。」；claim_field=result；anchor=段落精确锚。
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-49400a72c7628d9f430b
+  chapter_anchor: 降伏文書#p9
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「簽字於一九四五年九月二日九時四分在日本東京灣。」；claim_field=impact；anchor=段落精确锚。
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-5bae458d14531153a579
+  chapter_anchor: 降伏文書#p19
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「徐永昌／中華民國代表。」；claim_field=impact；anchor=段落精确锚。
+- work: 降伏文書
+  term: 投降书全文
+  historical_text_id: text-wikisource-447bd6a16a22b10a3050
+  chapter_anchor: 降伏文書#p7
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「余等茲命令日本帝國政府與日本帝國大本營，立即釋放現在日本管制下之所有盟國戰俘，與拘留之僑民。」；claim_field=result；anchor=段落精确锚。

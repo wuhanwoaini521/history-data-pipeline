@@ -39,8 +39,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《周书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《周书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷五
   link_method: content
 - work: 北齐书
@@ -52,10 +51,96 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《北齐书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《北齐书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷八
   link_method: content
-background_zh_cn: 建德五年至六年（576—577年）周武帝亲率大军伐齐，破晋阳、克邺，北齐后主被俘，北齐灭亡，北周统一北方。
-result_zh_cn: 北周灭北齐结束北方东西对峙，北方重归一统，为隋朝取代北周并统一全国铺平道路。
-# promoted from data/candidates/batch03/event-beizhou-mie-beiqi.yml (AUTO_ACCEPT gate)
+- work: 周书
+  term: 武帝纪
+  historical_text_id: text-niutrans-77281e779ce1b011e421
+  chapter_anchor: 本纪/卷六#p210
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：周书源引文：「六年春正月乙亥，齐主传位于其太子恒，改年承光，自号为太上皇。」；claim_field=background；anchor=段落精确锚。
+- work: 北齐书
+  term: 后主纪
+  historical_text_id: text-niutrans-d4747b41943b162adb84
+  chapter_anchor: 本纪/卷八#p265
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：北齐书源引文：「周师渐逼，癸未，幼主又自邺东走。」；claim_field=process；anchor=段落精确锚。
+- work: 周书
+  term: 武帝纪
+  historical_text_id: text-niutrans-c392fc17051abd38b103
+  chapter_anchor: 本纪/卷六#p241
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：周书源引文：「丁未，齐主至，帝降自阼阶，以宾主之礼相见。」；claim_field=result；anchor=段落精确锚。
+- work: 周书
+  term: 武帝纪
+  historical_text_id: text-niutrans-3ef5bd5344c3524000eb
+  chapter_anchor: 本纪/卷六#p244
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：周书源引文：「齐诸行台州镇悉降，关东平。」；claim_field=result；anchor=段落精确锚。
+- work: 北齐书
+  term: 后主纪
+  historical_text_id: text-niutrans-0539ca189cb6deb233d8
+  chapter_anchor: 本纪/卷八#p277
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：北齐书源引文：「为周将尉迟纲所获。送邺，周武帝与抗宾主礼，并太后、幼主、诸王俱送长安，封帝温国公。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 六年春正月乙亥，齐主传位于其太子恒、改年承光，自号为太上皇——北齐临战易主，军心已摇。
+result_zh_cn: 丁未，齐主至，周武帝降自阼阶、以宾主之礼相见；齐诸行台州镇悉降，关东平。
+process_zh_cn: 周师渐逼，幼主自邺东走；己丑，周师至紫陌桥——齐主先送母妻于青州，及城陷乃率数十骑走青州。
+impact_zh_cn: 太上窘急将逊于陈，为周将尉迟纲所获，送邺——周武帝与抗宾主礼，并太后、幼主、诸王俱送长安，封帝温国公：北齐灭亡，北周统一北方。
+people:
+- person_name_raw: 周武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 北周武帝：平齐之役主帅，受齐主降
+  review_note: ready43-c4：周书·武帝纪「帝降自阼阶，以宾主之礼相见」
+  person_id: null
+- person_name_raw: 北齐后主
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 齐太上皇：城陷被获送长安，封温国公
+  review_note: ready43-c4：北齐书·后主纪「封帝温国公」
+  person_id: null
+places:
+- place_name_raw: 晋阳
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 北齐军事重镇（平齐之役所经）
+  review_note: ready43-c4：周书·武帝纪（平齐之役）
+- place_name_raw: 邺
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 北齐都城：周师至紫陌桥、城陷
+  review_note: ready43-c4：北齐书·后主纪「周师至紫陌桥」

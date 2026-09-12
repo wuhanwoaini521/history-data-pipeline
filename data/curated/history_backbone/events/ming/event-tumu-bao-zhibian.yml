@@ -41,8 +41,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·英宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·英宗纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷十
   link_method: content
 - work: 明实录
@@ -54,8 +53,94 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《明实录·英宗实录》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
-result_zh_cn: 正统十四年（1449 年），瓦剌（蒙古西部）也先率军南犯，明英宗在宦官王振鼓动下亲征，八月于土木堡（今河北怀来东）被瓦剌军围歼，英宗被俘，明军精锐损失惨重，明朝由盛转衰的标志性事件。
-# promoted from data/candidates/batch05/event-tumu-bao-zhibian.yml (AUTO_ACCEPT gate)
+  review_note: 《明实录·英宗实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 明史
+  term: 英宗前纪
+  historical_text_id: text-niutrans-22bc07d53023ec3bd799
+  chapter_anchor: 本纪/卷十#p274
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「秋七月己丑，瓦剌也先寇大同，参将吴浩战死，下诏亲征。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 英宗前纪
+  historical_text_id: text-niutrans-51c128b7b387dfaf7658
+  chapter_anchor: 本纪/卷十#p290
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「辛酉，次土木，被围。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 英宗前纪
+  historical_text_id: text-niutrans-bcdb1f4ab52536fb6ffc
+  chapter_anchor: 本纪/卷十#p292
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「英国公张辅……等，皆死，帝北狩。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 英宗前纪
+  historical_text_id: text-niutrans-426ee9e3b0c3ac1f40da
+  chapter_anchor: 本纪/卷十#p299
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「九月癸未，郕王即位，遥尊帝为太上皇帝。」；claim_field=impact；anchor=段落精确锚。
+- work: 明史
+  term: 景帝纪
+  historical_text_id: text-niutrans-3b7f52b955bfae8ebed4
+  chapter_anchor: 本纪/卷十一#p19
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「九月癸未，王即皇帝位，遥尊皇帝为太上皇帝，以明年为景泰元年。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 甲戌，敕边将备瓦剌也先；秋七月己丑，也先寇大同、参将吴浩战死，英宗下诏亲征。
+result_zh_cn: 张辅、陈瀛、邝野、曹鼐等从征文武皆死，帝北狩——明军精锐尽丧于土木堡。
+process_zh_cn: 辛酉，次土木，被围。
+impact_zh_cn: 皇太后命郕王监国；九月癸未，郕王即位、遥尊帝为太上皇帝，以明年为景泰元年——土木之变使明廷中枢更替、国防转入守势。
+people:
+- person_name_raw: 明英宗
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 亲征被围，北狩；后复辟
+  review_note: ready43-c5：明史·英宗前纪「次土木，被围」「帝北狩」
+  person_id: null
+- person_name_raw: 也先
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 瓦剌太师：寇大同、围土木
+  review_note: ready43-c5：明史·英宗前纪「瓦剌也先寇大同」
+  person_id: null
+- person_name_raw: 明代宗
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 郕王祁钰：监国、即位，改元景泰
+  review_note: ready43-c5：明史「郕王即位，遥尊帝为太上皇帝」
+  person_id: null
+places:
+- place_name_raw: 土木
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 明军被围之地（土木堡）
+  review_note: ready43-c5：明史·英宗前纪「次土木，被围」

@@ -13,8 +13,7 @@ summary_zh_cn: 安禄山掌握多个北方边镇，个人军事资源显著扩�
 result_zh_cn: 安禄山集团成为唐廷北方重要军事力量。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-19244
   person_name_raw: 李隆基（唐玄宗）
@@ -57,19 +56,72 @@ places:
   link_confidence: null
   review_note: 候选邺郡与范阳名称不一致，QA 将其拒绝并保留 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-01256ac6603fa0d89381
+- historical_text_id: text-niutrans-928b1cd55141795ed818
   work: 旧唐书
   term: 禄山
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.95
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：旧唐书安禄山传兼三道节度（三镇节度核心句）。引文：「兼三道节度，进奏无不允。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 列传/卷一百五十#p44
+  link_method: manual
+- work: 旧唐书
+  term: 安禄山传
+  historical_text_id: text-niutrans-357b996f74936fd7ee2c
+  chapter_anchor: 列传/卷一百五十#p19
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「天宝元年，以平卢为节度，以禄山摄中丞为使。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 安禄山传
+  historical_text_id: text-niutrans-fdf57a816f057a9f844e
+  chapter_anchor: 列传/卷一百五十#p21
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「三载，代裴宽为范阳节度，河北采访、平卢军等使如故。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 安禄山传
+  historical_text_id: text-niutrans-01a333457c24b9845804
+  chapter_anchor: 列传/卷一百五十#p40
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「十载入朝，又求为河东节度，因拜之。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 安禄山传
+  historical_text_id: text-niutrans-928b1cd55141795ed818
+  chapter_anchor: 列传/卷一百五十#p44
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「兼三道节度，进奏无不允。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-uprising
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 边镇力量扩张与中央矛盾发展为安禄山起兵。
+background_zh_cn: 天宝元年，以平卢为节度，以禄山摄中丞为使——安禄山由营州杂胡军官起步，渐掌方面。
+process_zh_cn: 三载，代裴宽为范阳节度、河北采访、平卢军等使如故；十载入朝，又求为河东节度，因拜之。
+impact_zh_cn: 兼三道节度，进奏无不允——安禄山以平卢、范阳、河东三镇之兵与财赋，成为唐廷北方最强大的军事-政治集团，为起兵奠定基础。

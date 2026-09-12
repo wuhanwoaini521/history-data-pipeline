@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-qin-tongyi.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qin-tongyi.yml]
 - person_id: ctext-person-751995
   person_name_raw: 李斯
   role: official
@@ -40,8 +39,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator
-    [V2 source=event-qin-tongyi.yml]
+  review_note: V2.1.1 review：exact（resolved_existing）；reviewed_by=china-history-backbone-v2.1.1-curator [V2 source=event-qin-tongyi.yml]
 relations:
 - target_event_id: event-qin-mie-liuguo
   relation_type: follows
@@ -70,7 +68,60 @@ evidence:
   review_note: 《资治通鉴·秦纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 秦纪/秦纪一
   link_method: exact
-# event-qin-tongyi — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-756aad0533841b929247
+  chapter_anchor: 十二本纪/秦始皇本纪#p132
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「秦初并天下，令丞相、御史曰……虏其王。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-fe665881879c068407e2
+  chapter_anchor: 十二本纪/秦始皇本纪#p172
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-215d0ddac58fddb0aad0
+  chapter_anchor: 十二本纪/秦始皇本纪#p176
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「一法度衡石丈尺。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-b7610d62e29cf31d5654
+  chapter_anchor: 十二本纪/秦始皇本纪#p178
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「书同文字。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 秦初并天下，令丞相、御史曰「异日韩王纳地效玺……故兴兵诛之，虏其王」——以武功告成议帝号；分天下以为三十六郡，郡置守、尉、监。
+impact_zh_cn: 统一制度次第颁行：一法度衡石丈尺、书同文字、车同轨——「百代都行秦政法」，中国第一次以中央集权帝国形态完成整合。
+places:
+- place_name_raw: 咸阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 秦都，议帝号、颁统一制度之地
+  review_note: ready43-c1：史记·秦始皇本纪（初并天下、分三十六郡）

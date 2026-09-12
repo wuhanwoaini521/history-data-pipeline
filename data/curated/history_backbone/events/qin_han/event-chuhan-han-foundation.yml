@@ -13,8 +13,7 @@ summary_zh_cn: 楚汉战争结束后汉政权建立。
 result_zh_cn: 刘邦建立西汉政权，楚汉争霸阶段结束。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
-  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -56,13 +55,63 @@ evidence:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.95
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本
-    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
   chapter_anchor: 纪/高帝纪上
   link_method: content
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-7bfb3905fc28b271cde8
+  chapter_anchor: 汉纪/汉纪三#p70
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「诸侯王皆上疏请尊汉王为皇帝。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-a158f087083c592fb21e
+  chapter_anchor: 汉纪/汉纪三#p71
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「二月甲午，王即皇帝位于汜水之阳。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-855fe54bb7c8ced8b7f5
+  chapter_anchor: 汉纪/汉纪三#p72
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「更王后曰皇后，太子曰皇太子；追尊先媪曰昭灵夫人。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-9db041b336e9103f7bb6
+  chapter_anchor: 汉纪/汉纪三#p73
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「诏曰： 故衡山王吴芮，从百粤之兵，佐诸侯，诛暴秦，有大功；诸侯立以为王。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-later
   relation_type: follows
   confidence: 0.9
   description_zh_cn: 政权建立后进入整合阶段。
+background_zh_cn: 垓下战后，汉王还至定陶、驰入齐王信壁夺其军；春正月更立齐王信为楚王、封彭越为梁王；令曰「兵不得休八年，万民与苦甚」，赦天下殊死以下。
+process_zh_cn: 诸侯王皆上疏请尊汉王为皇帝；二月甲午，王即皇帝位于汜水之阳。
+impact_zh_cn: 皇帝初政即定后妃太子名号、追尊先媪；随后诏封故衡山王吴芮为长沙王等——汉承秦制而兼封建，西汉王朝的统治秩序自此展开。

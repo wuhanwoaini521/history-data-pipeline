@@ -13,8 +13,7 @@ summary_zh_cn: 楚汉双方在荥阳、成皋一线长期相持。
 result_zh_cn: 双方力量消耗，战争进入决定性阶段。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -36,6 +35,18 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 纪信
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 汉将：乘王车诈降楚军，掩护汉王突围
+  review_note: major-batch01：通鉴汉纪二「纪信乃乘王车，黄屋左纛，曰：食尽，汉王降楚」
+  person_id: null
+- person_name_raw: 周苛
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 汉将：留守荥阳，城破被俘
+  review_note: major-batch01：通鉴汉纪二「令韩王信与周苛、魏豹、枞公守荥阳」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 荥阳
@@ -47,7 +58,7 @@ places:
   link_confidence: null
   review_note: 现有 Place 表未找到可安全复用的秦汉时期对应记录。
 evidence:
-- historical_text_id: text-niutrans-2424c030d1a8c400cd23
+- historical_text_id: text-niutrans-4861fc99aa1261c7ced3
   work: 资治通鉴
   term: 荥阳
   chapter_hint: 汉纪
@@ -56,12 +67,62 @@ evidence:
   - 汉王
   - 项王
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴汉纪二荥阳成皋相持段。引文：「汉王收诸侯，还守成皋、荥阳，下蜀、汉之粟，深沟壁垒，分卒守徼乘塞。」；anchor=段落精确锚。
   rejected_text_ids:
   - text-niutrans-0220c15301a44aa90542
+  chapter_anchor: 汉纪/汉纪二#p67
+  link_method: manual
+- work: 资治通鉴
+  term: 汉纪二
+  historical_text_id: text-niutrans-4861fc99aa1261c7ced3
+  chapter_anchor: 汉纪/汉纪二#p67
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「汉王收诸侯，还守成皋、荥阳，下蜀、汉之粟，深沟壁垒，分卒守徼乘塞。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二
+  historical_text_id: text-niutrans-18fc0b2e1691ac7cee6e
+  chapter_anchor: 汉纪/汉纪二#p158
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「于是陈平夜出女子东门二千馀人，楚因而四面击之。纪信乃乘王车，黄屋左纛，曰： 食尽，汉王降楚。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二
+  historical_text_id: text-niutrans-7d1f2066ecbc4abad9a9
+  chapter_anchor: 汉纪/汉纪二#p160
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「以故汉王得与数十骑出西门遁去，令韩王信与周苛、魏豹、枞公守荥阳。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二
+  historical_text_id: text-niutrans-b41d3cb81148408f4f4d
+  chapter_anchor: 汉纪/汉纪二#p177
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「六月，羽已破走彭越，闻汉复军成皋，乃引兵西拔荥阳城，生得周苛。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-war
   relation_type: part_of
@@ -71,3 +132,6 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 荥阳对峙和力量消耗最终引向垓下决战。
+background_zh_cn: 汉王收诸侯，还守成皋、荥阳，下蜀、汉之粟，深沟壁垒，分卒守徼乘塞——楚汉在荥阳、成皋一线转入长期相持。
+process_zh_cn: 五月，将军纪信言于汉王「事急矣」；陈平夜出女子东门二千馀人，楚因而四面击之，纪信乃乘王车、黄屋左纛，诈称「食尽，汉王降楚」。
+impact_zh_cn: 汉王得以与数十骑出西门遁去，令韩王信与周苛、魏豹、枞公守荥阳；其后项羽闻汉复军成皋，引兵西拔荥阳城、生得周苛——荥阳成皋之间反复易手，楚汉相持的消耗战持续至战争后期。

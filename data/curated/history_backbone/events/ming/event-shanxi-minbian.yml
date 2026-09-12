@@ -26,3 +26,89 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 李自成等势力在民变中崛起。
+
+background_zh_cn: 陕西饥民苦于加派，流贼大起，分掠鄜州、延安——明末农民战争由此开端。
+process_zh_cn: 崇祯四年六月，流贼王嘉胤陷府谷，米脂贼张献忠聚众应之，乱势蔓延。
+result_zh_cn: 官军反击：延绥副将曹文诏击贼于河曲，王嘉胤败死，然诸部旋复纷起。
+impact_zh_cn: 王嘉胤既死而后起者众：闯王高迎祥与李自成、张献忠等合流（「闯王高迎祥亦与合」）——陕西民变演化为席卷数省的明末农民战争。
+people:
+- person_name_raw: 王嘉胤
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 陕西流贼首领：陷府谷、败死于河曲
+  review_note: source-batch02：明史·庄烈帝本纪「流贼王嘉胤陷府谷」「王嘉胤败死」
+  person_id: null
+- person_name_raw: 张献忠
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 米脂贼：聚众应王嘉胤起事
+  review_note: source-batch02：明史·庄烈帝本纪「米脂贼张献忠聚众应之」
+  person_id: null
+- person_name_raw: 曹文诏
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 延绥副将：击王嘉胤于河曲
+  review_note: source-batch02：明史·庄烈帝本纪「延绥副将曹文诏击贼于河曲」
+  person_id: null
+places:
+- place_name_raw: 府谷
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 王嘉胤起兵攻陷之地（陕西）
+  review_note: source-batch02：明史·庄烈帝本纪「流贼王嘉胤陷府谷」
+- place_name_raw: 延安
+  role: region
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 流贼分掠之地（鄜州、延安）
+  review_note: source-batch02：明史·庄烈帝本纪「分掠鄜州、延安」
+evidence:
+- work: 明史
+  term: 庄烈帝本纪一
+  historical_text_id: text-niutrans-4882c469f3393b89c61a
+  chapter_anchor: 本纪/卷二十三#p51
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「陕西饥民苦加派，流贼大起，分掠鄜州、延安。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝本纪一
+  historical_text_id: text-niutrans-1b75494b6357fbce9cff
+  chapter_anchor: 本纪/卷二十三#p103
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「六月癸丑，流贼王嘉胤陷府谷，米脂贼张献忠聚众应之。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 庄烈帝本纪一
+  historical_text_id: text-niutrans-d1fce83746395b45ac58
+  chapter_anchor: 本纪/卷二十三#p125
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「是月，延绥副将曹文诏击贼于河曲，王嘉胤败死。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 列传·张献忠等传
+  historical_text_id: text-niutrans-3cb1e979665dd935251f
+  chapter_anchor: 列传/卷一百六十一#p70
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「闯王高迎祥亦与合。」；claim_field=impact；anchor=段落精确锚。

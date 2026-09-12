@@ -13,8 +13,7 @@ summary_zh_cn: 潼关防线失守，关中防御被突破。
 result_zh_cn: 长安直接暴露于叛军压力之下。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-146097
   person_name_raw: 李光弼
@@ -36,6 +35,18 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 哥舒翰
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 唐军主帅：守潼关兵败被擒
+  review_note: major-batch01：唐纪三十四「安禄山问翰曰：汝常轻我，今定何如？」（翰被俘之证）
+  person_id: null
+- person_name_raw: 崔乾祐
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 叛军将领：据险设伏大破官军于潼关隘道
+  review_note: major-batch01：唐纪三十四「乾祐据险以待之，南薄山，北阻河，隘道七十里」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 潼关
@@ -47,19 +58,72 @@ places:
   link_confidence: null
   review_note: 现有潼關记录为后世有效年代，不能直接绑定本事件。
 evidence:
-- historical_text_id: text-niutrans-004b218a7a2f9094e047
+- historical_text_id: text-niutrans-954521afe14dcf226ae4
   work: 资治通鉴
   term: 潼关
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.85
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴唐纪三十四潼关对峙（失守前夕）。引文：「今守潼关，数月不能进，北路已绝，诸军四合，吾所有者止汴、郑数州而已，万全何在？」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 唐纪/唐纪三十四#p21
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-954521afe14dcf226ae4
+  chapter_anchor: 唐纪/唐纪三十四#p21
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「今守潼关，数月不能进，北路已绝，诸军四合，吾所有者止汴、郑数州而已，万全何在？」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-821be43d2b46f8abe510
+  chapter_anchor: 唐纪/唐纪三十四#p54
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「乾祐据险以待之，南薄山，北阻河，隘道七十里。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-e1d4ee180fef82c39a3a
+  chapter_anchor: 唐纪/唐纪三十四#p61
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「须臾，伏兵发，贼乘高下木石，击杀士卒甚众。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-5019a005d06ed9111b68
+  chapter_anchor: 唐纪/唐纪三十四#p298
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「先是四方闻潼关失守，莫知上所之，及是制下，始知乘舆所在。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-changan
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 潼关失守导致长安防线崩溃。
+background_zh_cn: 唐军守潼关、数月不能进；北路已绝、诸军四合，叛军所占止汴、郑数州——双方在潼关一线对峙。
+process_zh_cn: 乾祐据险以待之，南薄山、北阻河，隘道七十里；贼伏兵于险，官军望其兵少而进。
+impact_zh_cn: 先是四方闻潼关失守，莫知上所之，及是制下，始知乘舆所在——潼关陷落使长安门户洞开、天下震动，唐廷信息与号令一时中断。

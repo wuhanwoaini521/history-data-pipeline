@@ -35,21 +35,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《魏书·世祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《魏书·世祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 帝纪/卷四
   link_method: content
 - work: 魏书
   term: 沮渠蒙逊载记
-  historical_text_id: null
+  historical_text_id: text-niutrans-77b4af938ecd3c772f8f
   chapter_hint: 沮渠蒙逊载记
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《魏书·沮渠蒙逊载记》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
-background_zh_cn: 太延五年（439年）北魏太武帝拓跋焘西征，克姑臧，北凉沮渠牧犍出降，十六国中最后一个政权被灭，北魏统一北方（此前已灭胡夏431、北燕436）。
-result_zh_cn: 自此中国北方重归一统，与南方刘宋并峙，南北朝对峙格局正式确立。
-# promoted from data/candidates/batch02/event-beiwei-tongyi-beifang.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「是歲，沮渠蒙遜死，以其子牧犍为車騎大將軍，改封河西王。」；anchor=段落精确锚。
+  chapter_anchor: 帝纪/卷四#p304
+  link_method: manual
+- work: 魏书
+  term: 列传
+  historical_text_id: text-niutrans-041ec118393563a1b5fc
+  chapter_anchor: 列传/卷八十七#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：魏书源引文：「第三子牧犍統任，自稱河西王，遣使請朝命。」；claim_field=background；anchor=段落精确锚。
+- work: 魏书
+  term: 帝纪
+  historical_text_id: text-niutrans-3b347a4a4bb441170322
+  chapter_anchor: 帝纪/卷四#p461
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：魏书源引文：「丙申，車駕至姑臧，牧犍兄子祖逾城来降，乃分軍圍之。」；claim_field=process；anchor=段落精确锚。
+- work: 魏书
+  term: 列传
+  historical_text_id: text-niutrans-ab28f12ec6d51e81c0ec
+  chapter_anchor: 列传/卷八十七#p62
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：魏书源引文：「是年，人又告牧犍猶與故臣民交通謀反，詔司徒崔浩就公主第賜牧犍死。」；claim_field=result；anchor=段落精确锚。
+- work: 魏书
+  term: 列传
+  historical_text_id: text-niutrans-dd1439b496d868e53b47
+  chapter_anchor: 列传/卷三十二#p8
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：魏书源引文：「既克涼州，世祖大会于姑臧。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 北凉主牧犍统任，自称河西王，遣使请朝命——十六国末期的河西政权在北魏威压下求存。
+result_zh_cn: 北凉既平，牧犍仍与故臣民交通谋反，诏司徒崔浩就公主第赐牧犍死——北凉灭亡。
+process_zh_cn: 太武帝亲征北凉：车驾至姑臧，牧犍兄子祖逾城来降，魏乃分军围之。
+impact_zh_cn: 既克凉州，世祖大会于姑臧——北凉为十六国最后一国，其亡标志北魏完成北方统一，南北朝对峙格局定型。
+people:
+- person_name_raw: 沮渠牧犍
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 北凉主：降魏后赐死，北凉亡
+  review_note: source-batch02：魏书「牧犍猶與故臣民交通謀反……賜牧犍死」
+  person_id: null
+- person_name_raw: 拓跋焘
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 北魏太武帝：亲征姑臧、克凉州
+  review_note: source-batch02：魏书·帝纪「車駕至姑臧」
+  person_id: null
+places:
+- place_name_raw: 姑臧
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 北凉都城：被围、城克
+  review_note: source-batch02：魏书「車駕至姑臧……乃分軍圍之」「世祖大会于姑臧」

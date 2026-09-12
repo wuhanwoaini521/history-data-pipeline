@@ -28,3 +28,83 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 收复后清廷将新疆改设行省。
+
+background_zh_cn: 海防与塞防之争：光绪元年宗棠既平关陇、将出关，论者多言自高宗定新疆岁糜数百万，宜徇英人议许帕夏自立为国称藩、罢西征专力海防，李鸿章言之尤力；宗棠力主规复新疆。
+process_zh_cn: 西征之饷糈筹措：宗棠虑各行省协饷不时至，请借外债；诏拨库款五百万、敕自借外国债五百万，并仿古屯田之法画兵农为二、简精壮为兵、散愿弱使屯垦。
+result_zh_cn: 出塞凡二十月，新疆南北城尽复——西征以节兵裕饷为本谋而竟全功。
+impact_zh_cn: 西征既成，宗棠条上新疆建行省事宜，并请与俄议还伊犁、交叛人二事；其平帕夏使外国对中国军力稍稍传说，新疆建省自此奠定西北版图。
+people:
+- person_name_raw: 左宗棠
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 钦差大臣/陕甘总督：西征主帅，收复新疆
+  review_note: source-batch02：清史稿·左宗棠传「出塞凡二十月，而新疆南北城盡复」
+  person_id: null
+- person_name_raw: 李鸿章
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 北洋大臣：主张罢西征、专力海防
+  review_note: source-batch02：清史稿·左宗棠传「鴻章言之尤力」
+  person_id: null
+places:
+- place_name_raw: 新疆
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 西征收复之地；战后奏请建行省
+  review_note: source-batch02：清史稿·左宗棠传「新疆南北城盡复」「條上新疆建行省事宜」
+- place_name_raw: 伊犁
+  role: frontier
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 对俄交涉归还之地
+  review_note: source-batch02：清史稿·左宗棠传「請与俄議還伊犁」
+evidence:
+- work: 清史稿
+  term: 左宗棠传
+  historical_text_id: text-wikisource-f30b2a4407d7984406ce
+  chapter_anchor: 列传/左宗棠传#p21
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「宜徇英人議，許帕夏自立为国稱籓，罷西征，專力海防。鴻章言之尤力。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 左宗棠传
+  historical_text_id: text-wikisource-c94c1b5caf0fb7bfb622
+  chapter_anchor: 列传/左宗棠传#p26
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「始西征，慮各行省協助餉不时至，請一借貸外国。……为撥款五百萬，敕自借外国債五百萬。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 左宗棠传
+  historical_text_id: text-wikisource-c94c1b5caf0fb7bfb622
+  chapter_anchor: 列传/左宗棠传#p26
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「出塞凡二十月，而新疆南北城盡复者，饋運饒給之力也。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 左宗棠传
+  historical_text_id: text-wikisource-e71693b5db46e8dd0e6d
+  chapter_anchor: 列传/左宗棠传#p24
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「四年正月，條上新疆建行省事宜，並請与俄議還伊犁、交叛人二事。」；claim_field=impact；anchor=段落精确锚。

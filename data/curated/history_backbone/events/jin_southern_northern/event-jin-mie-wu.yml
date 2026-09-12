@@ -29,37 +29,121 @@ relations:
 evidence:
 - work: 晋书
   term: 武帝纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-de22c2daa7dbb1bb301b
   chapter_hint: 武帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「十一月，大舉伐吳，遣鎮軍將軍、琅邪王伷出涂中……」；anchor=段落精确锚。
+  chapter_anchor: 帝纪/武帝纪#p153
+  link_method: manual
 - work: 晋书
   term: 王濬传
-  historical_text_id: null
+  historical_text_id: text-wikisource-1fc1bf754f21fb922f65
   chapter_hint: 王濬传
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·王濬传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「既而王濬破石頭，降孫皓，威名益振。」；anchor=段落精确锚。
+  chapter_anchor: 列传/王濬传#p5
+  link_method: manual
 - work: 三国志
   term: 吴书·孙皓传
-  historical_text_id: null
+  historical_text_id: text-niutrans-8ee996e48d36905af934
   chapter_hint: 吴书·孙皓传
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《三国志·吴书·孙皓传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 太康元年（280年）晋武帝发六路大军伐吴，王濬楼船径取建业，孙皓出降，吴亡。
-result_zh_cn: 晋灭吴结束三国鼎立，西晋完成全国统一，中国自东汉末动荡以来首次重归一统。
-# promoted from data/candidates/batch02/event-jin-mie-wu.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「孙皓穷迫归降，前诏待之以不死……其赐号为归命侯。」；anchor=段落精确锚。
+  chapter_anchor: 吴书/三嗣主传#p354
+  link_method: manual
+- work: 晋书
+  term: 王濬传
+  historical_text_id: text-wikisource-b59cfeb28da6c8c32b41
+  chapter_anchor: 列传/王濬传#p20
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「武帝謀伐吳，詔濬修舟艦。濬乃作大船連舫，方百二十步，受二千餘人。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 武帝纪
+  historical_text_id: text-wikisource-de22c2daa7dbb1bb301b
+  chapter_anchor: 帝纪/武帝纪#p153
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「十一月，大舉伐吳，遣鎮軍將軍、琅邪王伷出涂中。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 王濬传
+  historical_text_id: text-wikisource-1fc1bf754f21fb922f65
+  chapter_anchor: 列传/王濬传#p5
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「既而王濬破石頭，降孫皓，威名益振。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 武帝纪
+  historical_text_id: text-wikisource-a8e4f655c75ac20cd49d
+  chapter_anchor: 帝纪/武帝纪#p160
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「帝臨軒大会，引皓升殿，群臣咸稱萬歲。」；claim_field=impact；anchor=段落精确锚。
+- work: 三国志
+  term: 三嗣主传
+  historical_text_id: text-niutrans-8ee996e48d36905af934
+  chapter_anchor: 吴书/三嗣主传#p354
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：三国志源引文：「孙皓穷迫归降，前诏待之以不死……其赐号为归命侯。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 武帝谋伐吴，诏王濬修舟舰：作大船连舫，方百二十步、受二千余人，以木为城、起楼橹，舟楫之盛自古未有；濬造船于蜀，木柿蔽江而下。
+result_zh_cn: 王濬破石头，降孙皓，威名益振；吴平，三国分裂之局终结。
+process_zh_cn: 十一月，晋大举伐吴：遣琅邪王伷出涂中，王浑出江西，王戎出武昌，平南将军胡奋等出夏口，王濬、唐彬下巴蜀——六路并进。
+impact_zh_cn: 帝临轩大会，引孙皓升殿，群臣咸称万岁；孙皓归降后受封归命侯——西晋完成统一，然承平未久而乱端已伏。
+people:
+- person_name_raw: 王濬
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 益州刺史：造楼船、破石头降孙皓
+  review_note: source-batch02：晋书·王濬传「王濬破石頭，降孫皓」
+  person_id: null
+- person_name_raw: 孙皓
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 吴末帝：穷迫归降，赐号归命侯
+  review_note: source-batch02：三国志·三嗣主传「孙皓穷迫归降……其赐号为归命侯」
+  person_id: null
+places:
+- place_name_raw: 石头
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 建业江防要塞，王濬破之
+  review_note: source-batch02：晋书·王濬传「王濬破石頭，降孫皓」

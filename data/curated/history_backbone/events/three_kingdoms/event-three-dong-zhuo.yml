@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 董卓率军进入洛阳并控制朝廷，东汉中央政治进一步失衡。
-result_zh_cn: 关东诸侯讨董，割据局面加速形成。
+result_zh_cn: 甲戌，卓复会群僚于崇德前殿，胁太后策废少帝：「今废为弘农王，立陈留王协为帝」；袁隗解帝玺绶以奉陈留王——董卓擅行废立。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -46,20 +45,79 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 候选洛阳记录的有效年代与189年冲突，QA 将其拒绝并保留 needs_linking。
+- place_name_raw: 北芒阪
+  role: location
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 董卓奉迎少帝之处
+  review_note: ready43-c6：通鉴汉纪五十一「奉迎于北芒阪下」
 evidence:
-- historical_text_id: text-niutrans-00239f408e357cbdedb0
+- historical_text_id: text-niutrans-725f295380e318748fd0
   work: 资治通鉴
   term: 董卓
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴汉纪五十一董卓率兵入京奉迎天子（进京核心段）。引文：「董卓至显阳苑，远见火起，知有变，引兵急进；未明，到城西，闻帝在北，因与公卿往奉迎于北芒阪下。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 汉纪/汉纪五十一#p219
+  link_method: manual
+- work: 资治通鉴
+  term: 汉纪五十一
+  historical_text_id: text-niutrans-f455552515745b0ab0d6
+  chapter_anchor: 汉纪/汉纪五十一#p162
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「何进召卓使将兵诣京师。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十一
+  historical_text_id: text-niutrans-725f295380e318748fd0
+  chapter_anchor: 汉纪/汉纪五十一#p219
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「董卓至显阳苑，远见火起，知有变，引兵急进……奉迎于北芒阪下。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十一
+  historical_text_id: text-niutrans-6586d08ac52da694f164
+  chapter_anchor: 汉纪/汉纪五十一#p262
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「甲戌，卓复会群僚于崇德前殿，遂胁太后策废少帝……今废为弘农王，立陈留王协为帝。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪五十一
+  historical_text_id: text-niutrans-2cacc310917d4c7afc4a
+  chapter_anchor: 汉纪/汉纪五十一#p330
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：资治通鉴源引文：「癸酉，董卓使郎中令李儒鸩杀弘农王辩。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-guandu
   relation_type: precedes
   confidence: 0.95
   description_zh_cn: 董卓进京与诸侯割据先于官渡之战。
+background_zh_cn: 何进召卓使将兵诣京师——外戚与宦官相争，董卓应召引兵向洛，祸乱之门自开。
+process_zh_cn: 董卓至显阳苑，远见火起，知有变，引兵急进；未明到城西，闻帝在北，因与公卿往奉迎于北芒阪下。
+impact_zh_cn: 癸酉，董卓使郎中令李儒鸩杀弘农王辩——废帝见杀，关东诸侯由此起兵，东汉中央权威崩解。

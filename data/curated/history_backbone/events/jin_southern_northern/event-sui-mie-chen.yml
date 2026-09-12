@@ -32,8 +32,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《隋书·高祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 帝纪/卷一
   link_method: content
 - work: 陈书
@@ -45,10 +44,96 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《陈书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《陈书·后主纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷六
   link_method: content
-background_zh_cn: 开皇九年（589年）隋文帝发五十一万大军南下，韩擒虎、贺若弼渡江克建康，陈后主被俘，陈朝灭亡。
-result_zh_cn: 隋灭陈结束自西晋以来近三百年（280—589）的分裂局面，中国重新实现大一统。
-# promoted from data/candidates/batch03/event-sui-mie-chen.yml (AUTO_ACCEPT gate)
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-01a1c90be1edd73937a9
+  chapter_anchor: 帝纪/卷二#p20
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「乙亥，行幸定城，陈师誓众。」；claim_field=background；anchor=段落精确锚。
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-220819073266317017e3
+  chapter_anchor: 帝纪/卷二#p24
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「辛未，贺若弼拔陈京口，韩擒虎拔陈南豫州。」；claim_field=process；anchor=段落精确锚。
+- work: 陈书
+  term: 后主纪
+  historical_text_id: text-niutrans-20227119fe0eeabab890
+  chapter_anchor: 本纪/卷六#p194
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：陈书源引文：「韩擒虎率众自新林至于石子冈，任忠出降于擒虎，仍引擒虎经硃雀航趣宫城，自南掖门而入。」；claim_field=process；anchor=段落精确锚。
+- work: 隋书
+  term: 高祖纪
+  historical_text_id: text-niutrans-c490160054dcad2d8afb
+  chapter_anchor: 帝纪/卷二#p28
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：隋书源引文：「陈国平，合州三十，郡一百，县四百。」；claim_field=result；anchor=段落精确锚。
+- work: 陈书
+  term: 后主纪
+  historical_text_id: text-niutrans-9217034af16e93ee93da
+  chapter_anchor: 本纪/卷六#p198
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：陈书源引文：「及夜，为隋军所执。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 开皇八年正月，陈遣使来聘；乙亥，行幸定城，陈师誓众——隋以晋王广、贺若弼、韩擒虎等诸道并进伐陈。
+result_zh_cn: 丙子，贺若弼败陈师于蒋山、获其将萧摩诃；陈国平，合州三十、郡一百、县四百——南北分裂三百年的局面终结。
+process_zh_cn: 辛未，贺若弼拔陈京口，韩擒虎拔陈南豫州；陈军南北道并进之际，韩擒虎率众自新林至石子冈，任忠出降、引之经朱雀航趣宫城，自南掖门而入。
+impact_zh_cn: 及夜，陈后主为隋军所执，陈亡——隋完成统一，中国结束魏晋南北朝长期分裂，重归一统。
+people:
+- person_name_raw: 陈后主
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 陈末帝：城破被执，陈亡
+  review_note: ready43-c4：陈书·后主纪「及夜，为隋军所执」
+  person_id: null
+- person_name_raw: 贺若弼
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 隋将：拔京口、败陈师于蒋山
+  review_note: ready43-c4：隋书「贺若弼败陈师于蒋山」
+  person_id: null
+- person_name_raw: 韩擒虎
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 隋将：自新林入宫城，执陈后主
+  review_note: ready43-c4：陈书·后主纪「韩擒虎率众自新林至于石子冈」
+  person_id: null
+places:
+- place_name_raw: 建康
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 陈都城：隋军自南掖门入宫城
+  review_note: ready43-c4：陈书·后主纪「自南掖门而入」

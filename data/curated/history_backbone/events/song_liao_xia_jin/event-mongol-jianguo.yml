@@ -11,7 +11,8 @@ period_id: period-song-liao-jin
 regime_ids:
 - regime-mongol-empire
 importance: critical
-summary_zh_cn: 开禧二年（1206 年），铁木真统一蒙古诸部，在斡难河源即大汗位，称成吉思汗，建立大蒙古国（Yeke Mongghol Ulus）；此为蒙古帝国的开端，与 1271 年改国号"大元"（regime-yuan）为两个不同政权阶段。
+summary_zh_cn: 开禧二年（1206 年），铁木真统一蒙古诸部，在斡难河源即大汗位，称成吉思汗，建立大蒙古国（Yeke Mongghol Ulus）；此为蒙古帝国的开端，与
+  1271 年改国号"大元"（regime-yuan）为两个不同政权阶段。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《元史·太祖纪》；《蒙古秘史》；现代参考：韩儒林主编《元朝史》（人民出版社）；周良霄、顾菊英《元代史》（上海人民出版社）；白寿彝总主编《中国通史·宋辽金元卷》；萧启庆《内北国而外中国》（中华书局）
@@ -26,3 +27,80 @@ relations:
   relation_type: precedes
   confidence: 0.7
   description_zh_cn: 1206 年大蒙古国 1271 年改国号大元。
+background_zh_cn: 铁木真起于蒙古高原部落兼并之中，先后与泰赤乌、汪罕（克烈）、乃蛮等部长期征战：先会汪罕于萨里河，与泰赤乌部大战于斡难河上而败之；后移军斡难河源谋攻汪罕，诸部次第降附，统一之势已成。
+process_zh_cn: 乙丑年（1205）先征西夏，拔力吉里寨，经落思城而还。元年丙寅（1206），铁木真大会诸王群臣，建九斿白旗，即皇帝位于斡难河之源，诸王群臣共上尊号曰成吉思皇帝。即位后旋发兵复征乃蛮：于兀鲁塔山擒卜欲鲁罕，乃蛮太阳罕之子屈出律与脱脱奔也儿的石河。
+result_zh_cn: 大蒙古国（Yeke Mongghol Ulus）正式建成，铁木真受尊号「成吉思皇帝」。至也儿的石河讨灭蔑里乞部，脱脱中流矢死，屈出律奔契丹（西辽）；四年己巳（1209）春，畏吾儿国来归，草原诸部归于一统。
+impact_zh_cn: 即位当年「帝始议伐金」——以金人杀害宗亲咸补海罕为由定议致讨，并连年用兵西夏（乙丑、丁卯两征，克斡罗孩城），遣使乞力吉思、通使诸部。蒙古自草原统一战争转向对外扩张，金与西夏成为最初目标。
+people:
+- person_name_raw: 屈出律
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 乃蛮太阳罕之子，兵败奔契丹
+  review_note: overnight-08：元史·太祖纪 行245「至也儿的石河，讨蔑里乞部，灭之，脱脱中流矢死，屈出律奔契丹。」
+  person_id: null
+places:
+- place_name_raw: 斡难河源
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 1206 年铁木真即皇帝位、建九斿白旗之地
+  review_note: overnight-08：元史·太祖纪 行230「即皇帝位于斡难河之源」
+- place_name_raw: 也儿的石河
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 乃蛮残余与蔑里乞败亡之地
+  review_note: overnight-08：元史·太祖纪 行245「至也儿的石河，讨蔑里乞部，灭之…屈出律奔契丹」
+evidence:
+- work: 元史
+  term: 太祖纪
+  historical_text_id: text-niutrans-784ecde3ae4092d00b0b
+  chapter_anchor: 本纪/卷一#p230
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷一/source.txt:230）引文：「元年丙寅，帝大会诸王群臣，建九斿白旗，即皇帝位于斡难河之源，诸王群臣共上尊号曰成吉思皇帝。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 元史
+  term: 太祖纪
+  historical_text_id: text-niutrans-494ac4310cd32add41d0
+  chapter_anchor: 本纪/卷一#p236
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷一/source.txt:236）引文：「帝始议伐金。初，金杀帝宗亲咸补海罕，帝欲复仇。」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 元史
+  term: 太祖纪
+  historical_text_id: text-niutrans-dfa5c1f2ffcf8ae3c27e
+  chapter_anchor: 本纪/卷一#p245
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷一/source.txt:245）引文：「至也儿的石河，讨蔑里乞部，灭之，脱脱中流矢死，屈出律奔契丹。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 元史
+  term: 太祖纪
+  historical_text_id: text-niutrans-8abd2024ee78f0aac14d
+  chapter_anchor: 本纪/卷一#p115
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/元史/本纪/卷一/source.txt:115）引文：「时泰赤乌犹强，帝会汪罕于萨里河，与泰赤乌部长沆忽等大战斡难河上，败走之，斩获无算。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

@@ -27,3 +27,89 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 随后淞沪会战打响。
+
+background_zh_cn: 中国「外求和平、内求统一」，国民政府外交政策主张对内求自存、对外求共存，近两年对日外交一秉此旨；其时东四省失陷已六年，继有塘沽协定，冲突地点已至北平门口的卢沟桥。
+process_zh_cn: 卢沟桥事变发生后，日方舆论与外交直接间接表示显露事变征兆，并传播扩大塘沽协定范围、扩大冀东伪组织、驱逐第二十九军、逼迫宋哲元离开等传闻——「这一次的事件，并不是偶然的」。
+result_zh_cn: 国民政府确定始终一贯的方针和立场：「我们希望和平，而不求苟安；准备应战，而决不求战」；「万一真到了无可避免的最后关头，我们当然只有牺牲，只有抗战」。
+impact_zh_cn: 「如果战端一开，那就是地无分南北，年无分老幼，无论何人，皆有守土抗战之责任，皆应抱定牺牲一切之决心」——最后关头的抗战宣言昭告中外，成为全国抗战动员的标志性文告。
+people:
+- person_name_raw: 蒋中正
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 庐山谈话发表者：宣示应战而不求战的方针与最后关头立场
+  review_note: batch02-10：對盧溝橋事件之嚴正聲明 页首署「蔣中正」；行文以「政府」立场宣示
+  person_id: null
+- person_name_raw: 宋哲元
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 第二十九军将领；日方传闻逼迫其离开，为事变征兆之一
+  review_note: batch02-10：對盧溝橋事件之嚴正聲明「要驅逐第二十九軍，要逼迫宋哲元離開」
+  person_id: null
+places:
+- place_name_raw: 卢沟桥
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 事变爆发地：声明称「现在冲突地点已到了北平门口的卢沟桥」
+  review_note: batch02-10：對盧溝橋事件之嚴正聲明「現在沖突地點已到了北平門口的盧溝橋」
+- place_name_raw: 北平
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 声明称其为百年故都、北方政治文化中心与军事重镇
+  review_note: batch02-10：對盧溝橋事件之嚴正聲明「我們百年故都，北方政治文化的中心與軍事重鎮的北平」
+- place_name_raw: 冀东
+  role: region
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 日方谋扩大伪组织之地（冀东伪组织）
+  review_note: batch02-10：對盧溝橋事件之嚴正聲明「要擴大冀東偽組織」
+evidence:
+- work: 對盧溝橋事件之嚴正聲明
+  term: 廬山談話·民國二十六年七月十七日
+  historical_text_id: text-wikisource-b80b143e5db4453fe552
+  chapter_anchor: 對盧溝橋事件之嚴正聲明#p3
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「中國民族本是酷愛和平，國民政府的外交政策，向來主張對內求自存，對外求共存。」；claim_field=background；anchor=段落精确锚。
+- work: 對盧溝橋事件之嚴正聲明
+  term: 廬山談話·民國二十六年七月十七日
+  historical_text_id: text-wikisource-4e48620507c7d3133118
+  chapter_anchor: 對盧溝橋事件之嚴正聲明#p4
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「可想見這一次的事件，並不是偶然的。……現在沖突地點已到了北平門口的盧溝橋。」；claim_field=process；anchor=段落精确锚。
+- work: 對盧溝橋事件之嚴正聲明
+  term: 廬山談話·民國二十六年七月十七日
+  historical_text_id: text-wikisource-2dc70a86512dd928c9b9
+  chapter_anchor: 對盧溝橋事件之嚴正聲明#p5
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「萬一真到了無可避免的最後關頭，我們當然只有犧牲，只有抗戰！但我們的態度祗是應戰，而不是求戰。」；claim_field=result；anchor=段落精确锚。
+- work: 對盧溝橋事件之嚴正聲明
+  term: 廬山談話·民國二十六年七月十七日
+  historical_text_id: text-wikisource-a62b07668ccd00525245
+  chapter_anchor: 對盧溝橋事件之嚴正聲明#p12
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「如果戰端一開，那就是地無分南北，年無分老幼，無論何人，皆有守土抗戰之責任，皆應抱定犧牲一切之決心。」；claim_field=impact；anchor=段落精确锚。

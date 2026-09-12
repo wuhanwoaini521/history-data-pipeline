@@ -11,8 +11,7 @@ period_id: period-tang
 regime_ids:
 - regime-tang
 importance: critical
-summary_zh_cn: 乾符二年至中和四年（875—884年）黄巢领导唐末最大的农民起义：转战大半个中国，880年攻入长安、建大齐政权，884年兵败死于泰山。黄巢起义重创唐朝统治根基，使藩镇割据彻底军阀化，直接导向唐亡（aggregate，子事件见
-  part_of）。
+summary_zh_cn: 乾符二年至中和四年（875—884年）黄巢领导唐末最大的农民起义：转战大半个中国，880年攻入长安、建大齐政权，884年兵败死于泰山。黄巢起义重创唐朝统治根基，使藩镇割据彻底军阀化，直接导向唐亡（aggregate，子事件见 part_of）。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《旧唐书·黄巢传》《僖宗纪》；现代参考：吴宗国《隋唐五代简史》；陈寅恪《隋唐制度渊源略论稿》与《唐代政治史述论稿》；岑仲勉《隋唐史》；黄永年《六至九世纪中国政治史》；白寿彝《中国通史》
@@ -33,26 +32,103 @@ relations:
 evidence:
 - work: 旧唐书
   term: 黄巢传
-  historical_text_id: null
+  historical_text_id: text-wikisource-3c92003bf43ceff24b74
   chapter_hint: 黄巢传
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《旧唐书·黄巢传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「一旦長驅江表，徑入关中。」；anchor=段落精确锚。
+  chapter_anchor: 列传/黄巢传#p42
+  link_method: manual
 - work: 旧唐书
   term: 僖宗纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-1d473e4764c6d2e3f9fa
   chapter_hint: 僖宗纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《旧唐书·僖宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
-background_zh_cn: 乾符二年至中和四年（875—884年）黄巢领导唐末最大的农民起义：转战大半个中国，880年攻入长安、建大齐政权，884年兵败死于泰山。
-result_zh_cn: 黄巢起义重创唐朝统治根基，使藩镇割据彻底军阀化，直接导向唐亡（aggregate，子事件见 part_of）。
-# promoted from data/candidates/batch04/event-huangchao-qiyi.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「己巳，賊陷东都……丙子，攻潼关，守关諸將望風自潰。」；anchor=段落精确锚。
+  chapter_anchor: 本纪/僖宗纪#p67
+  link_method: manual
+- work: 旧唐书
+  term: 僖宗纪
+  historical_text_id: text-wikisource-f693adff13f2100dcdbd
+  chapter_anchor: 本纪/僖宗纪#p65
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「八月，黃巢之眾渡江寇淮南。……駢欲收功於己，乃奏賊已將殄。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 僖宗纪
+  historical_text_id: text-wikisource-1d473e4764c6d2e3f9fa
+  chapter_anchor: 本纪/僖宗纪#p67
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「己巳，賊陷东都……丙子，攻潼关，守关諸將望風自潰。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 黄巢传
+  historical_text_id: text-wikisource-3c92003bf43ceff24b74
+  chapter_anchor: 列传/黄巢传#p42
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「一旦長驅江表，徑入关中。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 黄巢传
+  historical_text_id: text-wikisource-fe6609fdd25d3062c4cb
+  chapter_anchor: 列传/黄巢传#p34
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「四月，官軍敗賊于太康，俘斬萬計，拔其四壁。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 黄巢之众渡江寇淮南；时昭义、武宁、义武等军兵马数万赴淮南，高骈欲收功于己，奏贼已殄、遣还诸道之师。
+result_zh_cn: 黄巢长驱江表、径入关中——广明元年十二月入长安，僖宗西幸。
+process_zh_cn: 十一月，贼陷东都，留守刘允章率分司官属迎谒；再陷虢州，攻潼关，守关诸将望风自溃。
+impact_zh_cn: 其亡也以沙陀与诸道之师：四年二月李克用率山西诸军济河赴援陈州，四月官军败贼于太康，俘斩万计——黄巢起义终至覆灭，而唐廷已赖藩镇之力，名存实亡。
+people:
+- person_name_raw: 黄巢
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 起义领袖：陷东都、入关中
+  review_note: source-batch02：旧唐书·黄巢传「徑入关中」；僖宗纪「賊陷东都」
+  person_id: null
+- person_name_raw: 李克用
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 沙陀首领：率山西诸军赴援、败贼
+  review_note: source-batch02：旧唐书·黄巢传「李克用率山西諸軍，由蒲、陝濟河」
+  person_id: null
+places:
+- place_name_raw: 潼关
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 黄巢军攻取之关隘（守将望风自溃）
+  review_note: source-batch02：旧唐书·僖宗纪「攻潼关，守关諸將望風自潰」
+- place_name_raw: 东都
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 洛阳：黄巢陷之
+  review_note: source-batch02：旧唐书·僖宗纪「賊陷东都」

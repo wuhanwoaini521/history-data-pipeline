@@ -17,4 +17,93 @@ source_reference: 古代史料：《史记·苏秦列传》《张仪列传》《
 source_ids:
 - work-curated-shiji
 - work-curated-zhanguoce
-relations: []
+relations:
+- target_event_id: event-shangyang-bianfa
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 合纵因秦强而生：商鞅变法后「秦人富彊，天子致胙，诸侯毕贺」，力量对比转为「诸侯之地五倍於秦」而秦独强，苏秦遂倡六国并力西向以抗秦。
+- target_event_id: event-zhangyi-po-chu
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 合纵既成，秦以连横破从相抗：张仪连横欺楚（前313）为连横离间从约的代表行动，属同一纵横外交格局。
+- target_event_id: event-qin-mie-liuguo
+  relation_type: leads_to
+  confidence: 0.5
+  description_zh_cn: 从亲/衡合两策对峙为战国中后期列国外交主轴；合纵最终被秦瓦解、六国被各个击破，秦统一是这场地缘外交博弈的终局。
+background_zh_cn: 秦强而诸侯弱：苏秦按天下地图案之，「诸侯之地五倍於秦，料度诸侯之卒十倍於秦」，主张「六国为一，并力西乡而攻秦，秦必破矣」；否则从亲则诸侯割地事楚、衡合则楚割地事秦，两策对峙为战国外交基本格局。
+process_zh_cn: 苏秦先后说燕、赵等国，赵肃侯封为武安君；说楚王以「秦，虎狼之国，不可亲也」动之，楚王自陈「谨奉社稷以从」。於是六国从合而并力，苏秦为从约长，并相六国，乃投从约书于秦。
+result_zh_cn: 合纵既成，「秦兵不敢闚函谷关十五年」——秦国东出被合纵封锁十五年。
+impact_zh_cn: 其后秦使犀首欺齐、魏，与共伐赵，欲败从约——合纵自此始遭离间；而「从亲/衡合」两策自此成为战国中后期列国外交与纵横家活动的主轴。
+people:
+- person_name_raw: 苏秦
+  role: diplomat
+  link_status: needs_linking
+  role_zh_cn: 合纵发起者：从约长，并相六国
+  review_note: overnight-08：史记·苏秦列传 行171-172「於是六国从合而并力焉。苏秦为从约长，并相六国。」
+  person_id: null
+- person_name_raw: 赵肃侯
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 封苏秦为武安君，合纵之约自赵出
+  review_note: overnight-08：史记·苏秦列传 行184「苏秦既约六国从亲，归赵，赵肃侯封为武安君」
+  person_id: null
+places:
+- place_name_raw: 函谷关
+  role: frontier
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 合纵封锁下秦兵十五年不敢东出之关
+  review_note: overnight-08：史记·苏秦列传 行185「秦兵不敢闚函谷关十五年」
+evidence:
+- work: 史记
+  term: 苏秦列传
+  historical_text_id: text-niutrans-d26c89f94de81ece9a9d
+  chapter_anchor: 七十列传/苏秦列传#p171
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/七十列传/苏秦列传/source.txt:171）引文：「於是六国从合而并力焉。苏秦为从约长，并相六国。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 苏秦列传
+  historical_text_id: text-niutrans-a688b59816b1ea4924d8
+  chapter_anchor: 七十列传/苏秦列传#p185
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/七十列传/苏秦列传/source.txt:185）引文：「秦兵不敢闚函谷关十五年。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 苏秦列传
+  historical_text_id: text-niutrans-43cf54c8235ad39afcc1
+  chapter_anchor: 七十列传/苏秦列传#p186
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/七十列传/苏秦列传/source.txt:186）引文：「其後秦使犀首欺齐、魏，与共伐赵，欲败从约。」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 苏秦列传
+  historical_text_id: text-niutrans-e4c09738f13312e2a997
+  chapter_anchor: 七十列传/苏秦列传#p69
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/七十列传/苏秦列传/source.txt:69）引文：「臣窃以天下之地图案之，诸侯之地五倍於秦，料度诸侯之卒十倍於秦，六国为一，并力西乡而攻秦，秦必破矣。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

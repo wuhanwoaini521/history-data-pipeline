@@ -24,3 +24,92 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 王室权威进一步衰落，郑等国率先坐大
+background_zh_cn: 幽王宠褒姒，废申后与太子宜臼；又任虢石父为卿用事，国人皆怨；烽火数举而失信于诸侯。申侯积怒，周王室内部与外戚、西戎的矛盾总爆发。
+process_zh_cn: 申侯联合缯与西夷犬戎攻幽王；幽王举烽火徵兵，诸侯兵莫至。犬戎遂杀幽王于骊山下，虏褒姒，尽取周赂而去。
+result_zh_cn: 诸侯即申侯之约，共立故幽王太子宜臼，是为平王，以奉周祀；平王即位后东迁于雒邑，以避戎寇。西周亡而东周始。
+impact_zh_cn: 史迁总括平王之世：「周室衰微，诸侯彊并弱，齐、楚、秦、晋始大，政由方伯」——王室权威跌落、政令移于方伯，列国争霸的春秋格局自此开启。
+people:
+- person_name_raw: 周平王
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 故幽王太子宜臼，诸侯共立，东迁雒邑
+  review_note: overnight-08：史记·周本纪 行364「共立故幽王太子宜臼，是为平王，以奉周祀」、行365「平王立，东迁于雒邑」
+  person_id: null
+- person_name_raw: 申侯
+  role: instigator
+  link_status: needs_linking
+  role_zh_cn: 联合缯、犬戎攻幽王，拥立平王
+  review_note: overnight-08：史记·周本纪 行361「申侯怒，与缯、西夷犬戎攻幽王」、行364「诸侯乃即申侯而共立…宜臼」
+  person_id: null
+- person_name_raw: 周幽王
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 废申后太子、烽火失信，死于骊山
+  review_note: overnight-08：史记·周本纪 行363「遂杀幽王骊山下，虏襃姒，尽取周赂而去」
+  person_id: null
+places:
+- place_name_raw: 雒邑
+  role: destination
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 平王东迁之都邑（成周）
+  review_note: overnight-08：史记·周本纪 行365「平王立，东迁于雒邑，辟戎寇」
+- place_name_raw: 骊山
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 幽王被杀之地
+  review_note: overnight-08：史记·周本纪 行363「遂杀幽王骊山下」
+evidence:
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-03bc154eec649b734267
+  chapter_anchor: 十二本纪/周本纪#p365
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/十二本纪/周本纪/source.txt:365）引文：「於是诸侯乃即申侯而共立故幽王太子宜臼，是为平王，以奉周祀。平王立，东迁于雒邑，辟戎寇。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-8945d06f529ef0f23625
+  chapter_anchor: 十二本纪/周本纪#p361
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/十二本纪/周本纪/source.txt:361）引文：「申侯怒，与缯、西夷犬戎攻幽王。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-8148bb007aa1bd561bc5
+  chapter_anchor: 十二本纪/周本纪#p366
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/十二本纪/周本纪/source.txt:366）引文：「平王之时，周室衰微，诸侯彊并弱，齐、楚、秦、晋始大，政由方伯。」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-efe1f4e45b1e801e03b1
+  chapter_anchor: 十二本纪/周本纪#p358
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/史记/十二本纪/周本纪/source.txt:358）引文：「幽王以虢石父为卿，用事，国人皆怨。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

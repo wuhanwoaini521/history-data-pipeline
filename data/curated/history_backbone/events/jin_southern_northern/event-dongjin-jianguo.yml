@@ -29,15 +29,16 @@ relations:
 evidence:
 - work: 晋书
   term: 元帝纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-0b643f82143521fa7eaa
   chapter_hint: 元帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·元帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「永嘉初，用王導計，始鎮建鄴……賓禮名賢，存問風俗，江东歸心焉。」；anchor=段落精确锚。
+  chapter_anchor: 帝纪/元帝纪#p4
+  link_method: manual
 - work: 资治通鉴
   term: 晋纪
   historical_text_id: text-niutrans-8b06b2bf7ac6d2fece6c
@@ -47,10 +48,78 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 晋纪/晋纪一
   link_method: exact
-background_zh_cn: 建武元年（317年）司马睿在建康（今南京）即晋王位，次年称帝，史称东晋。
-result_zh_cn: 东晋建立承接"衣冠南渡"，以建康为政治中心，形成与北方十六国并行的"南北分治"格局，中国历史进入东晋十六国阶段。
-# promoted from data/candidates/batch02/event-dongjin-jianguo.yml (AUTO_ACCEPT gate)
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-0b643f82143521fa7eaa
+  chapter_anchor: 帝纪/元帝纪#p4
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「永嘉初，用王導計，始鎮建鄴……賓禮名賢，存問風俗，江东歸心焉。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-1ec806030740bb1d78d2
+  chapter_anchor: 帝纪/元帝纪#p6
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「請依魏晉故事爲晉王，許之。辛卯，卽王位。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-269c17bc2cf7e871056a
+  chapter_anchor: 帝纪/元帝纪#p8
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「等一百八十人上书勸進。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 元帝纪
+  historical_text_id: text-wikisource-52d2ae49ae61a6b52c32
+  chapter_anchor: 帝纪/元帝纪#p7
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「立世子紹爲晉王太子……王導都督中外諸軍事。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 永嘉初，司马睿用王导之计始镇建邺，以顾荣为军司马、贺循为参佐，王敦、王导、周顗、刁协并为腹心股肱，宾礼名贤、存问风俗，江东归心。
+result_zh_cn: 六月，刘琨、段匹磾、慕容廆等一百八十人上书劝进——江东政权获得北方流亡势力与诸州牧守的承认。
+process_zh_cn: 愍帝诏使摄万机、时据旧都；三月，帝素服出次举哀三日，群臣以死固请上尊号，乃请依魏晋故事为晋王，许之，辛卯即王位。
+impact_zh_cn: 王位既立即建东晋体制：立世子绍为晋王太子，以王导都督中外诸军事、王敦为大将军——「王与马共天下」的江左门阀政治格局自此确立。
+people:
+- person_name_raw: 司马睿
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 晋元帝：镇建邺、即晋王位，东晋开国
+  review_note: source-batch02：晋书·元帝纪「用王導計，始鎮建鄴」「辛卯，卽王位」
+  person_id: null
+- person_name_raw: 王导
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 谋主：劝睿镇建邺、都督中外诸军事
+  review_note: source-batch02：晋书·元帝纪「王導都督中外諸軍事」
+  person_id: null
+places:
+- place_name_raw: 建邺
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 司马睿镇守之地（后改建康，东晋都城）
+  review_note: source-batch02：晋书·元帝纪「始鎮建鄴」

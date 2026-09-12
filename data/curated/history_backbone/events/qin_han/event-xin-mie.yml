@@ -35,8 +35,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《汉书·王莽传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《汉书·王莽传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 传/王莽传上
   link_method: content
 - work: 后汉书
@@ -48,10 +47,96 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《后汉书·光武帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/光武十王列传
   link_method: content
+- work: 汉书
+  term: 王莽传下
+  historical_text_id: text-niutrans-2b564a2309cdac4da36b
+  chapter_anchor: 传/王莽传下#p412
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「会世祖悉发郾、定陵兵数千人来救昆阳……与汉兵战，不利。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 王莽传下
+  historical_text_id: text-niutrans-ea2b8f151f5c8a5258d6
+  chapter_anchor: 传/王莽传下#p414
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「昆阳中兵出并战，邑走，军乱。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三十一
+  historical_text_id: text-niutrans-c3873ee431c31d0ac33a
+  chapter_anchor: 汉纪/汉纪三十一#p147
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「商人杜吴杀莽，校尉东海公宾就斩莽首。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三十一
+  historical_text_id: text-niutrans-ab9c76a72314bae36f5c
+  chapter_anchor: 汉纪/汉纪三十一#p153
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「传莽首诣宛，县于市。百姓共提击之，或切食其舌。」；claim_field=impact；anchor=段落精确锚。
+- work: 汉书
+  term: 王莽传下
+  historical_text_id: text-niutrans-abc67f48b74385304e3d
+  chapter_anchor: 传/王莽传下#p523
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「莽就车，之渐台，欲阻池水。」；claim_field=result；anchor=段落精确锚。
 background_zh_cn: 公元23年十月，更始军攻入长安，王莽被杀于渐台，新朝灭亡。
 result_zh_cn: 新朝的失败结束了王莽改制试验，中国历史进入更始与群雄争夺、刘秀重建汉室的东汉建立阶段。
-# promoted from data/candidates/batch02/event-xin-mie.yml (AUTO_ACCEPT gate)
+process_zh_cn: 昆阳之战：世祖悉发郾、定陵兵数千人来救昆阳，莽将寻、邑易之，自将万余人行陈、敕诸营按部毋得动；昆阳中兵出并战，邑走、军乱——新莽主力崩溃。
+impact_zh_cn: 莽就车之渐台、欲阻池水；商人杜吴杀莽，校尉公宾就斩莽首；传莽首诣宛，县于市，百姓共提击之、或切食其舌——新莽覆灭，天下复归汉室。
+people:
+- person_name_raw: 王莽
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 新朝皇帝：昆阳败后于渐台被杀
+  review_note: ready43-c1：通鉴汉纪三十一「商人杜吴杀莽」
+  person_id: null
+- person_name_raw: 王邑
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 莽将：昆阳败走，后守渐台
+  review_note: ready43-c1：汉书·王莽传下「昆阳中兵出并战，邑走，军乱」
+  person_id: null
+places:
+- place_name_raw: 昆阳
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 新汉决战之地
+  review_note: ready43-c1：汉书·王莽传下「昆阳中兵出并战，邑走，军乱」
+- place_name_raw: 渐台
+  role: location
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 王莽败亡被杀处（长安未央宫渐台）
+  review_note: ready43-c1：汉书·王莽传下「莽就车，之渐台，欲阻池水」

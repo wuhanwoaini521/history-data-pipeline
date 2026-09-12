@@ -11,8 +11,7 @@ period_id: period-ming
 regime_ids:
 - regime-ming
 importance: critical
-summary_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。本事件为
-  aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
+summary_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《明史·成祖纪》《恭闵帝纪》；现代参考：南炳文、汤纲《明史》（上海人民出版社）；孟森《明史讲义》（中华书局）；白寿彝总主编《中国通史·元明清卷》
@@ -33,8 +32,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·成祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷五
   link_method: content
 - work: 明史
@@ -46,10 +44,84 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·恭闵帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·恭闵帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷四
   link_method: content
-background_zh_cn: 建文元年至四年（1399—1402 年），燕王朱棣以"清君侧、靖难"为名起兵，历三年余南下攻入南京，建文帝下落不明，朱棣即位（明成祖）。
-result_zh_cn: 本事件为 aggregate，子事件（靖难起兵、燕军入南京）经 part_of 关联。
-# promoted from data/candidates/batch05/event-jingnan-zhizhan.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 成祖纪
+  historical_text_id: text-niutrans-38871e46435c81c3a122
+  chapter_anchor: 本纪/卷五#p13
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「惮燕王强，未发，乃先废周王橚，欲以牵引燕。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 成祖纪
+  historical_text_id: text-niutrans-01592f9c9c77629ac767
+  chapter_anchor: 本纪/卷五#p22
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「遂举兵。自署官属，称其师曰 靖难 ……二旬众至数万。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 成祖纪
+  historical_text_id: text-niutrans-b20cd847f660836c2ef1
+  chapter_anchor: 本纪/卷五#p156
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「乙丑，至金川门，谷王橞、李景隆等开门纳王，都城遂陷。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 成祖纪
+  historical_text_id: text-niutrans-e554a7f91a4a93b26d5e
+  chapter_anchor: 本纪/卷五#p162
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「王升辇，诣奉天殿即皇帝位。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 建文立，惮燕王强而未发，乃先废周王橚，欲以牵引燕；太祖遗诏诸王临国中、毋得至京师——削藩逼燕，兵衅已成。
+result_zh_cn: 乙丑，燕师至金川门，谷王橞、李景隆等开门纳王，都城遂陷。
+process_zh_cn: 燕王上书天子指齐泰、黄子澄为奸臣，援《祖训》「朝无正臣，内有奸恶，则亲王训兵待命」，遂举兵，自署官属、称其师曰「靖难」；拔居庸关、破怀来、取密云、克遵化、降永平，二旬众至数万。
+impact_zh_cn: 王升辇、诣奉天殿即皇帝位——靖难之役以燕王继统收场，永乐之世自此开启。
+people:
+- person_name_raw: 朱棣
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 燕王→明成祖：靖难起兵、入京即位
+  review_note: ready43-c5：明史·成祖纪「遂举兵……称其师曰靖难」「诣奉天殿即皇帝位」
+  person_id: null
+- person_name_raw: 李景隆
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 建文军统帅：金川门开门纳燕师
+  review_note: ready43-c5：明史·成祖纪「谷王橞、李景隆等开门纳王」
+  person_id: null
+places:
+- place_name_raw: 金川门
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 京师城门：燕师由此入都
+  review_note: ready43-c5：明史·成祖纪「至金川门……都城遂陷」
+- place_name_raw: 北平
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 燕王起兵之地
+  review_note: ready43-c5：明史·成祖纪「洪武三年，封燕王」

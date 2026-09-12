@@ -35,21 +35,90 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《三国志·魏书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《三国志·魏书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 魏书/文帝纪
   link_method: exact
 - work: 后汉书
   term: 献帝纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-4ab573bae8e0325e68fe
   chapter_hint: 献帝纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《后汉书·献帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 建安二十五年（220年）正月曹操去世，十月曹丕接受汉献帝禅让称帝，改元黄初，国号魏，东汉正式灭亡。
-result_zh_cn: 曹丕代汉是三国鼎立格局在名分上的确立，也是"禅让"改朝模式的重要案例。
-# promoted from data/candidates/batch02/event-caopi-dai-han.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「冬十月乙卯，皇帝遜位，魏王丕稱天子。」；anchor=段落精确锚。
+  chapter_anchor: 本纪/孝献帝纪#p267
+  link_method: manual
+- work: 后汉书
+  term: 孝献帝纪
+  historical_text_id: text-niutrans-99ef023433c8ab465a64
+  chapter_anchor: 本纪/孝献帝纪#p264
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：后汉书源引文：「二十五年春正月庚子，魏王曹操薨。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 孝献帝纪
+  historical_text_id: text-niutrans-4ab573bae8e0325e68fe
+  chapter_anchor: 本纪/孝献帝纪#p267
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：后汉书源引文：「冬十月乙卯，皇帝遜位，魏王丕稱天子。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 孝献帝纪
+  historical_text_id: text-niutrans-d72d8aa8c42bba3c8d63
+  chapter_anchor: 本纪/孝献帝纪#p271
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：后汉书源引文：「自遜位至薨，十有四年，年五十四，謚孝獻皇帝。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 孝献帝纪
+  historical_text_id: text-niutrans-07065a7be10c241d3a7e
+  chapter_anchor: 本纪/孝献帝纪#p272
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：后汉书源引文：「八月壬申，以汉天子禮儀葬于禪陵，置園邑令丞。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 建安二十五年春正月庚子，魏王曹操薨——汉廷最后的权臣故去，禅代之局交与其子。
+result_zh_cn: 逊位之后十四年，山阳公（献帝）薨，年五十四，谥孝献皇帝——亡国之君得终天年、以礼改谥。
+process_zh_cn: 冬十月乙卯，皇帝逊位，魏王丕称天子——汉魏禅代完成。
+impact_zh_cn: 八月壬申，以汉天子礼仪葬于禅陵，置园邑令丞——汉室以宾礼终，曹魏以「禅让」范式开魏晋南北朝易代模式。
+people:
+- person_name_raw: 曹丕
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 魏王：受禅称天子（魏文帝）
+  review_note: source-batch02：后汉书·孝献帝纪「魏王丕稱天子」
+  person_id: null
+- person_name_raw: 汉献帝
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 逊位之君：废为山阳公，谥孝献皇帝
+  review_note: source-batch02：后汉书·孝献帝纪「自遜位至薨，十有四年」
+  person_id: null
+places:
+- place_name_raw: 禅陵
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 献帝以汉天子礼仪所葬之地
+  review_note: source-batch02：后汉书·孝献帝纪「以汉天子禮儀葬于禪陵」

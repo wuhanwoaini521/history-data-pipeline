@@ -28,8 +28,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-changping-zhizhan.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-changping-zhizhan.yml]
 - person_id: curated-person-zhao-kuo
   person_name_raw: 赵括
   role: commander
@@ -39,8 +38,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.9
-  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
-    [V2 source=event-changping-zhizhan.yml]
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator [V2 source=event-changping-zhizhan.yml]
 relations:
 - target_event_id: event-yuanmen-zhizhan
   relation_type: follows
@@ -77,7 +75,72 @@ evidence:
   review_note: 《史记·廉颇蔺相如列传》（注：史记同一书内多个篇章，单一独立来源）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 七十列传/廉颇蔺相如列传
   link_method: exact
-# event-changping-zhizhan — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 史记
+  term: 廉颇蔺相如列传
+  historical_text_id: text-niutrans-a4e9ea061e2005ffe430
+  chapter_anchor: 七十列传/廉颇蔺相如列传#p133
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「七年，秦与赵兵相距长平……赵军固壁不战。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 白起王翦列传
+  historical_text_id: text-niutrans-a046934aa5355f5dec80
+  chapter_anchor: 七十列传/白起王翦列传#p45
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「因使赵括代廉颇将以击秦。秦闻马服子将，乃阴使武安君白起为上将军。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 周纪五
+  historical_text_id: text-niutrans-c6ffa4a4559c8e591773
+  chapter_anchor: 周纪/周纪五#p226
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「奇兵二万五千人绝赵军之后，又五千骑绝赵壁间。赵军分而为二，粮道绝。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 白起王翦列传
+  historical_text_id: text-niutrans-8424002c93a78573eb97
+  chapter_anchor: 七十列传/白起王翦列传#p103
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「长平之战，赵卒降者数十万人，我诈而尽阬之，是足以死。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 廉颇蔺相如列传
+  historical_text_id: text-niutrans-cb9d13e0b9c3bf9285af
+  chapter_anchor: 七十列传/廉颇蔺相如列传#p161
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「赵壮者尽於长平，其孤未壮。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 赵王怒廉颇军多失亡、又坚壁不敢战，闻秦反间之言，使赵括代廉颇将以击秦；秦闻马服子将，阴使武安君白起为上将军。赵括至军悉更约束、易置军吏，出兵击秦师，乘胜追造秦壁，壁坚拒不得入；秦奇兵二万五千人绝赵军之后，又五千骑绝赵壁间，赵军分而为二、粮道绝。
+impact_zh_cn: 长平战后赵壮者尽没：「赵壮者尽于长平，其孤未壮」；白起自谓「长平之战，赵卒降者数十万人，我诈而尽阬之，是足以死」——赵自此一蹶不振，秦并天下之势遂成。
+places:
+- place_name_raw: 长平
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 秦赵决战之地（上党长平）
+  review_note: ready43-c1：史记·廉颇蔺相如列传「秦与赵兵相距长平」+ 通鉴周纪五「赵括乘胜追造秦壁」

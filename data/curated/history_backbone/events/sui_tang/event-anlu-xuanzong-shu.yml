@@ -13,8 +13,7 @@ summary_zh_cn: 长安失守后唐玄宗向蜀地转移。
 result_zh_cn: 唐廷政治中心转移，肃宗集团组织反攻。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-19244
   person_name_raw: 李隆基（唐玄宗）
@@ -36,6 +35,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 杨国忠
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 宰相：首唱幸蜀之策
+  review_note: major-batch01：唐纪三十四「至是首唱幸蜀之策」
+  person_id: null
 places:
 - place_id: cbdb-place-406333
   place_name_raw: 成都
@@ -47,7 +52,7 @@ places:
   link_confidence: 0.9
   review_note: null
 evidence:
-- historical_text_id: text-niutrans-2eac2c18323f559cc9d0
+- historical_text_id: text-niutrans-60170da0c721234bc011
   work: 资治通鉴
   term: 蜀
   chapter_hint: 唐纪
@@ -56,14 +61,67 @@ evidence:
   - 玄宗
   - 蜀
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴唐纪三十四玄宗西行至马嵬（入蜀途中核心）。引文：「丙申，至马嵬驿，将士饥疲，皆愤怒。」；anchor=段落精确锚。
   rejected_text_ids:
   - text-niutrans-0012aca6d5dcc3407238
+  chapter_anchor: 唐纪/唐纪三十四#p132
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-60545dbc44bbb963083f
+  chapter_anchor: 唐纪/唐纪三十四#p91
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「杨国忠自以身领剑南，闻安禄山反，即令副使崔圆阴具储偫，以备有急投之，至是首唱幸蜀之策。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-60170da0c721234bc011
+  chapter_anchor: 唐纪/唐纪三十四#p132
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「丙申，至马嵬驿，将士饥疲，皆愤怒。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-df4433eb84de829f2bcd
+  chapter_anchor: 唐纪/唐纪三十四#p190
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「上命悉陈之于庭，召将士入，临轩谕之曰： 朕比来衰耄，托任失人，致逆胡乱常，须远避其锋。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-d4c7bfd38e9d7c7d0065
+  chapter_anchor: 唐纪/唐纪三十四#p330
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「庚辰，上皇至成都，从官及六军至者千三百人而已。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-changan-recapture
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 唐廷在西行与重组后组织反攻。
+background_zh_cn: 杨国忠自以身领剑南，闻安禄山反，即令副使崔圆阴具储偫，以备有急投之，至是首唱幸蜀之策。
+process_zh_cn: 丙申，至马嵬驿，将士饥疲、皆愤怒——马嵬驿之变后玄宗一行继续西行。
+impact_zh_cn: 庚辰，上皇至成都，从官及六军至者千三百人而已——玄宗入蜀后其随行力量大为缩减，唐廷中枢实际转入肃宗灵武集团。

@@ -28,7 +28,6 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 武昌起义引发的政权更迭。
-
 evidence:
 - work: 清实录
   term: 宣统政纪
@@ -42,14 +41,91 @@ evidence:
   review_note: 《清实录·宣统政纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
 - work: 清史稿
   term: 宣统本纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-b8ccd18e57ccefc5bff1
   chapter_hint: 宣统本纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《清史稿·宣统本纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+  review_note: source-batch02：清史稿入库后重定位（章节+内容双核实）。引文：「皇太后懿旨，授袁世凱全權，与民軍商酌條件奏聞……遂遜位。」；anchor=段落精确锚。
+  chapter_anchor: 本纪/宣统皇帝本纪#p42
+  link_method: manual
+- work: 清史稿
+  term: 宣统皇帝本纪
+  historical_text_id: text-wikisource-b8ccd18e57ccefc5bff1
+  chapter_anchor: 本纪/宣统皇帝本纪#p42
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「己酉，皇太后懿旨，授袁世凱全權，与民軍商酌條件奏聞。……故不俟国会召集，決定自讓政權，遂有是命。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 宣统皇帝本纪
+  historical_text_id: text-wikisource-95515204c9bdd2230a76
+  chapter_anchor: 本纪/宣统皇帝本纪#p41
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「壬申，皇太后命召集臨时国会。」；claim_field=background；anchor=段落精确锚。与既有 background 字段互证
+- work: 清史稿
+  term: 宣统皇帝本纪
+  historical_text_id: text-wikisource-b8ccd18e57ccefc5bff1
+  chapter_anchor: 本纪/宣统皇帝本纪#p42
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「特飭內閣与民軍商酌優待皇室各條件，以期和平解決。……並議定優待皇室八條，待遇皇族四條，待遇滿、蒙、回、藏七條。……遂遜位。」；claim_field=result；anchor=段落精确锚。与既有 result 字段互证
+- work: 清史稿
+  term: 宣统皇帝本纪
+  historical_text_id: text-wikisource-f942d80357df34f7c3e0
+  chapter_anchor: 本纪/宣统皇帝本纪#p43
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「大變既起，遽謝政權，天下为公，永存優待，遂開千古未有之奇。」；claim_field=impact；anchor=段落精确锚。
 background_zh_cn: 1912 年 1 月中旬起，南北议和（袁世凯、伍廷芳等）达成协议，以清帝退位换取袁世凯出任临时大总统；1912 年 2 月 12 日宣统帝溥仪下诏退位，清朝结束，中国两千余年的帝制时代（国内史学通行表述）随之终结。
 result_zh_cn: 1912 年 1 月中旬起，南北议和（袁世凯、伍廷芳等）达成协议，以清帝退位换取袁世凯出任临时大总统；1912 年 2 月 12 日宣统帝溥仪下诏退位，清朝结束，中国两千余年的帝制时代（国内史学通行表述）随之终结。
-# promoted from data/candidates/batch06/event-qingdi-tuiwei.yml (AUTO_ACCEPT gate)
+process_zh_cn: 十二月己酉，皇太后懿旨授袁世凯全权与民军商酌条件奏闻；时岑春煊、袁树勋、陆徵祥、段祺瑞等请速定共和团体以免生灵涂炭，故不俟国会召集，决定自让政权。
+impact_zh_cn: 退位诏宣示：民军所开优礼条件——宗庙陵寝永远奉祀、先皇陵制如旧妥修——均已一律担承，「皇帝但卸政权，不废尊号」，并议定优待皇室八条、待遇皇族四条、待遇满蒙回藏七条；随后逊位。史论谓「大变既起，遽谢政权，天下为公，永存优待，遂开千古未有之奇」。
+people:
+- person_name_raw: 袁世凯
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 内阁总理大臣：受全权与民军商酌退位条件
+  review_note: source-batch02：清史稿·宣统皇帝本纪「授袁世凱全權，与民軍商酌條件奏聞」
+  person_id: null
+- person_name_raw: 隆裕太后
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 皇太后：颁授全权、宣布逊位
+  review_note: source-batch02：清史稿·宣统皇帝本纪「皇太后懿旨」
+  person_id: null
+- person_name_raw: 伍廷芳
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 南方代表：与袁世凯方议和
+  review_note: source-batch02：清史稿·宣统皇帝本纪「袁世凱奏与南方代表伍廷[芳]」
+  person_id: null
+places:
+- place_name_raw: 京师
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 清廷让政权、颁退位诏之地
+  review_note: source-batch02：清史稿·宣统皇帝本纪（宣统三年十二月逊位诏）

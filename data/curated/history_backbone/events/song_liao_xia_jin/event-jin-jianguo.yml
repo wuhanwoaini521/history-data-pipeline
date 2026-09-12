@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《金史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《金史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二
   link_method: content
 - work: 辽史
@@ -50,10 +49,102 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《辽史·天祚帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《辽史·天祚帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二十七
   link_method: content
-background_zh_cn: 收国元年（1115 年）正月，完颜阿骨打称帝建国，国号大金，都上京会宁府（今黑龙江阿城），金成为辽后期与北宋北方并存的强大势力，随即发动灭辽战争。
-result_zh_cn: 收国元年（1115 年）正月，完颜阿骨打称帝建国，国号大金，都上京会宁府（今黑龙江阿城），金成为辽后期与北宋北方并存的强大势力，随即发动灭辽战争。
-# promoted from data/candidates/batch04/event-jin-jianguo.yml (AUTO_ACCEPT gate)
+- work: 金史
+  term: 太祖纪
+  historical_text_id: text-niutrans-8670d5f04d6cf57c6412
+  chapter_anchor: 本纪/卷二#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史源引文：「太祖应乾兴运昭德定功仁明庄孝大圣武元皇帝，讳旻，本讳阿骨打，世祖第二子也。」；claim_field=background；anchor=段落精确锚。
+- work: 金史
+  term: 太祖纪
+  historical_text_id: text-niutrans-7d1184a902337ce518c4
+  chapter_anchor: 本纪/卷二#p182
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史源引文：「收国元年正月壬申朔，群臣奉上尊号。」；claim_field=process；anchor=段落精确锚。
+- work: 金史
+  term: 太祖纪
+  historical_text_id: text-niutrans-84605f292739f3f1b4d7
+  chapter_anchor: 本纪/卷二#p187
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史源引文：「于是国号大金，改元收国。」；claim_field=result；anchor=段落精确锚。
+- work: 金史
+  term: 熙宗纪
+  historical_text_id: text-niutrans-6b53814740c4b7cc0654
+  chapter_anchor: 本纪/卷三#p171
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史源引文：「辛巳，宋上誓书、地图，称侄大宋皇帝、伯大金皇帝。」；claim_field=impact；anchor=段落精确锚。金以国号临宋之证
+- work: 金史
+  term: 太祖纪
+  historical_text_id: text-niutrans-92ba1d681ec88903f64e
+  chapter_anchor: 本纪/卷二#p123
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史·太祖纪引文：「九月，太祖进军宁江州，次寥晦城。」；claim_field=impact；anchor=段落精确锚（建国前起兵战事）。
+- work: 金史
+  term: 太祖纪
+  historical_text_id: text-niutrans-cd1bfbb9a56150310319
+  chapter_anchor: 本纪/卷二#p169
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：金史·太祖纪引文：「俄与敌遇于出河店，会大风起，尘埃蔽天，乘风势击之，辽兵溃。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 太祖讳阿骨打，世祖第二子——完颜部首领承女真诸部之势崛起于按出虎水。
+result_zh_cn: 金室既建，以猛安谋克之制整军经武，十年之间灭辽伐宋——「大金」国号行于天下。
+process_zh_cn: 收国元年正月壬申朔，群臣奉上尊号；于是国号大金，改元收国。
+impact_zh_cn: 国号大金、改元收国——女真由部落联盟转为王朝国家，东北亚政治格局重组，辽宋先后受其冲击（宋人国书自此称「侄宋皇帝」奉「大金皇帝」）。
+people:
+- person_name_raw: 完颜阿骨打
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 金太祖：建号大金、改元收国
+  review_note: ready43-c3：金史·太祖纪「国号大金，改元收国」
+  person_id: null
+places:
+- place_name_raw: 宁江州
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 金太祖起兵首战之地
+  review_note: ready43-c3：金史·太祖纪「太祖进军宁江州，次寥晦城」
+- place_name_raw: 出河店
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 金军大破辽兵之地（乘风势击之，辽兵溃）
+  review_note: ready43-c3：金史·太祖纪「俄与敌遇于出河店……辽兵溃」

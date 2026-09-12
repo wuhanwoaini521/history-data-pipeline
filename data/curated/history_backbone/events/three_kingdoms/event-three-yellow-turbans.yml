@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 东汉后期大规模民变，中央权威进一步受到冲击。
-result_zh_cn: 地方军事力量扩张，东汉政治秩序继续分化。
+result_zh_cn: 官军大举反扑：以嵩为左中郎将，与朱俊共发五校、三河骑士及募精勇合四万余人，共讨颍川黄巾；嵩、俊乘胜进讨汝南、陈国黄巾。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-135353
   person_name_raw: 刘备
@@ -37,19 +36,84 @@ places:
   link_confidence: null
   review_note: 具体地点暂未可靠匹配。
 evidence:
-- historical_text_id: text-niutrans-01fa90c1b3084a0dc133
+- historical_text_id: text-niutrans-d60a7e4565a9c7a6bee6
   work: 后汉书
   term: 黄巾
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：皇甫嵩传黄巾标帜与起事记载。引文：「皆着黄巾为标帜，时人谓之 黄巾 ，亦名 蛾贼 。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 列传/皇甫嵩朱俊列传#p20
+  link_method: manual
+- work: 后汉书
+  term: 宦者列传
+  historical_text_id: text-niutrans-5572c9655dc6f0c571da
+  chapter_anchor: 列传/宦者列传#p318
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：后汉书源引文：「窃惟张角所以能兴兵作乱，万人所以乐附之者，其源皆由十常侍多放父兄、子弟、婚亲、宾客典据州郡。」；claim_field=background；anchor=段落精确锚。
+- work: 后汉书
+  term: 皇甫嵩传
+  historical_text_id: text-niutrans-d60a7e4565a9c7a6bee6
+  chapter_anchor: 列传/皇甫嵩朱俊列传#p20
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：后汉书源引文：「皆着黄巾为标帜，时人谓之 黄巾 ，亦名 蛾贼 。」；claim_field=process；anchor=段落精确锚。
+- work: 后汉书
+  term: 皇甫嵩传
+  historical_text_id: text-niutrans-97f619cecee34e75cdcd
+  chapter_anchor: 列传/皇甫嵩朱俊列传#p29
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：后汉书源引文：「以嵩为左中郎将……共发五校、三河骑士及募精勇，合四万余人，嵩、俊各统一军，共讨颍川黄巾。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 皇甫嵩传
+  historical_text_id: text-niutrans-925dfa8d75ac9e721851
+  chapter_anchor: 列传/皇甫嵩朱俊列传#p36
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：后汉书源引文：「嵩、俊乘胜进讨汝南、陈国黄巾。」；claim_field=result；anchor=段落精确锚。
+- work: 后汉书
+  term: 刘虞传
+  historical_text_id: text-niutrans-e9d109bbe481411caefc
+  chapter_anchor: 列传/刘虞公孙瓚陶谦列传#p26
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：后汉书源引文：「青、徐士庶避黄巾之难归虞者百余万口。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-dong-zhuo
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 黄巾起义后中央控制力继续下降，董卓进京成为后续节点。
+background_zh_cn: 郎中张钧上书言「张角所以能兴兵作乱，万人所以乐附之者，其源皆由十常侍多放父兄子弟……辜榷财利，侵掠百姓」——宦官乱政为黄巾之乱之由。
+process_zh_cn: 皆着黄巾为标帜，时人谓之黄巾，亦名「蛾贼」——以宗教符水聚众，旬月之间天下响应。
+impact_zh_cn: 黄巾虽平而天下残破：青、徐士庶避黄巾之难归刘虞者百余万口——流民百万、州郡割据，东汉统治自此瓦解，群雄逐鹿之局开启。

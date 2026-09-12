@@ -23,3 +23,113 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 南京陷落后的暴行。
+
+background_zh_cn: 日军以南京为抗战中心，纠集第六师团谷寿夫部队、第十六师团中岛部队、第十八师团牛岛部队、第一一四师团末松部队等，在松井石根指挥下会攻南京；因遭中国军队坚强抵抗，陷城后作有计划之屠杀以报复。
+process_zh_cn: 谷寿夫所率第六师团任前锋，一九三七年十二月十二日傍晚攻陷中华门，先头部队用绳梯攀垣而入，即开始屠杀；翌晨复率大军进城，与中岛、牛岛、末松等部分窜京市各区，展开大规模屠杀，继以焚烧抢掠；屠杀最惨厉时期为十二月十二日至二十一日。
+result_zh_cn: 判决认定：中华门外花神庙、石观音、小心桥、扫帚巷、正觉寺、方家山、宝塔桥、下关草鞋峡等处被集体杀戮及焚尸灭迹者达十九万人以上；中华门下码头、东岳庙、堆草卷、斩龙桥等处零星残杀、尸骸经慈善团体掩埋者达十五万人以上——被害总数达三十余万人；主文判处谷寿夫死刑。
+impact_zh_cn: 判决基于身历其境之证人及主持掩埋尸体者之具结证明认定事实，依海牙陆战规例、战时俘虏待遇公约、战争犯罪审判条例等作出——南京大屠杀经战后司法审判程序认定。
+people:
+- person_name_raw: 谷寿夫
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 日军第六师团长：纵兵屠杀、判处死刑
+  review_note: batch02-10：審字第壹號主文「共同縱兵屠殺俘虜及非戰鬥人員，並強奸、搶劫、破壞財產，處死刑」
+  person_id: null
+- person_name_raw: 松井石根
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 日军大将：指挥会攻南京诸部队
+  review_note: batch02-10：審字第壹號事實段「在松井石根大將指揮之下，合理會攻」
+  person_id: null
+- person_name_raw: 向井敏明
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 日军少尉：南京会攻期间屠杀竞赛，判处死刑
+  review_note: batch02-10：審字第十三號主文「共同連續屠殺俘虜及非戰鬥員，各處死刑」、理由段「以屠殺俘虜及非戰鬥人員為競賽娛樂」
+  person_id: null
+- person_name_raw: 野田岩
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 日军副官：南京会攻期间屠杀竞赛，判处死刑
+  review_note: batch02-10：審字第十三號理由段「野田巖共殺百零五人，向井敏明則以殺百零六人獲勝」
+  person_id: null
+places:
+- place_name_raw: 南京
+  role: city
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 大屠杀发生地：日军陷城后分窜京市各区屠杀
+  review_note: batch02-10：審字第壹號「分竄京市各區，展開大規模屠殺」
+- place_name_raw: 中华门
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 一九三七年十二月十二日傍晚被攻陷之城門，屠杀自此开始
+  review_note: batch02-10：審字第壹號「攻陷中華門，先頭部隊用繩梯攀垣而入，即開始屠殺」
+- place_name_raw: 下关草鞋峡
+  role: battlesite
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 集体杀戮及焚尸灭迹处之一（十九万人以上统计所含处所）
+  review_note: batch02-10：審字第壹號理由段「下關草鞋峽等處，慘遭集體殺戮及焚屍滅跡者，達十九萬人以上」
+evidence:
+- work: 國防部審判戰犯軍事法庭判決三十六年度審字第壹號
+  term: 谷寿夫案判决书
+  historical_text_id: text-wikisource-62258a5dee4860b73b55
+  chapter_anchor: 審字第壹號#p6
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「日本軍閥以我首都為抗戰中心，逐糾集其精銳而兇殘之第六師團谷壽夫部隊……乃於陷城後，作有計劃之屠殺。」；claim_field=background；anchor=段落精确锚。
+- work: 國防部審判戰犯軍事法庭判決三十六年度審字第壹號
+  term: 谷寿夫案判决书
+  historical_text_id: text-wikisource-aef86c6ae58710010571
+  chapter_anchor: 審字第壹號#p7
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「血戰四晝夜，始於是年十二月十二日傍晚，由中用繩梯攀垣而入。翌晨率大隊進城，留駐一旬。」；claim_field=process；anchor=段落精确锚。
+- work: 國防部審判戰犯軍事法庭判決三十六年度審字第壹號
+  term: 谷寿夫案判决书
+  historical_text_id: text-wikisource-aef86c6ae58710010571
+  chapter_anchor: 審字第壹號#p7
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「慘遭集體殺戮及焚屍滅跡者，達十九萬人以上。……被害總數達三十余萬人。」；claim_field=result；anchor=段落精确锚。
+- work: 國防部審判戰犯軍事法庭判決三十六年度審字第壹號
+  term: 谷寿夫案判决书
+  historical_text_id: text-wikisource-bd2dc5ba1767dfe9c339
+  chapter_anchor: 審字第壹號#p8
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「據上論結，應依刑事訴訟法第二百九十一條前段；海牙陸戰規例第四條第二項……判決如主文。」；claim_field=impact；anchor=段落精确锚。
+- work: 國防部審判戰犯軍事法庭判決三十六年度審字第十三號
+  term: 百人斩案判决书
+  historical_text_id: text-wikisource-a56cc96988311ef2c20d
+  chapter_anchor: 審字第十三號#p7
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「向井敏明、野田巖、田中軍吉，在作戰期間，共同連續屠殺俘虜及非戰鬥員，各處死刑。」；claim_field=result；anchor=段落精确锚。

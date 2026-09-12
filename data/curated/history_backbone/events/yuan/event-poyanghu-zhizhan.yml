@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.85
   link_quality_status: reviewed
-  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: alias
 - work: 明史
@@ -50,10 +49,72 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·陈友谅传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·陈友谅传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷十一
   link_method: content
-background_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
-result_zh_cn: 至正二十三年（1363 年）秋，朱元璋与陈友谅在鄱阳湖展开水军大会战，陈友谅中流矢死，汉军溃败，次年其子陈理降，长江中游尽归朱元璋；此战奠定朱元璋在南方群雄中的决定优势。
-# promoted from data/candidates/batch05/event-poyanghu-zhizhan.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-be1fec54086f8c6fa05c
+  chapter_anchor: 本纪/卷一#p214
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「友谅兵号六十万，联巨舟为阵，楼橹高十余丈，绵亘数十里，旌旗戈盾，望之如山。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-91d75158e3a213be6825
+  chapter_anchor: 本纪/卷一#p220
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「会日晡，大风起东北，乃命敢死士操七舟，实火药芦苇中，纵火焚友谅舟。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-1eac0c73a8048ac76a1e
+  chapter_anchor: 本纪/卷一#p222
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「友谅兵大乱，诸将鼓噪乘之，斩首二千余级，焚溺死者无算，友谅气夺。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-2336f825af62077cf90b
+  chapter_anchor: 本纪/卷一#p237
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「友谅亡，天下不难定也。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 友谅兵号六十万，联巨舟为阵，楼橹高十余丈、绵亘数十里，旌旗戈盾望之如山——陈汉倾国而来。
+result_zh_cn: 友谅兵大乱，诸将鼓噪乘之，斩首二千余级，焚溺死者无算，友谅气夺。
+process_zh_cn: 会日晡，大风起东北，乃命敢死士操七舟、实火药芦苇中，纵火焚友谅舟。
+impact_zh_cn: 太祖论之曰「友谅亡，天下不难定也」——鄱阳湖一战定江南归属，帝业由此奠基。
+people:
+- person_name_raw: 陈友谅
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 汉王：倾国来战，兵败气夺
+  review_note: ready43-c5：明史·太祖纪「友谅兵号六十万，联巨舟为阵」
+  person_id: null
+places:
+- place_name_raw: 鄱阳湖
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 决战水域（纵火焚舟之地）
+  review_note: ready43-c5：明史·太祖纪（湖口—鄱阳湖之战）

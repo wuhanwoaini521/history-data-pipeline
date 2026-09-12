@@ -269,11 +269,14 @@ def _insert_json(connection, table: str, path: Path, columns: tuple[str, ...] = 
 
 def build_knowledge_store(paths, snapshot_version: str | None = None,
                           output: Path | None = None) -> dict:
-    """构建 Layer 2 知识库（仅 NiuTrans 文本层；CBDB/CText 不在本轮范围）。
+    """构建 Layer 2 知识库（NiuTrans 文本层 + wikisource 追加源；CBDB/CText 不在本轮范围）。
 
     返回 manifest dict；数据库写到 paths.database（data/normalized/history.duckdb）。
     """
     import duckdb
+
+    from .knowledge_wikisource import (iter_wikisource_chapter_heads, iter_wikisource_texts,
+                                       iter_wikisource_works, resolve_snapshots as resolve_wikisource)
 
     snapshot = resolve_snapshot(paths, snapshot_version)
     curated = curated_work_id_map()
@@ -288,6 +291,17 @@ def build_knowledge_store(paths, snapshot_version: str | None = None,
     classical_count = write_jsonl_rows(iter_classical_texts(snapshot, curated=curated), classical_path)
     heads_path = paths.staging / "knowledge" / "chapter_heads.jsonl"
     heads_count = write_jsonl_rows(iter_chapter_heads(snapshot, curated), heads_path)
+    # 追加源：wikisource（manifest 驱动；目录不存在时自动跳过）
+    wikisource_snapshots = resolve_wikisource(paths)
+    wikisource_path = paths.staging / "knowledge" / "wikisource_texts.jsonl"
+    wikisource_works_path = paths.staging / "knowledge" / "wikisource_works.jsonl"
+    wikisource_heads_path = paths.staging / "knowledge" / "wikisource_chapter_heads.jsonl"
+    wikisource_count = write_jsonl_rows(
+        (row for snap in wikisource_snapshots for row in iter_wikisource_texts(snap)), wikisource_path)
+    wikisource_works_count = write_jsonl_rows(
+        (row for snap in wikisource_snapshots for row in iter_wikisource_works(snap)), wikisource_works_path)
+    wikisource_heads_count = write_jsonl_rows(
+        (row for snap in wikisource_snapshots for row in iter_wikisource_chapter_heads(snap)), wikisource_heads_path)
     books = _collect_book_titles(bilingual_path, classical_path, curated)
     works_path = paths.staging / "knowledge" / "works.jsonl"
     works_count = write_jsonl_rows((row for row in _works_rows(books)), works_path)
@@ -301,11 +315,20 @@ def build_knowledge_store(paths, snapshot_version: str | None = None,
             "'MIT（仓库 LICENSE；数据文件另须保留各目录 数据来源.txt）', 'source_backed', 'source_backed')",
             [DEFAULT_SOURCE_ID],
         )
-        for path in (bilingual_path, classical_path):
+        connection.execute(
+            "INSERT OR REPLACE INTO sources (id, dataset, source_type, license, quality, quality_status) "
+            "VALUES (?, 'wikisource', 'digital_library_snapshot', "
+            "'底本逐页判定（metadata.json pages[].pd_reason）：古籍 PD / 官方文书与判决书不受著作权保护 / 过保护期个人文告；载体现行排版 CC BY-SA 不改变底本判定', "
+            "'source_backed', 'source_backed')",
+            ["source-wikisource"],
+        )
+        for path in (bilingual_path, classical_path, wikisource_path):
             _insert_json(connection, "historical_texts", path)
-        _insert_json(connection, "works", works_path, WORK_COLUMNS)
-        _insert_json(connection, "chapter_heads", heads_path,
-                     ("book_id", "work_title", "section", "chapter", "head_text"))
+        for path in (works_path, wikisource_works_path):
+            _insert_json(connection, "works", path, WORK_COLUMNS)
+        for path in (heads_path, wikisource_heads_path):
+            _insert_json(connection, "chapter_heads", path,
+                         ("book_id", "work_title", "section", "chapter", "head_text"))
         connection.execute("CHECKPOINT")
     finally:
         connection.close()
@@ -315,10 +338,13 @@ def build_knowledge_store(paths, snapshot_version: str | None = None,
     return {
         "snapshot": str(snapshot),
         "snapshot_version": snapshot.name,
+        "wikisource_snapshots": [str(s) for s in wikisource_snapshots],
         "texts_bilingual": bilingual_count,
         "texts_classical": classical_count,
-        "chapter_heads": heads_count,
+        "texts_wikisource": wikisource_count,
+        "chapter_heads": heads_count + wikisource_heads_count,
         "works": works_count,
+        "works_wikisource": wikisource_works_count,
         "database": str(target),
     }
 

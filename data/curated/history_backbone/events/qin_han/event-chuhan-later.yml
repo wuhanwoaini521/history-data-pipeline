@@ -13,8 +13,7 @@ summary_zh_cn: 汉政权建立后的整合与秩序重建。
 result_zh_cn: 汉政权逐步巩固。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
-  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -56,9 +55,67 @@ evidence:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.95
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本
-    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
   chapter_anchor: 纪/高帝纪上
   link_method: content
-relations: []
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-bf7a2c8c22c8b226bb45
+  chapter_anchor: 汉纪/汉纪三#p64
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「汉王还，至定陶，驰入齐王信壁，夺其军。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-925eaf5ac4a1d672be96
+  chapter_anchor: 汉纪/汉纪三#p66
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「春，正月，更立齐王信为楚王，王淮北，都下邳。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-9db041b336e9103f7bb6
+  chapter_anchor: 汉纪/汉纪三#p73
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「诏曰： 故衡山王吴芮，从百粤之兵，佐诸侯，诛暴秦，有大功。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-d4c5b107aff141f573b1
+  chapter_anchor: 汉纪/汉纪三#p68
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「令曰： 兵不得休八年，万民与苦甚。」；claim_field=impact；anchor=段落精确锚。
+relations:
+- target_event_id: event-chuhan-han-foundation
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 汉政权建立后的整合与秩序重建，紧承称帝之后。
+- target_event_id: event-hanchu-yixingwang
+  relation_type: related_to
+  confidence: 0.8
+  description_zh_cn: 同为汉初收兵权、定秩序的进程（分封—剪除异姓王的前后章）。
+background_zh_cn: 垓下战后，汉王还至定陶，驰入齐王信壁夺其军——战争结束即着手收兵权、定秩序。
+process_zh_cn: 春正月，更立齐王信为楚王，王淮北、都下邳；封魏相国建城侯彭越为梁王，王魏故地、都定陶——以分封安置功臣、重组东方秩序。
+impact_zh_cn: 既而诏封故衡山王吴芮为长沙王等，令曰「兵不得休八年，万民与苦甚，今天下事毕，其赦天下殊死以下」——与民休息、郡国并行，汉初秩序自此定型。

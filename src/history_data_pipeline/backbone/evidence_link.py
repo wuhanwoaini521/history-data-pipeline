@@ -349,6 +349,10 @@ def apply_links(events_dir: Path, results: list[LinkResult], *, apply: bool) -> 
         if doc is None:
             continue
         for evidence in doc.get("evidence", []):
+            if evidence.get("link_method") == "manual":
+                # manual 为人工核定的段落级锚点（chapter_anchor#pN）；自动重算只能降级为
+                # 章级锚点，必须跳过（Batch 02 Queue 9 事故：24 条 manual 锚被覆盖为章首段）。
+                continue
             for link in links:
                 evidence_term = evidence.get("term") or evidence.get("chapter_hint") or ""
                 if evidence.get("work") == link.work and evidence_term == (link.term or ""):

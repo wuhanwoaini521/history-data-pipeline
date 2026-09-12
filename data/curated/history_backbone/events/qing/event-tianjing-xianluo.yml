@@ -28,3 +28,83 @@ relations:
   relation_type: follows
   confidence: 0.9
   description_zh_cn: 天京事变后清军逐渐得势。
+
+background_zh_cn: 金陵危急之际，洪秀全服毒死，群酋用上帝教殓法秘不发丧；其子年十六袭伪位（幼主）。
+process_zh_cn: 同治三年六月十六日，曾国荃饬诸军发太平门地雷，塌城垣二十余丈，总兵李臣典等先登，诸将分门合力攻克江宁省城。
+result_zh_cn: 城破后搜杀三日，毙寇十余万；清军搜掘洪秀全尸于伪宫，戮而焚之；李秀成及洪仁发、洪仁达被搜获，曾国藩亲讯后駢诛于市。
+impact_zh_cn: 幼主出走宁国、辗转被追获，洪仁玕等皆伏诛；史论谓太平天国「立国逾十余年，用兵至十余省……当时竭天下之力，始克平之，而元气遂已伤矣」——清朝虽平大乱而国力大损。
+people:
+- person_name_raw: 洪秀全
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 太平天国天王：金陵危急时服毒死，尸被掘戮
+  review_note: source-batch02：清史稿·洪秀全传「洪秀全以金陵危急，服毒死」「搜掘洪秀全屍於偽宮，戮而焚之」
+  person_id: null
+- person_name_raw: 曾国荃
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 湘军统帅：督军用地雷破城、克江宁
+  review_note: source-batch02：清史稿·洪秀全传「国荃飭諸軍發太平门地雷」
+  person_id: null
+- person_name_raw: 李秀成
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 太平天国忠王：城破后护幼主出走，被搜获诛杀
+  review_note: source-batch02：清史稿·洪秀全传「蕭孚泗搜獲李秀成……駢誅於市」
+  person_id: null
+places:
+- place_name_raw: 金陵
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 太平天国都城（江宁省城），同治三年被湘军攻克
+  review_note: source-batch02：清史稿·洪秀全传「攻克江寧省城」
+evidence:
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-011de263adf638a8f64d
+  chapter_anchor: 列传/洪秀全传#p193
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「是月，洪秀全以金陵危急，服毒死。……其子年十六，襲偽位。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-d35d0ee601dd35dfbed8
+  chapter_anchor: 列传/洪秀全传#p196
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「六月十六日，国荃飭諸軍發太平门地雷，塌城垣二十餘丈……攻克江寧省城。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-d35d0ee601dd35dfbed8
+  chapter_anchor: 列传/洪秀全传#p196
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「搜殺三日，斃寇十餘萬……搜掘洪秀全屍於偽宮，戮而焚之。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 洪秀全传
+  historical_text_id: text-wikisource-297e173b13dc22d1f440
+  chapter_anchor: 列传/洪秀全传#p200
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「立国逾十餘年，用兵至十餘省，南北交爭，隱然敵国。當时竭天下之力，始克平之，而元氣遂已傷矣。」；claim_field=impact；anchor=段落精确锚。

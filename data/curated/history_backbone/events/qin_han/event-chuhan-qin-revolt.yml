@@ -13,8 +13,7 @@ summary_zh_cn: 秦末多地反秦力量兴起并推动旧秩序瓦解。
 result_zh_cn: 反秦战争持续发展并进入灭秦阶段。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-16622
   person_name_raw: 刘邦
@@ -26,6 +25,18 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 吴广
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 起义共同发动者：与陈胜谋于大泽乡
+  review_note: major-batch01：陈涉世家「陈胜、吴广乃谋曰」
+  person_id: null
+- person_name_raw: 陈胜
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 起义领袖：立为王，号张楚
+  review_note: major-batch01：陈涉世家「陈涉乃立为王，号为张楚」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 陈胜起义地
@@ -37,19 +48,84 @@ places:
   link_confidence: null
   review_note: 具体地点未在现有 Place 中可靠匹配。
 evidence:
-- historical_text_id: text-niutrans-0826c5731719a2cb8174
+- historical_text_id: text-niutrans-e9c4607a4ed7ee60f5a6
   work: 史记
   term: 陈胜
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：陈涉世家大泽乡起义核心段。引文：「且壮士不死即已，死即举大名耳，王侯将相宁有种乎！」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 三十世家/陈涉世家#p32
+  link_method: manual
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-391be1f4e165faaaefcc
+  chapter_anchor: 十二本纪/高祖本纪#p65
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「秦二世元年秋，陈胜等起蕲，至陈而王，号为 张楚 。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-20d32ac4b5357eb94f28
+  chapter_anchor: 三十世家/陈涉世家#p10
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「陈胜、吴广乃谋曰： 今亡亦死，举大计亦死，等死，死国可乎？」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-a626ffae108062eafbaf
+  chapter_anchor: 三十世家/陈涉世家#p45
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「将军身被坚执锐，伐无道，诛暴秦，复立楚国之社稷，功宜为王。 陈涉乃立为王，号为张楚。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 陈涉世家
+  historical_text_id: text-niutrans-c5b7c258c92009a253ad
+  chapter_anchor: 三十世家/陈涉世家#p46
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「当此时，诸郡县苦秦吏者，皆刑其长吏，杀之以应陈涉。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-92f3cf8f97ee2958f328
+  chapter_anchor: 十二本纪/秦始皇本纪#p537
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（史记/资治通鉴）引文：「山东郡县少年苦秦吏，皆杀其守尉令丞反，以应陈涉，相立为侯王，合从西乡，名为伐秦。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-chuhan-julu
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 反秦战争的发展引出巨鹿等关键战役。
+background_zh_cn: 秦二世元年秋，陈胜等起蕲，至陈而王，号为「张楚」——戍卒起义爆发并迅速建立政权。
+process_zh_cn: 陈胜、吴广皆次当行、为屯长，乃谋曰「今亡亦死，举大计亦死，等死，死国可乎」；陈胜曰「天下苦秦久矣」——大泽乡揭竿而起。
+impact_zh_cn: 当此时，诸郡县苦秦吏者皆刑其长吏、杀之以应陈涉；山东郡县少年苦秦吏，皆杀其守尉令丞反以应陈涉，相立为侯王、合从西乡，名为伐秦——反秦战争由一隅扩展为天下响应。

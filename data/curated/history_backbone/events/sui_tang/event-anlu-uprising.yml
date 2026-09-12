@@ -13,8 +13,7 @@ summary_zh_cn: 安禄山发动叛乱，安史之乱爆发。
 result_zh_cn: 叛军迅速向中原推进。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
-  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-379873
   person_name_raw: 安禄山
@@ -36,6 +35,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 颜真卿
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 平原太守：禄山反后以平原、博平兵防河津
+  review_note: major-batch01：唐纪三十三「及禄山反，牒真卿以平原、博平兵七千人防河津」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 范阳
@@ -56,13 +61,63 @@ evidence:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.95
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本
-    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
   chapter_anchor: 列传/卷一百五十
   link_method: content
+- work: 资治通鉴
+  term: 唐纪三十三
+  historical_text_id: text-niutrans-2944efc9cf410c85e5f2
+  chapter_anchor: 唐纪/唐纪三十三#p119
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「禄山诈为敕书，悉召诸将示之曰： 有密旨，令禄山将兵入朝讨杨国忠，诸君宜即从军。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十三
+  historical_text_id: text-niutrans-c0175f42331a240bd278
+  chapter_anchor: 唐纪/唐纪三十三#p125
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「禄山乘铁舆，步骑精锐，烟尘千里，鼓噪震地。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 卷九
+  historical_text_id: text-niutrans-a7eadbd9573bc3bf039b
+  chapter_anchor: 本纪/卷九#p376
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「丙寅，范阳节度使安禄山率蕃、汉之兵十余万，自幽州南向诣阙，以诛杨国忠为名。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十三
+  historical_text_id: text-niutrans-e8cdcf5c55cf2dec75fa
+  chapter_anchor: 唐纪/唐纪三十三#p136
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「上遣特进毕思琛诣东京，金吾将军程千里诣河东，各简募数万人，随便团结以拒之。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-luoyang
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 起兵后叛军向东都推进。
+background_zh_cn: 禄山诈为敕书，悉召诸将示之曰「有密旨，令禄山将兵入朝讨杨国忠，诸君宜即从军」——以「清君侧」为名发动叛乱。
+process_zh_cn: 禄山乘铁舆，步骑精锐，烟尘千里，鼓噪震地；范阳节度使安禄山率蕃、汉之兵十余万，自幽州南向诣阙，以诛杨国忠为名，先杀太原尹杨光翙于博陵郡。
+impact_zh_cn: 唐廷仓促应变：遣特进毕思琛诣东京、金吾将军程千里诣河东，各简募数万人随便团结以拒之——安史之乱全面爆发。

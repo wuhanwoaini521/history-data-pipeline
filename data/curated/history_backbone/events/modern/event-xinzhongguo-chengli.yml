@@ -23,3 +23,95 @@ relations:
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 大陆战事结束后建政。
+
+background_zh_cn: 公告称：自蒋介石国民党反动派政府背叛祖国、勾结帝国主义、发动反革命战争以来，全国人民处于水深火热之中；人民解放军在全国人民援助下英勇作战，消灭反动军队、推翻国民政府反动统治。
+process_zh_cn: 人民解放战争已取得基本胜利、全国大多数人民已获解放；由各民主党派、各人民团体、人民解放军、各地区、各民族、国外华侨及爱国民主分子代表组成的中国人民政治协商会议第一届全体会议集会，制定中央人民政府组织法，选举政府领导人。
+result_zh_cn: 组成中央人民政府委员会，宣告中华人民共和国的成立，并决定北京为首都；委员会本日在首都就职，接受共同纲领为施政方针，互选林伯渠为秘书长，任命周恩来为政务院总理兼外交部长、毛泽东为人民革命军事委员会主席、朱德为解放军总司令等。
+impact_zh_cn: 决议向各国政府宣布本政府为「代表中华人民共和国全国人民的唯一合法政府」；凡愿遵守平等、互利及互相尊重领土主权等项原则的任何外国政府，本政府均愿与之建立外交关系。
+people:
+- person_name_raw: 毛泽东
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 中央人民政府主席：公告署名发布者
+  review_note: batch02-10：中央人民政府公告「毛澤東爲中央人民政府主席」「中華人民共和國中央人民政府主席 毛澤東」
+  person_id: null
+- person_name_raw: 周恩来
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 任命为政务院总理兼外交部长
+  review_note: batch02-10：中央人民政府公告「任命周恩來爲中央人民政府政務院總理兼外交部部長」
+  person_id: null
+- person_name_raw: 朱德
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 任命为中国人民解放军总司令
+  review_note: batch02-10：中央人民政府公告「朱德爲人民解放軍總司令」
+  person_id: null
+places:
+- place_name_raw: 北京
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 公告决定为中华人民共和国首都
+  review_note: batch02-10：中央人民政府公告「決定北京爲中華人民共和國的首都」
+evidence:
+- work: 中華人民共和國中央人民政府公告
+  term: 中央人民政府公告（1949-10-01）
+  historical_text_id: text-wikisource-7c93b903d48a44dc28c2
+  chapter_anchor: 中華人民共和國中央人民政府公告#p2
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「自蔣介石國民黨反動派政府背叛祖國，勾結帝國主義，發動反革命戰爭以來，全國人民處於水深火熱的情况之中。」；claim_field=background；anchor=段落精确锚。
+- work: 中華人民共和國中央人民政府公告
+  term: 中央人民政府公告（1949-10-01）
+  historical_text_id: text-wikisource-5ef5f26343c14b2f1dc6
+  chapter_anchor: 中華人民共和國中央人民政府公告#p3
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「由全國各民主黨派、各人民團體、人民解放軍、各地區、各民族、國外華僑及其他愛國民主分子的代表們所組成的中國人民政治協商會議第一屆全體會議業已集會。」；claim_field=process；anchor=段落精确锚。
+- work: 中華人民共和國中央人民政府公告
+  term: 中央人民政府公告（1949-10-01）
+  historical_text_id: text-wikisource-496b97f4f14864d4d4df
+  chapter_anchor: 中華人民共和國中央人民政府公告#p7
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「組成中央人民政府委員會，宣告中華人民共和國的成立，並決定北京爲中華人民共和國的首都。」；claim_field=result；anchor=段落精确锚。
+- work: 中華人民共和國中央人民政府公告
+  term: 中央人民政府公告（1949-10-01）
+  historical_text_id: text-wikisource-d242dc10d927617ca6cd
+  chapter_anchor: 中華人民共和國中央人民政府公告#p8
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「向各國政府宣佈，本政府爲代表中華人民共和國全國人民的唯一合法政府。凡願遵守平等、互利及互相尊重領土主權等項原則的任何外國政府，本政府均願與之建立外交關係。」；claim_field=impact；anchor=段落精确锚。
+- work: 中國人民政治協商會議共同綱領
+  term: 共同纲领（1949-09-29）
+  historical_text_id: text-wikisource-edece602696408e68ebf
+  chapter_anchor: 中國人民政治協商會議共同綱領#p1
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「一九四九年九月二十九日中國人民政治協商會議第一屆全體會議通過。」；claim_field=process；anchor=段落精确锚。

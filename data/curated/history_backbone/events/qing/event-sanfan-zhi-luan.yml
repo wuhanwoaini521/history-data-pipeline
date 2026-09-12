@@ -11,8 +11,7 @@ period_id: period-qing
 regime_ids:
 - regime-qing
 importance: critical
-summary_zh_cn: 康熙十二年至二十年（1673—1681 年），吴三桂等三藩举兵反清，一度控制南方大部；康熙帝力主平叛，历时八年，康熙二十年（1681
-  年）清军攻入昆明，三藩之乱平定，清朝完成统一。
+summary_zh_cn: 康熙十二年至二十年（1673—1681 年），吴三桂等三藩举兵反清，一度控制南方大部；康熙帝力主平叛，历时八年，康熙二十年（1681 年）清军攻入昆明，三藩之乱平定，清朝完成统一。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《清史稿》吴三桂传；《清实录·圣祖实录》；现代参考：孟森《清史讲义》（中华书局）；萧一山《清代通史》；白寿彝总主编《中国通史·清时期（上）》
@@ -27,15 +26,16 @@ relations:
 evidence:
 - work: 清史稿
   term: 吴三桂传
-  historical_text_id: null
+  historical_text_id: text-wikisource-aec76627289976252839
   chapter_hint: 吴三桂传
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《清史稿·吴三桂传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+  review_note: source-batch02：清史稿入库后重定位（章节+内容双核实）。引文：「三桂反問聞。上以荊州咽喉地，即日遣前鋒統領碩岱率禁旅馳赴鎮守。」；anchor=段落精确锚。
+  chapter_anchor: 列传/吴三桂传#p16
+  link_method: manual
 - work: 清实录
   term: 圣祖实录
   historical_text_id: null
@@ -45,9 +45,89 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《清实录·圣祖实录》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 康熙十二年至二十年（1673—1681 年），吴三桂等三藩举兵反清，一度控制南方大部；康熙帝力主平叛，历时八年，康熙二十年（1681
-  年）清军攻入昆明，三藩之乱平定，清朝完成统一。
+  review_note: 《清实录·圣祖实录》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 清史稿
+  term: 吴三桂传
+  historical_text_id: text-wikisource-aec76627289976252839
+  chapter_anchor: 列传/吴三桂传#p16
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「三桂反問聞。上以荊州咽喉地，即日遣前鋒統領碩岱率禁旅馳赴鎮守。尋命順承郡王勒爾錦为寧南靖寇大將軍，率師討三桂。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 吴三桂传
+  historical_text_id: text-wikisource-aec76627289976252839
+  chapter_anchor: 列传/吴三桂传#p16
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「十二月，黨務禮、薩穆哈至京師，三桂反問聞。」；claim_field=background；anchor=段落精确锚。与既有 background 字段互证
+- work: 清史稿
+  term: 吴三桂传
+  historical_text_id: text-wikisource-32d10f0bff0d940e65a3
+  chapter_anchor: 列传/吴三桂传#p26
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「十九年春，將軍趙良棟自略陽破陽平关，克成都。……王屏籓走保寧……屏籓自殺。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 吴三桂传
+  historical_text_id: text-wikisource-953fcee4fa215b89f714
+  chapter_anchor: 列传/吴三桂传#p29
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「二月，進攻云南会城，屯歸化寺，世璠遣將胡国柄等將萬人为像陣拒战。……臨安、姚安、大理、鶴慶、麗江諸府悉下。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 康熙十二年至二十年（1673—1681 年），吴三桂等三藩举兵反清，一度控制南方大部；康熙帝力主平叛，历时八年，康熙二十年（1681 年）清军攻入昆明，三藩之乱平定，清朝完成统一。
 result_zh_cn: 康熙十二年至二十年（1673—1681 年），吴三桂等三藩举兵反清，一度控制南方大部；康熙帝力主平叛，历时八年，康熙二十年（1681 年）清军攻入昆明，三藩之乱平定，清朝完成统一。
-# promoted from data/candidates/batch06/event-sanfan-zhi-luan.yml (AUTO_ACCEPT gate)
+process_zh_cn: 三桂反问至京师，清廷即日遣前锋统领硕岱驰镇荆州，命顺承郡王勒尔锦为宁南靖寇大将军率师讨三桂，并停撤平南、靖南二藩；三桂兵陷清浪卫、辰州。
+impact_zh_cn: 康熙十九年春清军全面反攻：赵良栋克成都、王进宝取汉中，王屏藩自杀，重庆、辰州相继下；次年进围云南会城，世璠诸将先后降，临安、姚安、大理、鹤庆、丽江诸府悉下——三藩之乱走向终结。
+places:
+- place_name_raw: 云南
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 吴三桂根据地；康熙二十年清军进攻云南会城
+  review_note: source-batch02：清史稿·吴三桂传「進攻云南会城，屯歸化寺」
+- place_name_raw: 辰州
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 三桂起兵初期攻陷之地
+  review_note: source-batch02：清史稿·吴三桂传「復進陷辰州」
+
+people:
+- person_name_raw: 吴三桂
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 平西王：康熙十二年举兵反清，三藩之乱主谋
+  review_note: source-batch02：清史稿·吴三桂传「三桂反問聞」
+  person_id: null
+- person_name_raw: 王屏藩
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 吴三桂倚任之将：保宁城破后自杀
+  review_note: source-batch02：清史稿·吴三桂传「王屏籓走保寧……屏籓自殺」
+  person_id: null
+- person_name_raw: 马宝
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 三桂骁将：率兵前驱陷贵州至湖广南境诸郡县
+  review_note: source-batch02：清史稿·吴三桂传「三桂諸將，馬寶、王屏籓最驍勇善战」
+  person_id: null

@@ -13,8 +13,7 @@ summary_zh_cn: 唐廷最终平定安史叛乱。
 result_zh_cn: 唐朝延续但中央权威下降，藩镇问题加剧。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-94373
   person_name_raw: 郭子仪
@@ -46,6 +45,18 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 史朝义
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 史思明之子：叛军末代首领，穷蹙自缢
+  review_note: major-batch01：唐纪三十八「朝义穷蹙，缢于林中，怀仙取其首以献」
+  person_id: null
+- person_name_raw: 李怀仙
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 叛军降将：追杀朝义、献其首
+  review_note: major-batch01：唐纪三十八「至温泉栅，李怀仙兵追及之」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 邺郡
@@ -57,15 +68,76 @@ places:
   link_confidence: null
   review_note: 候选邺郡记录有效至757年，与763年事件冲突，QA 将其拒绝并保留 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-03f66d1143294a7c837c
+- historical_text_id: text-niutrans-2e5651d41a2967b20284
   work: 旧唐书
   term: 思明
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.85
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：旧唐书代宗纪史朝义败降后降将安置（安史之乱平定）。引文：「闰月戊申，以史朝义下降将李宝臣为检校礼部尚书、兼御史大夫、恆州刺史、清河郡王，充成德军节度使。」；anchor=段落精确锚。
   rejected_text_ids: []
-relations: []
+  chapter_anchor: 本纪/卷十一#p92
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十八
+  historical_text_id: text-niutrans-54c2ac3a45c999228f05
+  chapter_anchor: 唐纪/唐纪三十八#p291
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「上遣中使刘清潭使于回纥，修旧好，且征兵讨史朝义。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十八
+  historical_text_id: text-niutrans-bafb12908447d37aab68
+  chapter_anchor: 唐纪/唐纪三十八#p375
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「东奔广阳，广阳不受；欲北入奚、契丹，至温泉栅，李怀仙兵追及之；朝义穷蹙，缢于林中，怀仙取其首以献。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 卷十一
+  historical_text_id: text-niutrans-2e5651d41a2967b20284
+  chapter_anchor: 本纪/卷十一#p92
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「以史朝义下降将李宝臣为检校礼部尚书、兼御史大夫、恆州刺史、清河郡王，充成德军节度使。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十九
+  historical_text_id: text-niutrans-102bd1d9cee1891a590b
+  chapter_anchor: 唐纪/唐纪三十九#p5
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「诸将讨史朝义者进官阶、加爵邑有差。」；claim_field=impact；anchor=段落精确锚。
+relations:
+- target_event_id: event-anlu-shi-siming
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 史思明死后其子朝义继之，唐廷借回纥与诸道之兵反攻，叛乱终被平定——同一安史之乱进程的终章。
+- target_event_id: event-anlu-uprising
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 自安禄山起兵开启的叛乱，历玄宗、肃宗、代宗三朝，至广德元年朝义授首而平定。
+background_zh_cn: 上遣中使刘清潭使于回纥，修旧好，且征兵讨史朝义——唐廷借回纥与诸道之兵发起最后反攻。
+process_zh_cn: 史朝义闻官军将至，谋于诸将；东奔广阳不受，欲北入奚、契丹，至温泉栅，李怀仙兵追及之，朝义穷蹙，缢于林中，怀仙取其首以献。
+impact_zh_cn: 以史朝义下降将李宝臣为成德军节度使、薛嵩为相卫等州节度使、李怀仙为卢龙节度使等——叛乱虽平，河北降将分授藩镇，唐廷中央权威下降、藩镇格局自此埋下。

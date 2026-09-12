@@ -28,8 +28,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-qiguo-zhi-luan.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qiguo-zhi-luan.yml]
 - person_id: cbdb-person-462464
   person_name_raw: 晁错
   role: official
@@ -39,8 +38,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-qiguo-zhi-luan.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qiguo-zhi-luan.yml]
 - person_id: ctext-person-865369
   person_name_raw: 周亚夫
   role: commander
@@ -50,8 +48,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.85
-  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-    [V2 source=event-qiguo-zhi-luan.yml]
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qiguo-zhi-luan.yml]
 - person_id: curated-person-liu-bi
   person_name_raw: 吴王刘濞
   role: initiator
@@ -61,8 +58,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.9
-  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator
-    [V2 source=event-qiguo-zhi-luan.yml]
+  review_note: V2.1.1 review：exact（supplemental）；reviewed_by=china-history-backbone-v2.1.1-curator [V2 source=event-qiguo-zhi-luan.yml]
 relations:
 - target_event_id: event-chaocuo-xuefan
   relation_type: follows
@@ -94,7 +90,60 @@ evidence:
   review_note: 《汉书·荆燕吴传》（注：汉书同一书内多个篇章，单一独立来源）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 传/荆燕吴传
   link_method: exact
-# event-qiguo-zhi-luan — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 汉书
+  term: 荆燕吴传
+  historical_text_id: text-niutrans-b7e296e813bbd91555b1
+  chapter_anchor: 传/荆燕吴传#p123
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「及削吴会稽、豫章郡书至，则吴王先起兵，诛汉吏二千石以下。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 荆燕吴传
+  historical_text_id: text-niutrans-668dccaa229d7c7849fb
+  chapter_anchor: 传/荆燕吴传#p197
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「周丘一夜得三万人，使人报吴王，遂将其兵北略城邑。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 景帝纪
+  historical_text_id: text-niutrans-b90e763dd3ec19b015ff
+  chapter_anchor: 纪/景帝纪#p50
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「斩御史大夫晁错以谢七国。」；claim_field=result；anchor=段落精确锚。
+- work: 汉书
+  term: 景帝纪
+  historical_text_id: text-niutrans-45fd7e89044f3b556dcf
+  chapter_anchor: 纪/景帝纪#p52
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「诸将破七国，斩首十余万级。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 及削吴会稽、豫章郡书至，吴王先起兵，诛汉吏二千石以下；其将周丘一夜得三万人，遂将其兵北略城邑。
+impact_zh_cn: 景帝斩御史大夫晁错以谢七国而不止兵；诸将破七国、斩首十余万级——乱平，吴王败走、诸侯王坐大之患稍息，汉廷集权得以推进。
+places:
+- place_name_raw: 下邳
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 吴王败后其将引兵归守之地
+  review_note: ready43-c1：汉书·荆燕吴传「闻吴王败走……即引兵归下邳」

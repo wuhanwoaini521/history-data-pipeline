@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 曹操南下与孙刘联军交战的关键战役。
-result_zh_cn: 曹操集团南下受挫，三方竞争格局进一步清晰。
+result_zh_cn: 公至赤壁，与备战，不利；于是大疫，吏士多死者，乃引军还——曹军北退。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -66,20 +65,79 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 现有 Place 表未找到可安全复用的对应记录。
+- place_name_raw: 夏口
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 刘备驻军、诸葛亮使吴之地
+  review_note: ready43-c6：三国志·吴主传「备进住夏口」
 evidence:
-- historical_text_id: text-niutrans-01944969510a3280e6a5
+- historical_text_id: text-niutrans-bcffeeda47097881fac2
   work: 三国志
   term: 赤壁
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：吴主传赤壁破曹核心段。引文：「瑜、普为左右督，各领万人，与备俱进，遇於赤壁，大破曹公军。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 吴书/吴主传#p32
+  link_method: manual
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-dd5ba835f14e46c0d920
+  chapter_anchor: 吴书/吴主传#p30
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「备进住夏口，使诸葛亮诣权，权遣周瑜、程普等行。」；claim_field=background；anchor=段落精确锚。
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-bcffeeda47097881fac2
+  chapter_anchor: 吴书/吴主传#p32
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「瑜、普为左右督，各领万人，与备俱进，遇於赤壁，大破曹公军。」；claim_field=process；anchor=段落精确锚。
+- work: 三国志
+  term: 武帝纪
+  historical_text_id: text-niutrans-a31fa38e83cba1481f0b
+  chapter_anchor: 魏书/武帝纪#p402
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「公至赤壁，与备战，不利。于是大疫，吏士多死者，乃引军还。」；claim_field=result；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-0058cd9602f4e850d94c
+  chapter_anchor: 蜀书/先主传#p102
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「琦病死，群下推先主为荆州牧，治公安。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-regime-formation
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 赤壁后多方力量继续发展为三国政权格局。
+background_zh_cn: 备进住夏口，使诸葛亮诣权，权遣周瑜、程普等行——孙刘结盟共拒曹操，赤壁战云既合。
+process_zh_cn: 瑜、普为左右督，各领万人，与备俱进，遇于赤壁，大破曹公军。
+impact_zh_cn: 琦病死，群下推先主为荆州牧，治公安——赤壁之后刘备据荆州立足，三分之势自此肇基。

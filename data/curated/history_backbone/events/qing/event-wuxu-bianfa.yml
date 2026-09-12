@@ -23,3 +23,83 @@ relations:
   relation_type: follows
   confidence: 0.9
   description_zh_cn: 公车上书后的变法运动。
+
+background_zh_cn: 光绪二十四年四月，恭亲王奕訢薨，荣禄授文渊阁大学士——变法前夜清廷中枢人事更迭；诏中外臣工当法恭忠亲王，各摅忠悃，共济时艰。
+process_zh_cn: 六月癸未朔诏改定科举新章，命康有为督办官报；五月曾诏自下科始乡会岁科各试改策论、陆军改练洋操——百日维新新政次第颁行。
+result_zh_cn: 八月丁亥，皇太后复垂帘于便殿训政；诏以康有为结党营私，新政中断（戊戌政变）。
+impact_zh_cn: 政变后缉捕不止：十一月再暴康有为、梁启超罪状，悬赏严捕；戊戌党籍至光绪三十年虽获特赦（除康、梁、孙文外），维新派自此流亡海外，清末政局转入保守与革命并行之局。
+people:
+- person_name_raw: 康有为
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 维新派领袖：督办官报、政变后遭通缉
+  review_note: source-batch02：清史稿·德宗本纪二「詔以康有为結黨營私」「命康有为督辦官報」
+  person_id: null
+- person_name_raw: 梁启超
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 维新派：与康有为并列遭悬赏严捕
+  review_note: source-batch02：清史稿·德宗本纪二「再暴康有为、梁啟超罪狀，懸賞嚴捕」
+  person_id: null
+- person_name_raw: 慈禧太后
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 皇太后：复垂帘训政，终结新政
+  review_note: source-batch02：清史稿·德宗本纪二「皇太后復垂簾於便殿訓政」
+  person_id: null
+places:
+- place_name_raw: 京师
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 百日维新与政变发生地
+  review_note: source-batch02：清史稿·德宗本纪二（光绪二十四年变法上谕与训政）
+evidence:
+- work: 清史稿
+  term: 德宗本纪二
+  historical_text_id: text-wikisource-b0565504f6faba773f3e
+  chapter_anchor: 本纪/德宗本纪二#p46
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「夏四月壬辰，恭親王奕訢薨……詔中外臣工當法恭忠親王，各攄忠悃，共濟时艱。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 德宗本纪二
+  historical_text_id: text-wikisource-670931eca6ba9c7189a4
+  chapter_anchor: 本纪/德宗本纪二#p48
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「六月癸未朔，詔改定科舉新章。……命康有为督辦官報。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 德宗本纪二
+  historical_text_id: text-wikisource-8dd85de04c2217bb2ba8
+  chapter_anchor: 本纪/德宗本纪二#p51
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「丁亥，皇太后復垂簾於便殿訓政。詔以康有为結黨營私。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 德宗本纪二
+  historical_text_id: text-wikisource-64250440032daa256046
+  chapter_anchor: 本纪/德宗本纪二#p67
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「壬戌，再暴康有为、梁啟超罪狀，懸賞嚴捕。」；claim_field=impact；anchor=段落精确锚。

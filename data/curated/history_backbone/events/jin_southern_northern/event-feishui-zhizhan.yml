@@ -30,26 +30,28 @@ relations:
 evidence:
 - work: 晋书
   term: 苻坚载记
-  historical_text_id: null
+  historical_text_id: text-wikisource-348444e7ba4426c3c1f4
   chapter_hint: 苻坚载记
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·苻坚载记》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「謝玄、謝琰勒卒數萬，陣以待之。」；anchor=段落精确锚。
+  chapter_anchor: 载记/苻坚载记下#p18
+  link_method: manual
 - work: 晋书
   term: 谢玄传
-  historical_text_id: null
+  historical_text_id: text-wikisource-da3dd5860fbd4f1e1615
   chapter_hint: 谢玄传
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·谢玄传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「及苻堅自率兵次於项城，眾号百萬……詔以玄为前鋒。」；anchor=段落精确锚。
+  chapter_anchor: 列传/谢玄传#p32
+  link_method: manual
 - work: 资治通鉴
   term: 晋纪
   historical_text_id: text-niutrans-8b06b2bf7ac6d2fece6c
@@ -59,10 +61,78 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·晋纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 晋纪/晋纪一
   link_method: exact
-background_zh_cn: 太元八年（383年）前秦苻坚大举南征东晋，东晋谢安、谢玄以八万北府兵在淝水（今安徽寿县一带）大败前秦军，前秦号称百万之众土崩瓦解。
-result_zh_cn: 淝水之战保住东晋半壁江山，并直接导致前秦崩裂、北方再度分裂，南北对峙格局由此长期延续。
-# promoted from data/candidates/batch02/event-feishui-zhizhan.yml (AUTO_ACCEPT gate)
+- work: 晋书
+  term: 谢玄传
+  historical_text_id: text-wikisource-da3dd5860fbd4f1e1615
+  chapter_anchor: 列传/谢玄传#p32
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「及苻堅自率兵次於项城，眾号百萬……詔以玄为前鋒。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 苻坚载记
+  historical_text_id: text-wikisource-348444e7ba4426c3c1f4
+  chapter_anchor: 载记/苻坚载记下#p18
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「謝玄、謝琰勒卒數萬，陣以待之。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 第九章
+  historical_text_id: text-niutrans-b3aa61be84234786c5c3
+  chapter_anchor: 第九章#p247
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「乙亥，诸将及苻坚战于肥水，大破之，俘斩数万计，获坚舆辇及云母车。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 第十九章
+  historical_text_id: text-niutrans-b87486a36d592661116c
+  chapter_anchor: 第十九章#p420
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「其后，坚再南伐，遂有淝水之败，身戮国亡。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 苻坚自率兵次项城，众号百万；凉州之师始达咸阳，蜀汉顺流、幽并系至；先遣苻融、慕容暐等至颍口，梁成等屯洛涧。诏以谢玄为前锋、都督徐兖青三州等诸军事。
+result_zh_cn: 乙亥，诸将及苻坚战于肥水，大破之，俘斩数万计，获坚舆辇及云母车——淝水一战，前秦大军崩溃。
+process_zh_cn: 硃序诡谓谢石「及其众军未集，宜在速战」，谢琰劝从序言、遣使请战；谢玄、谢琰勒卒数万，阵以待之。
+impact_zh_cn: 史论谓「其后，坚再南伐，遂有淝水之败，身戮国亡」——前秦由盛转亡，北方重新分裂，东晋得以延续江左。
+people:
+- person_name_raw: 谢玄
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 晋军前锋都督：淝水破苻坚
+  review_note: source-batch02：晋书·谢玄传「詔以玄为前鋒」
+  person_id: null
+- person_name_raw: 苻坚
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 前秦天王：率百万之众南伐，淝水大败
+  review_note: source-batch02：晋书·苻坚载记「及苻堅自率兵次於项城，眾号百萬」
+  person_id: null
+places:
+- place_name_raw: 肥水
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 决战之地（淝水）
+  review_note: source-batch02：晋书「諸將及苻堅战于肥水，大破之」

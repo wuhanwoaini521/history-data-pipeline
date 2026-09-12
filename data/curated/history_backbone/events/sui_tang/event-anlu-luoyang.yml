@@ -13,8 +13,7 @@ summary_zh_cn: 叛军攻占洛阳，战局进一步恶化。
 result_zh_cn: 叛军取得东都，唐廷面临关中危机。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-379873
   person_name_raw: 安禄山
@@ -36,6 +35,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 封常清
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 安西节度使：入东京募兵守御，兵败
+  review_note: major-batch01：唐纪三十三「常清即日乘驿诣东京募兵……为守御之备」
+  person_id: null
 places:
 - place_id: cbdb-place-14693
   place_name_raw: 洛阳
@@ -47,19 +52,72 @@ places:
   link_confidence: 0.9
   review_note: null
 evidence:
-- historical_text_id: text-niutrans-0167bf76596fd9a14af0
+- historical_text_id: text-niutrans-3d334bb7fa0ce5c821fd
   work: 旧唐书
   term: 洛阳
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：旧唐书玄宗纪禄山陷东京（洛阳失守核心段）。引文：「丁酉，禄山陷东京，杀留守李憕、中丞卢奕、判官蒋清。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 本纪/卷九#p388
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十三
+  historical_text_id: text-niutrans-3b646ae2806e58af7b39
+  chapter_anchor: 唐纪/唐纪三十三#p141
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「常清即日乘驿诣东京募兵，旬日，得六万人；乃断河阳桥，为守御之备。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十三
+  historical_text_id: text-niutrans-de5b69527dee43b3ee19
+  chapter_anchor: 唐纪/唐纪三十三#p180
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「丁酉，禄山陷东京，贼鼓噪自四门入，纵兵杀掠。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 卷九
+  historical_text_id: text-niutrans-3d334bb7fa0ce5c821fd
+  chapter_anchor: 本纪/卷九#p388
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「丁酉，禄山陷东京，杀留守李憕、中丞卢奕、判官蒋清。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-ca347c9043a904770304
+  chapter_anchor: 唐纪/唐纪三十四#p13
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「蔡希德至洛阳，安禄山复使将步骑二万人北就思明，又使牛廷玠发范阳等郡兵万馀人助思明，合五万馀人。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-tongguan
   relation_type: precedes
   confidence: 0.95
   description_zh_cn: 洛阳失守后潼关防线成为关键节点。
+background_zh_cn: 封常清即日乘驿诣东京募兵，旬日得六万人，乃断河阳桥，为守御之备——唐廷以东都防线迎击叛军。
+process_zh_cn: 丁酉，禄山陷东京，贼鼓噪自四门入，纵兵杀掠；杀留守李憕、中丞卢奕、判官蒋清。
+impact_zh_cn: 叛军以洛阳为基地继续扩张：蔡希德至洛阳，安禄山复使将步骑二万人北就思明，又使牛廷玠发范阳等郡兵万馀人助之，合五万馀人——东都陷落使唐廷东西两线同时告急。

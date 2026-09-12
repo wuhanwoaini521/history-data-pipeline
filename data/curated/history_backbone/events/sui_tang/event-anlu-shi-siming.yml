@@ -13,8 +13,7 @@ summary_zh_cn: 安禄山死后，史思明重新发动叛乱，战争延续。
 result_zh_cn: 叛乱从安禄山集团转入史思明主导的阶段。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-32814
   person_name_raw: 史思明
@@ -36,6 +35,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 安庆绪
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 安禄山之子：继掌叛军，后与思明决裂
+  review_note: major-batch01：唐纪三十七「安庆绪收子仪等营中粮……谋闭门更拒思明」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 邺郡
@@ -47,19 +52,72 @@ places:
   link_confidence: null
   review_note: 候选邺郡记录有效至757年，与759—761年事件不完全重叠，QA 将其拒绝并保留 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-002fe8511a405d905c84
+- historical_text_id: text-niutrans-0ace3ebee9c2275397cf
   work: 资治通鉴
   term: 史思明
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴唐纪三十七史思明称王（叛军核心叙事）。引文：「春，正月，己巳朔，史思明筑坛于魏州城北，自称大圣燕王；以周挚为行军司马。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 唐纪/唐纪三十七#p4
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十六
+  historical_text_id: text-niutrans-4b0ee4c7d862ddc22d82
+  chapter_anchor: 唐纪/唐纪三十六#p338
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「及安庆绪败，承恩说思明降唐。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十七
+  historical_text_id: text-niutrans-0ace3ebee9c2275397cf
+  chapter_anchor: 唐纪/唐纪三十七#p4
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「春，正月，己巳朔，史思明筑坛于魏州城北，自称大圣燕王。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十七
+  historical_text_id: text-niutrans-1abb3f671bbdbde79cac
+  chapter_anchor: 唐纪/唐纪三十七#p47
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「安庆绪收子仪等营中粮，得六七万石，与孙孝哲、崔乾祐谋闭门更拒思明。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十七
+  historical_text_id: text-niutrans-acafa9078ac2cef59064
+  chapter_anchor: 唐纪/唐纪三十七#p57
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「乃手疏唁庆绪而不称臣，且曰： 愿为兄弟之国，更作籓篱之援。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-pacification
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 史思明阶段结束后安史之乱最终平定。
+background_zh_cn: 及安庆绪败，承恩说思明降唐——史思明一度降唐，旋复叛自立。
+process_zh_cn: 春正月己巳朔，史思明筑坛于魏州城北，自称大圣燕王，以周挚为行军司马。
+impact_zh_cn: 史思明手疏唁庆绪而不称臣，曰「愿为兄弟之国，更作籓篱之援」——安庆绪收粮拒守、思明与庆绪决裂，叛乱由安禄山集团转入史思明主导阶段。

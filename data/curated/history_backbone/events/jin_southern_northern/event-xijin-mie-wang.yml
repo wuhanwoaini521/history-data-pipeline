@@ -28,15 +28,16 @@ relations:
 evidence:
 - work: 晋书
   term: 愍帝纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-0c95405959e570458b53
   chapter_hint: 愍帝纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·愍帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「八月，刘曜逼京師，內外斷絕……麴允与公卿守長安小城以自固。」；anchor=段落精确锚。
+  chapter_anchor: 帝纪/愍帝纪#p102
+  link_method: manual
 - work: 晋书
   term: 刘曜载记
   historical_text_id: null
@@ -46,8 +47,82 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·刘曜载记》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
-background_zh_cn: 建兴四年（316年）刘曜围长安，晋愍帝出降，西晋灭亡。
-result_zh_cn: 西晋亡国为"永嘉之乱"的终点，也标志北方进入"十六国"多政权并立时代，而南方则孕育出东晋政权。
-# promoted from data/candidates/batch02/event-xijin-mie-wang.yml (AUTO_ACCEPT gate)
+  review_note: 《晋书·刘曜载记》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-e0bedf82648d54a615f4
+  chapter_anchor: 帝纪/愍帝纪#p98
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「夏四月丁丑，刘曜寇上郡，太守籍韋率其衆奔于南鄭。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-12c7d07e70173ada95b9
+  chapter_anchor: 帝纪/愍帝纪#p101
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「秋七月，刘曜攻北地……曜進至涇陽，渭北諸城悉潰。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-0c95405959e570458b53
+  chapter_anchor: 帝纪/愍帝纪#p102
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「八月，刘曜逼京師，內外斷絕……麴允与公卿守長安小城以自固。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-98248714ee0d27435bc9
+  chapter_anchor: 帝纪/愍帝纪#p104
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「帝乘羊車，肉袒銜壁，輿櫬出降……曜焚櫬受壁。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 建兴四年四月，刘曜寇上郡，太守籍韦率众奔南郑；凉州刺史张寔遣步骑五千来赴京都——长安政权仅赖凉州与关中残军支撑。
+result_zh_cn: 八月，刘曜逼京师，内外断绝；麴允与公卿守长安小城以自固——长安已成孤城。
+process_zh_cn: 秋七月，刘曜攻北地，麴允帅步骑三万救之，王师不战而溃；曜进至泾阳，渭北诸城悉溃，建威将军鲁充等皆死之。
+impact_zh_cn: 十一月，帝乘羊车、肉袒衔壁、舆榇出降；刘曜焚榇受壁——西晋灭亡，北方进入十六国时期。
+people:
+- person_name_raw: 刘曜
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 汉赵将领：攻北地、逼长安，受愍帝出降
+  review_note: source-batch02：晋书·愍帝纪「刘曜逼京師，內外斷絕」
+  person_id: null
+- person_name_raw: 麴允
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 晋将：守长安小城，兵败
+  review_note: source-batch02：晋书·愍帝纪「麴允与公卿守長安小城以自固」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 西晋末代都城：被围、愍帝出降
+  review_note: source-batch02：晋书·愍帝纪「刘曜逼京師」「守長安小城」
+- place_name_raw: 北地
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 刘曜攻取之地（王师不战而溃）
+  review_note: source-batch02：晋书·愍帝纪「刘曜攻北地」

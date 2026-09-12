@@ -36,21 +36,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《旧唐书·李靖传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《旧唐书·李靖传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷十七
   link_method: content
 - work: 旧唐书
   term: 突厥传
-  historical_text_id: null
+  historical_text_id: text-wikisource-96804b06b0d62abea878
   chapter_hint: 突厥传
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《旧唐书·突厥传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
-background_zh_cn: 贞观四年（630年）唐将李靖率军长途奔袭，在阴山击破东突厥主力，颉利可汗被俘，东突厥汗国灭亡。
-result_zh_cn: 唐灭东突厥解除北方最大边患，太宗被尊"天可汗"，西域诸国与回纥等皆奉大唐为盟主，是唐初对外战略的决定性胜利。
-# promoted from data/candidates/batch03/event-tang-mie-dong-tujue.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「及其国亂，諸部多歸中国，唯思摩隨逐頡利，竟与同擒。」；anchor=段落精确锚。
+  chapter_anchor: 列传/突厥传#p26
+  link_method: manual
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: text-wikisource-db44f3d693fb239f8413
+  chapter_anchor: 列传/突厥传#p8
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「頡利初嗣立，承父兄之資，兵馬強盛。有憑陵中国之志。」；claim_field=background；anchor=段落精确锚。
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: text-wikisource-4172fc89573d077d6577
+  chapter_anchor: 列传/突厥传#p14
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「貞觀元年，陰山已北薛延陀、回紇、拔也古等部皆相率背叛……其国大雪，平地數尺，羊馬皆死，人大饑。」；claim_field=process；anchor=段落精确锚。
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: text-wikisource-96804b06b0d62abea878
+  chapter_anchor: 列传/突厥传#p26
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「及其国亂，諸部多歸中国，唯思摩隨逐頡利，竟与同擒。」；claim_field=result；anchor=段落精确锚。
+- work: 旧唐书
+  term: 突厥传
+  historical_text_id: text-wikisource-a17dc331f1b4a364b68d
+  chapter_anchor: 列传/突厥传#p19
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧唐书源引文：「太宗聞而異之，贈中郎將，仍葬於頡利墓側，樹碑以紀之。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 颉利初嗣立，承父兄之资，兵马强盛，有凭陵中国之志；高祖以中原初定，每优容之，赐与不可胜计，颉利求请无厌。
+result_zh_cn: 及其国乱，诸部多归中国，唯思摩随逐颉利，竟与同擒——颉利可汗被擒，东突厥汗国灭亡。
+process_zh_cn: 贞观元年，阴山已北薛延陀、回纥、拔也古等部皆相率背叛；其国大雪，平地数尺，羊马皆死，人大饥——东突厥内部瓦解。
+impact_zh_cn: 颉利既死，太宗闻而异之，赠中郎将，仍葬于颉利墓侧，树碑以纪之——天可汗体制与突厥降众安置自此展开。
+people:
+- person_name_raw: 颉利可汗
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 东突厥可汗：国乱被擒，东突厥亡
+  review_note: source-batch02：旧唐书·突厥传「竟与同擒」
+  person_id: null
+- person_name_raw: 阿史那思摩
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 颉利族人：随逐颉利同擒，后统颉利旧部
+  review_note: source-batch02：旧唐书·突厥传「唯思摩隨逐頡利，竟与同擒」
+  person_id: null
+places:
+- place_name_raw: 阴山
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 阴山已北诸部叛离之地
+  review_note: source-batch02：旧唐书·突厥传「陰山已北薛延陀、回紇、拔也古等部皆相率背叛」

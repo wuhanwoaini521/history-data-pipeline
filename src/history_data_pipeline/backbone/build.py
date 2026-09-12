@@ -271,6 +271,11 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
             " ".join(filter(None, [event["name_zh_cn"], event.get("summary_zh_cn"), event.get("result_zh_cn")])),
         ])
         for person in event.get("people", []):
+            if not person.get("person_id"):
+                # needs_linking 人物（name_raw + 无解析 id）不入 dist event_person
+                # 桥表（person_id 为主键成分且要求已解析身份）；保留于 curated YAML 与
+                # reference resolution 统计。避免伪造 person_id。
+                continue
             connection.execute("""
                 INSERT OR REPLACE INTO event_person
                   (event_id,person_id,role,role_zh_cn,side,importance,description,source_type,source_id,quality_status,
@@ -299,7 +304,10 @@ def _insert_backbone(connection, backbone: Backbone) -> None:
                 place.get("link_quality_status"), place.get("link_confidence"), place.get("review_note"),
             ])
         for evidence in event.get("evidence", []):
-            identity = _event_identity((event["id"], evidence.get("historical_text_id") or "", evidence.get("work", ""), evidence.get("term", "")))
+            # identity 含 claim_field：同一段落支撑多个字段（如 process/result 同锚）时保留独立证据行
+            identity = _event_identity((event["id"], evidence.get("historical_text_id") or "",
+                                        evidence.get("work", ""), evidence.get("term", ""),
+                                        evidence.get("claim_field") or ""))
             connection.execute("""
                 INSERT OR REPLACE INTO event_evidence
                   (id,event_id,historical_text_id,work,term,chapter_hint,context_keywords,evidence_role,link_status,

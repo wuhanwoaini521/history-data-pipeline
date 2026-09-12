@@ -27,3 +27,71 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 皇太极在位时改国号大清。
+
+background_zh_cn: 太祖崩，储嗣未定；大贝勒代善与其子岳託、萨哈廉以上才德冠世，与诸贝勒议请嗣位，上辞再三，久之乃许。
+process_zh_cn: 丙寅九月庚午朔，皇太极即位于沈阳，诏以明年为天聪元年——后金汗位由诸贝勒公议推举完成交接。
+result_zh_cn: 即位之初即行使汗权：以蒙古喀尔喀札鲁特部败盟杀掠、私通于明，命大贝勒代善等率精兵万人讨之，先贻书声其罪。
+impact_zh_cn: 察哈尔阿喇克绰忒部贝勒巴尔巴图鲁等率众来归，蒙古诸部渐附——皇太极继位后后金对蒙古的整合与对明攻势自此展开。
+people:
+- person_name_raw: 代善
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 大贝勒：与诸贝勒议请皇太极嗣位
+  review_note: source-batch02：清史稿·太宗本纪一「代善与其子岳託、薩哈廉以上才德冠世，与諸貝勒議請嗣位」
+  person_id: null
+places:
+- place_name_raw: 沈阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 皇太极即位地（盛京）
+  review_note: source-batch02：清史稿·太宗本纪一「丙寅九月庚午朔，即位於瀋陽」
+evidence:
+- work: 清史稿
+  term: 太宗本纪一
+  historical_text_id: text-wikisource-db127f638d1e94469a3f
+  chapter_anchor: 本纪/太宗本纪一#p3
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「太祖崩，儲嗣未定。代善与其子岳託、薩哈廉以上才德冠世，与諸貝勒議請嗣位。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 太宗本纪一
+  historical_text_id: text-wikisource-302ebbe020a25738a793
+  chapter_anchor: 本纪/太宗本纪一#p4
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「丙寅九月庚午朔，即位於瀋陽。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 太宗本纪一
+  historical_text_id: text-wikisource-290fc87e237abb5b773c
+  chapter_anchor: 本纪/太宗本纪一#p6
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「冬十月己酉，以蒙古喀爾喀札魯特部敗盟殺掠，私通於明，命大貝勒代善等率精兵萬人討之。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 太宗本纪一
+  historical_text_id: text-wikisource-3f3ce1a5458bf6878d4e
+  chapter_anchor: 本纪/太宗本纪一#p16
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「察哈爾阿喇克綽忒部貝勒巴爾巴圖魯、諾门達賚、吹爾扎木蘇率眾来歸。」；claim_field=impact；anchor=段落精确锚。

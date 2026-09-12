@@ -20,3 +20,76 @@ relations:
 - target_event_id: event-wangfeng-waigi
   relation_type: follows
   description_zh_cn: 王氏外戚势力在哀帝死后重新掌权
+background_zh_cn: 成帝绥和元年，王莽以太后之侄为大司马，时年三十八——王氏外戚由是秉政。
+process_zh_cn: 哀帝崩，皇太后诏大司马莽杂与御史、丞相、廷尉治，问皇帝起居发病状——莽于帝崩之际重掌机要，赵昭仪自杀。
+result_zh_cn: 平帝初立，太皇太后自用莽为大司马、领尚书事——王莽复出辅政，军政大权集于一身。
+impact_zh_cn: 复出即领尚书事，为居摄、篡汉之渐——王莽自哀帝朝被劾「当伏显戮」，至是权柄在手，西汉末年的外戚政治进入最后阶段。
+people:
+- person_name_raw: 王莽
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 新都侯→大司马领尚书事：复出辅政
+  review_note: source-batch02：资治通鉴汉纪二十七「太皇太后自用莽为大司马、领尚书事」
+  person_id: null
+- person_name_raw: 王政君
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 太皇太后：用莽为大司马、领尚书事
+  review_note: source-batch02：资治通鉴汉纪二十七「太皇太后自用莽为大司马」
+  person_id: null
+places:
+- place_name_raw: 新都
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 王莽封国（新都侯）
+  review_note: source-batch02：资治通鉴汉纪二十六「新都侯王莽前为大司马」
+evidence:
+- work: 资治通鉴
+  term: 汉纪二十四
+  historical_text_id: text-niutrans-d8f09e2287f449171b69
+  chapter_anchor: 汉纪/汉纪二十四#p226
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：资治通鉴源引文：「丙寅，以莽为大司马，时年三十八。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十五
+  historical_text_id: text-niutrans-9f009d0f0efbc03c4c80
+  chapter_anchor: 汉纪/汉纪二十五#p22
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：资治通鉴源引文：「皇太后诏大司马莽杂与御史、丞相、廷尉治，问皇帝起居发病状；赵昭仪自杀。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十七
+  historical_text_id: text-niutrans-f25f004d44ddf2ac4008
+  chapter_anchor: 汉纪/汉纪二十七#p184
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：资治通鉴源引文：「庚申，太皇太后自用莽为大司马、领尚书事。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十六
+  historical_text_id: text-niutrans-213445f2b097a41fb6ad
+  chapter_anchor: 汉纪/汉纪二十六#p43
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：资治通鉴源引文：「新都侯王莽前为大司马，不广尊尊之义，抑贬尊号，亏损孝道，当伏显戮。」；claim_field=impact；anchor=段落精确锚。哀帝朝被劾之语，反衬其复出专权为篡汉之渐

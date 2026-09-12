@@ -26,3 +26,94 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 即位后随即削藩。
+background_zh_cn: 恭闵惠皇帝讳允炆，太祖孙、懿文太子标第二子；洪武二十五年九月立为皇太孙——储位早定而诸王叔强大。
+process_zh_cn: 洪武三十一年闰五月辛卯，允炆即皇帝位，改明年为建文元年，是为建文帝。
+impact_zh_cn: 史臣论其世：「文皇少长习兵，据幽燕形胜之地，乘建文孱弱，长驱内向，奄有四海」——建文即位后试图约束诸王，终启靖难之役，皇统转入燕王一支。
+people:
+- person_name_raw: 建文帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 恭闵惠皇帝朱允炆：皇太孙入继大统
+  review_note: source-batch02：明史·恭闵帝本纪「恭闵惠皇帝讳允炆」「辛卯，即皇帝位」
+  person_id: null
+places:
+- place_name_raw: 京师
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 即位地（南京）
+  review_note: source-batch02：明史·恭闵帝本纪（洪武三十一年即位）
+evidence:
+- work: 明史
+  term: 恭闵帝本纪
+  historical_text_id: text-niutrans-a9525604c583ca5b121b
+  chapter_anchor: 本纪/卷四#p2
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「恭闵惠皇帝讳允炆。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 恭闵帝本纪
+  historical_text_id: text-niutrans-3d1171a3fcbd6e37d241
+  chapter_anchor: 本纪/卷四#p8
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「洪武二十五年九月，立为皇太孙。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 恭闵帝本纪
+  historical_text_id: text-niutrans-881003f9fa2f4ad7fd96
+  chapter_anchor: 本纪/卷四#p14
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「辛卯，即皇帝位。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 成祖本纪
+  historical_text_id: text-niutrans-9991047d0cbbdc75fbdf
+  chapter_anchor: 本纪/卷七#p268
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「文皇少长习兵，据幽燕形胜之地，乘建文孱弱，长驱内向，奄有四海。」；claim_field=impact；anchor=段落精确锚。史臣赞语，述建文之世结局
+- work: 明史
+  term: 恭闵帝本纪
+  historical_text_id: text-niutrans-9e566192f877c4ec5110
+  chapter_anchor: 本纪/卷四#p15
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史·恭闵帝本纪引文：「大赦天下，以明年为建文元年。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 恭闵帝本纪
+  historical_text_id: text-niutrans-348a089a6580ddd69b50
+  chapter_anchor: 本纪/卷四#p23
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史·恭闵帝本纪引文：「翰林院修撰黄子澄为太常卿，同参军国事。」；claim_field=result；anchor=段落精确锚（削藩谋主入中枢）。
+result_zh_cn: 即位次日大赦天下，以明年为建文元年；葬高皇帝于孝陵、诏行三年丧，并擢齐泰为本部尚书、黄子澄为太常卿同参军国事——建文初政以复古礼制与中枢更张为务，齐、黄二人遂为削藩谋主。

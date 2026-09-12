@@ -1,0 +1,169 @@
+{
+  "manifest_version": "wikisource-batch01-v1",
+  "policy": "docs/source-acquisition-policy.md",
+  "source_id": "source-wikisource",
+  "dataset": "wikisource",
+  "carrier": {
+    "site": "zh.wikisource.org",
+    "api": "https://zh.wikisource.org/w/api.php",
+    "license_note": "载体现行排版许可 CC BY-SA 3.0 / 4.0；入库内容层级随底本（underlying work）判定，载体的整理性注释不入库。"
+  },
+  "pages": [
+    {
+      "title": "宋史/卷485",
+      "file": "pages/01_songshi_485.wikitext",
+      "underlying_work": "宋史·卷485·夏国传上（元·脱脱等奉敕撰）",
+      "work_id_mapping": "work-curated-songshi",
+      "section": "列传",
+      "chapter": "卷四百八十五",
+      "doc_class": "classical_history",
+      "license": "public_domain",
+      "pd_reason": "元代官修正史，作者卒年（1353 后）远超保护期",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-western-xia-jianguo"
+      ],
+      "work_id_mapping_note": "与 NiuTrans 宋史行归一（同一 book_id）"
+    },
+    {
+      "title": "宋史/卷486",
+      "file": "pages/02_songshi_486.wikitext",
+      "underlying_work": "宋史·卷486·夏国传下（元·脱脱等奉敕撰）",
+      "work_id_mapping": "work-curated-songshi",
+      "section": "列传",
+      "chapter": "卷四百八十六",
+      "doc_class": "classical_history",
+      "license": "public_domain",
+      "pd_reason": "元代官修正史，作者卒年远超保护期",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-western-xia-jianguo"
+      ]
+    },
+    {
+      "title": "降伏文書",
+      "file": "pages/03_jiangfu_wenshu.wikitext",
+      "underlying_work": "日本向同盟国投降书（1945-09-02，东京湾密苏里号）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "official_instrument",
+      "license": "public_domain",
+      "pd_reason": "国际条约/投降文书，属官方文书，不受著作权保护",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-riben-touxiang"
+      ]
+    },
+    {
+      "title": "對於蘆溝橋事件之嚴正表示",
+      "file": "pages/04_lugou_biaoshi_0708.wikitext",
+      "underlying_work": "蒋介石对于卢沟桥事件之严正表示（1937-07）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "official_statement",
+      "license": "public_domain",
+      "pd_reason": "作者蒋介石卒于 1975-04-05，中国著作权个人保护期卒后 50 年，2026-01-01 起进入公有领域；美国 URAA 恢复期同步于 2026-01-01 届满",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-qiqishi-bian"
+      ]
+    },
+    {
+      "title": "對盧溝橋事件之嚴正聲明",
+      "file": "pages/05_lugou_shengming_0717.wikitext",
+      "underlying_work": "蒋介石对卢沟桥事件之严正声明（庐山谈话，1937-07-17）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "official_statement",
+      "license": "public_domain",
+      "pd_reason": "同上：蒋介石卒于 1975，2026-01-01 起 PD",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-qiqishi-bian"
+      ]
+    },
+    {
+      "title": "國防部審判戰犯軍事法庭判決三十六年度審字第十三號",
+      "file": "pages/06_gushoufu_panjue.wikitext",
+      "underlying_work": "国防部审判战犯军事法庭对谷寿夫案判决书（1947-03-10，南京）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "court_judgment",
+      "license": "public_domain",
+      "pd_reason": "国家机关司法性质文件（著作权法第5条），不享著作权",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-nanjing-datusha"
+      ]
+    },
+    {
+      "title": "中華人民共和國中央人民政府公告",
+      "file": "pages/07_zhongyang_renmin_zhengfu_gonggao.wikitext",
+      "underlying_work": "中华人民共和国中央人民政府公告（1949-10-01）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "government_announcement",
+      "license": "public_domain",
+      "pd_reason": "国家机关具有行政、立法性质的官方文件（著作权法第5条）",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-xinzhongguo-chengli"
+      ],
+      "body_start_marker": "中華人民共和國中央人民政府公告一九四九年十月一日",
+      "body_end_marker": "本作品是中华人民共和国的法律"
+    },
+    {
+      "title": "中國人民政治協商會議共同綱領",
+      "file": "pages/08_gongtong_gangling.wikitext",
+      "underlying_work": "中国人民政治协商会议共同纲领（1949-09-29 通过）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "constitutional_program",
+      "license": "public_domain",
+      "pd_reason": "建国纲领性官方文件（临时宪法性质），著作权法第5条官方文件",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-xinzhongguo-chengli"
+      ],
+      "body_start_marker": "中國人民政治協商會議共同綱領一九四九年九月二十九日中國人民政治協商會議第一屆全體",
+      "body_end_marker": "本作品是中华人民共和国的法律"
+    },
+    {
+      "title": "五四運動宣言",
+      "file": "pages/09_wuxi_xuanyan.wikitext",
+      "underlying_work": "北京学界全体宣言（罗家伦执笔，1919-05-04）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "political_manifesto",
+      "license": "public_domain",
+      "pd_reason": "取回核实：罗家伦执笔（页内 Header author=羅家倫 + 罗注自述），罗卒于 1969-12-25，中国著作权个人保护期卒后 50 年，2020-01-01 起进入公有领域",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-wusi-yundong"
+      ]
+    },
+    {
+      "title": "國防部審判戰犯軍事法庭判決三十六年度審字第壹號",
+      "file": "pages/10_gushoufu_zhupanjue.wikitext",
+      "underlying_work": "国防部审判战犯军事法庭对谷寿夫案判决书（三十六年度审字第壹号，1947-03-10，南京）",
+      "work_id_mapping": null,
+      "section": null,
+      "chapter": null,
+      "doc_class": "court_judgment",
+      "license": "public_domain",
+      "pd_reason": "国家机关司法性质文件（著作权法第5条），不享著作权",
+      "canonical_use": "allowed",
+      "target_events": [
+        "event-nanjing-datusha"
+      ]
+    }
+  ],
+  "license_summary": "底本逐页判定（见 pages[].pd_reason）：元代官修古籍 / 国际条约文书 / 国家机关公文与司法判决 / 2026-01-01 起过保护期个人文告；载体现行排版 CC BY-SA 不改变底本判定"
+}

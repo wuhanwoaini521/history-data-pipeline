@@ -36,8 +36,7 @@ evidence:
   link_status: linked
   link_confidence: 0.85
   link_quality_status: reviewed
-  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: alias
 - work: 明史
@@ -49,10 +48,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·胡惟庸传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·胡惟庸传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷一百九十六
   link_method: content
-background_zh_cn: 洪武十三年（1380 年），朱元璋以谋反罪族诛左丞相胡惟庸，随即罢中书省、废丞相制度，六部尚书直接对皇帝负责；此后内阁制逐步形成，皇权空前集中，是中国古代中枢制度的结构性变革。
-result_zh_cn: 洪武十三年（1380 年），朱元璋以谋反罪族诛左丞相胡惟庸，随即罢中书省、废丞相制度，六部尚书直接对皇帝负责；此后内阁制逐步形成，皇权空前集中，是中国古代中枢制度的结构性变革。
-# promoted from data/candidates/batch05/event-hu-weiyong-an.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 列传
+  historical_text_id: text-niutrans-1222e1a1f5000cd568bc
+  chapter_anchor: 列传/卷十三#p164
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「胡惟庸为丞相，欲结好于达，达薄其人，不答……时时为帝言惟庸不任相。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-cae23cbda66f3fd68845
+  chapter_anchor: 本纪/卷二#p434
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「十三年春正月戊戌，左丞相胡惟庸谋反，及其党御史大夫陈宁、中丞涂节等伏诛。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-79697cb30b177f4e1a37
+  chapter_anchor: 本纪/卷三#p194
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「夏四月，吉安侯陆仲亨等坐胡惟庸党下狱。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 刑法志
+  historical_text_id: text-niutrans-15b29df74c0e67c1243b
+  chapter_anchor: 志/卷七十#p309
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「而胡惟庸、蓝玉两狱，株连死者且四万。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 太祖纪
+  historical_text_id: text-niutrans-c13fc60f11c491901900
+  chapter_anchor: 本纪/卷三#p291
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「赦胡惟庸、蓝玉余党。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 胡惟庸为丞相，欲结好于徐达，达薄其人、不答，惟时时为帝言「惟庸不任相」——相权膨胀而帝相矛盾日深。
+result_zh_cn: 案后株连不已：吉安侯陆仲亨等坐胡惟庸党下狱，靖宁侯叶升亦坐党诛——「胡惟庸、蓝玉两狱，株连死者且四万」。
+process_zh_cn: 十三年春正月戊戌，左丞相胡惟庸谋反，及其党御史大夫陈宁、中丞涂节等伏诛。
+impact_zh_cn: 皇权借案整肃相权，株连绵延至太祖晚年犹「赦胡惟庸、蓝玉余党」——胡惟庸案成为明初中央官制剧变（废丞相）的枢机。
+people:
+- person_name_raw: 胡惟庸
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 左丞相：以谋反诛
+  review_note: ready43-c5：明史·太祖纪「左丞相胡惟庸谋反……伏诛」
+  person_id: null
+- person_name_raw: 徐达
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 大将军：尝言惟庸不任相
+  review_note: ready43-c5：明史「徐达…时时为帝言惟庸不任相」
+  person_id: null
+places:
+- place_name_raw: 京师
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 案发与株连所在（南京）
+  review_note: ready43-c5：明史·太祖纪（洪武十三年正月）

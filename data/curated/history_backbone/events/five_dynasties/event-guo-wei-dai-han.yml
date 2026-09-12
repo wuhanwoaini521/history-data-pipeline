@@ -30,15 +30,16 @@ relations:
 evidence:
 - work: 旧五代史
   term: 周太祖纪
-  historical_text_id: null
+  historical_text_id: text-niutrans-1a2cd0882143bb3b3936
   chapter_hint: 周太祖纪
   context_keywords: []
   evidence_role: primary
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《旧五代史·周太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「今則軍民愛戴，朝野推崇，宜總萬機，以允群議，可監國。」；anchor=段落精确锚。
+  chapter_anchor: 后周/太祖纪一#p133
+  link_method: manual
 - work: 资治通鉴
   term: 后周纪
   historical_text_id: text-niutrans-c2dcd326294100ff5425
@@ -48,10 +49,78 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《资治通鉴·后周纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《资治通鉴·后周纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 后周纪/后周纪一
   link_method: exact
-background_zh_cn: 广顺元年（951年）后汉枢密使郭威于澶州兵变后受禅称帝，国号周（后周），都开封。
-result_zh_cn: 后周建立五代最后一个中原王朝，其后的柴荣改革为北宋统一奠定基础。
-# promoted from data/candidates/batch04/event-guo-wei-dai-han.yml (AUTO_ACCEPT gate)
+- work: 旧五代史
+  term: 隐帝纪下
+  historical_text_id: text-niutrans-c555b947d961d06dec75
+  chapter_anchor: 后汉/隐帝纪下#p40
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧五代史源引文：「郭威得之，即召王峻、郭崇、曹英及諸軍將校，至牙署視詔。」；claim_field=background；anchor=段落精确锚。
+- work: 旧五代史
+  term: 周太祖纪
+  historical_text_id: text-niutrans-3e56b8104fd5b4cca533
+  chapter_anchor: 后周/太祖纪一#p132
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧五代史源引文：「二十七日，汉太后令曰： 樞密使、侍中郭威……宜總萬機，以允群議，可監國。」；claim_field=process；anchor=段落精确锚。
+- work: 旧五代史
+  term: 周太祖纪
+  historical_text_id: text-niutrans-1a2cd0882143bb3b3936
+  chapter_anchor: 后周/太祖纪一#p133
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧五代史源引文：「中外庶事，並取監國處分。」；claim_field=result；anchor=段落精确锚。
+- work: 旧五代史
+  term: 周太祖纪
+  historical_text_id: text-niutrans-269a05bceaa575b1aa53
+  chapter_anchor: 后周/太祖纪一#p134
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：旧五代史源引文：「監國教曰： 寡人出自軍戎，本无德望，因緣際会，叨竊寵靈。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 隐帝遇弑后，郭威得密诏，即召王峻、郭崇、曹英及诸军将校至牙署视诏，兼告杨、史诸公冤枉之状——起兵之名由此而立。
+result_zh_cn: 监国教曰「寡人出自军戎，本无德望，因缘际会，叨窃宠灵」——郭威受监国之任，中外庶事并取监国处分。
+process_zh_cn: 汉太后令曰：枢密使、侍中郭威「剪除祸乱，宏济艰难，功业格天，人望冠世」，宜总万机、可监国。
+impact_zh_cn: 自请立嗣君、入请太后临朝，至受监国、总万机——后周代汉之程序于此完成，五代易代「军士拥立—监国—受禅」的模式再度上演。
+people:
+- person_name_raw: 郭威
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 枢密使、侍中：受监国，后周太祖
+  review_note: source-batch02：旧五代史·周太祖纪「可監國」
+  person_id: null
+places:
+- place_name_raw: 邺都
+  role: city
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 郭威起兵前镇守之地（牙署视诏）
+  review_note: source-batch02：旧五代史·隐帝纪下「郭威得之，即召……至牙署視詔」
+- place_name_raw: 开封
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 后汉都城（太后令、监国受命所在朝廷）
+  review_note: source-batch02：旧五代史·周太祖纪「汉太后令曰……可監國」

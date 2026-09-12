@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《宋史·高宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《宋史·高宗纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二十四
   link_method: content
 - work: 三朝北盟会编
@@ -50,8 +49,82 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 建炎元年五月初一（1127 年），康王赵构在南京应天府（今河南商丘）即位，史称宋高宗，重建宋政权，史称南宋；南宋承袭北宋法统，但江南为统治重心。
-result_zh_cn: 建炎元年五月初一（1127 年），康王赵构在南京应天府（今河南商丘）即位，史称宋高宗，重建宋政权，史称南宋；南宋承袭北宋法统，但江南为统治重心。
-# promoted from data/candidates/batch04/event-zhao-gou-nansong-jianguo.yml (AUTO_ACCEPT gate)
+  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 宋史
+  term: 高宗纪
+  historical_text_id: text-niutrans-ffc425e350961a7166af
+  chapter_anchor: 本纪/卷二十四#p94
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「癸未，至应天府。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 高宗纪
+  historical_text_id: text-niutrans-4836afc04bbac2f0d6fb
+  chapter_anchor: 本纪/卷二十四#p78
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「戊辰，济州父老诣军门……请帝即位于济。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 高宗纪
+  historical_text_id: text-niutrans-2d256364aa1c250fff8e
+  chapter_anchor: 本纪/卷二十四#p99
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「五月庚寅朔，帝登坛受命，礼毕恸哭，遥谢二帝，即位于府治。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 高宗纪
+  historical_text_id: text-niutrans-0eafd0f70c92845fa99c
+  chapter_anchor: 本纪/卷二十四#p100
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「改元建炎。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-8c18b356a0f1f10a9292
+  chapter_anchor: 本纪/卷二十三#p426
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「帝在青城。」；claim_field=impact；anchor=段落精确锚。二帝未归而康王继统，南渡之局已成
+background_zh_cn: 癸未，康王至应天府；济州父老诣军门请帝即位——靖康之后，宗室与军民推戴康王。
+result_zh_cn: 改元建炎——南宋政权于应天府建立。
+process_zh_cn: 五月庚寅朔，帝登坛受命，礼毕恸哭，遥谢二帝，即位于府治。
+impact_zh_cn: 建炎改元、以应天府为南京，宋室南渡而国祚延续——南宋一百五十年自此始，中原士民随之南迁（衣冠南渡再演）。
+people:
+- person_name_raw: 赵构
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 康王→宋高宗：应天府即位、南宋开国
+  review_note: ready43-c3：宋史·高宗纪「即位于府治」「改元建炎」
+  person_id: null
+places:
+- place_name_raw: 应天府
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 南宋开国即位之地（南京）
+  review_note: ready43-c3：宋史·高宗纪「至应天府」「即位于府治」

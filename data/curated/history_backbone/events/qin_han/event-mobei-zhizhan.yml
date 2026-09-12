@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-mobei-zhizhan.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-mobei-zhizhan.yml]
 - person_id: cbdb-person-502566
   person_name_raw: 卫青
   role: commander
@@ -40,8 +39,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.85
-  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-    [V2 source=event-mobei-zhizhan.yml]
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-mobei-zhizhan.yml]
 - person_id: cbdb-person-432543
   person_name_raw: 霍去病
   role: commander
@@ -51,8 +49,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.85
-  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-    [V2 source=event-mobei-zhizhan.yml]
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-mobei-zhizhan.yml]
 relations:
 - target_event_id: event-han-xiongnu-war
   relation_type: part_of
@@ -85,7 +82,60 @@ evidence:
   review_note: 《汉书·武帝纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 纪/武帝纪
   link_method: exact
-# event-mobei-zhizhan — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-02b4dc0abd7aac41d20e
+  chapter_anchor: 纪/武帝纪#p199
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「大将军卫青将四将军出定襄，将军去病出代，各将五万骑。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-ecedd38b5b9bc7c1f285
+  chapter_anchor: 纪/武帝纪#p202
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「去病与左贤王战，斩获首虏七万余级，封狼居胥山乃还。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-6bf3bce4c2a2607c37ac
+  chapter_anchor: 七十列传/卫将军骠骑列传#p151
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「封狼居胥山，禅於姑衍，登临翰海。」；claim_field=impact；anchor=段落精确锚。
+- work: 汉书
+  term: 匈奴传下
+  historical_text_id: text-niutrans-c42581b78ad65a31ccc0
+  chapter_anchor: 传/匈奴传下#p221
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「追奔逐北，封狼居胥山，禅于姑衍，以临翰海，虏名王贵人以百数。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 大将军卫青将四将军出定襄，将军霍去病出代，各将五万骑；青出塞斩首万余，去病与左贤王战、斩获首虏七万余级。
+impact_zh_cn: 封狼居胥山、禅于姑衍、登临翰海——漠北决战重创匈奴主力，「漠南无王庭」，汉匈攻守之势自此逆转。
+places:
+- place_name_raw: 狼居胥山
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 霍去病封禅之地（漠北）
+  review_note: ready43-c1：史记·卫将军骠骑列传「封狼居胥山，禅於姑衍，登临翰海」

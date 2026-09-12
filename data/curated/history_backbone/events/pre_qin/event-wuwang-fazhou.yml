@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-wuwang-fazhou.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-wuwang-fazhou.yml]
 relations:
 - target_event_id: event-xizhou-jianguo
   relation_type: leads_to
@@ -61,7 +60,60 @@ evidence:
   review_note: 《尚书·牧誓》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 周书/牧誓
   link_method: exact
-# event-wuwang-fazhou — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 尚书
+  term: 牧誓
+  historical_text_id: text-niutrans-523e45ce0b7dab4635d1
+  chapter_anchor: 周书/牧誓#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：尚书源引文：「武王戎车三百两，虎贲三百人，与商战于牧野，作《牧誓》。」；claim_field=background；anchor=段落精确锚。
+- work: 尚书
+  term: 牧誓
+  historical_text_id: text-niutrans-8b7cea30d15ca3e3c53d
+  chapter_anchor: 周书/牧誓#p2
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：尚书源引文：「时甲子昧爽，王朝至于商郊牧野，乃誓。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-c93793417aee529c3e06
+  chapter_anchor: 十二本纪/周本纪#p122
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「武王使师尚父与百夫致师，以大卒驰帝纣师。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 周本纪
+  historical_text_id: text-niutrans-a9dd2be4622ef56ef585
+  chapter_anchor: 十二本纪/周本纪#p124
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「纣师皆倒兵以战，以开武王。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 武王戎车三百两、虎贲三百人，与商战于牧野；甲子昧爽，王朝至于商郊牧野乃誓，称尔戈、比尔干、立尔矛；师尚父与百夫致师，以大卒驰帝纣师。
+impact_zh_cn: 纣师皆倒兵以战、以开武王——商军倒戈，商亡周兴；牧誓所载「友邦冢君、庸蜀羌髳微卢彭濮」之联军阵容，成为周初封建秩序的原点。
+places:
+- place_name_raw: 牧野
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 商郊决战之地
+  review_note: ready43-c1：尚书·牧誓「王朝至于商郊牧野，乃誓」

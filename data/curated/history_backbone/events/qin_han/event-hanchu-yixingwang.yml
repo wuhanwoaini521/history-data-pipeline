@@ -23,3 +23,83 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 剪除异姓王后以白马之盟确定非刘氏不王
+
+background_zh_cn: 陈平献策：高帝发使告诸侯会陈，「吾将南游云梦」——以游猎之名会诸侯于陈，实为擒韩信之谋。
+process_zh_cn: 春，淮阴侯韩信谋反关中，夷三族——楚王韩信先贬淮阴侯，终以谋反诛。
+result_zh_cn: 夏，梁王彭越谋反，废迁蜀，复欲反，遂夷三族；异姓诸侯王相继翦除。
+impact_zh_cn: 秋七月，淮南王黥布反，东并荆王刘贾地，北渡淮——异姓王诛锄既尽，而淮南之叛继起，汉初郡国并行之局与同姓王分封由此定型。
+people:
+- person_name_raw: 韩信
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 淮阴侯：由楚王贬侯，以谋反夷三族
+  review_note: source-batch02：史记·高祖本纪「淮阴侯韩信谋反关中，夷三族」
+  person_id: null
+- person_name_raw: 彭越
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 梁王：谋反废迁蜀，复以谋反夷三族
+  review_note: source-batch02：史记·高祖本纪「梁王彭越谋反，废迁蜀……遂夷三族」
+  person_id: null
+- person_name_raw: 黥布
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 淮南王英布：异姓王中最后反者
+  review_note: source-batch02：史记·高祖本纪「淮南王黥布反」
+  person_id: null
+places:
+- place_name_raw: 云梦
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 高帝伪游之地（擒韩信之谋）
+  review_note: source-batch02：史记·陈丞相世家「吾将南游云梦」
+evidence:
+- work: 史记
+  term: 陈丞相世家
+  historical_text_id: text-niutrans-20374c806004b411107e
+  chapter_anchor: 三十世家/陈丞相世家#p119
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：史记源引文：「乃发使告诸侯会陈， 吾将南游云梦 。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-9bb1b44bc1c5f9881135
+  chapter_anchor: 十二本纪/高祖本纪#p521
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：史记源引文：「春，淮阴侯韩信谋反关中，夷三族。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-9d8292921af904c17e12
+  chapter_anchor: 十二本纪/高祖本纪#p522
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：史记源引文：「夏，梁王彭越谋反，废迁蜀；复欲反，遂夷三族。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-961b059199ad61df9817
+  chapter_anchor: 十二本纪/高祖本纪#p524
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：史记源引文：「秋七月，淮南王黥布反，东并荆王刘贾地，北渡淮。」；claim_field=impact；anchor=段落精确锚。

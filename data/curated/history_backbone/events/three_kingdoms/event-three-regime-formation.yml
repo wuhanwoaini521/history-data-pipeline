@@ -10,11 +10,10 @@ period_id: period-three-kingdoms
 regime_ids: []
 importance: major
 summary_zh_cn: 曹魏、蜀汉、东吴政权相继确立，三方并立格局成形。
-result_zh_cn: 三国时期的政权结构稳定下来。
+result_zh_cn: 黄龙元年春，公卿百司皆劝权正尊号（孙权称帝于武昌）——魏、汉、吴三方帝号并立。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -56,16 +55,83 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 暂未可靠匹配 Place。
+- place_name_raw: 成都
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 先主（蜀汉）即皇帝位之地
+  review_note: ready43-c6：三国志·先主传「即皇帝位於成都武担之南」
 evidence:
-- historical_text_id: text-niutrans-00942895b49e702cb324
+- historical_text_id: text-niutrans-ea96131ea07df31f3667
   work: 三国志
   term: 黄初
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：先主传刘备称帝（三国鼎立完成之标志）。引文：「臣等谨与博士许慈、议郎孟光，建立礼仪，择令辰，上尊号。 即皇帝位於成都武担之南。」；anchor=段落精确锚。
   rejected_text_ids: []
-relations: []
+  chapter_anchor: 蜀书/先主传#p225
+  link_method: manual
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-736750be99de3559a5d8
+  chapter_anchor: 吴书/吴主传#p87
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「冬，魏嗣王称尊号，改元为黄初。」；claim_field=background；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-ea96131ea07df31f3667
+  chapter_anchor: 蜀书/先主传#p225
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「即皇帝位於成都武担之南。」；claim_field=process；anchor=段落精确锚。
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-73eeecde13d1b401af18
+  chapter_anchor: 吴书/吴主传#p197
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「黄龙元年春，公卿百司皆劝权正尊号。」；claim_field=result；anchor=段落精确锚。
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-6d594a1052f3b290e676
+  chapter_anchor: 吴书/吴主传#p430
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「故能自擅江表，成鼎峙之业。」；claim_field=impact；anchor=段落精确锚。
+relations:
+- target_event_id: event-caopi-dai-han
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 曹丕代汉（220）为鼎立格局的第一块基石，蜀汉、东吴相继称帝。
+- target_event_id: event-three-chibi
+  relation_type: follows
+  confidence: 0.8
+  description_zh_cn: 赤壁之战奠定南北分立的军事基础，鼎立格局由此肇基。
+background_zh_cn: 冬，魏嗣王称尊号、改元为黄初——曹丕代汉，三国鼎立的第一块基石落定。
+process_zh_cn: 先主即皇帝位于成都武担之南，国号汉（蜀汉）——汉室旗号重建于西南。
+impact_zh_cn: 史评孙权「自擅江表，成鼎峙之业」——三国鼎立格局正式形成，与魏汉吴三方并立之局延续四十余年。

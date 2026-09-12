@@ -13,8 +13,7 @@ summary_zh_cn: 唐军在郭子仪等将领组织下展开反攻并收复长安�
 result_zh_cn: 唐廷重新取得都城，但战争并未结束。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-94373
   person_name_raw: 郭子仪
@@ -46,6 +45,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 李嗣业
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 唐军前军主将：香积寺之战肉袒执刀破阵
+  review_note: major-batch01：唐纪三十六「乃肉袒，执长刀，立于阵前，大呼奋击」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 长安
@@ -57,19 +62,72 @@ places:
   link_confidence: null
   review_note: 仍保留 needs_linking。
 evidence:
-- historical_text_id: text-niutrans-00bc403762ac547a8da8
+- historical_text_id: text-niutrans-7f583ac3fa0eee240354
   work: 资治通鉴
   term: 郭子仪
   chapter_hint: null
   context_keywords: null
   evidence_role: primary
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=主要史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.85
+  review_note: major-batch01：legacy 悬空锚重定位——唐军收复长安核心段（广平王止追、叛军弃城）。引文：「贼弃城走矣，请以二百骑追之。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 唐纪/唐纪三十六#p26
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十六
+  historical_text_id: text-niutrans-872168780f703dff040e
+  chapter_anchor: 唐纪/唐纪三十六#p16
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「李嗣业为前军，郭子仪为中军，王思礼为后军。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十六
+  historical_text_id: text-niutrans-6f871808314e9df8a621
+  chapter_anchor: 唐纪/唐纪三十六#p19
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「乃肉袒，执长刀，立于阵前，大呼奋击，当其刀者，人马俱碎，杀数十人，阵乃稍定。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十六
+  historical_text_id: text-niutrans-16738435827118de66ab
+  chapter_anchor: 唐纪/唐纪三十六#p24
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「李嗣业又与回纥出贼阵后，与大军交击，自午及酉，斩首六万级……贼遂大溃。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十六
+  historical_text_id: text-niutrans-7f583ac3fa0eee240354
+  chapter_anchor: 唐纪/唐纪三十六#p26
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「仆固怀恩言于广平王俶曰： 贼弃城走矣，请以二百骑追之。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-shi-siming
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 安禄山集团变化后史思明继续发动叛乱。
+background_zh_cn: 李嗣业为前军，郭子仪为中军，王思礼为后军——唐军会合回纥、诸道之兵列阵长安城西。
+process_zh_cn: 李嗣业肉袒执长刀立于阵前，大呼奋击，当其刀者人马俱碎，阵乃稍定；嗣业帅前军各执长刀如墙而进，所向摧靡。
+impact_zh_cn: 贼遂大溃、馀众走入城；仆固怀恩言于广平王「贼弃城走矣，请以二百骑追之」——叛军弃长安而走，唐廷收复都城。

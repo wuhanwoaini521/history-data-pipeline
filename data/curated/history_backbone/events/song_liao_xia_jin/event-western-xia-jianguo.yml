@@ -27,3 +27,107 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 称帝建国后宋夏战争爆发。
+
+background_zh_cn: 元昊袭封夏国王后整军立制：明号令、以兵法勒诸部，自号「嵬名吾祖」，设中书、枢密等文武班官制；宝元元年（1038）先遣使窥探河东道路，与诸豪歃血约先攻鄜延，欲自德靖、塞门砦、赤城路三道并进。
+process_zh_cn: 宝元元年十月十一日，元昊郊坛备礼、筑坛受册，即皇帝位，时年三十；国称大夏，年号天授礼法延祚。随后遣使上表宋廷，自陈「臣祖宗本出帝胄」，称「制小蕃文字，改大汉衣冠……吐蕃、塔塔、张掖、交河，莫不从伏」，求「许以西郊之地，册为南面之君」。
+result_zh_cn: 宋廷不允，诏削夺元昊官爵、互市，揭榜于边，募能擒斩元昊者即授定难军节度使，并遣使赍嫚书、纳还旌节敕告；宋夏交恶，康定元年战事起，夏人破金明砦、围延州、设伏三川口，宋将刘平、石元孙等被执。
+impact_zh_cn: 西夏以大夏国号、年号与官制立国，宋廷削爵绝市，康定元年后金明砦、延州、三川口、镇戎军等役接连爆发——宋夏长期军事对峙自此展开。
+people:
+- person_name_raw: 李元昊
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 称帝建国者：筑坛受册即皇帝位，国称大夏
+  review_note: batch02-10：宋史·夏国传上「遂築壇受冊，即皇帝位，時年三十」
+  person_id: null
+- person_name_raw: 刘平
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 宋将，三川口之役被夏军所执
+  review_note: batch02-10：宋史·夏国传上「圍延州，設伏三川口，執劉平、石元孫、傅偃、劉發、石遜等」
+  person_id: null
+places:
+- place_name_raw: 鄜延
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 元昊与诸豪歃血谋攻的宋边路分
+  review_note: batch02-10：宋史·夏国传上「與諸豪歃血約先攻鄜延」
+- place_name_raw: 延州
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 康定元年夏军围困的宋边州城
+  review_note: batch02-10：宋史·夏国传上「破安遠、塞門、永平諸砦，圍延州」
+- place_name_raw: 三川口
+  role: battlesite
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 夏军设伏俘宋将之地
+  review_note: batch02-10：宋史·夏国传上「設伏三川口，執劉平、石元孫」
+- place_name_raw: 五台山
+  role: location
+  link_status: needs_linking
+  sequence: 4
+  description_zh_cn: 宝元元年元昊表遣使供佛、借以窥探河东道路
+  review_note: batch02-10：宋史·夏国传上「表遣使詣五臺山供佛寶，欲窺河東道路」
+evidence:
+- work: 宋史
+  term: 夏国传上
+  historical_text_id: text-wikisource-e2ab9a632298b908abd8
+  chapter_anchor: 列传/卷四百八十五#p62
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「既襲封，明號令，以兵法勒諸部。始衣白窄衫，氈冠紅裏，冠頂後垂紅結綬，自號嵬名吾祖。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 夏国传上
+  historical_text_id: text-wikisource-3e7bdfe7ebf23c85d890
+  chapter_anchor: 列传/卷四百八十五#p66
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「宋寶元元年……遂築壇受冊，即皇帝位，時年三十。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 夏国传上
+  historical_text_id: text-wikisource-1baf68638ec0ef28a5da
+  chapter_anchor: 列传/卷四百八十五#p68
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「遂以十月十一日郊壇備禮，為世祖始文本武興法建禮仁孝皇帝，國稱大夏，年號天授禮法延祚。……許以西郊之地，冊為南面之君。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 夏国传上
+  historical_text_id: text-wikisource-923daddd9f5888878759
+  chapter_anchor: 列传/卷四百八十五#p69
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「詔削奪官爵、互市，揭榜于邊，募人能擒元昊若斬首獻者，即為定難軍節度使。」；claim_field=impact；anchor=段落精确锚。
+- work: 宋史
+  term: 夏国传上
+  historical_text_id: text-wikisource-d56a33d10b62b88bbcb9
+  chapter_anchor: 列传/卷四百八十五#p70
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: batch02-10：source-grounded（wikisource/20260912）引文：「破安遠、塞門、永平諸砦，圍延州，設伏三川口，執劉平、石元孫、傅偃、劉發、石遜等。」；claim_field=impact；anchor=段落精确锚。

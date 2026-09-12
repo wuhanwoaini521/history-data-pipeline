@@ -29,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-wangmang-chengdi.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-wangmang-chengdi.yml]
 - person_id: ctext-person-397611
   person_name_raw: 孺子婴
   role: victim
@@ -40,8 +39,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.85
-  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-    [V2 source=event-wangmang-chengdi.yml]
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-wangmang-chengdi.yml]
 relations:
 - target_event_id: event-wangmang-jushe
   relation_type: follows
@@ -75,7 +73,72 @@ evidence:
   review_note: 《资治通鉴·汉纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 汉纪/汉纪一
   link_method: exact
-# event-wangmang-chengdi — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 汉书
+  term: 王莽传上
+  historical_text_id: text-niutrans-8512c108bca3743f09f1
+  chapter_anchor: 传/王莽传上#p454
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「其令安汉公居摄践祚，如周公故事，以武功县为安汉公采地，名曰汉光邑。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 王莽传上
+  historical_text_id: text-niutrans-2c1c079822eb520a54f3
+  chapter_anchor: 传/王莽传上#p540
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：汉书源引文：「莽惶惧不能食，昼夜抱孺子告祷郊庙，放《大诰》作策。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十九
+  historical_text_id: text-niutrans-07ff19c92b23a4926309
+  chapter_anchor: 汉纪/汉纪二十九#p10
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「中傅将孺子下殿，北面而称臣。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十九
+  historical_text_id: text-niutrans-db18ce9a4dc88667d733
+  chapter_anchor: 汉纪/汉纪二十九#p191
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「而疏远欲进者并作符命，莽遂据以即真。」；claim_field=impact；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪二十九
+  historical_text_id: text-niutrans-88d4c7e38a1b36f48454
+  chapter_anchor: 汉纪/汉纪二十九#p352
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：资治通鉴源引文：「莽即真，尤备大臣，抑夺下权。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 其令安汉公居摄践祚，如周公故事，以武功县为安汉公采地；莽惶惧不能食，昼夜抱孺子告祷郊庙，放《大诰》作策，谕以摄位当反政孺子之意。
+impact_zh_cn: 「疏远欲进者并作符命，莽遂据以即真」；既即真，尤备大臣、抑夺下权——王莽由摄政至真皇帝，西汉以「禅让」形式易姓，开后世权臣代汉之先例。
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 居摄、即真与改制之地
+  review_note: ready43-c1：汉书·王莽传（居摄践祚、即真）

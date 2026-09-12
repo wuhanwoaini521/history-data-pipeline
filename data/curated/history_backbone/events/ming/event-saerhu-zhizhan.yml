@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《明史·杨镐传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·杨镐传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷一百四十七
   link_method: content
 - work: 明史
@@ -50,10 +49,114 @@ evidence:
   link_status: linked
   link_confidence: 1.0
   link_quality_status: reviewed
-  review_note: 《明史·列传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《明史·列传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 列传/卷一
   link_method: exact
-background_zh_cn: 天命四年（1619 年），明辽东经略杨镐督四路大军征伐后金，努尔哈赤采取"凭尔几路来，我只一路去"之策，在萨尔浒（今辽宁抚顺东）先后各个击破明军，明军主力受创，辽东攻守之势倒转，明朝自此转入辽事防御。
-result_zh_cn: 天命四年（1619 年），明辽东经略杨镐督四路大军征伐后金，努尔哈赤采取"凭尔几路来，我只一路去"之策，在萨尔浒（今辽宁抚顺东）先后各个击破明军，明军主力受创，辽东攻守之势倒转，明朝自此转入辽事防御。
-# promoted from data/candidates/batch05/event-saerhu-zhizhan.yml (AUTO_ACCEPT gate)
+- work: 明史
+  term: 神宗纪
+  historical_text_id: text-niutrans-262f1b2faec3b61675d1
+  chapter_anchor: 本纪/卷二十一#p279
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「夏四月甲辰，大清兵克抚顺城，千总王命印死之。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 神宗纪
+  historical_text_id: text-niutrans-0eb853d0dfae3b33e177
+  chapter_anchor: 本纪/卷二十一#p294
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「四十七年春二月乙丑，经略杨镐誓师于辽阳，总兵官李如柏、杜松、刘綎、马林分道出塞。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 刘綎传
+  historical_text_id: text-niutrans-8e95332d60fcd51b8994
+  chapter_anchor: 列传/卷一百三十五#p140
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「綎已深入三百里，杜松军覆犹不知。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 刘綎传
+  historical_text_id: text-niutrans-937557c06f1b0adaf6df
+  chapter_anchor: 列传/卷一百三十五#p144
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「未及陈，复为大清兵所乘，大溃，綎战死。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 刘綎传
+  historical_text_id: text-niutrans-09032a6daff4e4c2fcbb
+  chapter_anchor: 列传/卷一百三十五#p146
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「士卒脱者无几。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 刘綎传
+  historical_text_id: text-niutrans-4121be55c02021e6758b
+  chapter_anchor: 列传/卷一百三十五#p149
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c5：明史源引文：「应乾发火器，反击己营，大乱。」；claim_field=impact；anchor=段落精确锚。明鲜联军尽溃之状
+background_zh_cn: 夏四月甲辰，大清兵克抚顺城，千总王命印死之——辽东衅起，明廷议大举进剿。
+result_zh_cn: 杜松、马林先败，刘綎深入三百里犹不知；遇大清兵于阿布达里冈，殊死战而军溃，綎战死、士卒脱者无几，朝鲜军亦溃。
+process_zh_cn: 四十七年春二月乙丑，经略杨镐誓师于辽阳，总兵官李如柏、杜松、刘綎、马林分道出塞。
+impact_zh_cn: 萨尔浒一战明军四路丧师、精锐尽没——辽东攻守之势逆转，明清兴亡之局自此奠定。
+people:
+- person_name_raw: 杨镐
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 辽东经略：四路出师主帅
+  review_note: ready43-c5：明史·神宗纪「经略杨镐誓师于辽阳」
+  person_id: null
+- person_name_raw: 刘綎
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 总兵官：阿布达里冈战死
+  review_note: ready43-c5：明史·刘綎传「綎战死」
+  person_id: null
+- person_name_raw: 杜松
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 总兵官：先败，军覆
+  review_note: ready43-c5：明史·刘綎传「杜松军覆犹不知」
+  person_id: null
+places:
+- place_name_raw: 萨尔浒
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 决战之地（明军四路出师所向）
+  review_note: ready43-c5：明史·神宗纪「分道出塞」；刘綎传「遇大清兵」
+- place_name_raw: 辽阳
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 明军誓师之地
+  review_note: ready43-c5：明史·神宗纪「誓师于辽阳」

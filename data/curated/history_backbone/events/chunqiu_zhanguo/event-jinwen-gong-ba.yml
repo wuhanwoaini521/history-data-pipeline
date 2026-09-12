@@ -16,4 +16,99 @@ source_type: curated_reference
 source_reference: 古代史料：《左传·僖公二十三至二十八年》；现代参考：童书业《春秋史》（上海人民出版社）；张岂之主编《中国历史·先秦卷》；白寿彝总主编《中国通史》
 source_ids:
 - work-curated-zuozhuan
-relations: []
+relations:
+- target_event_id: event-qihuan-gong-ba
+  relation_type: follows
+  confidence: 0.7
+  description_zh_cn: 春秋霸主政治的先霸与继霸：齐桓公以尊王攘夷、会盟诸侯（葵丘之会）首创霸政模式，晋文公城濮胜楚后践土会盟接续主盟中原，为齐桓之后第二位公认霸主。
+- target_event_id: event-chengpu-zhizhan
+  relation_type: caused_by
+  confidence: 0.9
+  description_zh_cn: 城濮之战（前632）晋败楚直接确立晋文公霸业——同年五月践土之盟受天子策命，霸业由此而成。
+- target_event_id: event-chuzhuang-wang-ba
+  relation_type: precedes
+  confidence: 0.7
+  description_zh_cn: 晋文公霸业（前636—前628）先于楚庄王霸业（前613—前591），二者构成春秋晋楚争霸的前后两章。
+background_zh_cn: 楚围宋急，晋文公救宋而攻楚之与国：二十有八年（前632）春，晋侯侵曹、伐卫，假道于卫不获；楚人出兵救卫，晋楚两军相向。
+process_zh_cn: 三月丙午，晋侯入曹，执曹伯，畀宋人；夏四月己巳，晋侯、齐师、宋师、秦师及楚人战于城濮，楚师败绩。楚杀其大夫得臣，卫侯出奔楚。
+result_zh_cn: 五月癸丑，公会晋侯、齐侯、宋公、蔡侯、郑伯、卫子、莒子盟于践土，陈侯如会；晋文公率诸侯朝于王所——践土之盟确立晋国盟主之位，晋文公霸业告成。
+impact_zh_cn: 是年冬，公会晋侯、齐侯、宋公、蔡侯、郑伯、陈子、莒子、邾子、秦人于温——城濮胜后晋国以会盟号召诸侯的霸政体制持续运转，晋国自此长期为中原盟主。
+people:
+- person_name_raw: 晋文公
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 盟主：城濮败楚、践土主盟
+  review_note: overnight-08：左传·僖公二十八年 行6「晋侯…及楚人战于城濮，楚师败绩」、行9「盟于践土」
+  person_id: null
+- person_name_raw: 得臣
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 楚大夫（子玉），城濮败后为楚所杀
+  review_note: overnight-08：左传·僖公二十八年 行7「楚杀其大夫得臣」
+  person_id: null
+places:
+- place_name_raw: 城濮
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 晋楚决战之地
+  review_note: overnight-08：左传·僖公二十八年 行6「战于城濮，楚师败绩」
+- place_name_raw: 践土
+  role: assembly_site
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 晋文公会盟诸侯之地（作王宫于践土）
+  review_note: overnight-08：左传·僖公二十八年 行9「盟于践土」、行109「作王宫于践土」
+evidence:
+- work: 左传
+  term: 僖公二十八年
+  historical_text_id: text-niutrans-7f267098a31f915985d9
+  chapter_anchor: 僖公/僖公二十八年#p9
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/左传/僖公/僖公二十八年/source.txt:9）引文：「五月癸丑，公会晋侯、齐侯、宋公、蔡侯、郑伯、卫子、莒子，盟于践土。」；claim_field=result；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 左传
+  term: 僖公二十八年
+  historical_text_id: text-niutrans-02231e225d76da6b6db0
+  chapter_anchor: 僖公/僖公二十八年#p6
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/左传/僖公/僖公二十八年/source.txt:6）引文：「夏四月己巳，晋侯、齐师、宋师、秦师及楚人战于城濮，楚师败绩。」；claim_field=process；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 左传
+  term: 僖公二十八年
+  historical_text_id: text-niutrans-7c5bb5f0eecee02ef8ec
+  chapter_anchor: 僖公/僖公二十八年#p16
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/左传/僖公/僖公二十八年/source.txt:16）引文：「冬，公会晋侯、齐侯、宋公、蔡侯、郑伯、陈子、莒子、邾子、秦人于温。」；claim_field=impact；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）
+- work: 左传
+  term: 僖公二十八年
+  historical_text_id: text-niutrans-a582e6a3052715d103f7
+  chapter_anchor: 僖公/僖公二十八年#p1
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: overnight-08：source-grounded 提取（repository/双语数据/左传/僖公/僖公二十八年/source.txt:1）引文：「二十有八年春，晋侯侵曹。晋侯伐卫。」；claim_field=background；anchor=段落精确锚；知识层章节锚定（source_reference
+    normalizer；anchor=章首段）

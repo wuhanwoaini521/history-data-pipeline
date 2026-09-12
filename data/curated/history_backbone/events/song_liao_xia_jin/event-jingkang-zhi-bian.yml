@@ -38,8 +38,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《宋史·钦宗纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《宋史·钦宗纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷二十三
   link_method: content
 - work: 三朝北盟会编
@@ -51,8 +50,94 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 靖康二年（1127 年），金军掳宋徽宗、钦宗二帝及后妃宗室大臣北去，北宋灭亡；史称靖康之变（靖康之难）。
-result_zh_cn: 此前金已在开封册立伪楚（张邦昌），中原政权易主，宋朝宗室南迁。
-# promoted from data/candidates/batch04/event-jingkang-zhi-bian.yml (AUTO_ACCEPT gate)
+  review_note: 《三朝北盟会编·岳飞新传》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-9fbb8a153d1a1213db36
+  chapter_anchor: 本纪/卷二十三#p346
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「乙未，金人入青城，攻朝阳门。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-38eb9032b6d3b0f3c2be
+  chapter_anchor: 本纪/卷二十三#p379
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「秦元领保甲斩关遁，京城陷。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-9db07d5b6b66d6e5887b
+  chapter_anchor: 本纪/卷二十三#p425
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「乙酉，金人以括金未足，杀户部尚书梅执礼。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-8f6000535dacafef95ce
+  chapter_anchor: 本纪/卷二十三#p420
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「丁卯，金人要上皇如青城。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 钦宗纪
+  historical_text_id: text-niutrans-8c18b356a0f1f10a9292
+  chapter_anchor: 本纪/卷二十三#p426
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「三月辛卯朔，帝在青城。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 乙未，金人入青城、攻朝阳门；括借金银、籍倡优家财以充犒军——汴京在围城与索金中耗尽。
+result_zh_cn: 丁卯，金人要上皇如青城；次年三月，帝在青城——徽钦二帝相继被胁入金营。
+process_zh_cn: 秦元领保甲斩关遁，京城陷；金人以括金未足，杀户部尚书梅执礼、侍郎陈知质等。
+impact_zh_cn: 二帝北狩、京城倾覆——北宋灭亡；五月庚寅朔，康王赵构登坛受命、即位于应天府，宋室南渡（改元建炎）。
+people:
+- person_name_raw: 宋钦宗
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 北宋末帝：在青城被胁北狩
+  review_note: ready43-c3：宋史·钦宗纪「帝在青城」
+  person_id: null
+- person_name_raw: 宋徽宗
+  role: deposed_monarch
+  link_status: needs_linking
+  role_zh_cn: 上皇：被金人要如青城
+  review_note: ready43-c3：宋史·钦宗纪「金人要上皇如青城」
+  person_id: null
+places:
+- place_name_raw: 青城
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 汴京南郊斋宫，二帝被胁入金营处
+  review_note: ready43-c3：宋史·钦宗纪「金人要上皇如青城」
+- place_name_raw: 汴京
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 北宋都城：城陷、括金
+  review_note: ready43-c3：宋史·钦宗纪「京城陷」「括借金银」

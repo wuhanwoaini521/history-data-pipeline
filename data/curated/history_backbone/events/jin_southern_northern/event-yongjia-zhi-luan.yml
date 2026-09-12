@@ -11,8 +11,7 @@ period_id: period-western-jin
 regime_ids:
 - regime-han-zhao
 importance: critical
-summary_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。永嘉之乱（本事件为过程
-  aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
+summary_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。永嘉之乱（本事件为过程 aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《晋书·孝怀帝纪》《愍帝纪》；现代参考：王仲荦《魏晋南北朝史》（上海人民出版社）；田余庆《东晋门阀政治》（北京大学出版社）；周一良《魏晋南北朝史论集》；吕思勉《两晋南北朝史》；白寿彝总主编《中国通史》；张岂之主编《中国历史·隋唐辽宋金元卷》
@@ -39,21 +38,84 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《晋书·孝怀帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《晋书·孝怀帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 帝纪/第五章
   link_method: content
 - work: 晋书
   term: 愍帝纪
-  historical_text_id: null
+  historical_text_id: text-wikisource-12c7d07e70173ada95b9
   chapter_hint: 愍帝纪
   context_keywords: []
   evidence_role: supporting
-  link_status: needs_linking
+  link_status: linked
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《晋书·愍帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）（注：同书多章=单一独立来源，B8 显式标注）
-background_zh_cn: 永嘉五年至建兴四年（311—316年），汉赵军攻破洛阳（311年）、掳晋怀帝，其后又陷长安（316年）虏愍帝，西晋灭亡。
-result_zh_cn: 永嘉之乱（本事件为过程 aggregate）标志西晋统治在北方的彻底崩溃与"衣冠南渡"之始。
-# promoted from data/candidates/batch02/event-yongjia-zhi-luan.yml (AUTO_ACCEPT gate)
+  review_note: source-batch02：源入库后重定位（章节+内容双核实）。引文：「秋七月，刘曜攻北地……曜進至涇陽，渭北諸城悉潰。」；anchor=段落精确锚。
+  chapter_anchor: 帝纪/愍帝纪#p101
+  link_method: manual
+- work: 晋书
+  term: 第十九章
+  historical_text_id: text-niutrans-dd270692dbfa0ac96bb9
+  chapter_anchor: 第十九章#p711
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「怀帝永嘉元年三月，洛阳东北步广里地陷。」；claim_field=background；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-12c7d07e70173ada95b9
+  chapter_anchor: 帝纪/愍帝纪#p101
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「曜進至涇陽，渭北諸城悉潰。」；claim_field=process；anchor=段落精确锚。
+- work: 晋书
+  term: 愍帝纪
+  historical_text_id: text-wikisource-0c95405959e570458b53
+  chapter_anchor: 帝纪/愍帝纪#p102
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「八月，刘曜逼京師，內外斷絕。」；claim_field=result；anchor=段落精确锚。
+- work: 晋书
+  term: 第五章
+  historical_text_id: text-niutrans-80eed9095b9e09fb8efa
+  chapter_anchor: 第五章#p415
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：晋书源引文：「怀帝承乱得位，羁于强臣，愍帝奔播之后，徒厕其虚名，天下之政既去。」；claim_field=impact；anchor=段落精确锚。史论（本事件为 311–316 过程 aggregate）
+background_zh_cn: 怀帝永嘉元年三月，洛阳东北步广里地陷——史官载其异兆，天下已摇。
+result_zh_cn: 刘曜逼京师，内外断绝；公卿守长安小城自固——洛阳既陷（311），长安复成孤城（316），两京相继倾覆。
+process_zh_cn: 刘曜乘乱西进：攻北地、进至泾阳，渭北诸城悉溃；建威将军鲁充、散骑常侍梁纬等皆死之——永嘉乱后关中防线瓦解。
+impact_zh_cn: 史论晋室之亡：「怀帝承乱得位，羁于强臣，愍帝奔播之后，徒厕其虚名，天下之政既去」——衣冠南渡，北方沦入十六国。
+people:
+- person_name_raw: 晋怀帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 永嘉之乱时的皇帝：承乱得位、羁于强臣
+  review_note: source-batch02：晋书「怀帝承乱得位，羁于强臣」
+  person_id: null
+places:
+- place_name_raw: 洛阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 永嘉元年地陷异兆之地；永嘉五年陷落
+  review_note: source-batch02：晋书第十九章「怀帝永嘉元年三月，洛阳东北步广里地陷」

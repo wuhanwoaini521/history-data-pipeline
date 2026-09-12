@@ -28,7 +28,6 @@ relations:
   relation_type: leads_to
   confidence: 0.95
   description_zh_cn: 战败后签订南京条约。
-
 evidence:
 - work: 清实录
   term: 宣宗实录
@@ -50,6 +49,93 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   review_note: 《筹办夷务始末·道光朝》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 清史稿
+  term: 宣宗本纪二
+  historical_text_id: text-wikisource-d464bb7af5f4236f0076
+  chapter_anchor: 本纪/宣宗本纪二#p44
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「命盧坤等驅逐英吉利販鴉片躉船，勿任停泊。」；claim_field=background；anchor=段落精确锚。
+- work: 清史稿
+  term: 宣宗本纪三
+  historical_text_id: text-wikisource-421aba473b1da04d4475
+  chapter_anchor: 本纪/宣宗本纪三#p1
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「二十一年春正月己丑，英人寇廣东虎门，副將陳連陛及其子舉鵬死之。……命奕山为靖逆將軍。」；claim_field=process；anchor=段落精确锚。
+- work: 清史稿
+  term: 宣宗本纪三
+  historical_text_id: text-wikisource-eb1f2b1a2c40bbedab46
+  chapter_anchor: 本纪/宣宗本纪三#p21
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「秋七月甲寅，英船寇江寧省城。命伊里布等議款。……癸亥，耆英等請与英兵官定約，鈐御寶。」；claim_field=result；anchor=段落精确锚。
+- work: 清史稿
+  term: 宣宗本纪三
+  historical_text_id: text-wikisource-e7f45f82ff9959e2e480
+  chapter_anchor: 本纪/宣宗本纪三#p6
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：清史稿源（wikisource/20260912b）引文：「五月丙辰，英船入浙洋，命裕謙申嚴各海口兵備。癸亥，鄧廷楨、林則徐遣戍伊犁。」；claim_field=impact；anchor=段落精确锚。
 background_zh_cn: 道光二十年至二十二年（1840—1842 年），英国因对华鸦片贸易与通商问题发动战争，先后攻陷定海、吴淞等地，进逼南京；清军在广东（林则徐）与东南沿海多处抵抗失利，1842 年 8 月清廷接受英国条件，战争以《南京条约》签订结束。
 result_zh_cn: 道光二十年至二十二年（1840—1842 年），英国因对华鸦片贸易与通商问题发动战争，先后攻陷定海、吴淞等地，进逼南京；清军在广东（林则徐）与东南沿海多处抵抗失利，1842 年 8 月清廷接受英国条件，战争以《南京条约》签订结束。
-# promoted from data/candidates/batch06/event-diyici-yapian-zhanzheng.yml (AUTO_ACCEPT gate)
+process_zh_cn: 道光二十一年正月，英人寇广东虎门，副将陈连陞父子死之，虎门陷；清廷命奕山为靖逆将军督办广东海防，命讷尔经额驻天津督办海防。
+impact_zh_cn: 战争进程中林则徐、邓廷桢被遣戍伊犁，琦善逮问论斩——战后清廷将战败归咎主战与主和官员；道光二十二年七月英船寇江宁省城，耆英等与英方定约钤用御宝，是为江宁条约。
+people:
+- person_name_raw: 林则徐
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 钦差大臣/两广总督：禁烟主事者，战后遣戍伊犁
+  review_note: source-batch02：清史稿·宣宗本纪三「鄧廷楨、林則徐遣戍伊犁」
+  person_id: null
+- person_name_raw: 关天培
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 广东水师提督：虎门之战殉国
+  review_note: source-batch02：清史稿·宣宗本纪三「琦善以虎门陷，下部嚴議，褫提督关天培頂戴」
+  person_id: null
+- person_name_raw: 耆英
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 钦差大臣：办理江浙通商事宜、与英定约
+  review_note: source-batch02：清史稿·宣宗本纪三「命耆英为欽差大臣，辦理江浙通商事宜」
+  person_id: null
+places:
+- place_name_raw: 虎门
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 英军进攻之广东海口要塞
+  review_note: source-batch02：清史稿·宣宗本纪三「英人寇廣东虎门」
+- place_name_raw: 定海
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 浙江海口，战争中被英军占据
+  review_note: source-batch02：清史稿·宣宗本纪三「英人去定海」
+- place_name_raw: 江宁
+  role: city
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 江宁条约签订地（英船寇江宁省城后定约）
+  review_note: source-batch02：清史稿·宣宗本纪三「英船寇江寧省城。命伊里布等議款」

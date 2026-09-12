@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 北方势力南下后，荆州成为多方竞争的关键区域。
-result_zh_cn: 孙刘双方的合作基础形成。
+result_zh_cn: 琦病死，群下推先主为荆州牧，治公安——刘备取荆州南部为基业。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-30257
   person_name_raw: 曹操
@@ -56,20 +55,97 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 候选荆州记录的有效年代与208年冲突，QA 将其拒绝并保留 needs_linking。
+- place_name_raw: 襄阳
+  role: city
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 刘琮降曹、先主过境之地
+  review_note: ready43-c6：三国志·先主传「过襄阳，诸葛亮说先主攻琮」
+- place_name_raw: 公安
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 先主治所（荆州牧）
+  review_note: ready43-c6：三国志·先主传「治公安」
 evidence:
-- historical_text_id: text-niutrans-02385e447e12e9be29e7
+- historical_text_id: text-niutrans-3f854c1cebf25deaf613
   work: 三国志
   term: 荆州
   chapter_hint: null
   context_keywords: null
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.9
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：先主传荆州易主（208 局势变化核心）。引文：「曹公南征表，会表卒，子琮代立，遣使请降。」；anchor=段落精确锚。
   rejected_text_ids: []
+  chapter_anchor: 蜀书/先主传#p84
+  link_method: manual
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-3f854c1cebf25deaf613
+  chapter_anchor: 蜀书/先主传#p84
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「曹公南征表，会表卒，子琮代立，遣使请降。」；claim_field=background；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-d38c7a9e6f352dddbfb9
+  chapter_anchor: 蜀书/先主传#p86
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「过襄阳，诸葛亮说先主攻琮，荆州可有。」；claim_field=process；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-0058cd9602f4e850d94c
+  chapter_anchor: 蜀书/先主传#p102
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「琦病死，群下推先主为荆州牧，治公安。」；claim_field=result；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-1db653c6339964a14e0d
+  chapter_anchor: 蜀书/先主传#p140
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「二十年，孙权以先主已得益州，使使报欲得荆州。」；claim_field=impact；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-4b21c05dcebff86b6d45
+  chapter_anchor: 蜀书/先主传#p141
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「须得凉州，当以荆州相与。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-sun-liu-alliance
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 荆州局势变化推动孙刘军事合作。
+background_zh_cn: 曹公南征表，会表卒，子琮代立、遣使请降——刘表之死与荆州易帜，中原兵锋直指江汉。
+process_zh_cn: 过襄阳，诸葛亮说先主攻琮「荆州可有」；乃驻马呼琮，琮惧不能起。
+impact_zh_cn: 二十年，孙权以先主已得益州，使使报欲得荆州；先主言「须得凉州，当以荆州相与」——借荆州之争自此成为孙刘联盟的裂痕。

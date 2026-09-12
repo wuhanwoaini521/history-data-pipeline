@@ -13,8 +13,7 @@ summary_zh_cn: 叛军进入长安，唐廷核心政治空间失守。
 result_zh_cn: 唐玄宗西行，唐肃宗在灵武即位。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans
-  Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-19244
   person_name_raw: 李隆基（唐玄宗）
@@ -46,6 +45,12 @@ people:
   link_quality_status: reviewed
   link_confidence: 0.9
   review_note: legacy QA source-curated-semantic-v1 已确认 canonical identity
+- person_name_raw: 唐肃宗
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 太子李亨：长安失守后即位于灵武
+  review_note: major-batch01：唐纪三十四「是日，肃宗即位于灵武城南楼」
+  person_id: null
 places:
 - place_id: null
   place_name_raw: 长安
@@ -57,7 +62,7 @@ places:
   link_confidence: null
   review_note: 当前 Place 表未找到可安全复用的唐代长安记录。
 evidence:
-- historical_text_id: text-niutrans-21a46f4067526d0c8f5a
+- historical_text_id: text-niutrans-eb9af9eebf6d1cd71636
   work: 资治通鉴
   term: 长安
   chapter_hint: 唐纪
@@ -66,14 +71,67 @@ evidence:
   - 玄宗
   - 安禄山
   evidence_role: supporting
-  link_status: pending_knowledge
+  link_status: linked
   link_quality_status: reviewed
-  link_confidence: null
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建
+  link_confidence: 0.85
+  review_note: batch02-11：legacy 悬空锚重定位（章节+内容双核实）：通鉴唐纪三十四贼入长安（长安失守）。引文：「贼入长安方虏掠，未暇徇地，乘此速往就之，徐图大举，此上策也。」；anchor=段落精确锚。
   rejected_text_ids:
   - text-niutrans-001916ce996444297435
+  chapter_anchor: 唐纪/唐纪三十四#p204
+  link_method: manual
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-b7f8fdd603a6b981b8bf
+  chapter_anchor: 唐纪/唐纪三十四#p104
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「乙未，黎明，上独与贵妃姊妹、皇子、妃、主、皇孙、杨国忠、韦见素、魏方进、陈玄礼及亲近宦官、宫人出延秋门。」；claim_field=background；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-eb9af9eebf6d1cd71636
+  chapter_anchor: 唐纪/唐纪三十四#p204
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「贼入长安方虏掠，未暇徇地。」；claim_field=process；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-bd8c9eb00dd002fd7f76
+  chapter_anchor: 唐纪/唐纪三十四#p271
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「是日，肃宗即位于灵武城南楼，群臣舞蹈，上流涕歔欷。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 唐纪三十四
+  historical_text_id: text-niutrans-92f4254585a02712963b
+  chapter_anchor: 唐纪/唐纪三十四#p368
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major-batch01：source-grounded（资治通鉴/旧唐书）引文：「由是诸道始知上即位于灵武，徇国之心益坚矣。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-anlu-xuanzong-shu
   relation_type: follows
   confidence: 0.95
   description_zh_cn: 长安失守后唐玄宗入蜀。
+background_zh_cn: 乙未，黎明，上独与贵妃姊妹、皇子、妃、主、皇孙、杨国忠、韦见素、魏方进、陈玄礼及亲近宦官、宫人出延秋门——潼关失守后玄宗密行西出。
+process_zh_cn: 贼入长安方虏掠，未暇徇地——叛军进入长安后纵兵掠夺。
+impact_zh_cn: 由是诸道始知上即位于灵武，徇国之心益坚矣——长安失守与肃宗即位后，唐廷以灵武为中枢重聚号令。

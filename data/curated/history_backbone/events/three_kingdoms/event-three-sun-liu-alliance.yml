@@ -10,11 +10,10 @@ period_id: period-late-eastern-han
 regime_ids: []
 importance: major
 summary_zh_cn: 孙权与刘备集团在曹操南下压力下形成军事合作。
-result_zh_cn: 联军共同应对曹操集团南下。
+result_zh_cn: 瑜、普为左右督各领万人，与备俱进，遇于赤壁，大破曹公军——联盟取得决定性胜利。
 quality_status: reviewed
 source_type: curated_reference
-source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA
-  已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
+source_reference: 迁移自 legacy data/curated/stories.yml（source-curated-semantic-v1，QA 已确认）；原文证据回溯 HistoricalText/NiuTrans Classical-Modern
 people:
 - person_id: cbdb-person-135353
   person_name_raw: 刘备
@@ -56,6 +55,12 @@ places:
   link_quality_status: null
   link_confidence: null
   review_note: 暂未可靠匹配 Place。
+- place_name_raw: 当阳
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 刘备与鲁肃相遇定计之地
+  review_note: ready43-c6：三国志·周瑜传「与鲁肃遇於当阳，遂共图计」
 evidence:
 - historical_text_id: text-niutrans-d00d9ae6e547a92b4429
   work: 三国志
@@ -66,13 +71,63 @@ evidence:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.95
-  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本
-    checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: legacy QA source-curated-semantic-v1 已审核（legacy role=相关史料）；文本语料不在本 checkout，等待知识库重建；知识层章节锚定（source_reference normalizer；anchor=章首段）
   rejected_text_ids: []
   chapter_anchor: 吴书/吴主传
   link_method: content
+- work: 三国志
+  term: 周瑜传
+  historical_text_id: text-niutrans-dfd8344f90669a39a06b
+  chapter_anchor: 吴书/周瑜鲁肃吕蒙传#p52
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「时刘备为曹公所破，欲引南渡江，与鲁肃遇於当阳，遂共图计。」；claim_field=background；anchor=段落精确锚。
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-dd5ba835f14e46c0d920
+  chapter_anchor: 吴书/吴主传#p30
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「备进住夏口，使诸葛亮诣权，权遣周瑜、程普等行。」；claim_field=process；anchor=段落精确锚。
+- work: 三国志
+  term: 吴主传
+  historical_text_id: text-niutrans-bcffeeda47097881fac2
+  chapter_anchor: 吴书/吴主传#p32
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「瑜、普为左右督，各领万人，与备俱进，遇於赤壁，大破曹公军。」；claim_field=result；anchor=段落精确锚。
+- work: 三国志
+  term: 先主传
+  historical_text_id: text-niutrans-1db653c6339964a14e0d
+  chapter_anchor: 蜀书/先主传#p140
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c6：三国志源引文：「二十年，孙权以先主已得益州，使使报欲得荆州。」；claim_field=impact；anchor=段落精确锚。
 relations:
 - target_event_id: event-three-chibi
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 孙刘联盟直接进入赤壁战事。
+background_zh_cn: 刘备为曹公所破，欲引南渡江，与鲁肃遇于当阳，遂共图计、进住夏口——败军之际孙刘使者相遇，联盟之议起。
+process_zh_cn: 备使诸葛亮诣权，权遣周瑜、程普等行——江东决意出兵，联军成形。
+impact_zh_cn: 联盟之利与隙并生：先主得荆州立足，而孙权后以「欲得荆州」与先主相争——孙刘联盟自此在共抗曹操与荆州之争间摇摆。

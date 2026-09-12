@@ -22,3 +22,77 @@ relations:
   relation_type: precedes
   confidence: 0.4
   description_zh_cn: 正德朝藩王问题与武宗无嗣背景相关。
+
+background_zh_cn: 宁王宸濠谋逆既久（妃娄氏尝谏），正德十四年举兵反；七月甲辰，武宗自将讨宸濠，命安边伯朱泰为威武副将军率师为先锋。
+process_zh_cn: 丁巳，王守仁败宸濠于樵舍，擒之——自起兵至被擒仅四十余日。
+result_zh_cn: 十二月己丑，宸濠伏诛，宁王之乱平。
+impact_zh_cn: 王守仁以一闻宸濠变即仗义兴兵、戡定大难，特加封爵（新建伯）——此役使其事功与学说声望并起，有明一代文臣平乱之典范。
+people:
+- person_name_raw: 王守仁
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 南赣巡抚：兴兵讨宸濠、樵舍擒之，封新建伯
+  review_note: source-batch02：明史「守仁败宸濠于樵舍，擒之」「守仁一闻宸濠变，仗义兴兵，戡定大难」
+  person_id: null
+- person_name_raw: 朱宸濠
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 宁王：正德十四年举兵谋逆，被擒伏诛
+  review_note: source-batch02：明史·武宗本纪「宸濠伏诛」
+  person_id: null
+places:
+- place_name_raw: 樵舍
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 王守仁擒宸濠之地
+  review_note: source-batch02：明史「守仁败宸濠于樵舍，擒之」
+evidence:
+- work: 明史
+  term: 武宗本纪
+  historical_text_id: text-niutrans-ddd671219f6e30c30262
+  chapter_anchor: 本纪/卷十六#p302
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「秋七月甲辰，帝自将讨宸濠，安边伯朱泰为威武副将军。帅师为先锋。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 武宗本纪
+  historical_text_id: text-niutrans-f9b154e13fdcdc3c35bb
+  chapter_anchor: 本纪/卷十六#p305
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「丁巳，守仁败宸濠于樵舍，擒之。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 武宗本纪
+  historical_text_id: text-niutrans-64ec271e0334ffd7355b
+  chapter_anchor: 本纪/卷十六#p327
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「十二月己丑，宸濠伏诛。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 列传·王守仁传
+  historical_text_id: text-niutrans-9c19401ff7adadac767f
+  chapter_anchor: 列传/卷九十四#p113
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「守仁一闻宸濠变，仗义兴兵，戡定大难，特加封爵，以酬大功。」；claim_field=impact；anchor=段落精确锚。

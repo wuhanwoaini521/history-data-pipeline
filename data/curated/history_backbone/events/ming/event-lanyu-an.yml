@@ -22,3 +22,70 @@ relations:
   relation_type: follows
   confidence: 0.8
   description_zh_cn: 继胡惟庸案后的又一次大清洗。
+background_zh_cn: 蓝玉，定远人，开平王常遇春妇弟——明初悍将，捕鱼儿海破北元、受降纳哈出，功高爵至凉国公。
+process_zh_cn: 洪武二十六年案发，株连蔓引：会宁侯张温坐蓝玉党诛——「帝发怒，肃清逆党」。
+result_zh_cn: 词所连及坐诛者三万余人，明初武臣集团遭空前清洗。
+impact_zh_cn: 案后余波绵长，至太祖晚年犹「赦胡惟庸、蓝玉余党」——蓝玉案与胡惟庸案并称明初两大狱，开国功臣诛戮殆尽，中枢军权尽归皇室。
+people:
+- person_name_raw: 蓝玉
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 凉国公：明初名将，洪武二十六年以谋反诛
+  review_note: source-batch02：明史·蓝玉传「蓝玉，定远人」；本纪「坐蓝玉党诛」
+  person_id: null
+places:
+- place_name_raw: 定远
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 蓝玉乡里（凤阳府定远县）
+  review_note: source-batch02：明史·蓝玉传「蓝玉，定远人」
+evidence:
+- work: 明史
+  term: 蓝玉传
+  historical_text_id: text-niutrans-d6275902c97b24072699
+  chapter_anchor: 列传/卷二十#p118
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「蓝玉，定远人。开平王常遇春妇弟也。」；claim_field=background；anchor=段落精确锚。
+- work: 明史
+  term: 太祖本纪三
+  historical_text_id: text-niutrans-d69fb84d993e7890e076
+  chapter_anchor: 本纪/卷三#p281
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「壬戌，会宁侯张温坐蓝玉党诛。」；claim_field=process；anchor=段落精确锚。
+- work: 明史
+  term: 列传·奸臣等传
+  historical_text_id: text-niutrans-d88d51bf4926e114d014
+  chapter_anchor: 列传/卷一百九十六#p63
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「帝发怒，肃清逆党，词所连及坐诛者三万余人。」；claim_field=result；anchor=段落精确锚。
+- work: 明史
+  term: 太祖本纪三
+  historical_text_id: text-niutrans-c13fc60f11c491901900
+  chapter_anchor: 本纪/卷三#p291
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: source-batch02：明史源引文：「赦胡惟庸、蓝玉余党。」；claim_field=impact；anchor=段落精确锚。

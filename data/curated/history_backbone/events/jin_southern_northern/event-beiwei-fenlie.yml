@@ -43,8 +43,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《魏书·孝静纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《魏书·孝静纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 帝纪/卷十二
   link_method: content
 - work: 周书
@@ -56,10 +55,90 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《周书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《周书·文帝纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: content
-background_zh_cn: 永熙三年（534年）北魏孝武帝西奔长安（宇文泰），高欢立元善见为帝（东魏）、都邺；535年宇文泰立元宝炬为帝（西魏）、都长安。
-result_zh_cn: 北魏正式分裂为东魏与西魏两个并行政权，中国北方由此形成两强对峙，并分别过渡到北齐与北周。
-# promoted from data/candidates/batch03/event-beiwei-fenlie.yml (AUTO_ACCEPT gate)
+- work: 魏书
+  term: 孝静纪
+  historical_text_id: text-niutrans-8104444d51536af1f093
+  chapter_anchor: 帝纪/卷十二#p16
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：魏书源引文：「丙子，车驾北迁于鄴。」；claim_field=background；anchor=段落精确锚。
+- work: 周书
+  term: 文帝纪
+  historical_text_id: text-niutrans-4316466e7ce203a4219f
+  chapter_anchor: 本纪/卷一#p269
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：周书源引文：「初，魏帝在洛阳，许以冯翊长公主配太祖，未及结纳，而帝西迁。」；claim_field=process；anchor=段落精确锚。
+- work: 魏书
+  term: 孝静纪
+  historical_text_id: text-niutrans-d4f55f314ab62513592f
+  chapter_anchor: 帝纪/卷十二#p22
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：魏书源引文：「改相州刺史为司州牧，魏郡太守为魏尹……以魏郡、林虑、广平……等郡为皇畿。」；claim_field=result；anchor=段落精确锚。
+- work: 周书
+  term: 文帝纪
+  historical_text_id: text-niutrans-3d668c0dd86d8239bb59
+  chapter_anchor: 本纪/卷一#p278
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c4：周书源引文：「闰十二月，魏孝武帝崩。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 永熙三年，孝武帝为高欢所逼，车驾北迁于邺——高欢挟帝迁都，北魏中枢东移。
+result_zh_cn: 东魏部署次第完成：改相州刺史为司州牧、魏郡太守为魏尹，徙邺旧人西径百里以居新迁之人，分邺置临漳县，以魏郡等郡为皇畿。
+process_zh_cn: 魏帝在洛阳许以冯翊长公主配宇文泰，未及结纳而帝西迁——孝武帝西奔长安依宇文泰，东西对立之势成形。
+impact_zh_cn: 闰十二月，魏孝武帝崩（西魏立文帝）——北魏正式分裂为东魏（高欢）、西魏（宇文泰），此后各演为北齐、北周。
+people:
+- person_name_raw: 高欢
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 东魏权臣（齐献武王）：挟帝迁邺
+  review_note: ready43-c4：魏书·孝静纪「葬齐献武王于邺城西北」
+  person_id: null
+- person_name_raw: 宇文泰
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 西魏权臣：迎孝武帝西迁长安
+  review_note: ready43-c4：周书·文帝纪「帝西迁」
+  person_id: null
+- person_name_raw: 北魏孝武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 西奔长安，旋崩；北魏末帝
+  review_note: ready43-c4：周书·文帝纪「闰十二月，魏孝武帝崩」
+  person_id: null
+places:
+- place_name_raw: 邺
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 东魏都城（车驾北迁于此）
+  review_note: ready43-c4：魏书·孝静纪「车驾北迁于鄴」
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 西魏都城（孝武帝西迁所依）
+  review_note: ready43-c4：周书·文帝纪「帝西迁」

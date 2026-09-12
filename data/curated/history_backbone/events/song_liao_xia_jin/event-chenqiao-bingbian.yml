@@ -37,8 +37,7 @@ evidence:
   link_status: linked
   link_confidence: 0.95
   link_quality_status: reviewed
-  review_note: 《宋史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
+  review_note: 《宋史·太祖纪》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 本纪/卷一
   link_method: content
 - work: 续资治通鉴长编
@@ -50,8 +49,88 @@ evidence:
   link_status: needs_linking
   link_confidence: 0.9
   link_quality_status: reviewed
-  review_note: 《续资治通鉴长编·建隆元年》载本事件（transcribed from canonical source_reference）；historical_text
-    未锚定，保持 needs_linking（B5）
-background_zh_cn: 建隆元年正月（960 年），后周殿前都点检赵匡胤在陈桥驿发动兵变，回京代周称帝，改国号为宋，定都开封（东京），史称北宋。
-result_zh_cn: 五代十国局面结束，后周诸州军政多不战而降，北宋开启统一战争。
-# promoted from data/candidates/batch04/event-chenqiao-bingbian.yml (AUTO_ACCEPT gate)
+  review_note: 《续资治通鉴长编·建隆元年》载本事件（transcribed from canonical source_reference）；historical_text 未锚定，保持 needs_linking（B5）
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-d77239ac01d51edaffc5
+  chapter_anchor: 本纪/卷一#p58
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「次陈桥驿，军中知星者苗训引门吏楚昭辅视日下复有一日，黑光摩荡者久之。」；claim_field=background；anchor=段落精确锚。
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-d9073d6ee9be627e6b3f
+  chapter_anchor: 本纪/卷一#p61
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「诸校露刃列于庭，曰： 诸军无主，愿策太尉为天子。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-1fabbb9e7e3a41c89ac7
+  chapter_anchor: 本纪/卷一#p62
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「有以黄衣加太祖身，众皆罗拜，呼万岁。」；claim_field=process；anchor=段落精确锚。
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-c56e75915a91f4f418f9
+  chapter_anchor: 本纪/卷一#p72
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「陶谷出周恭帝禅位制书于袖中……即皇帝位。」；claim_field=result；anchor=段落精确锚。
+- work: 宋史
+  term: 太祖纪
+  historical_text_id: text-niutrans-79c4b77f6204a923d1fd
+  chapter_anchor: 本纪/卷一#p74
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c3：宋史源引文：「建隆元年春正月乙巳，大赦，改元，定有天下之号曰宋。」；claim_field=impact；anchor=段落精确锚。
+background_zh_cn: 大军次陈桥驿，军中知星者苗训引门吏视「日下复有一日，黑光摩荡者久之」——兵变前夜的天象造势。
+result_zh_cn: 翰林承旨陶谷出周恭帝禅位制书于袖中，宣徽使引太祖就庭北面拜受，乃掖太祖升崇元殿、服衮冕，即皇帝位。
+process_zh_cn: 诸校露刃列于庭，曰「诸军无主，愿策太尉为天子」；未及对，有以黄衣加太祖身，众皆罗拜、呼万岁，即掖太祖乘马。
+impact_zh_cn: 建隆元年春正月乙巳，大赦、改元，「定有天下之号曰宋」——兵不血刃而周宋易代，五代武人拥立之局以宋朝建立收束。
+people:
+- person_name_raw: 赵匡胤
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 殿前都点检→宋太祖：陈桥兵变、受禅建宋
+  review_note: ready43-c3：宋史·太祖纪「即皇帝位」「定有天下之号曰宋」
+  person_id: null
+- person_name_raw: 陶谷
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 翰林承旨：出周恭帝禅位制书
+  review_note: ready43-c3：宋史·太祖纪「陶谷出周恭帝禅位制书于袖中」
+  person_id: null
+places:
+- place_name_raw: 陈桥驿
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 兵变发生地（开封东北）
+  review_note: ready43-c3：宋史·太祖纪「次陈桥驿」

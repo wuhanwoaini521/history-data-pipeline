@@ -9,8 +9,7 @@ end_year: -221
 date_precision: range
 period_id: period-warring-states
 importance: critical
-summary_zh_cn: 秦王政自前230年灭韩起，历经十年，先后灭韩、赵、燕、魏、楚、齐，至前221年完成统一。秦灭六国结束战国数百年的兼并局面，是秦统一战争的总体进程（aggregate
-  event，各阶段灭国节点见其 part_of 子事件）。
+summary_zh_cn: 秦王政自前230年灭韩起，历经十年，先后灭韩、赵、燕、魏、楚、齐，至前221年完成统一。秦灭六国结束战国数百年的兼并局面，是秦统一战争的总体进程（aggregate event，各阶段灭国节点见其 part_of 子事件）。
 background_zh_cn: 秦王政自前230年灭韩起，历经十年，先后灭韩、赵、燕、魏、楚、齐，至前221年完成统一。
 result_zh_cn: 秦灭六国结束战国数百年的兼并局面，是秦统一战争的总体进程（aggregate event，各阶段灭国节点见其 part_of 子事件）。
 quality_status: reviewed
@@ -30,8 +29,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 1.0
-  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2
-    source=event-qin-mie-liuguo.yml]
+  review_note: V2.1 review：exact；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qin-mie-liuguo.yml]
 - person_id: cbdb-person-415288
   person_name_raw: 王翦
   role: commander
@@ -41,8 +39,7 @@ people:
   link_status: linked
   link_quality_status: reviewed
   link_confidence: 0.85
-  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator
-    [V2 source=event-qin-mie-liuguo.yml]
+  review_note: V2.1 review：high_confidence；reviewed_by=china-history-backbone-v2.1-curator [V2 source=event-qin-mie-liuguo.yml]
 relations:
 - target_event_id: event-changping-zhizhan
   relation_type: follows
@@ -75,7 +72,60 @@ evidence:
   review_note: 《资治通鉴·秦纪》；知识层章节锚定（source_reference normalizer；anchor=章首段）
   chapter_anchor: 秦纪/秦纪一
   link_method: exact
-# event-qin-mie-liuguo — calibration_batch01 enriched candidate (Producer)
-# background/result derived verbatim from canonical summary
-# evidence appointed to canonical source_reference or Researcher-verified classics
-# no fabricated locators, coordinates, text ids, or links
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-756aad0533841b929247
+  chapter_anchor: 十二本纪/秦始皇本纪#p132
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「异日韩王纳地效玺，请为籓臣，已而倍约，与赵、魏合从畔秦，故兴兵诛之，虏其王。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-d8677ddbe52e2f16f42c
+  chapter_anchor: 十二本纪/秦始皇本纪#p104
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「十九年，王翦、羌瘣尽定取赵地东阳，得赵王。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-ff06b0dbc4f3c9eac183
+  chapter_anchor: 十二本纪/秦始皇本纪#p139
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「齐王用后胜计，绝秦使，欲为乱，兵吏诛，虏其王，平齐地。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 秦始皇本纪
+  historical_text_id: text-niutrans-fe665881879c068407e2
+  chapter_anchor: 十二本纪/秦始皇本纪#p172
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: ready43-c1：史记源引文：「分天下以为三十六郡，郡置守、尉、监。」；claim_field=impact；anchor=段落精确锚。
+process_zh_cn: 秦王政之世次第灭六国：十七年韩王纳地效玺请为藩臣，已而倍约，秦兴兵诛之、虏其王；十九年王翦、羌瘣尽定取赵地东阳，得赵王；其后灭魏、灭楚，二十五年虏燕王；二十六年齐王用后胜计绝秦使，兵吏诛之、虏其王，平齐地。
+impact_zh_cn: 六王毕而四海一：秦初并天下，令丞相、御史议帝号，分天下以为三十六郡，郡置守、尉、监——封建诸侯之局终结，郡县帝国自此建立。
+places:
+- place_name_raw: 邯郸
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 赵都，王翦尽定赵地、得赵王
+  review_note: ready43-c1：史记·秦始皇本纪「王翦、羌瘣尽定取赵地东阳，得赵王」
