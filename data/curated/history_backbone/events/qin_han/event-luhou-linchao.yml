@@ -23,3 +23,77 @@ relations:
   relation_type: leads_to
   confidence: 0.8
   description_zh_cn: 吕后死后诸吕谋乱，随即被诛除
+
+background_zh_cn: 吕太后者，高祖微时妃也，生孝惠帝——惠帝仁弱，吕后以母后之尊渐预朝政。
+process_zh_cn: 孝惠崩，高后用事：听诸吕、擅废帝更立，又比杀三赵王，灭梁、赵、燕以王诸吕，分齐为四。
+result_zh_cn: 帝废位，太后幽杀之——少帝之立废皆出吕后之意，临朝称制之权至极。
+impact_zh_cn: 诸吕皆居中用事：「请拜吕台、吕产、吕禄为将，将兵居南北军」——吕氏外戚短暂取代刘氏掌军政，为汉初外戚政治之始。
+people:
+- person_name_raw: 吕后
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 皇太后：临朝称制、王诸吕
+  review_note: major01-C：史记·吕太后本纪「孝惠崩，高后用事」
+  person_id: null
+- person_name_raw: 吕产
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 吕氏：将兵居南军
+  review_note: major01-C：史记·吕太后本纪「拜吕台、吕产、吕禄为将，将兵居南北军」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 临朝称制、诸吕用事之地
+  review_note: major01-C：史记·吕太后本纪（高后用事）
+evidence:
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-7f4cdd9b173d7f46bec1
+  chapter_anchor: 十二本纪/吕太后本纪#p1
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「吕太后者，高祖微时妃也，生孝惠帝、女鲁元太后。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-802d0233c0a90633df39
+  chapter_anchor: 十二本纪/吕太后本纪#p171
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「孝惠崩，高后用事，春秋高，听诸吕，擅废帝更立……以王诸吕。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-8749aa353ed74b9380fa
+  chapter_anchor: 十二本纪/吕太后本纪#p102
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「帝废位，太后幽杀之。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-cf78d5b8847ba6085246
+  chapter_anchor: 十二本纪/吕太后本纪#p55
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「请拜吕台、吕产、吕禄为将，将兵居南北军……居中用事。」；claim_field=impact；anchor=段落精确锚。

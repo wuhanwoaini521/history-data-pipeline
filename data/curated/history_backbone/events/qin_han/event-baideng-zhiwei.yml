@@ -23,3 +23,83 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 白登之围后汉朝确立和亲战略
+
+background_zh_cn: 冒顿以兵至，大破灭东胡王，虏其民人畜产——匈奴极盛于漠北。
+process_zh_cn: 高帝先至平城，步兵未尽到，冒顿纵精兵四十万骑围高帝于白登，七日，汉兵中外不得相救饷。
+result_zh_cn: 高帝乃使使间厚遗阏氏，阏氏谓冒顿「两主不相困」；士皆持满傅矢外乡，从解角直出——汉军得脱。
+impact_zh_cn: 诸将论之曰「以高帝贤武，然尚困于平城」——白登之围使汉廷转为和亲守边，汉匈关系基调自此定下。
+people:
+- person_name_raw: 刘邦
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 汉高祖：被围白登七日
+  review_note: major01-C：史记·匈奴列传「围高帝於白登，七日」
+  person_id: null
+- person_name_raw: 冒顿单于
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 匈奴单于：纵精兵四十万骑围帝
+  review_note: major01-C：史记·匈奴列传「冒顿纵精兵四十万骑围高帝於白登」
+  person_id: null
+places:
+- place_name_raw: 白登
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 汉高帝被围之地（平城白登山）
+  review_note: major01-C：史记·匈奴列传「围高帝於白登」
+- place_name_raw: 平城
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 高帝先至之地
+  review_note: major01-C：史记·匈奴列传「高帝先至平城」
+evidence:
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-5b773bdf213fb63c3886
+  chapter_anchor: 七十列传/匈奴列传#p90
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「及冒顿以兵至，击，大破灭东胡王，而虏其民人及畜产。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-314fdedbd7225b0d629e
+  chapter_anchor: 七十列传/匈奴列传#p125
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「冒顿纵精兵四十万骑围高帝於白登，七日，汉兵中外不得相救饷。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-1b8c4921c3eb425fff87
+  chapter_anchor: 七十列传/匈奴列传#p127
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「高帝乃使使间厚遗阏氏，阏氏乃谓冒顿曰： 两主不相困。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-aadef7725a7312c52c1b
+  chapter_anchor: 七十列传/匈奴列传#p140
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「诸将曰： 以高帝贤武，然尚困於平城。」；claim_field=impact；anchor=段落精确锚。

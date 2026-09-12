@@ -22,3 +22,82 @@ relations:
 - target_event_id: event-mayi-zhi-mou
   relation_type: precedes
   description_zh_cn: 和亲政策持续至汉武帝马邑之谋
+background_zh_cn: 白登解围后，「汉亦引兵而罢，使刘敬结和亲之约」。
+process_zh_cn: 高帝乃使刘敬奉宗室女公主为单于阏氏，岁奉匈奴絮缯酒米食物各有数，约为昆弟以和亲。
+result_zh_cn: 和亲成为定制：「故约，汉常遣翁主，给缯絮食物有品，以和亲，而匈奴亦不扰边」。
+impact_zh_cn: 和亲之限亦显：军臣单于立四岁，匈奴复绝和亲、大入上郡云中——守边与和亲并行，为文景至武帝前汉匈关系基本形态。
+people:
+- person_name_raw: 刘敬
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 奉宗室女公主为单于阏氏、结和亲
+  review_note: major01-C：史记·匈奴列传「使刘敬奉宗室女公主为单于阏氏」
+  person_id: null
+places:
+- place_name_raw: 平城
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 白登之围发生地——和亲政策之缘起
+  review_note: major01-C：史记·匈奴列传「高帝先至平城」「使刘敬结和亲之约」
+evidence:
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-ab143175928f007f9dde
+  chapter_anchor: 七十列传/匈奴列传#p131
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「汉亦引兵而罢，使刘敬结和亲之约。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-be56dfc2d100cd2b42d0
+  chapter_anchor: 七十列传/匈奴列传#p136
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「高帝乃使刘敬奉宗室女公主为单于阏氏，岁奉匈奴絮缯酒米食物各有数，约为昆弟以和亲。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-03711a3c97fd1d34513a
+  chapter_anchor: 七十列传/匈奴列传#p356
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「故约，汉常遣翁主，给缯絮食物有品，以和亲，而匈奴亦不扰边。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-6dbb22f3904d37c6d2c3
+  chapter_anchor: 七十列传/匈奴列传#p232
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「军臣单于立四岁，匈奴复绝和亲，大入上郡、云中各三万骑。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-ab143175928f007f9dde
+  chapter_anchor: 七十列传/匈奴列传#p131
+  claim_field: places
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：平城解围后汉始结和亲之约；anchor=段落精确锚。

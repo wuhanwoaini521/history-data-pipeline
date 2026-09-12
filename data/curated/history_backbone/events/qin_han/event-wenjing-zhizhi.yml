@@ -22,3 +22,100 @@ relations:
 - target_event_id: event-chaocuo-xuefan
   relation_type: precedes
   description_zh_cn: 文景后期削藩问题浮出
+background_zh_cn: 孝惠、高后时天下初定，「量吏禄，度官用，以赋于民」——与民休息之政自汉初延续。
+process_zh_cn: 文帝亲耕籍田：「农，天下之本，其开籍田，朕亲率耕」；又论「农，天下之本，务莫大焉」——重农劝耕为文景施政之纲。
+result_zh_cn: 轻徭薄赋、务农先籍——「务农先籍，布德偃兵」，民生渐裕。
+impact_zh_cn: 「汉兴七十余年之间，国家无事，非遇水旱之灾，民则人给家足，都鄙廪庾皆满，而府库余货财」——文景之治的积累为汉武帝的作为与汉匈战争奠定国力。
+people:
+- person_name_raw: 汉文帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 重农亲耕、与民休息
+  review_note: major01-C：史记·孝文本纪「朕亲率耕」
+  person_id: null
+- person_name_raw: 汉景帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 继文帝之政（文景并称）
+  review_note: major01-C：史记·平准书「汉兴七十余年之间，国家无事」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 文景之治的施政中心
+  review_note: major01-C：史记·孝文本纪（籍田亲耕诏自汉廷颁发）
+evidence:
+- work: 史记
+  term: 平准书
+  historical_text_id: text-niutrans-8f33c0ab7063f55133ac
+  chapter_anchor: 八书/平准书#p5
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「孝惠、高后时，为天下初定，复弛商贾之律……量吏禄，度官用，以赋于民。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-b31ed65c53963e68a1d1
+  chapter_anchor: 十二本纪/孝文本纪#p140
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「农，天下之本，其开籍田，朕亲率耕。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-603f2e91c782907c28dc
+  chapter_anchor: 十二本纪/孝文本纪#p201
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「农，天下之本，务莫大焉。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 平准书
+  historical_text_id: text-niutrans-88b7ed1ffd6e61a487be
+  chapter_anchor: 八书/平准书#p16
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「汉兴七十余年之间，国家无事，非遇水旱之灾，民则人给家足，都鄙廪庾皆满，而府库余货财。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-c3da0b9d8656e0369920
+  chapter_anchor: 十二本纪/孝文本纪#p306
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「务农先籍，布德偃兵。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-b31ed65c53963e68a1d1
+  chapter_anchor: 十二本纪/孝文本纪#p140
+  claim_field: places
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 0.9
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：文景施政自汉廷（长安）颁行；anchor=段落精确锚。

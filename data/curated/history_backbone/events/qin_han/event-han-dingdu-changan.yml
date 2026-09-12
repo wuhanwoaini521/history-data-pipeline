@@ -20,3 +20,83 @@ relations:
 - target_event_id: event-chuhan-han-foundation
   relation_type: follows
   description_zh_cn: 汉朝建立后定都关中
+
+background_zh_cn: 高祖欲长都雒阳，齐人刘敬说，乃留侯劝上入都关中，高祖是日驾，入都关中。
+process_zh_cn: 长乐宫成，丞相已下徙治长安——宫室官署次第就绪。
+result_zh_cn: 高祖自布军至长安——都城长安的统治秩序既定。
+impact_zh_cn: 「关中阻山河四塞，地肥饶，可都以霸」——定都关中据形胜之地，长安自此为西汉二百年国都，亦为中国千年古都之首。
+people:
+- person_name_raw: 刘邦
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 汉高祖：决策入都关中
+  review_note: major01-C：史记·高祖本纪「高祖是日驾，入都关中」
+  person_id: null
+- person_name_raw: 娄敬
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 齐人（刘敬）：首劝说都关中
+  review_note: major01-C：史记·高祖本纪「齐人刘敬说」
+  person_id: null
+- person_name_raw: 张良
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 留侯：劝上入都关中
+  review_note: major01-C：史记·高祖本纪「乃留侯劝上入都关中」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 西汉国都
+  review_note: major01-C：史记·高祖本纪「徙治长安」
+evidence:
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-14ffbf5db98df1ed2428
+  chapter_anchor: 十二本纪/高祖本纪#p441
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「高祖欲长都雒阳，齐人刘敬说，乃留侯劝上入都关中，高祖是日驾，入都关中。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-957f2f9b3e40e71c161a
+  chapter_anchor: 十二本纪/高祖本纪#p483
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「长乐宫成，丞相已下徙治长安。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-cfb457fe726b5f2c03e7
+  chapter_anchor: 十二本纪/高祖本纪#p544
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「十一月，高祖自布军至长安。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 项羽本纪
+  historical_text_id: text-niutrans-1e9b41e2b6d12fd3cb30
+  chapter_anchor: 十二本纪/项羽本纪#p289
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「关中阻山河四塞，地肥饶，可都以霸。」；claim_field=impact；anchor=段落精确锚。

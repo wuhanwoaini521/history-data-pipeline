@@ -23,3 +23,83 @@ relations:
   relation_type: leads_to
   confidence: 0.9
   description_zh_cn: 诛诸吕后迎立代王刘恒为汉文帝
+
+background_zh_cn: 赵王禄、梁王产各将兵居南北军，皆吕氏之人——吕氏据军权，刘氏宗室人人自危。
+process_zh_cn: 太尉周勃驰入北军、报太尉；吕产欲入未央宫为乱而殿门弗得入，裴回往来——军权既夺，事遂定。
+result_zh_cn: 遂遣人分部悉捕诸吕男女，无少长皆斩之——诸吕覆灭。
+impact_zh_cn: 丞相陈平、太尉周勃等使人迎代王——诛诸吕之后迎立代王刘恒，是为汉文帝，汉家皇统转入新脉。
+people:
+- person_name_raw: 周勃
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 太尉：入北军、诛诸吕
+  review_note: major01-C：史记·吕太后本纪「驰入北军，报太尉」
+  person_id: null
+- person_name_raw: 陈平
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 丞相：与周勃谋夺吕氏军
+  review_note: major01-C：史记·孝文本纪「丞相陈平与太尉周勃谋夺吕产等军」
+  person_id: null
+places:
+- place_name_raw: 未央宫
+  role: location
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 吕产欲为乱而不得入之宫
+  review_note: major01-C：史记·吕太后本纪「乃入未央宫，欲为乱，殿门弗得入」
+- place_name_raw: 北军
+  role: location
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 吕禄所掌之军，周勃夺之
+  review_note: major01-C：史记·吕太后本纪「驰入北军」
+evidence:
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-4177ccb93b1bf68fe5f6
+  chapter_anchor: 十二本纪/吕太后本纪#p182
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「赵王禄、梁王产各将兵居南北军，皆吕氏之人。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-81d0ffdd59e98995a269
+  chapter_anchor: 十二本纪/吕太后本纪#p220
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「还，驰入北军，报太尉。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 吕太后本纪
+  historical_text_id: text-niutrans-f259ac49be96f07186a5
+  chapter_anchor: 十二本纪/吕太后本纪#p222
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「遂遣人分部悉捕诸吕男女，无少长皆斩之。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-1aa10ad627f5a2d0114c
+  chapter_anchor: 十二本纪/孝文本纪#p6
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「丞相陈平、太尉周勃等使人迎代王。」；claim_field=impact；anchor=段落精确锚。

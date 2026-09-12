@@ -23,3 +23,89 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 文帝即位后开启文景之治
+
+background_zh_cn: 丞相陈平、太尉周勃等使人迎代王——诛诸吕后，代王刘恒为宗室之长、众望所归。
+process_zh_cn: 代王报太后计之，犹与未定；群臣请「原大王即天子位」，代王西乡让者三、南乡让者再——再三推让而后受。
+result_zh_cn: 遂即天子位——刘恒即位，是为汉文帝。
+impact_zh_cn: 文帝即位之初即下「农，天下之本，其开籍田，朕亲率耕」之诏——恭俭亲耕，开文景之治。
+people:
+- person_name_raw: 汉文帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 代王刘恒：即位为汉文帝
+  review_note: major01-C：史记·孝文本纪「遂即天子位」
+  person_id: null
+- person_name_raw: 周勃
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 太尉：迎立代王
+  review_note: major01-C：史记·孝文本纪「使人迎代王」
+  person_id: null
+places:
+- place_name_raw: 代
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 代王封国，即位前之藩
+  review_note: major01-C：史记·孝文本纪（代王迎立）
+evidence:
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-1aa10ad627f5a2d0114c
+  chapter_anchor: 十二本纪/孝文本纪#p6
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「丞相陈平、太尉周勃等使人迎代王。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-372bf81cb40e23305978
+  chapter_anchor: 十二本纪/孝文本纪#p20
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「代王报太后计之，犹与未定。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-6de69e937b78ae6216ff
+  chapter_anchor: 十二本纪/孝文本纪#p48
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「代王西乡让者三，南乡让者再。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-52f1d2e1108df82f543c
+  chapter_anchor: 十二本纪/孝文本纪#p54
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「遂即天子位。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 孝文本纪
+  historical_text_id: text-niutrans-b31ed65c53963e68a1d1
+  chapter_anchor: 十二本纪/孝文本纪#p140
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「农，天下之本，其开籍田，朕亲率耕，以给宗庙粢盛。」；claim_field=impact；anchor=段落精确锚。

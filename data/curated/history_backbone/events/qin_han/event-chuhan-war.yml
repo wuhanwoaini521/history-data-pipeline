@@ -10,8 +10,7 @@ date_precision: range
 period_id: period-western-han
 regime_ids: []
 importance: major
-summary_zh_cn: 楚汉战争指前206年至前202年项羽楚政权与刘邦汉政权争夺天下的战争过程：自鸿门宴后的政治对抗、彭城之战、荥阳对峙至垓下决战，刘邦最终获胜。本事件为 aggregate，子事件（鸿门宴/彭城之战/荥阳对峙/垓下之战）通过
-  part_of 关联；各子事件沿用已审核的楚汉 Story Event，不重复建档。
+summary_zh_cn: 楚汉战争指前206年至前202年项羽楚政权与刘邦汉政权争夺天下的战争过程：自鸿门宴后的政治对抗、彭城之战、荥阳对峙至垓下决战，刘邦最终获胜。本事件为 aggregate，子事件（鸿门宴/彭城之战/荥阳对峙/垓下之战）通过 part_of 关联；各子事件沿用已审核的楚汉 Story Event，不重复建档。
 quality_status: reviewed
 source_type: curated_reference
 source_reference: 古代史料：《史记·项羽本纪》《高祖本纪》；现代参考：林剑鸣《秦史稿》（上海人民出版社）；翦伯赞《秦汉史》（北京大学出版社）；张岂之主编《中国历史·秦汉魏晋南北朝卷》；白寿彝总主编《中国通史》
@@ -25,3 +24,108 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 楚汉战争以刘邦建立汉朝告终
+- target_event_id: event-hongmen
+  relation_type: follows
+  confidence: 0.9
+  description_zh_cn: 鸿门之后项羽分封、刘邦就国，楚汉相争全面开启。
+- target_event_id: event-chuhan-han-foundation
+  relation_type: precedes
+  confidence: 0.9
+  description_zh_cn: 战争以垓下决战收束，紧接汉朝建立。
+background_zh_cn: 正月，项羽自立为西楚霸王，王梁、楚地九郡，都彭城；又负约更立沛公为汉王，王巴、蜀、汉中，都南郑——分封失当，楚汉对立之局遂成。
+process_zh_cn: 楚汉久相持未决，丁壮苦军旅、老弱罢转饷——成皋、荥阳一线数年拉锯。
+result_zh_cn: 韩信、彭越诸军会垓下，孔将军、费将军纵，楚兵不利，淮阴侯复乘之，大败垓下——项羽败亡、战争终结。
+impact_zh_cn: 二月甲午，汉王即皇帝位于汜水之阳——楚汉战争以刘邦建立汉朝告终，四百年汉室基业由此始。
+people:
+- person_name_raw: 刘邦
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 汉王：战争胜利者、汉朝开国
+  review_note: major01-C：史记·高祖本纪「更立沛公为汉王」
+  person_id: null
+- person_name_raw: 项羽
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 西楚霸王：战争败亡者
+  review_note: major01-C：史记·高祖本纪「项羽自立为西楚霸王」
+  person_id: null
+places:
+- place_name_raw: 彭城
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 西楚都城
+  review_note: major01-C：史记·高祖本纪「都彭城」
+- place_name_raw: 南郑
+  role: capital
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 汉王初都
+  review_note: major01-C：史记·高祖本纪「都南郑」
+- place_name_raw: 垓下
+  role: battlesite
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 决战之地
+  review_note: major01-C：史记·高祖本纪「大败垓下」
+evidence:
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-1b8859a448eb1b8fb376
+  chapter_anchor: 十二本纪/高祖本纪#p229
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「正月，项羽自立为西楚霸王，王梁、楚地九郡，都彭城。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-1fe93f3e3b2285c333f8
+  chapter_anchor: 十二本纪/高祖本纪#p230
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「负约，更立沛公为汉王，王巴、蜀、汉中，都南郑。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-383a4cfb1b9ee96dcd2b
+  chapter_anchor: 十二本纪/高祖本纪#p367
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「楚汉久相持未决，丁壮苦军旅，老弱罢转饟。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 高祖本纪
+  historical_text_id: text-niutrans-8737c6c9a14e680f8430
+  chapter_anchor: 十二本纪/高祖本纪#p405
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：史记源引文：「孔将军、费将军纵，楚兵不利，淮阴侯复乘之，大败垓下。」；claim_field=result；anchor=段落精确锚。
+- work: 资治通鉴
+  term: 汉纪三
+  historical_text_id: text-niutrans-a158f087083c592fb21e
+  chapter_anchor: 汉纪/汉纪三#p71
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-C：资治通鉴源引文：「二月甲午，王即皇帝位于汜水之阳。」；claim_field=impact；anchor=段落精确锚。
