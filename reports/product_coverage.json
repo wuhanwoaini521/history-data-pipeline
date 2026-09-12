@@ -15,14 +15,14 @@
     "complete": 90.0
   },
   "total_events": 618,
-  "complete_events": 128,
-  "complete_pct": 20.7,
-  "mean_score": 41.0,
+  "complete_events": 137,
+  "complete_pct": 22.2,
+  "mean_score": 42.2,
   "by_importance": {
     "major": {
       "count": 555,
-      "complete": 67,
-      "mean": 34.6
+      "complete": 76,
+      "mean": 35.9
     },
     "critical": {
       "count": 62,
@@ -38,13 +38,13 @@
   "by_dimension": {
     "people": {
       "label": "人物",
-      "count": 285,
-      "pct": 46.1
+      "count": 294,
+      "pct": 47.6
     },
     "place": {
       "label": "地点",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     },
     "source": {
       "label": "来源",
@@ -53,8 +53,8 @@
     },
     "evidence": {
       "label": "证据",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     },
     "related_event": {
       "label": "关联事件",
@@ -63,23 +63,23 @@
     },
     "background": {
       "label": "背景",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     },
     "process": {
       "label": "过程",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     },
     "result": {
       "label": "结果",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     },
     "impact": {
       "label": "影响",
-      "count": 128,
-      "pct": 20.7
+      "count": 137,
+      "pct": 22.2
     }
   },
   "by_period": [
@@ -187,13 +187,13 @@
       "start_year": -206,
       "end_year": 8,
       "events": 45,
-      "people_pct": 55.6,
-      "place_pct": 44.4,
-      "evidence_pct": 44.4,
+      "people_pct": 75.6,
+      "place_pct": 64.4,
+      "evidence_pct": 64.4,
       "relation_pct": 100.0,
       "source_pct": 100.0,
-      "complete_pct": 44.4,
-      "mean_score": 58.0
+      "complete_pct": 64.4,
+      "mean_score": 73.6
     },
     {
       "period_id": "period-xin",

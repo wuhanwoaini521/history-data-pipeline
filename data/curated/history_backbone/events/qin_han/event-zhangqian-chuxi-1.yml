@@ -20,3 +20,107 @@ relations:
 - target_event_id: event-hanwudi-jiwei
   relation_type: follows
   description_zh_cn: 武帝对外战略的组成部分
+
+background_zh_cn: 「始月氏居敦煌、祁连间，及为匈奴所败，乃远去」——月氏与匈奴世仇，汉欲联之。
+process_zh_cn: 「道必更匈奴中，乃募能使者」；骞以郎应募，使月氏，与堂邑氏胡奴甘父俱出陇西，经匈奴被执，留十余岁而后得脱。
+result_zh_cn: 大宛以为然，遣骞，为发导绎，抵康居，康居传致大月氏——张骞身所至者大宛、大月氏、大夏、康居，具为天子言之。
+impact_zh_cn: 「然张骞凿空，其后使往者皆称博望侯，以为质于外国，外国由此信之」——凿空西域，丝绸之路由此开启。
+people:
+- person_name_raw: 张骞
+  role: envoy
+  link_status: needs_linking
+  role_zh_cn: 郎官→博望侯：首使月氏、凿空西域
+  review_note: major01-D：史记·大宛列传「骞以郎应募，使月氏」
+  person_id: null
+places:
+- place_name_raw: 月氏
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 出使目的地（大月氏）
+  review_note: major01-D：史记·大宛列传「及为匈奴所败，乃远去」
+- place_name_raw: 陇西
+  role: frontier
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 出使之起点
+  review_note: major01-D：史记·大宛列传「俱出陇西」
+- place_name_raw: 大宛
+  role: region
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 中途所至之国，遣骞至康居
+  review_note: major01-D：史记·大宛列传「大宛以为然，遣骞」
+evidence:
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-f786e649b2ba8cea9a9d
+  chapter_anchor: 七十列传/大宛列传#p52
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「始月氏居敦煌、祁连间，及为匈奴所败，乃远去，过宛，西击大夏而臣之。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-2f2c621bdf6c78bc36d4
+  chapter_anchor: 七十列传/大宛列传#p5
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「道必更匈奴中，乃募能使者。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-bfe1c2ae7caa0c8b6015
+  chapter_anchor: 七十列传/大宛列传#p6
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「骞以郎应募，使月氏，与堂邑氏胡奴甘父俱出陇西。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-62a69f21f7f7a15b448b
+  chapter_anchor: 七十列传/大宛列传#p25
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「骞身所至者大宛、大月氏、大夏、康居，而传闻其旁大国五六，具为天子言之。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-33bd5884e42ed9c25b42
+  chapter_anchor: 七十列传/大宛列传#p15
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「大宛以为然，遣骞，为发导绎，抵康居，康居传致大月氏。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 大宛列传
+  historical_text_id: text-niutrans-aa71e55a5553f0b881a2
+  chapter_anchor: 七十列传/大宛列传#p133
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「然张骞凿空，其后使往者皆称博望侯，以为质於外国，外国由此信之。」；claim_field=impact；anchor=段落精确锚。

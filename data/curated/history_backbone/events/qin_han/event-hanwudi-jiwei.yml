@@ -19,3 +19,59 @@ source_ids:
 relations:
 - target_event_id: event-qiguo-zhi-luan
   relation_type: follows
+
+background_zh_cn: 景帝崩，太子彻即位；建元元年冬十月即诏丞相、御史、列侯等「举贤良方正直言极谏之士」——新政自求贤始。
+process_zh_cn: 甲子，太子即皇帝位，尊皇太后窦氏曰太皇太后、皇后曰皇太后。
+result_zh_cn: 建元元年诏举贤良方正直言极谏之士——武帝初政即开求言之路。
+impact_zh_cn: 「及今上即位，赵绾、王臧之属明儒学，而上亦乡之，于是招方正贤良文学之士」——儒术之士由此进入汉廷，一个新时代开启。
+people:
+- person_name_raw: 汉武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 太子刘彻：即皇帝位
+  review_note: major01-D：汉书·武帝纪「甲子，太子即皇帝位」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 武帝即位与初政所在
+  review_note: major01-D：汉书·武帝纪（建元元年诏）
+evidence:
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-90b9bc33119be6d6e475
+  chapter_anchor: 纪/武帝纪#p6
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：汉书源引文：「建元元年冬十月，诏丞相、御史、列侯……举贤良方正直言极谏之士。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-594510be964b40c886d9
+  chapter_anchor: 纪/武帝纪#p4
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：汉书源引文：「甲子，太子即皇帝位，尊皇太后窦氏曰太皇太后，皇后曰皇太后。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 儒林列传
+  historical_text_id: text-niutrans-b1be8ba5074e23731557
+  chapter_anchor: 七十列传/儒林列传#p27
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「及今上即位，赵绾、王臧之属明儒学，而上亦乡之，於是招方正贤良文学之士。」；claim_field=impact；anchor=段落精确锚。

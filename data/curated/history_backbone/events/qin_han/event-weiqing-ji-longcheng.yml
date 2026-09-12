@@ -23,3 +23,77 @@ relations:
   description_zh_cn: 汉匈战争中的早期反击
 - target_event_id: event-mayi-zhi-mou
   relation_type: follows
+
+background_zh_cn: 元光五年，青为车骑将军击匈奴、出上谷；公孙贺出云中、公孙敖出代郡、李广出雁门——军各万骑，四路并出。
+process_zh_cn: 青至茏城，斩首虏数百——汉军直捣匈奴祭天圣地。
+result_zh_cn: 其秋，青复为车骑将军出雁门，三万骑击匈奴，斩首虏数千人——连战有功。
+impact_zh_cn: 四将军出塞为汉对匈奴首次大规模主动出击；卫青以龙城首功崭露头角，汉军新一代将领由此登上战局。
+people:
+- person_name_raw: 卫青
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 车骑将军：首战龙城
+  review_note: major01-D：史记·卫将军骠骑列传「青至茏城，斩首虏数百」
+  person_id: null
+places:
+- place_name_raw: 茏城
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 匈奴祭天处，卫青首战所向
+  review_note: major01-D：史记·卫将军骠骑列传「青至茏城」
+- place_name_raw: 上谷
+  role: frontier
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 卫青出塞之地
+  review_note: major01-D：史记·卫将军骠骑列传「击匈奴，出上谷」
+evidence:
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-2df90b1b63672322cebd
+  chapter_anchor: 七十列传/卫将军骠骑列传#p24
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「元光五年，青为车骑将军，击匈奴，出上谷……军各万骑。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-138a493436ee48f18240
+  chapter_anchor: 七十列传/卫将军骠骑列传#p25
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「青至茏城，斩首虏数百。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-c706e5c1b4d94b660522
+  chapter_anchor: 七十列传/卫将军骠骑列传#p29
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「其秋，青为车骑将军，出雁门，三万骑击匈奴，斩首虏数千人。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-2df90b1b63672322cebd
+  chapter_anchor: 七十列传/卫将军骠骑列传#p24
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「军各万骑。」；claim_field=impact；anchor=段落精确锚。四路出击之格局，卫青自此为汉军主将

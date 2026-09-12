@@ -23,3 +23,83 @@ relations:
   description_zh_cn: 汉匈战争的重要战役
 - target_event_id: event-weiqing-ji-longcheng
   relation_type: follows
+
+background_zh_cn: 其三年五月，匈奴右贤王入居河南地，侵盗上郡葆塞蛮夷、杀略人民——河套之患再起。
+process_zh_cn: 车骑将军卫青度西河至高阙，获首虏二千三百级，「遂西定河南地，按榆溪旧塞，绝梓领，梁北河……全甲兵而还，益封青三千户」。
+result_zh_cn: 使苏建筑朔方城——河套既复，筑朔方以为北边重镇。
+impact_zh_cn: 「匈奴右贤王怨汉夺之河南地而筑朔方，数为寇，盗边」——河南之战开汉匈河套拉锯，朔方郡成为此后汉军北出的基地。
+people:
+- person_name_raw: 卫青
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 车骑将军：西定河南地
+  review_note: major01-D：史记·卫将军骠骑列传「遂西定河南地」
+  person_id: null
+- person_name_raw: 苏建
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 校尉→平陵侯：建筑朔方城
+  review_note: major01-D：史记·卫将军骠骑列传「使建筑朔方城」
+  person_id: null
+places:
+- place_name_raw: 河南地
+  role: region
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 河套地区：卫青所复
+  review_note: major01-D：史记·卫将军骠骑列传「遂西定河南地」
+- place_name_raw: 朔方
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 筑城置郡，北边重镇
+  review_note: major01-D：史记·卫将军骠骑列传「使建筑朔方城」
+evidence:
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-6f29b7ed588ce7a8e437
+  chapter_anchor: 七十列传/匈奴列传#p143
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「其三年五月，匈奴右贤王入居河南地，侵盗上郡葆塞蛮夷。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-7941dd34fd8468eae6a4
+  chapter_anchor: 七十列传/卫将军骠骑列传#p38
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「遂西定河南地，按榆谿旧塞……全甲兵而还，益封青三千户。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 卫将军骠骑列传
+  historical_text_id: text-niutrans-b367a327fad06293488f
+  chapter_anchor: 七十列传/卫将军骠骑列传#p34
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「使建筑朔方城。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-f8ddbfdc6687fb1073a0
+  chapter_anchor: 七十列传/匈奴列传#p280
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「匈奴右贤王怨汉夺之河南地而筑朔方，数为寇，盗边。」；claim_field=impact；anchor=段落精确锚。

@@ -23,3 +23,83 @@ relations:
   description_zh_cn: 汉匈战争的关键战役
 - target_event_id: event-henan-zhizhan
   relation_type: follows
+
+background_zh_cn: 其明年春，汉使骠骑将军霍去病将万骑出陇西，过焉支山千余里击匈奴，得胡首虏万八千余级，破得休屠王祭天金人。
+process_zh_cn: 其夏，骠骑将军复与合骑侯数万骑出陇西、北地二千里，击匈奴——纵深奔袭。
+result_zh_cn: 浑邪王杀休屠王，并将其众降汉——河西匈奴主力归降。
+impact_zh_cn: 河西既下，匈奴右臂既断，汉通西域之走廊开辟；「金城、河西并南山至盐泽空无匈奴」之局自此成。
+people:
+- person_name_raw: 霍去病
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 骠骑将军：两出陇西、破休屠王
+  review_note: major01-D：史记·匈奴列传「骠骑将军去病将万骑出陇西」
+  person_id: null
+- person_name_raw: 浑邪王
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 匈奴王：杀休屠王、将其众降汉
+  review_note: major01-D：史记·匈奴列传「浑邪王杀休屠王，并将其众降汉」
+  person_id: null
+places:
+- place_name_raw: 陇西
+  role: frontier
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 霍去病出塞之地
+  review_note: major01-D：史记·匈奴列传「出陇西」
+- place_name_raw: 焉支山
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 霍去病过山千里击匈奴处
+  review_note: major01-D：史记·匈奴列传「过焉支山千馀里」
+evidence:
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-2b69f13ad22e409e76ff
+  chapter_anchor: 七十列传/匈奴列传#p293
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「其明年春，汉使骠骑将军去病将万骑出陇西，过焉支山千馀里，击匈奴，得胡首虏万八千馀级，破得休屠王祭天金人。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-77ab4a4c6102062ce235
+  chapter_anchor: 七十列传/匈奴列传#p294
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「其夏，骠骑将军复与合骑侯数万骑出陇西、北地二千里，击匈奴。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-4e5f72954224d970050c
+  chapter_anchor: 七十列传/匈奴列传#p303
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「浑邪王杀休屠王，并将其众降汉。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-4e5f72954224d970050c
+  chapter_anchor: 七十列传/匈奴列传#p303
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「并将其众降汉。」；claim_field=impact；anchor=段落精确锚。河西走廊入汉，通西域之路自此开

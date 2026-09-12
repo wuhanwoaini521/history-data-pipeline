@@ -20,3 +20,88 @@ relations:
 - target_event_id: event-hanwudi-jiwei
   relation_type: follows
   description_zh_cn: 武帝初年儒学官学化的制度措施
+background_zh_cn: 「及今上即位，赵绾、王臧之属明儒学，而上亦乡之，于是招方正贤良文学之士」——尊儒之政次第推行。
+process_zh_cn: 置《五经》博士——以五经立学官。
+result_zh_cn: 为博士官置弟子员：「郡国县道邑有好文学，敬长上……二千石谨察可者，当与计偕，诣太常，得受业如弟子」。
+impact_zh_cn: 「一岁皆辄试，能通一艺以上，补文学掌故缺」——通经入仕之途开启，儒术与利禄结合，五经之学遂为国家教育正轨。
+people:
+- person_name_raw: 汉武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 置五经博士之君
+  review_note: major01-D：汉书·武帝纪「置《五经》博士」
+  person_id: null
+- person_name_raw: 公孙弘
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 儒者丞相：为博士置弟子员之推动者
+  review_note: major01-D：史记·儒林列传（公孙弘请为博士置弟子员）
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 太常与博士官所在，受业弟子诣之
+  review_note: major01-D：史记·儒林列传「诣太常，得受业如弟子」
+evidence:
+- work: 史记
+  term: 儒林列传
+  historical_text_id: text-niutrans-b1be8ba5074e23731557
+  chapter_anchor: 七十列传/儒林列传#p27
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「及今上即位，赵绾、王臧之属明儒学，而上亦乡之。」；claim_field=background；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-7c989dc26d0e5a0244c1
+  chapter_anchor: 纪/武帝纪#p34
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：汉书源引文：「置《五经》博士。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 儒林列传
+  historical_text_id: text-niutrans-b3753f537d881be45a0b
+  chapter_anchor: 七十列传/儒林列传#p47
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「二千石謹察可者，当与计偕，诣太常，得受业如弟子。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 儒林列传
+  historical_text_id: text-niutrans-d6295328ae2de33fdf39
+  chapter_anchor: 七十列传/儒林列传#p48
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「一岁皆辄试，能通一艺以上，补文学掌故缺。」；claim_field=impact；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-7c989dc26d0e5a0244c1
+  chapter_anchor: 纪/武帝纪#p34
+  claim_field: people
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：置五经博士为武帝之政；anchor=段落精确锚。

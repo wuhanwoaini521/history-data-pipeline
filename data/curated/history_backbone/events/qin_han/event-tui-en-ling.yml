@@ -20,3 +20,77 @@ relations:
 - target_event_id: event-hanwudi-jiwei
   relation_type: follows
   description_zh_cn: 武帝集权措施之一
+
+background_zh_cn: 主父偃以上书得幸，拜为郎中；其「尊立卫皇后，及发燕王定国阴事，盖偃有功焉」——渐为武帝倚重。
+process_zh_cn: 偃说上曰：「原陛下令诸侯得推恩分子弟，以地侯之」——以推恩之策析藩。
+result_zh_cn: 春正月，诏曰：「梁王、城阳王亲慈同生，愿以邑分弟，其许之，诸侯王请与子弟邑者，朕将亲览，使有列位焉」——推恩之诏颁行天下。
+impact_zh_cn: 推恩之策使诸侯王地自分而愈小、藩国自析——汉廷不削一城而藩国之患渐消，中央集权于制度内完成。
+people:
+- person_name_raw: 主父偃
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 郎中：推恩令之献策者
+  review_note: major01-D：史记·平津侯主父列传「原陛下令诸侯得推恩分子弟」
+  person_id: null
+- person_name_raw: 汉武帝
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 纳推恩策、颁诏天下
+  review_note: major01-D：汉书·武帝纪「诸侯王请与子弟邑者，朕将亲览」
+  person_id: null
+places:
+- place_name_raw: 长安
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 推恩之议与诏书所出
+  review_note: major01-D：汉书·武帝纪（推恩诏）
+evidence:
+- work: 史记
+  term: 平津侯主父列传
+  historical_text_id: text-niutrans-38702cb5427fb7ccbc43
+  chapter_anchor: 七十列传/平津侯主父列传#p183
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「於是上乃拜主父偃、徐乐、严安为郎中。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 平津侯主父列传
+  historical_text_id: text-niutrans-5920094361f8e814ae55
+  chapter_anchor: 七十列传/平津侯主父列传#p189
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「原陛下令诸侯得推恩分子弟，以地侯之。」；claim_field=process；anchor=段落精确锚。
+- work: 汉书
+  term: 武帝纪
+  historical_text_id: text-niutrans-d039e210f09e7d3653f1
+  chapter_anchor: 纪/武帝纪#p121
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：汉书源引文：「春正月，诏曰： 梁王、城阳王亲慈同生，愿以邑分弟，其许之……使有列位焉。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 平津侯主父列传
+  historical_text_id: text-niutrans-5920094361f8e814ae55
+  chapter_anchor: 七十列传/平津侯主父列传#p189
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「以地侯之。」；claim_field=impact；anchor=段落精确锚。推恩析藩：藩国自小而中央集权

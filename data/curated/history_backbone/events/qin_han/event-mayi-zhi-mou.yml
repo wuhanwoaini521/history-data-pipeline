@@ -24,3 +24,89 @@ relations:
 - target_event_id: event-hanhan-heqin
   relation_type: follows
   description_zh_cn: 和亲政策自此终结
+
+background_zh_cn: 汉使马邑下人聂翁壹奸兰出物与匈奴交，「详为卖马邑城以诱单于」——马邑之谋始。
+process_zh_cn: 汉伏兵三十余万马邑旁，御史大夫韩安国为护军，护四将军以伏单于；单于信之、贪马邑财物，乃以十万骑入武州塞。
+result_zh_cn: 单于入汉塞未至马邑百余里，见畜布野而无人牧者、怪之，乃攻亭；「汉兵约单于入马邑而纵，单于不至，以故汉兵无所得」——谋泄无功。
+impact_zh_cn: 「自马邑军后五年之秋，汉使四将军各万骑击胡关市下」——马邑之谋虽无功，汉匈和亲之局终结，汉对匈奴转入全面战争。
+people:
+- person_name_raw: 聂翁壹
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 马邑人：诈卖马邑城诱单于
+  review_note: major01-D：史记·匈奴列传「汉使马邑下人聂翁壹奸兰出物与匈奴交」
+  person_id: null
+- person_name_raw: 韩安国
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 御史大夫：护军伏单于
+  review_note: major01-D：史记·匈奴列传「御史大夫韩安国为护军」
+  person_id: null
+places:
+- place_name_raw: 马邑
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 设伏诱敌之地
+  review_note: major01-D：史记·匈奴列传「汉伏兵三十馀万马邑旁」
+evidence:
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-da0fa8b5ac0ebfa8f86f
+  chapter_anchor: 七十列传/匈奴列传#p244
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「汉使马邑下人聂翁壹奸兰出物与匈奴交，详为卖马邑城以诱单于。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-034a0705e43566b5eea4
+  chapter_anchor: 七十列传/匈奴列传#p246
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「汉伏兵三十馀万马邑旁，御史大夫韩安国为护军。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-1cf362ae7334f11aed28
+  chapter_anchor: 七十列传/匈奴列传#p247
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「单于既入汉塞，未至马邑百馀里，见畜布野而无人牧者，怪之，乃攻亭。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-1efa0c0c8cae477a2622
+  chapter_anchor: 七十列传/匈奴列传#p253
+  claim_field: result
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「汉兵约单于入马邑而纵，单于不至，以故汉兵无所得。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 匈奴列传
+  historical_text_id: text-niutrans-cbead7ca537f1774766d
+  chapter_anchor: 七十列传/匈奴列传#p258
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-D：史记源引文：「自马邑军后五年之秋，汉使四将军各万骑击胡关市下。」；claim_field=impact；anchor=段落精确锚。
