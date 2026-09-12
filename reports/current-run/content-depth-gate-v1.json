@@ -3,52 +3,67 @@
   "event_id": "event-bi-zhizhan",
   "name": "邲之战",
   "period": "period-spring-autumn",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 3,
+  "evidence_count": 11,
+  "missing": []
  },
  {
   "event_id": "event-boju-zhizhan",
   "name": "柏举之战",
   "period": "period-spring-autumn",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 12,
+  "missing": []
  },
  {
   "event_id": "event-chengpu-zhizhan",
   "name": "城濮之战",
   "period": "period-spring-autumn",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 11,
+  "missing": []
  },
  {
   "event_id": "event-chu-mie-yue",
@@ -122,18 +137,23 @@
   "event_id": "event-guanzhong-gaige",
   "name": "管仲改革",
   "period": "period-spring-autumn",
-  "coverage_score": 22.2,
+  "coverage_score": 100.0,
   "importance": "major",
-  "depth_status": "INCOMPLETE",
-  "missing": [
-   "people",
-   "place",
-   "evidence",
-   "background",
-   "process",
-   "result",
-   "impact"
-  ]
+  "dims": {
+   "background": "STRONG",
+   "process": "STRONG",
+   "result": "STRONG",
+   "impact": "STRONG"
+  },
+  "evidence_rating": "STRONG",
+  "context_rating": "STRONG",
+  "points": 12,
+  "depth_status": "STRONG",
+  "core_claim_fields": 4,
+  "claim_field_count": 4,
+  "relation_count": 2,
+  "evidence_count": 14,
+  "missing": []
  },
  {
   "event_id": "event-guiling-zhizhan",

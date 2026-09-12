@@ -5,8 +5,8 @@
     "events": 618,
     "by_priority": {
       "Critical": 2,
-      "Major": 496,
-      "Normal": 120
+      "Major": 492,
+      "Normal": 124
     },
     "by_importance": {
       "critical": 62,
@@ -2399,378 +2399,6 @@
       "priority": "Major"
     },
     {
-      "event_id": "event-bi-zhizhan",
-      "name_zh_cn": "邲之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-fujiao-zhizhan",
-      "name_zh_cn": "夫椒之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-guanzhong-gaige",
-      "name_zh_cn": "管仲改革",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-hong-zhizhan",
-      "name_zh_cn": "泓之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-huangchi-zhi-hui",
-      "name_zh_cn": "黄池之会",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-jindaogong-fuba",
-      "name_zh_cn": "晋悼公复霸",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-kuiqiu-zhi-hui",
-      "name_zh_cn": "葵丘之会",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-qihuan-gong-ba",
-      "name_zh_cn": "齐桓公称霸",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-wending-zhongyuan",
-      "name_zh_cn": "问鼎中原",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-xiangxu-mibing",
-      "name_zh_cn": "向戌弭兵",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-zhaoling-zhi-meng",
-      "name_zh_cn": "召陵之盟",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-zichan-xingshu",
-      "name_zh_cn": "子产铸刑书",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "people",
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "人物",
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 7,
-      "score": 67.4,
-      "product_completeness_score": 22.2,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
       "event_id": "event-gaopingling-zhi-bian",
       "name_zh_cn": "高平陵之变",
       "importance": "major",
@@ -3635,6 +3263,316 @@
       "score": 66.5,
       "product_completeness_score": 22.2,
       "period_weakness": 5.5,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-fujiao-zhizhan",
+      "name_zh_cn": "夫椒之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-hong-zhizhan",
+      "name_zh_cn": "泓之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-huangchi-zhi-hui",
+      "name_zh_cn": "黄池之会",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-jindaogong-fuba",
+      "name_zh_cn": "晋悼公复霸",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-kuiqiu-zhi-hui",
+      "name_zh_cn": "葵丘之会",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-qihuan-gong-ba",
+      "name_zh_cn": "齐桓公称霸",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-wending-zhongyuan",
+      "name_zh_cn": "问鼎中原",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-xiangxu-mibing",
+      "name_zh_cn": "向戌弭兵",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-zhaoling-zhi-meng",
+      "name_zh_cn": "召陵之盟",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-zichan-xingshu",
+      "name_zh_cn": "子产铸刑书",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "people",
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "人物",
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 7,
+      "score": 66.2,
+      "product_completeness_score": 22.2,
+      "period_weakness": 5.2,
       "frontend_visibility": 8,
       "priority": "Major"
     },
@@ -6859,267 +6797,6 @@
       "priority": "Major"
     },
     {
-      "event_id": "event-boju-zhizhan",
-      "name_zh_cn": "柏举之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-chengpu-zhizhan",
-      "name_zh_cn": "城濮之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-chuwuwang-chengwang",
-      "name_zh_cn": "楚武王称王",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-qinmu-gong-ba-xirong",
-      "name_zh_cn": "秦穆公称霸西戎",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-wu-guo-jueqi",
-      "name_zh_cn": "吴国崛起",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-xiao-zhizhan",
-      "name_zh_cn": "崤之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-xuge-zhizhan",
-      "name_zh_cn": "繻葛之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-yanling-zhizhan",
-      "name_zh_cn": "鄢陵之战",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
-      "event_id": "event-zheng-zhuanggong-xiaoba",
-      "name_zh_cn": "郑庄公小霸",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [
-        "place",
-        "evidence",
-        "background",
-        "process",
-        "result",
-        "impact"
-      ],
-      "missing_labels": [
-        "地点",
-        "证据",
-        "背景",
-        "过程",
-        "结果",
-        "影响"
-      ],
-      "missing_count": 6,
-      "score": 63.4,
-      "product_completeness_score": 33.3,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Major"
-    },
-    {
       "event_id": "event-cao-mao-zhisha",
       "name_zh_cn": "曹髦被杀（司马昭专权）",
       "importance": "major",
@@ -10255,6 +9932,209 @@
       "product_completeness_score": 22.2,
       "period_weakness": 6.2,
       "frontend_visibility": 3,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-chuwuwang-chengwang",
+      "name_zh_cn": "楚武王称王",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-qinmu-gong-ba-xirong",
+      "name_zh_cn": "秦穆公称霸西戎",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-wu-guo-jueqi",
+      "name_zh_cn": "吴国崛起",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-xiao-zhizhan",
+      "name_zh_cn": "崤之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-xuge-zhizhan",
+      "name_zh_cn": "繻葛之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-yanling-zhizhan",
+      "name_zh_cn": "鄢陵之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-zheng-zhuanggong-xiaoba",
+      "name_zh_cn": "郑庄公小霸",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [
+        "place",
+        "evidence",
+        "background",
+        "process",
+        "result",
+        "impact"
+      ],
+      "missing_labels": [
+        "地点",
+        "证据",
+        "背景",
+        "过程",
+        "结果",
+        "影响"
+      ],
+      "missing_count": 6,
+      "score": 62.2,
+      "product_completeness_score": 33.3,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
       "priority": "Major"
     },
     {
@@ -13675,21 +13555,6 @@
       "priority": "Major"
     },
     {
-      "event_id": "event-pingwang-dongqian",
-      "name_zh_cn": "平王东迁",
-      "importance": "critical",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [],
-      "missing_labels": [],
-      "missing_count": 0,
-      "score": 56.4,
-      "product_completeness_score": 100.0,
-      "period_weakness": 6.4,
-      "frontend_visibility": 10,
-      "priority": "Major"
-    },
-    {
       "event_id": "event-caopi-dai-han",
       "name_zh_cn": "曹丕代汉、曹魏建立",
       "importance": "critical",
@@ -13761,6 +13626,21 @@
       "score": 55.5,
       "product_completeness_score": 100.0,
       "period_weakness": 5.5,
+      "frontend_visibility": 10,
+      "priority": "Major"
+    },
+    {
+      "event_id": "event-pingwang-dongqian",
+      "name_zh_cn": "平王东迁",
+      "importance": "critical",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 55.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
       "frontend_visibility": 10,
       "priority": "Major"
     },
@@ -14425,36 +14305,6 @@
       "priority": "Normal"
     },
     {
-      "event_id": "event-chuzhuang-wang-ba",
-      "name_zh_cn": "楚庄王称霸",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [],
-      "missing_labels": [],
-      "missing_count": 0,
-      "score": 39.4,
-      "product_completeness_score": 100.0,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Normal"
-    },
-    {
-      "event_id": "event-jinwen-gong-ba",
-      "name_zh_cn": "晋文公称霸",
-      "importance": "major",
-      "period_id": "period-spring-autumn",
-      "period_name_zh_cn": "春秋",
-      "missing": [],
-      "missing_labels": [],
-      "missing_count": 0,
-      "score": 39.4,
-      "product_completeness_score": 100.0,
-      "period_weakness": 6.4,
-      "frontend_visibility": 8,
-      "priority": "Normal"
-    },
-    {
       "event_id": "event-three-regime-formation",
       "name_zh_cn": "三国鼎立格局逐渐形成",
       "importance": "major",
@@ -14556,6 +14406,96 @@
       "score": 38.5,
       "product_completeness_score": 100.0,
       "period_weakness": 5.5,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-bi-zhizhan",
+      "name_zh_cn": "邲之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-boju-zhizhan",
+      "name_zh_cn": "柏举之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-chengpu-zhizhan",
+      "name_zh_cn": "城濮之战",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-chuzhuang-wang-ba",
+      "name_zh_cn": "楚庄王称霸",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-guanzhong-gaige",
+      "name_zh_cn": "管仲改革",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
+      "frontend_visibility": 8,
+      "priority": "Normal"
+    },
+    {
+      "event_id": "event-jinwen-gong-ba",
+      "name_zh_cn": "晋文公称霸",
+      "importance": "major",
+      "period_id": "period-spring-autumn",
+      "period_name_zh_cn": "春秋",
+      "missing": [],
+      "missing_labels": [],
+      "missing_count": 0,
+      "score": 38.2,
+      "product_completeness_score": 100.0,
+      "period_weakness": 5.2,
       "frontend_visibility": 8,
       "priority": "Normal"
     },

@@ -15,14 +15,14 @@
     "complete": 90.0
   },
   "total_events": 618,
-  "complete_events": 173,
-  "complete_pct": 28.0,
-  "mean_score": 46.5,
+  "complete_events": 177,
+  "complete_pct": 28.6,
+  "mean_score": 47.0,
   "by_importance": {
     "major": {
       "count": 555,
-      "complete": 112,
-      "mean": 40.7
+      "complete": 116,
+      "mean": 41.2
     },
     "critical": {
       "count": 62,
@@ -38,13 +38,13 @@
   "by_dimension": {
     "people": {
       "label": "人物",
-      "count": 321,
-      "pct": 51.9
+      "count": 323,
+      "pct": 52.3
     },
     "place": {
       "label": "地点",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     },
     "source": {
       "label": "来源",
@@ -53,8 +53,8 @@
     },
     "evidence": {
       "label": "证据",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     },
     "related_event": {
       "label": "关联事件",
@@ -63,23 +63,23 @@
     },
     "background": {
       "label": "背景",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     },
     "process": {
       "label": "过程",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     },
     "result": {
       "label": "结果",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     },
     "impact": {
       "label": "影响",
-      "count": 173,
-      "pct": 28.0
+      "count": 177,
+      "pct": 28.6
     }
   },
   "by_period": [
@@ -145,13 +145,13 @@
       "start_year": -770,
       "end_year": -476,
       "events": 24,
-      "people_pct": 50.0,
-      "place_pct": 12.5,
-      "evidence_pct": 12.5,
+      "people_pct": 58.3,
+      "place_pct": 29.2,
+      "evidence_pct": 29.2,
       "relation_pct": 100.0,
       "source_pct": 100.0,
-      "complete_pct": 12.5,
-      "mean_score": 36.1
+      "complete_pct": 29.2,
+      "mean_score": 48.1
     },
     {
       "period_id": "period-warring-states",
