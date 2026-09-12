@@ -23,3 +23,77 @@ relations:
   relation_type: precedes
 - target_event_id: event-changping-zhizhan
   relation_type: precedes
+
+background_zh_cn: 韩魏联军攻秦（佐韩攻秦），战于伊阙——秦东出之要冲。
+process_zh_cn: 其明年，白起为左更，攻韩、魏于伊阙，斩首二十四万，又虏其将公孙喜，拔五城。
+result_zh_cn: 秦使白起伐韩于伊阙，大胜，斩首二十四万——韩魏主力尽丧于伊阙之下。
+impact_zh_cn: 魏世家载「秦将白起败我军伊阙二十四万」——韩魏自此衰弱，秦国东出中原之势不可复遏。
+people:
+- person_name_raw: 白起
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 秦左更：伊阙大破韩魏
+  review_note: major01-A：史记·白起王翦列传「攻韩、魏於伊阙，斩首二十四万」
+  person_id: null
+- person_name_raw: 公孙喜
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 魏将：伊阙被虏
+  review_note: major01-A：史记·白起王翦列传「虏其将公孙喜」
+  person_id: null
+places:
+- place_name_raw: 伊阙
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 白起斩首二十四万之地
+  review_note: major01-A：史记·白起王翦列传「攻韩、魏於伊阙」
+evidence:
+- work: 史记
+  term: 魏世家
+  historical_text_id: text-niutrans-6b71a96db14d0a307b98
+  chapter_anchor: 三十世家/魏世家#p251
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「三年，佐韩攻秦。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 白起王翦列传
+  historical_text_id: text-niutrans-fc1da6e503593e940e7f
+  chapter_anchor: 七十列传/白起王翦列传#p5
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「白起为左更，攻韩、魏於伊阙，斩首二十四万，又虏其将公孙喜，拔五城。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 楚世家
+  historical_text_id: text-niutrans-6e8d62a0f0e649aa4dfe
+  chapter_anchor: 三十世家/楚世家#p600
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「秦使白起伐韩于伊阙，大胜，斩首二十四万。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 魏世家
+  historical_text_id: text-niutrans-6b71a96db14d0a307b98
+  chapter_anchor: 三十世家/魏世家#p251
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「秦将白起败我军伊阙二十四万。」；claim_field=impact；anchor=段落精确锚。

@@ -21,3 +21,77 @@ relations:
   relation_type: follows
 - target_event_id: event-guiling-zhizhan
   relation_type: precedes
+
+background_zh_cn: 吴起相楚：楚悼王用吴起，明法审令、捐不急之官、废公族疏远者，以抚养战斗之士。
+process_zh_cn: 变法行之，楚国扩张：「于是南平百越；北并陈蔡，却三晋；西伐秦」。
+result_zh_cn: 及悼王死，宗室大臣作乱而攻吴起，吴起走之王尸而伏之；击起之徒因射刺吴起，并中悼王——变法中辍。
+impact_zh_cn: 吴起变法虽以殉难告终，其「明法审令、废公族」路径为战国楚制改革所本，楚国一度兵威南暨百越、北抗三晋。
+people:
+- person_name_raw: 吴起
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 楚悼王之相：变法者，殉难于悼王丧次
+  review_note: major01-A：史记·孙子吴起列传「明法审令……及悼王死，宗室大臣作乱而攻吴起」
+  person_id: null
+- person_name_raw: 楚悼王
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 楚国君：用吴起变法
+  review_note: major01-A：史记·孙子吴起列传（悼王死、宗室攻吴起）
+  person_id: null
+places:
+- place_name_raw: 郢
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 楚都，吴起变法与殉难所在
+  review_note: major01-A：史记·楚世家「昭王之出郢也」（楚都郢）
+evidence:
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-8fff9056221c7795d8a4
+  chapter_anchor: 七十列传/孙子吴起列传#p130
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「明法审令，捐不急之官，废公族疏远者，以抚养战斗之士。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-e94e404f4bd1972e49e8
+  chapter_anchor: 七十列传/孙子吴起列传#p132
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「於是南平百越；北并陈蔡，卻三晋；西伐秦。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-0db3ac4906370cd157b0
+  chapter_anchor: 七十列传/孙子吴起列传#p135
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「及悼王死，宗室大臣作乱而攻吴起，吴起走之王尸而伏之。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-3f1594eb55528cf45356
+  chapter_anchor: 七十列传/孙子吴起列传#p136
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「击起之徒因射刺吴起，并中悼王。」；claim_field=impact；anchor=段落精确锚。

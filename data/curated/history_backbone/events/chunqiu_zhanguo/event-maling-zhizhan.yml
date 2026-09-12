@@ -23,3 +23,95 @@ relations:
 - target_event_id: event-shangyang-bianfa
   relation_type: follows
   description_zh_cn: 马陵之战晚于商鞅变法完成之年（前350）
+
+background_zh_cn: 魏将庞涓闻齐师至，去韩而归；齐军已过而西——孙膑以减灶诱敌。
+process_zh_cn: 庞涓行三日而大喜，曰「我固知齐军怯」；果夜至斫木下，见白书，乃钻火烛之——读其书未毕，齐军万弩俱发，魏军大乱相失。
+result_zh_cn: 庞涓自知智穷兵败，乃自刭；齐因乘胜尽破其军，虏魏太子申以归。
+impact_zh_cn: 马陵一战魏国精锐尽丧、主将自杀、太子被虏——魏国霸权自此崩落，齐国称雄东方。
+people:
+- person_name_raw: 孙膑
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 齐军军师：减灶诱敌、马陵设伏
+  review_note: major01-A：史记·孙子吴起列传「齐军万弩俱发」
+  person_id: null
+- person_name_raw: 庞涓
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 魏将：马陵兵败自刭
+  review_note: major01-A：史记·孙子吴起列传「庞涓自知智穷兵败，乃自刭」
+  person_id: null
+- person_name_raw: 魏太子申
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 魏军主帅：被齐军俘获
+  review_note: major01-A：史记·孙子吴起列传「虏魏太子申以归」
+  person_id: null
+places:
+- place_name_raw: 马陵
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 齐魏决战之地（万弩俱发处）
+  review_note: major01-A：史记·孙子吴起列传「庞涓果夜至斫木下」
+evidence:
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-6217111a7c339305669e
+  chapter_anchor: 七十列传/孙子吴起列传#p54
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「魏将庞涓闻之，去韩而归，齐军既已过而西矣。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-cb943958e23c3850ca4b
+  chapter_anchor: 七十列传/孙子吴起列传#p58
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「庞涓行三日，大喜，曰： 我固知齐军怯。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-f28121300f4addf177c2
+  chapter_anchor: 七十列传/孙子吴起列传#p63
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「读其书未毕，齐军万弩俱发，魏军大乱相失。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-20b5db6a3259d7b2c73d
+  chapter_anchor: 七十列传/孙子吴起列传#p64
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「庞涓自知智穷兵败，乃自刭。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 孙子吴起列传
+  historical_text_id: text-niutrans-abadf8355537547b5695
+  chapter_anchor: 七十列传/孙子吴起列传#p65
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「齐因乘胜尽破其军，虏魏太子申以归。」；claim_field=impact；anchor=段落精确锚。

@@ -23,3 +23,89 @@ relations:
   relation_type: leads_to
   confidence: 0.85
   description_zh_cn: 齐仅存即墨、莒两城，田单据此复国
+
+background_zh_cn: 燕昭王悉起兵，以乐毅为上将军，赵惠文王以相国印授乐毅——五国之师共伐齐。
+process_zh_cn: 乐毅对曰「齐，霸国之馀业也，地大人众，未易独攻也」，故合五国之兵长驱平齐。
+result_zh_cn: 乐毅留徇齐五岁，下齐七十余城，皆为郡县以属燕，唯独莒、即墨未服——齐国几亡。
+impact_zh_cn: 乐毅与燕新王有隙，欲连兵留齐之事为人所谮，功败垂成——莒、即墨二城遂成田单复齐之基。
+people:
+- person_name_raw: 乐毅
+  role: opponent
+  link_status: needs_linking
+  role_zh_cn: 燕上将军：下齐七十余城
+  review_note: major01-A：史记·乐毅列传「下齐七十馀城」
+  person_id: null
+- person_name_raw: 燕昭王
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 燕君：悉起兵伐齐
+  review_note: major01-A：史记·乐毅列传「燕昭王悉起兵，使乐毅为上将军」
+  person_id: null
+places:
+- place_name_raw: 临淄
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 齐都（燕军长驱平齐所向）
+  review_note: major01-A：史记·田单列传「燕师长驱平齐」
+- place_name_raw: 即墨
+  role: battlesite
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 仅存二城之一（田单所守）
+  review_note: major01-A：史记·乐毅列传「唯独莒、即墨未服」
+- place_name_raw: 莒
+  role: battlesite
+  link_status: needs_linking
+  sequence: 3
+  description_zh_cn: 仅存二城之一
+  review_note: major01-A：史记·乐毅列传「唯独莒、即墨未服」
+evidence:
+- work: 史记
+  term: 乐毅列传
+  historical_text_id: text-niutrans-6853abd4273a1aa114ee
+  chapter_anchor: 七十列传/乐毅列传#p20
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「燕昭王悉起兵，使乐毅为上将军，赵惠文王以相国印授乐毅。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 乐毅列传
+  historical_text_id: text-niutrans-fa8dbc5eb5daec11ffc8
+  chapter_anchor: 七十列传/乐毅列传#p16
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「乐毅对曰： 齐，霸国之馀业也，地大人众，未易独攻也。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 乐毅列传
+  historical_text_id: text-niutrans-94ab0978d4ead0e14419
+  chapter_anchor: 七十列传/乐毅列传#p28
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「乐毅留徇齐五岁，下齐七十馀城，皆为郡县以属燕，唯独莒、即墨未服。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 乐毅列传
+  historical_text_id: text-niutrans-72f01d7d09a73f1534a1
+  chapter_anchor: 七十列传/乐毅列传#p31
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「闻乐毅与燕新王有隙，欲连兵且留齐，南面而王齐。」；claim_field=impact；anchor=段落精确锚。

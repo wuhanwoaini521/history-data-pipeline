@@ -21,3 +21,77 @@ relations:
   relation_type: precedes
 - target_event_id: event-guiling-zhizhan
   relation_type: precedes
+
+background_zh_cn: 当魏文侯时，李克务尽地力——魏国率先以「尽地力之教」富国。
+process_zh_cn: 魏有李悝，「尽地力之教」：教民勤于农事、地尽其利，以农富国。
+result_zh_cn: 魏用李克、尽地力，为强君——魏国由是富强，为战国初期首强。
+impact_zh_cn: 李悝尽地力之教开列国变法之先声（其后商鞅变法即承此路径），魏之富强为战国变法时代揭幕。
+people:
+- person_name_raw: 李悝
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 魏文侯之相：尽地力之教
+  review_note: major01-A：史记·孟子荀卿列传「魏有李悝，尽地力之教」
+  person_id: null
+- person_name_raw: 魏文侯
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 魏国之君：用李克致强
+  review_note: major01-A：史记·货殖列传「当魏文侯时，李克务尽地力」
+  person_id: null
+places:
+- place_name_raw: 安邑
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 魏国都城，变法图强之枢
+  review_note: major01-A：史记·魏世家「徙治安邑」
+evidence:
+- work: 史记
+  term: 货殖列传
+  historical_text_id: text-niutrans-82c88c9f98e1caefe41d
+  chapter_anchor: 七十列传/货殖列传#p61
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「当魏文侯时，李克务尽地力，而白圭乐观时变。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 孟子荀卿列传
+  historical_text_id: text-niutrans-5d3dfcfea5565b4f9361
+  chapter_anchor: 七十列传/孟子荀卿列传#p80
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「魏有李悝，尽地力之教。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 平准书
+  historical_text_id: text-niutrans-5e51c6034c07fb9484e4
+  chapter_anchor: 八书/平准书#p246
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「魏用李克，尽地力，为强君。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 魏世家
+  historical_text_id: text-niutrans-7c205970e1b6b527b39c
+  chapter_anchor: 三十世家/魏世家#p31
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「徙治安邑。」；claim_field=impact；anchor=段落精确锚。

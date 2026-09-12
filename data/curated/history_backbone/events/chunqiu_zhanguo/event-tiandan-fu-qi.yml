@@ -21,3 +21,95 @@ relations:
   relation_type: follows
 - target_event_id: event-yuanmen-zhizhan
   relation_type: precedes
+
+background_zh_cn: 燕师长驱平齐，田单走安平，令宗人尽断车轴末而傅铁笼——唯田单宗人以铁笼故得脱，东保即墨。
+process_zh_cn: 城中相与推田单；田单乃凿城数十穴、夜纵火牛，壮士五千人随其后。
+result_zh_cn: 牛尾热怒而奔燕军，燕军夜大惊；牛尾炬火光明炫燿，所触尽死伤，五千人因衔枚击之、城中鼓譟从之——燕军大败，齐七十余城皆复。
+impact_zh_cn: 襄王封田单，号曰安平君——田单以火牛一战复齐国，战国后期齐得以复立于东方。
+people:
+- person_name_raw: 田单
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 齐将：火牛阵复齐，封安平君
+  review_note: major01-A：史记·田单列传「夜纵牛，壮士五千人随其后」「襄王封田单，号曰安平君」
+  person_id: null
+- person_name_raw: 齐襄王
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 齐君：复国后封田单
+  review_note: major01-A：史记·田单列传「襄王封田单」
+  person_id: null
+places:
+- place_name_raw: 即墨
+  role: battlesite
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 田单坚守、火牛出击之地
+  review_note: major01-A：史记·田单列传「东保即墨」
+- place_name_raw: 安平
+  role: city
+  link_status: needs_linking
+  sequence: 2
+  description_zh_cn: 田单初走之地（铁笼得全）
+  review_note: major01-A：史记·田单列传「田单走安平」
+evidence:
+- work: 史记
+  term: 田单列传
+  historical_text_id: text-niutrans-ec11cd07a4680468f5aa
+  chapter_anchor: 七十列传/田单列传#p5
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「唯田单宗人以铁笼故得脱，东保即墨。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 田单列传
+  historical_text_id: text-niutrans-85bd39241522ed69d575
+  chapter_anchor: 七十列传/田单列传#p10
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「城中相与推田单。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 田单列传
+  historical_text_id: text-niutrans-99603de76c9c6cb8f19f
+  chapter_anchor: 七十列传/田单列传#p41
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「凿城数十穴，夜纵牛，壮士五千人随其后。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 田单列传
+  historical_text_id: text-niutrans-3f04946eae69d70eb9ef
+  chapter_anchor: 七十列传/田单列传#p43
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「牛尾炬火光明炫燿，燕军视之皆龙文，所触尽死伤。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 田单列传
+  historical_text_id: text-niutrans-4f33ced7fccb880a4974
+  chapter_anchor: 七十列传/田单列传#p49
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「襄王封田单，号曰安平君。」；claim_field=impact；anchor=段落精确锚。

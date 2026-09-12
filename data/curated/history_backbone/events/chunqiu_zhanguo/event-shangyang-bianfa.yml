@@ -25,3 +25,113 @@ relations:
   description_zh_cn: 商鞅变法使秦国军力跃居列国之上，开启东出之路
 - target_event_id: event-zizhi-zhi-luan
   relation_type: precedes
+
+background_zh_cn: 孝公既用卫鞅，鞅欲变法而恐天下议己；鞅以「圣人不易民而教，知者不变法而治」驳甘龙、杜挚之议——变法之议既定于朝堂。
+process_zh_cn: 以卫鞅为左庶长，卒定变法之令：令民为什伍，而相牧司连坐——什伍连坐、奖励耕战之法次第推行。
+result_zh_cn: 行之十年，秦民大说，道不拾遗、山无盗贼、家给人足——秦国由是富强。
+impact_zh_cn: 孝公十二年作为咸阳、筑冀阙而徙都之，秦法行于新都；然变法者终罹祸：「秦惠王车裂商君以徇」——其人虽死，秦法不复更张，为秦并天下奠定制度根基。
+people:
+- person_name_raw: 商鞅
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 左庶长：变法主持者，后车裂
+  review_note: major01-A：史记·商君列传「以卫鞅为左庶长，卒定变法之令」「车裂商君以徇」
+  person_id: null
+- person_name_raw: 秦孝公
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 任用卫鞅变法之君
+  review_note: major01-A：史记·商君列传「孝公既用卫鞅」
+  person_id: null
+places:
+- place_name_raw: 咸阳
+  role: capital
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 孝公十二年新都，变法推行之地
+  review_note: major01-A：史记·秦本纪「作为咸阳，筑冀阙，秦徙都之」
+evidence:
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-358f5695ff3415858e8f
+  chapter_anchor: 七十列传/商君列传#p35
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「孝公既用卫鞅，鞅欲变法，恐天下议己。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-cbe689717e09adc9e289
+  chapter_anchor: 七十列传/商君列传#p43
+  claim_field: background
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「圣人不易民而教，知者不变法而治。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-6a6e061415a6e0ad4a95
+  chapter_anchor: 七十列传/商君列传#p55
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「以卫鞅为左庶长，卒定变法之令。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-71551dff2d701d4714fb
+  chapter_anchor: 七十列传/商君列传#p56
+  claim_field: process
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「令民为什伍，而相牧司连坐。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-619bac542dcc8d9961a3
+  chapter_anchor: 七十列传/商君列传#p76
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「行之十年，秦民大说，道不拾遗，山无盗贼，家给人足。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 商君列传
+  historical_text_id: text-niutrans-58e29835bb397301c4d8
+  chapter_anchor: 七十列传/商君列传#p168
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「秦惠王车裂商君以徇。」；claim_field=impact；anchor=段落精确锚。
+- work: 史记
+  term: 秦本纪
+  historical_text_id: text-niutrans-9e8b8164281e542f63ad
+  chapter_anchor: 十二本纪/秦本纪#p422
+  claim_field: impact
+  evidence_role: supporting
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「十二年，作为咸阳，筑冀阙，秦徙都之。」；claim_field=impact；anchor=段落精确锚。

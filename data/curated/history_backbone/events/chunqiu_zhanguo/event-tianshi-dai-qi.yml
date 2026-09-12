@@ -23,3 +23,83 @@ relations:
   relation_type: leads_to
   confidence: 0.7
   description_zh_cn: 田氏代齐后田齐君主兴办稷下学宫以固统治
+
+background_zh_cn: 田常以大斗出贷、小斗收之收揽民心，「行之五年，齐国之政皆归田常」。
+process_zh_cn: 田常尽诛鲍、晏、监止及公族之强者，割齐自安平以东至琅邪自为封邑；至田和，与魏文侯会浊泽求为诸侯。
+result_zh_cn: 魏文侯乃使使言周天子及诸侯，请立齐相田和为诸侯，周天子许之——田氏列于诸侯。
+impact_zh_cn: 齐侯太公和立，田齐纪元开始——「田氏代齐」与三家分晋并称，标志战国封建秩序全面取代春秋旧制。
+people:
+- person_name_raw: 田常
+  role: official
+  link_status: needs_linking
+  role_zh_cn: 齐相：尽诛公族、齐政归田氏
+  review_note: major01-A：史记·田敬仲完世家「齐国之政皆归田常」
+  person_id: null
+- person_name_raw: 田和
+  role: monarch
+  link_status: needs_linking
+  role_zh_cn: 齐太公：求为诸侯、田齐始封
+  review_note: major01-A：史记·田敬仲完世家「请立齐相田和为诸侯。周天子许之」
+  person_id: null
+- person_name_raw: 魏文侯
+  role: supporter
+  link_status: needs_linking
+  role_zh_cn: 为田和请命于周天子
+  review_note: major01-A：史记·田敬仲完世家「魏文侯乃使使言周天子及诸侯」
+  person_id: null
+places:
+- place_name_raw: 浊泽
+  role: assembly_site
+  link_status: needs_linking
+  sequence: 1
+  description_zh_cn: 田和与魏文侯会盟求诸侯之地
+  review_note: major01-A：史记·田敬仲完世家「太公与魏文侯会浊泽，求为诸侯」
+evidence:
+- work: 史记
+  term: 田敬仲完世家
+  historical_text_id: text-niutrans-fe0f50a0b6fa6cbd6937
+  chapter_anchor: 三十世家/田敬仲完世家#p108
+  claim_field: background
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「行之五年，齐国之政皆归田常。」；claim_field=background；anchor=段落精确锚。
+- work: 史记
+  term: 田敬仲完世家
+  historical_text_id: text-niutrans-a022648f93e9cf4e948d
+  chapter_anchor: 三十世家/田敬仲完世家#p109
+  claim_field: process
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「田常于是尽诛鲍、晏、监止及公族之强者，而割齐自安平以东至琅邪，自为封邑。」；claim_field=process；anchor=段落精确锚。
+- work: 史记
+  term: 田敬仲完世家
+  historical_text_id: text-niutrans-097b1265f0626e32bd22
+  chapter_anchor: 三十世家/田敬仲完世家#p133
+  claim_field: result
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「魏文侯乃使使言周天子及诸侯，请立齐相田和为诸侯。周天子许之。」；claim_field=result；anchor=段落精确锚。
+- work: 史记
+  term: 田敬仲完世家
+  historical_text_id: text-niutrans-e2b8722167ca505aa7c9
+  chapter_anchor: 三十世家/田敬仲完世家#p135
+  claim_field: impact
+  evidence_role: primary
+  link_status: linked
+  link_method: manual
+  link_confidence: 1.0
+  link_quality_status: reviewed
+  context_keywords: []
+  review_note: major01-A：史记源引文：「齐侯太公和立二年，和卒，子桓公午立。」；claim_field=impact；anchor=段落精确锚。
