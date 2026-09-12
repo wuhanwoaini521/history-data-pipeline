@@ -35,3 +35,21 @@
 | evidence added | 40（+2 补锚） |
 | places added | 14 |
 | validation errors | 0 |
+
+## Cluster E — 武帝后期与昭宣（7 events）· commit a89258d
+| 指标 | 值 |
+|---|---|
+| events / >=90 / 100 | 7 / 7 / 7 |
+| evidence added | 29（+1 补锚） |
+| places added | 8 |
+| validation errors | 0 |
+
+## Cluster F — 东汉（7 events）· commit 见下
+| 指标 | 值 |
+|---|---|
+| events / >=90 / 100 | 7 / 7 / 7 |
+| evidence added | 30 |
+| places added | 8 |
+| validation errors | 0 |
+
+## 汇总（A–F）：50/50 events 全部 100.0
