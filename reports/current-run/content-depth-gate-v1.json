@@ -3428,14 +3428,14 @@
   "coverage_score": 100.0,
   "importance": "critical",
   "dims": {
-   "background": "ADEQUATE",
+   "background": "STRONG",
    "process": "STRONG",
    "result": "ADEQUATE",
-   "impact": "ADEQUATE"
+   "impact": "STRONG"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 9,
+  "points": 11,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
@@ -8555,13 +8555,13 @@
   "importance": "critical",
   "dims": {
    "background": "STRONG",
-   "process": "ADEQUATE",
+   "process": "STRONG",
    "result": "STRONG",
    "impact": "ADEQUATE"
   },
   "evidence_rating": "STRONG",
   "context_rating": "STRONG",
-  "points": 10,
+  "points": 11,
   "depth_status": "STRONG",
   "core_claim_fields": 4,
   "claim_field_count": 4,
