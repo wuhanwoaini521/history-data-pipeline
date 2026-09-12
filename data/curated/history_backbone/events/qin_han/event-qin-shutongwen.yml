@@ -101,4 +101,4 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-B：统一文字为秦廷（咸阳）所颁制度（刻石「同书文字」）；anchor=段落精确锚。
+  review_note: major01-B：史记源引文：「器械一量，同书文字。」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）

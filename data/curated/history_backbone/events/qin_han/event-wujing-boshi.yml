@@ -104,4 +104,4 @@ evidence:
   link_confidence: 1.0
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-D：置五经博士为武帝之政；anchor=段落精确锚。
+  review_note: major01-D：汉书源引文：「置《五经》博士。」；claim_field=people；anchor=段落精确锚。（Phase Wrap-up 补录引文）

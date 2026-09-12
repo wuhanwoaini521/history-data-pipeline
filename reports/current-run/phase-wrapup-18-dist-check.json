@@ -1,0 +1,56 @@
+{
+ "dangling_evidence": 0,
+ "dangling_evidence_text": 0,
+ "dangling_relations": 0,
+ "duplicate_event_ids": 0,
+ "duplicate_event_place": 0,
+ "invalid_claim_field": 0,
+ "fuzzy_linked": 0,
+ "event_text_mismatch": 0,
+ "self_relations": 0,
+ "counts": {
+  "events": 618,
+  "event_evidence": 1177,
+  "event_place": 308,
+  "event_relations": 1112,
+  "event_person": 398,
+  "historical_texts": 733372,
+  "people": 234,
+  "places": 3,
+  "stories": 3,
+  "story_events": 26,
+  "periods": 31,
+  "regimes": 64
+ },
+ "determinism": {
+  "build_1": {
+   "events": 618,
+   "event_evidence": 1177,
+   "event_place": 308,
+   "event_relations": 1112,
+   "event_person": 398,
+   "historical_texts": 733372,
+   "people": 234,
+   "places": 3,
+   "stories": 3,
+   "story_events": 26,
+   "periods": 31,
+   "regimes": 64
+  },
+  "build_2": {
+   "events": 618,
+   "event_evidence": 1177,
+   "event_place": 308,
+   "event_relations": 1112,
+   "event_person": 398,
+   "historical_texts": 733372,
+   "people": 234,
+   "places": 3,
+   "stories": 3,
+   "story_events": 26,
+   "periods": 31,
+   "regimes": 64
+  },
+  "identical": true
+ }
+}

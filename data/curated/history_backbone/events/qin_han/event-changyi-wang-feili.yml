@@ -113,4 +113,4 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-E：废立于汉廷（长安）；anchor=段落精确锚。
+  review_note: major01-E：汉书源引文：「后十余日，光卒与安世白太后，废昌邑王，尊立宣帝。」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）

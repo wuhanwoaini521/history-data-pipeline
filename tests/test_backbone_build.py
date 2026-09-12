@@ -38,7 +38,7 @@ def test_backbone_build():
     assert counts["events"] == 618  # Batch8 完成（52 new）
     assert counts["stories"] == 3
     assert counts["story_events"] == 26
-    assert counts["event_relations"] == 1094  # Major Batch 02：+cluster G/H/I/J/K 21 条 relation（含 causes/leads_to）
+    assert counts["event_relations"] == 1112  # Phase Wrap-up：Depth Sprint 02 补 18 条自然历史链 relation
     assert counts["event_person"] == 398  # 200 既有（58 legacy+110 V2.1+32 V2.1.1）+ 198 V2.3 净新增
     assert counts["event_place"] == 308  # Major Batch 02：+30 新 Major 之 places（+93 净增）
     assert counts["event_evidence"] == 1177  # Major Batch 02：+30 新 Major（387 条锚）与 Depth Sprint 批次锚

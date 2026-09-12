@@ -100,4 +100,4 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-C：平城解围后汉始结和亲之约；anchor=段落精确锚。
+  review_note: major01-C：史记源引文：「於是高帝令士皆持满傅矢外乡，从解角直出，竟与大军合，而冒顿遂引兵而去。汉亦引兵而」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）

@@ -106,4 +106,4 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-D：对策行于汉廷（长安）；anchor=段落精确锚。
+  review_note: major01-D：汉书源引文：「武帝即位，举贤良文学之士前后百数，而仲舒以贤良对策焉。」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）

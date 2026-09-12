@@ -94,7 +94,7 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-B：统一度量衡为秦廷（咸阳）所颁制度；anchor=段落精确锚。
+  review_note: major01-B：史记源引文：「一法度衡石丈尺。」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）
 people:
 - person_name_raw: 李斯
   role: official

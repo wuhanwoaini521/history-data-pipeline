@@ -118,4 +118,4 @@ evidence:
   link_confidence: 0.9
   link_quality_status: reviewed
   context_keywords: []
-  review_note: major01-C：文景施政自汉廷（长安）颁行；anchor=段落精确锚。
+  review_note: major01-C：史记源引文：「正月，上曰： 农，天下之本，其开籍田，朕亲率耕，以给宗庙粢盛。」；claim_field=places；anchor=段落精确锚。（Phase Wrap-up 补录引文）
